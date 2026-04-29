@@ -2,15 +2,15 @@
 title: "March 10, 2021"
 ---
 
-## **March 10, 2021** {#march-10,-2021}
+## March 10, 2021
 
-### **Present:** {#present:-2}
+### Present:
 
 Geoffrey Fox,  Aristeidis Tsaris, Christine Kirkpatrick,Gregg Barrett, Amit Ruhela, Junqi Yin, Arjun Shankar, Venkat Vishwanath,  Tony Hey, Vibhatha Abeyakoon, Bala Desinghu, Gregor von Laszewski
 
 Apologies: Murali Emani, Jeyan Thiyagalingam
 
-### **Agenda** {#agenda-2}
+### Agenda
 
 * Any new member introductions  
 * Benchmark Updates  
@@ -19,7 +19,7 @@ Apologies: Murali Emani, Jeyan Thiyagalingam
 * Possible action items on FAIR metadata  
 * Any other business
 
-### **Discussion** {#discussion-30}
+### Discussion
 
 **Updates**  
 Indiana University, Oak Ridge and Argonne presented updates. Indiana has made progress with time series prediction using open USGS data. Junqi from ORNL presented running STEM DL on SUMMIT and ANL’s Theta machines. Also he has worked with Murali on UNO, first with TF1, now with Tensorflow v2. Venkat from ANL covered the same ground from the Argonne point of view – UNO 2.x code and STEM DL working.
@@ -34,7 +34,7 @@ We described the upcoming chair election with Fox stepping down but running for 
 * Technical Specification [https://drive.google.com/drive/folders/17OlmFvP\_uYaY9jL2uvFcI1VoQZ0KcBhD](https://drive.google.com/drive/folders/17OlmFvP_uYaY9jL2uvFcI1VoQZ0KcBhD) open to MLCommons members and summarized in three pictures here. An open link is [https://mlcommons.github.io/mlcube/](https://mlcommons.github.io/mlcube/)   
 * Vibhatha Abeykoon, Indiana University looking at MLCube for EM-Noise benchmark. Contrast Docker and Singularity [https://docs.google.com/presentation/d/19XAtMRPXXZG6DCzSjVzlJMqkkCGXbhTPGWOXTvsQ\_Rg/edit?usp=sharing](https://docs.google.com/presentation/d/19XAtMRPXXZG6DCzSjVzlJMqkkCGXbhTPGWOXTvsQ_Rg/edit?usp=sharing) 
 
-## **![][image3]**
+## ![][image3]
 
 ## 
 
@@ -45,15 +45,15 @@ We described the upcoming chair election with Fox stepping down but running for 
 **FAIR metadata**  
 Fox noted that the Benchmark/Infrastructure working group is interested in a presentation in this \-- probably April 6 at 1.30pm Eastern. [Christine Kirkpatrick](mailto:christine@sdsc.edu)agreed to work with Fox on this.
 
-## **Feb 24th, 2021** {#feb-24th,-2021}
+## Feb 24th, 2021
 
-### **Present** {#present-125}
+### Present
 
 Jeyan Thiyagalingam, Geoffrey Fox, Juri Papay,  Aristeidis Tsaris, Gregg Barrett, Amit Ruhela, Bala Desinghu, Junqi Yin, Venkat Vishwanath,  Tony Hey, Nikola Nikolov, Vibhatha Abeyakoon, Murali Emani,  Feiyi Wang 
 
 Apologies: Christine (UCSD)
 
-### **Agenda** {#agenda-3}
+### Agenda
 
 1. Any new member introductions  
 2. Benchmark Updates  
@@ -63,7 +63,7 @@ Apologies: Christine (UCSD)
 6. Access to PEARL  
 7. Any other business
 
-### **Discussion Points** {#discussion-points-1}
+### Discussion Points
 
 1. WG welcomed Juri Papay,  Nikola Nikolov, Feiyi Wang to the group. Juri is joining us from STFC,  Nikola from Supermicro Ltd and Feiyi  Wang from ORNL/ OLCF.   
      
@@ -95,7 +95,7 @@ Apologies: Christine (UCSD)
 * Access to ORNL's Summit is also possible. Again, approach the WG chairs for information.   
 12. AOB: None
 
-### **Action Points** {#action-points}
+### Action Points
 
 1. Review committee for science benchmarks must be established.    
 2. Presentations  from partners are needed in the following weeks.   

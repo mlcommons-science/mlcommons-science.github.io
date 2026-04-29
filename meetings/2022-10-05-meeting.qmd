@@ -2,17 +2,17 @@
 title: "October 5, 2022"
 ---
 
-## **October 5, 2022** {#october-5,-2022}
+## October 5, 2022
 
-### **Present** {#present-94}
+### Present
 
 Juri Papay, Gregor von Laszewski, Gregg Barrett, Geoffrey Fox,  Junqi Yin,  Piotr Luszczek, Aristeidis Tsaris, Murali Emani, Amit  Ruhela, Christine Kirkpatrick and David Kanter was involved in later discussions
 
-### **Apologies** {#apologies-35}
+### Apologies
 
 Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
 
-### **Tentative Agenda** {#tentative-agenda-72}
+### Tentative Agenda
 
 * Any new members  
 * Status of 4 Benchmarks: Policy/Submission Rules Schedules  
@@ -23,7 +23,7 @@ Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
   * **ACTION ITEM** We agreed to draft a call for new benchmarks  
 * AOB
 
-### **Discussion of Existing 4  Benchmarks** {#discussion-of-existing-4-benchmarks}
+### Discussion of Existing 4  Benchmarks
 
 * Gregor and Juri noted the updated policy and new submissions documents. These are almost complete although David Kanter noted later that simple closed division (measure performance) was not discussed in submissions document.  
 * Juri discussed trials in running existing benchmarks to which Gregg noted that “Juri it sounds like you are complaining about reproducibility issues in science and ML “ and Juri responded “Yes, I am making an observation based on my daily experience.”  
@@ -35,7 +35,7 @@ Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
 * **ACTION ITEM:** Send any suggestions  (either text or places to send it) to Geoffrey by Friday October 7,  so he can draft an announcement combining the current 4 benchmarks and call for new benchmarks  
 * Christine noted example: [MLCommons Unveils Open Datasets and Tools to Drive Democratization of Machine Learning](https://mlcommons.org/en/news/neurips21/) 
 
-### **Discussion of Futures** {#discussion-of-futures}
+### Discussion of Futures
 
 * Geoffrey suggested that our **mission** could be stated as: Evaluate, Organize, Curate, and Integrate artifacts around Applications, Models(algorithms), Infrastructure, and the 3 MLCommons Pillars Benchmarks, Datasets, and Best Practices. These artifacts are open source and accessible through the MLCommons GitHub. Our input comes from independently funded activities and experts in Industry, Government, and Research.  
   * This mission explains why we don’t need full domain expertise in working group as our emphasis is on curation and access issues and not the science.  
@@ -43,7 +43,7 @@ Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
   * Using data/codes not  just benchmarks; Datasets only ok  
   * Science different from rest as we aim at breadth
 
-### **Any Other Business** {#any-other-business-13}
+### Any Other Business
 
 * Gregg Barrett asked if anyone was participating in [https://ai4sciencecommunity.github.io/](https://ai4sciencecommunity.github.io/)  
   * It will be good to get the benchmarks covered there.  

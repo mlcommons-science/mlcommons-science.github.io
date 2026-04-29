@@ -2,21 +2,21 @@
 title: "April 6, 2022"
 ---
 
-## **April 6, 2022** {#april-6,-2022}
+## April 6, 2022
 
-### **Present** {#present-104}
+### Present
 
 Tony Hey, Arjun Shankar, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Piotr Luszczek, Cade Brown, Geoffrey Fox  
 **Apologies:** Jeyan Thiyagalingam
 
-### **Tentative Agenda** {#tentative-agenda-82}
+### Tentative Agenda
 
 * New member introductions  
 * Status of Benchmarks.given ISC May 22 deadline  
 * Status of Paper [https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing](https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing) given ISC May 22 deadline  
 * AOB
 
-### **Discussion** {#discussion-28}
+### Discussion
 
 * Juri described performance evaluation on a Graphcore system with good libraries and support but small memory. On Summit he is running Cloudmask and STEMDL using Horovod. There are temporary(?) problems with Tensorflow. SciML group will extend the study to look at the Cerebras machine at Edinburgh  
 * This is different from Science performance but still, it is important to understand how performance depends on system  architecture  

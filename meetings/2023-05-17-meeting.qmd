@@ -2,13 +2,13 @@
 title: "May 17, 2023"
 ---
 
-## **May 17, 2023** {#may-17,-2023}
+## May 17, 2023
 
-### **Present** {#present-81}
+### Present
 
 Gregg Barrett, Geoffrey Fox, Juri Papay, Mallikarjun Shankar, Wesley Brewer, Gregor von Laszewski, Piotr Luszczek, Christine Kirkpatrick, Aristeidis Tsaris, Murali Emani, 
 
-### **Tentative Agenda** {#tentative-agenda-60}
+### Tentative Agenda
 
 * Any new members  
 * We're live\! [New ML Benchmarks for Scientific Discovery | MLCommons](https://mlcommons.org/en/news/ml-benchmarks-for-scientific-discovery/)  
@@ -18,7 +18,7 @@ Gregg Barrett, Geoffrey Fox, Juri Papay, Mallikarjun Shankar, Wesley Brewer, Gre
 * **AI Readiness of MLCommons Science** (Continued) [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
 * AOB
 
-### **We’re Live** {#we’re-live-1}
+### We’re Live
 
 * Our benchmarks were launched by MLCommons  [New ML Benchmarks for Scientific Discovery | MLCommons](https://mlcommons.org/en/news/ml-benchmarks-for-scientific-discovery/) and we need to propagate the news  
 * Christine will advertise through SDSC and NCSA  
@@ -31,7 +31,7 @@ Gregg Barrett, Geoffrey Fox, Juri Papay, Mallikarjun Shankar, Wesley Brewer, Gre
   * send email to hpc-announce@mcs.anl.gov  
 * Juri will advertise in Europe
 
-### **Towards Developing/Benchmarking Digital Twins of/on HPC** {#towards-developing/benchmarking-digital-twins-of/on-hpc}
+### Towards Developing/Benchmarking Digital Twins of/on HPC
 
 * Wes Brewer presented a fascinating talk on building a digital twin of Frontier  
 * Towards AI and Mixed Reality for the Smart Facility and its Digital Twin [https://www.researchgate.net/profile/Benjamin-Hernandez/publication/358970366\_Towards\_AI\_and\_Mixed\_Reality\_for\_the\_Smart\_Facility\_and\_its\_Digital\_Twin](https://www.researchgate.net/profile/Benjamin-Hernandez/publication/358970366_Towards_AI_and_Mixed_Reality_for_the_Smart_Facility_and_its_Digital_Twin)  
@@ -56,14 +56,14 @@ Gregg Barrett, Geoffrey Fox, Juri Papay, Mallikarjun Shankar, Wesley Brewer, Gre
   * Looking over Wes’s talk I’m coming to the conclusion that it might be as challenging to benchmark the twin than build it.  
   * It basically comes down to evaluating a complex workflow where some of the components have latency constraints
 
-### **Power Paper** {#power-paper}
+### Power Paper
 
 * [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit)  
 * Christine has advanced this with comments from Gregg and Arjun  
 * Stress value of ontologies  
 * Perhaps a better source of data than Tom’s hardware; [https://www.spec.org/benchmarks.html](https://www.spec.org/benchmarks.html) useful
 
-### **Any Other Business** {#any-other-business-10}
+### Any Other Business
 
 * Summit very expensive to maintain past formal end tim
 

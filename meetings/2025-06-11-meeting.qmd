@@ -2,13 +2,13 @@
 title: "June 11, 2025"
 ---
 
-## **June 11, 2025** {#june-11,-2025}
+## June 11, 2025
 
-### **Present** {#present-25}
+### Present
 
 Armstrong Foundjem, Frank Liu, Geoffrey Fox, Gregor von Laszewski, Howard Pritchard, Iulia Ibanescu, Juri Papay, Kirsten Morehouse, Marco Colombo, Satoshi Iwata, Wenhui Zhang, Sebastian Lobentanzer, Shirley Moore, Vaibhavi Singh, Victor Lu, 
 
-### **Tentative Agenda** {#tentative-agenda-11}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Continuing discussion of New Benchmarks and the catalog of Science benchmarks based on [https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)    
@@ -17,12 +17,12 @@ Armstrong Foundjem, Frank Liu, Geoffrey Fox, Gregor von Laszewski, Howard Pritch
   * New white paper on Science Benchmarks  
 * Any Other Business
 
-### **Google Meet Notes** {#google-meet-notes-21}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/06/11 07:59 PDT \- Notes by Gemini](https://docs.google.com/document/d/1lCR8ZozKHZQUQtXUJl0qNiqjON4xbeXqEhcalJlbZlU/edit?usp=sharing)   
 * **Summary:** Juri Papay, Geoffrey Fox, Victor Lu, Gregor von Laszewski, Armstrong Foundjem, Sebastian Lobentanzer, Kirsten Morehouse, and Frank discussed funding losses for benchmarking, the landscape of existing hardware-focused benchmarks versus the need for system-level and scientific benchmarks, and the relevance of ML Perf. New members Sebastian Lobentanzer, Kirsten Morehouse, and Frank introduced themselves and their interests, with Kirsten Morehouse agreeing to give a presentation on bias research. Participants also covered progress on white papers defining benchmarks, the importance of surrogate modeling and digital twins in scientific benchmarking, and the potential for a wide spectrum of benchmarking initiatives.
 
-### **New Members** {#new-members-7}
+### New Members
 
 * **Sebastian Lobentanzer,** PI of “Accessible Biomedical AI Research” at Helmholtz Center Munich, Germany (Computational Health Center), Lab website: [SLOLAB—Accessible Biomedical AI Research](https://slolab.ai), Personal website (incl social links): [Sebastian Lobentanzer](https://slobentanzer.github.io)  
 * **Kirsten Morehouse** [Kirsten Morehouse](https://kirstenmorehouse.wordpress.com/) psychology Ph.D. candidate at Harvard University with a secondary in data science. She has a position paper preprint (forthcoming at ICML): [\[2503.00093\] Rethinking LLM Bias Probing Using Lessons from the Social Sciences](https://arxiv.org/abs/2503.00093)   
@@ -31,7 +31,7 @@ Armstrong Foundjem, Frank Liu, Geoffrey Fox, Gregor von Laszewski, Howard Pritch
 * **Vaibhavi Singh** incoming NYU Courant MS CS grad. Sharing my socials as requested by Geoffrey \- Twitter \- [Vaibhavi Singh (@\_\_Vaibhavi) / X](https://twitter.com/__Vaibhavi) , Linkedin \- [Vaibhavi Singh \- Stealth Startup | LinkedIn](https://www.linkedin.com/in/contactvaibhavi/)   
   * She is interested in Multimodal and Effective benchmarking. Previously worked at Adobe on computer vision projects.
 
-### **Discussion** {#discussion-11}
+### Discussion
 
 * Gregor updated us on the carpentry paper and working with Nhan’s student interns  cataloging benchmarks  
 * There are ifferent definitions of dynamic and science benchmark.  

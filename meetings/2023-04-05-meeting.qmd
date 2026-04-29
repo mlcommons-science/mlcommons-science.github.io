@@ -2,17 +2,17 @@
 title: "April 5, 2023"
 ---
 
-## **April 5, 2023** {#april-5,-2023}
+## April 5, 2023
 
-### **Present** {#present-83}
+### Present
 
 Gregg Barrett, Geoffrey Fox, Juri Papay,Mallikarjun Shankar, Wesley Brewer, Aristeidis Tsaris, Tom Gibbs, Gregor von Laszewski, Piotr Luszczek, Christine Kirkpatrick
 
-### **Apologies** {#apologies-25}
+### Apologies
 
 Christian Herwig
 
-### **Tentative Agenda** {#tentative-agenda-62}
+### Tentative Agenda
 
 * Any new members **None**  
 * Positioning of Science Benchmarks in MLCommons Update Web and Policy documents  
@@ -21,15 +21,15 @@ Christian Herwig
 * Discussion of new Benchmarks (Continued) NOT DISCUSSED  
 * AOB
 
-### **Next Meeting** {#next-meeting}
+### Next Meeting
 
 This will be May 3 as next one scheduled collides with community meeting
 
-### **Positioning of Science Benchmarks in MLCommons** {#positioning-of-science-benchmarks-in-mlcommons}
+### Positioning of Science Benchmarks in MLCommons
 
 Juri and Gregor are working on improving our web resources to reflect open division only plan. We further discussed this with David Kanter on April 7 and we hope to complete the document revision before the Community quarterly meeting on April 20\.
 
-### **Use of Benchmarks, Education** {#use-of-benchmarks,-education}
+### Use of Benchmarks, Education
 
 * Much of the discussion this week revolved around the use of benchmarks; especially by often inexperienced students. This also led to a discussion of the value of benchmarks in education  
 * Gregor discussed work with Cloudmask and Cosmoflow (HPC working group)  
@@ -52,7 +52,7 @@ Juri and Gregor are working on improving our web resources to reflect open divis
 * Some of these points can go in one of our papers  
 * Perhaps a Cybertraining proposal could be prepared
 
-### **Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency** {#using-benchmarking-data-to-inform-decisions-related-to-machine-learning-resource-efficiency-1}
+### Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency
 
 * [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
 * Focus on this before next meeting as nearer completion

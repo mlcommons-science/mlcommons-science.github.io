@@ -2,17 +2,17 @@
 title: "September 21, 2022"
 ---
 
-## **September 21, 2022** {#september-21,-2022}
+## September 21, 2022
 
-### **Present** {#present-95}
+### Present
 
 Juri Papay, Gregor von Laszewski, Gregg Barrett, Farzana Yasmin Ahmad, Geoffrey Fox,  Junqi Yin,  Piotr Luszczek, David Kanter, Aristeidis Tsaris, Shantenu Jha
 
-### **Apologies** {#apologies-36}
+### Apologies
 
 Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
 
-### **Tentative Agenda** {#tentative-agenda-73}
+### Tentative Agenda
 
 * Any new members  
 * Status of 4 Benchmarks: Rules Schedules  
@@ -23,11 +23,11 @@ Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
 * Future \-- NSF Reviews suggest we identify focus; should we?  
 * AOB
 
-### **New member introductions** {#new-member-introductions}
+### New member introductions
 
 Shantenu Jha was new and already known to most present. He noted his Brookhaven, Rutgers affiliation and interest in Surrogates.
 
-### **Benchmark Status** {#benchmark-status}
+### Benchmark Status
 
 The entire meeting was devoted to benchmark status. We discussed the relation between MLCommons Science and MLCommons GitHub Science web pages and understood that active material like benchmark details should be in latter not former. The nature of chair bios in MLCommons Science page was discussed. Mostly we discussed the submissions process and realized it should be separate from the  main policy document.. We will put it at [General MLPerf Submission Rules](https://github.com/mlcommons/policies/blob/master/submission_rules.adoc) and the main policy document is [https://github.com/mlcommons/science/blob/main/policy.adoc](https://github.com/mlcommons/science/blob/main/policy.adoc). We agreed on a rolling submission policy was described below. David Kanter gave us much good advice.
 
@@ -42,7 +42,7 @@ The entire meeting was devoted to benchmark status. We discussed the relation be
   * e.g. the submission might need a smaller dataset to achieve an interesting accuracy. It is expected that benchmarks will be posted for at least a year so as to gather a rich set of input.  
 * Everything in place for release at SC22, Dallas November 16
 
-### **Community Meeting September 22, 2022** {#community-meeting-september-22,-2022}
+### Community Meeting September 22, 2022
 
 This was not discussed in the meeting but today’s submission discussion was reflected in our presentation [Science WG at MLCommons Community Meeting  September 22, 2022](https://docs.google.com/presentation/d/1GZoSM_IdpLVQ4WPKlqWrwkJcPhpaedUbQqLPRyqZfc4/edit?usp=sharing) given by Geoffrey
 

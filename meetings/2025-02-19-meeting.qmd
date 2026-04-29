@@ -2,13 +2,13 @@
 title: "February 19, 2025"
 ---
 
-## **February 19, 2025** {#february-19,-2025}
+## February 19, 2025
 
-### **Present** {#present-37}
+### Present
 
 Andy Cheng, Armstrong Foundjem, Azza Ahmad, Christine Kirkpatrick, Claus Weiland, Cyril Kondratenko (Nebius), David DeBomis, Gary Mazzaferro , Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Gyuri Papay, Hussain Ather, Jong Youl Choi, Kongtao Chen, Marco Colombo, Matt Sinclair, Mia Liu, Nhan Tran, Philip Harris, Piotr Luszczek, Satoshi Iwata, Shirley Moore, Victor Lu, Wes Brewer
 
-### **Tentative Agenda** {#tentative-agenda-19}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Discussion of suggestions last time in  Nhan V Tran of Fermilab in  "(Fast ML) scientific benchmarks and challenges and  Elizabeth Campolongo on NSF HDR ML Challenge on Scientific Anomaly Discovery such rich collection of benchmarks and a taxonomy and using codabench. See last meetings minutes  
@@ -16,7 +16,7 @@ Andy Cheng, Armstrong Foundjem, Azza Ahmad, Christine Kirkpatrick, Claus Weiland
 * White papers (see later for summary)  
 * Any Other Business
 
-### **New Members** {#new-members-15}
+### New Members
 
 * **Chris Kondratenko** comes from Nebius which has just joined MLCommons training. [Nebius](https://huggingface.co/nebius) and [Leveraging training and search for better software engineering agents](https://nebius.com/blog/posts/training-and-search-for-software-engineering-agents) are typical links given in a later meeting of the AI Alliance Foundation Model Group.  
   * Roman Luchkov [https://www.linkedin.com/in/rluchkov/?locale=de\_DE](https://www.linkedin.com/in/rluchkov/?locale=de_DE) and Michael Burkov [https://www.linkedin.com/in/mikeburkov/](https://www.linkedin.com/in/mikeburkov/) are also from Nebius which combines multiple companies. Michael represented Nebius at AI Alliance meeting of FA5 Foundation Models  
@@ -25,12 +25,12 @@ Andy Cheng, Armstrong Foundjem, Azza Ahmad, Christine Kirkpatrick, Claus Weiland
 * **David DeBonis** [https://www.linkedin.com/in/debonisdavid/](https://www.linkedin.com/in/debonisdavid/) works on performance at Los Alamos National Laboratory  
 * **Satoshi Iwata** [https://www.linkedin.com/in/satoshi-iwata-ba412791/?locale=en\_US](https://www.linkedin.com/in/satoshi-iwata-ba412791/?locale=en_US) is a researcher at Fujitsu and was a regular contributor to HPC working group
 
-### **Benchmarks** {#benchmarks}
+### Benchmarks
 
 * Geoffrey presented [MLCommons](https://docs.google.com/presentation/d/1mZqJ84aMAyPEvxnESSPKfrabP9YzpVQHd5brOCT5wiU/edit#slide=id.g337a5d6fa06_0_71) summarizing Nhan’s presentation last week and relating to previous discussions  
 * [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing) is a rough start from Nhan, Marco and Geffrey. The rest of the team is asked to comment and improve. Note we distinguish between Activities (first sheet) and benchmarks/artifacts where latter includes models, datasets, solutions, infrastructure software on the second sheet. 
 
-### **HPC Science Merger** {#hpc-science-merger}
+### HPC Science Merger
 
 * **Science GitHubs**  
   * [MLCommons Science benchmarking working group](https://github.com/mlcommons/science)  
@@ -43,7 +43,7 @@ Andy Cheng, Armstrong Foundjem, Azza Ahmad, Christine Kirkpatrick, Claus Weiland
   * [GitHub \- mlcommons/hpc\_results\_v3.0: This repository contains the results and code for the MLPerf™ HPC Training v3.0 benchmark.](https://github.com/mlcommons/hpc_results_v3.0)   
 * We discussed timing of meetings and Geoffrey will send out a Doodle Poll to select best \~11am Eastern (USA, Europe) and \~7pm Eastern (Asia, USA) times in alternate weeks. There was significant interest in meeting at these times on alternating weeks.
 
-### **White Papers** {#white-papers-3}
+### White Papers
 
 * White Papers are led by Christine Kirkpatrick and Gregor von Laszewski  
   * 1\) Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5) **This paper is active and can be worked on.**   

@@ -2,17 +2,17 @@
 title: "August 23, 2023"
 ---
 
-## **August 23, 2023** {#august-23,-2023}
+## August 23, 2023
 
-### **Present** {#present-74}
+### Present
 
 Geoffrey Fox, Piotr Luszczek, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Xiaoxuan Yang
 
-### **Apologies**  {#apologies-21}
+### Apologies 
 
 Mallikarjun Shankar, Juri Papay,
 
-### **Tentative Agenda** {#tentative-agenda-53}
+### Tentative Agenda
 
 * Any new members  
 * Foundation Models  
@@ -20,11 +20,11 @@ Mallikarjun Shankar, Juri Papay,
   * Collaborations  
 * AOB
 
-### **New Members** {#new-members-35}
+### New Members
 
 * [Xiaoxuan Yang](https://xiaoxuan-yang.github.io/) introduced hereself, She is an incoming assistant Professor in the University of Virginia ECE department. Her interests include memory systems and deep learning accelerators. She learnt about our work at the MLCommons Rising Star meeting [Machine Learning and Systems Rising Stars | MLCommons](https://mlcommons.org/en/rising-stars-2023/)  where Geoffrey gave a talk [AI for Science Rising Stars August 17 ](https://docs.google.com/presentation/d/1RXyPSKXXV488X9pfcPr5_L1pRMT5gd2Xk9mi-SI0VFY/edit?usp=sharing) 
 
-### **Discussion** {#discussion-24}
+### Discussion
 
 * We discussed turbulence models  
 * Wes Brewer reminded us of [PU0174\_VFS\_VCGI\_Paper\_A.pdf](https://drive.google.com/file/d/1RVHFNzdFNy1NSVdOHRWsf9w4StEqzlmp/view?usp=sharing) which uses the Mixture of Experts approach  

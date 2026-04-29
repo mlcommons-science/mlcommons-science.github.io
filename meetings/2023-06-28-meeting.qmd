@@ -2,17 +2,17 @@
 title: "June 28, 2023"
 ---
 
-## **June 28, 2023** {#june-28,-2023}
+## June 28, 2023
 
-### **Present** {#present-78}
+### Present
 
 Geoffrey Fox, Gregg Barrett, Juri Papay, Wesley Brewer, Gregor von Laszewski, Piotr Luszczek, Tom Gibbs,  Mallikarjun Shankar, Murali Emani, Jeyan Thiyagalingam, Shantenu Sharma, Sankranti Joshi
 
-### **Apologies** {#apologies-23}
+### Apologies
 
 Christine Kirkpatrick, 
 
-### **Tentative Agenda** {#tentative-agenda-57}
+### Tentative Agenda
 
 * Any new members  
 * New Benchmarks and Implications of rapid algorithm change (continued from last meeting)   
@@ -21,12 +21,12 @@ Christine Kirkpatrick,
 * **AI Readiness of MLCommons Science** (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
 * AOB
 
-### **New Members** {#new-members-36}
+### New Members
 
 **Shantenu Sharma** [Shantanu Sharma](https://www.shantanusharma.com/) is a  computer scientist and financial services professional by training with Ph.D. from UNC Chapel Hill.  
 **Sankranti Joshi:** I am Sunny and I gonna be starting a PhD in Computer Vision focused on Environment/Remote Sensing focussing on Bayesian Meta Learning. I currently work as an AI/ML RDP Engineer at GSK. In the past I have worked in NLP Research, and as an ML engineer with time series models. 
 
-### **Implications of Rapid Algorithm Change** {#implications-of-rapid-algorithm-change}
+### Implications of Rapid Algorithm Change
 
 * Note Juri and Jeyan need to be explicitly given permission to enter  
 * Juri asked Geoffrey if he wanted to go ahead with benchmarking book  
@@ -55,7 +55,7 @@ Christine Kirkpatrick,
 * Arjun noted [GitHub \- rasbt/deeplearning-models: A collection of various deep learning architectures, models, and tips](https://github.com/rasbt/deeplearning-models)   
 * There seem to several places where we can expand portfolio such as the RAL examples like Hydronet discussed last time
 
-### **Our Plan** {#our-plan}
+### Our Plan
 
 * Juri had a 1:1 meeting with David Kanter on June 30 and David asked the Working Group to come up with some plan or directions on what the WG intends to do.  See the links below.  
   * Can we please address these topics at the next telco.  
@@ -64,7 +64,7 @@ Christine Kirkpatrick,
 * Geoffrey said: I think recent meetings have been devoted to defining future but we are not finished  
 * Juri: You are absolutely right,  I did mention to David that on the last 2-3 sessions were tried to define the directions. We just need to fill in some short text in the columns, because we are the only WG which has not provided any work plan yet.
 
-### **Financial Services** {#financial-services}
+### Financial Services
 
 * Shantanu notes  
 * These are the datasets I would suggest which might be relevant for financial services:  

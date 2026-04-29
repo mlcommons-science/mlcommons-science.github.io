@@ -2,13 +2,13 @@
 title: "November 26, 2025"
 ---
 
-## **November 26, 2025** {#november-26,-2025}
+## November 26, 2025
 
-### **Present** {#present-3}
+### Present
 
 * Abdulkareem Alsudais, Armstrong Foundjem,  Ben Hawks, Christine Kirkpatrick, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Juri Papay, Marco Colombo, Piotr Luszczek, Sebastian Lobentanzer
 
-### **Tentative Agenda** {#tentative-agenda-1}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * White Papers and Published Papers  
@@ -17,11 +17,11 @@ title: "November 26, 2025"
   * New white papers  
 * Any Other Business
 
-### **New Member** {#new-member}
+### New Member
 
 * Sebastian Lobentanzer [https://www.linkedin.com/in/slobentanzer/](https://www.linkedin.com/in/slobentanzer/) is Head of Computational Biology at the German Center for Diabetes Research (Deutsches Zentrum für Diabetesforschung, DZD)
 
-### **Google Meet Notes** {#google-meet-notes-3}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/11/26 07:59 PST \- Notes by Gemini](https://docs.google.com/document/d/16RczQwGKC_cfUrJM32TGSAfAfwQ0uqaHEr6c9LG39mI/edit?usp=sharing)   
 * The MLC Science WG meeting on November 26, 2025, covered the following key points:  
@@ -33,7 +33,7 @@ title: "November 26, 2025"
 * Energy Benchmarking: The importance of energy usage and cost in benchmarking was highlighted, with a suggestion for a separate technical paper on this topic, led by Armstrong Foundjem, who needs to first review the existing "ML Perf Power" paper.  
 * Action Items: Include sharing the conference link for a workshop in Korea, proofreading the paper by gyuri papay, contacting Fermilab about the approval process, and you sending an email to Sebastian Lobentanzer about giving a talk
 
-### **Discussion** {#discussion-3}
+### Discussion
 
 * Gregg Barrett asked Sebastian: I would be interested in the pipeline / toolsets you are using Sebastian. Drop me a note. [gregg.barrett@cirrusai.net](mailto:gregg.barrett@cirrusai.net)  
   * Geoffrey: Sebastian. Could you give a presentation on your use of agentic AI  

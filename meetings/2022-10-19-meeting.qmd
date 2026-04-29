@@ -2,17 +2,17 @@
 title: "October 19, 2022"
 ---
 
-## **October 19, 2022** {#october-19,-2022}
+## October 19, 2022
 
-### **Present** {#present-93}
+### Present
 
 Wesley Brewer, Feiyi Wang, Juri Papay, Gregor von Laszewski, Gregg Barrett,  Farzana Yasmin Ahmad, Geoffrey Fox,  Junqi Yin,  Piotr Luszczek, Murali Emani, Tom Gibbs
 
-### **Apologies** {#apologies-34}
+### Apologies
 
 Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
 
-### **Tentative Agenda** {#tentative-agenda-71}
+### Tentative Agenda
 
 * Any new members  
 * Status of 4 Benchmarks: Policy/Submission Rules Schedules  
@@ -24,7 +24,7 @@ Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
   * **ACTION ITEM:** Send any suggestions  (either text or places to send it) so we can draft an announcement combining the current 4 benchmarks and call for new benchmarks  
 * AOB
 
-### **Discussion** {#discussion-26}
+### Discussion
 
 * We had a shorter discussion than normal. Gregor gave our main links  
   * [https://mlcommons.org/en/groups/research-science/](https://mlcommons.org/en/groups/research-science/)   
@@ -51,7 +51,7 @@ Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
 
 * Piotr clarified that it could be put on arxiv if it references the future Springer LNCS version
 
-### **New Member** {#new-member-9}
+### New Member
 
 Wesley Brewer introduced himself. He comes from DoD HPC Modernization program but now works at Oak Ridge National Laboratory. Three papers from DoD are
 

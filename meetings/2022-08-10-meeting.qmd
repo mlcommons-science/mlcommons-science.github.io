@@ -2,17 +2,17 @@
 title: "August 10, 2022"
 ---
 
-## **August 10, 2022** {#august-10,-2022}
+## August 10, 2022
 
-### **Present** {#present-97}
+### Present
 
 Gregor von Laszewski, Gregg Barrett, Dingwen Tao, Farzana Yasmin Ahmad, Geoffrey Fox,  Junqi Yin,  Christine Kirkpatrick, Piotr Luszczek,  Mallikarjun Shankar, Murali Emani, Aristeidis Tsaris 
 
-### **Apologies** {#apologies-38}
+### Apologies
 
 Jeyan Thiyagalingam, Juri Papay, Tony Hey, Tom Gibbs
 
-### **Tentative Agenda** {#tentative-agenda-75}
+### Tentative Agenda
 
 * Any new members (None this meeting)  
 * Status of 4 Benchmarks: Rules Schedules  
@@ -22,7 +22,7 @@ Jeyan Thiyagalingam, Juri Papay, Tony Hey, Tom Gibbs
 * Futures \-- new benchmarks  
 * AOB
 
-### **Discussion** {#discussion-27}
+### Discussion
 
 * The topics were merged in the discussion.   
 * **ACTION ITEM** We agreed that we should add suggestions and comments to benchmarks to identify promising approaches to improving science; where did we try and fail? What did we not look at but think interesting? We should discuss adding data and science considerations  

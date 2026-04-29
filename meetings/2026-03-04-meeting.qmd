@@ -2,13 +2,13 @@
 title: "Meeting Notes - March 4, 2026"
 ---
 
-## **March 4, 2026**
+## March 4, 2026
 
-### **Present**
+### Present
 
 - Amitash Nanda, Anna Su, Armstrong Foundjem,Deepak Tosh, Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Juri Papay, Lisa Yang, Matt Sinclair, Nazmun Nahar Tui, Nobin Sarwar, Piotr Luszczek, Shirley Moore, Stefano Patalano,  Victor Lu
 
-### **Tentative Agenda**
+### Tentative Agenda
 
 - Any New Members Introduction
 
@@ -18,7 +18,7 @@ title: "Meeting Notes - March 4, 2026"
 
 - Any Other Business
 
-### **New Members Introduction**
+### New Members Introduction
 
 - **Deepak Tosh**, <https://www.linkedin.com/in/deepak-tosh-1033a33/> an Associate Professor at the University of Texas El Paso (UTEP), specializes in system cyber security and applying AI to solve cyber security problems in operational technology and critical infrastructure
 
@@ -28,7 +28,7 @@ title: "Meeting Notes - March 4, 2026"
 
 - Geoffrey Fox suggested Lisa Yang give a talk.
 
-### **Google Meet Notes**
+### Google Meet Notes
 
 - [MLC Science WG - 2026/03/04 07:58 PST - Notes by Gemini](https://docs.google.com/document/d/1H_2CYXntlNEPLy22hKfjRfAuu7_qZ10T56tRfzwQW-g/edit?usp=sharing)
 
@@ -36,7 +36,7 @@ title: "Meeting Notes - March 4, 2026"
 
 - **Meeting Agenda and Talk Order:** Geoffrey Fox confirmed the schedule: the UTEP talk first, followed by talks from Yale and San Diego.
 
-### **Presentation 1: Scaling Transformer Training in Stormer:**
+### Presentation 1: Scaling Transformer Training in Stormer:
 
 - [Scaling Stormer Training_ An Empirical Study of GPU Communication Overhead Optimization.pptx](https://docs.google.com/presentation/d/1JcEDMQfOk5HE0HbLBOZY2HuXb1x0jAeB/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true) 
 
@@ -130,7 +130,7 @@ title: "Meeting Notes - March 4, 2026"
 
 - Geoffrey Fox noted that models using direct numerical values generally outperform those using embeddings in time series.
 
-### **Presentation 2: Generative AI for Protein Engineering and Design (Resource Usage)**
+### Presentation 2: Generative AI for Protein Engineering and Design (Resource Usage)
 
 - [MLCommons_Science.pptx](https://docs.google.com/presentation/d/1GCnf7a5VWJv-uQUaY8okQKbAOQvsJnTz/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true) 
 
@@ -194,7 +194,7 @@ title: "Meeting Notes - March 4, 2026"
 
 - Amitash Nanda offered to add information regarding their transcriptomics research.
 
-### **Frontiers Journal Special Edition Proposal**
+### Frontiers Journal Special Edition Proposal
 
 - Gregor von Laszewski proposed organizing a special journal edition for Frontiers on "earth science and AI impact and benchmarking" and requested interested group members to email them.
 

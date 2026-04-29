@@ -2,13 +2,13 @@
 title: "December 11, 2024"
 ---
 
-## **December 11, 2024** {#december-11,-2024}
+## December 11, 2024
 
-### **Present** {#present-41}
+### Present
 
 Geoffrey Fox, Gregor von Laszewski, Juri Papay, Wes Brewer, Armstrong Foundjem, Piotr Luszczek, Victor Lu,  Shirley Moore, Azza Ahmad, Gavin Mitchell Farrell, Marisa Ahmad, Riccardo Balin, Vijay Janapa Reddi, Gregg Barrett, Karen Bennet, Preetham Reddy, Steven Farrell
 
-### **Tentative Agenda** {#tentative-agenda-23}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Cataloging Existing Science Benchmarks  
@@ -17,11 +17,11 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Wes Brewer, Armstrong Foundjem, 
   * MLCommons Science FAIR Concept Paper (AI Readiness) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
 * Choosing Up-to-date Benchmarks (not discussed directly)
 
-### **New Members** {#new-members-18}
+### New Members
 
 * **Karen Bennet** [https://www.linkedin.com/in/bennetkl/](https://www.linkedin.com/in/bennetkl/) is a dynamic experienced senior leader who is leading Enterprises to deploy secure, scalable, transparent, distributed software using next generation technologies (cloud, advance data analytics, Cyber Security, Blockchain, AI and Machine Learning.) She, also, provides training and mentoring on navigating the hype of technology and Women in Technology. She is involved in IEEE, ISO and Linux Foundation ML/ AI working groups. 
 
-### **Benchmark Carpentry**  {#benchmark-carpentry}
+### Benchmark Carpentry 
 
 * Gregor described move of Google docs to Overleaf [https://www.overleaf.com/project/67585323797c7e764c254a84](https://www.overleaf.com/project/67585323797c7e764c254a84) for Benchmark Carpentry paper. This is describing the basics of benchmarking and also making MLCommons benchmarks accessible to a broad range of users. This aligns with the Science working group’s observation as to the educational value of (MLCommons) benchmarks.  
 * Gregor is working on two figures.  
@@ -40,7 +40,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Wes Brewer, Armstrong Foundjem, 
   * Gregor noted Shirley’s reproducibility comment that we cant reproduce MLCommons results as machine shared so we find lower performance than in MLCommons benchmark tables  
 * Shirley noted the value of single GPU versions to study performance issues without having to run the whole giant job. Jurui agreed
 
-### **Cataloging Existing Science Benchmarks** {#cataloging-existing-science-benchmarks}
+### Cataloging Existing Science Benchmarks
 
 * Geoffrey noted many sources already available for Science benchmarks  
   * MLCommons Science Working Group  
@@ -54,7 +54,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Wes Brewer, Armstrong Foundjem, 
   * There are also Big Data benchmarks such as BigDataBench [https://www.benchcouncil.org/BigDataBench/](https://www.benchcouncil.org/BigDataBench/)   
 * The Science working group will not follow up this further
 
-### **Any Other Business** {#any-other-business-2}
+### Any Other Business
 
 * Geoffrey apologized for starting the meeting 15 minutes late. A few members gave up waiting. I am very sorry  
 * It was noted that David Kanter was very busy and did not often come to our meetings. However we had seen very good support from his representative Marisa.  
@@ -64,7 +64,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Wes Brewer, Armstrong Foundjem, 
   * Generate a TPC Trillion Parameter Consortium checklist for global project  
   * Juri agreed
 
-### **Victor Lu’s Comments** {#victor-lu’s-comments}
+### Victor Lu’s Comments
 
 1.) **Bill of Material (BOM)** :  I believe BOM could  be used in the context of reproducible science.  
 Referring to my AIBOM for reproducible science proposal:  [https://docs.google.com/document/d/1HdS\_GxQvPA7y1ilspGmex-HN\_cnjriR1nrpr\_fnYzXY/edit?tab=t.0](https://docs.google.com/document/d/1HdS_GxQvPA7y1ilspGmex-HN_cnjriR1nrpr_fnYzXY/edit?tab=t.0)

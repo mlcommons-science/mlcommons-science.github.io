@@ -2,17 +2,17 @@
 title: "October 18, 2023"
 ---
 
-## **October 18, 2023** {#october-18,-2023}
+## October 18, 2023
 
-### **Present** {#present-70}
+### Present
 
 Geoffrey Fox, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett,
 
-### **Apologies**  {#apologies-17}
+### Apologies 
 
 Sutanay Choudhury, Tom Gibbs, Juri Papay
 
-### **Tentative Agenda** {#tentative-agenda-49}
+### Tentative Agenda
 
 * Any new members  
 * White Papers  
@@ -22,7 +22,7 @@ Sutanay Choudhury, Tom Gibbs, Juri Papay
 * Other Benchmarks, including Foundation models  
 * AOB
 
-### **Discussion** {#discussion-22}
+### Discussion
 
 * The power paper is essentially finished and submission to [https://www.computer.org/digital-library/magazines/cs/cfp-converged-computing](https://www.computer.org/digital-library/magazines/cs/cfp-converged-computing) is suggested. Christine contacted editors and they encouraged us.  
 * We discussed computational load of Foundation models and through Wes found 200M science papers in FORGE [https://link.springer.com/article/10.1007/s11227-023-05479-7](https://link.springer.com/article/10.1007/s11227-023-05479-7) and [https://drive.google.com/file/d/1ynt\_WzjhKBkQSpEQDaSZuMw\_zHMyNcgR/view?usp=sharing](https://drive.google.com/file/d/1ynt_WzjhKBkQSpEQDaSZuMw_zHMyNcgR/view?usp=sharing) where second link has computational loads  

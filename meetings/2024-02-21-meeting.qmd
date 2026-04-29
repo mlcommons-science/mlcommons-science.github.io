@@ -2,13 +2,13 @@
 title: "February 21, 2024"
 ---
 
-## **February 21, 2024** {#february-21,-2024}
+## February 21, 2024
 
-### **Present** {#present-63}
+### Present
 
 Geoffrey Fox, Sutanay Choudhury, Gregg Barrett, Wes Brewer, Xavier Coubez,Tom Gibbs, Armstrong Foundjem,  Piotr Luszczek, Juri(Gyuri) Papay, Victor Lu, Elie Alhajjar, Rajat Shinde, Kenneth Fricklas
 
-### **Tentative Agenda** {#tentative-agenda-43}
+### Tentative Agenda
 
 * Any new members  
 * Note started today Feb 21 – 23, 2024 DESY First Large Language Models in Physics Symposium [https://indico.desy.de/event/38849/overview](https://indico.desy.de/event/38849/overview) with Zoom access  
@@ -18,13 +18,13 @@ Geoffrey Fox, Sutanay Choudhury, Gregg Barrett, Wes Brewer, Xavier Coubez,Tom Gi
 * **Presentation:** [https://sutanay.github.io/publications/ChemReasoner-SciMLCommons.pdf](https://sutanay.github.io/publications/ChemReasoner-SciMLCommons.pdf)   
 * **Zoom Recording:** [https://drive.google.com/open?id=11mqGLIIgC2ITMuYgJZGpFb8eJnnvUcdC](https://drive.google.com/open?id=11mqGLIIgC2ITMuYgJZGpFb8eJnnvUcdC) 
 
-### **New Members** {#new-members-29}
+### New Members
 
 * Elie Alhajjar, Victor Lu and Sutanay Choudhury first came Jan 10, 2024  
 * Rajat Shinde [https://www.linkedin.com/in/rajat-shinde/](https://www.linkedin.com/in/rajat-shinde/)   
 * Kenneth Fricklas [https://www.linkedin.com/in/kenfricklas/](https://www.linkedin.com/in/kenfricklas/) was at Google and now works in AI and Safety with a consortium of 32 Cleantech organizations, mainly laboratories.
 
-### **Notes on Presentation:** {#notes-on-presentation:}
+### Notes on Presentation:
 
 * The DOE Pacific Northwest National Laboratory PNNL has studied catalysis for some time but current methods are rather heuristic. This talk describes a systematic approach with an unchanged version of ChatGPT that is used to construct a tree of questions that are answered by an ensemble of simulations described by molecules represented in a graph.  
 * Collaboration between PNNL, UIUC and Microsoft.  

@@ -2,13 +2,13 @@
 title: "July 12, 2023"
 ---
 
-## **July 12, 2023** {#july-12,-2023}
+## July 12, 2023
 
-### **Present** {#present-77}
+### Present
 
 Geoffrey Fox, Gregg Barrett, Juri Papay, Wesley Brewer, Piotr Luszczek, Tom Gibbs,  Christine Kirkpatrick, Murali Emani, Yuhan (Douglas) Rao
 
-### **Tentative Agenda** {#tentative-agenda-56}
+### Tentative Agenda
 
 * Any new members  
 * Official Plans  [https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1](https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1) [https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit\#gid=0](https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit#gid=0)  
@@ -18,13 +18,13 @@ Geoffrey Fox, Gregg Barrett, Juri Papay, Wesley Brewer, Piotr Luszczek, Tom Gibb
 * AI Readiness of MLCommons Science (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
 * AOB
 
-### **New Member** {#new-member-8}
+### New Member
 
 Yuhan (Douglas) Rao is from the North Carolina State University’s North Carolina Institute for Climate Studies (NCICS) in Asheville. His current research at NCICS focuses on generating a blended near-surface air temperature dataset by integrating in situ measurements and satellite observations via innovative statistical models. He is familiar with climate and weather foundation models.
 
-### **Official Plans** {#official-plans}
+### Official Plans
 
-### **Foundation Models** {#foundation-models-5}
+### Foundation Models
 
 * Geoffrey gave a short presentation [AI4Science Foundation Models](https://docs.google.com/presentation/d/1WdWaFyZ6JplDvXeV7aXIirUmUEZ4BPWR3_YTDfn9acg/edit?usp=sharing) noting possible different scopes for foundation models.  
 * Yuhan noted that there is a recent established collaboration between NASA and IBM on foundational model with satellite image \- [https://www.earthdata.nasa.gov/news/nasa-ibm-ai-collaboration](https://www.earthdata.nasa.gov/news/nasa-ibm-ai-collaboration)   
@@ -37,7 +37,7 @@ Yuhan (Douglas) Rao is from the North Carolina State University’s North Caroli
 * Gregg Barrett noted that Feiyi Wang and Jeyan Thiyagalingam are hosting submissions on  [Foundational Models and Workflows in AI for Science | Frontiers Research Topic](https://www.frontiersin.org/research-topics/54654/foundational-models-and-workflows-in-ai-for-science)   
 * If we have an initiative in Foundation models we need define a framework and have some prototypes – possibly small
 
-### **Any Other Business** {#any-other-business-9}
+### Any Other Business
 
 Gregg suggested a presentation at [AI for Scientific Discovery: From Theory to Practice](https://ai4sciencecommunity.github.io/neurips23) at NeurIPS 2023\. Christine supported this
 

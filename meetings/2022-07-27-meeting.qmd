@@ -2,28 +2,28 @@
 title: "July 27, 2022"
 ---
 
-## **July 27, 2022** {#july-27,-2022}
+## July 27, 2022
 
-### **Present** {#present-98}
+### Present
 
 Piotr Luszczek, Gregor von Laszewski, Murali Emani, Junqi Yin, Aristeidis Tsaris, Christine Kirkpatrick, Geoffrey Fox, Gregg Barrett, Dingwen Tao, Farzana Yasmin Ahmad,
 
-### **Apologies** {#apologies-39}
+### Apologies
 
 Jeyan Thiyagalingam, Juri Papay, Tony Hey, Mallikarjun Shankar 
 
-### **New member introductions** {#new-member-introductions-1}
+### New member introductions
 
 Dingwen Tao introduced himself and his [https://www.dingwentao.com/](https://www.dingwentao.com/) on compression, storage, and high performance computing. He is currently at Washington State University but will move to Indiana University Bloomington this fall. 
 
-### **Tentative Agenda** {#tentative-agenda-76}
+### Tentative Agenda
 
 * New member Introduction  
 * Finalize 4 benchmarks  
 * MLCommons and Science WG Rules. Draft is  [https://github.com/laszewsk/mlcommons/blob/main/www/content/en/docs/policy.adoc](https://github.com/laszewsk/mlcommons/blob/main/www/content/en/docs/policy.adoc)   
 * AOB
 
-### **MLCommons and Science WG Rules** {#mlcommons-and-science-wg-rules}
+### MLCommons and Science WG Rules
 
 * After Tao introduction, the meeting was devoted to discussing the policy document describing our benchmarks. This centered on questions from Mattson given below  
   * Clarify inference vs. training separation in draft  

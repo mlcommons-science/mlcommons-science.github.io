@@ -2,17 +2,17 @@
 title: "August 7, 2024"
 ---
 
-## **August 7, 2024** {#august-7,-2024}
+## August 7, 2024
 
-### **Present** {#present-51}
+### Present
 
 Geoffrey Fox, Ali Hashmi, Armstrong Foundjem, Gregg Barrett,  Gregor von Laszewski, Piotr Luszczek,  Javier Toledo, Nabita Penmetsa, Riccardo Balin, Victor Lu, Jonathan Bennion, Rashadul Kabir,  Jeyan Thiyagalingam, Jie Zhang, Marisa Ahmad
 
-### **Apologies** {#apologies-6}
+### Apologies
 
 Christine Kirkpatrick
 
-### **Tentative Agenda** {#tentative-agenda-31}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Any comments on the HPC working group?  
@@ -22,7 +22,7 @@ Christine Kirkpatrick
   * NASA Workshop [https://sites.astro.caltech.edu/AIFM/speakers.html](https://sites.astro.caltech.edu/AIFM/speakers.html) with links to talks discussing "IEEE SMC-IT/SCC 2024: Trustworthiness of Foundation Models and What They Generate".   
 * Any Other Busines
 
-### **New Members** {#new-members-24}
+### New Members
 
 * **Nabita Penmetsa** [https://www.linkedin.com/in/nabita-penmetsa-a038583/](https://www.linkedin.com/in/nabita-penmetsa-a038583/) [https://eccles.utah.edu/team/nabita-penmasta/](https://eccles.utah.edu/team/nabita-penmasta/) Assistant professor in Department of Operations and Information Systems at the University of Utah. Nabita’s research focuses on pricing of software services and study of multi-sided platforms that create value by bringing together two or more groups of users. She studies how consumer behavior and nature of interactions between platform participants shape firm pricing strategies and competitive outcomes. Her areas of expertise include software-as-a-service (saas), online advertising and crowdfunding industries.  
 * **Jonathan Bennion** [jonathan.bennion@gmail.com](mailto:jonathan.bennion@gmail.com). We missed his information.  
@@ -30,7 +30,7 @@ Christine Kirkpatrick
 * **Marisa Ahmad** [marisa.ahmad@mlcommons.org](mailto:marisa.ahmad@mlcommons.org) is our new MLCommons link and we welcomed the chance to improver the links with other MLCommons activities, that Marisa’s involvement would facilitate.  
 * Ali Hashmi [https://www.linkedin.com/in/ali-hashmi/](https://www.linkedin.com/in/ali-hashmi/) Senior Programmer/Healthcare Data Scientist at IBM Consulting \- US Federal. Works with Linux Foundation
 
-### **General discussion** {#general-discussion-2}
+### General discussion
 
 * Geoffrey noted the NASA workshop https://sites.astro.caltech.edu/AIFM/speakers.html  which included discussion of the work already discussed here by NASA (Manil Maskey) and North Carolina (Douglas Rao) and Maskey gave a great talk at this workshop.  
 * Gregor noted that the OSMI benchmark was essentially complete but there were details being discussed with Shao at HPE  (see December 13, 2023 meeting) including extending to the MOM6 code as discussed in earlier Science working group meetings.  

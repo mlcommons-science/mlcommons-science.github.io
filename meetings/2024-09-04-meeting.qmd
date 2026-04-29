@@ -2,13 +2,13 @@
 title: "September 4, 2024"
 ---
 
-## **September 4, 2024** {#september-4,-2024}
+## September 4, 2024
 
-### **Present** {#present-49}
+### Present
 
 Juri Papay, Geoffrey Fox, Tues Day, Armstrong Foundjem, Gregg Barrett,  Gregor von Laszewski, Victor Lu, Marisa Ahmad,  Jineta Banerjee
 
-### **Tentative Agenda** {#tentative-agenda-29}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * White Papers  
@@ -19,7 +19,7 @@ Juri Papay, Geoffrey Fox, Tues Day, Armstrong Foundjem, Gregg Barrett,  Gregor v
 * Science Foundation Models  
 * Any Other Business
 
-### **Discussion** {#discussion-17}
+### Discussion
 
 * Geoffrey Fox, Jeyan Thiyagalingam, Piotr Luszczek and Tony Hey were at CCDSC meeting in Lyons France [Workshop on Clusters, Clouds, and Data for Scientific Computing - 2024](https://docs.google.com/document/d/1hoRHRWUq9WRV9HxyqqSwf0a4-o_Jqg9LStc15kxz2NY/edit)  
 * Their talks are     

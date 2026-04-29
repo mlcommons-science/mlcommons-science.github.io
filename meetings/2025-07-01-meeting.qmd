@@ -2,13 +2,13 @@
 title: "July 1, 2025 (9.05 pm. ET for Asia-USA)"
 ---
 
-## **July 1, 2025 (9.05 pm. ET for Asia-USA)** {#july-1,-2025-(9.05-pm.-et-for-asia-usa)}
+## July 1, 2025 (9.05 pm. ET for Asia-USA)
 
-### **Present** {#present-23}
+### Present
 
 Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Nhan Tran, Satoshi Iwata, Victor Lu
 
-### **Google Meet Notes** {#google-meet-notes-19}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/07/02 01:59 BST \- Notes by Gemini](https://docs.google.com/document/d/1TEDTZPVnXvvLKFr5xbppHql0xEbNr4q38M8iyAr2ghA/edit?usp=sharing)  
 * Summary: This document contains notes from the MLC Science WG meeting on July 1, 2025\. Key topics discussed include:  
@@ -19,7 +19,7 @@ Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Nhan Tran, Satoshi Iwata, Vic
 *   \* \*\*Live Data and LLM Benchmarking:\*\* The concept of "live data" in LLM benchmarking, where models continuously improve with data updates, was discussed as a special case for benchmark definitions.  
 *   \* \*\*Scientific Rigor in Computer Science Papers:\*\* Discussions touched upon the lack of reproducibility and inconsistent methodologies in some computer science papers, particularly in time series analysis.
 
-### **Discussion points** {#discussion-points}
+### Discussion points
 
 * Gregor  
   * Benchmark collection, [https://github.com/mlcommons-science/benchmark](https://github.com/mlcommons-science/benchmark)  

@@ -2,9 +2,9 @@
 title: "Feb 10, 2021"
 ---
 
-## **Feb 10, 2021** {#feb-10,-2021}
+## Feb 10, 2021
 
-### **Present** {#present-126}
+### Present
 
  
 
@@ -27,7 +27,7 @@ title: "Feb 10, 2021"
    
  
 
-### **Discussion Points** {#discussion-points-2}
+### Discussion Points
 
 1. The WG welcomed the new comers, Tom Gibbs (NVIDIA), Bala Desinghu and Steve Farrell  
      
@@ -54,7 +54,7 @@ title: "Feb 10, 2021"
       
 10. FAIR ideas should be integrated as part of the MLCommons. 
 
-### **Action Points** {#action-points-1}
+### Action Points
 
 1. All to act on benchmarking   
 2. Jeyan to work on initial evaluation of the Cloud benchmark  

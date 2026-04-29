@@ -2,17 +2,17 @@
 title: "January 22, 2025"
 ---
 
-## **January 22, 2025** {#january-22,-2025}
+## January 22, 2025
 
-### **Present** {#present-39}
+### Present
 
 Andrew Naylor, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Ben Hawks, Briana Cervantes, Christine Kirkpatrick, Claus Weiland, Datta Nimmaturi, David Kanter, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Gyuri Papay, Howard Pritchard, Hussain Ather, Javier Toledo,  Jennifer Ngadiuba, Kevin Coakley, Lee S, Marco Colombo, Marisa Ahmad, Matt Sinclair, Mia Liu, Murali Emani, Nhan Tran, Piotr Luszczek, Riccardo Balin, Rutwik Jain, Ryan Kastner, Scott Brown, Shirley Moore, Shivaram Venkataraman, Victor Lu, Vijay Janapa Reddi, Wes Brewer
 
-### **Apologies** {#apologies-4}
+### Apologies
 
 Philip Harris
 
-### **Tentative Agenda** {#tentative-agenda-21}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * **Special Presentation by Matt Sinclair and Rutwik Jain (Computer Science Department at the University of Wisconsin) on Performance Variability and GPUs aimed at a section of Benchmark Carpentry White Paper** [SC22\_PM\_Variability\_v6.pdf](https://drive.google.com/file/d/14m6jqfUZy84exXMLWxpM_eN1Eku9vi6C/view?usp=sharing)  
@@ -24,7 +24,7 @@ Philip Harris
 * Setting Agenda for 2025  
 * Any Other Business
 
-### **New Members** {#new-members-16}
+### New Members
 
 * **Matt Sinclair** [https://www.linkedin.com/in/mattdsinclair/](https://www.linkedin.com/in/mattdsinclair/) [https://pages.cs.wisc.edu/\~sinclair/](https://pages.cs.wisc.edu/~sinclair/) [msinclair@wisc.edu](mailto:msinclair@wisc.edu) received his Ph.D. from UIUC and is now an assistant professor at the University of Wisconsin, Madison. His research has focused on designing tools, writing efficient software, and proposing efficient architectural changes to general-purpose accelerators like GPUs..  
 * **Shivaram Venkataraman** [shivaram@cs.wisc.edu](mailto:shivaram@cs.wisc.edu) [https://shivaram.org/](https://shivaram.org/) completed his Ph.D. from UC Berkeley where he was advised by Ion Stoica and Mike Franklin. He was at postdoc at Microsoft Research, and is now an assistant professor at the University of Wisconsin, Madison. His research interests are in designing systems and algorithms for large scale data analysis and machine learning.   
@@ -39,7 +39,7 @@ Philip Harris
 * **Ryan Kastner** could be [Ryan Kastner \- San Diego, California, United States | Professional Profile | LinkedIn](https://www.linkedin.com/in/ryan-kastner-6a41ab1/)   
 * G M is **Gary Mazzaferro** [garym@oedata.com](mailto:garym@oedata.com) 
 
-### **Presentation** {#presentation-2}
+### Presentation
 
 * The talk [SC22\_PM\_Variability\_v6.pdf](https://drive.google.com/file/d/14m6jqfUZy84exXMLWxpM_eN1Eku9vi6C/view?usp=sharing) was excellently presented by Rutwik Jain and very clearly presented findings on GPU variability.  
 * The issue of GPU and CPU performance variability had been discussed in the context of our Benchmark Carpentry white paper under preparation and Matt Sinclair had agreed to contribute a section of the white paper on this topic  

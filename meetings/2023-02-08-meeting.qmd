@@ -2,24 +2,24 @@
 title: "February 8, 2023"
 ---
 
-## **February 8, 2023** {#february-8,-2023}
+## February 8, 2023
 
-### **Present** {#present-87}
+### Present
 
 Gregor von Laszewski, Gregg Barrett, Geoffrey Fox, Juri Papay, Christine Kirkpatrick, 
 
-### **Apologies** {#apologies-28}
+### Apologies
 
 Wesley Brewer, Jeyan Thiyagalingam, Tony Hey
 
-### **Tentative Agenda** {#tentative-agenda-65}
+### Tentative Agenda
 
 * Any new members  
 * FAIR metadata (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
 * Discussion of new Benchmarks (Continued)  
 * AOB
 
-### **Discussion of Papers** {#discussion-of-papers}
+### Discussion of Papers
 
 * We interactively discussed the FAIR metadata for MLCommons Science paper [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit)  
 * We discussed goals of paper which included telling MLCommons what we were doing; becoming huggingface for Science; getting funding; making AI for Science more systematic. The industry links in MLCommons are important to Science  
@@ -31,7 +31,7 @@ Wesley Brewer, Jeyan Thiyagalingam, Tony Hey
   * [Efficient Resource Management for Cloud Computing Environments](https://archive-infomall.org/grids.ucs.indiana.edu/ptliupages/publications/10-ajy-igcc.pdf)   
   * [Towards Energy Aware Scheduling for Precedence Constrained Parallel Tasks in a Cluster with DVFS | IEEE Conference Publication](https://ieeexplore.ieee.org/document/5493462) 
 
-### **Any Other Business** {#any-other-business-11}
+### Any Other Business
 
 * We discussed difficulties in using MLCommons benchmarks stressing importance of documentation  
 * Funding for operation too little

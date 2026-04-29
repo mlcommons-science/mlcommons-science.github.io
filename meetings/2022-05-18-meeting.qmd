@@ -2,13 +2,13 @@
 title: "May 18, 2022"
 ---
 
-## **May 18, 2022** {#may-18,-2022}
+## May 18, 2022
 
-### **Present** {#present-101}
+### Present
 
 Junqi Yin, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Piotr Luszczek, Cade Brown, Geoffrey Fox, Tony Hey, Arjun Shankar,  Bala Desinghu, Rushil Anirudh, Hyojin Kim
 
-### **Tentative Agenda** {#tentative-agenda-79}
+### Tentative Agenda
 
 * New member introductions   
 * Livermore Presentation on Fusion and Computed Tomography Benchmarks  
@@ -17,11 +17,11 @@ Junqi Yin, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ah
 * [H3\_paper\_1173.pdf](https://drive.google.com/file/d/1xg8pXRjCM9WW4hA3gaAvy8Ntw3CJidNw/view?usp=sharing)   
 * AOB
 
-### **New member introductions**  {#new-member-introductions-2}
+### New member introductions 
 
 * We were joined by two Lawrence Livermore researchers Rushil Anirudh and Hyojin Kim who each described an open Lawrence Livermore benchmark dataset and given in next item.
 
-### **Livermore Presentations** {#livermore-presentations}
+### Livermore Presentations
 
 * Rushil Anirudh described a Fusion benchmark [LLNL\_ICF\_Readme.pdf](https://drive.google.com/file/d/1LlnT3TuN6FSOJF9clQHUOV-6zp4P3ZS7/view?usp=sharing). There are 10000 points in the open dataset but internally there are 100 million such data points.   
   * This surrogate benchmark predicts images from input plasma parameters but most interesting is the inverse problem (images predict plasma condition)  
@@ -37,7 +37,7 @@ Junqi Yin, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ah
   * The large images stress memory on GPUs and as well as improving PSNR one needs to scale solution to run on multiple GPUs.  
 * Tom Gibbs NVIDIA later made interesting comments that extend this area
 
-### **Our Paper and Policy Documents** {#our-paper-and-policy-documents}
+### Our Paper and Policy Documents
 
 * Arjun made an interesting point for image based benchmarks. Here the deep learning technology like RESNET are well established and a key step is to feed in domain knowledge (physics informed networks).  
 * Juri and Gregor described the paper and policy document. Both are essentially finished   
@@ -46,7 +46,7 @@ Junqi Yin, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ah
 * We need to give tgo Peter Mattson and David Kanter to review our work  
 * We discussed publication options; one is an ISC workshop [http://www.icl.utk.edu/\~luszczek/conf/2022/h3/](http://www.icl.utk.edu/~luszczek/conf/2022/h3/) . Luszczek and Hey will investigate
 
-### **Any Other Business** {#any-other-business-14}
+### Any Other Business
 
 * Recording of Panel Discussion at AI Summit April 26 2022 [panel\_\_the\_convergence\_of\_ai\_&\_hpc\_and\_benchmarking\_ml\_system\_performance\_for\_science (720p).mp4](https://drive.google.com/file/d/16-NxULkk1glDtf9MaZnwG7SwBbXO6Mr6/view?usp=sharing)   
 * Our next meeting willbe June 15 (later cancelled) as there is the ISC BOF on June 1

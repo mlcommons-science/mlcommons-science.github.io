@@ -2,17 +2,17 @@
 title: "January 24, 2024"
 ---
 
-## **January 24, 2024** {#january-24,-2024}
+## January 24, 2024
 
-### **Present** {#present-64}
+### Present
 
 Geoffrey Fox, Feiyi Wang,  Senjuti Dutta, Gregg Barrett, Wes Brewer, Xavier Coubez, Murali Emani,Tom Gibbs, Armstrong Foundjem,  Piotr Luszczek, (Otter AI not given admittance as advised by MLCommons)
 
-### **Apologies**  {#apologies-14}
+### Apologies 
 
 Jeyan Thiyagalingam, Christine Kirkpatrick
 
-### **Tentative Agenda** {#tentative-agenda-44}
+### Tentative Agenda
 
 * Any new members  
 * White Papers  
@@ -23,12 +23,12 @@ Jeyan Thiyagalingam, Christine Kirkpatrick
 * Agenda for the year  
 * AOB
 
-### **New Members** {#new-members-30}
+### New Members
 
 * Senjuti Dutta [Home | Senjuti Dutta](https://web.eecs.utk.edu/~sdutta6/) studies HCI and Machine Learning at University of Tennessee, Knoxville. The other members introduced ourselves to her.  
 * Xavier Coubez reminded us that he spanned particle physics and computer science (deep learning)
 
-### **Discussion** {#discussion-20}
+### Discussion
 
 * Wes Brewer noted [2024 Symposium | Michigan Institute for Computational Discovery and Engineering](https://micde.umich.edu/news-events/annual-symposia/2024-symposium/) on  Scientific Foundation Models at  MICDE Conference April 2nd & 3rd, 2024, Ann Arbor, MI.  
 * Wes discussed work on HPC AI workflows with Shantenu Jha and identification of motifs (patterns of AI use on HPC) and need for benchmarks for these motifs  

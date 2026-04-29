@@ -2,17 +2,17 @@
 title: "July 10, 2024"
 ---
 
-## **July 10, 2024** {#july-10,-2024}
+## July 10, 2024
 
-### **Present** {#present-53}
+### Present
 
 Geoffrey Fox, Rashadul Kabir,Tues day, Indra Priyadarsini, Victor Lu, Wes Brewer, Armstrong Foundjem,  Gregor von Laszewski, Piotr Luszczek, Juri Papay, Sujata Goswami, 
 
-### **Apologies** {#apologies-7}
+### Apologies
 
 Christine Kirkpatrick, Gregg Barrett
 
-### **Tentative Agenda** {#tentative-agenda-33}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Status of Papers (delayed as Christine absent)  
@@ -20,17 +20,17 @@ Christine Kirkpatrick, Gregg Barrett
 * Science Foundation Models  
 * Any Other Business
 
-### **New Members** {#new-members-25}
+### New Members
 
 * **Tues Day:** I studied political science  and communications at George Washington University, and then I spent the last 20+ years working in media, entertainment and hospitality in Los Angeles and NYC. i'm a pianist, audio engineer and independent researcher in AI/ML. I'm a member of several Google Cloud programs and currently in a Google cohort pursuing my professional certification in Cloud Architecture engineering.  
 * **Indra Priyadarsini:** [https://www.linkedin.com/in/indra-ipd/?originalSubdomain=jp](https://www.linkedin.com/in/indra-ipd/?originalSubdomain=jp) Research Scientist at IBM Research \- Tokyo. Works on AI for material science and is active in the AI Alliance  
 * **Rashadul Kabir,** [https://www.linkedin.com/in/rashadulkabir/](https://www.linkedin.com/in/rashadulkabir/)  a PhD candidate at Colorado State University, working on workload scheduling on exascale data centers
 
-### **Foundation Models** {#foundation-models}
+### Foundation Models
 
 * Geoffrey mentioned he was giving a short talk on Foundation models and Time Series [Foundation Models and Patterns for Science Time Series July 15 2024](https://docs.google.com/presentation/d/1jVv6EhdGGNneAz_ftOkh8oP2KEo_NsOM1mFDpoHhUuM/edit?usp=sharing) at the IEEE Space Mission Challenges for Information Technology \- IEEE Space Computing Conference [IEEE SMC-IT/SCC 2024](https://smcit-scc.space/)  Jul 15, 2024
 
-### **Any Other Business** {#any-other-business-4}
+### Any Other Business
 
 * Gregor discussed OSMIBench and the HPE SmartSim software  
   * Need to get PyTorch equivalent of Tensorflow Serving Torchserve [https://pytorch.org/serve/](https://pytorch.org/serve/)  

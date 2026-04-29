@@ -2,13 +2,13 @@
 title: "August 21, 2024"
 ---
 
-## **August 21, 2024** {#august-21,-2024}
+## August 21, 2024
 
-### **Present** {#present-50}
+### Present
 
 Geoffrey Fox, Christine Kirkpatrick, Juri Papay, Armstrong Foundjem, Gregg Barrett,  Gregor von Laszewski, Riccardo Balin, Victor Lu,  Jeyan Thiyagalingam, Marisa Ahmad,  Jineta Banerjee
 
-### **Tentative Agenda** {#tentative-agenda-30}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Any comments on increasing collaboration with the HPC working group?  
@@ -20,11 +20,11 @@ Geoffrey Fox, Christine Kirkpatrick, Juri Papay, Armstrong Foundjem, Gregg Barre
 * Science Foundation Models  
 * Any Other Business
 
-### **New Member** {#new-member-6}
+### New Member
 
 * Jineta Banerjee, [Jineta Banerjee \- Sage Bionetworks | LinkedIn](https://www.linkedin.com/in/jineta-banerjee/) Principal Scientist at Sage Bionetworks. Jineta is  a multi-disciplinary scientist with cross-functional experience in life sciences (across neuroscience, cancer, and rare disease domains) and AI/ML, and leading cross-functional collaborative teams. I work with an entrepreneurial mindset at the intersection of applied computer science and life sciences.
 
-### **Relation of HPC and Science Working Groups** {#relation-of-hpc-and-science-working-groups}
+### Relation of HPC and Science Working Groups
 
 * In an earlier August 17 email discussion, Geoffrey suggested some simple steps that could be considered, such as holding science and HPC each biweekly but on alternate weeks. Science and HPC working groups have similar enrollment (\~450) and many recently added members. We could send the agendas and meeting announcements to both groups. Geoffrey thinks that the new initiatives being considered or implemented for Science (Foundation models and generative AI, invited seminars) would interest HPC, and HPC's benchmarks are marvelous and all interesting to science.  
 * Jeyan was concerned that the success of the HPC group was evaluated by a number of submissions.  
@@ -40,7 +40,7 @@ Geoffrey Fox, Christine Kirkpatrick, Juri Papay, Armstrong Foundjem, Gregg Barre
 * We agreed to ask a) SDSC as an NSF supercomputer (Christine), b) Murali at Argonne as co-lead of HPC and a DOE supercomputer center (Riccardo), c) Mallikarjun Shankar for interests of Oak Ridge (UK Group)  
 * A survey of HPC and Science WG members was suggested.
 
-### **Science and HPC WG Collaboration: Generative AI and Foundation Models for Benchmarking and Education in Science** {#science-and-hpc-wg-collaboration:-generative-ai-and-foundation-models-for-benchmarking-and-education-in-science}
+### Science and HPC WG Collaboration: Generative AI and Foundation Models for Benchmarking and Education in Science
 
 8. Some joint Science HPC vision suggested by Geoffrey  
 9. The Science WG's next initiatives should involve the most interesting and challenging AI applications, as seen by users, providers, and vendors of AI infrastructure. Further, we expect benchmarks to be well documented so they are valuable for students and researchers wanting to apply the latest technologies to different applications. Also, we recognize that to have comparative value between machines, the benchmarks cannot keep changing and must have a clear historical tracking. On the contrary, a science discovery metric will likely require a continuously changing SOTA (state-of-the-art) technology.  This suggests we identify leading edge (kernel) AI for science examples where we keep both a historical implementation and one that is at the leading edge.  We intend these artifacts to be useful in many ways, both for new machine solicitations and for users needing performance estimates to estimate the time needed on AI resource allocations like NAIRR. In addition, the broad educational values have already been discussed. As we combine the goals of the HPC and Science working groups for this new set of benchmarks, we need a strong collaboration between these working groups. As well as giving documented examples, we can support other initiatives such as identifying key features determining performance as in analysis by Juri [benchmark\_predictions\_v2.xlsx](https://docs.google.com/spreadsheets/d/1UF0yzha0iywHdqzQCmQSghBrvJwuYei6/edit?usp=drive_link&ouid=100475830980223085873&rtpof=true&sd=true) and generating useful datasets from generative AI models.   
@@ -54,12 +54,12 @@ Geoffrey Fox, Christine Kirkpatrick, Juri Papay, Armstrong Foundjem, Gregg Barre
 \[3\]	[W. Brewer, D. Martinez, M. Boyer, D. Jude, A. Wissink, B. Parsons, J. Yin, and V. Anantharaj, “Production Deployment of Machine-Learned Rotorcraft Surrogate Models on HPC,” in *2021 IEEE/ACM Workshop on Machine Learning in High Performance Computing Environments (MLHPC)*, 2021, pp. 21–32 \[Online\]. Available:](http://paperpile.com/b/K4bdpT/tJwI) [http://dx.doi.org/10.1109/MLHPC54614.2021.00008](http://dx.doi.org/10.1109/MLHPC54614.2021.00008)  
 \[4\]	[A. Jafari, G. Fox, J. B. Rundle, A. Donnellan, and L. G. Ludwig, “Time Series Foundation Models and Deep Learning Architectures for Earthquake Temporal and Spatial Nowcasting,” *arXiv \[cs.LG, physics.geo-ph\]*, 22-Aug-2024 \[Online\]. Available:](http://paperpile.com/b/K4bdpT/aGKL) [http://arxiv.org/abs/2408.11990](http://arxiv.org/abs/2408.11990)
 
-### **White Papers** {#white-papers-7}
+### White Papers
 
 * Gregor and Christine are working on the first white paper with figure quality being improved. This will be initially put in Arxiv  
 * Gregor noted Energy traces in Cloudmesh software for earthquake application
 
-### **Benchmarks** {#benchmarks-2}
+### Benchmarks
 
 * Gregor discussed OSMIBench where working with HPE and Wes, we have converted code from Tensorflow to PyTorch.  
 * HPE made a Docker container for their Smartsim software that can be ported to Singularity  

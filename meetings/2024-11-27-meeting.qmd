@@ -2,13 +2,13 @@
 title: "November 27, 2024"
 ---
 
-## **November 27, 2024** {#november-27,-2024}
+## November 27, 2024
 
-### **Present** {#present-42}
+### Present
 
 Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Armstrong Foundjem, Piotr Luszczek, Victor Lu,  Shirley Moore, Claus Weiland, Azza Ahmad, Murali Emani, Christine Kirkpatrick, Gavin Mitchell Farrell, Howard Pritchard, Noah Nisbet,  Indra Priyadarsini
 
-### **Tentative Agenda** {#tentative-agenda-24}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Lessons from SC24 Meeting (not discussed directly)  
@@ -18,19 +18,19 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Arm
 * Choosing Up-to-date Benchmarks (not discussed directly)  
 * Any Other Business
 
-### **New Members** {#new-members-19}
+### New Members
 
 * **Howard Pritchard** [https://www.linkedin.com/in/howard-pritchard-80b7623/](https://www.linkedin.com/in/howard-pritchard-80b7623/) started in SGI and Cray and is currently at Los Alamos since 2014\.  
 * **Indra Priyadarsini:** [https://www.linkedin.com/in/indra-ipd/?originalSubdomain=jp](https://www.linkedin.com/in/indra-ipd/?originalSubdomain=jp) re-introduced herself as a Research Scientist at IBM Research \- Tokyo. Works on AI for material science and is active in the AI Alliance
 
-### **Any Other Business** {#any-other-business-3}
+### Any Other Business
 
 * Juri and Wes discussed the use of PyTorch on Frontier where the is no standard PyTorch module available.  
 * Wes noted the SC24 paper on MCBound used to characterize performance on the Fugaku supercomputer.  
   * [https://sc24.conference-program.com/presentation/?id=pap563\&sess=sess379](https://sc24.conference-program.com/presentation/?id=pap563&sess=sess379)   
   * [https://www.cs.unibo.it/\~babaoglu/papers/pdf/SC24\_\_MCBound\_Framework.pdf](https://www.cs.unibo.it/~babaoglu/papers/pdf/SC24__MCBound_Framework.pdf) 
 
-### **MLCommons Science FAIR Concept Paper (AI Readiness)** {#mlcommons-science-fair-concept-paper-(ai-readiness)}
+### MLCommons Science FAIR Concept Paper (AI Readiness)
 
 * Christine Kirkpatrick noted her NSF RCN [https://www.farr-rcn.org/](https://www.farr-rcn.org/)    
 * Christine noted that the original paper had comments from Tom Gibbs  
@@ -56,7 +56,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Arm
 * Christine noted AI reproducibility at NeurIPS and AAAI  
 * She will reframe paper based on these discussions with her new outline given below
 
-### **AI Readiness Paper: New Outline from Christine Kirkpatrick** {#ai-readiness-paper:-new-outline-from-christine-kirkpatrick}
+### AI Readiness Paper: New Outline from Christine Kirkpatrick
 
 1. Introduction  
    1. Motivation  
@@ -77,7 +77,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Arm
 7. Future Work   
 8. Conclusion
 
-### **Benchmark Carpentry Paper** {#benchmark-carpentry-paper}
+### Benchmark Carpentry Paper
 
 * Gary noted that Application benchmarks consist of five (5) critical elements:  
   * algorithm performance  
@@ -102,7 +102,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Arm
 * Gary M noted that size of datasets can be important due to hardware infrastructure and backend setup  
   * e.g. single gpu very different to multiple gpu.
 
-### **Victor Lu’s Reproducibility Comments** {#victor-lu’s-reproducibility-comments}
+### Victor Lu’s Reproducibility Comments
 
 - My comment about topic that Christine brought up: "What data practices do you wish the ML/HPC/CS world would adopt?"1.) to establish a "data practice," it is essential to capture metadata that describes the AI-driven scientific research process. AIBOM (AI bill of material) is one type of metadata document. I created following document as part of the CISA AIBOM tiger team effort to capture AIBOM properly for research reproducibility. [https://docs.google.com/document/d/1HdS\_GxQvPA7y1ilspGmex-HN\_cnjriR1nrpr\_fnYzXY/edit?tab=t.0](https://docs.google.com/document/d/1HdS_GxQvPA7y1ilspGmex-HN_cnjriR1nrpr_fnYzXY/edit?tab=t.0) 
 

@@ -2,13 +2,13 @@
 title: "October 30, 2024"
 ---
 
-## **October 30, 2024** {#october-30,-2024}
+## October 30, 2024
 
-### **Present** {#present-45}
+### Present
 
 Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro,  Jeyan Thiyagalingam, Wes Brewer, Marisa Ahmad, Armstrong Foundjem, Piotr Luszczek, Riccardo Balin, Vijay Janapa Reddi, Victor Lu,  Jineta Banerjee, Andy Cheng, Shirley Moore, Claus Weiland, Nobin Sarwar
 
-### **Tentative Agenda** {#tentative-agenda-26}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Update on the relationship between HPC and Science working groups  
@@ -18,7 +18,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro,  Jeyan Thiyagal
   * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
 * ·  Any Other Business
 
-### **New Members** {#new-members-21}
+### New Members
 
 * **Shirley Moore** [LinkedIn](https://www.linkedin.com/in/shirley-moore-b4031819/) is an Associate Professor of Computer Science at the University of Texas at El Paso. Her research is in performance analysis tools and their use in performance modeling and optimization of HPC applications and systems. Her research group at UTEP is working on performance and scalability of scientific deep learning applications as part of a DOE ASCR funded research project. They have been working on performance analysis of the MLPerf HPC benchmarks, and she is excited to join and collaborate with members of the Science Working Group on analysis of scientific machine learning benchmarks. Hal Finkel encouraged her to involve MLCommons benchmarking of AI algorithms on DOE platforms.   
 * **Claus Weiland** [LinkedIn](https://www.linkedin.com/in/claus-weiland-395184125/?originalSubdomain=de) graduated in theoretical biology,and is scientific programmer at Senckenberg's Biodiversity & Climate Research Centre, Frankfurt with a large dinosaur outside it. His primary fields of activity cover high performance computing, and machine learning. His specific interest is data-mining on plant trait data, which are an important resource for agricultural usage, plant breeding and phytomedical applications. He is involved in EU projects to develop digital twins of conserved objects. This is part of [DiSSCo](https://www.dissco.eu/) Distributed System of Scientific Collections, which is a new world-class Research Infrastructure (RI) for Natural Science Collections. The DiSSCo RI aims to create a new business model for one European collection that digitally unifies all European natural science assets, sharing common access, curation, policies and practices across countries while ensuring that all the data complies with the FAIR principles (Findable, Accessible, Interoperable and Reusable data).  Within the Biodiversity Digital Twin (BioDT) project: DiSSCo is [leading](https://ri-portfolio.esfri.eu/ri-portfolio/portfolio-editions/2024-first-edition/catalogue/dissco/) the FAIR and FAIR Digital Object work to build the foundation for the FAIR Digital Twin. Generally interested in FAIR digital objects and AI readiness.  
@@ -30,7 +30,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro,  Jeyan Thiyagal
 * **Victor Lu** [LinkedIn](https://www.linkedin.com/in/luvictor/) reminded us that he was a Physics major working on Top Quark in 1994 and then Oracle for 17 years. For last two years he has been an independent  
 * **Nobin Sarwar** [LinkedIn](https://www.linkedin.com/in/smsnobin77/) is a first-year CS PhD student at University of Maryland Baltimore County, working on LLMs reasoning and robustness.
 
-### **General Discussion** {#general-discussion-1}
+### General Discussion
 
 * Marissa noted that the HPC-Science working group merger was in the hands of David Kanter and it probably does not need board approval.  
 * Gary Mazzaferro had socialized MLCommons benchmarks within NOAA NIST and the Department of Commerce.  
@@ -52,19 +52,19 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro,  Jeyan Thiyagal
 * There was a discussion on AlphaFold now extended to version 3 with the Chemistry Nobel Prize. ColabFold is much better than OpenFold according to Jeyan. There is later an extended discussion of weather benchmarks where high resolution regional predictions are particularly promising.  
 * Riccardo noted Argonne was developing benchmarks that would characterize the applications four years from now. These are influenced by AuroraGPT, Graph Neural Networks, LLM, Parallel Clustering and Inference among others. This could be public by next March.
 
-### **Shirley Moore’s Contribution** {#shirley-moore’s-contribution}
+### Shirley Moore’s Contribution
 
 * **Measurement tools:** The PAPI team, with whom we collaborate on an NSF-funded project, has developed a low-overhead C-Python interface to PAPI, call cyPAPI,  that can be used to instrument Python codes, including instrumenting Python deep learning codes at various stages of the compile chain. PAPI and cyPAPI provide access to a vast number of GPU hardware counter metrics that can be useful for understanding the reasons for poor performance. However, it is difficult for application developers to determine the relevant metrics. For example, there are on the order of a million different native CUPTI events for NVIDIA GPUs. The PAPI team is working on developing a higher level set of useful GPU metrics that abstract the low-level native events.  
 * **Characteristics of scientific ML applications:** Although we have intuition and anecdotal evidence that characteristics of scientific deep learning applications differ from those of mainstream deep learning — e.g., lower tensor core utilization, greater difficulty is taking advantage of lower precision — we need to investigate this further to quantitatively determine where differences exist between scientific and mainstream deep learning workloads. Quantifying characteristics specific to scientific ML could then help with determining what hardware architectures and optimizations could improve the efficiency of scentific ML.  
 
-### **Gary Mazzaferro’s Contribution** {#gary-mazzaferro’s-contribution}
+### Gary Mazzaferro’s Contribution
 
 * **Benchmark Relevance** Fox had brought up the topic surrounding benchmark relevance and expirations. Fox correctly asserted older benchmarks have become outdated due to advances in system architecture, computational hardware and algorithms. In ML, more specifically neural networks, the MLC algorithm group is active. Perhaps over simplified, science workloads can be considered a composition of interconnected algorithms. Adopting MLC algorithm benchmarks can keep science and HPC benchmarks current.   
 * **Meta-benchmarks:** As underlying computation techniques and computational infrastructure improve, aspects of AI application will advance with underlying capabilities. Application architectures and designs, workflows and components (libraries) may be updated for improved performance.   
   * Different applications may, and likely will, demand different workflows. A meta-benchmark for HPC and science applications can define application class workflows associated with a portfolio of  algorithm benchmarks.  The meta-benchmarks select from the algorithm benchmark portfolio which can be executed on platform configurations.    
 * **Meta-benchmarks Value:** Algorithm benchmark results may be applied to meta-benchmarks to aid in science and HPC application architecture, design and deployment platform decisions.  They can be thought of as a top level planning and resource matching tool aiding in experiment planning and budgeting. 
 
-### **FourCastNet and CorrDiff** {#fourcastnet-and-corrdiff}
+### FourCastNet and CorrDiff
 
 * Wes Brewer asked who within MLCommons might have been involved in porting NVIDIA/FourCastNet weather emulator to Frontier?   
 * Tom Gibbs from NVIDIA  wasn’t aware that anyone had tried to port FourCastNet to Frontier. He knows there is an open github but it’s about two years old, and there is a lot of NV platform specific SW in the current version.  
@@ -74,7 +74,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro,  Jeyan Thiyagal
   * AI introduces a FAR WIDER set of algorithm motifs and use cases and the workflows typically require a heterogenous system configuration for optimal throughput, or in some instances to support the use case at all.  
   * FWIW2 the hot new AI model for weather prediction is the Generative Correction Diffusion Model ([CorrDiff](https://docs.nvidia.com/deeplearning/modulus/modulus-core/examples/generative/corrdiff/readme.html)) for Km-scale Atmospheric Downscaling.
 
-### **Jeyan Thiyagalingam and Juri Papay’s Contribution on Data-Driven Local, Regional and Global Weather Models**   {#jeyan-thiyagalingam-and-juri-papay’s-contribution-on-data-driven-local,-regional-and-global-weather-models}
+### Jeyan Thiyagalingam and Juri Papay’s Contribution on Data-Driven Local, Regional and Global Weather Models  
 
  AI has become the state-of-the-art avenue for advancing weather forecasting. There are numerous global efforts on AI and weather models, and the overall landscape is very complex to draw useful blueprints, let alone understanding or using them out of the box. The complexities are due to the nature of the domain specifics, datasets, portability and focus. For instance, a large amount of work on this space is scattered across repositories with varying demands on datasets or usability, albeit having the potential to offer remarkable benefits and lessons to different branches of science and engineering. We will focus on a number of code bases, with the minimum of three, namely,  [CorrDiff](https://github.com/NVIDIA/modulus/tree/main/examples/generative/corrdiff), [DeepCAM](https://github.com/mlcommons/hpc/tree/main/deepcam), and [NeuralGCM](https://github.com/google-research/neuralgcm). These models have different focusses, and different aims, and here is a brief description:     
  

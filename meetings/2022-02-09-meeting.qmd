@@ -2,14 +2,14 @@
 title: "February 9, 2022"
 ---
 
-## **February 9, 2022** {#february-9,-2022}
+## February 9, 2022
 
-### **Present** {#present-108}
+### Present
 
 Tony Hey, Geoffrey Fox,   Gregor von Laszewski,  Hai ah Nam,  Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,  Steve Farrell  
 **Apologies:** Jeyan Thiyagalingam, Arjun Shankar,  Aristeidis Tsaris, 
 
-### **Tentative Agenda** {#tentative-agenda-86}
+### Tentative Agenda
 
 * New member introductions (None)  
 * Update on the status of MLCommons compliance, what has been achieved, and what needs to be done.  
@@ -18,13 +18,13 @@ Tony Hey, Geoffrey Fox,   Gregor von Laszewski,  Hai ah Nam,  Juri Papay,   Greg
 * Clarification on what each benchmark is going to measure. (Not Discussed)  
 * AOB
 
-### **MLCommons Compliance** {#mlcommons-compliance}
+### MLCommons Compliance
 
 * We were reassured that this was not difficult and Gregor had made progress with website and MLCommons rules  
   * [https://laszewsk.github.io/mlcommons/](https://laszewsk.github.io/mlcommons/)  
   * [https://github.com/laszewsk/mlcommons](https://github.com/laszewsk/mlcommons)
 
-### **Portability of benchmarks** {#portability-of-benchmarks}
+### Portability of benchmarks
 
 * This topic took the rest of the session with Juri describing his difficulty in running benchmarks on multiple machines with a horror story of how Horovod took 4 days to install. Horovod is needed to run on multi-node (each presumably multi-GPU) systems; running on single node, multi-GPU systems is supported without new software. Juri looked at STEMDL and Cloudmask   
 * Gregg Barrett noted that it sounds like we need to do an updated paper on the the Technical Debt of Machine Learning.  

@@ -2,17 +2,17 @@
 title: "January 11, 2023"
 ---
 
-## **January 11, 2023** {#january-11,-2023}
+## January 11, 2023
 
-### **Present** {#present-89}
+### Present
 
 Wesley Brewer,  Gregor von Laszewski, Gregg Barrett, Geoffrey Fox, Juri Papay, Murali Emani, Farzana Yasmin Ahmad, Piotr Luszczek, 
 
-### **Apologies** {#apologies-30}
+### Apologies
 
 Mallikarjun Shankar, Jeyan Thiyagalingam, Tony Hey
 
-### **Tentative Agenda** {#tentative-agenda-67}
+### Tentative Agenda
 
 * Any new members  
 * Increasing academic involvement in MLCommons   
@@ -21,12 +21,12 @@ Mallikarjun Shankar, Jeyan Thiyagalingam, Tony Hey
 * Discussion of new Benchmarks  
 * AOB
 
-### **Increasing Academic involvement in MLCommons**  {#increasing-academic-involvement-in-mlcommons}
+### Increasing Academic involvement in MLCommons 
 
 * We discussed actions that could help NSF Funding  
 * We discussed involving AI institutes
 
-### **Discussion of new Benchmarks OSMI-Bench- Wes Brewer** {#discussion-of-new-benchmarks-osmi-bench--wes-brewer}
+### Discussion of new Benchmarks OSMI-Bench- Wes Brewer
 
 The start comes from email from Wes Brewer:  
 I've made some progress on the Army Helicopter benchmark I described in   
@@ -41,13 +41,13 @@ Recently I was able to get the three reference neural network architectures from
 
 These are trained on synthetic data. Any model can actually be used with the benchmark, but at least we have some documented results using these three models in our MLHPC'21 paper. The small model architecture is identical to the paper, but the medium and large models are slightly different in the number of total trainable parameters. So the small model could be used to reproduce results from the paper. From now, it should be ready for external evaluation, and I will be glad to answer any questions or issues that come up with it. As I mentioned above, it was designed and tested on Summit, so to get it working on another HPC, may be a little work which I can provide some help.
 
-### **Discussion of new Benchmarks \- Juri Papay** {#discussion-of-new-benchmarks---juri-papay}
+### Discussion of new Benchmarks \- Juri Papay
 
 * Juri discussed 4 new benchmarks plus initial results of using the Cerebras AI machine [JuriPapaymlCommons\_11\_01\_2023\_v1.pptx](https://docs.google.com/presentation/d/1y8dCUMOJMC7SY-RSoR5okTei_fOdYRMU/edit?usp=sharing&ouid=114300777188823967496&rtpof=true&sd=true)   
 * These are Inelastic Neutron Scattering (STFC), FLImP (STFC) for microscope, Search for exoplanets (UCL), and Hydronet (Pacific Northwest Lab) predicting potential of a small cluster of water molecules.  
 * He also discussed using STEMDL at RAL,
 
-### **Any Other Business** {#any-other-business-12}
+### Any Other Business
 
 * Our ISC H3 workshop paper is published [https://link.springer.com/chapter/10.1007/978-3-031-23220-6\_4](https://link.springer.com/chapter/10.1007/978-3-031-23220-6_4)   
 * Gregor talked to Sam Jackson of RAL on the Cloudmask benchmark  

@@ -2,17 +2,17 @@
 title: "March 5, 2025"
 ---
 
-## **March 5, 2025** {#march-5,-2025}
+## March 5, 2025
 
-### **Present** {#present-36}
+### Present
 
 Andy Cheng, Armstrong Foundjem, Azza Ahmad, Bryan, Claus Weiland, David DeBomis, Dmitry Kondratyev, Gary Mazzaferro , Geoffrey Fox, Gregor von Laszewski, Gyuri Papay, Jeyan Thiyagalingam, Lee Sharma, Marco Colombo, Matt Sinclair, Nhan Tran, Piotr Luszczek, Pranav Gupta, Satoshi Iwata, Shirley Moore, Steven Farrell, Victor Lu, Wes Brewer
 
-### **Apologies** {#apologies-3}
+### Apologies
 
 Christine Kirkpatrick
 
-### **Tentative Agenda** {#tentative-agenda-18}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * **Dmitry Kondratyev (Purdue) from FastML presentation on "SONIC: A Portable Framework for as-a-Service ML Serving"**  
@@ -21,18 +21,18 @@ Christine Kirkpatrick
   * Please find the status and locations in minutes of the February 19 meeting.  
 * Any Other Business
 
-### **Gemini Transcript and Summary and Meet Recording** {#gemini-transcript-and-summary-and-meet-recording}
+### Gemini Transcript and Summary and Meet Recording
 
 * Gemini Transcript and Summary [MLC Science WG - 2025/03/05 07:50 PST - Notes by Gemini](https://docs.google.com/document/d/1eCqUpSQhvqcmmp7yWjOR37az16dQ20JmqidXdBoBT-s/edit?usp=sharing)  
 * Recording [MLC Science WG - 2025/03/05 07:50 PST - Recording](https://drive.google.com/file/d/1PNW66i93EctS8M-iBd211VUWHFBf5FOn/view?usp=sharing)  
 
-### **New Members** {#new-members-14}
+### New Members
 
 * **Bryan** no information  
 * **Dmitry Kondratyev** [https://www.linkedin.com/in/kondratyevd/](https://www.linkedin.com/in/kondratyevd/) Research Software Engineer with Ph.D. in experimental high energy physics, Experience at CERN (CMS) and Fermilab.  
 * **Pranav Gupta** [Pranav Gupta \- Lowe's Companies, Inc. | LinkedIn](https://www.linkedin.com/in/pranav-gupta-b6562043/) PhD data scientist passionate about cutting edge tech, e.g., LLMs and quantum computing. I am flexible and versatile, mitigate and manage risks well, and have sound technical literacy and communication skills. [prannerta100 (Pranav Gupta) · GitHub](http://www.github.com/prannerta100)  
 
-### **Presentation** {#presentation-1}
+### Presentation
 
 * **Dmitry Kondratyev** (Purdue) from FastML presentation on **"SONIC: A Portable Framework for as-a-Service ML Serving"**  
 * **Presentation** [SONIC ML Commons.pdf](https://drive.google.com/file/d/17UPiVj2xZUW2T0gzyM3zlXowesRyRveo/view?usp=sharing)  and see video recording above  
@@ -57,14 +57,14 @@ Christine Kirkpatrick
   * [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9274431](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9274431)   
   * [https://citeseerx.ist.psu.edu/document?repid=rep1\&type=pdf\&doi=30600b3fa27903201742b7fd76603760e6351a9d](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=30600b3fa27903201742b7fd76603760e6351a9d) 
 
-### **Catalog of Science Benchmarks**  {#catalog-of-science-benchmarks-2}
+### Catalog of Science Benchmarks 
 
 * Based on [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)    
 * Shirley Moore added PDEBench  
 * Victor Lu suggested Julia benchmarks [https://www.geeksforgeeks.org/benchmarking-in-julia/](https://www.geeksforgeeks.org/benchmarking-in-julia/)   
 * It was agreed that to be useful this caalog had to add value such as the taxonomy and quality comments, and not just be a list
 
-### **Merger of HPC and Science Working Groups** {#merger-of-hpc-and-science-working-groups}
+### Merger of HPC and Science Working Groups
 
 * Doodle polls have been started  
 * **MLCommons Science Working Group USA-Europe Meeting**  

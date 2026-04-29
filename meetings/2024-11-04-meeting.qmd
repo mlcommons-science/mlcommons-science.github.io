@@ -2,13 +2,13 @@
 title: "November 4, 2024 HPC Working Group Meeting"
 ---
 
-## **November 4, 2024 HPC Working Group Meeting** {#november-4,-2024-hpc-working-group-meeting}
+## November 4, 2024 HPC Working Group Meeting
 
-### **Present** {#present-44}
+### Present
 
 Andreas Prodromou (chair HPC), Murali Emani (co-chair HPC), Thorsten Kurth, Marisa Ahmad, Amit  Ruhela, Geoffrey Fox
 
-### **Discussion of Current Next Steps** {#discussion-of-current-next-steps}
+### Discussion of Current Next Steps
 
 Expanding on last meeting of HPC working group
 

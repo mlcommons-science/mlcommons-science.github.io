@@ -2,17 +2,17 @@
 title: "March 19, 2025"
 ---
 
-## **March 19, 2025** {#march-19,-2025}
+## March 19, 2025
 
-### **Present** {#present-35}
+### Present
 
 Amit M, Armstrong Foundjem, Claus Weiland, Cyril Kondratenko, David Kanter, Gregg Barrett, Geoffrey Fox, Gregor von Laszewski, Howard Pritchard, Javier Toledo,, Jeyan Thiyagalingam, Jihao Shi, Lee Sharma, Matt Sinclair, Murali Emani, Nhan Tran, Philip Harris, Piotr Luszczek, Sankar Avula,  Satoshi Iwata, Shirley Moore, Victor Lu, Vijay Janapa Reddi
 
-### **Apologies** {#apologies-2}
+### Apologies
 
 Christine Kirkpatrick
 
-### **Tentative Agenda** {#tentative-agenda-17}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Nhan Tran, Victor Lu, Matt Sinclair [MLCommons Science \- follow up discussion](https://docs.google.com/presentation/d/1n_M4jAKNGkoOcktW9wqnuAEZbzcRhm8OUN7aArdKT2k/edit)?   
@@ -21,13 +21,13 @@ Christine Kirkpatrick
   * Please find the status and locations in minutes of the February 19 meeting.  
 * Any Other Business
 
-### **New Members** {#new-members-13}
+### New Members
 
 * **Jihao Shi** from University of Michigan  
 * **Sankar Avula** LLM for medicine.   
 * **Cyril Kondratenko** reminded us that he came Feb. 19 and is from Nebius.
 
-### **Scientific benchmarks and challenges \- follow up discussion** {#scientific-benchmarks-and-challenges---follow-up-discussion-1}
+### Scientific benchmarks and challenges \- follow up discussion
 
 * Nhan’s presentation [MLCommons Science \- follow up discussion](https://docs.google.com/presentation/d/1n_M4jAKNGkoOcktW9wqnuAEZbzcRhm8OUN7aArdKT2k/edit)? suggested classifying by scientific domain, ML Motif and Computational Motif where latter is criterion largely used by MLPerf (Tiny, Mobile, Client, Datacenter, …)  
   * MLCommons has unclear categories; what is missing  
@@ -40,7 +40,7 @@ Christine Kirkpatrick
 * Kaggle is limited  
 * Workflow needs FAIR principles
 
-### **Catalog of Science benchmarks** {#catalog-of-science-benchmarks-1}
+### Catalog of Science benchmarks
 
 * Turning to catalog [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)    
 * Geoffrey described his attempt to use “Deep Research LLMs” to automate the finding of benchmarks details. These are recorded in columns called “Results from Gemini LLM Deep Research”, “Results from ChatGPT LLM”  as links to LLM result stored in Google Docs  
@@ -56,7 +56,7 @@ Christine Kirkpatrick
 * You can analyze MLCommons as long as you do it as a working group at a time but analyzing MLCommons as an entity gave inconsistent results  
 * Typically Gemini was more complete than OpenAI
 
-### **White Papers** {#white-papers-2}
+### White Papers
 
 * See papers 1 2 and 3 at February 19 minutes [https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1\&tab=t.0\#heading=h.b1jox6cj5tjq](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1&tab=t.0#heading=h.b1jox6cj5tjq)  
 * Paper 1: The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)  is fully active and encourages participation. Contact if interested [laszewski@gmail.com](mailto:laszewski@gmail.com)   
@@ -75,18 +75,18 @@ Christine Kirkpatrick
 * Paper 3 was aimed at a special publication opportunity but rejected. It is probably forever frozen. We need **more information** from Christine about this one.  
   * [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?tab=t.0](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?tab=t.0) 
 
-### **Any Other Business** {#any-other-business}
+### Any Other Business
 
 * Prompted by Jeyan, we discussed a presence at the ISC meeting [https://isc-hpc.com/](https://isc-hpc.com/) (Hamburg Germany, June 10-13 2025\) where we perhaps missed an opportunity as usually these are organized by HPC working group (Tom St. John)  
 * David Kanter confirmed that MLCommons will have no organizational presence at ISC  
 * It was noted by Lee that there is an ISC workshop on “The Future of Benchmarks in Supercomputing" [https://isc-hpc.com/program/](https://isc-hpc.com/program/) but it has no call for papers and no proceedings  
 * Jeyan and Piotr will be at ISC
 
-### **Data Breakout at the MLC Community Meeting 2025-03-11** {#data-breakout-at-the-mlc-community-meeting-2025-03-11}
+### Data Breakout at the MLC Community Meeting 2025-03-11
 
 * Note MLCommons Community meeting [WG updates Q12025 MLCommons Community Meeting](https://docs.google.com/presentation/d/1uESSZA3NqiTF58pwfzgxPw196UcC2ln_grUAcTGl1UU/edit)? March 11, 2025\. Geoffrey prepared slides but was not able to attend. He apologizes.
 
-#### **Motivating datasets** {#motivating-datasets}
+#### Motivating datasets
 
 1. What 3-5 datasets would most advance the field if they had rapidly evolving quality?  
    a.    Public time series datasets of production data (telemetry coming from complex systems such as manufacturing facilities and HPC systems).  
@@ -100,14 +100,14 @@ Christine Kirkpatrick
 2. How would you screen out \~100 important datasets with the goal of ensuring and auditing high quality metadata?  
    a.    Do they use ontology/machine readable semantic representations for domain specific elements?
 
-#### **Proprietary Datasets of Interest:** {#proprietary-datasets-of-interest:}
+#### Proprietary Datasets of Interest:
 
 1. The New York Times’ archive.  
 2. The comments on YouTube videos.
 
  
 
-#### **Formats/Tools** {#formats/tools}
+#### Formats/Tools
 
 1.  What are the most time consuming data tasks in actual AI development/deployment today?  
    1.  Semantic annotation/curation using controlled vocabularies, metadata harmonization  
@@ -121,7 +121,7 @@ Christine Kirkpatrick
    1.  Better tooling for (collaborative, iterative) dataset creation  
 4. Is one RAI data format emerging as dominant? If not, which one should? :-)
 
-#### **Licenses** {#licenses}
+#### Licenses
 
 1.  What kind of licensing concerns most typically trip up data use?  
    1. Non machine readable license pydescriptions          [https://ui.adsabs.harvard.edu/abs/2023arXiv231016787L/abstract](https://ui.adsabs.harvard.edu/abs/2023arXiv231016787L/abstract)  
@@ -130,7 +130,7 @@ Christine Kirkpatrick
    1. One way would be to educate data owners about algorithms which remove personally identifiable information (that’s one concern they might have).   
    2. Internal (private) datasets are usually considered to be valuable assets. Can they be even more valuable once made publicly available (e.g., more researchers working on these problems resulting in better models companies can use later?). 
 
-#### **Science** {#science}
+#### Science
 
 1. Which are the most active Dynabench sub-communities and what do they have in common?  
 2. What are the top 5 big challenge questions in AI data science, which, if answered, would radically advance the field?  
@@ -138,14 +138,14 @@ Christine Kirkpatrick
    2. Benchmarking algorithm resistance to unbalanced datasets or continuous learning.   
    3. Understanding what has been learned and quantifying how data affects the learning.
 
-#### **General Points** {#general-points}
+#### General Points
 
 1.  Specifically in the area of data valuation, what is the current SOTA?  
 2.  What would be the best way to get major AI conferences to add data tracks?  
 3. What would be the best way to encourage new/existing tracks to focus on "better datasets" rather than "more datasets"?  
    1. Knowledge graph of all datasets, benchmarks for metadata coverage
 
-#### **Challenges**  {#challenges}
+#### Challenges 
 
 1. How do we make progress in an age of data pollution?  
 2. What will plateau progress?  How do we address that?  

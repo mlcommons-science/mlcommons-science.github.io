@@ -2,13 +2,13 @@
 title: "October 1, 2025"
 ---
 
-## **October 1, 2025** {#october-1,-2025}
+## October 1, 2025
 
-### **Present** {#present-10}
+### Present
 
 * Armstrong Foundjem,  Ben Hawks, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Juri Papay, Marco Colombo, Matt Sinclair, Piotr Luszczek, Satoshi Iwata
 
-### **Tentative Agenda** {#tentative-agenda-5}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Continuing discussion of New Benchmarks and the catalog of Science benchmarks  
@@ -24,12 +24,12 @@ title: "October 1, 2025"
   * New white paper on Science Benchmarks  
 * Any Other Business
 
-### **Google meeting notes**  {#google-meeting-notes-1}
+### Google meeting notes 
 
 * [MLC Science WG \- 2025/10/01 07:58 PDT \- Notes by Gemini](https://docs.google.com/document/d/1vNcjDSdWnwGk9dxinjtGsYIkvlp1a54Io2BjnR3Q-Yg/edit?usp=sharing)   
 * Ben Hawks, Matt Sinclair, and gyuri papay discussed the presence of AI bots in the meeting, with gyuri papay expressing concern about AI's impact on employment. Matt Sinclair, Piotr Luszczek, and Gregor von Laszewski discussed the use of AI in code generation, while Ben Hawks updated on the paper's status, indicating an extended deadline due to inconsistencies and awaiting feedback from Nhan. Gregor von Laszewski reported on the carpentry paper, requesting Armstrong Foundjem to classify entries in a table and suggested shortening the energy section, while also discussing challenges in collecting data for the related research section.
 
-### **Discussion** {#discussion-6}
+### Discussion
 
 * Gregg Barrett noted that he was reviewing the benchmark spreadsheet and thought that members of this group would find ToolUniverse of interest:  
   * ToolUniverse website: [ToolUniverse \- 600+ Scientific Tools to Democratize AI scientists](https://aiscientist.tools/)   

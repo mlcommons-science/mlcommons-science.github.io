@@ -2,17 +2,17 @@
 title: "June 14, 2023"
 ---
 
-## **June 14, 2023** {#june-14,-2023}
+## June 14, 2023
 
-### **Present** {#present-79}
+### Present
 
 Gregg Barrett, Geoffrey Fox, Juri Papay, Wesley Brewer, Gregor von Laszewski, Piotr Luszczek, Aristeidis Tsaris, Tom Gibbs,  Mallikarjun Shankar, Murali Emani, 
 
-### **Apologies** {#apologies-24}
+### Apologies
 
 Christine Kirkpatrick, 
 
-### **Tentative Agenda** {#tentative-agenda-58}
+### Tentative Agenda
 
 * Any new members  
 * Any updates on Mailing Lists for the announcement of benchmarks  
@@ -23,7 +23,7 @@ Christine Kirkpatrick,
 * Patterns, Foundation Models, and Benchmarks  [AI4ScienceFoundationPatternsBenchmarksv2.pdf](https://drive.google.com/file/d/1ZAIeWX0zOociMuAv5c58c9QbCjBHZFT8/view?usp=sharing)    
 * AOB
 
-### **General Discussion** {#general-discussion-4}
+### General Discussion
 
 * We noted some login difficulties that some participants have to be admitted by hand; Shankar sent round a solution  
 * Juri has sent out announcements of our MLCommons benchmark release  
@@ -32,7 +32,7 @@ Christine Kirkpatrick,
 * It is 30 degrees Centigrade in London so laptop has coped by retreating to 0.4 Ghz clock cycle.  
 * It was noted by Virginia that we know of improvements in both the Earthquake and Cloudmask benchmarks; the latter is in collaboration with NYU
 
-### **AI Benchmarks and the March of Time** {#ai-benchmarks-and-the-march-of-time}
+### AI Benchmarks and the March of Time
 
 * Progress is rapid in AI; the transformer paper was 2017 and now we have advanced to ChatGPT  
 * Tom Gibbs noted that benchmarking as in MLPerf has not kept up with this rapid change  
@@ -54,7 +54,7 @@ Christine Kirkpatrick,
 * Map scientific problems to needed patterns of Scientific Discovery  
 * Patterns could guide NVIDIA
 
-### **Future of Science Working Group** {#future-of-science-working-group}
+### Future of Science Working Group
 
 * Above discussion relates to “ I think this relates back to also trying to get funding from the NSF for a systematic and sustainable effort.”  
 * FastML could be useful  

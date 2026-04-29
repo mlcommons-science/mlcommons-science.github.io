@@ -2,14 +2,14 @@
 title: "February 23, 2022"
 ---
 
-## **February 23, 2022** {#february-23,-2022}
+## February 23, 2022
 
-### **Present** {#present-107}
+### Present
 
 Tony Hey, Geoffrey Fox,   Gregor von Laszewski,  Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,  Arjun Shankar,  Aristeidis Tsaris,  Junqi Yin, Murali Emani, Cade Brown, Piotr Luszczek  
 **Apologies:** Jeyan Thiyagalingam,  Christine Kirkpatrick
 
-### **Tentative Agenda** {#tentative-agenda-85}
+### Tentative Agenda
 
 * New member introductions  
 * Special Presentation "FAIR Metadata and Launching Platform for Surrogates" by University of Tennessee, Cade Brown and  Piotr Luszczek  "  
@@ -17,11 +17,11 @@ Tony Hey, Geoffrey Fox,   Gregor von Laszewski,  Juri Papay,   Gregg Barrett,  F
 * Clarification on what each benchmark is going to measure.(NOT DONE)  
 * AOB
 
-### **New Member Introductions** {#new-member-introductions-4}
+### New Member Introductions
 
 Cade Brown and Piotr Luszczek from the University of Tennessee introduced themselves. They work in the [Innovative Computing Laboratory](https://www.icl.utk.edu/) led by Jack Dongarra at the University of Tennessee. Cade Brownis a Junior at UTK. 
 
-### **Presentation on FAIR Metadata and Launching Platform for Surrogates** {#presentation-on-fair-metadata-and-launching-platform-for-surrogates}
+### Presentation on FAIR Metadata and Launching Platform for Surrogates
 
 * This work is part of the SBI Surrogate Benchmark Initiative [SBI-FAIR  February 14 2022 Meeting](https://docs.google.com/document/d/15zad_ql6VBV5Q70WNYtGiXf0OStKKpgm3sxonfsS0Wo/edit?usp=sharing)  involving UTK, Argonne National Laboratory, Rutgers, Indiana University, and the University of Virginia.  
 * Cade Brown gave a wonderful presentation [CadeBrown-FAIR-Platform-Surrogates](https://docs.google.com/presentation/d/1sl5MAYodvQyfw46rYG0PHNL5nsf5NQYgrvGlF1Z_kHo/edit?usp=sharing) with goals:  
@@ -50,7 +50,7 @@ Cade Brown and Piotr Luszczek from the University of Tennessee introduced themse
 * Gregor noted work of fast.ai  
 * SciMLBench [SciMLBench\_MLCommons\_Science.pdf](https://drive.google.com/file/d/1oO96Elwwkn9bpxUDwkogtZ19xvZYFcNE/view?usp=sharing) and DLHub were suggested as related work
 
-### **Discussion of portability of benchmarks** {#discussion-of-portability-of-benchmarks}
+### Discussion of portability of benchmarks
 
 * This continued the theme of the previous topic and we agreed that we must specify two separate artifacts  
 * FAIR metadata links to performance results, data, and reference models  

@@ -2,13 +2,13 @@
 title: "February 5, 2025"
 ---
 
-## **February 5, 2025** {#february-5,-2025}
+## February 5, 2025
 
-### **Present** {#present-38}
+### Present
 
 Andrew Naylor, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Ben Hawks, Briana Cervantes, Elizabeth Campolongo, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Gyuri Papay, Hilmar Lapp, Hussain Ather, Karen Bennett, Marco Colombo, Marisa Ahmad, Matt Sinclair, Nhan Tran, Philip Harris, Piotr Luszczek, Victor Lu, Wes Brewer
 
-### **Tentative Agenda** {#tentative-agenda-20}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * **Special Presentation by Nhan V Tran of Fermilab in this morning's working group session  "(Fast ML) scientific benchmarks and challenges** [https://docs.google.com/presentation/d/1U\_mdrRTG8SLCJmAIPb5UtXN6WXN6MavKfPG0-YNf1JU/edit?usp=sharing](https://docs.google.com/presentation/d/1U_mdrRTG8SLCJmAIPb5UtXN6WXN6MavKfPG0-YNf1JU/edit?usp=sharing)  **(20 minutes)**  
@@ -19,7 +19,7 @@ Andrew Naylor, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Ben Hawks, Briana Cer
   * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing) (Quick discussion of Outline at this link)  
 * Any Other Business
 
-### **(Fast ML) scientific benchmarks and challenges** {#(fast-ml)-scientific-benchmarks-and-challenges}
+### (Fast ML) scientific benchmarks and challenges
 
 * Special Presentation by Nhan V Tran of Fermilab on  "(Fast ML) scientific benchmarks and challenges [MLCommons Benchmarks](https://docs.google.com/presentation/d/1U_mdrRTG8SLCJmAIPb5UtXN6WXN6MavKfPG0-YNf1JU/edit?usp=sharing)   
 * Recording is first talk in [MLC Science WG \- 2025/02/05 07:54 PST \- Recording](https://drive.google.com/file/d/13MF_BmbKvWgEhNufMGjqQiw1GgpOv6_m/view?usp=drive_link)   
@@ -44,7 +44,7 @@ Andrew Naylor, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Ben Hawks, Briana Cer
 * Victor Lu noted that it will be great to start from what Nian just presented and the benchmark carpentry paper effort to analyze what made  benchmarks effective for science computing.  
   * MLCommons is a great place to do this collaboration.  Similar collaboration on AI safety:   https://b2.dsri.org/pdf/B2-technical-outline.pdf
 
-### **NSF HDR ML Challenge** {#nsf-hdr-ml-challenge}
+### NSF HDR ML Challenge
 
 * **Elizabeth Campolongo** is a Senior Data Scientist, at [the Imageomics Institute](https://imageomics.osu.edu/) and AI & Biodiversity Change (ABC) [Global Climate Center](https://wildlabs.net/inventory/organisations/abc-global-climate-center) at the Ohio State University  
 * Special Presentation by  Elizabeth Campolongo on NSF HDR ML Challenge for Scientific Anomaly Discovery  [https://www.nsfhdr.org/mlchallenge](https://www.nsfhdr.org/mlchallenge) [https://docs.google.com/presentation/d/1My5xJpX6gnV81K7vjjrjS3SvxuclvKprnAJAFPz93oY/edit\#slide=id.g2fd52bae1f2\_0\_0](https://docs.google.com/presentation/d/1My5xJpX6gnV81K7vjjrjS3SvxuclvKprnAJAFPz93oY/edit#slide=id.g2fd52bae1f2_0_0)   
@@ -60,7 +60,7 @@ Andrew Naylor, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Ben Hawks, Briana Cer
 * Workshop will be held on Tuesday March 4th at AAAI Conference in Philadelphia  
 * Victor Lu noted that it will be interesting to compare the metadata captured for reproducibility in different fields \- physics vs chemistry vs biology
 
-### **HPC and Science Working Groups Merger** {#hpc-and-science-working-groups-merger}
+### HPC and Science Working Groups Merger
 
 * This was briefly discussed and Marisa will contact MLCommons support and work with Gregor on the Science \+ HPC working group GitHubs.   
 * We discussed timing (Wedenesday, 11 am Eastern is not possible for everybody) and frequency; once a week or once a fortnight?  
@@ -68,12 +68,12 @@ Andrew Naylor, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Ben Hawks, Briana Cer
 * Victor noted the MLCommons Discord Server and Nhan joined this.  
   * MLCommons channel at [https://discord.com/](https://discord.com/) 
 
-### **White Papers** {#white-papers-4}
+### White Papers
 
 * Gregor worked on paper and all but two issues which require Christines input are fixed. He offered to help in an online meeting with Christine. However she is out of town till the 13th of February?  
 * Gregor did not do much work on the other paper in written form 
 
-### **Any Other Business** {#any-other-business-1}
+### Any Other Business
 
 * Gregor attended OLCF meeting on frontiers power and energy consumption measurements, which was excellent.  It was not a tutorial, but just a list of which tools are available on Frontier to get started.  It also got into the details of some limitations of the AMD software to do that and that they work on fixing things. So this will be a moving target.  
   * [https://vimeo.com/1051746597](https://vimeo.com/1051746597)  

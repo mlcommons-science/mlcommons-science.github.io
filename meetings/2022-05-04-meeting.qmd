@@ -2,14 +2,14 @@
 title: "May 4, 2022"
 ---
 
-## **May 4, 2022** {#may-4,-2022}
+## May 4, 2022
 
-### **Present** {#present-102}
+### Present
 
 Junqi Yin, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Piotr Luszczek, Cade Brown, Geoffrey Fox, Christine Kirkpatrick, Murali Emani, Sergey Samsonau  
 **Apologies:** Tony Hey, Jeyan Thiyagalingam, Arjun Shankar
 
-### **Tentative Agenda** {#tentative-agenda-80}
+### Tentative Agenda
 
 * New member introductions  
 * Draft Submission Rules for Science WG benchmarks  
@@ -17,11 +17,11 @@ Junqi Yin, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ah
 * Status of Paper given ISC May 22 deadline  
 * AOB
 
-### **New member introductions** {#new-member-introductions-3}
+### New member introductions
 
 * Sergey Samsonau introduced himself.  He is in the NYU HPC group as the AI technical leader. He has 29 students working on AI projects for science researchers. He is looking for MLCommons-based projects. We agreed to arrange a separate call for activities to start this fall
 
-### **Draft Submission Rules for Science WG benchmarks** {#draft-submission-rules-for-science-wg-benchmarks}
+### Draft Submission Rules for Science WG benchmarks
 
 We start with Training Rules [MLPerf Training Rules](https://github.com/mlcommons/training_policies/blob/master/training_rules.adoc)   
 Add changes from the HPC working group  
@@ -49,12 +49,12 @@ Gregor and Juri are preparing the detailed rules [https://github.com/laszewsk/ml
 * Add logging to benchmarks and verify its correctness  
 * Gregor has sophisticated logging libraries
 
-### **Status of Benchmarks.given ISC's May 22 deadline** {#status-of-benchmarks.given-isc's-may-22-deadline}
+### Status of Benchmarks.given ISC's May 22 deadline
 
 * The training-validation split is changed for STEMDL  
 * Juri and Gregor will ensure codes are in good shape for ISC
 
-### **Status of Paper given ISC May 22 deadline** {#status-of-paper-given-isc-may-22-deadline}
+### Status of Paper given ISC May 22 deadline
 
 * Jeyan needs to enable Overleaf permissions [https://www.overleaf.com/project/626029f73ac2a85e05672eb0](https://www.overleaf.com/project/626029f73ac2a85e05672eb0)   
 * Geoffrey needs to champion the completion of paper

@@ -2,13 +2,13 @@
 title: "November 1, 2023"
 ---
 
-## **November 1, 2023** {#november-1,-2023}
+## November 1, 2023
 
-### **Present** {#present-68}
+### Present
 
 Geoffrey Fox, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Ying-Jung Chen, Yuhan (Douglas) Rao,  Piotr Luszczek, Mallikarjun Shankar, 
 
-### **Tentative Agenda** {#tentative-agenda-48}
+### Tentative Agenda
 
 * Any new members  
 * Foundation Models, including the special talk last week  [Foundation Models for Weather Climate Valentine Anantharaj.mp4](https://drive.google.com/file/d/1P6eJDbzVxknKiDhCKqaMIbEa9deOxtW1/view?usp=sharing)   
@@ -19,7 +19,7 @@ Geoffrey Fox, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Ba
 * Other Benchmarks  
 * AOB
 
-### **Discussion** {#discussion-21}
+### Discussion
 
 * Arjun noted that Hugging Face tracked power  
 * Yuhan Douglas Rao noted announcement from Met Office yesterday \- [AI to take weather forecasting by storm \- Met Office](https://www.metoffice.gov.uk/about-us/press-office/news/corporate/2023/ai-to-take-weather-forecasting-by-storm)   
@@ -39,11 +39,11 @@ Geoffrey Fox, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Ba
 * We discussed meeting at SC23 but only did this informally  
 * Christine mentioned publication identified for Power paper.
 
-## **October  24, 2023 11am – 12pm (EDT)** {#october-24,-2023-11am-–-12pm-(edt)}
+## October  24, 2023 11am – 12pm (EDT)
 
 Teams [Link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGJiNzMzYzgtMTVmZi00OTFjLTkwZDktODViZGJiYTAwYmEx%40thread.v2/0?context=%7b%22Tid%22%3a%22db3dbd43-4c4b-4544-9f8a-0553f9f5f25e%22%2c%22Oid%22%3a%22668f29ed-626a-4a2d-8b32-0bb454604d2a%22%7d)
 
-### **Toward an open science foundation model for weather and climate** {#toward-an-open-science-foundation-model-for-weather-and-climate}
+### Toward an open science foundation model for weather and climate
 
 *Valentine "Val" Anantharaj.Oak Ridge National Laboratory*  
 Reliable forecasting of weather and assessment of risks at any location or region of the world requires the coordinated monitoring of weather and acquisition of data. A variety of data are routinely collected from diverse observing systems, including ground-based instruments and satellite platforms. The data are then integrated via numerical weather prediction systems using sophisticated data assimilation techniques on supercomputers to produce timely predictions and associated uncertainties that are used to make routine probabilistic forecasts and issue any associated warnings.   
@@ -52,15 +52,15 @@ Recently, data-driven machine learning (ML) models have demonstrated their poten
    
 The speaker will also provide an overview of a recent collaborative initiative, led by NASA, IBM and ORNL, to develop an open science foundation model for weather and climate. The presentation will also outline and discuss the emerging opportunities for using foundation models leveraging the value chain of climate data from simulations and observations of the earth system while leveraging DOE exascale systems such as Frontier, and the Advanced Computing Environment (ACE) Testbed at the OLCF.
 
-### **Recording of talk**  {#recording-of-talk}
+### Recording of talk 
 
 [https://drive.google.com/file/d/1P6eJDbzVxknKiDhCKqaMIbEa9deOxtW1/view?usp=sharing](https://drive.google.com/file/d/1P6eJDbzVxknKiDhCKqaMIbEa9deOxtW1/view?usp=sharing) on MLCommons or at Oak Ridge [https://drive.google.com/file/d/1Fhx6tNxzSjPJDDJGaFf57qIKR5kxAafh/view?usp=sharing](https://drive.google.com/file/d/1Fhx6tNxzSjPJDDJGaFf57qIKR5kxAafh/view?usp=sharing) 
 
-### **Present** {#present-69}
+### Present
 
 Geoffrey Fox, Wes Brewer,Valentine Anantharaj, Tony Hey, Gregor von Laszewski,  Piotr Luszczek, Aristeidis Tsaris, Murali Emani, Shantenu Jha, Dingwen Tao,  Yuhan Rao, Amit  Ruhela, Przemyslaw Porebski, and others for a total of 25\.
 
-### **Talk Highlights** {#talk-highlights}
+### Talk Highlights
 
 * Val described work with Oak Ridge, IBM, NASA, University of Alabama Huntsville, Chicago, Stanford, Colorado State, Its foundation model uses thes the IBM-NASA HLS (Harmonized Landsat Sentinel) Foundation model discussed earlier in our sessions [NASA and IBM Openly Release Geospatial AI Foundation Model for NASA Earth Observation Data | Earthdata](https://www.earthdata.nasa.gov/news/impact-ibm-hls-foundation-model)   
 * Weather and Climate forecasting has quietly but dramatically improved over the last few decades  

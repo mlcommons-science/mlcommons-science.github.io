@@ -2,17 +2,17 @@
 title: "Meeting Notes - March 10, 2026"
 ---
 
-## **March 10, 2026 (9.05 pm. ET for Asia-USA)**
+## March 10, 2026 (9.05 pm. ET for Asia-USA)
 
-### **Present**
+### Present
 
 - Bettaieb Walid, Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski, Satoshi Iwata, Tues Day, Victor Lu
 
-### **New Member**
+### New Member
 
 - **Walid Bettaieb** from Tunisia <https://www.linkedin.com/in/bettaiebwalid12/>, He is currently an embedded system engineering student, and really passioned about embedded systems, and space sience. Eager to learn from you  all and as well contribute if possible. It is 2 am in Tunisia timeline
 
-### **Meeting Notes**
+### Meeting Notes
 
 - [MLC Science WG - 2026/03/11 01:00 GMT - Notes by Gemini](https://docs.google.com/document/d/1Mlbmt_SyL5rEz9T5_dTOusNxToIJjfrY9mY3vP8tXOQ/edit?tab=t.yahwnthrd4jl)
 
@@ -27,7 +27,7 @@ title: "Meeting Notes - March 10, 2026"
 - **Performance and Standardization Discussion**\
   A discussion on data processing performance confirmed that the underlying file system is often the bottleneck, with ZFS showing a 75% performance improvement over ext4 in a large dataset test. It was proposed that SNIA help map out various scheduling layers from user level to hardware level to guide future benchmark design. 
 
-### **Discussion**
+### Discussion
 
 - Tues Day noted [2026 AI Knowledge Assessment](https://www.formaly.io/survey/f88bcfe8-081d-47ec-8a87-92519dca7c7b).Here's a stakeholder survey with chat features - any thoughts on FOrmally as a survey platform?
 

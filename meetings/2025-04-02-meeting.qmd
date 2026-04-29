@@ -2,17 +2,17 @@
 title: "April 2, 2025"
 ---
 
-## **April 2, 2025** {#april-2,-2025}
+## April 2, 2025
 
-### **Present** {#present-34}
+### Present
 
 Azza Ahmad, Datta Nimmaturi, Fred Sala, Gary Mazzaferro, Gregg Barrett, Geoffrey Fox, Gregor von Laszewski, Howard Pritchard, Javier Toledo, Jihao Shi, Juri Papay, Matt Sinclair, Murali Emani, Nhan Tran, Philip Harris, Satoshi Iwata, Shantenu Jha, Shirley Moore, Tom Gibbs, Victor Lu
 
-### **Apologies** {#apologies-1}
+### Apologies
 
 Christine Kirkpatrick
 
-### **Tentative Agenda** {#tentative-agenda-16}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Presentation by Frederic Sala on TPBench [Public Problems and Model Solutions – TP Bench](https://tpbench.org/?page_id=2) ([https://pages.cs.wisc.edu/\~fredsala/](https://pages.cs.wisc.edu/~fredsala/)) will cover:  
@@ -23,7 +23,7 @@ Christine Kirkpatrick
   * Note benchmark summaries from ChatGPT and Gemini Deep Research  
 * Any Other Busines
 
-### **Google Meet Notes** {#google-meet-notes-28}
+### Google Meet Notes
 
 * Full notes are at [Copy of MLC Science WG \- 2025/04/02 07:56 PDT \- Notes by Gemini](https://docs.google.com/document/d/1WYT3y2IGC2GB3Ux4zvoDChjXm3wNXa_WsBVNdGmO1JQ/edit?usp=drive_link).  
 * Summary of these is:  
@@ -36,12 +36,12 @@ Christine Kirkpatrick
   * Plans for future presentations, including one from the Aurora GPT team.  
   * The main focus of the meeting was Fred Sala's presentation on TPBench and the related discussions about AI benchmarking in theoretical physics.
 
-### **New Members** {#new-members-12}
+### New Members
 
 * **Datta Nimmaturi** [Datta Nimmaturi \- Machine Learning Engineer 3 \- Nutanix | LinkedIn](https://www.linkedin.com/in/datta0/) AI/ML Engineer at Nutanix and currently research engineering LLMs  
 * Frederic Sala [Frederic Sala \- Assistant Professor, Computer Sciences Department \- University of Wisconsin-Madison | LinkedIn](https://www.linkedin.com/in/frederic-sala-b3a7019/) is an assistant professor in the Computer Sciences department at the University of Wisconsin-Madison, where I study the fundamentals of data-driven systems. He is also a research scientist at Snorkel, where they are building a data-first approach to AI.
 
-### **Presentation on TPBench** {#presentation-on-tpbench}
+### Presentation on TPBench
 
 * Fred Sala’s wonderful talk was recorded [https://drive.google.com/file/d/1fCeEj5bCIl6Hm86CSOO\_9MzcT4EFeWGp/view?usp=sharing](https://drive.google.com/file/d/1fCeEj5bCIl6Hm86CSOO_9MzcT4EFeWGp/view?usp=sharing)  
   * The current state of "reasoning" models, how they work, what they've been evaluated on, and their known weak spots,  
@@ -51,20 +51,20 @@ Christine Kirkpatrick
 * The Google Meet notes  linked above have an accurate summary of the talk.   
 * We will try to continue theme with Frank Capello arranging a presentation from the AuroraGPT evaluation team.
 
-### **New Meeting Time** {#new-meeting-time}
+### New Meeting Time
 
 * After Doodle poll, we suggested every other Tuesday at 9 pm starting April 22, meeting every two weeks.  We passed this idea to David Kanter to approve.
 
-### **Scientific benchmarks and challenges \- follow up discussion** {#scientific-benchmarks-and-challenges---follow-up-discussion}
+### Scientific benchmarks and challenges \- follow up discussion
 
 * Need to follow up with MLComons How to fix table. Verify with Harshat which column we identified are not properly defined in benchmark.
 
-### **Catalog of Science benchmarks** {#catalog-of-science-benchmarks}
+### Catalog of Science benchmarks
 
 * [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)
 
 
-### **White Papers** {#white-papers-1}
+### White Papers
 
 * Gregor has opportunity to create special collection with Frontiers in High Performance computing. Should we proceed with this, what is the topic.   
   * Gregor asked for clarification what documents are needed  

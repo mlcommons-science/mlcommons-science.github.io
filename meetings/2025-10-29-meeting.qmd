@@ -2,13 +2,13 @@
 title: "October 29, 2025"
 ---
 
-## **October 29, 2025** {#october-29,-2025}
+## October 29, 2025
 
-### **Present** {#present-6}
+### Present
 
 * Abdulkareem Alsudais, Armstrong Foundjem,  Ben Hawks, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Howard Pritchard, Iris Johnson, Jeyan Thiyagalingam, Juri Papay, Marco Colombo, Matt Sinclair, Piotr Luszczek, Satoshi Iwata, Tom Gibbs, Victor  Lu, Wes Brewer, Xiaoqin Huang
 
-### **Tentative Agenda** {#tentative-agenda-3}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * White Papers and Published Papers  
@@ -17,7 +17,7 @@ title: "October 29, 2025"
   * New white papers  
 * Any Other Business
 
-### **Google Meet Notes** {#google-meet-notes-6}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/10/29 07:45 PDT \- Notes by Gemini](https://docs.google.com/document/d/1FyjUFg2wetL1Ko5Pdh6bqDaleRawqZfq8K98kXppe_Q/edit?usp=sharing)  
 * In the MLC Science WG meeting on October 29, 2025, the team, including Gregor von Laszewski, Ben Hawks, Geoffrey, and Matt Sinclair, discussed consolidating benchmark tables and verifying ML Commons benchmarks. Key points included:  
@@ -36,11 +36,11 @@ title: "October 29, 2025"
 * **Meeting Wrap-up and Next Steps:** The meeting closed with an emphasis on the ongoing work on benchmark tables and a call for help with adding missing benchmarks.  
 * **Suggested Next Steps include:** Armstrong Foundjem sharing benchmark information, Ben Hawks reviewing the benchmark list, Marco Colombo adding a LaTeX export feature, Ben Hawks sending Geoffrey Fox an Overleaf invite, Matt Sinclair revisiting the acknowledgement section, Gregor von Laszewski organizing funding discussions, Matt Sinclair and Gregor von Laszewski scheduling a meeting about the revised table, Gary Mazzaferro sending a paper analysis, and Piotr Luszczek reviewing the HPC section.
 
-### **New Members** {#new-members-1}
+### New Members
 
 * Iris Johnson is a Lecturer & Researcher, Consultant at NHL Stenden Education Administration Programs Leeuwarden, Friesland, The Netherlands. She learnt about MLCommons  at an ISO meeting. Her interests include standardisation, pattern discovery, data science, programming languages, complex systems, machine learning & AI [https://www.linkedin.com/in/irisyjohnson/](https://www.linkedin.com/in/irisyjohnson/) 
 
-### **Discussion** {#discussion-4}
+### Discussion
 
 * Gregg noted that we need to use this work to motivate MLC with a standardised template for benchmark reporting \- for other working groups to use.  
 * Gregg thanked Gregor being first on this one. As Gregg recalls, Gregor came up with the Carpentry name \- taking over the paper that Christine, Gregg, and others had been working on.

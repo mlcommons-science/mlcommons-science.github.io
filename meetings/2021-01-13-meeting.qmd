@@ -2,11 +2,11 @@
 title: "January 13, 2021"
 ---
 
-## **January 13, 2021** {#january-13,-2021}
+## January 13, 2021
 
 See slides [here](https://drive.google.com/file/d/1zp6KE54bTXRfIkZwONgljnqTEc4gBcpm/view?usp=sharing%20). 
 
-### **Discussion Points**  {#discussion-points-4}
+### Discussion Points 
 
 1. New Members to the WG: Nathan Frey ([https://www.linkedin.com/public-profile/in/ncfrey](https://www.linkedin.com/public-profile/in/ncfrey)) signed up to the WG shortly before the move to MLCommons he was  lost in the move. Also WG has two new members: Anuroop Sriram  from  Open Catalyst ([https://opencatalystproject.org](https://opencatalystproject.org/)) and Siddharth Goyal from the Facebook side that are interested in participating in the WG. Open Catalyst itself could be a good future benchmark candidate. When Geoffrey spoke to  them in December, he suggested that they hold off joining so as not to get lost in the migration.  
      
@@ -22,13 +22,13 @@ See slides [here](https://drive.google.com/file/d/1zp6KE54bTXRfIkZwONgljnqTEc4gB
      
 6. Poster for the WG: As was done with some of the other WG’s, Geoffrey was  happy to start working on a poster as soon as we have the initial benchmarks confirmed – and perhaps an online overview/introduction as we did for MLCube on Towards Data Science may be a good idea. 
 
-### **Action Points**  {#action-points-3}
+### Action Points 
 
 1. Jeyan to formulate a plan for providing access to the DGX2 system at RAL   
 2. The WG group to decide the class of ML algorithms on which the benchmarks are based   
 3. The Benchmark owners are requested to come up with relevant metrics (some of them being domain-specific) 
 
-## **TEMPLATE: Meeting, \<Month, dd, yyyy\>** {#template:-meeting,-<month,-dd,-yyyy>}
+## TEMPLATE: Meeting, \<Month, dd, yyyy\>
 
 Attendance is taken automatically by the meeting software. 
 
@@ -53,7 +53,7 @@ Attendance is taken automatically by the meeting software.
 *  \<description of AI 1\> (\<list of people taking the AI\>).  
 * \<description of AI 2\> (\<list of people taking the AI\>).
 
-## **TEMPLATE: Vote, \<brief proposition summary\> \<Month, dd, yyyy\>** {#template:-vote,-<brief-proposition-summary>-<month,-dd,-yyyy>}
+## TEMPLATE: Vote, \<brief proposition summary\> \<Month, dd, yyyy\>
 
 **Proposition:** \<text describing the proposition as it was defined for the vote\>.
 

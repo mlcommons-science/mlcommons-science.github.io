@@ -2,17 +2,17 @@
 title: "January 10, 2024"
 ---
 
-## **January 10, 2024** {#january-10,-2024}
+## January 10, 2024
 
-### **Present** {#present-65}
+### Present
 
 Geoffrey Fox, Wes Brewer (connection issues), Gregor von Laszewski, Murali Emani,Tom Gibbs, Armstrong Foundjem, Ying-Jung Chen (via Otter AI), Ganesh Sharma Tyagali (via Notetaker), Victor Lu, Elie Alhajjar, Sutanay Choudhury
 
-### **Apologies**  {#apologies-15}
+### Apologies 
 
 Gregg Barrett, Mallikarjun Shankar
 
-### **Tentative Agenda** {#tentative-agenda-45}
+### Tentative Agenda
 
 * Any new members  
 * White Papers  
@@ -23,13 +23,13 @@ Gregg Barrett, Mallikarjun Shankar
 * Agenda for the year  
 * AOB
 
-### **New Members** {#new-members-31}
+### New Members
 
 * Elie Alhajjar [https://sites.google.com/site/eliealhajjar/home](https://sites.google.com/site/eliealhajjar/home) is Senior Scientist, Engineering and Applied Sciences, RAND Corporation, Arlington, VA  
 * Victor Lu [https://www.linkedin.com/in/luvictor](https://www.linkedin.com/in/luvictor) worked at Fermilab and is now an independent consultant  
 * Sutanay Choudhury [https://www.linkedin.com/in/sutanay](https://www.linkedin.com/in/sutanay) Chief Scientist Data Sciences @ PNNL | Generative AI, Precision Medicine, Computational Chemistry, Knowledge Graphs | Co-Director CTCI (Computational and Theoretical Chemistry Institute). Works on AI Chemistry with molecular graph networks and use of GPUs for graphs.. Different scope from Open catalyst. Will extend PyTorch Geometric. Graphs for chemistry are 10^6 to 10^8 of small graphs and not one giant graph as in Social Networks. Sutanay can talk about work with UK (Juri) on power and Scaling from August 2022\. Looking at Graphcore [https://www.graphcore.ai/posts/graphcore-presenting-fp8-research-at-neurips-2023](https://www.graphcore.ai/posts/graphcore-presenting-fp8-research-at-neurips-2023) 
 
-### **General Discussion** {#general-discussion-3}
+### General Discussion
 
 * Yuhan Douglas Rao noted AstroCLIP [https://arxiv.org/abs/2310.03024](https://arxiv.org/abs/2310.03024) and Harmonized Landsat and Sentinel-2 (HLS) data \- [https://www.earthdata.nasa.gov/esds/harmonized-landsat-sentinel-2](https://www.earthdata.nasa.gov/esds/harmonized-landsat-sentinel-2)  
 * We discussed reconciling images of different resolution for Fioundation pretraining  

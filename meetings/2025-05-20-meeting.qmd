@@ -2,23 +2,23 @@
 title: "May 20, 2025 (9.05 pm. ET for Asia-USA)"
 ---
 
-## **May 20, 2025 (9.05 pm. ET for Asia-USA)** {#may-20,-2025-(9.05-pm.-et-for-asia-usa)}
+## May 20, 2025 (9.05 pm. ET for Asia-USA)
 
-### **Present** {#present-28}
+### Present
 
 Geoffrey Fox, Dave Ishii, Gregor von Laszewski, Javier Toledo, Satoshi Iwata, Victor Lu, 
 
-### **New Members** {#new-members-9}
+### New Members
 
 * **Dave Ishii** [Dave Ishii \- Kiara Inc. | LinkedIn](https://www.linkedin.com/in/dai19980401/) [Daisuke Ishii](https://www.ishiid.com/) is a Fintech and AI entrepreneur with a background in pure mathematics, fashion business, and international market development. As Founder & CEO of Kiara Inc., he builds products that bridge technology and human experience, like the Kiara Translator app for multilingual teams.
 
-### **Google Meet Notes** {#google-meet-notes-24}
+### Google Meet Notes
 
 [MLC Science WG \- 2025/05/21 02:01 BST \- Notes by Gemini](https://docs.google.com/document/d/1doRQcwOf1sUEE3I7HCzT90P_T_9dgzgS54opGa8B1HA/edit?usp=sharing) 
 
 * **Summary:** Gregor von Laszewski and Geoffrey Fox discussed meeting note takers and the automatic note-taking feature in Google Meet. Progress on the paper was reported by Gregor von Laszewski regarding contributions from Armstrong and delays with Nhan's AI benchmark table; they also considered adding language and scale to the benchmark table and clarified the definition of a benchmark with Geoffrey Fox, who emphasized the importance of metrics. Victor Lu suggested outreach to other groups like MLPerf, and the participants agreed to focus on writing the current paper, potentially separating the energy section and planning a future paper on existing science benchmarks, with Victor Lu offering to contribute insights from database benchmarking
 
-### **Discussion** {#discussion-13}
+### Discussion
 
 * Victor noted MLCommons power paper [MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from µWatts to MWatts for Sustainable AI](https://arxiv.org/html/2410.12032v1)   
 * And [A Guide to Hand-Calculating FLOPs and MACs | by Pasha Shaik | Medium](https://medium.com/@pashashaik/a-guide-to-hand-calculating-flops-and-macs-fa5221ce5ccc)   

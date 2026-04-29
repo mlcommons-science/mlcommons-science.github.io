@@ -2,13 +2,13 @@
 title: "August 26, 2025 (9.05 pm. ET for Asia-USA)"
 ---
 
-## **August 26, 2025 (9.05 pm. ET for Asia-USA)** {#august-26,-2025-(9.05-pm.-et-for-asia-usa)}
+## August 26, 2025 (9.05 pm. ET for Asia-USA)
 
-### **Present** {#present-15}
+### Present
 
  Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski,, Satoshi Iwata, Tues Day, Victor Lu
 
-### **Google Meet Notes** {#google-meet-notes-11}
+### Google Meet Notes
 
 * A marathon 3 hour session  
 * [MLC Science WG \- 2025/08/27 01:52 BST \- Notes by Gemini](https://docs.google.com/document/d/1Myt3n4PT9AaIudjc-7NkuVpiN9K79Jl4nRAHlG_kkKs/edit?tab=t.u1nfdiuzea8i)   
@@ -44,7 +44,7 @@ title: "August 26, 2025 (9.05 pm. ET for Asia-USA)"
 * TUES DAY will read Gary Mazzaferro's paper on value systems in 60 cultures.  
 * TUES DAY will review sections 3.3 (syncopas) and 3.8 (deception) of the ChatGPT-5 system 
 
-### **Discussion** {#discussion-10}
+### Discussion
 
 * TUES DAY:: [Precisely understand complex AI behaviors](https://transluce.org/docent)  you may be interested in taking a look at this  
   * 'll watch\! terence tao? or did i mishear  

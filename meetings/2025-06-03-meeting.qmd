@@ -2,22 +2,22 @@
 title: "June 3, 2025 (9.05 pm. ET for Asia-USA)"
 ---
 
-## **June 3, 2025 (9.05 pm. ET for Asia-USA)** {#june-3,-2025-(9.05-pm.-et-for-asia-usa)}
+## June 3, 2025 (9.05 pm. ET for Asia-USA)
 
-### **Present** {#present-26}
+### Present
 
 Annajiat Alim Rasel, Douglas Fils, Geoffrey Fox, Gregor von Laszewski, Nhan Tran, Satoshi Iwata, Victor Lu, 
 
-### **New Member** {#new-member-3}
+### New Member
 
 * **Annajiat Alim Rasel** [Annajiat Alim Rasel \- Certified Instructor Trainer \- \- | The Carpentries LinkedIn](https://linkedin.com/in/annajiat) is a senior lecturer in Computer Science and Engineering department at Brac University School of Data and Sciences, and in the Carpentries. He loves everything data and computing and listening to learn different view points. He has a lot of interests in ML and HPC..
 
-### **Google Meet Notes** {#google-meet-notes-22}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/06/04 01:50 BST \- Notes by Gemini](https://docs.google.com/document/d/12DNmQYqydnwX31c1VRQe1cmixTVEM6wHWhhQFOpmk1A/edit?usp=sharing)  
 * **Summary:** Geoffrey Fox, Nhan Tran, Gregor von Laszewski, Victor Lu, and Annajiat Alim Rasel discussed ML Commons benchmarks, the challenges of scientific computing benchmarks, and varying definitions of what constitutes a benchmark. The group explored the structure of benchmark repositories, the potential of OpenML as a backend, and the creation of a taxonomy for scientific ML benchmarks. Nhan Tran proposed a white paper on this work, and Geoffrey Fox suggested that David Caner and Yuri lead an effort to consolidate benchmark definitions based on input from the participants.
 
-### **Discussion** {#discussion-12}
+### Discussion
 
 * The connection between the Carpentry paper, a potential breakoff paper on benchmarks and the current benchmark list was discussion  
 * The importance of discussing definitions of benchmarks was made clear  

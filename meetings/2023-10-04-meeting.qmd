@@ -2,24 +2,24 @@
 title: "October 4, 2023"
 ---
 
-## **October 4, 2023** {#october-4,-2023}
+## October 4, 2023
 
-### **Present** {#present-71}
+### Present
 
 Geoffrey Fox, Piotr Luszczek, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Murali Emani, Yuhan (Douglas) Rao
 
-### **Apologies**  {#apologies-18}
+### Apologies 
 
 Mallikarjun Shankar, Ying-Jung Chen
 
-### **Tentative Agenda** {#tentative-agenda-50}
+### Tentative Agenda
 
 * Any new members  
 * White Papers starting with energy [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
 * Other Benchmarks, including Foundation models  
 * AOB
 
-### **Discussion** {#discussion-23}
+### Discussion
 
 * This description is short as Geoffrey was struggling with a frozen laptop.  
 * Juri rejoined our meetings withe enthusiasm  

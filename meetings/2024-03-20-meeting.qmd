@@ -2,17 +2,17 @@
 title: "March 20, 2024"
 ---
 
-## **March 20, 2024** {#march-20,-2024}
+## March 20, 2024
 
-### **Present** {#present-61}
+### Present
 
 Geoffrey Fox, Gregor von Laszewski, Gregg Barrett,  Wes Brewer, Piotr Luszczek, Xavier Coubez, Armstrong Foundjem, Victor Lu,  Elie Alhajjar, Sarah Chan, Adarsh Agrawal, Craig Peters,
 
-### **Apologies**  {#apologies-12}
+### Apologies 
 
 Christine Kirkpatrick, Vijay Janapa Reddi, Tom Gibbs
 
-### **Tentative Agenda** {#tentative-agenda-41}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * News from NVIDIA GTC  
@@ -20,14 +20,14 @@ Christine Kirkpatrick, Vijay Janapa Reddi, Tom Gibbs
 * Updates on Papers and Projects  
 * Any Other Business
 
-### **New Members** {#new-members-28}
+### New Members
 
 * **Sarah Chan** [https://www.linkedin.com/in/queserasarah/](https://www.linkedin.com/in/queserasarah/)  [sarah.chan@sagebase.org](mailto:sarah.chan@sagebase.org) PhD in Molecular Biology and 12 years global business development experience in taking early stage life science technologies to market. Moved from Singapore to Seattle in 2023 to work in Sage Bionetworks · [https://sagebionetworks.org/](https://sagebionetworks.org/) , which aims to encourage deeper more fruitful collaborations to advance bioscience.  
 * **Adarsh Agrawal**, Stony Brook University CS Masters, August 2023 \- December 2024, interested in LLM  
 * **Craig Peters** [https://www.linkedin.com/in/craiglpeters/](https://www.linkedin.com/in/craiglpeters/) [craiglpeters@github.com](mailto:craiglpeters@github.com) is a product manager at GitHub. He is interested in contributing to reproducible science and works on an open specification for reproducible environments called Dev Containers documented at [https://containers.dev](https://containers.dev)  
   * Works well with VSCode environments
 
-### **GTC Keynote** {#gtc-keynote}
+### GTC Keynote
 
 * Piotr described experiences at NVIDIA GTC meeting  
 * CEO Jensen Huang gave a great talk introducing the new Blackwell architecture [https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing)   
@@ -40,7 +40,7 @@ Christine Kirkpatrick, Vijay Janapa Reddi, Tom Gibbs
 * NIMS: NVIDIA NIM is a set of easy-to-use microservices for accelerating the deployment of foundation models on any cloud or data center and helps keep your data secure.  
 * TSMC link for fabrication
 
-### **Discussion** {#discussion-19}
+### Discussion
 
 * Discussion of digital twins with Wes commenting on his team’s model for Frontier  
 * Digital Twin workshop on and using HPC [https://sites.google.com/view/sc24digitaltwinsforhpc/home](https://sites.google.com/view/sc24digitaltwinsforhpc/home)   

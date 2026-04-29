@@ -2,17 +2,17 @@
 title: "December 13, 2023"
 ---
 
-## **December 13, 2023** {#december-13,-2023}
+## December 13, 2023
 
-### **Present** {#present-66}
+### Present
 
 Geoffrey Fox, Piotr Luszczek, Wes Brewer, Feiyi Wang, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Armstrong Foundjem, Andrew Shao
 
-### **Apologies**  {#apologies-16}
+### Apologies 
 
 Xavier Coubez, Juri Papay, Mallikarjun Shankar
 
-### **Tentative Agenda** {#tentative-agenda-46}
+### Tentative Agenda
 
 * Any new members  
 * Invited Talk by Andrew Shao HPE  
@@ -23,11 +23,11 @@ Xavier Coubez, Juri Papay, Mallikarjun Shankar
 * Other Benchmarks  
 * AOB
 
-### **New Members** {#new-members-32}
+### New Members
 
 We introduced ourselves to Andrew Shao [https://www.linkedin.com/in/ashao/](https://www.linkedin.com/in/ashao/) who gave his background as an undergraduate at UCSD, Masters/Ph.D. in Oceanography at the University of Washington, Postdoc at Princeton and the University of Victoria, Canada. He then worked for NOAA staying in Victoria where he is Senior HPC\&AI Research Scientist at HPE.
 
-### **Invited Talk by Andrew Shao HPE** {#invited-talk-by-andrew-shao-hpe}
+### Invited Talk by Andrew Shao HPE
 
 **Combining HPC simulations and AI with HPE’s SmartSim**
 
@@ -69,7 +69,7 @@ Recording: [https://drive.google.com/open?id=1pPmLPkwoReUnrsGPl1dCzDTPUxEE481W](
 * Andrew said it should work with some extra attention  
 * There is support for container based simulations but SmartSim runs on bare metal
 
-### **Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency** {#using-benchmarking-data-to-inform-decisions-related-to-machine-learning-resource-efficiency}
+### Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency
 
 * Christine Kirkpatrick noted for those of you on the paper about energy efficiency, I will be in touch before the holiday break about the paper submission (will submit 12/21 and no later).  Will be sure to get it in on time and will send you a short window to review a final draft.  I'd hoped to have before now, but too many competing deadlines.  
 * Armstrong Foundjem asked Christine if the contribution window was closed as he would like to contribute in the energy paper.

@@ -2,17 +2,17 @@
 title: "January 25, 2023"
 ---
 
-## **January 25, 2023** {#january-25,-2023}
+## January 25, 2023
 
-### **Present** {#present-88}
+### Present
 
 Wesley Brewer,  Gregor von Laszewski, Gregg Barrett, Geoffrey Fox, Juri Papay, Murali Emani, Tom Gibbs, Mallikarjun Shankar, Aristeidis Tsaris,
 
-### **Apologies** {#apologies-29}
+### Apologies
 
 Jeyan Thiyagalingam, Tony Hey
 
-### **Tentative Agenda** {#tentative-agenda-66}
+### Tentative Agenda
 
 * Any new members  
 * Increasing academic involvement in MLCommons: (Continued)  
@@ -20,7 +20,7 @@ Jeyan Thiyagalingam, Tony Hey
 * Discussion of new Benchmarks (Continued)  
 * AOB
 
-### **Current Benchmarks** {#current-benchmarks}
+### Current Benchmarks
 
 * Gregor reported a bug in Cloudmask and that OSMI-Bench was running at Virginia.  
 * There was discussion of current benchmarks on Cerebras (Argonne and Edinburgh) and NVIDIA including Hopper; Tom Gibbs noted the relevance of combining Grace CPU with Hopper  
@@ -31,7 +31,7 @@ Jeyan Thiyagalingam, Tony Hey
   * Misdesign of disk systems  
   * Computer systems AI read
 
-### **FAIR metadata** {#fair-metadata}
+### FAIR metadata
 
 * Gregg suggested  starting with some low hanging fruit on the science WG benchmarks and then have other groups in MLC adopt it.  
 * He noted that NSF is supposed to be getting funding for NAIRR to which Christine contributed. [https://www.ai.gov/wp-content/uploads/2023/01/NAIRR-TF-Final-Report-2023.pdf](https://www.ai.gov/wp-content/uploads/2023/01/NAIRR-TF-Final-Report-2023.pdf)  
@@ -40,7 +40,7 @@ Jeyan Thiyagalingam, Tony Hey
 * We agreed to write a FAIR for MLC white paper discussing Science and then the rest of MLCommons (Christine, Gregor, Juri were tentative drafters)  
 * Draft [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing) is below
 
-### **Draft White Paper from Christine** {#draft-white-paper-from-christine}
+### Draft White Paper from Christine
 
 MLCommons Science Concept Paper
 

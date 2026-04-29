@@ -2,13 +2,13 @@
 title: "July 24, 2024"
 ---
 
-## **July 24, 2024** {#july-24,-2024}
+## July 24, 2024
 
-### **Present** {#present-52}
+### Present
 
 Geoffrey Fox, Riccardo Balin, Shantenu Jha, Rashadul Kabir,  Jeyan Thiyagalingam, Christine Kirkpatrick, Victor Lu, Wes Brewer, Armstrong Foundjem,  Gregor von Laszewski, Piotr Luszczek, Juri Papay, Sujata Goswami, Tom Gibbs, Gregg Barrett, Luc Yu, Ali Hashmi
 
-### **Tentative Agenda** {#tentative-agenda-32}
+### Tentative Agenda
 
 * **Special Seminar:** Speaker: Riccardo Balin [MLCommons\_SimAIBench\_240723.pdf](https://drive.google.com/file/d/1H836TQ0lT55cNoKzVuLbVLZdbSjdMgSZ/view?usp=sharing)   
   * Title: SimAI-Bench: A Performance Benchmarking Tool for Coupled Simulation and AI Workflows
@@ -29,13 +29,13 @@ There was no time for any of the following
   * NASA Workshop [https://sites.astro.caltech.edu/AIFM/speakers.html](https://sites.astro.caltech.edu/AIFM/speakers.html) with links to talks discussing "IEEE SMC-IT/SCC 2024: Trustworthiness of Foundation Models and What They Generate".   
 * Any Other Business
 
-### **Special Seminar: Wednesday,July 24, 11.05 pm Eastern**  {#special-seminar:-wednesday,july-24,-11.05-pm-eastern}
+### Special Seminar: Wednesday,July 24, 11.05 pm Eastern 
 
 * Speaker: Riccardo Balin, [MLCommons\_SimAIBench\_240723.pdf](https://drive.google.com/file/d/1H836TQ0lT55cNoKzVuLbVLZdbSjdMgSZ/view?usp=sharing)   
 * Title: SimAI-Bench: A Performance Benchmarking Tool for Coupled Simulation and AI Workflows  
 * Abstract: In situ AI/ML workflows, in which ML tasks are coupled to an ongoing simulation, are an attractive new paradigm for developing robust and predictive surrogate models for accelerating time to science by steering simulation ensembles and replacing expensive computations. In the world of high performance computing (HPC), these workflows require scalable and efficient solutions to integrate the rapidly evolving ecosystem of ML frameworks with traditional simulation codes by transferring large volumes of data between the various components. To address these issues, several libraries have recently emerged from groups in industry, academia, and national labs. In this talk, we introduce SimAI-Bench – a new tool for benchmarking and comparing the performance of different coupled simulation and AI/ML workflows on current and future HPC systems. In particular, the talk will focus on workflows for in situ training of graph neural network (GNN) surrogate models from ongoing computational fluid dynamic (CFD) simulations, requiring the transfer of training data between the two components. We will discuss how different open-source libraries enable such workflows and compare their data transfer performance and scaling efficiency on the Aurora supercomputer at the Argonne Leadership Computing Facility. 
 
-### **Notes on Presentation** {#notes-on-presentation}
+### Notes on Presentation
 
 * Wes Brewer [Wes Brewer \- Senior Research Scientist, HPC and AI \- Oak Ridge National Laboratory | LinkedIn](https://www.linkedin.com/in/whbrewer/)  introduced the speaker who is in a group at Argonne is similar to that of Wes at Oak Ridge.  
 * Riccardo Balin [https://www.linkedin.com/in/riccardo-balin-8a62a369/](https://www.linkedin.com/in/riccardo-balin-8a62a369/) is an Assistant Computational Scientist in the Data Services and Workflows team at the Argonne Leadership Computing Facility. He obtained a B.S./M.S. degree in Aerospace Engineering and a Ph.D. in Computational Fluid Dynamics and Turbulence Modeling in 2020 from the University of Colorado Boulder in 2016\. He joined Argonne National Laboratory in 2021\.   

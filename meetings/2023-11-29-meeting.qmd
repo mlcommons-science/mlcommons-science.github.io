@@ -2,13 +2,13 @@
 title: "November 29, 2023"
 ---
 
-## **November 29, 2023** {#november-29,-2023}
+## November 29, 2023
 
-### **Present** {#present-67}
+### Present
 
 Geoffrey Fox, Piotr Luszczek, Juri Papay, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Yuhan Rao, Armstrong Foundjem, Xavier Coubez
 
-### **Tentative Agenda** {#tentative-agenda-47}
+### Tentative Agenda
 
 * Any new members  
 * Foundation Models, including information gathered at https://sciencefmhub.org/ with a table of 90 Foundation model projects and \~200 citations.  
@@ -23,24 +23,24 @@ Geoffrey Fox, Piotr Luszczek, Juri Papay, Wes Brewer, Gregor von Laszewski,  Chr
 * Other Benchmarks  
 * AOB
 
-### **New Members** {#new-members-33}
+### New Members
 
 * Armstrong Foundjem is currently a Research Fellow with the DEEL (DEpendable and Explainable Learning) Project at Polytechnique Montreal on the certifiability of safety-critical and trustworthy A.I systems. [https://www.linkedin.com/in/foundjem/](https://www.linkedin.com/in/foundjem/)   
 * Xavier Coubez, started in particle physics and is now a Researcher at the Institut de cancérologie Strasbourg Europe, ICANS, University of Strasbourg, Aix-les-Bains, Auvergne-Rhône-Alpes, France [https://xavieratcern.github.io/index.html](https://xavieratcern.github.io/index.html)  [https://www.linkedin.com/in/xavier-coubez/](https://www.linkedin.com/in/xavier-coubez/) x.coubez@icans.eu 
 
-### **Recap of SC23 meeting** {#recap-of-sc23-meeting}
+### Recap of SC23 meeting
 
 * Christine noted the good interactions at the MLCommons dinner that followed the Tuesday Data BOF.  
 * The Breakouts at Data BOF had two breakouts – one on professional development with a shift in needs to include AI as well as parallel software engineering.
 
-### **Foundation Models** {#foundation-models-2}
+### Foundation Models
 
 * Geoffrey described the Foundation model collection at [Science FM Hub](http://sciencefmhub.org)  
 * We discussed the IBM-NASA Foundation model Prithvi where Geoffrey is having trouble reproducing fine-tuning runs. Yuhan will ask IBM for help.  
 * There is an important recent effort on a science foundation model (Polymathic AI) from Flatiron Institute \- [https://polymathic-ai.org/](https://polymathic-ai.org/) “Advancing Science through Multi‑Disciplinary AI”  
   * This is impressive work with two new papers with associated Blog and GitHub; one is astronomy using image and spectral data. The other is a multi-physics surrogate
 
-### **Any Other Business** {#any-other-business-8}
+### Any Other Business
 
 * Yuhan Rao noted Google’s Blog / Paper / Benchmark for weather forecasts including a leaderboard comparing methods with the highest resolution simulation [https://sites.research.google/weatherbench/](https://sites.research.google/weatherbench/)  
 * Reproducibility was discussed with Wes Brewer, noting that   
@@ -48,9 +48,9 @@ Geoffrey Fox, Piotr Luszczek, Juri Papay, Wes Brewer, Gregor von Laszewski,  Chr
   * [https://icl.utk.edu/newsletter/presentations/2020/Olaya-Building-Containerized-Environments-for-Reproducibility-and-Traceability-of-Scientific-Workflows-05-08-2020.pdf](https://icl.utk.edu/newsletter/presentations/2020/Olaya-Building-Containerized-Environments-for-Reproducibility-and-Traceability-of-Scientific-Workflows-05-08-2020.pdf) from Paula Olaya from GCL, Michela Taufer's group at UTK.  
 * Wes noted that he talked with Andrew Shao (HPE) at SC23 about possibly looking into integrating SmartSim into our OSMI benchmark. We will invite Andrew to talk on December 13, 2023\.
 
-## **November 14-15, 2023** {#november-14-15,-2023}
+## November 14-15, 2023
 
-### **SC23 Denver** {#sc23-denver}
+### SC23 Denver
 
 * Regular meeting canceled due to overlap with SC23.   
 * There were two relevant Birds of a feather sessions at SC23   

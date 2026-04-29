@@ -2,13 +2,13 @@
 title: "December 10, 2025"
 ---
 
-## **December 10, 2025** {#december-10,-2025}
+## December 10, 2025
 
-### **Present** {#present-1}
+### Present
 
 * Abdulkareem Alsudais, Armstrong Foundjem,  Christine Kirkpatrick, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Juri Papay, Iris Johnson, Iulia Ibanescu, Javier Toledo, Marco Colombo, Piotr Luszczek, Victor Lu, Wes Brewer
 
-### **Tentative Agenda** {#tentative-agenda}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * White Papers and Published Papers  
@@ -17,7 +17,7 @@ title: "December 10, 2025"
   * New white papers  
 * Any Other Business
 
-### **Google Meet Notes** {#google-meet-notes-1}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/12/10 07:53 PST \- Notes by Gemini](https://docs.google.com/document/d/1pMrXVMaj8WmzhSaLM6tmDvL-syZ61MsJxvMW5yt7VQ8/edit?usp=sharing) The working group meeting focused on:  
 * **Paper Submission Status:** Gregor von Laszewski provided an update, noting a remaining LaTeX error (UTF character 0301\) and three minor corrections needed from Armstrong Foundjem before anticipated submission to arXiv today.  
@@ -31,7 +31,7 @@ title: "December 10, 2025"
   * Wes Brewer agreed to ask Sumiandu Sarcar to present on DOE AI efforts and benchmarking challenges.  
   * Gregor von Laszewski will notify the group once the paper is submitted to arXiv.
 
-### **Discussion** {#discussion-1}
+### Discussion
 
 * Wes Brewer noted [https://github.com/AI-ModCon](https://github.com/AI-ModCon)  
   * Baseline AI Capabilities (BASE) develops shared AI tools: multimodal reasoning front ends, agent-based data pipelines, evaluation harnesses, self-improving frameworks, safety/security protocols, and a jointly developed (with AmSC) core agentic framework to orchestrate workflows across HPC and cloud platforms. Together, these reduce duplication and accelerate MTs' adoption of AmSC services and APIs while prioritizing open source.  

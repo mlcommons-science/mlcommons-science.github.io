@@ -2,14 +2,14 @@
 title: "April 20, 2022"
 ---
 
-## **April 20, 2022** {#april-20,-2022}
+## April 20, 2022
 
-### **Present** {#present-103}
+### Present
 
 Jeyan Thiyagalingam, David Kanter, Arjun Shankar,  Junqi Yin, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Piotr Luszczek, Cade Brown, Geoffrey Fox  
 **Apologies:** Tony Hey, Christine Kirkpatrick
 
-### **Tentative Agenda** {#tentative-agenda-81}
+### Tentative Agenda
 
 * New member introductions (None)  
 * Response to NSF POSE solicitation [https://www.nsf.gov/pubs/2022/nsf22572/nsf22572.htm](https://www.nsf.gov/pubs/2022/nsf22572/nsf22572.htm) May 12 to fund dedicated resources. See draft one-page summary from Geoffrey [https://drive.google.com/file/d/1otCVscAzTakblTNAWkfzlZjY\_ELTABl7/view?usp=sharing](https://drive.google.com/file/d/1otCVscAzTakblTNAWkfzlZjY_ELTABl7/view?usp=sharing)   
@@ -19,7 +19,7 @@ Jeyan Thiyagalingam, David Kanter, Arjun Shankar,  Junqi Yin, Gregor von Laszews
 * What should we do at ISC BOF   
 * AOB
 
-### **NSF POSE solicitation** {#nsf-pose-solicitation}
+### NSF POSE solicitation
 
 * First solication around technlogy focussed solicitation  
 * See linked draft (Geoffrey, Vijay and Gregor) [POSE-MLCommons-Science(PMS).pdf](https://drive.google.com/file/d/1otCVscAzTakblTNAWkfzlZjY_ELTABl7/view?usp=sharing)   
@@ -31,28 +31,28 @@ Jeyan Thiyagalingam, David Kanter, Arjun Shankar,  Junqi Yin, Gregor von Laszews
 * Timeframe: first phase starting around Jan 2023, if successful.  
 * Multinational activities encouraged but interbational collaborators are not funded
 
-### **MLCommons Community Meeting April 21 2022** {#mlcommons-community-meeting-april-21-2022}
+### MLCommons Community Meeting April 21 2022
 
 Juri Papay agreed to make this 10 minute presentation [https://docs.google.com/presentation/d/1fBvvCPtP32G725Qv2o5sofzPtqCzXLbl084kq4rvSiM/edit?usp=sharing](https://docs.google.com/presentation/d/1fBvvCPtP32G725Qv2o5sofzPtqCzXLbl084kq4rvSiM/edit?usp=sharing) for the science working group. Note Livermore update [https://docs.google.com/presentation/d/1k9NmajLqB2X\_fCwEAbDpoWhmRdZR-bFStS6\_0n2slR4/edit?usp=sharing](https://docs.google.com/presentation/d/1k9NmajLqB2X_fCwEAbDpoWhmRdZR-bFStS6_0n2slR4/edit?usp=sharing)  [LLNL\_D4DCT\_MLCommons.pdf](https://drive.google.com/file/d/1kbFcgo_ZxG2G_O6DavyQAwQi4fezYQ3l/view?usp=sharing) was not discussed.  
 Presentations for all working groups can be found at  slides ([2021.04.22 MLCommons Community Meeting.pdf](https://drive.google.com/file/d/1rD5mniha3IL_ktUYyikjqHx1V3dr70Y0/view?usp=sharing)) [2022.04.21 MLCommons Community Meeting.pdf](https://drive.google.com/file/d/1JZSLtaGdHd78TZIx-h07qFCZiaWgKsU6/view) and recordings ([2022.04.21 1Q22 Community Meeting Recording](https://drive.google.com/drive/u/1/folders/1a9tKPunFZFLZkjGdL53qR4yTNb1N-Kv8) ).
 
-### **Benchmark Status given ISC's May 22 deadline** {#benchmark-status-given-isc's-may-22-deadline}
+### Benchmark Status given ISC's May 22 deadline
 
 * Juri: STEMDL and Cloud \- will be ready for 22nd deadline  
 * Gregor: Earthquake Benchmarks on 4 different systems, will be ready for 22nd deadline.  
 * The earth science paper from which Earthquake benchmark was derived has been published in the GeoHazrds journal [https://www.mdpi.com/2624-795X/3/2/11](https://www.mdpi.com/2624-795X/3/2/11)          
 
-### **Status of Paper given ISC May 22 deadline** {#status-of-paper-given-isc-may-22-deadline-1}
+### Status of Paper given ISC May 22 deadline
 
 *  Have a draft paper based on the WG work done so far  
 * Jeyan will Overleaf it [https://www.overleaf.com/project/626029f73ac2a85e05672eb0](https://www.overleaf.com/project/626029f73ac2a85e05672eb0) and then we can go for arxiv  
 * Arjun suggested a summary report and a paper. Latter needs benchmark results
 
-###  **What should we do at ISC BOF June 2 2022** {#what-should-we-do-at-isc-bof-june-2-2022}
+###  **What should we do at ISC BOF June 2 2022**
 
 We agreed on a WG Benchmark Talk / Release and announcement
 
-### **AOB: Formalizing Benchmarks** {#aob:-formalizing-benchmarks}
+### AOB: Formalizing Benchmarks
 
 * Good discussion with David Kanter  
 * Need to Establish timelines for submission or release cycles  

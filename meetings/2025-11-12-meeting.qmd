@@ -2,13 +2,13 @@
 title: "November 12, 2025"
 ---
 
-## **November 12, 2025** {#november-12,-2025}
+## November 12, 2025
 
-### **Present** {#present-4}
+### Present
 
 * Abdulkareem Alsudais, Armstrong Foundjem,  Ben Hawks, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Juri Papay, Marco Colombo, Murali Emani, Piotr Luszczek
 
-### **Tentative Agenda** {#tentative-agenda-2}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * White Papers and Published Papers  
@@ -17,7 +17,7 @@ title: "November 12, 2025"
   * New white papers  
 * Any Other Business
 
-### **Google Meet Notes** {#google-meet-notes-4}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/11/12 07:57 PST \- Notes by Gemini](https://docs.google.com/document/d/1dtVXx68nPvAkM2KbCPWIlUX8jL-KJd6sMu8hUzpuVrM/edit?tab=t.qvu4nsf9ogua)  
 * Ben Hawks announced the official posting of the benchmark ontology paper on arXiv, including the operational accompanying website, which Geoffrey Fox confirmed aligns with the goal of supporting science through benchmark documentation and classification. Gyuri papay called the paper a "road map" but discussed hardware suitability, noting that machine learning tasks achieve significantly lower performance than distributed Linpack, prompting a discussion with Geoffrey Fox about integrating AI trustworthiness and addressing inherent errors in scientific data. Gregor von Laszewski updated the group on the stalled "carpentry paper," requesting help with open sections and reviewing the ML Commons hardware column, which Armstrong Foundjem and Gyuri papay volunteered to assist with, while Piotr Luszczek shared that the Top 500 status is ready and discussed the performance drop in FP64 due to the industry shift toward low-precision AI computing.

@@ -2,17 +2,17 @@
 title: "April 17, 2024"
 ---
 
-## **April 17, 2024** {#april-17,-2024}
+## April 17, 2024
 
-### **Present** {#present-59}
+### Present
 
 Geoffrey Fox, Juri Papay, Gregor von Laszewski, Elie Alhajjar, Gregg Barrett,  Piotr Luszczek, Victor Lu,  Tom Gibbs, 
 
-### **Apologies**  {#apologies-10}
+### Apologies 
 
 Christine Kirkpatrick, Vijay Janapa Reddi
 
-### **Tentative Agenda** {#tentative-agenda-39}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Michigan Science Foundation Model Meeting(Wes Brewer)  
@@ -21,11 +21,11 @@ Christine Kirkpatrick, Vijay Janapa Reddi
 * Interactions with HPC working group  
 * Any Other Business
 
-### **Inference Performance for Generative AI** {#inference-performance-for-generative-ai-1}
+### Inference Performance for Generative AI
 
 * Geoffrey followed up on the discussion last meeting of generative AI for science and the performance of the new lower precision floating point. We have prepared three different Calorimeter surrogates [Evaluating\_Calorimeter\_Surrogate\_Models\_V1.pdf](https://drive.google.com/file/d/1UhWMGfSJicTNEpaDGUbwmiPaCeEi_r1V/view?usp=sharing) . It was recommended that we initially look at A100 performance. The A100 supports 16, 32 and 64 bit floating point. Tom pointed out that help was available.
 
-### **Michigan Science Foundation Model Meeting SciFM24** {#michigan-science-foundation-model-meeting-scifm24}
+### Michigan Science Foundation Model Meeting SciFM24
 
 * MICDE Symposium on Foundational Scientific Machine Learning Models (SciFM24)  
 * April 2-3, 2024 URL: [2024 Symposium | Michigan Institute for Computational Discovery and Engineering](https://micde.umich.edu/news-events/annual-symposia/2024-symposium/)    
@@ -38,7 +38,7 @@ Christine Kirkpatrick, Vijay Janapa Reddi
 * Sean Welleck described AI for Mathematical theorem proving.  
 * One highlight was Mahoney’s keynote discussing surrogates with an Earthquake example with generative AI and a critique of Physics Informed Neural Networks.
 
-### **Michigan Science Foundation Model Meeting Questions** {#michigan-science-foundation-model-meeting-questions}
+### Michigan Science Foundation Model Meeting Questions
 
 * What about Homogenization – as more developers and organizations use these foundation models, the outputs and applications tend to become more standardized and uniform across different uses and sectors.  
 * How do we conceive of and construct foundation models for problems in which no clear "building blocks" exist?  
@@ -51,7 +51,7 @@ Christine Kirkpatrick, Vijay Janapa Reddi
 * How do we address massive inequity in access to computational resources between industry and national labs, and national labs and academia?  
 * Role of Venture capital in SciFM efforts
 
-### **Any Other Business** {#any-other-business-7}
+### Any Other Business
 
 * Victor Lu and Geoffrey discussed the cross domain applicability of foundation models. Geoffrey noted some issues with time series foundation models where the inclusion of multivariate input in static and dynamic variables was difficult to generalize and time series foundation models mainly looked at univariate time dependence. The other static and dynamic features need to be added as fine-tuning. Alternatively you look at models as patterns with a universal architecture but separate training on each domain.  
 * On the following day, there was the monthly meeting between Kanter, Juri and Geoffrey. We discussed the relation between MLCommons and the AI Alliance where there is still uncertainty.

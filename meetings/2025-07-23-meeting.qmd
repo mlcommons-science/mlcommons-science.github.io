@@ -2,35 +2,35 @@
 title: "July 23, 2025"
 ---
 
-## **July 23, 2025**  {#july-23,-2025}
+## July 23, 2025 
 
-### **Present** {#present-20}
+### Present
 
 Armstrong Foundjem,  Ben Hawks, Geoffrey Fox, Gregg Barrett, Howard Pritchard, Jeyan Thiyagalingam, Jong Choi, Juri Papay, Kirsten Morehouse, Marco Colombo, Matt Sinclair, Murali Emani, Nhan Tran, Philip Haris, Piotr Luszczek, Satoshi Iwata, Shirley Moore, Victor Lu
 
-### **Apologies** {#apologies}
+### Apologies
 
 Gregor von Laszewski (information below added prior to meeting)
 
-### **Presentation** {#presentation}
+### Presentation
 
 * Benjamin Hawks presented a wonderful talk  in two parts on Fermilab and Gregor’s work  
 * Recording [MLC Science WG - 2025/07/23 07:59 PDT - Recording](https://drive.google.com/file/d/1rSYhEbNYdQkRUhgcqqP4UJS45gsvVPsh/view)  
 * Presentation Overview/Updates: [Benchmarking Project Updates](https://docs.google.com/presentation/d/10bjyT8fVj6nGDjdUb2ovj2Susw46nQRyNV0bInqQvVA/edit?usp=sharing)  
 * Presentation Benchmark Platform Discussion: [Scientific Benchmark Hosting Platform Evaluation](https://docs.google.com/presentation/d/1t8h6cPsLgh77RAMJf3ZraX8q1JMMWhI9jGZx3dR9990/edit?usp=sharing)
 
-### **Google Meet Notes** {#google-meet-notes-16}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/07/23 07:59 PDT \- Notes by Gemini](https://docs.google.com/document/d/1z2Ad05mk_2EMQEysVCOQOow5Izmyr-0ACW4d-DD27mA/edit?usp=sharing)   
 * Ben Hawks provided updates on the benchmarking collection project with Nhan Tran, detailing the V0.1 benchmark definition and a proposed rating system for benchmarks. Victor Lu, Jeyan Thiyagalingam, Philip Harris, and Matt Sinclair discussed generalizing scientific tasks and different approaches to benchmark definitions. Ben Hawks demonstrated a prototype website for the benchmark catalog and evaluated backend platforms, concluding that Hugging Face, possibly combined with other platforms, seems to be a good starting point.
 
-### **Update on Paper Benchmark Carpentry (Gregor)** {#update-on-paper-benchmark-carpentry-(gregor)}
+### Update on Paper Benchmark Carpentry (Gregor)
 
 * Definition of benchmark in paper  
 * New Abstract included  
 * HPC section assigned to Piotr
 
-### **Update on benchmark collection (Gregor)** {#update-on-benchmark-collection-(gregor)}
+### Update on benchmark collection (Gregor)
 
 RESULT:
 

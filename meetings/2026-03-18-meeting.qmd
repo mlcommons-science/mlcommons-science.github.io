@@ -2,17 +2,17 @@
 title: "Meeting Notes - March 18, 2026"
 ---
 
-## **March 18, 2026**
+## March 18, 2026
 
-### **Present**
+### Present
 
 - Armstrong Foundjem, Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Juri Papay, Lisa Yang, Marco Colombo, Piotr Luszczek, Satoshi Iwata, Shirley Moore, TUES DAY,  Victor Lu
 
-### **Apologies**
+### Apologies
 
 - Gregg Barrett, Matt Sinclair
 
-### **Tentative Agenda**
+### Tentative Agenda
 
 - Any New Members Introduction
 
@@ -28,7 +28,7 @@ title: "Meeting Notes - March 18, 2026"
 
 - Any Other Business
 
-### **Meeting Notes**
+### Meeting Notes
 
 - **Gemini Notes** [MLC Science WG - 2026/03/18 08:00 PDT - Notes by Gemini](https://docs.google.com/document/d/1Urmfr5kZqq4vivoO3t3TtcRb5rO_t7epn0zZVYv9vg4/edit?usp=sharing) Summary
 

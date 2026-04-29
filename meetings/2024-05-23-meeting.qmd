@@ -2,9 +2,9 @@
 title: "May 23, 2024"
 ---
 
-## **May 23, 2024** {#may-23,-2024}
+## May 23, 2024
 
-### **Special Seminar: Thursday, May 23, 1.05 pm Eastern Special Time** {#special-seminar:-thursday,-may-23,-1.05-pm-eastern-special-time}
+### Special Seminar: Thursday, May 23, 1.05 pm Eastern Special Time
 
 * **Speaker:** Benjamin Nachman LBL DOE Laboratory  
 * **Title:** Generative AI for the Pursuit of Fundamental Interactions  
@@ -12,7 +12,7 @@ title: "May 23, 2024"
 * Presentation: [GenerativeAISpring2024.pdf](https://drive.google.com/file/d/1KHT7ak28KSnW-ZyLMP7BeCwrbKWWiQye/view?usp=sharing) (open)  
 * Recording of Session: [VisibleScience Working Group (2024-05-23 10\_03 GMT-7).mp4](https://drive.google.com/file/d/1Nw3Rw0fNTxHV0nDNI4Gs86sdVyLaUxzf/view?usp=drive_link)   (skip first 12 minutes 30 seconds) 
 
-### **Quoted Papers** {#quoted-papers}
+### Quoted Papers
 
 * **A Living Review of Machine Learning for Particle Physics:** [https://iml-wg.github.io/HEPML-LivingReview/](https://iml-wg.github.io/HEPML-LivingReview/)  
 * **Calorimeter Simulation** Accelerating Science with Generative Adversarial Networks: An Application to 3D Particle Showers in Multi-Layer Calorimeters [https://arxiv.org/abs/1705.02355](https://arxiv.org/abs/1705.02355)   
@@ -28,7 +28,7 @@ title: "May 23, 2024"
 * **Anomaly Detection** Classifying Anomalies THrough Outer Density Estimation (CATHODE)  [https://arxiv.org/abs/2109.00546](https://arxiv.org/abs/2109.00546)   
 * **Foundation Model** OmniLearn: A Method to Simultaneously Facilitate All Jet Physics Tasks [https://arxiv.org/abs/2404.16091](https://arxiv.org/abs/2404.16091) 
 
-### **Notes on Presentation** {#notes-on-presentation-1}
+### Notes on Presentation
 
 * 21 people attended this excellent talk  
 * The presentation started by describing fundamental physics and some places where generative AI is used  

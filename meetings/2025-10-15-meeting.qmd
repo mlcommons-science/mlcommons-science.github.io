@@ -2,13 +2,13 @@
 title: "October 15, 2025"
 ---
 
-## **October 15, 2025** {#october-15,-2025}
+## October 15, 2025
 
-### **Present** {#present-8}
+### Present
 
 * Abdulkareem Alsudais, Armstrong Foundjem,  Ben Hawks, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Howard Pritchard, Juri Papay, Marco Colombo, Nhan Tran, Piotr Luszczek, Satoshi Iwata, Victor  Lu, Xiaoqin Huang
 
-### **Tentative Agenda** {#tentative-agenda-4}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Continuing discussion of New Benchmarks and the catalog of Science benchmarks  
@@ -24,7 +24,7 @@ title: "October 15, 2025"
   * New white paper on Science Benchmarks  
 * Any Other Business
 
-### **Google meeting notes**  {#google-meeting-notes}
+### Google meeting notes 
 
 * [MLC Science WG \- 2025/10/15 07:59 PDT \- Notes by Gemini](https://docs.google.com/document/d/1Xr6MANg5zcsDQ3mKcRQrPUbLxmOnq6a1BJE4cUVpQk4/edit?usp=sharing)  
 * **Abstract**  
@@ -43,7 +43,7 @@ title: "October 15, 2025"
   * Marco Colombo and Ben Hawks will check whether Ben's content changes are reflected in the current website version.  
   * Marco Colombo and Ben Hawks will implement a visual tag for benchmarks with an average rating of 4.5 or higher.
 
-### **New Members** {#new-members-2}
+### New Members
 
 * Abdulkareem Alsudais, AI REsearcher and  Associate Professor, PSAU Prince Sattam bin Abdulaziz University in Al-Kharj, Saudi Arabia. He obtained his PhD in Claremont Graduate University  
   * [https://scholar.google.com/citations?hl=en\&user=x6eWXXoAAAAJ\&view\_op=list\_works\&sortby=pubdate](https://scholar.google.com/citations?hl=en&user=x6eWXXoAAAAJ&view_op=list_works&sortby=pubdate)   

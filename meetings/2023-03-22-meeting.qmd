@@ -2,13 +2,13 @@
 title: "March 22, 2023"
 ---
 
-## **March 22, 2023** {#march-22,-2023}
+## March 22, 2023
 
-### **Present** {#present-84}
+### Present
 
 Gregg Barrett, Geoffrey Fox, Juri Papay, Christian Herwig, Mallikarjun Shankar, Wesley Brewer, Aristeidis Tsaris, Tom Gibbs, Gregor von Laszewski
 
-### **Tentative Agenda** {#tentative-agenda-63}
+### Tentative Agenda
 
 * Any new members  
 * **Positioning of Science Benchmarks** in MLCommons [https://mlcommons-science.github.io/tags/](https://mlcommons-science.github.io/tags/)  and [https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1\#heading=h.1c3fuqvm4ia2](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1#heading=h.1c3fuqvm4ia2)   
@@ -17,7 +17,7 @@ Gregg Barrett, Geoffrey Fox, Juri Papay, Christian Herwig, Mallikarjun Shankar, 
 * Discussion of new Benchmarks (Continued) focussed on [230322 mlcommons science.pdf](https://drive.google.com/file/d/17bKzHeH0Jx21L7dXFzUfSw4EolAHv--D/view?usp=sharing)presentation by Christian Herwig   
 * AOB
 
-### **Positioning of Science Benchmarks** {#positioning-of-science-benchmarks}
+### Positioning of Science Benchmarks
 
 * After minor changes (from Arjun) the positioning statement [https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1\#heading=h.1c3fuqvm4ia2](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1#heading=h.1c3fuqvm4ia2) was agreed   
 * with general consensus on a blog-like user interface illustrated at https://mlcommons-science.github.io/tags/ .   
@@ -27,7 +27,7 @@ Gregg Barrett, Geoffrey Fox, Juri Papay, Christian Herwig, Mallikarjun Shankar, 
 * [Gregg Barrett](mailto:gregg.barrett@cirrusai.net)agreed with Arjun \- clarity on what constitutes an "improvement" would helpful.  
 * In a later meeting with David Kanter from MLCommons and Ritika Borkar from NVIDIA, our proposal was accepted and we agreed to go through our policy and web material making it consistent.
 
-### **FastML Presentation** {#fastml-presentation}
+### FastML Presentation
 
 * A fascinating presentation[230322 mlcommons science.pdf](https://drive.google.com/file/d/17bKzHeH0Jx21L7dXFzUfSw4EolAHv--D/view?usp=sharing) was given by Christian Herwig on the FastML benchmarks described at [https://arxiv.org/abs/2207.07958](https://arxiv.org/abs/2207.07958)   
 * These are inference tasks typical of those needed at accelerators (LHC) to select data (trigger) of interest that will be preserved for later study  

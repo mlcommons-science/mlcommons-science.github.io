@@ -2,17 +2,17 @@
 title: "July 26, 2023"
 ---
 
-## **July 26, 2023** {#july-26,-2023}
+## July 26, 2023
 
-### **Present** {#present-76}
+### Present
 
 Geoffrey Fox, Piotr Luszczek, Murali Emani, Gregor von Laszewski,  
 
-### **Apologies** {#apologies-22}
+### Apologies
 
 Christine Kirkpatrick, Mallikarjun Shankar, 
 
-### **Tentative Agenda** {#tentative-agenda-55}
+### Tentative Agenda
 
 * Any new members  
 * Official Plans  [https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1](https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1)  [https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit\#gid=0](https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit#gid=0)   
@@ -22,7 +22,7 @@ Christine Kirkpatrick, Mallikarjun Shankar,
 * AI Readiness of MLCommons Science (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
 * AOB
 
-### **Meeting** {#meeting}
+### Meeting
 
 * Given low (due to holidays and illness) attendence, we had a short meeting  
 * The activities of the Trillion Parameter Consortium could be relevant to our activities. This will meet before our next meeting and we can evaluate  

@@ -2,13 +2,13 @@
 title: "October 21, 2024 HPC Working Group Meeting"
 ---
 
-## **October 21, 2024 HPC Working Group Meeting** {#october-21,-2024-hpc-working-group-meeting}
+## October 21, 2024 HPC Working Group Meeting
 
-### **Present** {#present-46}
+### Present
 
 Andreas Prodromou (chair HPC), Murali Emani (co-chair HPC), Thorsten Kurth, Steven Farrell, Satoshi Iwata, Julia Ibanescu, Geoffrey Fox
 
-### **Discussion of Current Next Steps** {#discussion-of-current-next-steps-1}
+### Discussion of Current Next Steps
 
 * HPC Working Group Minutes [HPC WG Minutes](https://docs.google.com/document/d/1Hb55zy75jsn_jnUs9SyzkHyY6UNJfDunROOyt_jigL0/edit?tab=t.0)   
 * Due to lack of submissions the v4.0 HPC Training benchmark was cancelled  
@@ -18,7 +18,7 @@ Andreas Prodromou (chair HPC), Murali Emani (co-chair HPC), Thorsten Kurth, Stev
 * The HPC Working Group will close but we will propose to MLCommons leadership that its mission and benchmarks be transferred to the Science working group (unless the full MLCommons Training working group wants some (OpenFold is most likely)  
 * Benchmarks at [GitHub \- mlcommons/hpc: Reference implementations of MLPerf™ HPC training benchmarks](https://github.com/mlcommons/hpc) 
 
-### **Discussion of HPC and Science Working Group Relations** {#discussion-of-hpc-and-science-working-group-relations}
+### Discussion of HPC and Science Working Group Relations
 
 * **What:** Benchmark code, data and competition rules move under the Science WG control.  
   * If MLP Training WG wants OpenFold, they can have it. It can remain under the Science WG control, or transferred to MLPerf Training’s repo.  

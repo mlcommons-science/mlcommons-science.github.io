@@ -2,17 +2,17 @@
 title: "January 8, 2025"
 ---
 
-## **January 8, 2025** {#january-8,-2025}
+## January 8, 2025
 
-### **Present** {#present-40}
+### Present
 
 Geoffrey Fox, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Briana Cervantes, Claus Weiland, Elie Alhajjar, Gregg Barrett, Juri Papay, Hussain Ather,  Jeyan Thiyagalingam, Karen Bennet, Malek Ben Salem, Marco Colombo, Marisa Ahmad, Nhan Tran, Philip Harris, Piotr Luszczek, Riccardo Balin, Shirley Moore, Steven Farrell, Victor Lu, Vijay Janapa Reddi, Wes Brewer
 
-### **Apologies** {#apologies-5}
+### Apologies
 
 Gregor von Laszewski
 
-### **Tentative Agenda** {#tentative-agenda-22}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Setting Agenda for 2025  
@@ -21,7 +21,7 @@ Gregor von Laszewski
   * MLCommons Science FAIR Concept Paper (AI Readiness) [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
 * Any Other Business
 
-### **New Members** {#new-members-17}
+### New Members
 
 * **Malek Ben Salem** [Malek Ben Salem, PhD \- Accenture | LinkedIn](https://www.linkedin.com/in/malek-ben-salem/) [Malek Ben Salem \- IPWatchdog.com | Patents & Intellectual Property Law](https://ipwatchdog.com/people/malek-ben-salem/) At Accenture, steering the helm of emerging technology, her focus lies on guiding C-suite clients through the complexities of adopting AI/ML, quantum and other emerging technologies securely. Her recent tenure has seen the birth of generative AI capabilities and the nurturing of global partnerships to train robust LLMs and AI agents. This role capitalizes on her expertise in AI/ML and her credentials in cybersecurity and technology architecture.  
   * The blend of her roles, as the Technology Research Director and now as the Managing Director, reflects a career dedicated to pioneering trustworthy AI. Through leadership and innovation, she delivered tools that fortify ML models against privacy threats and crafted quantum security solutions. Her path is one of creating responsible, impactful AI and security technologies that resonate across industries and borders.  
@@ -30,7 +30,7 @@ Gregor von Laszewski
   * Syed was a Physics undergraduate with Fox’s colleague Adam Szczepaniak, at Indiana University.  
 * **Marco Colombo** information was unfortunately not recorded
 
-### **Discussion** {#discussion-15}
+### Discussion
 
 * Juri Papay gave a Presentation [mlCommons\_08012025.pptx](https://docs.google.com/presentation/d/1jUkkS8J01ZiZwcnPVhx74rb6VH90A3-l/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true) comparing performance of NVIDIA A100 and H100 with the AMD MI200 and MI300.  
   * Victor Lu noted [PCIe bandwidth is asymmetrical between Host to Device and Device to Host \- GPU \- Hardware \- NVIDIA Developer Forums](https://forums.developer.nvidia.com/t/pcie-bandwidth-is-asymmetrical-between-host-to-device-and-device-to-host/318613) in response to Juri’s slide 5 on asymmetric bandwidth host to device being much larger than device to host   

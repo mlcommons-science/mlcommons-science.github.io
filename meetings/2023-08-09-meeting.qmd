@@ -2,13 +2,13 @@
 title: "August 9, 2023"
 ---
 
-## **August 9, 2023** {#august-9,-2023}
+## August 9, 2023
 
-### **Present** {#present-75}
+### Present
 
 Geoffrey Fox, Piotr Luszczek, Juri Papay, Feiyi Wang, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Mallikarjun Shankar, Gregg Barrett, Yuhan Rao
 
-### **Tentative Agenda** {#tentative-agenda-54}
+### Tentative Agenda
 
 * Any new members  
 * Foundation Models  
@@ -20,7 +20,7 @@ Geoffrey Fox, Piotr Luszczek, Juri Papay, Feiyi Wang, Wes Brewer, Gregor von Las
 * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
 * AI Readiness of MLCommons Science (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)
 
-### **Foundation Models** {#foundation-models-4}
+### Foundation Models
 
 * The meeting largely discussed this topic   
 * Geoffrey Fox updated his previous presentation with information from the TPC Meeting August 2-3 at Argonne [https://docs.google.com/presentation/d/1WdWaFyZ6JplDvXeV7aXIirUmUEZ4BPWR3\_YTDfn9acg/edit?usp=sharing](https://docs.google.com/presentation/d/1WdWaFyZ6JplDvXeV7aXIirUmUEZ4BPWR3_YTDfn9acg/edit?usp=sharing)   
@@ -34,7 +34,7 @@ Geoffrey Fox, Piotr Luszczek, Juri Papay, Feiyi Wang, Wes Brewer, Gregor von Las
 * We discussed a mixture of experts as in LLM ans as needed for different modalities of Science data  
 * Geoffrey had talked to Murali Emani at Argonne TPC meeting and Murali thought that the HPC group would be interested in TPC/Foundation models.
 
-### **Other Items** {#other-items}
+### Other Items
 
 * Gregor noted that the Cyprus paper had been accepted and wondered if one of UK team wanted to present. [https://sites.google.com/vols.utk.edu/rewords23/home](https://sites.google.com/vols.utk.edu/rewords23/home), [https://www.escience-conference.org/2023/](https://www.escience-conference.org/2023/), [https://github.com/cyberaide/paper-cloudmesh-cc-ieee-5-pages/blob/main/vonLaszewski-cloudmesh-cc.pdf](https://github.com/cyberaide/paper-cloudmesh-cc-ieee-5-pages/blob/main/vonLaszewski-cloudmesh-cc.pdf)   
 * We discussed accounts on Summit which will be retired at the end of the calendar year. Feiyi asked us to make clear our requests for Summit use should be sent to him.

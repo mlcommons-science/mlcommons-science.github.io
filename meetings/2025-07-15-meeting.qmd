@@ -2,13 +2,13 @@
 title: "July 15, 2025 (9.05 pm. ET for Asia-USA)"
 ---
 
-## **July 15, 2025 (9.05 pm. ET for Asia-USA)** {#july-15,-2025-(9.05-pm.-et-for-asia-usa)}
+## July 15, 2025 (9.05 pm. ET for Asia-USA)
 
-### **Present** {#present-21}
+### Present
 
 Geoffrey Fox, Gary Mazzaferro, Gregor von Laszewski, Satoshi Iwata, Victor Lu
 
-### **Google Meet Notes** {#google-meet-notes-17}
+### Google Meet Notes
 
 * [**MLC Science WG \- 2025/07/16 01:55 BST \- Notes by Gemini**](https://docs.google.com/document/d/19ReJwz2m_Xycrl_vIOo3Fpfph8LxslepUeuPZQuNh8c/edit?usp=sharing)   
 * **Summary:** Gregor von Laszewski reported significant delays in the FermiLab Lab's benchmark paper due to students struggling with programming dictionaries (Python dict command) and LLM usage. Geoffrey Fox presented findings on reproducibility issues in time series projects, where reported values for the same models vary across papers. Gary Mazzaferro and Geoffrey Fox discussed the need for standardization in hardware and reporting to ensure true comparisons, while Victor Lu differentiated large lab benchmarking from application-specific needs, and Gregor von Laszewski emphasized core programming concepts over specific language implementations.  

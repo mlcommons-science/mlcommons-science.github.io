@@ -2,17 +2,17 @@
 title: "July 9, 2025"
 ---
 
-## **July 9, 2025**  {#july-9,-2025}
+## July 9, 2025 
 
-### **Present** {#present-22}
+### Present
 
 Armstrong Foundjem,  David Kanter, Geoffrey Fox, Gregor von Laszewski, Howard Pritchard, Javier Toledo, Juri Papay, Marco Colombo, Matt Selensky, Matt Sinclair, Olivia Hull, Philip Haris, Piotr Luszczek, Satoshi Iwata, Shirley Moore, Tom Gibbs, Victor Lu
 
-### **Google Meet Notes** {#google-meet-notes-18}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/07/09 07:56 PDT \- Notes by Gemini](https://docs.google.com/document/d/1mfQ2N82JnAYILgAv_GSO90vyjIW4R9olnwLkFJtPFTo/edit?usp=sharing)
 
-### **Presentation on “Using MLPerf for Procurement at NREL”** {#presentation-on-“using-mlperf-for-procurement-at-nrel”}
+### Presentation on “Using MLPerf for Procurement at NREL”
 
 * By Matt Selensky and Olivia Hull  
 * [MLC Science WG \- 2025/07/09 07:56 PDT \- Recording](https://drive.google.com/file/d/1eeU8c-UJAHtjr_IKPupXAY2drL5OMJu6/view?usp=sharing)   
@@ -29,7 +29,7 @@ Armstrong Foundjem,  David Kanter, Geoffrey Fox, Gregor von Laszewski, Howard Pr
 * Victor Lu noted [Benchmarking & profiling · CUDA.jl](https://cuda.juliagpu.org/stable/development/profiling/)   \- Julia seems to be able genericize benchmarks by focusing on scientific and GPU "kernel" level benchmarks.  
 * Tom Gibbs noted that: Perhaps a good check is that MLPERF stresses system features common to AI/ML that are different from ModSim (Modeling and Simulation)
 
-### **Discussion of White Papers** {#discussion-of-white-papers}
+### Discussion of White Papers
 
 * Gregor noted that heI would like that people go through  
   * [https://github.com/mlcommons-science/benchmark/blob/main/source/benchmark-entry-comment-gregor.yaml](https://github.com/mlcommons-science/benchmark/blob/main/source/benchmark-entry-comment-gregor.yaml) and complete the descriptions. Some of which have been gathered from various people, but the descriptions may not be complete or accurate yet.  

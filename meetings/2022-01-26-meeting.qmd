@@ -2,13 +2,13 @@
 title: "January 26, 2022"
 ---
 
-## **January 26, 2022** {#january-26,-2022}
+## January 26, 2022
 
-### **Present** {#present-109}
+### Present
 
 Tony Hey, Geoffrey Fox,  Jeyan Thiyagalingam,  Christine Kirkpatrick,  Gregor von Laszewski,  Hai ah Nam,  Juri Papay,  Arjun Shankar,  Aristeidis Tsaris,  Gregg Barrett,  Farzana Yasmin Ahmad,  Junqi Yin,  Bala Desinghu
 
-### **Tentative Agenda** {#tentative-agenda-87}
+### Tentative Agenda
 
 * New member introductions  
 * Talk from Christine Kirkpatrick on analysis of MLCommons benchmarks and RDA FAIR meeting [MLCommons Data Assessment](https://docs.google.com/presentation/d/1iYOLIYBOBF0HraZaWfIyZbePuoQs8lAQ_6-uVwRZZKw/edit?usp=sharing)  
@@ -17,11 +17,11 @@ Tony Hey, Geoffrey Fox,  Jeyan Thiyagalingam,  Christine Kirkpatrick,  Gregor vo
 * Updates \-- All  
 * AOB
 
-### **New member introductions** {#new-member-introductions-5}
+### New member introductions
 
 * none
 
-### **Christine  Kirkpatrick Talk** {#christine-kirkpatrick-talk}
+### Christine  Kirkpatrick Talk
 
 * Christine Kirkpatrick  gave an excellent presentation [MLCommons Data Assessment](https://docs.google.com/presentation/d/1iYOLIYBOBF0HraZaWfIyZbePuoQs8lAQ_6-uVwRZZKw/edit?usp=sharing)with three main topics  
   1. Data analysis of MLCommons benchmarks  
@@ -34,7 +34,7 @@ Tony Hey, Geoffrey Fox,  Jeyan Thiyagalingam,  Christine Kirkpatrick,  Gregor vo
      * MLC Power WG and EE HPC WG are engaging with one another on the new Power efforts (Gregg Barrett)  
   3. The talk ended with a  report on the formation of RDA Interest Group: FAIR for Machine Learning FAIR4MLwhich is an initiative aiming to bring together the FAIR and ML communities and is based on two BOF’s at plenary meetings where co-chairs are being sought [FAIR4ML-RDA-IG-Charter](https://docs.google.com/document/d/1VWyEB74mw3-0y43SMUaURHxSYuyZ4Qmwnjt6B0uduy0/edit?usp=sharing) 
 
-### **Adhering to ML Common Rules – Progress** {#adhering-to-ml-common-rules-–-progress}
+### Adhering to ML Common Rules – Progress
 
 * Juri presented the findings [Reference\_Implementations\_v1.pptx](https://docs.google.com/presentation/d/1bn0LUi6td__0r4MBugJb1oByyxKze9Ke/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true)  in respect to MLCommons compliance of Science WG benchmarks.  
 * In the discussion after the presentations, we agreed to use Gregor’s GitHub for pulling together all information required for making the Science WG benchmarks MLCommons compliant and agreed on the action plan. The data will be hosted at STFC and San Diego.  
@@ -45,7 +45,7 @@ Tony Hey, Geoffrey Fox,  Jeyan Thiyagalingam,  Christine Kirkpatrick,  Gregor vo
 * **Action needed:** there may be some applications that do not need parallel computing? this may require verbiage to for example relax the requirement to have parallel file systems.   
 * **Action needed:** revisit the google docs document with the applications and get simple changes integrated while keeping the more complex ones open but start resolving those
 
-### **Any Other Business** {#any-other-business-15}
+### Any Other Business
 
 *  It appears that Science WG need some agreement with Commons to support the easier page updates  
 * Status of [MLCommons Science Benchmarks](https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit#heading=h.e4gvie7isvpc) This is indirectly relevant for the policy document   

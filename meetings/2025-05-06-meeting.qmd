@@ -2,18 +2,18 @@
 title: "May 6, 2025 (9.05 pm. ET for Asia-USA)"
 ---
 
-## **May 6, 2025 (9.05 pm. ET for Asia-USA)** {#may-6,-2025-(9.05-pm.-et-for-asia-usa)}
+## May 6, 2025 (9.05 pm. ET for Asia-USA)
 
-### **Present** {#present-30}
+### Present
 
 Armstrong Foundjem, David Kanter, Douglas Fils, Geoffrey Fox, Satoshi Iwata, Syed Hussain Ather, Victor Lu, Yuwei Sun
 
-### **New Members** {#new-members-10}
+### New Members
 
 * **Douglas Fils** is from SDSC and works in Christine Kirkpatrick’s group [https://www.linkedin.com/in/douglas-fils-0236744/](https://www.linkedin.com/in/douglas-fils-0236744/)   
 * **Yuwei Sun** is a graduate student at New York University and interns at the Simons Foundation in the Flatiron Institute [https://www.linkedin.com/in/yuwei-sun-1136b0217/](https://www.linkedin.com/in/yuwei-sun-1136b0217/) 
 
-### **Discussion** {#discussion-14}
+### Discussion
 
 * Geoffrey messed up and didn’t realize that he needed to start Google Meet Summarizer.   
 * He reviewed our work on a collection and taxonomy of benchmarks [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=drivesdk)   

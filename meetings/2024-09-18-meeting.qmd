@@ -2,13 +2,13 @@
 title: "September 18, 2024"
 ---
 
-## **September 18, 2024** {#september-18,-2024}
+## September 18, 2024
 
-### **Present** {#present-48}
+### Present
 
 Geoffrey Fox, Armstrong Foundjem, Christine Kirkpatrick, Ying-Jung Chen, Juri Papay, Gregg Barrett,  Gregor von Laszewski, Riccardo Balin, Victor Lu, Aïmérou Ndiaye
 
-### **Tentative Agenda** {#tentative-agenda-28}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * **Next Steps of our Working Group:** Activities or Projects  
@@ -16,18 +16,18 @@ Geoffrey Fox, Armstrong Foundjem, Christine Kirkpatrick, Ying-Jung Chen, Juri Pa
 * Status of Benchmarks (OSMIBench, MOM6, Kaggle Calorimeter)  
 * Any Other Business
 
-### **New Members** {#new-members-23}
+### New Members
 
 * **Armstrong Foundjem** is still at Montreal Polytechnique. See [Old New Members Link](#new-members-33)   
 * **Ying-Jung Chen** is rejoining group and is now at Georgia Tech completing degrees. See [Old New Members Link](#new-members-34) and [https://www.linkedin.com/in/yj-elizabeth-chen/](https://www.linkedin.com/in/yj-elizabeth-chen/). She has left Descartes Lab and is now collaborating with Geoffrey Fox on time series for hydrology  
 * **Aïmérou Ndiaye** https://www.linkedin.com/in/aimerou-ndiaye-867708162/  is an AI Engineer @ BAAMTU TECHNOLOGIES in Multilingual NLP & Speech Research. Baamtu [https://www.linkedin.com/company/baamtu/](https://www.linkedin.com/company/baamtu/) is in Dakar Senegal.
 
-### **Discussion** {#discussion-16}
+### Discussion
 
 * We declined entrance to several bots read.ai, fireflies.ai, Bubbles notetaker, Jamilu’s notetaker, Tyler’s notetaker and Tyler’s ai task manager  
 * We identified 6 projects for the group which are listed below. We will draft descriptions and form subgroups to discuss.
 
-### **Working Group Activities or Projects** {#working-group-activities-or-projects}
+### Working Group Activities or Projects
 
 1. **SOTA Generative AI Benchmarks for Science** The Science WG's next initiatives should include the most interesting and challenging AI applications, as seen by users, providers, and vendors of AI infrastructure. Further, we expect benchmarks to be well documented so they are valuable for students and researchers wanting to apply the latest technologies to different applications. Also, we recognize that to have comparative value between machines, the benchmarks cannot keep changing and must have a clear historical tracking. On the contrary, a science discovery metric will likely require a continuously changing SOTA (state-of-the-art) technology.  This suggests we identify leading edge (kernel) AI for science examples where we keep both a historical implementation and one that is at the leading edge.  We intend these artifacts to be useful in many ways, both for new machine solicitations and for users needing performance estimates to estimate the time needed on AI resource allocations like NAIRR. In addition, the broad educational values have already been discussed. As we combine the goals of the HPC and Science working groups for this new set of benchmarks, we need a strong collaboration between these working groups. As well as giving documented examples, we can support other initiatives such as generating useful datasets from generative AI models, white papers and identifying key features determining performance described below. A natural starting point is the physics applications described by Nachman earlier this year [Special Seminar May 23 2024](#special-seminar:-thursday,-may-23,-1.05-pm-eastern-special-time) We can also include the Kaggle Calorimeter Challenge where we have three exemplar codes including Caloscore from Nachman . There is a lot of interest in diffusion models used extensively by Nachman but there aren’t clear documemented examples for the most innovative data unfolding applications Nachman described  
 2. **SimAI model** from Riccardo See [Special Seminar July 24 2024](#special-seminar:-wednesday,july-24,-11.05-pm-eastern)   

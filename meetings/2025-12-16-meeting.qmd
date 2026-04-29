@@ -2,13 +2,13 @@
 title: "December 16, 2025 (9.05 pm. ET for Asia-USA)"
 ---
 
-## **December 16, 2025 (9.05 pm. ET for Asia-USA)** {#december-16,-2025-(9.05-pm.-et-for-asia-usa)}
+## December 16, 2025 (9.05 pm. ET for Asia-USA)
 
-### **Present** {#present}
+### Present
 
 Gary Mazzaferro, Geoffrey Fox, Hussain Ather , Satoshi Iwata, Tues Day
 
-### **Google Meet Notes** {#google-meet-notes}
+### Google Meet Notes
 
 * [MLC Science WG \- 2025/12/17 01:58 GMT \- Notes by Gemini](https://docs.google.com/document/d/16cXhnyD5nv5UjJK2gbmHfQ8ZaAaUo7X16DNF8qwT-DI/edit?usp=sharing) The meeting focused on challenges and solutions in the context of Large Language Models (LLMs), AI, and software development, particularly in the realm of ML Commons benchmarks and emerging technologies.Key Discussion Points:  
 * **LLM Benchmarking Challenges:** Geoffrey Fox noted issues with Google Gemini consistently giving incorrect answers for benchmarks due to a lack of documentation. TUES DAY highlighted the January 2024 cutoff date for the Gemini model, causing "hard stops" in coding for newer developments.  
@@ -19,7 +19,7 @@ Gary Mazzaferro, Geoffrey Fox, Hussain Ather , Satoshi Iwata, Tues Day
 * **High Cost of Low-Resource Language Annotation:** The group covered the high cost and challenges ($130k+ for a couple thousand prompts in Hindi and Malay) of human annotation for ML Commons benchmarks, especially for low-resource languages and dialects, and the critical need to include **social context** to avoid security vulnerabilities like prompt injections.  
 * **AI Infrastructure Management:** Gary Mazzaferro requested Geoffrey Fox's participation in the upcoming **SNE CDMI webinar** (which Geoffrey Fox accepted). The discussion emphasized the lack of a formal mechanism and international standard (outside of CDMI) for managing AI infrastructures, including security and authorization for emerging technologies like Graph Neural Networks and the Model Context Protocol (MCP). 
 
-### **Discussion** {#discussion}
+### Discussion
 
 * Hussain Ather found Chain-of-Thought  Prompting   to be very helpful  
   * yea, python-based parsing is fine, especially for xml, json  

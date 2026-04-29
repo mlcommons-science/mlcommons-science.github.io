@@ -2,13 +2,13 @@
 title: "November 13, 2024"
 ---
 
-## **November 13, 2024** {#november-13,-2024}
+## November 13, 2024
 
-### **Present** {#present-43}
+### Present
 
 Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Marisa Ahmad, Armstrong Foundjem, Piotr Luszczek, Victor Lu,  Andy Cheng, Shirley Moore, Claus Weiland, Gregg Barrett, Satoshi Iwata, Piero Coronica, Azza Ahmad, Steve Farrell, Murali Emani, Sharma Lee, Christine Kirkpatrick, Gavin Mitchell Farrell
 
-### **Tentative Agenda** {#tentative-agenda-25}
+### Tentative Agenda
 
 * Any New Members Introduction  
 * Implications of the merger of HPC and Science working groups  
@@ -21,14 +21,14 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Mar
   * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
 * ·  Any Other Business
 
-### **New Members** {#new-members-20}
+### New Members
 
 * Azza Ahmed, is a Senior HPC Engineer at TU Delft, the Netherlands. She supports computer science departments (INSY and ST) in carrying their computations in our HPC clusters (DAIC [https://daic.tudelft.nl/](https://daic.tudelft.nl/) and DelftBlue [https://www.tudelft.nl/en/dhpc/system](https://www.tudelft.nl/en/dhpc/system)), and she is involved in the needs mapping/planning for research/education infrastructure at the university  
 * **Satoshi Iwata** is with Fujitsi in Japan and an HPC working group veteran. [https://www.linkedin.com/in/satoshi-iwata-ba412791/](https://www.linkedin.com/in/satoshi-iwata-ba412791/)   
 * **Piero Coronica** [https://www.mpcdf.mpg.de/person/112609](https://www.mpcdf.mpg.de/person/112609) is with the Max Planck Computing and Data Facility [https://www.mpcdf.mpg.de/](https://www.mpcdf.mpg.de/) (MPCDF, formerly known as RZG), which is a cross-institutional competence centre of the Max Planck Society to support computational and data sciences, in Garching, Germany near to Munich. The new supercomputer Viper of the Max Planck Society is now open for early user operation. This is the first phase of the deployment consisting of 768 CPU-processor nodes (based on 4th Gen AMD EPYC “Genoa” CPUs) and a IBM SpectrumScale storage solution, delivered by Eviden/Atos. In the course of 2024, a second phase with ca. 340 GPU nodes comprising 680 AMD Instinct MI300A APUs will be deployed.  
 * [Gavin Michael Farrell :: Dipartimento di Matematica “Tullio Levi-Civita”](https://www.math.unipd.it/en/department/people/gavin_michael.farrell/) is a  Ph.D. student at Padua University. He has a bioinformatics background with the ELIXIR EU project [https://www.linkedin.com/in/gavin-farrell97/?originalSubdomain=uk](https://www.linkedin.com/in/gavin-farrell97/?originalSubdomain=uk). His Ph.D. is in biocomputing group.
 
-### **White Papers** {#white-papers-5}
+### White Papers
 
 * Christine will get out the white paper on energy which has been restored to roughly original form and sent to Gregor  
 * We will spend time, up to 20 minutes, on AI Readiness paper at next meeting which is the day before Thanksgiving  
@@ -38,7 +38,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Mar
   * Add a survey of benchmark projects  
 * Authors should add their names and material
 
-### **Other Discussion** {#other-discussion}
+### Other Discussion
 
 * The plan for this meeting was changed at last moment as the plan to merge science and HPC working groups was postponed for consideration of other futures for HPC group. The preparation for the meeting was not properly done and Geoffrey apologized for this.  
 * Juri noted that Summit is closing very soon  
@@ -48,7 +48,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Mar
   * Waste “only” has a 300 year half life as low density  
 * Christine noted that some software particularly power intense and one needs to raise understanding
 
-### **Benchmarks** {#benchmarks-1}
+### Benchmarks
 
 * Geoffrey noted goal of identifying uptodate benchmarks in areas like weather with many recent deep learning innovations. Gary noted NOAA’s initiative [https://sab.noaa.gov/wp-content/uploads/4.0-DL4NWP\_NOAAResponse\_Nov2024.pdf](https://sab.noaa.gov/wp-content/uploads/4.0-DL4NWP_NOAAResponse_Nov2024.pdf)  here and Shirley’s comments are spelled separately later.  
 * Gavin noted his experience with bioinformatics benchmarks  
@@ -58,7 +58,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Mar
 * Energy analysis should be part of benchmarks  
 * Gregor and WEs noted Mom6 benchmark delayed by HPE but should complete soon
 
-### **Comments from Gary Mazzaferro** {#comments-from-gary-mazzaferro}
+### Comments from Gary Mazzaferro
 
 * DevOPs DMTF RedFish data center specification  
 * CXL Infiniband controller  
@@ -69,7 +69,7 @@ Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Mar
   * And LangGraph: [https://www.langchain.com/langgraph](https://www.langchain.com/langgraph)  
   * CXL is supported by RedFish
 
-### **Comments from Shirley Moore** {#comments-from-shirley-moore}
+### Comments from Shirley Moore
 
 * Here are links to the weather forecasting benchmarks and survey article on GNNs for the heterogeneous catalysis problem that I mentioned during the November 13 meeting.  
 * Deep Learning Weather Prediction benchmark: [https://github.com/amazon-science/dlwp-benchmark/?tab=readme-ov-file](https://github.com/amazon-science/dlwp-benchmark/?tab=readme-ov-file)   

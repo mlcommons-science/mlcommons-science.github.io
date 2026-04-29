@@ -2,13 +2,13 @@
 title: "December 2, 2025 (9.05 pm. ET for Asia-USA)"
 ---
 
-## **December 2, 2025 (9.05 pm. ET for Asia-USA)** {#december-2,-2025-(9.05-pm.-et-for-asia-usa)}
+## December 2, 2025 (9.05 pm. ET for Asia-USA)
 
-### **Present** {#present-2}
+### Present
 
 * Dora Cheng,  Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski, Hao Lu, Michael A., Piotr Luszczek, Satoshi Iwata, Victor Lu
 
-### **Google Meet Notes** {#google-meet-notes-2}
+### Google Meet Notes
 
 * Note this used “make notes longer” option  
 * [MLC Science WG - 2025/12/03 01:59 GMT - Notes by Gemini](https://docs.google.com/document/d/1xLI1aQcNFixkzY3z75SvdZVW1-yAUBxRe5In0yFe8xY/edit?tab=t.kcdial82phti#heading=h.tz207apf78eb)  
@@ -36,13 +36,13 @@ title: "December 2, 2025 (9.05 pm. ET for Asia-USA)"
 * Gregor von Laszewski reported on a practical performance benchmark on **YOLO/DarkNet** with a Florida group, using the group's carpentry paper to formalize the benchmark and creating an MLPerf-compatible logging infrastructure. He plans to present on this work in the second week of January.  
 * The next MLC Science WG meeting is scheduled for next Wednesday at 11:05 Eastern.
 
-### **New Members** {#new-members}
+### New Members
 
 * Hao Lu [https://www.linkedin.com/in/lu-h/](https://www.linkedin.com/in/lu-h/) works in Responsible AI at Salesforce in Bellevue, Washington,  He is a Machine Learning Engineer developing models for automated content moderation of millions of TikTok videos uploade daily.  
 * Dora Cheng [https://www.linkedin.com/in/dora-cheng-2675a3174/](https://www.linkedin.com/in/dora-cheng-2675a3174/)  works for Supermicro in New Taipei City, Taiwan  
 * Michael A. [https://www.linkedin.com/in/dsbrain/](https://www.linkedin.com/in/dsbrain/) graduated from University of Virginia Data Science program and now works with the State government of New York
 
-### **Discussion** {#discussion-2}
+### Discussion
 
 * The Carpentry paper [https://www.overleaf.com/read/xrysvzdnyjgt\#a2ff11](https://www.overleaf.com/read/xrysvzdnyjgt#a2ff11)   
 * The Time Series Summary [Time Series  Resources Summary Table](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?usp=sharing&authuser=1) 

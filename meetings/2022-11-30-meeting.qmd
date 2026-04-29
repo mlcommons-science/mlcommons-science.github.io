@@ -2,17 +2,17 @@
 title: "November 30, 2022"
 ---
 
-## **November 30, 2022** {#november-30,-2022}
+## November 30, 2022
 
-### **Present** {#present-91}
+### Present
 
 Tony Hey, Wesley Brewer, Geoffrey Fox, Piotr Luszczek, Juri Papay, Christine Kirkpatrick, Farzana Yasmin Ahmad, Aristeidis Tsaris, Murali Emani, Tom Gibbs
 
-### **Apologies** {#apologies-32}
+### Apologies
 
 Jeyan Thiyagalingam, Gregor von Laszewski, Gregg Barrett, 
 
-### **Tentative Agenda** {#tentative-agenda-69}
+### Tentative Agenda
 
 * Any new members \- None  
 * SC22 BOF Report  
@@ -20,13 +20,13 @@ Jeyan Thiyagalingam, Gregor von Laszewski, Gregg Barrett,
   * Short presentations on possible benchmarks by  Wesley Brewer, and Piotr Luszczek  
 * AOB
 
-### **Discussion** {#discussion-25}
+### Discussion
 
 * SC22 BOF was popular and had plenty of questions  
 * Need to follow up on MLCommons Public Relations re announcement of availability of benchmarks  
 * Draft is [MLCommons Science  Blog post draft](https://docs.google.com/document/d/1utBYGdgpmfNWZmisZrvjABinRENR-HxfTYWY_UKUOsc/edit?usp=sharing)  
 
-### **Presentation by Piotr Luszczek** {#presentation-by-piotr-luszczek}
+### Presentation by Piotr Luszczek
 
 * [sciml\_autotune\_gp\_Luszczek.pdf](https://drive.google.com/file/d/1CUXkVItvPI5XTn_6F79PCBmXTlO5npHo/view?usp=sharing) describes a Gaussian process based surrogate aimed at “Autotuning” – choosing best parameters to run a particular code (e.g. BLAS member) on a particular machine.  
 * Gaussian processes like an infinitely wide neural network  
@@ -38,7 +38,7 @@ Jeyan Thiyagalingam, Gregor von Laszewski, Gregg Barrett,
 * Looking at one-shot encoding  
 * As problems form classes use transfer learning among related problems
 
-### **Presentation by Wesley Brewer** {#presentation-by-wesley-brewer}
+### Presentation by Wesley Brewer
 
 * [MLCommons-Brewer-12-03-22.pdf](https://drive.google.com/file/d/1Fj8w_On7xGcPOVEKFy1AkiCNfWttBhtq/view?usp=sharing) describes an Inference network used in Computational Dynamics simulations to look up aspects of model as used in helicopter rotor aerodynamic codes  
 * Typical paper is [https://ieeexplore.ieee.org/abstract/document/9652868](https://ieeexplore.ieee.org/abstract/document/9652868)   
