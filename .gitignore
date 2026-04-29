@@ -1,6 +1,11 @@
-# Byte-compiled / optimized / DLL files
+# Quarto
+_site/
+.quarto/
+
+# OS files
 .DS_Store
-_site
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -129,3 +134,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+/.quarto/
+**/*.quarto_ipynb

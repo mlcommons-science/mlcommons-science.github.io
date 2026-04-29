@@ -1,6 +1,14 @@
-all:
-	npx @11ty/eleventy
-	cp -r _site/* docs/
+.PHONY: all view clean publish
 
-serve:
-	npx @11ty/eleventy --serve
+all:
+	quarto render
+
+view:
+	quarto preview
+
+clean:
+	rm -rf _site
+	rm -rf .quarto
+
+publish:
+	quarto publish gh-pages

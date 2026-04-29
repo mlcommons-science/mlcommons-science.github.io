@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Science"
+  navbar:
+    logo: "https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg"
+    background: white
+    foreground: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "About"
+        href: about.qmd
+
+format:
+  html:
+    theme: 
+      - flatly
+      - custom.scss
+    toc: true
+
+listing:
+  type: default
+  sort: "date desc"
+  categories: true
