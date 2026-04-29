@@ -1,3 +1,42 @@
-::: { .footer-container }
-© 2026 MLCommons® Science 
+::: {.footer-container}
+::: {.footer-grid}
+
+::: {.footer-column}
+<img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" style="width: 150px; filter: brightness(0) invert(1); margin-bottom: 1rem;">
+<p style="font-size: 0.8rem; opacity: 0.8;">Driving the advancement of machine learning in the sciences.</p>
+:::
+
+::: {.footer-column}
+#### Quick Links
+<ul class="footer-links">
+  <li><a href="https://mlcommons.org">MLCommons Home</a></li>
+  <li><a href="https://mlcommons.org/en/groups/research-science/">Working Group</a></li>
+  <li><a href="/about.qmd">About Us</a></li>
+  <li><a href="/blog.qmd">Blog</a></li>
+</ul>
+:::
+
+::: {.footer-column}
+#### Legal
+<ul class="footer-links">
+  <li><a href="https://mlcommons.org/privacy-policy/">Privacy Policy</a></li>
+  <li><a href="https://mlcommons.org/terms-of-use/">Terms of Use</a></li>
+  <li><a href="https://mlcommons.org/contact/">Contact</a></li>
+</ul>
+:::
+
+::: {.footer-column}
+#### Follow Us
+<div class="footer-socials">
+  <a href="https://github.com/mlcommons" target="_blank" title="GitHub"><i class="bi bi-github"></i></a>
+  <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+  <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+</div>
+:::
+
+:::
+:::
+<div style="border-top: 1px solid #333; margin-top: 2rem; padding-top: 1rem; font-size: 0.8rem; opacity: 0.6;">
+  © 2026 MLCommons® Science. All rights reserved.
+</div>
 :::

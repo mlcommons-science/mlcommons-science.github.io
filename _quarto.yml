@@ -5,6 +5,7 @@ website:
   title: "Science"
   navbar:
     logo: "https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg"
+    logo-href: "https://mlcommons.org"
     background: white
     foreground: primary
     left:
@@ -21,6 +22,7 @@ format:
       - flatly
       - custom.scss
     toc: true
+    include-after-body: footer.html
 
 listing:
   type: default

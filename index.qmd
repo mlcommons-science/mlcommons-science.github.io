@@ -1,5 +1,6 @@
 ---
 title: "MLCommons® Science"
+css: hidden-title.css
 listing:
   contents: posts
   type: default
@@ -13,6 +14,8 @@ listing:
 ### Advancing the Frontier of Scientific Machine Learning
 
 Welcome to the MLCommons® Science working group. We are dedicated to the development of scientific benchmarks that drive the advancement of machine learning in the sciences, creating a standardized ecosystem for measuring progress in AI-driven discovery.
+
+[Go to the Official Web Page](https://mlcommons.org/working-groups/research/science/){.btn-primary}
 
 [Explore Our Work](/about.qmd){.btn-primary}
 :::
