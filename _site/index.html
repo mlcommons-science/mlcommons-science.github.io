@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8e6c1cb90a1eeb78375d7549e778cda2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e8f35c4361e0103a44b1483701214354.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -196,7 +196,7 @@ window.Quarto = {
   <li><a href="#latest-updates" id="toc-latest-updates" class="nav-link" data-scroll-target="#latest-updates">Latest Updates</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y2xvdWRtYXNr">cloudmask <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZWFydGhxdWFrZQ==">earthquake <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2NpZW5jZQ==">science <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -267,13 +267,6 @@ window.Quarto = {
 <h3 class="no-anchor listing-title">
 <a href="./posts/earthquake-1.html" class="no-external">Improving the Earthquake Nowcasting Code</a>
 </h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWFydGhxdWFrZQ=='); return false;">earthquake</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2NpZW5jZQ=='); return false;">science</div>
-
-</div>
 <div class="delink listing-description"><a href="./posts/earthquake-1.html" class="no-external">
 <p>Improving the Earthquake Nowcasting Code</p>
 </a></div>
@@ -292,20 +285,13 @@ G. C. Fox
 <div class="quarto-post image-right" data-index="1" data-categories="Y2xvdWRtYXNrJTJDc2NpZW5jZQ==" data-listing-date-sort="1678680000000" data-listing-file-modified-sort="1777501068195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
 <div class="thumbnail"><a href="./posts/cloudmask-1.html" class="no-external">
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<p class="card-img-top"><img loading='lazy' src="images/image1.png"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/cloudmask-1.html" class="no-external">Cloudmask Improvements for Parallel Executions</a>
 </h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y2xvdWRtYXNr'); return false;">cloudmask</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('c2NpZW5jZQ=='); return false;">science</div>
-
-</div>
 <div class="delink listing-description"><a href="./posts/cloudmask-1.html" class="no-external">
 <p>Improvements towards parallel cloudmask.</p>
 </a></div>
@@ -436,7 +422,7 @@ Gregor von Laszewski </a><a href="mailto:laszewski@gmail.com" class="email">lasz
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/mlcommons-science\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
