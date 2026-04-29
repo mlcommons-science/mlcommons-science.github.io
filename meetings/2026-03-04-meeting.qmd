@@ -1,0 +1,201 @@
+---
+title: "Meeting Notes - March 4, 2026"
+---
+
+## **March 4, 2026**
+
+### **Present**
+
+- Amitash Nanda, Anna Su, Armstrong Foundjem,Deepak Tosh, Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Juri Papay, Lisa Yang, Matt Sinclair, Nazmun Nahar Tui, Nobin Sarwar, Piotr Luszczek, Shirley Moore, Stefano Patalano,  Victor Lu
+
+### **Tentative Agenda**
+
+- Any New Members Introduction
+
+- Presentation by Nazmun Nahar Tui "Stormer Transformer Model" from UTEP. A Ph.D. Student advised by Deepak Tosh and introduced by Shirley Moore
+
+- Presentation by Anna Su (Yale) and Amitash Nanda (UCSD) on "Biology Benchmarks"
+
+- Any Other Business
+
+### **New Members Introduction**
+
+- **Deepak Tosh**, <https://www.linkedin.com/in/deepak-tosh-1033a33/> an Associate Professor at the University of Texas El Paso (UTEP), specializes in system cyber security and applying AI to solve cyber security problems in operational technology and critical infrastructure
+
+- A student, **Nazmun Nahar Tui**, <https://www.linkedin.com/in/nahartui/> will be presenting a topic they are exploring under Deepak Tosh’s supervision
+
+- **Lisa Yang** <https://www.linkedin.com/in/greenboxlabs/> is the Founder & CEO of GREENBOX Labs, building the execution layer for reproducible biology. After a decade scaling compliance-driven hardware–software systems in big tech, I returned to controlled-environment science to solve a core problem: experiments are controlled, but not governed. GREENBOX builds modular, programmable environmental emulators that enforce experimental protocols at runtime and generate cryptographically hashed, execution-verified data.
+
+- Geoffrey Fox suggested Lisa Yang give a talk.
+
+### **Google Meet Notes**
+
+- [MLC Science WG - 2026/03/04 07:58 PST - Notes by Gemini](https://docs.google.com/document/d/1H_2CYXntlNEPLy22hKfjRfAuu7_qZ10T56tRfzwQW-g/edit?usp=sharing)
+
+- **Summary:** Deepak Tosh introduced himself, and the meeting agenda was confirmed by Geoffrey Fox before Nazmun Nahar Tui presented her work on "Scaling transformer training: an empirical study of GPU communication overhead optimization" for the Stormer weather forecasting model, revealing that Stormer training does not scale well as it becomes communication-dominated, with Gradient Accumulation being the most effective optimization technique to address this bottleneck. Amitesh Nanda and Anna Su discussed generative AI for protein engineering and design, detailing the diverse data formats used across the design pipeline and highlighting the challenge of low CPU and GPU utilization caused by the iterative, sequential feedback loop between models, which Matt Sinclair and Juri Papay recognized as a common problem in hybrid science-plus-ML workloads. Lisa Yang also introduced herself as a new member from the biology field, and Gregor von Laszewski proposed a special journal edition on earth science and AI impact and benchmarking. 
+
+- **Meeting Agenda and Talk Order:** Geoffrey Fox confirmed the schedule: the UTEP talk first, followed by talks from Yale and San Diego.
+
+### **Presentation 1: Scaling Transformer Training in Stormer:**
+
+- [Scaling Stormer Training_ An Empirical Study of GPU Communication Overhead Optimization.pptx](https://docs.google.com/presentation/d/1JcEDMQfOk5HE0HbLBOZY2HuXb1x0jAeB/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true) 
+
+- Nazmun Nahar Tui, a PhD student at UTEP, presented work on "Scaling transformer training: an empirical study of GPU communication overhead optimization."
+
+- Matt Sinclair requested the presenter minimize the video panel obstructing the slides.
+
+- **Stormer Model Overview and Features** Stormer is a medium-range weather forecasting model using a vision transformer backbone with weather-specific embedding to capture physical relationships between atmospheric variables (e.g., wind, pressure).
+
+- It uses a randomized iterative dynamic forecasting method, predicting changes over multiple time intervals (6-hour, 12-hour, 24-hour).
+
+- It employs multi-step fine-tuning and a special pressure-weighted loss function that prioritizes variables near the surface.
+
+- **Stormer Training Phases and Inference Strategies:** Training is divided into three phases, progressively increasing the number of consecutive predictions (rollout step method) to build stability for long forecasts.
+
+- Inference uses two strategies:
+
+  - **Homogeneous:** Predicting the future using the same time intervals (e.g., four 6-hour steps for a 24-hour prediction).
+
+  - **"Best $m$ in $n$":** Trying $n$ interval combinations, picking the $m$ best ones, and averaging the results for the final forecast.
+
+- **Replication vs. Actual Stormer Differences:**
+
+  - **Image Resolution:** Replication used 240x120; actual Stormer used 128x256.
+
+  - **Data Split:** Replication used half the data (2000-2018); actual Stormer used 1979-2018.
+
+  - **Patch Size:** Replication used 8; actual Stormer used 2 (larger size was necessary to avoid Out-of-Memory errors).
+
+  - **Training GPUs:** Replication used 64 A100 GPUs; actual Stormer used 128 A100 GPUs.
+
+  - **Experimental Software:** Setup included PyTorch 2.9.0, CUDA 12.8, nickel 2.27.5, and Distributed Data Parallel (DDP) on the NERSC Perlmutter supercomputer.
+
+- **Stormer Scaling Behavior Analysis**
+
+- The study showed that with one node (four GPUs), training was computationally dominated (nickel all-reduce took 11% of GPU time).
+
+- As the number of nodes increased, the training shifted to being communication dominated, consuming almost 87% of GPU time at 16 nodes (64 GPUs), indicating poor scaling.
+
+- The communication dominance was due to increased average CUDA stream synchronization time.
+
+- **Optimization Knobs Explored:**
+
+  - **Mixed Precision (BF16):** Marginally reduced communication time from 77.8% to 77%.
+
+  - **Gradient Bucket Size:** Increasing from 25 MB to 50 MB (and 100 MB) had a slight impact, reducing communication time to around 75.5-75.6%.
+
+  - **Gradient Accumulation:** Increasing the factor significantly reduced communication time from 86% (factor of 1) to 28.7% (factor of 16).
+
+- **Conclusion on Knobs:** Gradient accumulation was the most crucial factor in reducing communication overhead.
+
+**Discussion on Compute vs. Communication Bottleneck**
+
+- Matt Sinclair suggested the communication dominance might be due to insufficient compute to hide the communication overhead.
+
+- Nazmun Nahar Tui's optimized configuration (64 GPUs, 18 hours training) compared to the actual Stormer (128 A100 GPUs, 24 hours) suggested that redundant communication was wasting GPU time.
+
+- Matt Sinclair offered to follow up offline with Nazmun Nahar Tui, Shirley Moore, and Deepak Tosh on related investigations.
+
+- Shirley Moore confirmed the study was performing weak scaling (increasing problem size with the number of GPUs).
+
+**Accuracy Comparison and Gradient Accumulation Impact**
+
+- Accuracy was measured using Root Mean Square Error (RMSE) and Anomaly Correlation Comparison (ACC).
+
+- The accuracy difference between the baseline and actual Stormer was small but was caused by the gradient accumulation factor of 16, which slightly hurt accuracy (consistently observed for the T850 variable in the ACC analysis).
+
+- **Future Work:**
+
+  - Formulate a theoretical communication model for large-scale transformers.
+
+  - Develop an estimation method for GPU memory requirements.
+
+  - Conduct the same study using pipeline parallelism.
+
+**Questions on Data Parallelism and Energy Consumption**
+
+- Juri Papay suggested the communication overhead might be due to data parallelism and that model or pipeline parallelism could improve performance, given the model's 350 million parameters and huge communication load.
+
+- Matt Sinclair and Juri Papay suggested the communication bottleneck leads to significant GPU idle time and potentially high energy consumption.
+
+- Nazmun Nahar Tui had not yet focused on power consumption but planned to. Matt Sinclair offered to help with measurement scripts.
+
+- Juri Papay noted that network communication is thousands of times more expensive than floating-point operations.
+
+**Discussion on Variable Embedding in Stormer**
+
+- Victor Lu asked about the memory and communication implications of embedding individual variables.
+
+- Nazmun Nahar Tui explained that Stormer embeds each atmospheric variable separately to model the physical relationships, unlike typical vision transformers with three color channels.
+
+- Geoffrey Fox noted that models using direct numerical values generally outperform those using embeddings in time series.
+
+### **Presentation 2: Generative AI for Protein Engineering and Design (Resource Usage)**
+
+- [MLCommons_Science.pptx](https://docs.google.com/presentation/d/1GCnf7a5VWJv-uQUaY8okQKbAOQvsJnTz/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true) 
+
+- Anna Su presented on resource usage constraints in protein design, which involves a sequential feedback loop between a generative AI model (API call) and a property prediction model (GPU-run).
+
+- **Data Formats in Protein Design:**
+
+  - **Target Definition:** FastA, PDB/MMCIF, CSV, JSON, YAML.
+
+  - **Sequence Sourcing and Curation:** FastA, CSV/TSV, UniProt/GenBank flat files.
+
+  - **Evolutionary Context:** A3M, Stockholm (STO), CSV.
+
+  - **Structure Predictions:** PDB, MMCIF, JSON/YAML, Pickle/NPR.
+
+  - **Property Predictions:** JSON/YAML, CSV/TSV, PDB/MMCIF.
+
+  - **Design Generation Loop:** FastA, JSON/YAML, PDB/MMCIF.
+
+**Identifying Resource Utilization Gaps**
+
+- Significant gaps in CPU and GPU utilization were observed due to the iterative feedback loop, a phenomenon Anna Su suggested is common in sequential hybrid science-plus-ML workloads.
+
+**Discussion on Hybrid Workload Bottlenecks**
+
+- Matt Sinclair confirmed this is a common challenge in hybrid science-plus-ML workloads and offered to share resources on groups investigating the problem.
+
+- Victor Lu described this as a "wait interface issue" in the database world, where the bottleneck is not CPU or memory, and noted that current AI hardware/frameworks lack methods to quantify waiting time.
+
+**Root Causes of GPU Idle Time**
+
+- Anna Su referenced a Microsoft research paper concluding that low utilization is a software orchestration issue, with 46% of issues from data operations (e.g., GPU starvation) and 45% from model configuration (e.g., small batch sizes).
+
+**Optimization Attempts and Future Needs**
+
+- GPU parallelization and parallel API calls significantly reduced decoding step time.
+
+- Anna Su asked for a more robust architecture or approach to automate these optimizations, as scientists spend significant time manually optimizing.
+
+**Discussion on Utilization Limits and Data Format Complexity**
+
+- Juri Papay advised against excessive worry about utilization, as it can be limited by the nature of the problem (e.g., low arithmetic intensity in LLM inference).
+
+- Amitesh Nanda explained the vast number of data formats are necessary due to the diverse tasks in protein design (sequence, structure, property prediction) and the specific needs of different generative AI models.
+
+**Database Format Collaboration**
+
+- Victor Lu shared a resource for comparing scientific domain database formats and encouraged contributions.
+
+- Victor Lu confirmed Amitesh Nanda's research area falls under bioinformatics (transcriptomics, proteomics, genomics) and Anna Su's is structural biology/protein design.
+
+- Victor Lu expressed interest in the data formats used in Nazmun Nahar Tui's domain (geostorm/earth science).
+
+- [Oracle Wait Interface: A Practical Guide to Performance Diagnostics & Tuning (Osborne ORACLE Press Series)](https://www.amazon.com/Oracle-Wait-Interface-Performance-Diagnostics/dp/007222729X) 
+
+- [Data aspect of Scientific AI Benchmarks](https://docs.google.com/spreadsheets/d/1bst1987Vhmzd7UQqDVHZRsPnCg1oMvVE0elEWnJ2Ylw/edit?gid=0#gid=0) 
+
+**Comparison of Data Patterns and IO Performance across Scientific Domains**
+
+- Victor Lu emphasized the importance of comparing data patterns and Input/Output (IO) performance across scientific domains to uncover new phenomena and asked researchers to elaborate on their format choices and results.
+
+- Amitash Nanda offered to add information regarding their transcriptomics research.
+
+### **Frontiers Journal Special Edition Proposal**
+
+- Gregor von Laszewski proposed organizing a special journal edition for Frontiers on "earth science and AI impact and benchmarking" and requested interested group members to email them.
+
+- Gregor von Laszewski will follow up with people interested in participating in a special journal edition on earth science and AI impact and benchmarking by email.

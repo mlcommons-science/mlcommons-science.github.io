@@ -1,0 +1,46 @@
+---
+title: "October 21, 2024 HPC Working Group Meeting"
+---
+
+## **October 21, 2024 HPC Working Group Meeting** {#october-21,-2024-hpc-working-group-meeting}
+
+### **Present** {#present-46}
+
+Andreas Prodromou (chair HPC), Murali Emani (co-chair HPC), Thorsten Kurth, Steven Farrell, Satoshi Iwata, Julia Ibanescu, Geoffrey Fox
+
+### **Discussion of Current Next Steps** {#discussion-of-current-next-steps-1}
+
+* HPC Working Group Minutes [HPC WG Minutes](https://docs.google.com/document/d/1Hb55zy75jsn_jnUs9SyzkHyY6UNJfDunROOyt_jigL0/edit?tab=t.0)   
+* Due to lack of submissions the v4.0 HPC Training benchmark was cancelled  
+* Note it had v1.0, v2.0, and v3.0 Benchmarks [Benchmark MLPerf Training: HPC | MLCommons V2.0 Results](https://mlcommons.org/benchmarks/training-hpc/)  
+  * These have Closed and Open Divisions and  
+  * TTT (Time to Train, Capability) and TPUT (Throughput, Capacity)  
+* The HPC Working Group will close but we will propose to MLCommons leadership that its mission and benchmarks be transferred to the Science working group (unless the full MLCommons Training working group wants some (OpenFold is most likely)  
+* Benchmarks at [GitHub \- mlcommons/hpc: Reference implementations of MLPerf™ HPC training benchmarks](https://github.com/mlcommons/hpc) 
+
+### **Discussion of HPC and Science Working Group Relations** {#discussion-of-hpc-and-science-working-group-relations}
+
+* **What:** Benchmark code, data and competition rules move under the Science WG control.  
+  * If MLP Training WG wants OpenFold, they can have it. It can remain under the Science WG control, or transferred to MLPerf Training’s repo.  
+  * Science WG maintains a “science HPC benchmark suite”, which could have links to other benchmarks, not necessarily their code.  
+* **When:** Everything should be done on Nov. 4th  
+  * **Why?** We want to have the new system in place before SC  
+* **How:**  
+  * Science WG and its members should be added to their repository  
+    * May require moving to a different Github group.  
+  * Science WG chairs need to have admin control of the repo.  
+  * MLPerf HPC members should be added to the Science WG mailing list.  
+  * Science WG tasks:  
+    * Must decide whether new meeting times should be added.  
+      * Potentially inherits existing MLPerf HPC slots.  
+    * Update rules as needed to create the new benchmark suite.  
+  * HPC WG termination:  
+    * Mailing Lists notified and closed  
+    * Github repos (code and results) must be transferred.  
+    * Website:   
+      * HPC should redirect to Science WG for some time.  
+      * HPC results should be preserved. Branding and publication is up to MLCommons.  
+  * Coordinate with BoF effort (Tom St. John):  
+    * Potentially some rebranding (HPC presentation instead of HPC WG?)  
+    * Notify the community of the change and the new system
+

@@ -1,0 +1,52 @@
+---
+title: "March 20, 2024"
+---
+
+## **March 20, 2024** {#march-20,-2024}
+
+### **Present** {#present-61}
+
+Geoffrey Fox, Gregor von Laszewski, Gregg Barrett,  Wes Brewer, Piotr Luszczek, Xavier Coubez, Armstrong Foundjem, Victor Lu,  Elie Alhajjar, Sarah Chan, Adarsh Agrawal, Craig Peters,
+
+### **Apologies**  {#apologies-12}
+
+Christine Kirkpatrick, Vijay Janapa Reddi, Tom Gibbs
+
+### **Tentative Agenda** {#tentative-agenda-41}
+
+* Any New Members Introduction  
+* News from NVIDIA GTC  
+* Science Foundation Models  
+* Updates on Papers and Projects  
+* Any Other Business
+
+### **New Members** {#new-members-28}
+
+* **Sarah Chan** [https://www.linkedin.com/in/queserasarah/](https://www.linkedin.com/in/queserasarah/)  [sarah.chan@sagebase.org](mailto:sarah.chan@sagebase.org) PhD in Molecular Biology and 12 years global business development experience in taking early stage life science technologies to market. Moved from Singapore to Seattle in 2023 to work in Sage Bionetworks · [https://sagebionetworks.org/](https://sagebionetworks.org/) , which aims to encourage deeper more fruitful collaborations to advance bioscience.  
+* **Adarsh Agrawal**, Stony Brook University CS Masters, August 2023 \- December 2024, interested in LLM  
+* **Craig Peters** [https://www.linkedin.com/in/craiglpeters/](https://www.linkedin.com/in/craiglpeters/) [craiglpeters@github.com](mailto:craiglpeters@github.com) is a product manager at GitHub. He is interested in contributing to reproducible science and works on an open specification for reproducible environments called Dev Containers documented at [https://containers.dev](https://containers.dev)  
+  * Works well with VSCode environments
+
+### **GTC Keynote** {#gtc-keynote}
+
+* Piotr described experiences at NVIDIA GTC meeting  
+* CEO Jensen Huang gave a great talk introducing the new Blackwell architecture [https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing)   
+  * Elizabeth Blackwell was first woman in America to receive a medical degree but this chip named after David Harold Blackwell — a mathematician who specialized in game theory and statistics, and the first Black scholar inducted into the National Academy of Sciences   
+  * This B architecture replaces previous H Hopper architecture  
+* This architecture has two dies on a single chip \-” Packed with 208 billion transistors, Blackwell-architecture GPUs are manufactured using a custom-built 4NP TSMC process with two-reticle limit GPU dies connected by 10 TB/second chip-to-chip link into a single, unified GPU.”  
+* Custom low precision floating point with FP4 for inference  
+* Fifth-Generation NVLink with 1.8TB/s bidirectional throughput per GPU  
+* Grace will link to Blackwell  
+* NIMS: NVIDIA NIM is a set of easy-to-use microservices for accelerating the deployment of foundation models on any cloud or data center and helps keep your data secure.  
+* TSMC link for fabrication
+
+### **Discussion** {#discussion-19}
+
+* Discussion of digital twins with Wes commenting on his team’s model for Frontier  
+* Digital Twin workshop on and using HPC [https://sites.google.com/view/sc24digitaltwinsforhpc/home](https://sites.google.com/view/sc24digitaltwinsforhpc/home)   
+* Wes has Frontier 6 month job log. Liquid cooled on each blade  
+* Frontier restricted now. Summit available  
+* Craig Peters noted Reproducible computing [https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023EA003458](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023EA003458)   
+* Christine Kirkpatrick noted: We started this in EarthCube and it resulted in [Notebook Directory | EarthCube](https://www.earthcube.org/notebooks)   AGU's effort picks up where we left off and hopefully brings it into use with a journal(s). We expect/hope to do a similar effort with NIH later this year.  
+* Comment from Wes that reinforcement learning not used in practical scheduling
+

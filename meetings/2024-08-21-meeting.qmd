@@ -1,0 +1,71 @@
+---
+title: "August 21, 2024"
+---
+
+## **August 21, 2024** {#august-21,-2024}
+
+### **Present** {#present-50}
+
+Geoffrey Fox, Christine Kirkpatrick, Juri Papay, Armstrong Foundjem, Gregg Barrett,  Gregor von Laszewski, Riccardo Balin, Victor Lu,  Jeyan Thiyagalingam, Marisa Ahmad,  Jineta Banerjee
+
+### **Tentative Agenda** {#tentative-agenda-30}
+
+* Any New Members Introduction  
+* Any comments on increasing collaboration with the HPC working group?  
+* White Papers  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)   
+  * Benchmark Carpentry [benchmark-carpentry](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Status of Benchmarks (OSMIBench, MOM6)  
+* Science Foundation Models  
+* Any Other Business
+
+### **New Member** {#new-member-6}
+
+* Jineta Banerjee, [Jineta Banerjee \- Sage Bionetworks | LinkedIn](https://www.linkedin.com/in/jineta-banerjee/) Principal Scientist at Sage Bionetworks. Jineta is  a multi-disciplinary scientist with cross-functional experience in life sciences (across neuroscience, cancer, and rare disease domains) and AI/ML, and leading cross-functional collaborative teams. I work with an entrepreneurial mindset at the intersection of applied computer science and life sciences.
+
+### **Relation of HPC and Science Working Groups** {#relation-of-hpc-and-science-working-groups}
+
+* In an earlier August 17 email discussion, Geoffrey suggested some simple steps that could be considered, such as holding science and HPC each biweekly but on alternate weeks. Science and HPC working groups have similar enrollment (\~450) and many recently added members. We could send the agendas and meeting announcements to both groups. Geoffrey thinks that the new initiatives being considered or implemented for Science (Foundation models and generative AI, invited seminars) would interest HPC, and HPC's benchmarks are marvelous and all interesting to science.  
+* Jeyan was concerned that the success of the HPC group was evaluated by a number of submissions.  
+* The timing of meetings was discussed, with alternating weeks for science and HPC as the most popular. Further, it was agreed and emphasized by Marisa, that science and HPC working groups should still be kept separate.  
+* The NSF supercomputer centers don’t seem very involved. Why?  
+* DOE has Frontier, Aurora, El Capitan, and their follow-ons. Why aren’t they interested?  
+* Gregor noted that HPC systems required significant help from support staff to get good performance or just to get the code to run.  
+* Christine noted that community activities use enthusiasm and that they only go so far without funding.  
+* Note Argonne has a rich set of novel AI machines. Cerebras, Groq, Graphcore, SambaNova, with published benchmarks of these. [https://drive.google.com/file/d/1AbIjc\_a9rhNtUfEke0ONsc7oDHNp0DyY/view](https://drive.google.com/file/d/1AbIjc_a9rhNtUfEke0ONsc7oDHNp0DyY/view)   
+* Later conversations with Tom Gibbs of NVIDIA suggested that AI codes are moving so fast that traditional deliberately static benchmarks are not so attractive. Geoffrey tries to address this in the following section.  
+* We emphasized the educational value of all MLCommons benchmarks.  
+* It was suggested that we ask the HPC working group to give a presentation at Science WG.  
+* We agreed to ask a) SDSC as an NSF supercomputer (Christine), b) Murali at Argonne as co-lead of HPC and a DOE supercomputer center (Riccardo), c) Mallikarjun Shankar for interests of Oak Ridge (UK Group)  
+* A survey of HPC and Science WG members was suggested.
+
+### **Science and HPC WG Collaboration: Generative AI and Foundation Models for Benchmarking and Education in Science** {#science-and-hpc-wg-collaboration:-generative-ai-and-foundation-models-for-benchmarking-and-education-in-science}
+
+8. Some joint Science HPC vision suggested by Geoffrey  
+9. The Science WG's next initiatives should involve the most interesting and challenging AI applications, as seen by users, providers, and vendors of AI infrastructure. Further, we expect benchmarks to be well documented so they are valuable for students and researchers wanting to apply the latest technologies to different applications. Also, we recognize that to have comparative value between machines, the benchmarks cannot keep changing and must have a clear historical tracking. On the contrary, a science discovery metric will likely require a continuously changing SOTA (state-of-the-art) technology.  This suggests we identify leading edge (kernel) AI for science examples where we keep both a historical implementation and one that is at the leading edge.  We intend these artifacts to be useful in many ways, both for new machine solicitations and for users needing performance estimates to estimate the time needed on AI resource allocations like NAIRR. In addition, the broad educational values have already been discussed. As we combine the goals of the HPC and Science working groups for this new set of benchmarks, we need a strong collaboration between these working groups. As well as giving documented examples, we can support other initiatives such as identifying key features determining performance as in analysis by Juri [benchmark\_predictions\_v2.xlsx](https://docs.google.com/spreadsheets/d/1UF0yzha0iywHdqzQCmQSghBrvJwuYei6/edit?usp=drive_link&ouid=100475830980223085873&rtpof=true&sd=true) and generating useful datasets from generative AI models.   
+10. Initial areas that we could choose from include  
+    1. Climate and Weather. Here, the best deep-learning data assimilation methods use diffusion models. Technologically similar areas include the Kaggle calorimeter challenge\[1\], the unfolding of LHC physics data\[2\], and modern digital twins. Interestingly, multiple technologies exist, such as GANs, diffusion models, normalizing flows, and variational latent diffusion models.  
+    2. Surrogates for large-scale simulations: We already have examples such as OSMIBench\[3\] from Oak Ridge in the Science WG.  
+    3. Time Series, where over 60 new models have been added over the last three years. See \[4\]. The new AI Alliance consortium has a relevant initiative here.
+
+\[1\]	[Kaggle, “Fast Calorimeter Simulation Challenge 2022.” \[Online\]. Available:](http://paperpile.com/b/K4bdpT/kjHp) [https://calochallenge.github.io/homepage/](https://calochallenge.github.io/homepage/)[. \[Accessed: 20-Nov-2023\]](http://paperpile.com/b/K4bdpT/kjHp)  
+\[2\]	[N. Huetsch, J. M. Villadamigo, A. Shmakov, S. Diefenbacher, V. Mikuni, T. Heimel, M. Fenton, K. Greif, B. Nachman, D. Whiteson, A. Butter, and T. Plehn, “The Landscape of Unfolding with Machine Learning,” *arXiv \[hep-ph\]*, 29-Apr-2024 \[Online\]. Available:](http://paperpile.com/b/K4bdpT/MyEP) [http://arxiv.org/abs/2404.18807](http://arxiv.org/abs/2404.18807)  
+\[3\]	[W. Brewer, D. Martinez, M. Boyer, D. Jude, A. Wissink, B. Parsons, J. Yin, and V. Anantharaj, “Production Deployment of Machine-Learned Rotorcraft Surrogate Models on HPC,” in *2021 IEEE/ACM Workshop on Machine Learning in High Performance Computing Environments (MLHPC)*, 2021, pp. 21–32 \[Online\]. Available:](http://paperpile.com/b/K4bdpT/tJwI) [http://dx.doi.org/10.1109/MLHPC54614.2021.00008](http://dx.doi.org/10.1109/MLHPC54614.2021.00008)  
+\[4\]	[A. Jafari, G. Fox, J. B. Rundle, A. Donnellan, and L. G. Ludwig, “Time Series Foundation Models and Deep Learning Architectures for Earthquake Temporal and Spatial Nowcasting,” *arXiv \[cs.LG, physics.geo-ph\]*, 22-Aug-2024 \[Online\]. Available:](http://paperpile.com/b/K4bdpT/aGKL) [http://arxiv.org/abs/2408.11990](http://arxiv.org/abs/2408.11990)
+
+### **White Papers** {#white-papers-7}
+
+* Gregor and Christine are working on the first white paper with figure quality being improved. This will be initially put in Arxiv  
+* Gregor noted Energy traces in Cloudmesh software for earthquake application
+
+### **Benchmarks** {#benchmarks-2}
+
+* Gregor discussed OSMIBench where working with HPE and Wes, we have converted code from Tensorflow to PyTorch.  
+* HPE made a Docker container for their Smartsim software that can be ported to Singularity  
+* MOM6 is perhaps a better dataset for this CFD surrogate and has training plus inference  
+* It was noted thar Singularity image is architecture dependent  
+* The Benchmark repository provides separate Target directories for each machine and application  
+  Gregor and Wes need to meet, rerun with rerun with new drivers and this will be about 2 weeks for OSMI and 4 weeks for MOM6  
+  	Finishing with HPE will take longer
+

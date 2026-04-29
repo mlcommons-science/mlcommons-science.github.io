@@ -1,0 +1,28 @@
+---
+title: "September 23, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **September 23, 2025 (9.05 pm. ET for Asia-USA)** {#september-23,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-11}
+
+Armstrong Foundjem, Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski, Jong Choi, Piotr Luszczek, Satoshi Iwata
+
+### **Google Meet Notes** {#google-meet-notes-9}
+
+* [MLC Science WG \- 2025/09/24 01:51 BST \- Notes by Gemini](https://docs.google.com/document/d/1Zk8Sts9WWTI77ZjUdXUJG6WacfGOBALdzSb8DjPZpLE/edit?usp=sharing)   
+* The meeting covered updates on various projects and discussions on several topics. Geoffrey Fox inquired about the POS grant report and later decided to allow "note takers" to remain in the meeting as an experiment despite initial concerns. Gregor von Laszewski provided updates on paper progress, confirming the rewriting of abstract, introduction, and definition sections, and suggested submitting it to arXiv first before deciding on further publication, while Armstrong Foundjem confirmed reviewing the paper and plans to send it for review by Friday. Geoffrey Fox and Gregor von Laszewski discussed the absence of a comprehensive list of ML Commons benchmarks, with Armstrong Foundjem offering to mine GitHub for this information if granted access to private subgroups, though Gregor von Laszewski recommended focusing on public repositories. Geoffrey Fox presented their work on agentic AI for data analysis, while Jong Choi discussed Oak Ridge National Lab's focus on a DOE initiative for scientific data deposition and AI-assisted training workflows. Lastly, Gregor von Laszewski recommended including a section on performance monitoring tools like Omnistat in the paper, with Jong Choi offering to connect the team with AMD researchers if needed.
+
+### **Discussion** {#discussion-7}
+
+* Gregor von Laszewski noted [September 2025 OLCF User Conference Call: Omnistat](https://www.olcf.ornl.gov/calendar/userconcall-sep2025/)   
+  * Monthly Topic: Omnistat  
+  * Speakers: Karl Schulz (AMD) and Bruno Villasenor (AMD)  
+  * Abstract: Omnistat provides a set of utilities to aid cluster administrators or application developers to aggregate scale-out system metrics via low-overhead sampling across all hosts in a cluster or, alternatively on a subset of hosts associated with individual user jobs. At its core, Omnistat aggregates key telemetry from diverse subsystems, including memory/compute usage on AMD Instinct accelerators, network interface traffic, power/energy usage, and hardware performance counters. This talk will present an overview of Omnistat’s architecture, available metrics of interest, and example usage demos on ORNL’s Frontier supercomputer targeting end-users with SLURM job-script examples.  
+* Additional Links:  
+  * [OLCF Training Archive](https://docs.olcf.ornl.gov/training/training_archive.html)   
+  * [OLCF Training on Vimeo](https://vimeo.com/channels/olcftraining)   
+  * [Monthly User Conference Calls](https://www.olcf.ornl.gov/community/monthly-user-conference-calls/)   
+* Piotr Luszczek noted that  it's usually NVML as an equivalent of AMD OmniStat  
+* Jong Choi noted AMD omnistat github: [https://github.com/ROCm/omnistat](https://github.com/ROCm/omnistat) 
+

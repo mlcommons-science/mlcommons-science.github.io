@@ -1,0 +1,58 @@
+---
+title: "April 17, 2024"
+---
+
+## **April 17, 2024** {#april-17,-2024}
+
+### **Present** {#present-59}
+
+Geoffrey Fox, Juri Papay, Gregor von Laszewski, Elie Alhajjar, Gregg Barrett,  Piotr Luszczek, Victor Lu,  Tom Gibbs, 
+
+### **Apologies**  {#apologies-10}
+
+Christine Kirkpatrick, Vijay Janapa Reddi
+
+### **Tentative Agenda** {#tentative-agenda-39}
+
+* Any New Members Introduction  
+* Michigan Science Foundation Model Meeting(Wes Brewer)  
+* Science Foundation Models   
+* Updates on Papers and Projects (probably not as Christine out)   
+* Interactions with HPC working group  
+* Any Other Business
+
+### **Inference Performance for Generative AI** {#inference-performance-for-generative-ai-1}
+
+* Geoffrey followed up on the discussion last meeting of generative AI for science and the performance of the new lower precision floating point. We have prepared three different Calorimeter surrogates [Evaluating\_Calorimeter\_Surrogate\_Models\_V1.pdf](https://drive.google.com/file/d/1UhWMGfSJicTNEpaDGUbwmiPaCeEi_r1V/view?usp=sharing) . It was recommended that we initially look at A100 performance. The A100 supports 16, 32 and 64 bit floating point. Tom pointed out that help was available.
+
+### **Michigan Science Foundation Model Meeting SciFM24** {#michigan-science-foundation-model-meeting-scifm24}
+
+* MICDE Symposium on Foundational Scientific Machine Learning Models (SciFM24)  
+* April 2-3, 2024 URL: [2024 Symposium | Michigan Institute for Computational Discovery and Engineering](https://micde.umich.edu/news-events/annual-symposia/2024-symposium/)    
+* Wes Brewer summarized the meeting which was attended by around 350 people with notes [SciFM24 Summary.docx](https://docs.google.com/document/d/1oXjzL1pXdIXJBx16ue9TpPpcjb6tAnAi/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true).  This summary has several useful links.  
+* It had a strong educational theme with many students attending.  
+* Issues highlighted are summarized below but two key questions were the “Validity of Emergence” and the importance of Homogenization  
+* There were good tutorials with Colab implementations  
+* Examples described included MoLFormer from IBM [IBM Research MoLFormers](https://molformer.res.ibm.com/) (Das talk on Day 2), GenSLM [GenSLMs: Genome-scale language models reveal SARS-CoV-2 evolutionary dynamics](https://github.com/ramanathanlab/genslm), and control of robotic labs  
+* Ian Foster presented the Trillion Parameter Consortium and LLMs for science in TPC was presented in detail on the first day.  
+* Sean Welleck described AI for Mathematical theorem proving.  
+* One highlight was Mahoney’s keynote discussing surrogates with an Earthquake example with generative AI and a critique of Physics Informed Neural Networks.
+
+### **Michigan Science Foundation Model Meeting Questions** {#michigan-science-foundation-model-meeting-questions}
+
+* What about Homogenization – as more developers and organizations use these foundation models, the outputs and applications tend to become more standardized and uniform across different uses and sectors.  
+* How do we conceive of and construct foundation models for problems in which no clear "building blocks" exist?  
+* Is it possible for foundation models to produce discovery of new phenomena? Would it be able to produce a hypothesis contrary to most data that it is likely to see?  
+* What \[really\] is emergence? the phenomenon where complex and sophisticated behaviors or capabilities arise from simpler algorithms or models when trained on large-scale data. How do we better understand the factors that determine emergent properties in large models?  
+* What are the scaling laws to describe the dependency on factors such as training data size, feature dimension, computational resources, and structure and size of model.  
+* Methods for training models when the inference objectives are abstract, ill-specified, or misaligned.  
+* What new structures and capabilities are needed for an ecosystem supporting university/laboratory/industry collaboration in SciFMs?  
+* What is the role of universities in research and development of SciFMs?  
+* How do we address massive inequity in access to computational resources between industry and national labs, and national labs and academia?  
+* Role of Venture capital in SciFM efforts
+
+### **Any Other Business** {#any-other-business-7}
+
+* Victor Lu and Geoffrey discussed the cross domain applicability of foundation models. Geoffrey noted some issues with time series foundation models where the inclusion of multivariate input in static and dynamic variables was difficult to generalize and time series foundation models mainly looked at univariate time dependence. The other static and dynamic features need to be added as fine-tuning. Alternatively you look at models as patterns with a universal architecture but separate training on each domain.  
+* On the following day, there was the monthly meeting between Kanter, Juri and Geoffrey. We discussed the relation between MLCommons and the AI Alliance where there is still uncertainty.
+

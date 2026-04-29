@@ -1,0 +1,32 @@
+---
+title: "October 4, 2023"
+---
+
+## **October 4, 2023** {#october-4,-2023}
+
+### **Present** {#present-71}
+
+Geoffrey Fox, Piotr Luszczek, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Murali Emani, Yuhan (Douglas) Rao
+
+### **Apologies**  {#apologies-18}
+
+Mallikarjun Shankar, Ying-Jung Chen
+
+### **Tentative Agenda** {#tentative-agenda-50}
+
+* Any new members  
+* White Papers starting with energy [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* Other Benchmarks, including Foundation models  
+* AOB
+
+### **Discussion** {#discussion-23}
+
+* This description is short as Geoffrey was struggling with a frozen laptop.  
+* Juri rejoined our meetings withe enthusiasm  
+* The meeting focudssed on [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?pli=1)   
+* Christine noted that she received some negative comments on this topic.  
+* [Gregg Barrett](mailto:gregg.barrett@cirrusai.net)noted that “It will change when they have to pay for it \- skin-in-the-game.”  
+* SDSC takes about 10% the energy budget of UCSD  
+* Gregor noted  that he had not looked at this, but this seems to be the TPUv4 paper [https://arxiv.org/pdf/2304.01433.pdf](https://arxiv.org/pdf/2304.01433.pdf)   
+* We discussed the analysis of power usage in the paper and agreed to check some of the numbers that looked anomalous.
+

@@ -1,0 +1,39 @@
+---
+title: "Meeting Notes - February 24, 2026"
+---
+
+## **February 24, 2026**
+
+### **Present**
+
+- Armstrong Foundjem, Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Juri Papay, Lisa Yang, Marco Colombo, Piotr Luszczek, Satoshi Iwata, Shirley Moore, TUES DAY, Victor Lu
+
+### **Tentative Agenda**
+
+- Any New Members Introduction
+
+- Review of the "Stakeholder Review" paper
+
+- Discussion on the "Time Series Dataset Catalog"
+
+- Any Other Business
+
+### **Meeting Notes**
+
+- [MLC Science WG - 2026/02/24 08:00 PDT - Notes by Gemini](https://docs.google.com/document/d/1SxqbarY_BogYvRpYzH-6sZtT-4LdNAG0/view?usp=sharing)
+
+- **Stakeholder Review Paper:** The group discussed the progress of the stakeholder review paper. It was agreed that the paper should focus on the current state of scientific AI benchmarks and the gaps identified through stakeholder interviews. Geoffrey Fox suggested adding a section on the importance of cross-domain benchmarks.
+
+- **Time Series Dataset Catalog:** The current status of the time series dataset catalog was reviewed. It was noted that while many datasets have been identified, there is a need for more detailed metadata for each dataset to make the catalog more useful for benchmark development.
+
+- **Benchmark Taxonomy:** A preliminary discussion on creating a taxonomy for scientific benchmarks was held. The group agreed that the taxonomy should categorize benchmarks by scientific domain, data type, and evaluation metric.
+
+- **Future Collaborations:** There was a brief discussion about potential collaborations with other MLCommons working groups to ensure alignment on benchmarking standards.
+
+### **Things to do:**
+
+- Geoffrey Fox will refine the "Stakeholder Review" paper based on the group's feedback.
+
+- The team will continue to populate the "Time Series Dataset Catalog" with more detailed metadata.
+
+- A draft of the benchmark taxonomy will be prepared for the next meeting.

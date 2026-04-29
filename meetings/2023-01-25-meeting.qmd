@@ -1,0 +1,76 @@
+---
+title: "January 25, 2023"
+---
+
+## **January 25, 2023** {#january-25,-2023}
+
+### **Present** {#present-88}
+
+Wesley Brewer,  Gregor von Laszewski, Gregg Barrett, Geoffrey Fox, Juri Papay, Murali Emani, Tom Gibbs, Mallikarjun Shankar, Aristeidis Tsaris,
+
+### **Apologies** {#apologies-29}
+
+Jeyan Thiyagalingam, Tony Hey
+
+### **Tentative Agenda** {#tentative-agenda-66}
+
+* Any new members  
+* Increasing academic involvement in MLCommons: (Continued)  
+* FAIR metadata  
+* Discussion of new Benchmarks (Continued)  
+* AOB
+
+### **Current Benchmarks** {#current-benchmarks}
+
+* Gregor reported a bug in Cloudmask and that OSMI-Bench was running at Virginia.  
+* There was discussion of current benchmarks on Cerebras (Argonne and Edinburgh) and NVIDIA including Hopper; Tom Gibbs noted the relevance of combining Grace CPU with Hopper  
+* We discussed SDSC data repository which is set up like an s3 object store  
+* Limited number of people can upload; Juri from RAL and Christine plus Kevin Coakley, [kcoakley@sdsc.edu](mailto:kcoakley@sdsc.edu) from SDSC  
+* Later we discussed status of benchmarks with David Kanter and he arranged that Peter Mattson ask governing board of MLC to ap\[prove our release  
+* We discussed a paper withitems such as  
+  * Misdesign of disk systems  
+  * Computer systems AI read
+
+### **FAIR metadata** {#fair-metadata}
+
+* Gregg suggested  starting with some low hanging fruit on the science WG benchmarks and then have other groups in MLC adopt it.  
+* He noted that NSF is supposed to be getting funding for NAIRR to which Christine contributed. [https://www.ai.gov/wp-content/uploads/2023/01/NAIRR-TF-Final-Report-2023.pdf](https://www.ai.gov/wp-content/uploads/2023/01/NAIRR-TF-Final-Report-2023.pdf)  
+* Need pointers/guidelines to controlled ontologies and define DOI and versioning  
+* Goal is Ai readiness of data  
+* We agreed to write a FAIR for MLC white paper discussing Science and then the rest of MLCommons (Christine, Gregor, Juri were tentative drafters)  
+* Draft [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing) is below
+
+### **Draft White Paper from Christine** {#draft-white-paper-from-christine}
+
+MLCommons Science Concept Paper
+
+1. Opportunities to Improve MLCommons Benchmark Data   
+   1. Low Effort  
+      1. Create website/github pages for each dataset with basic information  
+         1) Add license designations ([CC](https://creativecommons.org/about/cclicenses/)) to datasets  
+         2) Register MLCommons Science benchmark datasets in other repos, e.g. OpenML  
+         3) Create a DOI for each dataset and provide a suggested citation  
+      2. Setup collection for the datasets at one of our institutions  
+         1) Register MLCommons Science benchmarks as a data collection in R3Data  
+   2. Medium Effort (to be supported under existing grants?)  
+      1. Add Schema.org descriptors to MLCommons Science dataset pages  
+      2. Initial work to identify gaps in schema.org  
+      3. Assess opportunities for capturing power consumption in results  
+      4. Provide a notebook that shows each dataset being used  
+   3. Requires Additional Funding  
+      1. Improve benchmark data metadata and other data attributes. Compare benchmarking results pre and post changes  
+      2. Document gaps in schema.org as potential extension to schema.org for Computer Science  
+      3. Modify benchmarks to track for reproducibility variance  
+2. Making MLCommons Data AI ready  
+3. Making Benchmarks FAIR  
+   1. Potential Best Practices  
+      1. At dataset intake obtain metadata and provenance.  
+      2. Document vocabularies or ontologies used in the creation of the dataset.  
+      3. Work with provider to obtain a DOI (ideally through their home institution).  
+      4. Determine repos/resources where the dataset will be listed.  
+      5. Determine and include the CC license type/  
+   2. Checklist  
+   3. Model Cards  
+4. Steps We’ve Taken to Improve MLCommons Science Benchmarks  
+5. Opportunities for MLCommons Writ Large to Adopt as Community Practices
+

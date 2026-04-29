@@ -1,0 +1,87 @@
+---
+title: "April 16, 2025"
+---
+
+## **April 16, 2025** {#april-16,-2025}
+
+### **Present** {#present-33}
+
+Ali Hashmi, Armstrong Foundjem, Azza Ahmad, Carl Ehrett, Christine Kirkpatrick, Elizabeth Campolongo, Gary Mazzaferro, Gregg Barrett, Geoffrey Fox, Gregor von Laszewski, Hussain Ather,  Iulia Ibanescu, Javier Toledo, Juri Papay, Krishna Gopal, Matt Sinclair, Murali Emani, Nhan Tran, Philip Harris, Piotr Luszczek, Rini Susan, Satoshi Iwata, Shirley Moore, Stefan Dvoretskii, Tues Day,  Victor Lu
+
+### **Tentative Agenda** {#tentative-agenda-15}
+
+* Any New Members Introduction  
+* Additional meeting times. April 22 9 pm April 23 11pm Eastern   
+* Next Steps in Science LLM Evaluation following TPBench   
+* White Papers   
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks based on [https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)    
+  * Note benchmark summaries from ChatGPT and Gemini Deep Research  
+* Any Other Business
+
+### **Google Meet Notes** {#google-meet-notes-27}
+
+* Full notes are at [Copy of MLC Science WG \- 2025/04/16 07:58 PDT \- Notes by Gemini](https://docs.google.com/document/d/1CRdE25JNHnDBgCPMAMrAHNyHlhXpBBgFOQee1wAnl04/edit?usp=sharing)   
+* Summary of the notes is:  
+  * The meeting addressed industry concerns about the discontinuation of the ML Commons HPC working group, clarified by Murali Emani and Geoffrey Fox as due to lack of benchmark submissions,  with the existing benchmarks remaining available.  
+  * New members—Carl Ehrett, Tues Day, Rini Susan, Iulia Ibanescu, Krishna Gopal—introduced themselves, and the group discussed benchmark categorization,   
+  * Gary discussed funding for a compliance project (seeking $500,000-$750,000),  
+  * Nhan and Matt discussed defining the benchmarking end goal (a categorized set, not a new submission round), and leveraging existing resources like openml.org.    
+  * Nhan Tran will organize an informal meeting to further categorize existing benchmarks, and   
+  * Gregor von Laszewski requested contributions to the benchmark carpentry paper.
+
+### **New Members** {#new-members-11}
+
+* **Carl Ehrett** is Director of Applied Machine Learning in Research Computing & Data at Clemson University. [Carl Ehrett \- Director of Applied Machine Learning \- Clemson University | LinkedIn](https://www.linkedin.com/in/carl-ehrett-a5124a11/).  Looking at AI on Palmetto [About the Palmetto 2 Cluster | RCD Documentation](https://docs.rcd.clemson.edu/palmetto/about/)   
+* **Tues Day** is Director of Research, audio engineer, ML engineer, and safety researcher. introduced at [New Members July 10 2024](#new-members-25). Interested in security and Quantum. She founded Artifex Labs in Portland. [https://www.linkedin.com/in/222tuesday/](https://www.linkedin.com/in/222tuesday/).  
+* **Rini Susan V S** [https://www.linkedin.com/in/rinisusan/](https://www.linkedin.com/in/rinisusan/)  [Rini Susan V S – Medium](https://medium.com/@rinisusan.vs) works for Red Oak Technologies on AI performance for applications. Works with Apple  
+* **Iulia Ibanescu** [https://www.linkedin.com/in/iulia-ibanescu/](https://www.linkedin.com/in/iulia-ibanescu/) is an experienced Senior HPC Engineer at Boston Limited [Boston Limited | The Org](https://theorg.com/org/boston-limited) since May 2021, with a strong background in high-performance computing and atmospheric science. Works across world including South Africa. Interacts with MLCommons Storage WG.  
+* **Krishna Gopal** [https://www.linkedin.com/in/kgopal/](https://www.linkedin.com/in/kgopal/) is a Staff Engineer at Celestica in Chennai. Has explored MLCommons benchmarks
+
+### **General discussion** {#general-discussion}
+
+* Matt pointed out that industry was still interested in HPC Benchmarks. Murali will follow up.  
+* Catalog of Science benchmarks  
+  * [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)  
+  * We need to make a good web site from this  
+* Following up on TPBench  
+  * [\[2311.12022\] GPQA: A Graduate-Level Google-Proof Q\&A Benchmark](https://arxiv.org/abs/2311.12022)   
+  * [\[2501.14249\] Humanity's Last Exam](https://arxiv.org/abs/2501.14249)   
+* Nhan tried but could not establish any contact with “Papers with Code”   
+* European organization OpenML seems promising and Nhan after meeting contacted them  
+  * [About OpenML](https://www.openml.org/about)  
+  * [OpenML Task collections](https://www.openml.org/search?type=benchmark&sort=tasks_included&study_type=task)  
+* Contacts for members  
+  * Armstrong [foundjem@ieee.org](mailto:foundjem@ieee.org)   
+  * Tues Day has a cool email [Tuesday@artifex.fun](mailto:Tuesday@artifex.fun)   
+  * Nhan Tran [ntran@fnal.gov](mailto:ntran@fnal.gov) 
+
+### **Status of White Papers** {#status-of-white-papers}
+
+* See papers 1, 2, 3 [https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1\&tab=t.0\#heading=h.b1jox6cj5tjq](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1&tab=t.0#heading=h.b1jox6cj5tjq)  
+* Paper 1: The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)  is fully active and encourages participation. Contact if interested [laszewski@gmail.com](mailto:laszewski@gmail.com)   
+  * Gregg thought Gregor was being very flexible and accommodating.  
+  * Challenges in understanding and reproducing MLCommons benchmarks were noted  
+  * Also students are not properly trained to prepare benchmarks.  
+  * Benchmarking as a science is lost  
+* Paper 2: Using Benchmarking Data to Inform Decisions Related to Machine  
+  Learning Resource Efficiency, Kirkpatrick, Christine, Barrett, Gregg,  
+  Brewer, Wesley, Christopher, Julianne, Dutra, Inês, Emani, Murali,  
+  Luszczek, Piotr, Shankar, Mallikarjun, von Laszewski, Gregor, Papay,  
+  Juri, Fox, Geoffrey, [https://doi.org/10.5281/zenodo.15022149](https://doi.org/10.5281/zenodo.15022149)   
+  * Jeyan and Gregor are working on an improved version   
+  * [https://docs.google.com/document/d/1aPRYM7\_jdwWgmd4\_Fsjtf3oH0ZcAAljQ/edit\#heading=h.vmlqcpehwg0k](https://docs.google.com/document/d/1aPRYM7_jdwWgmd4_Fsjtf3oH0ZcAAljQ/edit#heading=h.vmlqcpehwg0k)   
+  * This version has been converted to overleaf: [https://www.overleaf.com/read/gbvhrjmqmskm\#bec8e2](https://www.overleaf.com/read/gbvhrjmqmskm#bec8e2)   
+  * Christine noted [Is stochastic thermodynamics the key to understanding the energy costs of computation? | PNAS](https://www.pnas.org/doi/abs/10.1073/pnas.2321112121)   
+* Paper 3 was aimed at a special publication opportunity but rejected. It is probably forever frozen. We need **more information** from Christine about this one.  
+  * [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?tab=t.0](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?tab=t.0)  
+
+### **Science Working Group Projects** {#science-working-group-projects}
+
+* Science Benchmarks  
+* HPC Benchmarks  
+* New White Papers  
+* Interesting Presentations at meetings  
+* Produce Taxonomy of Existing Sience AI Codes/Benchmarks  
+* Previous papers tutorials and Birds of a Feather at Conferences  
+* Teach an LLM to manage lists of benchmarks and codes
+

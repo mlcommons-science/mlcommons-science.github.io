@@ -1,0 +1,85 @@
+---
+title: "February 5, 2025"
+---
+
+## **February 5, 2025** {#february-5,-2025}
+
+### **Present** {#present-38}
+
+Andrew Naylor, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Ben Hawks, Briana Cervantes, Elizabeth Campolongo, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Gyuri Papay, Hilmar Lapp, Hussain Ather, Karen Bennett, Marco Colombo, Marisa Ahmad, Matt Sinclair, Nhan Tran, Philip Harris, Piotr Luszczek, Victor Lu, Wes Brewer
+
+### **Tentative Agenda** {#tentative-agenda-20}
+
+* Any New Members Introduction  
+* **Special Presentation by Nhan V Tran of Fermilab in this morning's working group session  "(Fast ML) scientific benchmarks and challenges** [https://docs.google.com/presentation/d/1U\_mdrRTG8SLCJmAIPb5UtXN6WXN6MavKfPG0-YNf1JU/edit?usp=sharing](https://docs.google.com/presentation/d/1U_mdrRTG8SLCJmAIPb5UtXN6WXN6MavKfPG0-YNf1JU/edit?usp=sharing)  **(20 minutes)**  
+* **Special Presentation by  Elizabeth Campolongo on NSF HDR ML Challenge on Scientific Anomaly Discovery**  [https://www.nsfhdr.org/mlchallenge](https://www.nsfhdr.org/mlchallenge)   
+* Issues consequent on the **merger of HPC and Science Working Groups**: meeting cadence, GitHub, Benchmarks  
+* White Papers  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing) (Quick discussion of Outline at this link)  
+* Any Other Business
+
+### **(Fast ML) scientific benchmarks and challenges** {#(fast-ml)-scientific-benchmarks-and-challenges}
+
+* Special Presentation by Nhan V Tran of Fermilab on  "(Fast ML) scientific benchmarks and challenges [MLCommons Benchmarks](https://docs.google.com/presentation/d/1U_mdrRTG8SLCJmAIPb5UtXN6WXN6MavKfPG0-YNf1JU/edit?usp=sharing)   
+* Recording is first talk in [MLC Science WG \- 2025/02/05 07:54 PST \- Recording](https://drive.google.com/file/d/13MF_BmbKvWgEhNufMGjqQiw1GgpOv6_m/view?usp=drive_link)   
+* This starts with FastML Inference benchmarks for HEP covering different interesting regions in latency-data-rate space  [230322 mlcommons science.pdf](https://drive.google.com/file/d/17bKzHeH0Jx21L7dXFzUfSw4EolAHv--D/view?usp=sharing) [\[2207.07958\] FastML Science Benchmarks: Accelerating Real-Time Scientific Edge Machine Learning](https://arxiv.org/abs/2207.07958) [Implementations of the fastml-science bechmark models, including a standard Keras (float) and QKeras (quantized) implementations.](https://github.com/fastmachinelearning/fastml-science) as discussed in [FastML Presentation](#fastml-presentation) March 22, 2023  
+* [Browse the State-of-the-Art in Machine Learning | Papers With Code](https://paperswithcode.com/sota) (12,423 benchmarks    5,358 tasks    154,766 papers with code) is impressive  
+* On a smaller scale the particle physics Living Review [HEP ML Living Review](https://iml-wg.github.io/HEPML-LivingReview/)  with a good taxonomy is another example  
+* [Codabench](https://www.codabench.org/) 280 Public Competitions, 16456 Users, 98071 Submissions is a benchmark site with a focus on relatively small problems. It has a leaderboard and a catalog of problems. Attractive exemplar user interface  
+* Need to classify in two different dimensions – science domain and techniques; each technique would have similarities even if applied across domains. See slide 12  
+  * This taxonomy would have a tree structure  
+* Nhan described DOE studies on transformational science enabled by AI. and DOE FASST [Frontiers in Artificial Intelligence for Science, Security and Technology (FASST) | Department of Energy](https://www.energy.gov/fasst) project  
+* Geoffrey noted that this talk implicitly noted that Benchmarks can serve as measures of (compute or science) performance  but they also have educational value either to illustrate basic AI/system ideas or to serve as an example on which to base new AI models  
+  * This is discussed in [Bench24-December4-6-2024](https://docs.google.com/presentation/d/1YWT2cG9PH9v4htV-YXjogrFRpAb9VWDeJixqZ9Dai3U/edit?usp=sharing) for Time series with slides 36-38 discussing domains where present and characteristics of time series and their models  
+  * The value of patterns for a given technology type like time series,  makes this clear as there are thousands of scientific fields and an example in one field can be modified for lots of other fields  
+  * Educational and Performance goals both need a taxonomy of application types so we can build performance/educational benchmarks that illustrate all the major types  
+  * There are separate taxonomies of applications and models and one should encourage different models to explore each application class  
+  * We want benchmarks to test both taxonomies  
+* We can’t wait for DOE and NSF; need to move faster  
+* Synergy with our white papers noted  
+* Matt Sinclair noted this was a very interesting talk Nhan\!  Minor question: how would this list/website differ from the MLCommons Science GitHub?  At some level, isn't that already a list of "good" Science benchmarks?  
+  * Science collection is deliberately small so far. These new plans motivate expanding it.  
+* Gregg Barrett asked where can we find/put the list in order to suggest possible candidates? I think if the DOE and NSF could agree on us as a single source, that would already be useful and would perhaps give critical mass to it being a defacto list.  
+* Victor Lu noted that it will be great to start from what Nian just presented and the benchmark carpentry paper effort to analyze what made  benchmarks effective for science computing.  
+  * MLCommons is a great place to do this collaboration.  Similar collaboration on AI safety:   https://b2.dsri.org/pdf/B2-technical-outline.pdf
+
+### **NSF HDR ML Challenge** {#nsf-hdr-ml-challenge}
+
+* **Elizabeth Campolongo** is a Senior Data Scientist, at [the Imageomics Institute](https://imageomics.osu.edu/) and AI & Biodiversity Change (ABC) [Global Climate Center](https://wildlabs.net/inventory/organisations/abc-global-climate-center) at the Ohio State University  
+* Special Presentation by  Elizabeth Campolongo on NSF HDR ML Challenge for Scientific Anomaly Discovery  [https://www.nsfhdr.org/mlchallenge](https://www.nsfhdr.org/mlchallenge) [https://docs.google.com/presentation/d/1My5xJpX6gnV81K7vjjrjS3SvxuclvKprnAJAFPz93oY/edit\#slide=id.g2fd52bae1f2\_0\_0](https://docs.google.com/presentation/d/1My5xJpX6gnV81K7vjjrjS3SvxuclvKprnAJAFPz93oY/edit#slide=id.g2fd52bae1f2_0_0)   
+* Recording is second talk in  [MLC Science WG \- 2025/02/05 07:54 PST \- Recording](https://drive.google.com/file/d/13MF_BmbKvWgEhNufMGjqQiw1GgpOv6_m/view?usp=drive_link)   
+* 3 of 5 HDR Institutes involved this year  
+* Next year all 5 should be involved  
+* Imageomics: Hybrid butterfly anomaly detection challenge  
+* A3D3: Gravitational wave anomaly detection challenge  
+* iHarp: Sea level anomaly detection challenge  
+* Lot of effort on FAIR reproducible issues  
+* Used Codabench with NERSC as backend  
+* Ended Jan 31 2025;   
+* Workshop will be held on Tuesday March 4th at AAAI Conference in Philadelphia  
+* Victor Lu noted that it will be interesting to compare the metadata captured for reproducibility in different fields \- physics vs chemistry vs biology
+
+### **HPC and Science Working Groups Merger** {#hpc-and-science-working-groups-merger}
+
+* This was briefly discussed and Marisa will contact MLCommons support and work with Gregor on the Science \+ HPC working group GitHubs.   
+* We discussed timing (Wedenesday, 11 am Eastern is not possible for everybody) and frequency; once a week or once a fortnight?  
+  * Geoffrey asked for members to send him input on this.  
+* Victor noted the MLCommons Discord Server and Nhan joined this.  
+  * MLCommons channel at [https://discord.com/](https://discord.com/) 
+
+### **White Papers** {#white-papers-4}
+
+* Gregor worked on paper and all but two issues which require Christines input are fixed. He offered to help in an online meeting with Christine. However she is out of town till the 13th of February?  
+* Gregor did not do much work on the other paper in written form 
+
+### **Any Other Business** {#any-other-business-1}
+
+* Gregor attended OLCF meeting on frontiers power and energy consumption measurements, which was excellent.  It was not a tutorial, but just a list of which tools are available on Frontier to get started.  It also got into the details of some limitations of the AMD software to do that and that they work on fixing things. So this will be a moving target.  
+  * [https://vimeo.com/1051746597](https://vimeo.com/1051746597)  
+  * [https://www.olcf.ornl.gov/wp-content/uploads/energy\_consumption\_2025.pdf](https://www.olcf.ornl.gov/wp-content/uploads/energy_consumption_2025.pdf)   
+* Although most of the tools are known, I learned more about ROCm-SMI and ROCmSMI-lib and their planed improvements by AMD  
+* This is actually important as it shows which tools we need to list in the paper. E.g. every tool should be listed in the paper with its own paragraph as part of the existing tools section. Also it reminded me that the existance of [https://github.com/ROCm/omnitrace](https://github.com/ROCm/omnitrace) is probably not well known? At least I have not looked at it for a long time. We also have other tools that I have not used such as rocprof. The nice thing is that the presentation reminded me how to enable the profiling from slurm and where to find the log files.    
+  * So I highly recommend this presentation as a starting point.  
+* There are more frontiers presentations at [https://docs.olcf.ornl.gov/training/training\_archive.html](https://docs.olcf.ornl.gov/training/training_archive.html)
+

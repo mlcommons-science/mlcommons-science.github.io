@@ -1,0 +1,55 @@
+---
+title: "May 31, 2023"
+---
+
+## **May 31, 2023** {#may-31,-2023}
+
+### **Present** {#present-80}
+
+Gregg Barrett, Geoffrey Fox, Juri Papay, Wesley Brewer, Gregor von Laszewski, Piotr Luszczek, Christine Kirkpatrick, Aristeidis Tsaris, Tom Gibbs, 
+
+### **Tentative Agenda** {#tentative-agenda-59}
+
+* Any new members  
+* Mailing Lists for the announcement of benchmarks  
+* Status of new Benchmarks   
+* **Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency** (Continued) [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* **Benchmark Carpentry** [benchmark-carpentry](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)   
+* **AI Readiness of MLCommons Science** (Continued) [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* AOB
+
+### **We’re Live** {#we’re-live}
+
+* We discussed distribution of announcements  
+* Christine is submitting the story about the benchmarks here to NCSA ACCESS: [Share Your News \- Access](https://access-ci.org/share-your-news/)   
+* SDSC [MLCommons Science Working Group Invites Researchers to Run New Benchmarks](https://www.sdsc.edu/News%20Items/PR20230531_MLCommons.html)  
+* This was also pushed by SDSC to HPCwire [MLCommons Science Working Group Invites Researchers to Run New Benchmarks](https://www.hpcwire.com/off-the-wire/mlcommons-science-working-group-invites-researchers-to-run-new-benchmarks/)
+
+### **Progress in UK** {#progress-in-uk}
+
+* Juri discussed a new book he is proposing on benchmarks with a human focus  
+* There was a recent benchmarking meeting in Leicester  
+* SciML at RAL released a new benchmark set  
+* Will interview contributors to the field
+
+### **Foundation Models** {#foundation-models-6}
+
+* Geoffrey suggested generalizing benchmarks to Foundation models.as they have some similarities as representative exemplars for a field  
+* His ideas are sketched in [FoundationModelsPatternsBenchmarks.pdf](https://drive.google.com/file/d/1hi-rfhLZc0Ckyy5A61YVQJB5t-D9ka7k/view)   
+* Can we make this a goal of group. Note our second NSF proposal was turned down. Geoffrey thinks that a Foundation model focus would be easier to write an exciting proposal around.  
+* Networks such as UNET, LSTM and Transformers are applicable across many fields. We can at the simplest have a library of patterns that are tweaked and composed across many fields  
+* Tom commented that we need to replace Linpack but it is a single example. Its much worse for partial differential equation solvers for which there is no universal (Foundation) model and it is very painful to support.  
+* Piotr said one could average over a set of codes  
+* Tom noted that AI not well represented in current DOE portfolio  
+* Tom is working with Bill Tang of Princeton Plasmas Physics lab on a Fusion Digital Twin.  
+* He also noted that Genomics analysis starts with a Language trained GPT3 with only problem the size of the input sequence which can be 64000 for genomics (There was a talk from Argonne at ISC on this)  
+* It was agreed that Foundation models could be an attractive funding focus  
+* Foundation models for subdomains were mentioned  
+* Discuss these ideas with Mike Norman, Dan Stanzione and Manish Parashar.  
+* It was noted that Mike Norman has a new Cosmology code that could be a benchmark
+
+### **Education and Workforce Development** {#education-and-workforce-development}
+
+* Christine discussed a recent NSF Dear Colleague letter [Dear Colleague Letter: Request for Information on the Capacity of Institutions of Higher Education to Produce Graduates with Degrees, Certifications, and Relevant Skills Related to Artificial Intelligence (nsf23099) | NSF](https://www.nsf.gov/pubs/2023/nsf23099/nsf23099.jsp)?   
+* She suggested that we respond to this letter
+

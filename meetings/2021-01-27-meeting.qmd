@@ -1,0 +1,26 @@
+---
+title: "January 27, 2021"
+---
+
+## **January 27, 2021** {#january-27,-2021}
+
+### **Discussion Points**  {#discussion-points-3}
+
+1. Finalising benchmarks to be submitted. The WG concluded that the following benchmarks will make it to the final submission   
+   1. CloudMasking from STFC  
+   2. Candle Uno from ANL  
+   3. SMDEL (Previously known as EDiff) from ORNL  
+   4. TEvolOp from Indiana   
+2. The WG lso decided to keep the following as second options for the benchmarks.   
+   1. CosmicTaggar from ANL, and   
+   2. DMS from STFC  
+3. Packaging and potential delivery mechanisms: A detailed discussion was made around packaging and delivery mechanisms. Among various options, using MLBox, SciMLBench, and Singularity were discussed. Arjun raised a point that these users should not be constrained by the delivery mechanisms. The decision is that all benchmarks will be available via GitHub, but with all three options for users to opt for.   
+4. Schedules. The tentative plans are to free all benchmarks by 19th July, 2021, and submission opening and closing dates are set to 16th of August and 11th of October, respectively. The benchmarks are then to go through various review processes over the months up until November, and final publication to be made on the 15th of November, 2021\.   
+5. SC’21 Plans. The benchmarks (and corresponding posters) can also be considered by the WG to SC’21. 
+
+### **Action Points**  {#action-points-2}
+
+1. Vibhatha will work on mapping EMNoise Benchmark from SciML to Singularity  and MLBox.  
+2. Responsible laboratories should continue to prepare their benchmarks.   
+3. Jeyan to act on Benchmark framework release, which has been hit with various infrastructure issues. 
+

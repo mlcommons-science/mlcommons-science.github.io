@@ -1,0 +1,41 @@
+---
+title: "March 9, 2022"
+---
+
+## **March 9, 2022** {#march-9,-2022}
+
+### **Present** {#present-106}
+
+Tony Hey, Jeyan Thiyagalingam, Geoffrey Fox, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Murali Emani, Piotr Luszczek  
+**Apologies:** Arjun Shankar, Christine Kirkpatrick, Gregor von Laszewski, 
+
+### **Tentative Agenda** {#tentative-agenda-84}
+
+* New member introductions  
+* Update on possible new benchmarks by Geoffrey   
+* Further comments on FAIR metadata (not done)  
+* Continuation of discussion of portability of benchmarks. How much effort is involved in deploying a benchmark?  
+* Clarification on what each benchmark is going to measure.  
+* AOB (Performance and Portability)
+
+### **Update on possible new benchmarks** {#update-on-possible-new-benchmarks}
+
+Geoffrey went through new benchmarks that could be added to our collection. [Science WG of MLCommons March 9 2022](https://docs.google.com/presentation/d/1k9NmajLqB2X_fCwEAbDpoWhmRdZR-bFStS6_0n2slR4/edit?usp=sharing). 
+
+* LLNL Lawrence Livermore  
+* FastML  
+* DOE-SBI project (Biophysics, Performance, Nano Engineering)  
+* RAL Projects
+
+The Livermore surrogate ICF should be available soon. 
+
+### **Current Benchmarks** {#current-benchmarks-2}
+
+* We agreed to complete our 4 Benchmarks by May 22, 2022to announce at ISC BOF. ISC2022 is held at Frankfurt May 29 \- June 2, 2022 [BOF Sessions \- Welcome to ISC High Performance 2022](https://www.isc-hpc.com/bof-sessions-2022.html). We need to add logging and deposit data and reference models in the MLCommons repository. We agreed to complete by May 2022 and also complete the paper [MLCommons Science Benchmarks](https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing)   
+* Murali said the ANL benchmark was ready with a science metric.
+
+### **Performance and Portability** {#performance-and-portability}
+
+* Juri presented some initial results around moving the STEM-DL benchmark from Horovod-based to Pytorch lightening.  The performance of the Pytorch Lightening around a single GPU became a concern (which is far too slower than Horovod-based implementation). Jeyan / Juri proposed to investigate this issue further,  
+* There was a discussion of various deep learning communication libraries: NCCL, GLOO, MPI, Horovod
+

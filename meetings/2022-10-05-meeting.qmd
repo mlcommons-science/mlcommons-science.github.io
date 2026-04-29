@@ -1,0 +1,59 @@
+---
+title: "October 5, 2022"
+---
+
+## **October 5, 2022** {#october-5,-2022}
+
+### **Present** {#present-94}
+
+Juri Papay, Gregor von Laszewski, Gregg Barrett, Geoffrey Fox,  Junqi Yin,  Piotr Luszczek, Aristeidis Tsaris, Murali Emani, Amit  Ruhela, Christine Kirkpatrick and David Kanter was involved in later discussions
+
+### **Apologies** {#apologies-35}
+
+Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
+
+### **Tentative Agenda** {#tentative-agenda-72}
+
+* Any new members  
+* Status of 4 Benchmarks: Policy/Submission Rules Schedules  
+  * **Policy** [https://github.com/mlcommons/science/blob/main/policy.adoc](https://github.com/mlcommons/science/blob/main/policy.adoc)  
+  * **Submission**  [https://github.com/mlcommons/science/blob/main/submit.adoc](https://github.com/mlcommons/science/blob/main/submit.adoc)  
+  * **ACTION ITEM** We agreed that we should add suggestions and comments to benchmarks to identify promising approaches to improving science; where did we try and fail? What did we not look at but think was interesting?    
+* Futures \-- new benchmarks    
+  * **ACTION ITEM** We agreed to draft a call for new benchmarks  
+* AOB
+
+### **Discussion of Existing 4  Benchmarks** {#discussion-of-existing-4-benchmarks}
+
+* Gregor and Juri noted the updated policy and new submissions documents. These are almost complete although David Kanter noted later that simple closed division (measure performance) was not discussed in submissions document.  
+* Juri discussed trials in running existing benchmarks to which Gregg noted that “Juri it sounds like you are complaining about reproducibility issues in science and ML “ and Juri responded “Yes, I am making an observation based on my daily experience.”  
+* Need repository as some too big for github; Christine will document use of SDSC storage that we now use  
+* Need to extend cloudmask curation to other 3 benchmarks: Juri/Gregor will investigate  
+* We should add contact person for science to our benchmarks  
+* The group and later David stressed need for outside users which emphasized value in good information dissemination for our work.  
+* Later David Kanter put us in contact with Joe Volat \<[joe@milestone-pr.com](mailto:joe@milestone-pr.com)\>, and Cheryl Delgreco \<[cheryl@milestone-pr.com](mailto:cheryl@milestone-pr.com)\> for MLCommons communication.  
+* **ACTION ITEM:** Send any suggestions  (either text or places to send it) to Geoffrey by Friday October 7,  so he can draft an announcement combining the current 4 benchmarks and call for new benchmarks  
+* Christine noted example: [MLCommons Unveils Open Datasets and Tools to Drive Democratization of Machine Learning](https://mlcommons.org/en/news/neurips21/) 
+
+### **Discussion of Futures** {#discussion-of-futures}
+
+* Geoffrey suggested that our **mission** could be stated as: Evaluate, Organize, Curate, and Integrate artifacts around Applications, Models(algorithms), Infrastructure, and the 3 MLCommons Pillars Benchmarks, Datasets, and Best Practices. These artifacts are open source and accessible through the MLCommons GitHub. Our input comes from independently funded activities and experts in Industry, Government, and Research.  
+  * This mission explains why we don’t need full domain expertise in working group as our emphasis is on curation and access issues and not the science.  
+  * Christine noted OpenML [OpenML](https://www.openml.org/) and DLHub [https://www.dlhub.org/](https://www.dlhub.org/)   
+  * Using data/codes not  just benchmarks; Datasets only ok  
+  * Science different from rest as we aim at breadth
+
+### **Any Other Business** {#any-other-business-13}
+
+* Gregg Barrett asked if anyone was participating in [https://ai4sciencecommunity.github.io/](https://ai4sciencecommunity.github.io/)  
+  * It will be good to get the benchmarks covered there.  
+* We discussed systems available for running the benchmarks  
+  * Juri was interested in new AI accelerators: Cerebras, SambaNova and Graphcore. Although Cerebras is faster than a GPU it is also more expensive. Murali authored a paper “"A Comprehensive Evaluation of Novel AI Accelerators for Deep Learning Workloads"” which he will send when finalized.  
+  * Murali noted **ALCF AI testbed** has an allocation program for Cerebras CS-2 and SambaNova systems https://www.alcf.anl.gov/alcf-ai-testbed; If anyone is interested to try them out, please consider submitting a request at https://accounts.alcf.anl.gov/allocationRequests   
+  * Also use **ORNL** Summit  
+  * Christine discussed SDSC and Amit TACC systems.  
+  * **SDSC** cycles are here: [https://www.sdsc.edu/support/user\_guides/expanse.html](https://www.sdsc.edu/support/user_guides/expanse.html)   
+* The relevance of MLCube outside its successful Medperf and Dataperf use was discussed. Not all benchmarks need same software.  
+  * Gregg noted the  the CM framework: [https://www.linkedin.com/pulse/releasing-mlcommons-cm-framework-modularize-aiml-systems-fursin](https://www.linkedin.com/pulse/releasing-mlcommons-cm-framework-modularize-aiml-systems-fursin)   
+* Christine noted that she was an active member of Dataperf benchmark
+

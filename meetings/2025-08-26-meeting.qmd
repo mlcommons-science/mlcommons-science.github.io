@@ -1,0 +1,60 @@
+---
+title: "August 26, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **August 26, 2025 (9.05 pm. ET for Asia-USA)** {#august-26,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-15}
+
+ Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski,, Satoshi Iwata, Tues Day, Victor Lu
+
+### **Google Meet Notes** {#google-meet-notes-11}
+
+* A marathon 3 hour session  
+* [MLC Science WG \- 2025/08/27 01:52 BST \- Notes by Gemini](https://docs.google.com/document/d/1Myt3n4PT9AaIudjc-7NkuVpiN9K79Jl4nRAHlG_kkKs/edit?tab=t.u1nfdiuzea8i)   
+* **AI Alliance and ML Commons:** Geoffrey Fox highlighted that the AI Alliance is broader and more open than ML Commons, which focuses primarily on benchmarks.  
+* **Open Source and Market Consolidation:** Gary Mazzaferro and TUES DAY discussed market consolidation in cloud computing and European companies' emphasis on supply chain sovereignty.  
+* **Defining AI:** Gary Mazzaferro and TUES DAY emphasized the need for a clear definition of AI and discussed the difficulty in achieving a universally accepted one.  
+* **Purpose of Benchmarking:** Gary Mazzaferro explained that benchmarking is crucial for setting market and consumer expectations and that ML Commons provides various types of benchmarks.  
+* **Transformational Impact of AI:** Geoffrey Fox, Gary Mazzaferro, and Gregor von Laszewski agreed that AI is profoundly transformational, unlike cloud computing, making technology more accessible.  
+* **AI Systems and Human Behavior:** Gregor von Laszewski discussed AI systems that derive knowledge and mimic human behavior, while TUES DAY questioned if AI could suggest further actions.  
+* **Habituation to Technology:** Gary Mazzaferro introduced the concept of habituation to new technologies, providing examples like social media and early automobiles.  
+* **Impact of AI on Human Physiology and Mental States:** TUES DAY raised concerns about AI's influence on human mental states (e.g., GPT-induced psychosis), and Gary Mazzaferro acknowledged it as a hard engineering issue. Geoffrey Fox noted that LLMs tend to be "extremely polite" and positive.  
+* **LLM Politeness and Bias:** TUES DAY observed LLMs simulate mirror neurons and engage in "psychophancy," noting an outcry. They also highlighted cultural differences in politeness and LLM bias towards positive comments.  
+* **Challenges in LLM Training and Evaluation:** Gregor von Laszewski discussed how LLMs are fed simplistic or incorrect information, leading to inaccurate answers, especially on moral questions. Gary Mazzaferro added that users often treat LLMs like people, but they are primarily "search and summarization engines."  
+* **Liability and Safety in AI:** TUES DAY discussed potential liability issues and wrongful death lawsuits related to AI. Gary Mazzaferro mentioned ML Commons groups dedicated to AI risk, reliability, safety, and ethics.  
+* **Goal-Oriented vs. Result-Oriented Research:** Gregor von Laszewski introduced goal-oriented research for responsible AI development, focusing on identifying pathways rather than just results, a distinction TUES DAY found helpful.  
+* **Measuring Bias and Fairness in LLMs:** Gregor von Laszewski suggested creating benchmarks to evaluate LLM bias and fairness using academic texts and statistical mechanisms.  
+* **Cultural Nuances in AI and Humor:** Discussions explored the cultural relativity of humor and sarcasm, with Gregor von Laszewski noting the difficulty AI systems would face in understanding comedy.  
+* **Localization and System Bias in LLMs:** Gary Mazzaferro emphasized localization in conversational LLMs, and discussions touched on how cultural backgrounds influence perception and how LLMs reflect biases in training data.  
+* **Defining Metrics and Benchmarks for AI:** Gregor von Laszewski proposed classifying social groups and defining models and metrics to understand cultural differences. He advocated for using mathematical metrics like Shannon divergence to evaluate LLM bias.  
+* **UNESCO Guide and Red Teaming:** TUES DAY shared their contribution to the UNESCO guide on red teaming, emphasizing engaging diverse communities for bias mitigation.  
+* **Best Practices vs. Recommendations in Benchmarking:** Gregor von Laszewski and TUES DAY discussed the difference between "recommendations" and "best practices" (or "good practices") in standards activities.  
+* **Cultural Moralities and LLM Bias:** Gary Mazzaferro cautioned that current benchmarks are often limited to Western ideals, posing challenges for global products and the potential for LLMs to impose morality.  
+* **Language, Cognition, and Innovation:** Gary Mazzaferro highlighted how different languages shape thought processes and innovation, warning against homogenization through AI.  
+* **Educational Systems and Theoretical vs. Applied Research:** Gregor von Laszewski contrasted German and American educational systems, reflecting theoretical vs. applied research approaches.  
+* **Medical Ethics and AI in Healthcare:** TUES DAY discussed ethical implications of AI in healthcare, particularly with vulnerable populations, and the role of human annotators.  
+* **Cognitive Empathy and Deception in LLMs:** TUES DAY questioned the role of "benign sociopaths" in certain roles and discussed AI's ability to deceive as an emergent behavior. Gary Mazzaferro confirmed deception is a known property of LLMs.  
+* **Human vs. Chimpanzee Adaptability:** Gary Mazzaferro explained humans' greater adaptability due to lifelong synaptic development.  
+* **Cultural Change and Societal Impact:** Gary Mazzaferro discussed the ethical implications of altering another culture's trajectory.  
+* **Computational Psychology and Family Systems Theory:** TUES DAY expressed interest in applying these to rehabilitation and clinical practice.  
+* **Risks of Computational Social Science Applications:** Gregor von Laszewski cautioned about the risks, citing historical examples.  
+* **Gaming Theory and Data Analysis:** Gregor von Laszewski suggested focusing on data analysis over data gathering in games.  
+  **Suggested next steps:**  
+* TUES DAY will read Gary Mazzaferro's paper on value systems in 60 cultures.  
+* TUES DAY will review sections 3.3 (syncopas) and 3.8 (deception) of the ChatGPT-5 system 
+
+### **Discussion** {#discussion-10}
+
+* TUES DAY:: [Precisely understand complex AI behaviors](https://transluce.org/docent)  you may be interested in taking a look at this  
+  * 'll watch\! terence tao? or did i mishear  
+* TUES DAY  [Influence of maternal and infant technology use and other family factors on infant development \- PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11524025/)   
+* TUES DAY [Influence of maternal and infant technology use and other family factors on infant development \- PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11524025/)   
+* Gary Mazzaferro: Look at section 3.3 Sycophancy: https://cdn.openai.com/gpt-5-system-card.pdf  
+* TUES DAY:A lawsuit has been filed today against OpenAI and Sam Altman for negligence and wrongful death. [The Raine v OpenAI Case: Engineering Addiction](https://centerforhumanetechnology.substack.com/p/the-raine-v-openai-case-engineering?r=3u726t)  
+* TUES DAY: I participate in those 2 groups predominantly: the harm taxonomy indeed are more intended to distinguish the specifics between security and safety incidents  
+* TUES DAY: SUPREME COURT OF THE UNITED STATES: . [21-1496 Twitter, Inc. v. Taamneh (05/18/2023)](https://www.supremecourt.gov/opinions/22pdf/21-1496_d18f.pdf)   
+  * This case set an interesting precedent for analyzing the supreme court's  approach to identifying definitions  
+* TUES DAY: Researchers conducted tests on 14 large language models and found that OpenAI’s ChatGPT and GPT-4 were the most left-wing libertarian, while Meta’s LLaMA was the most right-wing authoritarian. [AI language models are rife with political biases | MIT Technology Review](https://www.technologyreview.com/2023/08/07/1077324/ai-language-models-are-rife-with-political-biases/)   
+* TUES DAY and Gary Mazzaferro: Neural Networks are Decision Trees, [\[2210.05189\] Neural Networks are Decision Trees](https://arxiv.org/abs/2210.05189) 
+

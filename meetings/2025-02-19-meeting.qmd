@@ -1,0 +1,56 @@
+---
+title: "February 19, 2025"
+---
+
+## **February 19, 2025** {#february-19,-2025}
+
+### **Present** {#present-37}
+
+Andy Cheng, Armstrong Foundjem, Azza Ahmad, Christine Kirkpatrick, Claus Weiland, Cyril Kondratenko (Nebius), David DeBomis, Gary Mazzaferro , Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Gyuri Papay, Hussain Ather, Jong Youl Choi, Kongtao Chen, Marco Colombo, Matt Sinclair, Mia Liu, Nhan Tran, Philip Harris, Piotr Luszczek, Satoshi Iwata, Shirley Moore, Victor Lu, Wes Brewer
+
+### **Tentative Agenda** {#tentative-agenda-19}
+
+* Any New Members Introduction  
+* Discussion of suggestions last time in  Nhan V Tran of Fermilab in  "(Fast ML) scientific benchmarks and challenges and  Elizabeth Campolongo on NSF HDR ML Challenge on Scientific Anomaly Discovery such rich collection of benchmarks and a taxonomy and using codabench. See last meetings minutes  
+* Issues consequent on the merger of HPC and Science Working Groups: meeting cadence, GitHub, Benchmarks  
+* White papers (see later for summary)  
+* Any Other Business
+
+### **New Members** {#new-members-15}
+
+* **Chris Kondratenko** comes from Nebius which has just joined MLCommons training. [Nebius](https://huggingface.co/nebius) and [Leveraging training and search for better software engineering agents](https://nebius.com/blog/posts/training-and-search-for-software-engineering-agents) are typical links given in a later meeting of the AI Alliance Foundation Model Group.  
+  * Roman Luchkov [https://www.linkedin.com/in/rluchkov/?locale=de\_DE](https://www.linkedin.com/in/rluchkov/?locale=de_DE) and Michael Burkov [https://www.linkedin.com/in/mikeburkov/](https://www.linkedin.com/in/mikeburkov/) are also from Nebius which combines multiple companies. Michael represented Nebius at AI Alliance meeting of FA5 Foundation Models  
+* **Jong Choi** [https://www.linkedin.com/in/jong-youl-choi-98aba123/](https://www.linkedin.com/in/jong-youl-choi-98aba123/) is a HPC Data Research Scientist at Oak Ridge National Laboratory an worked on ORBIT Foundation model. His Ph,D. was in optimization (Computer Science) at Indiana University, Bloomington.  
+* **Kongtao Chen** is at the University of Pennsylvania in machine learning for material Science. He is also at Google and has a neat benchmarking paper [https://arxiv.org/pdf/2306.07179](https://arxiv.org/pdf/2306.07179).  
+* **David DeBonis** [https://www.linkedin.com/in/debonisdavid/](https://www.linkedin.com/in/debonisdavid/) works on performance at Los Alamos National Laboratory  
+* **Satoshi Iwata** [https://www.linkedin.com/in/satoshi-iwata-ba412791/?locale=en\_US](https://www.linkedin.com/in/satoshi-iwata-ba412791/?locale=en_US) is a researcher at Fujitsu and was a regular contributor to HPC working group
+
+### **Benchmarks** {#benchmarks}
+
+* Geoffrey presented [MLCommons](https://docs.google.com/presentation/d/1mZqJ84aMAyPEvxnESSPKfrabP9YzpVQHd5brOCT5wiU/edit#slide=id.g337a5d6fa06_0_71) summarizing Nhan’s presentation last week and relating to previous discussions  
+* [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing) is a rough start from Nhan, Marco and Geffrey. The rest of the team is asked to comment and improve. Note we distinguish between Activities (first sheet) and benchmarks/artifacts where latter includes models, datasets, solutions, infrastructure software on the second sheet. 
+
+### **HPC Science Merger** {#hpc-science-merger}
+
+* **Science GitHubs**  
+  * [MLCommons Science benchmarking working group](https://github.com/mlcommons/science)  
+  * [MLCommons Science Results](https://github.com/mlcommons/science_results)  
+* **HPC GitHubs**  
+  * [GitHub \- mlcommons/hpc: Reference implementations of MLPerf™ HPC training benchmarks](https://github.com/mlcommons/hpc)   
+  * [GitHub \- mlcommons/hpc\_results\_v0.7: This repository contains the results and code for the MLPerf™ HPC Training v0.7 benchmark.](https://github.com/mlcommons/hpc_results_v0.7)   
+  * [GitHub \- mlcommons/hpc\_results\_v1.0: This repository contains the results and code for the MLPerf™ HPC Training v1.0 benchmark.](https://github.com/mlcommons/hpc_results_v1.0)   
+  * [GitHub \- mlcommons/hpc\_results\_v2.0: This repository contains the results and code for the MLPerf™ HPC Training v2.0 benchmark.](https://github.com/mlcommons/hpc_results_v2.0)   
+  * [GitHub \- mlcommons/hpc\_results\_v3.0: This repository contains the results and code for the MLPerf™ HPC Training v3.0 benchmark.](https://github.com/mlcommons/hpc_results_v3.0)   
+* We discussed timing of meetings and Geoffrey will send out a Doodle Poll to select best \~11am Eastern (USA, Europe) and \~7pm Eastern (Asia, USA) times in alternate weeks. There was significant interest in meeting at these times on alternating weeks.
+
+### **White Papers** {#white-papers-3}
+
+* White Papers are led by Christine Kirkpatrick and Gregor von Laszewski  
+  * 1\) Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5) **This paper is active and can be worked on.**   
+  * 2\)  "Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency" \- new paper title. We are aiming to post as pre-print in early March 2025\. Action is with Jeyan and Gregor to complete the initial desired edits and formatting.  
+    * Current editable working version (note docx) :[https://docs.google.com/document/d/1aPRYM7\_jdwWgmd4\_Fsjtf3oH0ZcAAljQ/edit\#heading=h.vmlqcpehwg0k](https://docs.google.com/document/d/1aPRYM7_jdwWgmd4_Fsjtf3oH0ZcAAljQ/edit#heading=h.vmlqcpehwg0k)   
+    * This document will be moved to the next link once Jeyan is finished with the edits and he copies it into o\\it or gives Gregor the green light. Gregor will then do the references with paperpile [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHh](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit?tab=t.0#heading=h.fa0u4qc1plw5)  
+  * 3\) AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing) (Quick discussion of Outline at this link)  
+    **This paper is on hold indefinitel**y and is currently not expected to be completed. 2\) came from same origin as 3).  
+* There was an active discussion of the papers which is not given in detail here. Please add your insights do the papers
+

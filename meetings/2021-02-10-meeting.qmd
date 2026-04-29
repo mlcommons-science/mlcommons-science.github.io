@@ -1,0 +1,64 @@
+---
+title: "Feb 10, 2021"
+---
+
+## **Feb 10, 2021** {#feb-10,-2021}
+
+### **Present** {#present-126}
+
+ 
+
+* Jeyan Thiyagalingam  
+* Aristeidis Tsaris  
+* Bala Desinghu  
+* Christine Kirkpatrick  
+* Feiyi Wang  
+* Geoffrey Fox  
+* Gregg Barrett  
+* Gregor von Laszewski  
+* Junqi Yin  
+* Mallikarjun Shankar  
+* Murali Emani  
+* Steve Farrell  
+* Tom Gibbs  
+* Tony Hey  
+* Vibhatha Abeykoon
+
+   
+ 
+
+### **Discussion Points** {#discussion-points-2}
+
+1. The WG welcomed the new comers, Tom Gibbs (NVIDIA), Bala Desinghu and Steve Farrell  
+     
+2. Christine Kirkpatrick (UCSD) presented FAIR principles to the WG. The slides can be found at [mlcommons\_fair\_0221.pptx](https://drive.google.com/file/d/15iQTE99xAUIPNe9bIY_l8Xsv2TVLyqoR/view?usp=sharing) .   
+      
+3. Benchmark Updates:   
+* Benchmarks on Docker / Singularity  
+* Code release to GitHub  
+* Benchmark CLOUD: Need to be completed  
+* Benchmark SEMDL: Tried on Cloud \- but waiting for SciML   
+* Benchmark  UNO: Secured datasets through Globus, but yet to be evaluated. 
+
+4. A presentation on SciMLBench will be made to the WG in future meetings. See this recent talk by Tony Hey [AI for Science \- The Fourth Paradigm, eScience and Open Science.pdf](https://drive.google.com/file/d/1aJ4sYVqK0Pk0dcZOK6Yez4J43E1QhtIS/view?usp=sharing)   
+      
+5. Tom Gibbs raised a point whether testing these benchmarks on ARM. This has not been thought through but Tom Gibbs suggested it will be a good move and it can be facilitated.   
+      
+6. Arjun stressed on the packaging aspects, and Jeyan echoed on the packaging aspects indicating that it will be free from packaging aspects, such as  docker/singularity aspects.  
+      
+7. Arjun also stressed that there must be a way or format for people to develop benchmarks to a specific format.  
+      
+8. DataPods and Open Storage Network (OSN): OSN will be happy to host the SciML datasets (and framework will pull it from relevant mirrors). See [OSN\_summary.pdf](https://drive.google.com/file/d/1d9GB3J7MyXvWdkZUdR6hKsP4o8dAEMg1/view?usp=sharing)   
+      
+9. Some datasets can be locally generated instead of being downloaded from servers.   
+      
+10. FAIR ideas should be integrated as part of the MLCommons. 
+
+### **Action Points** {#action-points-1}
+
+1. All to act on benchmarking   
+2. Jeyan to work on initial evaluation of the Cloud benchmark  
+3. Jeyan to act on a memo about Singularity and MLBox (with Vibhatha)  
+4. Jeyan to act on the release of the benchmark suite to the WG  
+5. Geoffrey will act on (10) to ensure that FAIR ideas are to be integrated as part of the MLCommons and MLCommons Science agenda
+

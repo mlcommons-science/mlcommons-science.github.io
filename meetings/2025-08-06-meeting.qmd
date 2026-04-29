@@ -1,0 +1,35 @@
+---
+title: "August 6, 2025"
+---
+
+## **August 6, 2025**  {#august-6,-2025}
+
+### **Present** {#present-18}
+
+Armstrong Foundjem,  Amit Ruhela, Ben Hawks, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Marco Colombo, Matt Sinclair, Nhan Tran, Philip Haris, Piotr Luszczek, Satoshi Iwata, Shirley Moore, Victor Lu
+
+### **Tentative Agenda** {#tentative-agenda-9}
+
+* Any New Members Introduction  
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks based on [MLCommons Science/HPC Benchmarks Overview \- Taxonomy](https://docs.google.com/spreadsheets/d/1Haagoyc1cqmPca96fR9dHSsDsuO0j6bOCgXSVfTr0IM/edit?gid=0#gid=0)    
+* Time Series Dataset Catalog of 950 Datasets from 80 sources [Building a Dynamic Catalog/Review   illustrated with Time Series Aug 5 2025](https://docs.google.com/presentation/d/1BsaTTSVgmuG9szcth4S6oUT483IMQX5JV28GMf-jvLk/edit?slide=id.gaa79a2328f_0_577#slide=id.gaa79a2328f_0_577) [COMBINED2](https://docs.google.com/spreadsheets/d/1bHHzTXbY7eDNagDmM4LnzHj47bXWjQDPWjYGdH0GSmk/edit?gid=45362948#gid=45362948)    
+* White Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)   
+  * New white paper on Science Benchmarks  
+* Any Other Business
+
+### **Google Meet Notes** {#google-meet-notes-14}
+
+* [MLC Science WG \- 2025/08/06 07:54 PDT \- Notes by Gemini](https://docs.google.com/document/d/1zVC9ivYWuDRaLX_TuZM68ED-4QjN8YRN3eO79DZ7Y4Q/edit?usp=sharing)  
+* Geoffrey Fox encountered technical difficulties, but later presented his work on using LLMs to catalog time series datasets, highlighting Google Gemini's ability to generate Python code for data extraction and analysis, despite its debugging limitations. Gregor von Laszewski provided an update on the paper, discussing the formalization of benchmarks, the distinction between live and static datasets, and the contributions of students, while Nhan Tran proposed streamlining the paper's length. Piotr Luszczek reviewed the HPC and scalable benchmarks content, emphasizing the need for proper academic references, and Shirley Moore presented her contributions to the profiling and performance analysis section. The participants discussed the need for further collaboration and review of the paper, with a focus on defining "benchmark carpentry" and incorporating relevant resources. 
+
+### **New member** {#new-member-2}
+
+* Peter Fulle CEO of Neuramorphic AI [Peter Fulle \- Crunchbase Person Profile](https://www.crunchbase.com/person/peter-fulle) [Peter Fulle \- TEDxVitacura | LinkedIn](https://www.linkedin.com/in/peter-fulle-79b0b4186/)   [Neuratek](https://neuramorphic.ai/) 
+
+### **Geoffrey’s Talk** {#geoffrey’s-talk}
+
+* [Time Series Models Summary Table](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?tab=t.0)   
+* [COMBINED2](https://docs.google.com/spreadsheets/d/1bHHzTXbY7eDNagDmM4LnzHj47bXWjQDPWjYGdH0GSmk/edit?gid=45362948#gid=45362948) includes catalog of 750-950 datasets   
+* Presentation [Building a Dynamic Catalog/Review   illustrated with Time Series Aug 5 2025](https://docs.google.com/presentation/d/1BsaTTSVgmuG9szcth4S6oUT483IMQX5JV28GMf-jvLk/edit?usp=sharing) 
+

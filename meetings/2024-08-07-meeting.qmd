@@ -1,0 +1,46 @@
+---
+title: "August 7, 2024"
+---
+
+## **August 7, 2024** {#august-7,-2024}
+
+### **Present** {#present-51}
+
+Geoffrey Fox, Ali Hashmi, Armstrong Foundjem, Gregg Barrett,  Gregor von Laszewski, Piotr Luszczek,  Javier Toledo, Nabita Penmetsa, Riccardo Balin, Victor Lu, Jonathan Bennion, Rashadul Kabir,  Jeyan Thiyagalingam, Jie Zhang, Marisa Ahmad
+
+### **Apologies** {#apologies-6}
+
+Christine Kirkpatrick
+
+### **Tentative Agenda** {#tentative-agenda-31}
+
+* Any New Members Introduction  
+* Any comments on the HPC working group?  
+* Any comments on the AI Alliance  
+* Status of Benchmarks (OSMIBench)  
+* Science Foundation Models  
+  * NASA Workshop [https://sites.astro.caltech.edu/AIFM/speakers.html](https://sites.astro.caltech.edu/AIFM/speakers.html) with links to talks discussing "IEEE SMC-IT/SCC 2024: Trustworthiness of Foundation Models and What They Generate".   
+* Any Other Busines
+
+### **New Members** {#new-members-24}
+
+* **Nabita Penmetsa** [https://www.linkedin.com/in/nabita-penmetsa-a038583/](https://www.linkedin.com/in/nabita-penmetsa-a038583/) [https://eccles.utah.edu/team/nabita-penmasta/](https://eccles.utah.edu/team/nabita-penmasta/) Assistant professor in Department of Operations and Information Systems at the University of Utah. Nabita’s research focuses on pricing of software services and study of multi-sided platforms that create value by bringing together two or more groups of users. She studies how consumer behavior and nature of interactions between platform participants shape firm pricing strategies and competitive outcomes. Her areas of expertise include software-as-a-service (saas), online advertising and crowdfunding industries.  
+* **Jonathan Bennion** [jonathan.bennion@gmail.com](mailto:jonathan.bennion@gmail.com). We missed his information.  
+* **Jie Zhang** Supermicro [https://www.linkedin.com/in/jie-zhang-a23b47135/](https://www.linkedin.com/in/jie-zhang-a23b47135/) Focus on GPU performance in R & D lab. Using LLM, open sources, trend of industry research and hardware solution, framework, any software optimization based on product design and development whole life cycle to improve the deep learning model performance and quality for end user. Lower level in OSI. Support POC for global market related GPU. Hands- on experience for training, inference with LLM based on enterprise market and product. Works with NVIDIA and Intel on training and inference  
+* **Marisa Ahmad** [marisa.ahmad@mlcommons.org](mailto:marisa.ahmad@mlcommons.org) is our new MLCommons link and we welcomed the chance to improver the links with other MLCommons activities, that Marisa’s involvement would facilitate.  
+* Ali Hashmi [https://www.linkedin.com/in/ali-hashmi/](https://www.linkedin.com/in/ali-hashmi/) Senior Programmer/Healthcare Data Scientist at IBM Consulting \- US Federal. Works with Linux Foundation
+
+### **General discussion** {#general-discussion-2}
+
+* Geoffrey noted the NASA workshop https://sites.astro.caltech.edu/AIFM/speakers.html  which included discussion of the work already discussed here by NASA (Manil Maskey) and North Carolina (Douglas Rao) and Maskey gave a great talk at this workshop.  
+* Gregor noted that the OSMI benchmark was essentially complete but there were details being discussed with Shao at HPE  (see December 13, 2023 meeting) including extending to the MOM6 code as discussed in earlier Science working group meetings.  
+* Javier Toledo described recent successes in his work with TRIUMF in Canada in using the DWAVE Quantum annealer to speed up generative AI models built around Restricted Boltzmann machines where instead of a conventional Markov chain,  the generated random bits are distributed according to an effective Hamiltonian learnt as a Neural Net. This addresses the Kaggle Calorimeter challenge [Fast Calorimeter Simulation Challenge 2022](https://calochallenge.github.io/homepage/)   
+* Victor Lu asked if there are any benchmarks for Physics-informed machine learning [Physics-informed machine learning | Nature Reviews Physics](https://www.nature.com/articles/s42254-021-00314-5)   
+  * Wes Brewer noted PINNs were quite difficult to get working well with NVIDIA having a good example but a rather sophisticated implementation.  
+  * Victor Lu introduced NeuroBench: A Framework for Benchmarking Neuromorphic Computing Algorithms and Systems [https://arxiv.org/html/2304.04640v3](https://arxiv.org/html/2304.04640v3)   
+* Riccardo Balin reminded us of his SimAI-Bench talk and the idea of building benchmarks for different Motifs covering the different ways AI and HPC interact.  
+  * A graph neural net  trains on a partitioned graph and then there is a classic halo exchange  
+* There was a short discussion of the relation between HPC and Science working groups where both have Science benchmarks but the former aims at performance of very large systems while science group has smaller benchmarks with scientific value as metric.  
+  * Gregor noted that for HPC, you must have typically be an administrator on a machine to run them, so academics may look into it, but can typically not do the performance measurement  
+  * The science group benchmarks do not need authorization at that a high level.
+

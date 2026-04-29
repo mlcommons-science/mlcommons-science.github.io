@@ -1,0 +1,55 @@
+---
+title: "May 1, 2024"
+---
+
+## **May 1, 2024** {#may-1,-2024}
+
+### **Present** {#present-58}
+
+Geoffrey Fox, Juri Papay, Gregor von Laszewski, Gregg Barrett,  Piotr Luszczek, Victor Lu,  Tom Gibbs, Christine Kirkpatrick, Elie Alhajjar, Murali Emani, Yuhan Douglas Rao,  Armstrong Foundjem
+
+### **Tentative Agenda** {#tentative-agenda-38}
+
+* Any New Members Introduction  
+* Status of Benchmarks  
+* White Papers  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing) Submitted (Christine Kirkpatrick)  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Science Foundation Models  
+* Any Other Business
+
+### **OSMI and Related Benchmarks** {#osmi-and-related-benchmarks}
+
+* Gregor noted a meeting with ORNL and HPE working towards paper for Frontier submission, must include AI and workflow; suggesting to use OSMI and MOM6 as applications   
+  * OSMI discussed earlier in minutes; MOM6 is [Modular Ocean Model (MOM) – Geophysical Fluid Dynamics Laboratory](https://www.gfdl.noaa.gov/mom-ocean-model/) [GitHub \- mom-ocean/MOM6: Modular Ocean Model](https://github.com/mom-ocean/MOM6)   
+* OSMI has been converted to use PyTorch and HPE Smartsim  
+* Tensorflow on Frontier slow, observation no one seems to use Tensorflow these days (Wes converted OSMI to PyTorch)  
+* Port and run OSMI, and MOM6 on other machines than Rivanna, showcase the workflow component of cloudmesh to do so
+
+### **MLCommons FAIR Implementation Profile (FIP)** {#mlcommons-fair-implementation-profile-(fip)}
+
+* Christine Kirkpatrick  presented the FAIR Implementation profile for MLCommons [https://docs.google.com/presentation/d/1xaGMzvWWkp3e1beo7Lv5kqirG23lbA6sGNWcgE4z1TI/edit?usp=sharing](https://docs.google.com/presentation/d/1xaGMzvWWkp3e1beo7Lv5kqirG23lbA6sGNWcgE4z1TI/edit?usp=sharing) or [https://docs.google.com/presentation/d/1oZzZayHibGBEQ9641ipnyyjT0I9Orpp7/edit?usp=sharing\&ouid=100475830980223085873\&rtpof=true\&sd=true](https://docs.google.com/presentation/d/1oZzZayHibGBEQ9641ipnyyjT0I9Orpp7/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true)   
+* This was received with great interest and Gregg Barrett suggested that it needs to be placed into one of the MLC newsletters in order for folks to adopt it  
+* There was discussion of the granularity at which FIPs should be designed; Christine indicated that this should be as large as possible i.e. MLCommons not MLCommons Science  
+* MLCommons has many areas where FIP could not be quantified suggested we need an improved process.  
+* We will bring this to David Kanter’s attention  
+* There was no time to discuss papers but this material could be included in one of them.
+
+### **Inference Performance for Generative AI** {#inference-performance-for-generative-ai}
+
+* Farzana Yasmin Ahmad \<[fa7sa@virginia.edu](mailto:fa7sa@virginia.edu)\> and Vanamala Venkataswamy, \<[vv3xu@virginia.edu](mailto:vv3xu@virginia.edu)\> have compared 32 bit and 16 bit Floating point performance on Calodiffusion [https://docs.google.com/presentation/d/1Vb0-ZiWYTkmXb7-vCoXVhkWVWYDlgpPhr8Uf9VTE-S0/edit?usp=sharing](https://docs.google.com/presentation/d/1Vb0-ZiWYTkmXb7-vCoXVhkWVWYDlgpPhr8Uf9VTE-S0/edit?usp=sharing).  
+* The quality of generated events is similar but 100 events take 0,12 seconds in FP16 and 0.22 seconds in FP32.  
+* This could mean that gain comes from data transfer speed not compute performance (Piotr)  
+  * Some operations are memory-bandwidth-bound, which means the on-chip memory bandwidth determines how much time is spent computing the output. Storing operands and outputs of those ops in the bfloat16 format reduces the amount of data that must be transferred, improving speed. (Gregor)  
+* FP16 and BFloat16 on A100 have different performance. [Half Precision Arithmetic: fp16 Versus bfloat16 – Nick Higham](https://nhigham.com/2018/12/03/half-precision-arithmetic-fp16-versus-bfloat16/) The BFloat16 has a larger exponent range than FP16 but on A100 lower performance [NVIDIA Ampere Architecture In-Depth | NVIDIA Technical Blog](https://developer.nvidia.com/blog/nvidia-ampere-architecture-in-depth/#a100_gpu_streaming_multiprocessor%C2%A0)   
+  * H100 was rated at 60 teraflops of dense FP64 compute per GPU. If B200 had similar scaling to the other formats, each dual-die GPU would have 150 teraflops. However, it looks like Nvidia is stepping back FP64 performance a bit, with 45 teraflops of FP64 per GPU. according to [Nvidia’s next-gen AI GPU is 4X faster than Hopper: Blackwell B200 GPU delivers up to 20 petaflops of compute and other massive improvements | Tom's Hardware](https://www.tomshardware.com/pc-components/gpus/nvidias-next-gen-ai-gpu-revealed-blackwell-b200-gpu-delivers-up-to-20-petaflops-of-compute-and-massive-improvements-over-hopper-h100)   
+* Tom Gibbs noted  
+  * NSF supercomputer centers wil have H100 soon  
+  * FP64 uses a lot of transistors and NVIDIA cut back a bit here to put those transistors to better use.  
+  * DGEMM Double-precision, General Matrix-Matrix multiplication is no longer used much.  
+  * [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://www.google.com/search?q=The%20Era%20of%201-bit%20LLMs%3A%20All%20Large%20Language%20Models%20are%20in%201.58%20Bits&rlz=1C1VDKB_enUS1031US1032&oq=The%20Era%20of%201-bit%20LLMs%3A%20All%20Large%20Language%20Models%20are%20in%201.58%20Bits&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGD3SAQc5MjlqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8&authuser=1)   
+  * [Llama-Bitnet | Training a 1.58 bit LLM | by Zain ul Abideen | Apr, 2024 | Medium](https://medium.com/@zaiinn440/llama-bitnet-training-a-1-58-bit-llm-3831e517430a)  
+  * Tom will get colleague Steve Oberlin and   
+* There will be a workshop at ISC in 2 weeks (colliding with our meeting) where Jeyan, Tom, Piotr and Tony Hey will discuss such issues.
+

@@ -1,0 +1,76 @@
+---
+title: "December 13, 2023"
+---
+
+## **December 13, 2023** {#december-13,-2023}
+
+### **Present** {#present-66}
+
+Geoffrey Fox, Piotr Luszczek, Wes Brewer, Feiyi Wang, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Armstrong Foundjem, Andrew Shao
+
+### **Apologies**  {#apologies-16}
+
+Xavier Coubez, Juri Papay, Mallikarjun Shankar
+
+### **Tentative Agenda** {#tentative-agenda-46}
+
+* Any new members  
+* Invited Talk by Andrew Shao HPE  
+* Papers  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Other Benchmarks  
+* AOB
+
+### **New Members** {#new-members-32}
+
+We introduced ourselves to Andrew Shao [https://www.linkedin.com/in/ashao/](https://www.linkedin.com/in/ashao/) who gave his background as an undergraduate at UCSD, Masters/Ph.D. in Oceanography at the University of Washington, Postdoc at Princeton and the University of Victoria, Canada. He then worked for NOAA staying in Victoria where he is Senior HPC\&AI Research Scientist at HPE.
+
+### **Invited Talk by Andrew Shao HPE** {#invited-talk-by-andrew-shao-hpe}
+
+**Combining HPC simulations and AI with HPE’s SmartSim**
+
+**Abstract:** Hybrid workflows involving AI and traditional scientific simulations are an emerging tool for scientific research. One specific type of workflow which is increasingly being used is AI-in-the-loop, where ML methods are applied at the timestep level of a simulation. To enable these two modalities, HPE has developed the SmartSim library which enables a loosely-coupled, data-first approach to coupling HPC and AI. In this talk, we first present an overview of SmartSim’s distributed database-focused architecture tested against synthetic scaling benchmarks. We then show two use cases: one which trains surrogates from simulation data in-situ and another which embeds trained neural networks as a form of turbulence closure in a Fortran-based ocean model. Lastly, a simplified, but representative version of the latter applications is proposed as a community benchmark.
+
+Presentation: [https://drive.google.com/file/d/1Q5-q6gX-86-cz-LWmxWUX6ldxHBT-kNZ/view?usp=sharing](https://drive.google.com/file/d/1Q5-q6gX-86-cz-LWmxWUX6ldxHBT-kNZ/view?usp=sharing)  
+Recording: [https://drive.google.com/open?id=1pPmLPkwoReUnrsGPl1dCzDTPUxEE481W](https://drive.google.com/open?id=1pPmLPkwoReUnrsGPl1dCzDTPUxEE481W)  
+
+**SmartSim Information**
+
+* Contact: [CrayLabs@hpe.com](mailto:CrayLabs@hpe.com)   
+* SmartSim Repository: [https://github.com/CrayLabs/SmartSim](https://github.com/CrayLabs/SmartSim)   
+  * Includes docker container with tutorials\!  
+* SmartRedis Repository: [https://github.com/CrayLabs/SmartRedis](https://github.com/CrayLabs/SmartRedis)   
+* Seminar given at NCAR: [https://www.youtube.com/watch?v=2e-5j427AS0](https://www.youtube.com/watch?v=2e-5j427AS0)   
+* SmartSim Case studies: [https://github.com/CrayLabs/SmartSim-Zoo](https://github.com/CrayLabs/SmartSim-Zoo)   
+* SmartSim Slack workspace (link on repo)  
+* Here's the original SmartSim paper: [https://www.sciencedirect.com/science/article/pii/S1877750322001065](https://www.sciencedirect.com/science/article/pii/S1877750322001065) it was originally demonstrated for ocean climate modeling, but I think it has been used in a number of other scientific domains
+
+**Notes**
+
+* Andrew met Wes Brewer at SC23 which led to this talk being scheduled.  
+* He is interested in a benchmark for SmartSim and related software. We discussed this later as OSMIBench which we are working on is of the type supported by SmartSim. We suggested an Open Division benchmark as we are interested in improving the software technology. We realized that it would need Frontier or equivalent machine to develop this benchmark.  
+* SmartSim was compared to NVIDIA ForecastNet [\[2002.04155\] ForecastNet: A Time-Variant Deep Feed-Forward Neural Network Architecture for Multi-Step-Ahead Time-Series Forecasting](https://arxiv.org/abs/2002.04155)  
+* Andrew introduced the different ways AI and simulation mix. AI in the loop,  AI on the loop, AI around the loop, AI at the adge. The first examples were AI in the loop where the AI is applied at every time step. This is as in our OSMIBench  
+* He discussed Reinforcement learning (to learn a better neural net approximation to turbulence) and Bayesian Optimization for overall decision making.  
+* Challenges include matching Python for AI to the C++ or Fortran with well understood parallelism for the simulation. Other challenge comes from the use of GPUs for AI whereas often CPUs are best for simulation. Also the AI tends not to need the same large amount of hardware as the simulation. Tensorflow and PyTorch do have C++ frontends.  
+* SmartSim provides a loose coupling of AI and Simulation currently through a REDIS database. They expect to swap Redis for a technology (HPE Dragon) with HPC characteristics. There is a client Redis API to link simulator with Redis. As Redis is a database, it can have many clients.  
+* Redis doesnt support multiple GPUs  
+* There is a colocated example with all the data on the node one Redis instance per node  
+* The application to MOM6 for turbulence prediction was explained in detail. Each time step uses AI at the 3-hour interval. Finer times are used in the multiscale simulation.  
+* MOM6 has a straggler problem  
+* Even at a finer time step, the overhead due to AI was modest (10-15%)  
+* This project has developed a set of metrics  
+* MOM6 could make an open AI in the loop benchmark  
+  * All open source although Redis license a bit weird.  
+* Gregg noted that he would like to explore this for financial securities and he was wondering about medicine where there is extensive use of monte carlo \- radiation propagation. And there is now FastMC.  
+* Piotr asked if oneinstall SmartSim through PyPI with [https://pypi.org/project/smartsim/](https://pypi.org/project/smartsim/) ? Or I need some extras?  
+* Andrew said it should work with some extra attention  
+* There is support for container based simulations but SmartSim runs on bare metal
+
+### **Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency** {#using-benchmarking-data-to-inform-decisions-related-to-machine-learning-resource-efficiency}
+
+* Christine Kirkpatrick noted for those of you on the paper about energy efficiency, I will be in touch before the holiday break about the paper submission (will submit 12/21 and no later).  Will be sure to get it in on time and will send you a short window to review a final draft.  I'd hoped to have before now, but too many competing deadlines.  
+* Armstrong Foundjem asked Christine if the contribution window was closed as he would like to contribute in the energy paper.
+

@@ -1,0 +1,43 @@
+---
+title: "July 12, 2023"
+---
+
+## **July 12, 2023** {#july-12,-2023}
+
+### **Present** {#present-77}
+
+Geoffrey Fox, Gregg Barrett, Juri Papay, Wesley Brewer, Piotr Luszczek, Tom Gibbs,  Christine Kirkpatrick, Murali Emani, Yuhan (Douglas) Rao
+
+### **Tentative Agenda** {#tentative-agenda-56}
+
+* Any new members  
+* Official Plans  [https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1](https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1) [https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit\#gid=0](https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit#gid=0)  
+* Future Directions: Foundation/Generative Models?  
+* Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+* AI Readiness of MLCommons Science (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* AOB
+
+### **New Member** {#new-member-8}
+
+Yuhan (Douglas) Rao is from the North Carolina State University’s North Carolina Institute for Climate Studies (NCICS) in Asheville. His current research at NCICS focuses on generating a blended near-surface air temperature dataset by integrating in situ measurements and satellite observations via innovative statistical models. He is familiar with climate and weather foundation models.
+
+### **Official Plans** {#official-plans}
+
+### **Foundation Models** {#foundation-models-5}
+
+* Geoffrey gave a short presentation [AI4Science Foundation Models](https://docs.google.com/presentation/d/1WdWaFyZ6JplDvXeV7aXIirUmUEZ4BPWR3_YTDfn9acg/edit?usp=sharing) noting possible different scopes for foundation models.  
+* Yuhan noted that there is a recent established collaboration between NASA and IBM on foundational model with satellite image \- [https://www.earthdata.nasa.gov/news/nasa-ibm-ai-collaboration](https://www.earthdata.nasa.gov/news/nasa-ibm-ai-collaboration)   
+* Wes noted that much big data has a low fraction of interesting data  
+* Gregg put forward AlphaFold as a foundation model for science.  
+* Yuhan noted [Special issue – Benchmark datasets and machine learning algorithms for Earth system science data (ESSD/GMD inter-journal SI)](https://essd.copernicus.org/articles/special_issue1147.html)   
+* Also, we have our next NOAA AI Workshop (virtual) in September with focused discussion on benchmarking framework ([5th NOAA AI Workshop (2023) | National Oceanic and Atmospheric Administration](https://www.noaa.gov/ai/events/5th-noaa-ai-workshop-2023)).   
+* Christine suggested linking to NSF Initiative in knowledge graphs led by Chaitan Baru. who is a Senior Advisor in NSF's new Technology, Innovation, and Partnerships (TIP)  
+* Christine asked if we could apply to the GEO POSE? [Pathways to Enable Open-Source Ecosystems (POSE) | NSF \- National Science Foundation](https://new.nsf.gov/funding/opportunities/pathways-enable-open-source-ecosystems-pose?utm_medium=email&utm_source=govdelivery)    
+* Gregg Barrett noted that Feiyi Wang and Jeyan Thiyagalingam are hosting submissions on  [Foundational Models and Workflows in AI for Science | Frontiers Research Topic](https://www.frontiersin.org/research-topics/54654/foundational-models-and-workflows-in-ai-for-science)   
+* If we have an initiative in Foundation models we need define a framework and have some prototypes – possibly small
+
+### **Any Other Business** {#any-other-business-9}
+
+Gregg suggested a presentation at [AI for Scientific Discovery: From Theory to Practice](https://ai4sciencecommunity.github.io/neurips23) at NeurIPS 2023\. Christine supported this
+

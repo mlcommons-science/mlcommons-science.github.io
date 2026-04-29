@@ -1,0 +1,78 @@
+---
+title: "April 2, 2025"
+---
+
+## **April 2, 2025** {#april-2,-2025}
+
+### **Present** {#present-34}
+
+Azza Ahmad, Datta Nimmaturi, Fred Sala, Gary Mazzaferro, Gregg Barrett, Geoffrey Fox, Gregor von Laszewski, Howard Pritchard, Javier Toledo, Jihao Shi, Juri Papay, Matt Sinclair, Murali Emani, Nhan Tran, Philip Harris, Satoshi Iwata, Shantenu Jha, Shirley Moore, Tom Gibbs, Victor Lu
+
+### **Apologies** {#apologies-1}
+
+Christine Kirkpatrick
+
+### **Tentative Agenda** {#tentative-agenda-16}
+
+* Any New Members Introduction  
+* Presentation by Frederic Sala on TPBench [Public Problems and Model Solutions – TP Bench](https://tpbench.org/?page_id=2) ([https://pages.cs.wisc.edu/\~fredsala/](https://pages.cs.wisc.edu/~fredsala/)) will cover:  
+* New meeting times. Discussion of Doodle polls. Preferred time for USA-Asia is 9.05 pm eastern   
+* White Papers  
+  * Please take a look at the status and locations in the minutes of the February 19 and March 19 meetings.  
+* Continuing discussion of the catalog of Science benchmarks based on [https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)   
+  * Note benchmark summaries from ChatGPT and Gemini Deep Research  
+* Any Other Busines
+
+### **Google Meet Notes** {#google-meet-notes-28}
+
+* Full notes are at [Copy of MLC Science WG \- 2025/04/02 07:56 PDT \- Notes by Gemini](https://docs.google.com/document/d/1WYT3y2IGC2GB3Ux4zvoDChjXm3wNXa_WsBVNdGmO1JQ/edit?usp=drive_link).  
+* Summary of these is:  
+  * Time zone confusion related to daylight saving time changes.  
+  * A humorous discussion about purchasing Jack Daniels whiskey due to a potential trade war.  
+  * Introductions of new members, Fred Sala and Datta Nimmaturi.  
+  * A presentation by Fred Sala on TPBench, a benchmark for AI performance in theoretical physics. This included discussions on reasoning models, data contamination, benchmark design, results, and future directions.  
+  * Questions and discussions related to TPBench, including data set creation, community contributions, training infrastructure, and scaling laws.  
+  * Meeting time and scheduling for future meetings.  
+  * Plans for future presentations, including one from the Aurora GPT team.  
+  * The main focus of the meeting was Fred Sala's presentation on TPBench and the related discussions about AI benchmarking in theoretical physics.
+
+### **New Members** {#new-members-12}
+
+* **Datta Nimmaturi** [Datta Nimmaturi \- Machine Learning Engineer 3 \- Nutanix | LinkedIn](https://www.linkedin.com/in/datta0/) AI/ML Engineer at Nutanix and currently research engineering LLMs  
+* Frederic Sala [Frederic Sala \- Assistant Professor, Computer Sciences Department \- University of Wisconsin-Madison | LinkedIn](https://www.linkedin.com/in/frederic-sala-b3a7019/) is an assistant professor in the Computer Sciences department at the University of Wisconsin-Madison, where I study the fundamentals of data-driven systems. He is also a research scientist at Snorkel, where they are building a data-first approach to AI.
+
+### **Presentation on TPBench** {#presentation-on-tpbench}
+
+* Fred Sala’s wonderful talk was recorded [https://drive.google.com/file/d/1fCeEj5bCIl6Hm86CSOO\_9MzcT4EFeWGp/view?usp=sharing](https://drive.google.com/file/d/1fCeEj5bCIl6Hm86CSOO_9MzcT4EFeWGp/view?usp=sharing)  
+  * The current state of "reasoning" models, how they work, what they've been evaluated on, and their known weak spots,  
+  * How we built TPBench and what new items it reveals about reasoning models,  
+  * The implications and where we think such reasoning models will fit within AI for science in the near and medium term.  
+* There is an Arxiv paper [\[2502.15815\] Theoretical Physics Benchmark (TPBench) \-- a Dataset and Study of AI Reasoning Capabilities in Theoretical Physics](https://arxiv.org/abs/2502.15815) on this.  
+* The Google Meet notes  linked above have an accurate summary of the talk.   
+* We will try to continue theme with Frank Capello arranging a presentation from the AuroraGPT evaluation team.
+
+### **New Meeting Time** {#new-meeting-time}
+
+* After Doodle poll, we suggested every other Tuesday at 9 pm starting April 22, meeting every two weeks.  We passed this idea to David Kanter to approve.
+
+### **Scientific benchmarks and challenges \- follow up discussion** {#scientific-benchmarks-and-challenges---follow-up-discussion}
+
+* Need to follow up with MLComons How to fix table. Verify with Harshat which column we identified are not properly defined in benchmark.
+
+### **Catalog of Science benchmarks** {#catalog-of-science-benchmarks}
+
+* [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)
+
+
+### **White Papers** {#white-papers-1}
+
+* Gregor has opportunity to create special collection with Frontiers in High Performance computing. Should we proceed with this, what is the topic.   
+  * Gregor asked for clarification what documents are needed  
+  * He assumes call that can be published  
+  * Maybe: High Performance COmputing and Machine Learning Benchmarks …  
+* Paper 1: The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)   
+  * Meeting with **Armstrong**: Focus on Energy  
+  * Meeting with **Victor**: More concrete information requested. E.g. he likes to focus on complexity theory. Discussion took place that most HPC benchmarks started or include complexity theory, so it is important that he articulates not only what is done, but projects concrete example so we understand how this is different from regular activities.  
+  * Matt **Sinclair**: extend the classification. How about adding a 3rd picture and see if we should merge them or keep them separate?  
+  * Motivation for repeatable benchmarks: What we said has been validated by UFL (this is small benchmark of traffic camera analysis): Has similar benchmark characteristics as long running earthquauke prediction. UFL and UVA A100 are similarly “performing”
+

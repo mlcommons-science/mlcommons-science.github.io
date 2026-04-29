@@ -1,0 +1,61 @@
+---
+title: "October 19, 2022"
+---
+
+## **October 19, 2022** {#october-19,-2022}
+
+### **Present** {#present-93}
+
+Wesley Brewer, Feiyi Wang, Juri Papay, Gregor von Laszewski, Gregg Barrett,  Farzana Yasmin Ahmad, Geoffrey Fox,  Junqi Yin,  Piotr Luszczek, Murali Emani, Tom Gibbs
+
+### **Apologies** {#apologies-34}
+
+Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
+
+### **Tentative Agenda** {#tentative-agenda-71}
+
+* Any new members  
+* Status of 4 Benchmarks: Policy/Submission Rules Schedules  
+  * **Policy** [https://github.com/mlcommons/science/blob/main/policy.adoc](https://github.com/mlcommons/science/blob/main/policy.adoc)  
+  * **Submission**  [https://github.com/mlcommons/science/blob/main/submit.adoc](https://github.com/mlcommons/science/blob/main/submit.adoc)  
+  * **ACTION ITEM** We agreed that we should add suggestions and comments to benchmarks to identify promising approaches to improving science; where did we try and fail? What did we not look at but think was interesting?    
+* Futures \-- new benchmarks    
+  * **ACTION ITEM** We agreed to draft a call for new benchmarks  
+  * **ACTION ITEM:** Send any suggestions  (either text or places to send it) so we can draft an announcement combining the current 4 benchmarks and call for new benchmarks  
+* AOB
+
+### **Discussion** {#discussion-26}
+
+* We had a shorter discussion than normal. Gregor gave our main links  
+  * [https://mlcommons.org/en/groups/research-science/](https://mlcommons.org/en/groups/research-science/)   
+  * [https://github.com/mlcommons/science/issues/43](https://github.com/mlcommons/science/issues/43)   
+  * [https://github.com/laszewsk/mlcommons/blob/main/webpage/frontpage-v4.md](https://github.com/laszewsk/mlcommons/blob/main/webpage/frontpage-v4.md)   
+  * We have 4 benchmnarks and a policy document and a submission document  
+* Tom Gibbs explained the Industry concern that they wish to avoid too many new benchmarks that go in RFP’s or be perceived as needed to be optimized on a particular system  
+* Mitigating this issue included adding to our website that the intention is that Science entries not be perceived as a a conventional performance  benchmark  
+* The Bibtex for H3 paper [H3\_paper\_1173.pdf](https://drive.google.com/file/d/1xg8pXRjCM9WW4hA3gaAvy8Ntw3CJidNw/view?usp=sharing) is
+
+@INPROCEEDINGS{h3paper,  
+  title           \= "{AI} Benchmarking for Science: Efforts from the  
+                     {MLCommons} Science Working Group",  
+  booktitle       \= "2022 {WORKSHOP}: {HPC} {ON} {HETEROGENEOUS} {HARDWARE}  
+                     (H3)",  
+  author          \= "{Jeyan Thiyagalingam, Gregor von Laszewski, Junqi Yin,  
+                     Murali Emani, Juri Papay, Gregg Barrett, Piotr Luszczek,  
+                     Aristeidis Tsaris, Christine Kirkpatrick, Feiyi Wang, Tom  
+                     Gibbs, Venkatram Vishwanath, Mallikarjun Shankar, Geoffrey  
+                     Fox, Tony Hey}",  
+  conference      \= "2022 WORKSHOP: HPC ON HETEROGENEOUS HARDWARE (H3)",  
+  location        \= "Hamburg, Germany"  
+}
+
+* Piotr clarified that it could be put on arxiv if it references the future Springer LNCS version
+
+### **New Member** {#new-member-9}
+
+Wesley Brewer introduced himself. He comes from DoD HPC Modernization program but now works at Oak Ridge National Laboratory. Three papers from DoD are
+
+* [Production Deployment of Machine-Learned Rotorcraft Surrogate Models on HPC](https://ieeexplore.ieee.org/abstract/document/9652868)   
+* [Streaming Detection and Classification Performance of a POWER9 Edge Supercomputer](https://ieeexplore.ieee.org/abstract/document/9622852)   
+* [iBench: a Distributed Inference Simulation and Benchmark Suite | IEEE Conference Publication](https://ieeexplore.ieee.org/abstract/document/9286169) 
+

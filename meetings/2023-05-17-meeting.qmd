@@ -1,0 +1,69 @@
+---
+title: "May 17, 2023"
+---
+
+## **May 17, 2023** {#may-17,-2023}
+
+### **Present** {#present-81}
+
+Gregg Barrett, Geoffrey Fox, Juri Papay, Mallikarjun Shankar, Wesley Brewer, Gregor von Laszewski, Piotr Luszczek, Christine Kirkpatrick, Aristeidis Tsaris, Murali Emani, 
+
+### **Tentative Agenda** {#tentative-agenda-60}
+
+* Any new members  
+* We're live\! [New ML Benchmarks for Scientific Discovery | MLCommons](https://mlcommons.org/en/news/ml-benchmarks-for-scientific-discovery/)  
+* Discussion of new Benchmarks (Continued) with talk by Wes Brewer [MLCommons-Brewer-05-16-23.pdf](https://drive.google.com/file/d/1cb4MgPLIdCqFuBZleO31-RAm7Psk8gH1/view?usp=sharing)   
+* **Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency** (Continued) [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* **Benchmark Carpentry** [benchmark-carpentry](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)   
+* **AI Readiness of MLCommons Science** (Continued) [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* AOB
+
+### **We’re Live** {#we’re-live-1}
+
+* Our benchmarks were launched by MLCommons  [New ML Benchmarks for Scientific Discovery | MLCommons](https://mlcommons.org/en/news/ml-benchmarks-for-scientific-discovery/) and we need to propagate the news  
+* Christine will advertise through SDSC and NCSA  
+  * SDSC Innovators newsletter and ask if NCSA will do the same.  
+  * And Christine’s RCN on ML and FAIR.  
+* Campus Champions and Henry Neeman are good lists  
+  * cc-all@campuschampions.org  
+  * hneeman@ou.edu  
+* Arjun suggested hpc-announce at Argonne  
+  * send email to hpc-announce@mcs.anl.gov  
+* Juri will advertise in Europe
+
+### **Towards Developing/Benchmarking Digital Twins of/on HPC** {#towards-developing/benchmarking-digital-twins-of/on-hpc}
+
+* Wes Brewer presented a fascinating talk on building a digital twin of Frontier  
+* Towards AI and Mixed Reality for the Smart Facility and its Digital Twin [https://www.researchgate.net/profile/Benjamin-Hernandez/publication/358970366\_Towards\_AI\_and\_Mixed\_Reality\_for\_the\_Smart\_Facility\_and\_its\_Digital\_Twin](https://www.researchgate.net/profile/Benjamin-Hernandez/publication/358970366_Towards_AI_and_Mixed_Reality_for_the_Smart_Facility_and_its_Digital_Twin)  
+* SC21 Best paper on Summit [https://ieeexplore.ieee.org/document/9910121](https://ieeexplore.ieee.org/document/9910121)   
+* Wes presented a useful definition of digital twins with 5 levels with the ultimate level 5 as an “autonomous twin”  
+* Apollo 13 was perhaps the first digital twin  
+* HPE and NVIDIA with DOE and TSC Finland are building a virtual prototype of OLCF-6 (OLCF-6 is Frontier's successor. Frontier is OLCF-5 and Summit is OLCF-4), including scheduling, network, coolong, power.  
+* Different components have different timescales  
+* Reinforcement Learning optimization used at level 5  
+* Frontier is 21MW, 37888 GPU’s with blades that have 2 CPU and 8 GPU each  
+* Using Modelica modelling language building on expertise of Fusion team at Oak Ridge with this technology  
+* Using AR/VR with Meta Quest 2 and Microsoft Hololens 3500S and Unreal gaming visualization  
+* Build community DT4HPC around HPC Digital Twins with SC23 BOF  
+* Discussed interoperability of digital twin components  
+* Wes then discussed HPC-AI workflow benchmarks going back to old Darpa HPCS program.  
+* Presented Jha’s execution motifs as a way of classifying different benchmark areas  
+* Discussed SMIBench as component interoperability benchmarking with Open Surrogate Model Inference (OSMI) Benchmark  
+* Gregg suggested Melissa Romanus at LBL would be interested  
+* Tom Gibbs noted :  
+  *  Ironic that I missed the meeting due to finalizing the session I was chairing for invited talks at ISC on AI for Science.  
+  * One of the sessions was on Digital Twins for Science, where we had talks on twins for Fusion Reactors and Climate Models.  
+  * Looking over Wes’s talk I’m coming to the conclusion that it might be as challenging to benchmark the twin than build it.  
+  * It basically comes down to evaluating a complex workflow where some of the components have latency constraints
+
+### **Power Paper** {#power-paper}
+
+* [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit)  
+* Christine has advanced this with comments from Gregg and Arjun  
+* Stress value of ontologies  
+* Perhaps a better source of data than Tom’s hardware; [https://www.spec.org/benchmarks.html](https://www.spec.org/benchmarks.html) useful
+
+### **Any Other Business** {#any-other-business-10}
+
+* Summit very expensive to maintain past formal end tim
+

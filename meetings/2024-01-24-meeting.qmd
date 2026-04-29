@@ -1,0 +1,60 @@
+---
+title: "January 24, 2024"
+---
+
+## **January 24, 2024** {#january-24,-2024}
+
+### **Present** {#present-64}
+
+Geoffrey Fox, Feiyi Wang,  Senjuti Dutta, Gregg Barrett, Wes Brewer, Xavier Coubez, Murali Emani,Tom Gibbs, Armstrong Foundjem,  Piotr Luszczek, (Otter AI not given admittance as advised by MLCommons)
+
+### **Apologies**  {#apologies-14}
+
+Jeyan Thiyagalingam, Christine Kirkpatrick
+
+### **Tentative Agenda** {#tentative-agenda-44}
+
+* Any new members  
+* White Papers  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing) Submitted (Christine Kirkpatrick)  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Progress with OSMI Benchmark (Wes, Gregor)  
+* Agenda for the year  
+* AOB
+
+### **New Members** {#new-members-30}
+
+* Senjuti Dutta [Home | Senjuti Dutta](https://web.eecs.utk.edu/~sdutta6/) studies HCI and Machine Learning at University of Tennessee, Knoxville. The other members introduced ourselves to her.  
+* Xavier Coubez reminded us that he spanned particle physics and computer science (deep learning)
+
+### **Discussion** {#discussion-20}
+
+* Wes Brewer noted [2024 Symposium | Michigan Institute for Computational Discovery and Engineering](https://micde.umich.edu/news-events/annual-symposia/2024-symposium/) on  Scientific Foundation Models at  MICDE Conference April 2nd & 3rd, 2024, Ann Arbor, MI.  
+* Wes discussed work on HPC AI workflows with Shantenu Jha and identification of motifs (patterns of AI use on HPC) and need for benchmarks for these motifs  
+  * Osmi is one example of such motifs  
+  * HP Labs Dejan Milojicic is interested  
+  * Suggested asking Shantenu Jha to talk  
+* Feiyi  Wang noted that 6 months ago, he  purchased a smaller testbed based on 8 NVIDIA H100 with 80GB memory in each GPU. This can be use to look at smaller foundation models and fine-tuning  
+  * Prepare one page application Advanced computing asserting open source to NCCS  National Center for Computational Sciences with funding for collaborato  
+  * PyTorch FSDP, Megatron and Microsoft DeepSpeed available  
+  * Frontier has 2 earlier machines used to prepare for it  
+  * Also a Graphcore AI hardware system  
+  * NSF NAIRR [Democratizing the future of AI R\&D: NSF to launch National AI Research Resource pilot](https://new.nsf.gov/news/democratizing-future-ai-rd-nsf-launch-national-ai)  will use Summit+. Note this announcement of NAIRR Pilot came out today. NSF DOE and other partners.  
+  * Such developments suggest that compute resources will not be the limiting factor  
+* Piotr wanted a broad spectrum of benchmarks based on modern applications  including Graph based Foundation models as not all applications look like LLMs or Images.  
+* Feiyi noted that size depends on the discipline; LLM trillion parameter; Geospatial a few billion; Nasa IBM Prithvi-100M millions  
+* In discussing state of the art, it was noted that most people only discussed success and so when a method stops being discussed maybe it is a silent failure\!  
+* Geoffrey mentione CNN v. Vision Transformers and MAE versus contrastive loss as examples of unclear method comparisons.  
+  * A list of Foundation models is at [Science FM Hub](https://sciencefmhub.org/)   
+* LLM teaches us that generalization and memorization are different.  
+* In conclusion Gregg noted Open Science at the nexus of methods, data and testbeds.  
+* Xavier followed up after the meeting with  
+  * The comparison between CNN and Vision Transformers by DeepMind \[1\]. I didn't check for follow-up papers but will do so. I am not sure whether this has been peer-reviewed, maybe they submitted it to a journal and it's under review, the preprint is rather recent.  
+  * Regarding the lack of rigorous assessment of what was learned by models in the field of NLP, I was referring to this talk \[2\] which is part of a larger workshop on the representation of language in brains and machines \[3\]. The speaker has an ERC Starting Grant to study the emergence of language through the ALiEN project \[4\].  
+  * \[1\] ConvNets Match Vision Transformers at Scale [https://arxiv.org/pdf/2310.16764.pdf](https://arxiv.org/pdf/2310.16764.pdf)   
+  * \[2\] Marco Baroni,  
+  * [On the Proper Role of Linguistically-Oriented Deep Net Analysis in Linguistic Theorizing | Collège de France](https://www.college-de-france.fr/fr/agenda/colloque/the-representation-of-language-in-brains-and-machines/on-the-proper-role-of-linguistically-oriented-deep-net-analysis-in-linguistic-theorizing)   
+  * \[3\] The Representation of Language in Brains and Machines, workshop June 24-25 2021  [The Representation of Language in Brains and Machines | Collège de France](https://www.college-de-france.fr/fr/agenda/colloque/the-representation-of-language-in-brains-and-machines)   
+  * \[4\] [ALiEN](https://marcobaroni.org/alien/) EU funded 5 year project **A**utonomous **Li**nguistic **E**mergence in Neural **N**etworks
+

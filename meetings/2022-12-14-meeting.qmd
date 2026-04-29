@@ -1,0 +1,62 @@
+---
+title: "December 14, 2022"
+---
+
+## **December 14, 2022** {#december-14,-2022}
+
+### **Present** {#present-90}
+
+Wesley Brewer,  Gregor von Laszewski, Gregg Barrett, Geoffrey Fox, Piotr Luszczek, Juri Papay, Murali Emani, 
+
+### **Apologies** {#apologies-31}
+
+Tony Hey, Jeyan Thiyagalingam,
+
+### **Tentative Agenda** {#tentative-agenda-68}
+
+* Any new members \- None  
+* Discussion of Current Benchmarks  
+* Discussion of New Benchmarks
+
+### **Current Benchmarks** {#current-benchmarks-1}
+
+* We discussed our progress in looking at current benchmarks and improving them. Earthquake and Cloudmask have made significant progress  
+* Wes reported a message from Junqi Yin  for suggestions on how to improve STEMDL  
+  * We have explored common CNN models,  such as ResNet, VGG, DenseNet. ResNet seems to perform slightly better, and deeper model performs slightly better. Other model architectures are worth exploring e.g. **vision transformer.**  
+  * The most performance gain seems to come from feature engineering: e.g. the center of the image has the largest value and it quickly decreases to the side. By log-scaling the values, the accuracy improves by over 20%. Other feature engineering techniques are worth exploring.  
+* Murali will write some notes on how to improve UNO as this is currently  not a focus at Argonne.  
+* Juri and Gregor discussed ways to understand overheads from power, CPU and GPU usage.  
+  * Gregg suggested MLPerf Storage benchmarks to study I/O overheads seen in Argonne Light Source surrogate
+
+### **New Benchmarks** {#new-benchmarks-1}
+
+* Geoffrey presented some of the surrogates he was working on and summarized new benchmarks presented to the working group [Some Surrogates](https://docs.google.com/presentation/d/10YAtNwUdAB7-eE-LtH9gcVQgpWGeABSJH2GASIizzkg/edit?usp=sharing)  
+* **Surrogates**  
+* GCF: Tsunami simulator predicting inundation with input as measured values of buoys  
+* GCF: Diffusion Solver for input with many sources leading to rapid changes in solution values  
+* GCF: Extending diffusion solver surrogate to a more realistic Compucell3D surrogate  
+* Brewer discussed CFD surrogate focussing on Inference step  
+* Luszczek discussed an Autotuning surrogate  
+* Livermore discussed a Fusion (plasma) simulation surrogate  
+* Argonne has light source data surrogates in a joint project  
+* Virginia group is working on a surrogate for epidemic (Covid) simulations  
+* GCF worked on two surrogates for molecular dynamics with Jadhao  
+*   
+* **Not Surrogates**  
+* Fermilab group plus Janapa Reddi has developed particle physics Inference benchmarks (FastML)  
+* Other Livermore Science Benchmarks  
+* RAL Science Benchmarks  
+* Gregg Barrett suggested RadImageNet 
+
+### **Discussion of Benchmarks** {#discussion-of-benchmarks}
+
+* Geoffrey noted that Science benchmarks tend to have a larger ratio of data/model size compared to super big language models  
+* Gregg noted:  
+  * I think we need to think about these possible system constraints when selecting the next round of benchmarks, in addition to the usefulness of the application and interest of others in participating in running the benchmarks.  
+  * I noticed the mention of Kaggle in the MLC community meeting. I was wondering about a benchmark that does not require large compute which could be used for Kaggle to get traction on the science side.
+
+### **Next Steps** {#next-steps}
+
+* No Meeting Dec 28, 2022  
+* January 11, 2022 Juri will discuss RAL benchmarks
+

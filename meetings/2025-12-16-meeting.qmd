@@ -1,0 +1,40 @@
+---
+title: "December 16, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **December 16, 2025 (9.05 pm. ET for Asia-USA)** {#december-16,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present}
+
+Gary Mazzaferro, Geoffrey Fox, Hussain Ather , Satoshi Iwata, Tues Day
+
+### **Google Meet Notes** {#google-meet-notes}
+
+* [MLC Science WG \- 2025/12/17 01:58 GMT \- Notes by Gemini](https://docs.google.com/document/d/16cXhnyD5nv5UjJK2gbmHfQ8ZaAaUo7X16DNF8qwT-DI/edit?usp=sharing) The meeting focused on challenges and solutions in the context of Large Language Models (LLMs), AI, and software development, particularly in the realm of ML Commons benchmarks and emerging technologies.Key Discussion Points:  
+* **LLM Benchmarking Challenges:** Geoffrey Fox noted issues with Google Gemini consistently giving incorrect answers for benchmarks due to a lack of documentation. TUES DAY highlighted the January 2024 cutoff date for the Gemini model, causing "hard stops" in coding for newer developments.  
+* **Prompt and Context Engineering:** Gary Mazzaferro detailed a two-stage query creation process for a UN Cholera Emergency Response proposal, involving one GPT creating instructions for a second GPT. They introduced the concept of **"parsing engineering"** to achieve 97-98% information accuracy by creating document-specific parsers that account for stylistic information like font.  
+* **LLM Failure Mitigation:** Discussions covered confabulation (LLMs making up information). Gary Mazzaferro advised turning down the "temperature" setting (specifically, Top K) to mitigate this and suggested an alternative two-step process: creative generation followed by citation search against the input documents.  
+* **Coding and Development Issues:** Hussain Ather pointed out encoding and clipboard issues when moving code between different operating systems (Mac/PC) and environments (VS Code, terminal). They, along with TUES DAY, expressed skepticism about AI coding assistants like Co-pilot, finding the generated code often too brittle.  
+* **Historical Programming Paradigms:** Gary Mazzaferro and Geoffrey Fox discussed the historical context of programming languages, specifically **Lisp**, which had a "dwim" (do what I mean/not what I say) command to reduce the "cost of affordance." This concept, lost for 30 years, is now seen as relevant to modern robotics and automation, with Python suggested as a new technology democratizing entry.  
+* **High Cost of Low-Resource Language Annotation:** The group covered the high cost and challenges ($130k+ for a couple thousand prompts in Hindi and Malay) of human annotation for ML Commons benchmarks, especially for low-resource languages and dialects, and the critical need to include **social context** to avoid security vulnerabilities like prompt injections.  
+* **AI Infrastructure Management:** Gary Mazzaferro requested Geoffrey Fox's participation in the upcoming **SNE CDMI webinar** (which Geoffrey Fox accepted). The discussion emphasized the lack of a formal mechanism and international standard (outside of CDMI) for managing AI infrastructures, including security and authorization for emerging technologies like Graph Neural Networks and the Model Context Protocol (MCP). 
+
+### **Discussion** {#discussion}
+
+* Hussain Ather found Chain-of-Thought  Prompting   to be very helpful  
+  * yea, python-based parsing is fine, especially for xml, json  
+* TUES DAY noted that OCR has gotten wayyyy better  
+* Hussain Ather liked simple editors like Notepad++, TextEdit for Mac and vim  
+  * TUES DAY agreed  
+* TUES DAY noted [DORA](https://dora.dev/)  
+  * DORA is the largest and longest running research program of its kind, that seeks to understand the capabilities that drive software delivery and operations performance.  
+  * DORA helps teams apply those capabilities, leading to better organizational performance.  
+  * I like DORA's research on software development  
+  * [Quickstart: How to think in JAX](https://docs.jax.dev/en/latest/notebooks/thinking_in_jax.html)   
+* Hussain Ather is hoping we see a solution to P \= NP for work on determinism debates  
+  * There's potential, i the next few years or so  
+  * Great discussion , guys. i need to sign off in the next 5-10 minutes tho.  
+* Geoffrey noted ‘I am told Anthropic forecast AI will solve physics in 3 years”  
+  * This was reported at a physics meeting.  So audience was sceptcal  
+* Hussain Ather "solve physics" ???
+

@@ -1,0 +1,60 @@
+---
+title: "May 3, 2023"
+---
+
+## **May 3, 2023** {#may-3,-2023}
+
+### **Present** {#present-82}
+
+Gregg Barrett, Geoffrey Fox, Juri Papay, Christian Herwig, Mallikarjun Shankar, Wesley Brewer, Gregor von Laszewski, Piotr Luszczek, Christine Kirkpatrick
+
+### **Tentative Agenda** {#tentative-agenda-61}
+
+* Any new members  
+* Benchmark Carpentry [benchmark-carpentry](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)    
+* AI Readiness of MLCommons Science (Continued) [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
+* Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency (Continued) [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)   
+* Discussion of new Benchmarks (Continued)  
+* AOB
+
+### **Using ORNL Supercomputers** {#using-ornl-supercomputers}
+
+* Summit will be replaced by Frontier based on AMD CPU and GPU  
+* Need to switch from CUDA to AMD HIP [Introduction to HIP Programming Guide](https://docs.amd.com/bundle/HIP-Programming-Guide-v5.3/page/Introduction_to_HIP_Programming_Guide.html)   
+* This could happen in next 6-8 months  
+* We discussed ways to get accounts which are suitable for different size and different length projects  
+* Collaboration with ORNL staff is the way we operate now  
+* Porting /exploring as we do can be supported by a Director’s Discretionary for a standalone MLCommons project  
+  * The description and link for the Director's Discretionary (DD) allocation is at the link https://docs.olcf.ornl.gov/accounts/accounts\_and\_projects.html  
+* Large projects (not MLCommons) get ALCC (Leadership Computing Challenge) or Insight awards  
+* Ask Feiyi Wang
+
+### **Papers** {#papers-1}
+
+* Benchmark Carpentry paper could be combined with another paper Gregor is writing for Frontiers journal on HPC; this discusses power use  
+* Christine discussed power paper and asked what type of network is Candle UNO. Geoffrey thought it was a database like lookup mappring drug specifications to biological responseJuri is porting a PNNL single GPU code to many GPUs.  
+  * We hoped to have a draft of this paper by the next meeting
+
+### **New Benchmarks** {#new-benchmarks}
+
+* We discussed removing data engineering components of benchmarks such as earthquake one.  
+* We discussed OSMIBench with its new open dataset based on OpenFOAM and TensorFlowFoam (Argonne [GitHub \- argonne-lcf/TensorFlowFoam: Integrating the TensorFlow 1.15 C-API into OpenFOAM 5.0 for data-driven CFD algorithm development](https://github.com/argonne-lcf/TensorFlowFoam))      
+  * we will discuss this UVA ORNL May 12  
+* Wes Brewer  mentioned intereste in Digital Twins of Supercomputers – in particular Frontier to study Power. He will talk in detail next time. There will be an SC23 BOF  
+* Christian mentioned that FastML was collecting datasets for their Physics datasets. 3 have been fully formed. A student of Vijay Janapa Reddi and Bonn University are involved.
+
+### **Meeting with David Kanter May 5 2023** {#meeting-with-david-kanter-may-5-2023}
+
+* We are ready to go  
+* Linked up with Kelly [MLCommons Science  Blog post draft](https://docs.google.com/document/d/1utBYGdgpmfNWZmisZrvjABinRENR-HxfTYWY_UKUOsc/edit#heading=h.d06of245e7py)   
+* Need to advertise
+
+## **April 20 2023 Community Meeting** {#april-20-2023-community-meeting}
+
+Full set of slides [2023.04.20 MLCommons Community Meeting](https://docs.google.com/presentation/d/1LGE4KObCfKwFwgPYnGp1Aj73fPsRCxEVJ7jRsoHj2oE/edit?usp=sharing)  
+Science WG slides [MLCommons Science Working Group April 20 2023](https://docs.google.com/presentation/d/1xKp-o4DmI0I6fnjoTE6koqQXpDv5cVU4F_AZZe69haI/edit?usp=sharing) 
+
+## **April 2023 Change in Leadership** {#april-2023-change-in-leadership}
+
+Note Juri Papay replaces Tony Hey as co-chair. Juri comes from STFC-UKRI as did Tony. Tony stepped down after a heroic effort starting up the working group – he has all our Thanks.
+

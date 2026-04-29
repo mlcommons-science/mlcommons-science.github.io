@@ -1,0 +1,39 @@
+---
+title: "August 10, 2022"
+---
+
+## **August 10, 2022** {#august-10,-2022}
+
+### **Present** {#present-97}
+
+Gregor von Laszewski, Gregg Barrett, Dingwen Tao, Farzana Yasmin Ahmad, Geoffrey Fox,  Junqi Yin,  Christine Kirkpatrick, Piotr Luszczek,  Mallikarjun Shankar, Murali Emani, Aristeidis Tsaris 
+
+### **Apologies** {#apologies-38}
+
+Jeyan Thiyagalingam, Juri Papay, Tony Hey, Tom Gibbs
+
+### **Tentative Agenda** {#tentative-agenda-75}
+
+* Any new members (None this meeting)  
+* Status of 4 Benchmarks: Rules Schedules  
+  * The working group GitHub is located at [https://github.com/mlcommons/science](https://github.com/mlcommons/science)  
+  * Our Policy document is located at  [https://github.com/mlcommons/science/policy.adoc](https://github.com/mlcommons/science/policy.adoc)  
+  * Training Schedule is [https://docs.google.com/spreadsheets/d/1G4CGgDJCEN9UPnpeCP6RL6USFUQPrUTugJGCMhkbd7s/edit\#gid=0](https://docs.google.com/spreadsheets/d/1G4CGgDJCEN9UPnpeCP6RL6USFUQPrUTugJGCMhkbd7s/edit#gid=0)  
+* Futures \-- new benchmarks  
+* AOB
+
+### **Discussion** {#discussion-27}
+
+* The topics were merged in the discussion.   
+* **ACTION ITEM** We agreed that we should add suggestions and comments to benchmarks to identify promising approaches to improving science; where did we try and fail? What did we not look at but think interesting? We should discuss adding data and science considerations  
+* We suggested adding comments to our policy to discuss inference versus training. Our current benchmarks are all training but inference could be added as in FastML [https://arxiv.org/pdf/2207.07958.pdf](https://arxiv.org/pdf/2207.07958.pdf). Here you can address both improving the training of models and improving the real-time inference response which governs utility when these particle physics edge AI tools are used.  
+* **ACTION ITEM** We agreed to draft a call for new benchmarks looking at current new possibilities: FastML and Livermore. We should require datasets are models to be open.  
+* We could advertise call at SC MLCommons BOF  
+* Maybe the Medical Group at MLCommons has relevant benchmarks. The AI for Science book edited by Choudhary, Fox, and Hey has several possible sources.  
+* We discussed the relevance of “ilities” FAIR, NetZero (power), diversity  
+* In power are, useful links are [https://mlcommons.org/en/groups/best-practices-power/](https://mlcommons.org/en/groups/best-practices-power/), [https://www.youtube.com/watch?v=LPrFL2gWmTY](https://www.youtube.com/watch?v=LPrFL2gWmTY), [https://www.nsf.gov/pubs/2022/nsf22060/nsf22060.jsp](https://www.nsf.gov/pubs/2022/nsf22060/nsf22060.jsp)   
+* We discussed the need to interact with vendors and explain the role of our benchmarks  
+* Also should interact with the DataPerf working group  
+* We should change the location of benchmarks in the webpage to MLCommons GitHub repository [https://github.com/mlcommons/science](https://github.com/mlcommons/science).   
+* We discussed getting the word out. Repeating success with the H3 workshop.
+

@@ -1,0 +1,38 @@
+---
+title: "October 1, 2025"
+---
+
+## **October 1, 2025** {#october-1,-2025}
+
+### **Present** {#present-10}
+
+* Armstrong Foundjem,  Ben Hawks, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Juri Papay, Marco Colombo, Matt Sinclair, Piotr Luszczek, Satoshi Iwata
+
+### **Tentative Agenda** {#tentative-agenda-5}
+
+* Any New Members Introduction  
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks  
+  * Summary [Fox\_Benchmarking for HPC AI in a rapidly changing world Aug 26, 2025](https://docs.google.com/presentation/d/1aCGjbAmdHG6zw5yFrUmEhqu8gYQcqbDQVsNrkRdCzHM/edit?usp=sharing)   
+  * All AI for Science [https://mlcommons-science.github.io/benchmark/](https://mlcommons-science.github.io/benchmark/)  
+    [https://github.com/mlcommons-science/benchmark](https://github.com/mlcommons-science/benchmark)  
+  * AI Benchmark Assistant  [Sept30Version9-21-22-23-24DeepCollector](https://colab.research.google.com/drive/1Cm9KpEmVnahgLOjvmJvWivbe0hzTH9p6?usp=drive_link)  
+  * Time Series   
+    [Time Series  Resources Summary Table](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?usp=sharing)   
+    [COMBINED2](https://docs.google.com/spreadsheets/d/1bHHzTXbY7eDNagDmM4LnzHj47bXWjQDPWjYGdH0GSmk/edit?gid=45362948#gid=45362948)   
+* White Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)  
+  * New white paper on Science Benchmarks  
+* Any Other Business
+
+### **Google meeting notes**  {#google-meeting-notes-1}
+
+* [MLC Science WG \- 2025/10/01 07:58 PDT \- Notes by Gemini](https://docs.google.com/document/d/1vNcjDSdWnwGk9dxinjtGsYIkvlp1a54Io2BjnR3Q-Yg/edit?usp=sharing)   
+* Ben Hawks, Matt Sinclair, and gyuri papay discussed the presence of AI bots in the meeting, with gyuri papay expressing concern about AI's impact on employment. Matt Sinclair, Piotr Luszczek, and Gregor von Laszewski discussed the use of AI in code generation, while Ben Hawks updated on the paper's status, indicating an extended deadline due to inconsistencies and awaiting feedback from Nhan. Gregor von Laszewski reported on the carpentry paper, requesting Armstrong Foundjem to classify entries in a table and suggested shortening the energy section, while also discussing challenges in collecting data for the related research section.
+
+### **Discussion** {#discussion-6}
+
+* Gregg Barrett noted that he was reviewing the benchmark spreadsheet and thought that members of this group would find ToolUniverse of interest:  
+  * ToolUniverse website: [ToolUniverse \- 600+ Scientific Tools to Democratize AI scientists](https://aiscientist.tools/)   
+  * ToolUniverse paper: [\[2509.23426\] Democratizing AI scientists using ToolUniverse](https://arxiv.org/abs/2509.23426)   
+  * ToolUniverse GitHub: [Democratizing AI scientists with ToolUniverse](https://github.com/mims-harvard/ToolUniverse) 
+

@@ -1,0 +1,41 @@
+---
+title: "February 21, 2024"
+---
+
+## **February 21, 2024** {#february-21,-2024}
+
+### **Present** {#present-63}
+
+Geoffrey Fox, Sutanay Choudhury, Gregg Barrett, Wes Brewer, Xavier Coubez,Tom Gibbs, Armstrong Foundjem,  Piotr Luszczek, Juri(Gyuri) Papay, Victor Lu, Elie Alhajjar, Rajat Shinde, Kenneth Fricklas
+
+### **Tentative Agenda** {#tentative-agenda-43}
+
+* Any new members  
+* Note started today Feb 21 – 23, 2024 DESY First Large Language Models in Physics Symposium [https://indico.desy.de/event/38849/overview](https://indico.desy.de/event/38849/overview) with Zoom access  
+* Special Presentation by **Sutanay Choudhury** PNNL  
+* **Title:** CHEMREASONER: Heuristic Search over a Large Language Model’s Knowledge Space Using Quantum-Chemical Feedback  
+* **Abstract:** The discovery of new catalysts is essential for the design of new and more efficient chemical processes in order to transition to a sustainable future. We introduce an AI-guided computational screening framework unifying linguistic reasoning with quantum-chemistry based feedback from 3D atomistic representations. Our approach formulates catalyst discovery as an uncertain environment where an agent actively searches for highly effective catalysts via the iterative combination of large language model (LLM)-derived hypotheses and atomistic graph neural network (GNN)- derived feedback. Identified catalysts in intermediate search steps undergo structural evaluation based on spatial orientation, reaction pathways, and stability. Scoring functions based on adsorption energies and barriers steer the exploration in the LLM’s knowledge space toward energetically favorable, high-efficiency catalysts. We introduce planning methods that automatically guide the exploration without human input, providing competitive performance against expert-enumerated chemical descriptor-based implementations. By integrating language-guided reasoning with computational chemistry feedback, our work pioneers AI-accelerated, trustworthy catalyst discovery.  
+* **Presentation:** [https://sutanay.github.io/publications/ChemReasoner-SciMLCommons.pdf](https://sutanay.github.io/publications/ChemReasoner-SciMLCommons.pdf)   
+* **Zoom Recording:** [https://drive.google.com/open?id=11mqGLIIgC2ITMuYgJZGpFb8eJnnvUcdC](https://drive.google.com/open?id=11mqGLIIgC2ITMuYgJZGpFb8eJnnvUcdC) 
+
+### **New Members** {#new-members-29}
+
+* Elie Alhajjar, Victor Lu and Sutanay Choudhury first came Jan 10, 2024  
+* Rajat Shinde [https://www.linkedin.com/in/rajat-shinde/](https://www.linkedin.com/in/rajat-shinde/)   
+* Kenneth Fricklas [https://www.linkedin.com/in/kenfricklas/](https://www.linkedin.com/in/kenfricklas/) was at Google and now works in AI and Safety with a consortium of 32 Cleantech organizations, mainly laboratories.
+
+### **Notes on Presentation:** {#notes-on-presentation:}
+
+* The DOE Pacific Northwest National Laboratory PNNL has studied catalysis for some time but current methods are rather heuristic. This talk describes a systematic approach with an unchanged version of ChatGPT that is used to construct a tree of questions that are answered by an ensemble of simulations described by molecules represented in a graph.  
+* Collaboration between PNNL, UIUC and Microsoft.  
+* There are a large number of possible catalysts, and one needs to reduce cost (e.g. use Aluminium not Platinum, if possible), increase success rate (number of reactions triggered), and reduce energy needed. One looks at microscopic (chemical structure) and macroscopic (is it porous) structure and crystal structure. There are 20 chemical descriptors used.  
+* Study of literature shows how experts argue in a stepwise fashion. Norskov had a key vision in 2011, and this work replaces his database by ChatGPT  
+* Naive use of ChatGPT just produces rather trivial general answers so this is replaced by a question tree. The questions at the nodes of the tree get more specific as we go down the tree. Keeping each question small reduces the chance of hallucination.  
+* Use energy as the reward function. One solves a minimax problem finding the solution with the minimum maximum energy needed in each stage of the process.  
+* The text produced by ChatGPT is used to design simulations implemented by Open Catalyst ([https://opencatalystproject.org/](https://opencatalystproject.org/) and a benchmark of HPC working group)  
+* Note  CHEMREASONER: does not replace ChatGPT but adds to it.   
+* Typically one study will use 400-600 LLM inference calls and 20,000 to 30,000 simulations. Note that this use of graphs is lots of small graphs, not one graph to rule the world, as in social media. The graph calculations use 8 A100s with PyTorch Geometric  
+* In slide 38, different approaches are compared with higher numbers being better  
+* Gregg noted: I would add that synthesis of materials is an important consideration. The model might output some good candidates, but synthesizing such may not be possible / or prohibitive.  
+* In the question-answer session, Sutanay noted that ChatGPT worked better than Llama as, being a service, it is more robust. Further, Sutanay did not have access to powerful infrastructure to run Llama. ChatGPT has less than 5 seconds latency.
+

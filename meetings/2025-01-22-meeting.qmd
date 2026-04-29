@@ -1,0 +1,62 @@
+---
+title: "January 22, 2025"
+---
+
+## **January 22, 2025** {#january-22,-2025}
+
+### **Present** {#present-39}
+
+Andrew Naylor, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Ben Hawks, Briana Cervantes, Christine Kirkpatrick, Claus Weiland, Datta Nimmaturi, David Kanter, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Gyuri Papay, Howard Pritchard, Hussain Ather, Javier Toledo,  Jennifer Ngadiuba, Kevin Coakley, Lee S, Marco Colombo, Marisa Ahmad, Matt Sinclair, Mia Liu, Murali Emani, Nhan Tran, Piotr Luszczek, Riccardo Balin, Rutwik Jain, Ryan Kastner, Scott Brown, Shirley Moore, Shivaram Venkataraman, Victor Lu, Vijay Janapa Reddi, Wes Brewer
+
+### **Apologies** {#apologies-4}
+
+Philip Harris
+
+### **Tentative Agenda** {#tentative-agenda-21}
+
+* Any New Members Introduction  
+* **Special Presentation by Matt Sinclair and Rutwik Jain (Computer Science Department at the University of Wisconsin) on Performance Variability and GPUs aimed at a section of Benchmark Carpentry White Paper** [SC22\_PM\_Variability\_v6.pdf](https://drive.google.com/file/d/14m6jqfUZy84exXMLWxpM_eN1Eku9vi6C/view?usp=sharing)  
+  We stopped at this point. Following material postponed  
+* **Special Presentation by** Nhan V Tran of Fermilab (Fast ML) scientific benchmarks and challenges [MLCommons Benchmarks](https://docs.google.com/presentation/d/1U_mdrRTG8SLCJmAIPb5UtXN6WXN6MavKfPG0-YNf1JU/edit?usp=sharing)   
+* White Papers  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing) (Quick discussion of Outline at this link)  
+* Setting Agenda for 2025  
+* Any Other Business
+
+### **New Members** {#new-members-16}
+
+* **Matt Sinclair** [https://www.linkedin.com/in/mattdsinclair/](https://www.linkedin.com/in/mattdsinclair/) [https://pages.cs.wisc.edu/\~sinclair/](https://pages.cs.wisc.edu/~sinclair/) [msinclair@wisc.edu](mailto:msinclair@wisc.edu) received his Ph.D. from UIUC and is now an assistant professor at the University of Wisconsin, Madison. His research has focused on designing tools, writing efficient software, and proposing efficient architectural changes to general-purpose accelerators like GPUs..  
+* **Shivaram Venkataraman** [shivaram@cs.wisc.edu](mailto:shivaram@cs.wisc.edu) [https://shivaram.org/](https://shivaram.org/) completed his Ph.D. from UC Berkeley where he was advised by Ion Stoica and Mike Franklin. He was at postdoc at Microsoft Research, and is now an assistant professor at the University of Wisconsin, Madison. His research interests are in designing systems and algorithms for large scale data analysis and machine learning.   
+* **Rutwik Jain** [Rutwik Jain \- Summer Intern \- AMD | LinkedIn](https://www.linkedin.com/in/rutwik-n-jain/) [rnjain@wisc.edu](mailto:rnjain@wisc.edu) is a Ph.D. student at the University of Wisconsin, Madison co-advised by Matt Sinclair and Shivaram Venkataraman. His current research focuses on GPU variability in large-scale, accelerator rich systems. Specifically, he works on improving system performance and efficiency by designing variability-aware scheduling and allocation frameworks for large-scale multi-GPU systems. He is also interested in exploring improvements to future accelerator hardware and firmware, such as Power Management (PM) algorithms, to make variability a first-class citizen in the design process.   
+* **Scott Brown** counts fish at NOAA  
+* **Kevin Coakley** [Kevin Coakley \- San Diego Supercomputer Center | LinkedIn](https://www.linkedin.com/in/kevcoakley/) [kcoakley@sdsc.edu](mailto:kcoakley@sdsc.edu) is a staff researcher at SDSC and currently researching the sources of irreproducibility in Machine Learning and Artificial Intelligence.  
+* **Andrew Naylor** [https://www.linkedin.com/in/andrew-naylor-663819175/](https://www.linkedin.com/in/andrew-naylor-663819175/) [https://profiles.lbl.gov/360756-andrew-naylor](https://profiles.lbl.gov/360756-andrew-naylor) [anaylor@lbl.gov](mailto:anaylor@lbl.gov) is a NERSC NESAP postdoctoral fellow specializing in integrating AI into scientific workflows for HPC. He has collaborated with the ATLAS and CMS experiments focusing on implementing and optimizing machine learning inference-as-a-service for physics analysis. Currently, he is working with the SONIC project within CMS experiment to explore efficient GPU utilization with the SONIC framework on the NERSC Perlmutter supercomputer.  
+* **Mia Liu** is an assistant professor in particle physics at Purdue [https://www.linkedin.com/in/miaoyuan-liu-1b187838/](https://www.linkedin.com/in/miaoyuan-liu-1b187838/) [https://mia.physics.purdue.edu/](https://mia.physics.purdue.edu/) working with Andrew Naylor and  Nhan Tran on CMS LHC experiment  
+* **Ben Hawks** entered after New Members session ended. Could be [Ben Hawks \- AI Researcher \- Fermilab | LinkedIn](https://www.linkedin.com/in/bhawks/)   
+* **Jennifer Ngadiuba** entered after New Members session ended. She is [Jennifer Ngadiuba Wilson Fellow at Fermilab](https://www.linkedin.com/in/jennifer-ngadiuba-a2138b141/). She gave a keynote at recent ML4Jets workshop in Paris November 2024  **Edge AI for real-time systems in HEP** [ML4Jets25-ngadiuba.pdf](https://drive.google.com/file/d/1XQrT_Cj6385huge9j28h6A319azuuvP_/view?usp=drive_link) [Edge AI for HEP Presentation](https://indico.cern.ch/event/1386125/contributions/6187201/attachments/2959837/5206338/ML4Jets25-ngadiuba.pdf) [Edge AI for HEP Video](https://indico.cern.ch/event/1386125/contributions/6187201/attachments/2959837/5224744/02ML4Jets24_NgadiubaJennifer.mp4)    
+* **Lee S** entered after New Members session ended. Could be Lee Sharma introduced on June 12 2024  
+* **Ryan Kastner** could be [Ryan Kastner \- San Diego, California, United States | Professional Profile | LinkedIn](https://www.linkedin.com/in/ryan-kastner-6a41ab1/)   
+* G M is **Gary Mazzaferro** [garym@oedata.com](mailto:garym@oedata.com) 
+
+### **Presentation** {#presentation-2}
+
+* The talk [SC22\_PM\_Variability\_v6.pdf](https://drive.google.com/file/d/14m6jqfUZy84exXMLWxpM_eN1Eku9vi6C/view?usp=sharing) was excellently presented by Rutwik Jain and very clearly presented findings on GPU variability.  
+* The issue of GPU and CPU performance variability had been discussed in the context of our Benchmark Carpentry white paper under preparation and Matt Sinclair had agreed to contribute a section of the white paper on this topic  
+* In the discussion it was noted that memory intensive problems gave less variability than core based applications. Also as parallel computing runs at the speed of slowest processor the impact on multi-GPU jobs was particularly significant.  
+* It was noted that this work allowed TACC to identify and replace slow GPUs. The Wisconsin team also designed a scheduler that assign the slow GPUs to the tasks were their low performance was least important.  
+* Sinclair has been interacting with the Power working group of MLCommons..  
+* SC24 paper [https://arxiv.org/pdf/2408.11919](https://arxiv.org/pdf/2408.11919) “PAL: A Variability-Aware Policy for Scheduling ML Workloads in GPU Clusters” presents a model and a scheduler.  
+* Gregor stressed need to look in detail at both rack and position in rack of GPUs. He also noted that multi-user environments could be important even if GPUs not shared.  
+* Gregor noted his papers [Power-aware scheduling of virtual machines in dvfs-enabled clusters](https://ieeexplore.ieee.org/iel5/5281774/5289120/05289182.pdf?casa_token=TaO0NMZND2oAAAAA:QeYXkru69RdFNsGzNbzzMwYtroig4cCe6sSBPd9tVmXaTp_awL8x_a8eIgD7-pxkCAFTZIpRVw) and [Towards Thermal Aware Workload Scheduling in a Data Center](https://ieeexplore.ieee.org/iel5/5379703/5381549/05381947.pdf?casa_token=BG5vrUBBc6kAAAAA:GPNDjjAt_NGs-fIamH20G1g301acd35TUw_1UVRfgU-T9HdLdGNo4iiurR8gaguM90hteqCM5Q) which are both well cited.
+
+| The following weren’t covered in the talk, but are in the paper:  | Variability with cluster scale Variability with different GPU vendors (AMD/NVIDIA) Effect of varying GPU Power Limit Comparing single-GPU ResNetvs multi-GPU ResNet |
+| :---- | :---- |
+| **1\. How much performance variation is there across GPUs?** | 9% for SGEMM with outliers 1.5x slower than median |
+| **2\. Do GPU physical metrics vary too?** | Yes. They also vary |
+| **3\. How is variability affected by cluster parameters** | Consistent performance variability across clusters |
+| **4\. Is variability consistent over time?** | Yes |
+| **5\. Is variability application-dependent?** | Compute-intensive applications see more performance variability than Memory-intensive ones |
+
+This table summarizes presentation (slide 60\)
+

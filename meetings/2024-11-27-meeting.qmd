@@ -1,0 +1,126 @@
+---
+title: "November 27, 2024"
+---
+
+## **November 27, 2024** {#november-27,-2024}
+
+### **Present** {#present-42}
+
+Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Armstrong Foundjem, Piotr Luszczek, Victor Lu,  Shirley Moore, Claus Weiland, Azza Ahmad, Murali Emani, Christine Kirkpatrick, Gavin Mitchell Farrell, Howard Pritchard, Noah Nisbet,  Indra Priyadarsini
+
+### **Tentative Agenda** {#tentative-agenda-24}
+
+* Any New Members Introduction  
+* Lessons from SC24 Meeting (not discussed directly)  
+* White Papers  
+  *  Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5) [https://www.overleaf.com/project/67585323797c7e764c254a84](https://www.overleaf.com/project/67585323797c7e764c254a84)   
+  * MLCommons Science FAIR Concept Paper (AI Readiness) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
+* Choosing Up-to-date Benchmarks (not discussed directly)  
+* Any Other Business
+
+### **New Members** {#new-members-19}
+
+* **Howard Pritchard** [https://www.linkedin.com/in/howard-pritchard-80b7623/](https://www.linkedin.com/in/howard-pritchard-80b7623/) started in SGI and Cray and is currently at Los Alamos since 2014\.  
+* **Indra Priyadarsini:** [https://www.linkedin.com/in/indra-ipd/?originalSubdomain=jp](https://www.linkedin.com/in/indra-ipd/?originalSubdomain=jp) re-introduced herself as a Research Scientist at IBM Research \- Tokyo. Works on AI for material science and is active in the AI Alliance
+
+### **Any Other Business** {#any-other-business-3}
+
+* Juri and Wes discussed the use of PyTorch on Frontier where the is no standard PyTorch module available.  
+* Wes noted the SC24 paper on MCBound used to characterize performance on the Fugaku supercomputer.  
+  * [https://sc24.conference-program.com/presentation/?id=pap563\&sess=sess379](https://sc24.conference-program.com/presentation/?id=pap563&sess=sess379)   
+  * [https://www.cs.unibo.it/\~babaoglu/papers/pdf/SC24\_\_MCBound\_Framework.pdf](https://www.cs.unibo.it/~babaoglu/papers/pdf/SC24__MCBound_Framework.pdf) 
+
+### **MLCommons Science FAIR Concept Paper (AI Readiness)** {#mlcommons-science-fair-concept-paper-(ai-readiness)}
+
+* Christine Kirkpatrick noted her NSF RCN [https://www.farr-rcn.org/](https://www.farr-rcn.org/)    
+* Christine noted that the original paper had comments from Tom Gibbs  
+* There was a discussion of the quality and use of MLPerf HPC and Training benchmarks  
+  * Christine noted that attendee at SC24MLPerf BOF expressed regrets on the removal of Resnet from MLPerf  
+  * Resnet is a good benchmark to study as lots of results recorded for it  
+* Shirley noted that the results not reproducible and she got results that were a factor of 2 slower than listed values for DeepCam  
+* Juri said this was typical and will share his measurements  
+  * Christine said Juri wanted results to be reproducible at the 10% level  
+* Gregor noted his PC was twice as fast as server A100  
+* Performance depends on use of Exclusive mode (or not) is not part of the metadata for MLCommons  
+* Performance depends on Queuing policy, which changes  
+* Staging data costs are uncertain and one needs to set up data properly before running benchmark  
+* Gregor noted that UVA charges for storage and the GPUs are typically set up to run well from shared storage  
+  * Geoffrey/Gregor’s DGX machine at UVA is 4x faster than most at UVA due to custom data set up  
+* We discussed the use of ML to improve ML  
+* Juri noted that RAL tried to collect log files and use to optimize but this project didn’t complete as one couldn’t get log files  
+* Christine noted that there were too many free text fields in MLPerf Logs.  
+* Gregor noted Sabath from UTK Piotr [https://sbi-fair.github.io/docs/software/sabath/](https://sbi-fair.github.io/docs/software/sabath/) enhanced a little at UVA.  
+  * Extend MLPerf metadata model as done in Sabath  
+* Juri wants to characterize benchmark so one can reason about it  
+* Victor brought up the general issue of reproducibility which is discussed later as a separate topic  
+* Christine noted AI reproducibility at NeurIPS and AAAI  
+* She will reframe paper based on these discussions with her new outline given below
+
+### **AI Readiness Paper: New Outline from Christine Kirkpatrick** {#ai-readiness-paper:-new-outline-from-christine-kirkpatrick}
+
+1. Introduction  
+   1. Motivation  
+      1. Reproducibility of benchmark results \- benchmarks aren’t capturing the relevant metadata needed   
+      2. The current state of practice is that it is very difficult to reproduce benchmarks and the numbers can’t be trusted.  
+      3. Desire to use ML to improve ML, difficult to operationalize without good data (logs)  
+2. Background  
+   1. MLCommons Science WG & HPC  
+   2. AI reproducibility  
+      1. what definition we’re working with, goal  
+      2. Current practices/guidance for documenting  
+3. Limitations of benchmarks & related system understanding  
+   1. Missing competencies of today’s computational and data scientists to understand performance impacts of running benchmarks (ex: where /tmp is)  
+   2. No discussion of exclusive mode or other issues that greatly impact performance.  
+4. Changes that would improve MLCommons benchmark analysis / FAIRifying MLCommons benchmarks  
+5. In-depth analysis of Deepcam Benchmark  
+6. Metadata model for benchmark logs (aspirational goal)  
+7. Future Work   
+8. Conclusion
+
+### **Benchmark Carpentry Paper** {#benchmark-carpentry-paper}
+
+* Gary noted that Application benchmarks consist of five (5) critical elements:  
+  * algorithm performance  
+  * infrastructure performance  
+  * workflow (training/production)  
+  * infrastructure configuration  
+  * data size and composition  
+* Gregor noted that we should refer to FAIR material in Carpentry  
+  * Currently 2 pages   
+* Goal is to Democratizing ML through benchmarks  
+* Mlperf target is on those who run systems  
+* Users arent familiar with benchmarking  
+* Geoffrey suggested developing taxonomies of application requirements in various categories such as  
+  * MNIST “Hello World”  
+  * LLM  
+  * Time series  
+  * Image-based Science applications  
+  * Graph-based as in molecules and social networks  
+* We discussed that Github repositories suffer from incomplete metadata   
+* Maybe science applications are more diverse than commercial and so need more benchmarks   
+* Christine had a table of benchmarks in original version of papers. She will find  
+* Gary M noted that size of datasets can be important due to hardware infrastructure and backend setup  
+  * e.g. single gpu very different to multiple gpu.
+
+### **Victor Lu’s Reproducibility Comments** {#victor-lu’s-reproducibility-comments}
+
+- My comment about topic that Christine brought up: "What data practices do you wish the ML/HPC/CS world would adopt?"1.) to establish a "data practice," it is essential to capture metadata that describes the AI-driven scientific research process. AIBOM (AI bill of material) is one type of metadata document. I created following document as part of the CISA AIBOM tiger team effort to capture AIBOM properly for research reproducibility. [https://docs.google.com/document/d/1HdS\_GxQvPA7y1ilspGmex-HN\_cnjriR1nrpr\_fnYzXY/edit?tab=t.0](https://docs.google.com/document/d/1HdS_GxQvPA7y1ilspGmex-HN_cnjriR1nrpr_fnYzXY/edit?tab=t.0) 
+
+
+- More: If you look at my document, the main reference website is: [http://www.practicereproducibleresearch.org/](http://www.practicereproducibleresearch.org/)    
+- I believe there are some interesting points made by this research website.
+
+1. Goal/scope: Clarify the goals and scope of the MLCommons Science Working Group \- why do we work on the AI Readiness white paper and the Benchmark Carpentry white paper. Can we achieve the following goals?  
+   1. [http://www.practicereproducibleresearch.org/core-chapters/5-lessons.html](http://www.practicereproducibleresearch.org/core-chapters/5-lessons.html)   
+   2. Computational reproducibility and transparency, which emphasizes code documentation.  
+   3. Scientific reproducibility and transparency, which emphasizes documentation of scientific decisions and accessibility of data.  
+   4. Computational correctness and evidence, which emphasizes automated testing and validation  
+   5. Statistical reproducibility, which emphasizes transparency of data analysis the logical path to scientific conclusions.  
+   6. Gregor noted that he would add “Numerical reproducability vs computational reproducability” and that sensitivity of AI to precision byte size was important  
+   7. Wes noted an interesting reference on numerical reproducibility: [https://arxiv.org/pdf/2408.05148](https://arxiv.org/pdf/2408.05148)   
+2. Template: While it may fall outside the scope of MLCommons, defining a "Basic Reproducible Workflow Template" could significantly enhance reproducibility and transparency. The current template on the referred website is outdated and needs revision, highlighting the importance of establishing guiding "principles" rather than focusing solely on technical specifics. This approach ensures the template remains relevant despite technological advancements. [http://www.practicereproducibleresearch.org/core-chapters/3-basic.html](http://www.practicereproducibleresearch.org/core-chapters/3-basic.html)      
+3. Next Step: To drive fundamental change in how science is conducted, including benchmarking practices, it is essential to establish the right incentives—both financial and cultural.  [http://www.practicereproducibleresearch.org/core-chapters/6-future.html](http://www.practicereproducibleresearch.org/core-chapters/6-future.html)     
+4. "our view is that some of the most compelling opportunities are in how incentives \- and the practice of science more generally \- can be changed by groups such as funding agencies, journal editors and libraries."
+
+- Finally, "AI readiness" is a broad term that can vary significantly depending on the context. In industries where profit often takes precedence, its meaning may differ from that within the scientific community, where the focus is more on long-term benefits for humanity. This, in turn, will change the scope of our work in this science group.
+

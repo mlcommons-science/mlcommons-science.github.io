@@ -1,0 +1,51 @@
+---
+title: "May 15, 2024"
+---
+
+## **May 15, 2024** {#may-15,-2024}
+
+### **Present** {#present-57}
+
+Geoffrey Fox, Juri Papay, Gregor von Laszewski, Gregg Barrett,  Christine Kirkpatrick, Wes Brewer, Sujata Goswami
+
+### **Tentative Agenda** {#tentative-agenda-37}
+
+* **Could be a short meeting as many key participants are at the ISC Conference**  
+* Any New Members Introduction  
+* Status of Benchmarks  
+* Status of Papers  
+* Science Foundation Models  
+* Any Other Business  
+* Special Seminars
+
+### **New member: Sujata Goswami** {#new-member:-sujata-goswami}
+
+* Sujata is at Oak Ridge National Laboratory [https://www.ornl.gov/staff-profile/sujata-goswami](https://www.ornl.gov/staff-profile/sujata-goswami) [https://www.linkedin.com/in/sujata-goswami/](https://www.linkedin.com/in/sujata-goswami/) [goswamis@ornl.gov](mailto:goswamis@ornl.gov)    
+* She develops software for the Biological and Environmental Systems Science Directorate. IShe also works with the Atmospheric Radiation Measurement (ARM) climate research facility’s data center (ADC). She developed a tutorial on the Atmosphere. Using special datasets like Atmospheric Aerosols.  
+* Google says: “Atmospheric aerosols consist of small particles of solids, like dust, and liquids, like water, suspended in the atmosphere. Atmospheric aerosols can be either emitted directly into the atmosphere as a particle, like ash, or formed when emitted gases undergo complex chemical reactions and condense as particles.”  
+* Covers local computer resources and Jupyter notebooks  
+* No simulations  
+* Used to be a satellite geoscientist with NASA
+
+### **Discussion** {#discussion-18}
+
+* We discussed Oak Ridge computers and noted that Summit only available for remainder of year.  
+* We will retarget [https://www.overleaf.com/project/6647563030dec95a38562420](https://www.overleaf.com/project/6647563030dec95a38562420) “Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency“ to Frontiers [Frontiers in High Performance Computing](https://www.frontiersin.org/journals/high-performance-computing)   
+* Wes Brewer’s Digital Twin of Frontier Supercomputercould run tests for the paper.  
+* Christine and Geoffrey are not attending the Barcelona TPC meeting [https://barcelo.eventsair.com/tpc2024/registrationform/Site/Register](https://barcelo.eventsair.com/tpc2024/registrationform/Site/Register)   
+* We discussed TSMixer [\[2303.06053\] TSMixer: An All-MLP Architecture for Time Series Forecasting](http://arxiv.org/abs/2303.06053) as an interesting Time Series model, not using recurrent neural networks. We arranged through Wes Brewer, a special talk by Hector Hernandez Corzo on Oak Ridge work RWKV in this area  
+* The Oak Ridge FORGE LLM model for SC23 is published as [FORGE: Pre-Training Open Foundation Models for Science](https://dl.acm.org/doi/10.1145/3581784.3613215). The later ORBIT work [\[2404.14712\] ORBIT: Oak Ridge Base Foundation Model for Earth System Predictability](https://arxiv.org/abs/2404.14712) is a Gordon Bell submission\> Probably code of FORGE is not open  
+* We discussed starting geospatial applications described by Douglas Rao earlier.
+
+### **Special Seminar: Thursday, May 23, 1.05 pm Eastern Special Time** {#special-seminar:-thursday,-may-23,-1.05-pm-eastern-special-time-1}
+
+* **Speaker:** Benjamin Nachman LBL DOE Laboratory  
+* **Title:** Generative AI for the Pursuit of Fundamental Interactions  
+* **Abstract:** Deep generative models are being developed, adapted, and deployed to a number of challenges in particle physics.  In this talk, I will survey some of these topics, including surrogate modeling for slow physics-based simulations, anomaly detection to search for new particles, and simulation-based inference.
+
+### **Special Seminar: Wednesday, May 29, 11.05 pm Eastern (start of regular WG meeting)** {#special-seminar:-wednesday,-may-29,-11.05-pm-eastern-(start-of-regular-wg-meeting)}
+
+* **Speaker:** Hector Hernandez Corzo, Oak Ridge DOE Laboratory  
+* **Title:**  Is attention all that we need?  
+* **Abstract:** In this short presentation, I will start with an overview of the Transformer architecture, highlighting its key features and how it differs from its predecessors, the Recurrent Neural Networks (RNNs). We will explore the practicalities and applications of Transformer models, examining both their advantages and disadvantages. A key part of our discussion will critically assess the validity of the statement that "Attention is all we need." Furthermore, I will introduce an innovative attention-less RNN architecture and share insights from the models I have developed using this attention-less architecture, proposing it as a formidable alternative to Transformers. This session aims to provide a comparative analysis of these architectures, enabling the audience to critically evaluate the role and necessity of attention mechanisms in the evolution of modern AI technologies.
+

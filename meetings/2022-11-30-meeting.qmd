@@ -1,0 +1,48 @@
+---
+title: "November 30, 2022"
+---
+
+## **November 30, 2022** {#november-30,-2022}
+
+### **Present** {#present-91}
+
+Tony Hey, Wesley Brewer, Geoffrey Fox, Piotr Luszczek, Juri Papay, Christine Kirkpatrick, Farzana Yasmin Ahmad, Aristeidis Tsaris, Murali Emani, Tom Gibbs
+
+### **Apologies** {#apologies-32}
+
+Jeyan Thiyagalingam, Gregor von Laszewski, Gregg Barrett, 
+
+### **Tentative Agenda** {#tentative-agenda-69}
+
+* Any new members \- None  
+* SC22 BOF Report  
+* Futures \-- new benchmarks     
+  * Short presentations on possible benchmarks by  Wesley Brewer, and Piotr Luszczek  
+* AOB
+
+### **Discussion** {#discussion-25}
+
+* SC22 BOF was popular and had plenty of questions  
+* Need to follow up on MLCommons Public Relations re announcement of availability of benchmarks  
+* Draft is [MLCommons Science  Blog post draft](https://docs.google.com/document/d/1utBYGdgpmfNWZmisZrvjABinRENR-HxfTYWY_UKUOsc/edit?usp=sharing)  
+
+### **Presentation by Piotr Luszczek** {#presentation-by-piotr-luszczek}
+
+* [sciml\_autotune\_gp\_Luszczek.pdf](https://drive.google.com/file/d/1CUXkVItvPI5XTn_6F79PCBmXTlO5npHo/view?usp=sharing) describes a Gaussian process based surrogate aimed at “Autotuning” – choosing best parameters to run a particular code (e.g. BLAS member) on a particular machine.  
+* Gaussian processes like an infinitely wide neural network  
+* Uses EGO Efficient Global [Efficient Global Optimization (EGO) — SMT 1.4.dev documentation](https://smt.readthedocs.io/en/latest/_src_docs/applications/ego.html) for non convex no derivative optimization  
+* Can choose Floating point Integer or categorical state for parameters  
+* Use Latin Hypercude as Space filling sample [Latin hypercube sampling \- Wikipedia](https://en.wikipedia.org/wiki/Latin_hypercube_sampling)   
+* Hierarchy exploited  
+* Around 30 samples used; this number to be studied and also improving performance  
+* Looking at one-shot encoding  
+* As problems form classes use transfer learning among related problems
+
+### **Presentation by Wesley Brewer** {#presentation-by-wesley-brewer}
+
+* [MLCommons-Brewer-12-03-22.pdf](https://drive.google.com/file/d/1Fj8w_On7xGcPOVEKFy1AkiCNfWttBhtq/view?usp=sharing) describes an Inference network used in Computational Dynamics simulations to look up aspects of model as used in helicopter rotor aerodynamic codes  
+* Typical paper is [https://ieeexplore.ieee.org/abstract/document/9652868](https://ieeexplore.ieee.org/abstract/document/9652868)   
+* There are three models: an LSTM for simple lookups and two larger models: CNN and TCNN (Temporal Convolutional Neural Network). In latter two, velocities are input at particular times and the pressures are returned.  
+* The work SMIBench includes both the surrogate neural networks and a sophisticated Inference server whose performance was optimized to reduce Inference cost to about 10% of the CFD code.  
+* Physics Informed Networks were looked at but not used due to difficulties with boundary conditions.
+

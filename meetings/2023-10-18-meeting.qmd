@@ -1,0 +1,34 @@
+---
+title: "October 18, 2023"
+---
+
+## **October 18, 2023** {#october-18,-2023}
+
+### **Present** {#present-70}
+
+Geoffrey Fox, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett,
+
+### **Apologies**  {#apologies-17}
+
+Sutanay Choudhury, Tom Gibbs, Juri Papay
+
+### **Tentative Agenda** {#tentative-agenda-49}
+
+* Any new members  
+* White Papers  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Other Benchmarks, including Foundation models  
+* AOB
+
+### **Discussion** {#discussion-22}
+
+* The power paper is essentially finished and submission to [https://www.computer.org/digital-library/magazines/cs/cfp-converged-computing](https://www.computer.org/digital-library/magazines/cs/cfp-converged-computing) is suggested. Christine contacted editors and they encouraged us.  
+* We discussed computational load of Foundation models and through Wes found 200M science papers in FORGE [https://link.springer.com/article/10.1007/s11227-023-05479-7](https://link.springer.com/article/10.1007/s11227-023-05479-7) and [https://drive.google.com/file/d/1ynt\_WzjhKBkQSpEQDaSZuMw\_zHMyNcgR/view?usp=sharing](https://drive.google.com/file/d/1ynt_WzjhKBkQSpEQDaSZuMw_zHMyNcgR/view?usp=sharing) where second link has computational loads  
+  * Note each AMD GPU on Frontier is two GCD’s where each GCD is a computational unit.  
+* We noted that Singularity MLCube implementation does not execute on some HPC systems (such as Virginia) due to permission issues  
+* Foundation model overview [https://arxiv.org/pdf/2108.07258.pdf](https://arxiv.org/pdf/2108.07258.pdf)   
+* We discussed the two BOFs at SC23; Leon Song from DeepSpeed4Science (Microsoft) could speak at one  
+* We discussed moving to the the benchmark carpentry paper
+

@@ -1,0 +1,64 @@
+---
+title: "May 28, 2025"
+---
+
+## **May 28, 2025** {#may-28,-2025}
+
+### **Present** {#present-27}
+
+ Armstrong Foundjem, Christine Kirkpatrick, Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski, Howard Pritchard, Javier Toledo, Julian Samaroo, Juri Papay, Lee Sharma, Marco Colombo, Matt Sinclairi, Nhan Tran, Philip Harris, Piotr Luszczek, Satoshi Iwata, Shirley Moore,  Tom Gibbs, Victor Lu, 
+
+### **Tentative Agenda** {#tentative-agenda-12}
+
+* Any New Members Introduction  
+* Quick report from the ASIA-US meeting May 20 9 pm  
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks based on [https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)    
+* White Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)   
+  * Report from Victor Lu  
+* Any Other Business
+
+### **Google Meet Notes** {#google-meet-notes-23}
+
+[MLC Science WG \- 2025/05/28 07:54 PDT \- Notes by Gemini](https://docs.google.com/document/d/1VV7ixcZraR-MepfAvM3CdwFxZvdqskhTVLfahLACazw/edit?usp=sharing)   
+**Summary:** We discussed AI note-taking concerns, the agenda which included the survey of AI benchmarks and the carpentry paper, and the progress of the carpentry paper focusing on scientific applications and benchmarks. Participants debated the definition of a scientific benchmark and explored creating a companion repository for a dynamic view of benchmarks, with potential collaboration with Nvidia being mentioned. The purpose and scope of the benchmark carpentry paper were discussed, leading to a suggestion to potentially create multiple papers, and Gregor von Laszewski encouraged contributions to the existing paper and to-do list.
+
+### **New Members** {#new-members-8}
+
+* **Johannes Blaschke** [Johannes Blaschke \- HPC Workflow Performance Specialist (Computer Systems Engineer 4\) \- National Energy Research Scientific Computing Center (NERSC) | LinkedIn](https://www.linkedin.com/in/johannes-blaschke-892b1495/) is a research professional with a Ph.D. in theoretical physics and 8 years experience working in higher education and at national laboratories. Worked on a broad range of projects in applied mathematics, and high-performance computing. Passionate about numerical methods, statistical physics, and inspiring good software development. He is a member of the Julia community.  
+* **Julian Samaroo** [https://www.linkedin.com/in/julian-samaroo-9082587a/](https://www.linkedin.com/in/julian-samaroo-9082587a/) is a research software engineer at MIT's JuliaLab and believes that code should be able to scale up from a laptop to a supercomputer, and back down to a smartphone, across CPUs and GPUs and whatever accelerator comes next. Too little code written today meets these goals, and it's my desire to change that.  
+* **Tianhao Li** from Duke University, [https://www.linkedin.com/in/tianhaoli0x01/](https://www.linkedin.com/in/tianhaoli0x01/) with a strong research background in Trustworthy AI. After reviewing the mlcommons-benchmark-carpentry white paper, he ask if he could lead a subsection in Section III discussing the limitations of existing AI benchmarks, for example, data contamination [https://arxiv.org/abs/2406.04244](https://arxiv.org/abs/2406.04244). Permission granted
+
+### **Carpentry Paper Discussion** {#carpentry-paper-discussion}
+
+* Nhan introduced structure that Christine liked for introduction and Matt volunteered to help  
+  * Scope/Challenge: Towards Democratizing ML Benchmarks \*for Science\*  
+  * Unique challenges and opportunities for Science:  
+  * Unique workloads  
+  * Stakeholders (program managers, researchers, etc.)  
+  * Grand Challenges?  
+  * Carpentry:  
+  * elements of a benchmark (datasets, code, metrics, constraints)  
+  * existing templates and software conventions  
+  * Existing benchmarks and their status w.r.t. our definitions of scientific ML benchmark  
+* The probable break up of current long paper into two was discussed  
+* Tom Gibbs noted simulation benchmarks were fixed but AI was rapidly changing.  
+  * Usages were designing hardware, preparing NSF or DOE computer allocations  
+* Gary Mazzaferro noted that he divided benchmarks into two classifications  
+  * Technical Benchmarks \- determines products or services capabilities  
+  * Competitive \- compares how well (or poorly) an system meets a set of expectations  
+* Armstrong noted that there is this paper from the power WG: [MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from µWatts to MWatts for Sustainable AI](https://arxiv.org/html/2410.12032v1)   
+* Philip Harris noted that there is a lot of the concern from scientists that Nvidia/company benchmarks are not the ideal ones for scientists, we are frequently finding the commerical benchmarks don't capture everybody's demands  
+* Christine Kirkpatrick noted that It would be very interesting to hear how those groups mentor/train people around using benchmarks \- or if they just assume people have all the skills already. For the benchmarking carpentry aspect of our work.  
+  * Also What Phil said also belongs in our intro IMHO  
+* Gregor discussed an Oak Ridge / AMD tutorial and Lee Sharma wondered it was related to [A Community Roadmap for Scientific Workflows Research and Development](https://arxiv.org/pdf/2110.02168)  with Oak Ridge involvement, but didn’t think that matches your description.  
+* Gregor von Laszewski will add to paper benchmarks change so fast and hardware changes fast  
+* Christine Kirkpatrick noted that she has a FAIR benchmarks section that she can add when we know which paper and where	  
+  * Nhan said great
+
+### **Meeting with David Kanter May 21 after WG meeting** {#meeting-with-david-kanter-may-21-after-wg-meeting}
+
+* Geoofrey and Juri met with David after the Science WG meeting. David is head of MLPerf.  
+* David discussed NREL using MLPerf benchmarks  
+* He was interested in discussion of application structure and how MLPerf benchmarks covered that structure.
+

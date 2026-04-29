@@ -1,0 +1,25 @@
+---
+title: "October 21, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **October 21, 2025 (9.05 pm. ET for Asia-USA)** {#october-21,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-7}
+
+Armstrong Foundgem, Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski, Satoshi Iwata, Victor Lu, Xiaoqin Huang
+
+### **Google Meet Notes** {#google-meet-notes-7}
+
+* [MLC Science WG \- 2025/10/22 01:52 BST \- Notes by Gemini](https://docs.google.com/document/d/1D92NvtXwFtcKf8Czaty1Jy3sJKDqcA-pXMp0mypK6Jo/edit?pli=1&tab=t.6pm7m3kur2yt)  
+* This document contains the meeting notes and transcript from the MLC Science WG meeting on October 22, 2025\. Geoffrey Fox, Armstrong Foundjem, Gary Mazzaferro, and Gregor von Laszewski were in attendance.  
+* The main topics of discussion included:  
+* **Paper Progress and Strategy:** The attendees discussed the status of current papers. Gary Mazzaferro suggested breaking a "thesis-like" paper into multiple white papers due to its extensive content. Geoffrey Fox confirmed that the papers are intended for publication, with a preference for journals over conferences.  
+* **New White Papers:** Geoffrey Fox proposed that Armstrong Foundjem, Gary Mazzaferro, and Victor (as "Satoshian people") suggest a new set of white papers. Gary Mazzaferro committed to outlining these white papers.  
+* **Redundancy and Refinements:** Gregor von Laszewski provided an update on the paper, stating that sections 0-4 are in good shape and the energy section was rewritten. He identified significant redundancy in Armstrong Foundjem's material, suggesting a table to consolidate information. He also created a new diagram to clarify energy metrics layers and recommended adding a column to an existing benchmark table.  
+* **Publication Plans:** Geoffrey Fox and Gregor von Laszewski discussed publishing a position paper in a journal like Frontiers, potentially as part of a "research topic" comprising multiple papers. Gregor noted this strategy would allow Armstrong to expand on detailed aspects in a separate paper.  
+* **Action Items:**  
+  * Armstrong Foundjem will start a new paper and link it from Gregor's paper.  
+  * Gary Mazzaferro will propose outlines for new white papers.  
+  * Gregor von Laszewski will send an email to Armstrong Foundjem (CC Geoffrey Fox) suggesting adding a tool level to a table and clarifying a diagram's relation.  
+  * Armstrong Foundjem, Gary Mazzaferro, and Satoshi Iwata will suggest a new set of white papers.
+

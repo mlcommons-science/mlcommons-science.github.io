@@ -1,0 +1,65 @@
+---
+title: "December 15, 2021"
+---
+
+## **December 15, 2021** {#december-15,-2021}
+
+### **Present** {#present-111}
+
+Jeyan Thiyagalingam, Geoffrey Fox,  Juri Papay,  Arjun Shankar,  Christine Kirkpatrick,  Gregg Barrett,  Junqi Yin,  Gregor von Lazewski,  Aristeidis Tsaris,  Murali Emani,  Steven Farrell,   
+**Apologies:** Tony Hey,
+
+### **Tentative Agenda** {#tentative-agenda-89}
+
+* Any new member introductions (none)  
+* Making Benchmark release more solid. See discussion in minutes of the last meeting   
+* Discussion of our paper [https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing](https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing)  
+* Progress in MLCommons Lab membership  
+* Website updates  
+* Any other business
+
+### **Discussion of our paper  [https://ggle.io/4SWC](https://ggle.io/4SWC)** {#discussion-of-our-paper-https://ggle.io/4swc}
+
+ 
+
+*  Scientific goals are not clear for each benchmark and this should be stated clearly.  This is clear for the TevolOP and the STEMDL cases.  
+*  We need graphs of scientific progress as opposed to or as well as performance graphs for each benchmark.  
+* All to read the paper and provide and comments.
+
+### **Progress in MLCommons Lab membership** {#progress-in-mlcommons-lab-membership}
+
+ 
+
+* What can they pay to have sufficient voting privileges they will have. Tony has written to David Kanter asking for payment vs rights. There is an initial response to this from MLCommons.   
+* MLCommons-HPCwhich is also public has a different level of activities and it is unclear whether because of the number of paying members. \[Arjun\]  
+* It is possible to submit benchmarks without subscription (as long as public). \[Juri\]  
+* We need to pursue getting CLA with MLCommons and each should submit their own. This is needed to submit code / submit benchmarks.  ORNL has one in place.  
+*  Christine submitted an MoU to SDSC but has not been processed.
+
+### **Website updates**  {#website-updates}
+
+* Geoffrey Fox is still waiting for some response from MLCommons regarding some issues relating to updating the Science WG website. Aris will keep working with MLCommons.
+
+### **Making Benchmark release more solid.**  {#making-benchmark-release-more-solid.}
+
+* See discussion in minutes of the last meeting   
+*  Juri asked about logging \- what to log and what not to log. It is unclear and how this is standardized across benchmarks. It is also an issue about logging of science benefits.  
+* Science metrics are useful only at the end of the training or at the inference stage as opposed to performance metrics. Arjun and Jeyan re-iterated this again – stating that only the science outputs matter rather than any convergence aspects.  
+  * In de-noising, the improvements only occur after 10-20 epochs  
+  * Need to output accuracy (science performance) after each epoch  
+* Gregg noted: So for the logging for the science benchmarks will not really need the reference convergence points for example and so the logging for the science WG should be a little simpler and streamlined.  
+* However, it is interesting for example to see how performance changes as a function of the number of GPUs used  
+* We need to understand MLCommons mandatory requirements
+
+### **Any other business** {#any-other-business-16}
+
+* Christine has studied the usefulness of what is captured in MLPerf Training benchmarks and will present this on January 12, 2022  
+* Christine wanted to know any groups making power-specific measurements. Arjuna, Murali, and Jeyan provided some pointers (TinyML, NVIDIA library, Facility-level logging, etc)  
+* **Action Item: Discover MLCommons mandatory requirements (Geoffrey)**  
+* **Action Item: Complete science benchmarks before next meeting (All)**  
+* **The next meeting is January 12th, 2022\.**
+
+##  
+
+## 
+

@@ -1,0 +1,61 @@
+---
+title: "May 4, 2022"
+---
+
+## **May 4, 2022** {#may-4,-2022}
+
+### **Present** {#present-102}
+
+Junqi Yin, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Piotr Luszczek, Cade Brown, Geoffrey Fox, Christine Kirkpatrick, Murali Emani, Sergey Samsonau  
+**Apologies:** Tony Hey, Jeyan Thiyagalingam, Arjun Shankar
+
+### **Tentative Agenda** {#tentative-agenda-80}
+
+* New member introductions  
+* Draft Submission Rules for Science WG benchmarks  
+* Status of Benchmarks.given ISC's May 22 deadline  
+* Status of Paper given ISC May 22 deadline  
+* AOB
+
+### **New member introductions** {#new-member-introductions-3}
+
+* Sergey Samsonau introduced himself.  He is in the NYU HPC group as the AI technical leader. He has 29 students working on AI projects for science researchers. He is looking for MLCommons-based projects. We agreed to arrange a separate call for activities to start this fall
+
+### **Draft Submission Rules for Science WG benchmarks** {#draft-submission-rules-for-science-wg-benchmarks}
+
+We start with Training Rules [MLPerf Training Rules](https://github.com/mlcommons/training_policies/blob/master/training_rules.adoc)   
+Add changes from the HPC working group  
+[training\_policies/hpc\_training\_rules.adoc at master](https://github.com/mlcommons/training_policies/blob/master/hpc_training_rules.adoc)   
+Now we add Science WG Rules as additions to these documents. Here is a summary of key points from Geoffrey
+
+* The Science WG will have training and inference benchmarks. Here we specify the rules for training submissions (the first 4 benchmarks are training but we expect inference benchmarks in the next round)  
+* The Science WG will have Closed and Open divisions and submissions to these divisions must be separate although the same activity could qualify for both. The Open division is expected to be the primary focus.  
+* A Closed division submission should report system performance as the result and give the logging information outlined in MLPerf HPC Rules. The stopping criterion will be the value of loss specified in the benchmark. Power measurements may also be supplied.  
+* An Open division submission aims to improve scientific discovery from the dataset specified in the benchmark which will specify one or more scientific measurements to be calculated in the submission. The result will be the value of these specified measurements from the submitted model. This model can be based on the supplied reference model or totally distinct. Data augmentation is allowed and all hyperparameters can be changed in the reference model if used. The result should be a GitHub (markdown) document starting with a table listing the Measurement name, Reference model value, and Submitted model value. For benchmarks with more than one measurement, an average difference between submitted and reference measurements should be given. Power and performance values are optional but encouraged in the results document. The results document should give enough details on the submitted model and any data augmentation so that the review team can evaluate its scientific soundness. Citations should be included to describe the scientific basis of the approach. Other rules for the Open division are as described in MLCommons Training Rules (HPC has no special rules for the Open division).
+
+Gregor and Juri are preparing the detailed rules [https://github.com/laszewsk/mlcommons](https://github.com/laszewsk/mlcommons) and  
+[https://github.com/laszewsk/mlcommons/blob/main/www/content/en/docs/policy.adoc](https://github.com/laszewsk/mlcommons/blob/main/www/content/en/docs/policy.adoc). Several items were discussed
+
+* We will switch to a public GitHub. There will be a private GitHub as well while codes are being tested  
+* We will not have a weak scaling mode as used in HPC.  
+* We need to clarify the number of runs needed to average over  
+* Need to check that logging and reporting names align with ontologies  
+* All hyperparameters should be set by a config file  
+* We asked if the hyperparameter names are fixed for major concepts such as num\_epochs batch size and loss value. WE   
+* We will send rules to the group and then to David Kanter  
+* Need to clarify open and closed metrics for each benchmark  
+* Need to put material in the correct GitHub  
+* Find out if need to know  about names  
+* Add logging to benchmarks and verify its correctness  
+* Gregor has sophisticated logging libraries
+
+### **Status of Benchmarks.given ISC's May 22 deadline** {#status-of-benchmarks.given-isc's-may-22-deadline}
+
+* The training-validation split is changed for STEMDL  
+* Juri and Gregor will ensure codes are in good shape for ISC
+
+### **Status of Paper given ISC May 22 deadline** {#status-of-paper-given-isc-may-22-deadline}
+
+* Jeyan needs to enable Overleaf permissions [https://www.overleaf.com/project/626029f73ac2a85e05672eb0](https://www.overleaf.com/project/626029f73ac2a85e05672eb0)   
+* Geoffrey needs to champion the completion of paper
+

@@ -1,0 +1,29 @@
+---
+title: "August 20, 2025"
+---
+
+## **August 20, 2025**  {#august-20,-2025}
+
+### **Present** {#present-16}
+
+Armstrong Foundjem,  Ben Hawks, Geoffrey Fox, Gregg Barrett, Howard Pritchard, Marco Colombo, Matt Sinclair, Piotr Luszczek, Satoshi Iwata, Vamshi Mekala
+
+### **Tentative Agenda** {#tentative-agenda-8}
+
+* Any New Members Introduction  
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks based on [MLCommons Science/HPC Benchmarks Overview \- Taxonomy](https://docs.google.com/spreadsheets/d/1Haagoyc1cqmPca96fR9dHSsDsuO0j6bOCgXSVfTr0IM/edit?gid=0#gid=0)      
+* White Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)   
+  * New white paper on Science Benchmarks  
+* Any Other Business
+
+### **New Member** {#new-member-1}
+
+* Vamshi Mekala [https://www.linkedin.com/in/vamshimekala1/](https://www.linkedin.com/in/vamshimekala1/)  is an AI Infrastructure Performance Engineer at MARA, a global leader in Bitcoin mining
+
+### **Google Meet Notes** {#google-meet-notes-12}
+
+* [MLC Science WG \- 2025/08/20 07:59 PDT \- Notes by Gemini](https://docs.google.com/document/d/1kALS-dIP2I6PXnWNk0wqJO-TZ0d6QfjsxSpqafIzoAc/edit?usp=sharing)   
+* This document summarizes the MLC Science WG meeting on August 20, 2025\. Key updates include progress on web page development, Dockerization, and the benchmark carpentry paper. Gregor von Laszewski and Marco Colombo discussed removing sections from the paper for conciseness and explored Dockerization. Marco Colombo reported on front-end work for the repository, while Matt Sinclair and Ben Hawks discussed the storyline and publication venues for a condensed benchmark carpentry paper. Vamshi Mekala was introduced as a new member and requested an overview of the ongoing work. Action items include Matt Sinclair finishing updates to the carpentry paper, Ben Hawks reviewing it, Marco Colombo assisting with Docker, Armstrong Foundjem sharing venue suggestions, Vamshi Mekala sharing their LinkedIn profile, Ben Hawks getting Naan to grant paper access, Marco Colombo emailing Gregor von Laszewski about a framework, and Gregor von Laszewski completing a comparison.  
+* Gregor noted [ordering](https://datatables.net/reference/option/ordering) 
+

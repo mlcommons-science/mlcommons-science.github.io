@@ -1,0 +1,38 @@
+---
+title: "February 9, 2022"
+---
+
+## **February 9, 2022** {#february-9,-2022}
+
+### **Present** {#present-108}
+
+Tony Hey, Geoffrey Fox,   Gregor von Laszewski,  Hai ah Nam,  Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,  Steve Farrell  
+**Apologies:** Jeyan Thiyagalingam, Arjun Shankar,  Aristeidis Tsaris, 
+
+### **Tentative Agenda** {#tentative-agenda-86}
+
+* New member introductions (None)  
+* Update on the status of MLCommons compliance, what has been achieved, and what needs to be done.  
+* Portability of benchmarks. How much effort is involved in deploying a benchmark?  
+  * Discussion of whether these benchmarks are portable and where we intend to run them.  
+* Clarification on what each benchmark is going to measure. (Not Discussed)  
+* AOB
+
+### **MLCommons Compliance** {#mlcommons-compliance}
+
+* We were reassured that this was not difficult and Gregor had made progress with website and MLCommons rules  
+  * [https://laszewsk.github.io/mlcommons/](https://laszewsk.github.io/mlcommons/)  
+  * [https://github.com/laszewsk/mlcommons](https://github.com/laszewsk/mlcommons)
+
+### **Portability of benchmarks** {#portability-of-benchmarks}
+
+* This topic took the rest of the session with Juri describing his difficulty in running benchmarks on multiple machines with a horror story of how Horovod took 4 days to install. Horovod is needed to run on multi-node (each presumably multi-GPU) systems; running on single node, multi-GPU systems is supported without new software. Juri looked at STEMDL and Cloudmask   
+* Gregg Barrett noted that it sounds like we need to do an updated paper on the the Technical Debt of Machine Learning.  
+* The importance of using local disks to get good performance was stressed  
+  * Gregg Barrett noted the the upcoming MLC Storage benchmarks with storage WG [MLCommons Storage Working Group Description](https://docs.google.com/document/d/1U7zcRiKIX6D-BBuMxkqHW5k9FplXtog01WmF0Yw0t34/edit#heading=h.5vv6xvmg4q59)   
+* Steve Farrell pointed oit that submitters used containers (NERSC uses Shifter) and often partnered with NVIDIA who knew how to install all this software.   
+* Containers are not typically re-uable except from specification as systems support different software versions  
+* Security issues make effort harder  
+* MLCube was discussed but didn’t seem to address this issue  
+* Jax, Pytorch, Horovod, Tensorflow mesh were highlighted
+

@@ -1,0 +1,4 @@
+/* Hide the main page title while keeping it in the metadata for SEO and browser tabs */
+.title {
+  display: none !important;
+}

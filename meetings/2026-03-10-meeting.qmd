@@ -1,0 +1,62 @@
+---
+title: "Meeting Notes - March 10, 2026"
+---
+
+## **March 10, 2026 (9.05 pm. ET for Asia-USA)**
+
+### **Present**
+
+- Bettaieb Walid, Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski, Satoshi Iwata, Tues Day, Victor Lu
+
+### **New Member**
+
+- **Walid Bettaieb** from Tunisia <https://www.linkedin.com/in/bettaiebwalid12/>, He is currently an embedded system engineering student, and really passioned about embedded systems, and space sience. Eager to learn from you  all and as well contribute if possible. It is 2 am in Tunisia timeline
+
+### **Meeting Notes**
+
+- [MLC Science WG - 2026/03/11 01:00 GMT - Notes by Gemini](https://docs.google.com/document/d/1Mlbmt_SyL5rEz9T5_dTOusNxToIJjfrY9mY3vP8tXOQ/edit?tab=t.yahwnthrd4jl)
+
+- Stakeholder review progress and taxonomy development were discussed with the introduction of a new member and a key decision to decline the Earth Science special edition offer.
+
+- **Stakeholder Review and Taxonomy**\
+  Work is progressing on the stakeholder review paper, which will be published this week, allowing the group to begin developing a necessary taxonomy for benchmarks. The group agreed to use the ACM or IEEE format for the paper, prioritizing the ACM format for easier management.
+
+- **Project Updates and Decisions**\
+  The time series dataset catalog is complete with 804 datasets, and the next step is to write up the findings. The group decided to decline the offer from Frontiers to organize a special edition on Earth Science due to insufficient internal expertise.
+
+- **Performance and Standardization Discussion**\
+  A discussion on data processing performance confirmed that the underlying file system is often the bottleneck, with ZFS showing a 75% performance improvement over ext4 in a large dataset test. It was proposed that SNIA help map out various scheduling layers from user level to hardware level to guide future benchmark design. 
+
+### **Discussion**
+
+- Tues Day noted [2026 AI Knowledge Assessment](https://www.formaly.io/survey/f88bcfe8-081d-47ec-8a87-92519dca7c7b).Here's a stakeholder survey with chat features - any thoughts on FOrmally as a survey platform?
+
+  - Gary Mazzaferro appreciated link
+
+  - She noted one more,Gary! My paper was accepted to ICLR 2026 <https://ml-for-rs.github.io/iclr2026/> 
+
+  - A Benchmark Bill of Materials for Multicultural, Multimodal Remote Sensing: Auditing Foundation Model Evaluation
+
+  - Bettaieb Walid congratulated Tues who said “thanks! really interested in embedded systems with remote sensors”
+
+  - Heres Tues Day’s  labs handbook in progress <https://benchmarkhandbook.manus.space/> 
+
+    - Geoffrey will study
+
+  - Tues Day’s study of Agentic Benchmarks [Agentic Benchmarks from TUESDAY](https://www.canva.com/design/DAG0olryLKY/O-m1MgTUrJ8e_gKaZqPdSA/view?utm_content=DAG0olryLKY&utm_campaign=designshare&utm_medium=link&utm_source=viewer)  
+
+- **Data Formats** Victor Lu <https://justsolve.archiveteam.org/index.php/Scientific_Data_formats> modified to <http://fileformats.archiveteam.org/wiki/Scientific_Data_formats>  by Gregor
+
+  - Gary Mazzaferro <http://fileformats.archiveteam.org/wiki/Electronic_File_Formats> 
+
+  - Victor Lu [Data aspect of Scientific AI Benchmarks](https://docs.google.com/spreadsheets/d/1bst1987Vhmzd7UQqDVHZRsPnCg1oMvVE0elEWnJ2Ylw/edit?gid=0#gid=0) 
+
+- Gregor von Laszewski suggested Gary check out LVM+XFS/EXT4
+
+  - on plain linux i am sure you use right now command zfs
+
+- Tues Day noted Earth Engine! <https://earthengine.google.com/platform/>
+
+  - And <https://deepmind.google/science/weathernext/> 
+
+- Geoffrey shared [Time Series Features.pdf](https://drive.google.com/file/d/1cChW59ZoiJCCXv7-S_6gGmDDfQsBo696/view?usp=sharing) with Gary

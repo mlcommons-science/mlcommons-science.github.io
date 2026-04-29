@@ -1,0 +1,26 @@
+---
+title: "May 6, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **May 6, 2025 (9.05 pm. ET for Asia-USA)** {#may-6,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-30}
+
+Armstrong Foundjem, David Kanter, Douglas Fils, Geoffrey Fox, Satoshi Iwata, Syed Hussain Ather, Victor Lu, Yuwei Sun
+
+### **New Members** {#new-members-10}
+
+* **Douglas Fils** is from SDSC and works in Christine Kirkpatrick’s group [https://www.linkedin.com/in/douglas-fils-0236744/](https://www.linkedin.com/in/douglas-fils-0236744/)   
+* **Yuwei Sun** is a graduate student at New York University and interns at the Simons Foundation in the Flatiron Institute [https://www.linkedin.com/in/yuwei-sun-1136b0217/](https://www.linkedin.com/in/yuwei-sun-1136b0217/) 
+
+### **Discussion** {#discussion-14}
+
+* Geoffrey messed up and didn’t realize that he needed to start Google Meet Summarizer.   
+* He reviewed our work on a collection and taxonomy of benchmarks [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=drivesdk)   
+* He pointed out that AI Alliance recommended GitHub projects [https://github.com/orgs/The-AI-Alliance/projects?query=is%3Aopen](https://github.com/orgs/The-AI-Alliance/projects?query=is%3Aopen) and are willing to popularize our projects if we describe progress and help needed in projects  
+* David Kanter said some MLCommons used Asana [GitHub \+ Asana](https://asana.com/apps/github)  
+* Victor Lu  discussed complexity (as Juri studies) with [https://arxiv.org/pdf/2207.03711](https://arxiv.org/pdf/2207.03711)   and Quantum computing  
+  * He noted It will be great to have some quantum computing experts you know in academics to read this paper and give us a better understanding of the "decomposition techniques" [Decomposition (computer science) \- Wikipedia](https://en.wikipedia.org/wiki/Decomposition_\(computer_science\))    used in this paper and how to apply similar techniques to classical computing problem as listed in this spreadsheet [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?gid=1458699094#gid=1458699094)    
+* We agreed to contact other Asian possible members. Geoffrey will contact the Benchcouncil  
+* Doug Fils noted [Predicting and explaining AI model performance: A new approach to evaluation \- Microsoft Research](https://www.microsoft.com/en-us/research/blog/predicting-and-explaining-ai-model-performance-a-new-approach-to-evaluation/) 
+

@@ -1,0 +1,59 @@
+---
+title: "April 5, 2023"
+---
+
+## **April 5, 2023** {#april-5,-2023}
+
+### **Present** {#present-83}
+
+Gregg Barrett, Geoffrey Fox, Juri Papay,Mallikarjun Shankar, Wesley Brewer, Aristeidis Tsaris, Tom Gibbs, Gregor von Laszewski, Piotr Luszczek, Christine Kirkpatrick
+
+### **Apologies** {#apologies-25}
+
+Christian Herwig
+
+### **Tentative Agenda** {#tentative-agenda-62}
+
+* Any new members **None**  
+* Positioning of Science Benchmarks in MLCommons Update Web and Policy documents  
+* AI Readiness of MLCommons Science  (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing) NOT DISCUSSED  
+* Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency  (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* Discussion of new Benchmarks (Continued) NOT DISCUSSED  
+* AOB
+
+### **Next Meeting** {#next-meeting}
+
+This will be May 3 as next one scheduled collides with community meeting
+
+### **Positioning of Science Benchmarks in MLCommons** {#positioning-of-science-benchmarks-in-mlcommons}
+
+Juri and Gregor are working on improving our web resources to reflect open division only plan. We further discussed this with David Kanter on April 7 and we hope to complete the document revision before the Community quarterly meeting on April 20\.
+
+### **Use of Benchmarks, Education** {#use-of-benchmarks,-education}
+
+* Much of the discussion this week revolved around the use of benchmarks; especially by often inexperienced students. This also led to a discussion of the value of benchmarks in education  
+* Gregor discussed work with Cloudmask and Cosmoflow (HPC working group)  
+* Many students are unprepared for practical issues; partly a consequence of courses that stress high-level issues in using Python. Jupyter notebooks are very powerful but encourage poor programming practices. Gregg noted that we need a course on proper Python. Some students have no idea about Unix file systems  
+* The difference between HPC and commercial setups is non-trivial and the professionals who typically respond to MLPerf challenges are at a different expertise level from many students. Aris agreed with this sentiment.  
+* Nevertheless MLCommons benchmarks combining state-of-the-art software and algorithms are attractive to the many students getting started in AI  
+* Tom Gibbs noted [https://developer.nvidia.com/modulus](https://developer.nvidia.com/modulus) NVIDIA Modulus featuring quality exemplars of the popular Physics inspired neural networks. They like MLCommons' examples can be adapted from one application domain to another.  
+* Difficulties with the transfer of large datasets were discussed with Globus considered the most reliable solution but it had problems in some implementations. No better solution was mentioned.  
+* Arjun wondered about the role of MLCube and the Best practices working group. This had been very successful for MedPerf [https://www.medperf.org/](https://www.medperf.org/)   
+* Gregg mused that this confirms the obstacles to AI in science are numerous and nontrivial\!  
+* Wes recalled such discussion from the component-based development to service-orientated architecture days. Building stuff without foundation engineering  
+* Wes noted the course [https://missing.csail.mit.edu/](https://missing.csail.mit.edu/) addressing some of these points.  
+* The concept of **Benchmark Carpentry** was proposed as important by Gregor and Christine  
+  * Some foundational courseware that covers some gaps. The carpentry.   
+  * And Tom's point on libraries \- Nvidia / Hugging Face approach.  
+  * Cover Globus, Timing, Profiling  
+  * See [benchmark-carpentry](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit?usp=sharing)   
+* TinyML courses with EdX and Coursera  
+* Ed Seidel’s Wyoming initiatives for broad skills noted  
+* Some of these points can go in one of our papers  
+* Perhaps a Cybertraining proposal could be prepared
+
+### **Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency** {#using-benchmarking-data-to-inform-decisions-related-to-machine-learning-resource-efficiency-1}
+
+* [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* Focus on this before next meeting as nearer completion
+

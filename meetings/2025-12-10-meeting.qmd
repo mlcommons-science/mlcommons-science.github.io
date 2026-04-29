@@ -1,0 +1,45 @@
+---
+title: "December 10, 2025"
+---
+
+## **December 10, 2025** {#december-10,-2025}
+
+### **Present** {#present-1}
+
+* Abdulkareem Alsudais, Armstrong Foundjem,  Christine Kirkpatrick, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Juri Papay, Iris Johnson, Iulia Ibanescu, Javier Toledo, Marco Colombo, Piotr Luszczek, Victor Lu, Wes Brewer
+
+### **Tentative Agenda** {#tentative-agenda}
+
+* Any New Members Introduction  
+* White Papers and Published Papers  
+  * AI Benchmark Democratization and Carpentry white paper [https://arxiv.org/pdf/2512.11588](https://arxiv.org/pdf/2512.11588)   
+  * Paper on Science Benchmarks and Ontologies [http://arxiv.org/abs/2511.05614](http://arxiv.org/abs/2511.05614)   
+  * New white papers  
+* Any Other Business
+
+### **Google Meet Notes** {#google-meet-notes-1}
+
+* [MLC Science WG \- 2025/12/10 07:53 PST \- Notes by Gemini](https://docs.google.com/document/d/1pMrXVMaj8WmzhSaLM6tmDvL-syZ61MsJxvMW5yt7VQ8/edit?usp=sharing) The working group meeting focused on:  
+* **Paper Submission Status:** Gregor von Laszewski provided an update, noting a remaining LaTeX error (UTF character 0301\) and three minor corrections needed from Armstrong Foundjem before anticipated submission to arXiv today.  
+* **Publication Discussion:** The group decided a journal, possibly the Benchmarking Journal or High Performance Computing Journal, would be better than a conference due to the paper's length.  
+* **Future Focus: "Agentic AI for Science":** Geoffrey Fox, Armstrong Foundjem, and Gary Mazzaferro agreed that this should be the future focus for the FOSI group, with Geoffrey Fox planning to prepare materials. The topic was also connected to the CDMI standard and DOE efforts (Genesis, ModCon, AMSAC).  
+* **Benchmarking & Challenges:** Wes Brewer mentioned the recent SIM AI bench work using AI agents. Geoffrey Fox shared a surprising observation that AI has not yet made a significant contribution to QCD (quantum chromodynamics), suggesting that finding areas *without* AI improvements is valuable for benchmarking. The group also discussed the need to distinguish between LLMs and other machine learning technologies in benchmarking.  
+* **Agentic AI Details:** The discussion covered the need for specialized vs. general-purpose agentic AIs and the concept of benchmarking agentic AI using digital twins with explicit explainability.  
+* **Next Steps:**  
+  * Armstrong Foundjem will correct the three minor issues in the paper.  
+  * Geoffrey Fox will prepare materials on "agentic AI for science" and assist with future plans after Armstrong Foundjem shares a paper on the topic.  
+  * Wes Brewer agreed to ask Sumiandu Sarcar to present on DOE AI efforts and benchmarking challenges.  
+  * Gregor von Laszewski will notify the group once the paper is submitted to arXiv.
+
+### **Discussion** {#discussion-1}
+
+* Wes Brewer noted [https://github.com/AI-ModCon](https://github.com/AI-ModCon)  
+  * Baseline AI Capabilities (BASE) develops shared AI tools: multimodal reasoning front ends, agent-based data pipelines, evaluation harnesses, self-improving frameworks, safety/security protocols, and a jointly developed (with AmSC) core agentic framework to orchestrate workflows across HPC and cloud platforms. Together, these reduce duplication and accelerate MTs' adoption of AmSC services and APIs while prioritizing open source.  
+  * Workflow Patterns [In-Transit Data Transport Strategies for Coupled AI-Simulation Workflow Patterns](https://dl.acm.org/doi/pdf/10.1145/3731599.3767464)   
+* Javier Toledo noted  [https://online.kitp.ucsb.edu/online/genai25/osborn/](https://online.kitp.ucsb.edu/online/genai25/osborn/) in the program: [https://online.kitp.ucsb.edu/online/genai25/](https://online.kitp.ucsb.edu/online/genai25/) which sceptical about current impact of AI on computational QCD  
+* Christine Kirkpatrick noted [Knowledge-Guided Machine Learning: A New Framework for Accelerating Scientific Discovery and Addressing Global Environmental Challenges | IEEE Conference Publication](https://ieeexplore.ieee.org/document/10386529) led by Dr. Vipin Kumar, Regents Professor, William Norris Land Grant Chair in Large-Scale Computing, Data Science Initiative Director, University of Minnesota  
+* Wes Brewer noted   
+  * [LC-Opt: Benchmarking Reinforcement Learning and Agentic AI for End-to-End Liquid Cooling Optimization in Data Centers](https://arxiv.org/pdf/2511.00116)    
+  * [https://www.youtube.com/watch?v=OrNf4FDm1r0](https://www.youtube.com/watch?v=OrNf4FDm1r0)   
+  * This  paper was just presented at NeurIPS related to benchmarking an agentic AI workflow. See section 7.5 LLM Explainability
+

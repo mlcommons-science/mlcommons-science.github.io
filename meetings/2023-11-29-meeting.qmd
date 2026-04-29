@@ -1,0 +1,60 @@
+---
+title: "November 29, 2023"
+---
+
+## **November 29, 2023** {#november-29,-2023}
+
+### **Present** {#present-67}
+
+Geoffrey Fox, Piotr Luszczek, Juri Papay, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Yuhan Rao, Armstrong Foundjem, Xavier Coubez
+
+### **Tentative Agenda** {#tentative-agenda-47}
+
+* Any new members  
+* Foundation Models, including information gathered at https://sciencefmhub.org/ with a table of 90 Foundation model projects and \~200 citations.  
+  * Please give us any more useful resources in the Science FM area.  
+* Recap of SC23 meeting  
+  * Science at MLPerf BOF organized by Tom St. John [https://docs.google.com/presentation/d/14QLvV10-fHnzvqgRe0alJHMGBLMinHxpXwRn12wA20c/edit?usp=sharing](https://docs.google.com/presentation/d/14QLvV10-fHnzvqgRe0alJHMGBLMinHxpXwRn12wA20c/edit?usp=sharing)   
+  * Science at Data-centric AI BOF organized by Christine Kirkpatrick (Dataperf) [https://docs.google.com/presentation/d/1UArUapwgZWLzzuxnYk7llWd-QLrax\_86GaQetkxQr5s/edit?usp=sharing](https://docs.google.com/presentation/d/1UArUapwgZWLzzuxnYk7llWd-QLrax_86GaQetkxQr5s/edit?usp=sharing)   
+* Papers  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Other Benchmarks  
+* AOB
+
+### **New Members** {#new-members-33}
+
+* Armstrong Foundjem is currently a Research Fellow with the DEEL (DEpendable and Explainable Learning) Project at Polytechnique Montreal on the certifiability of safety-critical and trustworthy A.I systems. [https://www.linkedin.com/in/foundjem/](https://www.linkedin.com/in/foundjem/)   
+* Xavier Coubez, started in particle physics and is now a Researcher at the Institut de cancérologie Strasbourg Europe, ICANS, University of Strasbourg, Aix-les-Bains, Auvergne-Rhône-Alpes, France [https://xavieratcern.github.io/index.html](https://xavieratcern.github.io/index.html)  [https://www.linkedin.com/in/xavier-coubez/](https://www.linkedin.com/in/xavier-coubez/) x.coubez@icans.eu 
+
+### **Recap of SC23 meeting** {#recap-of-sc23-meeting}
+
+* Christine noted the good interactions at the MLCommons dinner that followed the Tuesday Data BOF.  
+* The Breakouts at Data BOF had two breakouts – one on professional development with a shift in needs to include AI as well as parallel software engineering.
+
+### **Foundation Models** {#foundation-models-2}
+
+* Geoffrey described the Foundation model collection at [Science FM Hub](http://sciencefmhub.org)  
+* We discussed the IBM-NASA Foundation model Prithvi where Geoffrey is having trouble reproducing fine-tuning runs. Yuhan will ask IBM for help.  
+* There is an important recent effort on a science foundation model (Polymathic AI) from Flatiron Institute \- [https://polymathic-ai.org/](https://polymathic-ai.org/) “Advancing Science through Multi‑Disciplinary AI”  
+  * This is impressive work with two new papers with associated Blog and GitHub; one is astronomy using image and spectral data. The other is a multi-physics surrogate
+
+### **Any Other Business** {#any-other-business-8}
+
+* Yuhan Rao noted Google’s Blog / Paper / Benchmark for weather forecasts including a leaderboard comparing methods with the highest resolution simulation [https://sites.research.google/weatherbench/](https://sites.research.google/weatherbench/)  
+* Reproducibility was discussed with Wes Brewer, noting that   
+  * On scientific reproducibility, this is some interesting work that I saw a while back:   
+  * [https://icl.utk.edu/newsletter/presentations/2020/Olaya-Building-Containerized-Environments-for-Reproducibility-and-Traceability-of-Scientific-Workflows-05-08-2020.pdf](https://icl.utk.edu/newsletter/presentations/2020/Olaya-Building-Containerized-Environments-for-Reproducibility-and-Traceability-of-Scientific-Workflows-05-08-2020.pdf) from Paula Olaya from GCL, Michela Taufer's group at UTK.  
+* Wes noted that he talked with Andrew Shao (HPE) at SC23 about possibly looking into integrating SmartSim into our OSMI benchmark. We will invite Andrew to talk on December 13, 2023\.
+
+## **November 14-15, 2023** {#november-14-15,-2023}
+
+### **SC23 Denver** {#sc23-denver}
+
+* Regular meeting canceled due to overlap with SC23.   
+* There were two relevant Birds of a feather sessions at SC23   
+* Data [https://sc23.conference-program.com/presentation/?id=bof193\&sess=sess361](https://sc23.conference-program.com/presentation/?id=bof193&sess=sess361) with Science Working Group presentation  [Science Foundation models and Data at SC23 BOF November 14, 2023](https://docs.google.com/presentation/d/1UArUapwgZWLzzuxnYk7llWd-QLrax_86GaQetkxQr5s/edit?usp=drive_link)   
+* basic MLCommons [https://sc23.conference-program.com/presentation/?id=bof104\&sess=sess384](https://sc23.conference-program.com/presentation/?id=bof104&sess=sess384)  with Science Working Group presentation [Science WG at SC23 BOF November 15, 2023](https://docs.google.com/presentation/d/14QLvV10-fHnzvqgRe0alJHMGBLMinHxpXwRn12wA20c/edit?usp=drive_link)   
+* Conversation between Fox and Arjun Shankar emphasized that it is hard to respond to Science Benchmarks as you have to design a new algorithm.
+

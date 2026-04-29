@@ -1,0 +1,154 @@
+---
+title: "March 19, 2025"
+---
+
+## **March 19, 2025** {#march-19,-2025}
+
+### **Present** {#present-35}
+
+Amit M, Armstrong Foundjem, Claus Weiland, Cyril Kondratenko, David Kanter, Gregg Barrett, Geoffrey Fox, Gregor von Laszewski, Howard Pritchard, Javier Toledo,, Jeyan Thiyagalingam, Jihao Shi, Lee Sharma, Matt Sinclair, Murali Emani, Nhan Tran, Philip Harris, Piotr Luszczek, Sankar Avula,  Satoshi Iwata, Shirley Moore, Victor Lu, Vijay Janapa Reddi
+
+### **Apologies** {#apologies-2}
+
+Christine Kirkpatrick
+
+### **Tentative Agenda** {#tentative-agenda-17}
+
+* Any New Members Introduction  
+* Nhan Tran, Victor Lu, Matt Sinclair [MLCommons Science \- follow up discussion](https://docs.google.com/presentation/d/1n_M4jAKNGkoOcktW9wqnuAEZbzcRhm8OUN7aArdKT2k/edit)?   
+* Continuing discussion of the catalog of Science benchmarks based on [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)    
+* White Papers  
+  * Please find the status and locations in minutes of the February 19 meeting.  
+* Any Other Business
+
+### **New Members** {#new-members-13}
+
+* **Jihao Shi** from University of Michigan  
+* **Sankar Avula** LLM for medicine.   
+* **Cyril Kondratenko** reminded us that he came Feb. 19 and is from Nebius.
+
+### **Scientific benchmarks and challenges \- follow up discussion** {#scientific-benchmarks-and-challenges---follow-up-discussion-1}
+
+* Nhan’s presentation [MLCommons Science \- follow up discussion](https://docs.google.com/presentation/d/1n_M4jAKNGkoOcktW9wqnuAEZbzcRhm8OUN7aArdKT2k/edit)? suggested classifying by scientific domain, ML Motif and Computational Motif where latter is criterion largely used by MLPerf (Tiny, Mobile, Client, Datacenter, …)  
+  * MLCommons has unclear categories; what is missing  
+* Jeyan discussed the difficulty of scaling to realistic problems and reviewing what we did in the past. Hementioned [Scientific machine learning benchmarks | Nature Reviews Physics](https://www.nature.com/articles/s42254-022-00441-7) or [Scientific Machine Learning Benchmarks](https://arxiv.org/pdf/2110.12773) from Arxiv   
+* MLPerf HPC benchmark scales to large size but becomes very costly to run  
+  * The entry barrier is high  
+  * Focus on large scale not suitable for students  
+* Vijay in Tiny work group has light weight benchmarks  
+* Philip Harris noted Codabench makes benchmarks more attractive and Gregor agreed  
+* Kaggle is limited  
+* Workflow needs FAIR principles
+
+### **Catalog of Science benchmarks** {#catalog-of-science-benchmarks-1}
+
+* Turning to catalog [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)    
+* Geoffrey described his attempt to use “Deep Research LLMs” to automate the finding of benchmarks details. These are recorded in columns called “Results from Gemini LLM Deep Research”, “Results from ChatGPT LLM”  as links to LLM result stored in Google Docs  
+* A typical query used to produce from Gemini was  
+  * Google WeatherBench2 https://sites.research.google/weatherbench/ https://arxiv.org/abs/2308.15560 has artifacts: benchmarks, datasets, models and software. Present  all benchmarks, datasets, models, or software from this project as an Excel Spreadsheet, with columns as  
+  * Artifact Name, Type of Artifact(benchmarks, datasets, models or software), Description, Application Field, Nature of Model, Is model Deep Learning or not?, Size of model, Nature of Data, Modality of Data, Size of Data with units, ?Nature of artifacts with machines used, Links to Papers, Links to data and software (GitHub)  
+  * The rows should be individual benchmarks, datasets, models, or software artifacts.   
+  * Call the report "Google WeatherBench2".  
+  * Please record the number of websites used in the analysis.  
+* This gave [WeatherBench2 Research and Analysis
+](https://docs.google.com/document/d/1fqLnWJaRskxAhICL3xK8ojz9oVSJMF3NtW_Ko2Qr_YI/edit?usp=sharing)  
+* The main flaw was incompleteness; current LLMs will not delve down reliably into sublinks and often ignored instructions to produce “Excel Spreadsheet”  
+* You can analyze MLCommons as long as you do it as a working group at a time but analyzing MLCommons as an entity gave inconsistent results  
+* Typically Gemini was more complete than OpenAI
+
+### **White Papers** {#white-papers-2}
+
+* See papers 1 2 and 3 at February 19 minutes [https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1\&tab=t.0\#heading=h.b1jox6cj5tjq](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1&tab=t.0#heading=h.b1jox6cj5tjq)  
+* Paper 1: The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)  is fully active and encourages participation. Contact if interested [laszewski@gmail.com](mailto:laszewski@gmail.com)   
+  * Gregg thought Gregor was being very flexible and accommodating.  
+  * Challenges in understanding and reproducing MLCommons benchmarks were noted  
+  * Also students are not properly trained to prepare benchmarks.  
+  * Benchmarking as a science is lost  
+* Frozen: Using Benchmarking Data to Inform Decisions Related to Machine  
+  Learning Resource Efficiency, Kirkpatrick, Christine, Barrett, Gregg,  
+  Brewer, Wesley, Christopher, Julianne, Dutra, Inês, Emani, Murali,  
+  Luszczek, Piotr, Shankar, Mallikarjun, von Laszewski, Gregor, Papay,  
+  Juri, Fox, Geoffrey, [https://doi.org/10.5281/zenodo.15022149](https://doi.org/10.5281/zenodo.15022149)   
+  * Jeyan and Gregor are working on an improved version   
+  * [https://docs.google.com/document/d/1aPRYM7\_jdwWgmd4\_Fsjtf3oH0ZcAAljQ/edit\#heading=h.vmlqcpehwg0k](https://docs.google.com/document/d/1aPRYM7_jdwWgmd4_Fsjtf3oH0ZcAAljQ/edit#heading=h.vmlqcpehwg0k)   
+  * THis version has been converted to overleaf: [https://www.overleaf.com/read/gbvhrjmqmskm\#bec8e2](https://www.overleaf.com/read/gbvhrjmqmskm#bec8e2)   
+* Paper 3 was aimed at a special publication opportunity but rejected. It is probably forever frozen. We need **more information** from Christine about this one.  
+  * [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?tab=t.0](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?tab=t.0) 
+
+### **Any Other Business** {#any-other-business}
+
+* Prompted by Jeyan, we discussed a presence at the ISC meeting [https://isc-hpc.com/](https://isc-hpc.com/) (Hamburg Germany, June 10-13 2025\) where we perhaps missed an opportunity as usually these are organized by HPC working group (Tom St. John)  
+* David Kanter confirmed that MLCommons will have no organizational presence at ISC  
+* It was noted by Lee that there is an ISC workshop on “The Future of Benchmarks in Supercomputing" [https://isc-hpc.com/program/](https://isc-hpc.com/program/) but it has no call for papers and no proceedings  
+* Jeyan and Piotr will be at ISC
+
+### **Data Breakout at the MLC Community Meeting 2025-03-11** {#data-breakout-at-the-mlc-community-meeting-2025-03-11}
+
+* Note MLCommons Community meeting [WG updates Q12025 MLCommons Community Meeting](https://docs.google.com/presentation/d/1uESSZA3NqiTF58pwfzgxPw196UcC2ln_grUAcTGl1UU/edit)? March 11, 2025\. Geoffrey prepared slides but was not able to attend. He apologizes.
+
+#### **Motivating datasets** {#motivating-datasets}
+
+1. What 3-5 datasets would most advance the field if they had rapidly evolving quality?  
+   a.    Public time series datasets of production data (telemetry coming from complex systems such as manufacturing facilities and HPC systems).  
+   b.    A scalable annotated corpus for evaluation of various knowledge extraction tasks (e.g., NER \- Named Entity Recognition, Relation Extraction \- RE, etc.) that also scales with various expanding context sizes.  
+   c.     Dataset of datasets (700k Croissant datasets analyzed jointly via metadata)  
+   d.    Multi-modal datasets: time series data (telemetry) \+ textual data (log data) \+ textual data (knowledge bases).  
+   e.    LLM interaction/ReAct agent datasets e.g. [WildChat](https://wildchat.allen.ai/), AgentBench, etc
+
+                                      i.        MLCommons runs a wildchat-esque site
+
+2. How would you screen out \~100 important datasets with the goal of ensuring and auditing high quality metadata?  
+   a.    Do they use ontology/machine readable semantic representations for domain specific elements?
+
+#### **Proprietary Datasets of Interest:** {#proprietary-datasets-of-interest:}
+
+1. The New York Times’ archive.  
+2. The comments on YouTube videos.
+
+ 
+
+#### **Formats/Tools** {#formats/tools}
+
+1.  What are the most time consuming data tasks in actual AI development/deployment today?  
+   1.  Semantic annotation/curation using controlled vocabularies, metadata harmonization  
+   2.  Cleaning, data “quality”.  
+2. What kind of tools could make those tasks more efficient, and do any, even primitive, examples exist in academia or industry?  
+   1. OpenREFINE, [CEDAR](https://metadatacenter.org/), Protege, Automated Croissant creation using Hugging Face/Kaggle et al  
+      1. Dataset preparation tools  
+      2. Dataset annotation tools  
+      3. Dataset discovery tools  
+3. What is the number one thing we could do to accelerate Croissant adoption?  
+   1.  Better tooling for (collaborative, iterative) dataset creation  
+4. Is one RAI data format emerging as dominant? If not, which one should? :-)
+
+#### **Licenses** {#licenses}
+
+1.  What kind of licensing concerns most typically trip up data use?  
+   1. Non machine readable license pydescriptions          [https://ui.adsabs.harvard.edu/abs/2023arXiv231016787L/abstract](https://ui.adsabs.harvard.edu/abs/2023arXiv231016787L/abstract)  
+2. What is the most commonly used AI data license type you encounter?  
+3. Solution: Can we find a way to encourage data owners to make their data usable for free?  
+   1. One way would be to educate data owners about algorithms which remove personally identifiable information (that’s one concern they might have).   
+   2. Internal (private) datasets are usually considered to be valuable assets. Can they be even more valuable once made publicly available (e.g., more researchers working on these problems resulting in better models companies can use later?). 
+
+#### **Science** {#science}
+
+1. Which are the most active Dynabench sub-communities and what do they have in common?  
+2. What are the top 5 big challenge questions in AI data science, which, if answered, would radically advance the field?  
+   1. Evaluate which algorithms use data minimally-efficiently in order to overcome current data limitations (towards how humans do it). Such benchmarks could control, evaluate and score the amount of data used relative to performance. Eg [https://dynabench.org/tasks/tlic](https://dynabench.org/tasks/tlic) (in progress).  
+   2. Benchmarking algorithm resistance to unbalanced datasets or continuous learning.   
+   3. Understanding what has been learned and quantifying how data affects the learning.
+
+#### **General Points** {#general-points}
+
+1.  Specifically in the area of data valuation, what is the current SOTA?  
+2.  What would be the best way to get major AI conferences to add data tracks?  
+3. What would be the best way to encourage new/existing tracks to focus on "better datasets" rather than "more datasets"?  
+   1. Knowledge graph of all datasets, benchmarks for metadata coverage
+
+#### **Challenges**  {#challenges}
+
+1. How do we make progress in an age of data pollution?  
+2. What will plateau progress?  How do we address that?  
+   1. The treatment of developments in AI/ML being silenced by governments because of the power of the technology.  
+3. High-quality synthetic data. Why? Real data is not always available, better coverage, more robust ML models.
+

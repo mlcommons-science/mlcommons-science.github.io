@@ -1,0 +1,60 @@
+---
+title: "January 12, 2022"
+---
+
+## **January 12, 2022** {#january-12,-2022}
+
+### **Present** {#present-110}
+
+Lauren Moos, Aristeidis Tsaris,  Gregg Barrett,  Gregor von Laszewski,  Farzana Yasmin Ahmad,  Arjun Shankar,  Jeyan Thiyagalingam,  Tony Hey,  Geoffrey Fox,  Hai Ah  Nam,  Junqi Yin,  David Kanter,  Juri Papay  
+**Apologies:** Murali Emani, Christine Kirkpatrick
+
+### **Tentative Agenda** {#tentative-agenda-88}
+
+* New member introductions  
+* 15 minute Talk from Lauren Moos: HILPAE: Towards a sample efficient mechanism for effective modeling and control for particle accelerators.  
+* Adhering to ML Common Rules – Suggested Approach: Jeyan, Geoffrey, and Tony  
+* Current status of benchmarks – any new results  
+* Science Benchmarks – Revision II – Jeyan  
+* Funding Science WG activities – Jeyan & Geoffrey  
+* AOB
+
+### **New member introductions** {#new-member-introductions-6}
+
+* Farzana Yasmin Ahmad \- PhD student from UVA  
+* Lauren Moos from Special Circumstances discussed next an SBIR project for DOE labs
+
+### **Presentation** {#presentation-3}
+
+15 minute Talk from Lauren Moos: HILPAE: Towards a sample efficient mechanism for effective modeling and control for particle accelerators. This covered a system to control and optimize accelerator performance. Most of the discussion was on how to make this an attractive DoE proposal. It was noted that “human in the loop” ran counter to goal of AI-based control.
+
+### **Adhering to ML Common Rules – Suggested Approach** {#adhering-to-ml-common-rules-–-suggested-approach}
+
+This was led by Jeyan following conversations before the meeting with Jeyan, Geoffrey, and Tony
+
+* Juri and Gregg will be stepping in to form a small sub-group to work  
+* Tony Hey suggested to contact Steve Farrel (in the absence of Murali)  
+* Arjun suggested Aris to help this initiative  
+* Arjun suggested this to be divided in to two aspects: our policy with scientific accuracy as focus vs basic compliance (and to identify the minimal points)  
+* It was not clear how existing frameworks (SciMLBench \- MLCube) can be used as part of the benchmark  
+* Hai An Nam reminded us of the training rules  [training\_policies/hpc\_training\_rules.adoc at master](https://github.com/mlcommons/training_policies/blob/master/hpc_training_rules.adoc) ([https://github.com/mlcommons/training\_policies/blob/master/hpc\_training\_rules.adoc](https://github.com/mlcommons/training_policies/blob/master/hpc_training_rules.adoc) ) (as modified by HPC) or [https://github.com/mlcommons/training\_policies/blob/master/training\_rules.adoc](https://github.com/mlcommons/training_policies/blob/master/training_rules.adoc) (original for training)  and the tiers of open / closed rules. We should perhaps start with this and suggest our rules that cover both our benchmarks (e.g. must have accuracy as well as performance) and submissions by others  
+* Christine Kirkpatrick (offline) noted that she would still be happy to brief the group on her observations about the MLCommons benchmarks from a data perspective and what we might learn from it for the sake of the Science benchmarks.  
+
+### **Current status of benchmarks – any new results** {#current-status-of-benchmarks-–-any-new-results}
+
+Juri shared  [mlcommons\_12\_01\_2022.pptx](https://docs.google.com/presentation/d/1tHxaNhR1xfZKdbgNLYlWm23-lksV3roj/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true) some results for STFC benchmarks. These covered two benchmarks Cloudmask and Optical Damage. They looked at compute, memory and power use of GPU’s showing different scenarios for two benchmarks (Cloudmask made poor use of GPU). 
+
+### **Funding Science WG activities** {#funding-science-wg-activities}
+
+* Jeyan following a conversation with Geoffrey, discussed funding the work we just discussed (and its follow on)  
+* Tony mentioned that ML Commons membership will cost £15,000 per lab per year for a laboratory  
+* The benefits of this has to be justified (voting rights and input on expenditure of funds)  
+* Action: We need to verify with MLCommons about potential benefits.
+
+### **Science Benchmarks – Revision II** {#science-benchmarks-–-revision-ii}
+
+* Jeyan discussed briefly  
+* Aris discussed HPC working group plans to define the process to add a new benchmark and their expectation of adding another one to make 4.Deferred for the next meeting  
+* Tony Hey mentioned that we should be careful about committing more benchmarks.  
+* Arjun agreed that we need to understand the process better before committing more.
+

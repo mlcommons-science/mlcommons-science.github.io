@@ -1,0 +1,46 @@
+---
+title: "March 22, 2023"
+---
+
+## **March 22, 2023** {#march-22,-2023}
+
+### **Present** {#present-84}
+
+Gregg Barrett, Geoffrey Fox, Juri Papay, Christian Herwig, Mallikarjun Shankar, Wesley Brewer, Aristeidis Tsaris, Tom Gibbs, Gregor von Laszewski
+
+### **Tentative Agenda** {#tentative-agenda-63}
+
+* Any new members  
+* **Positioning of Science Benchmarks** in MLCommons [https://mlcommons-science.github.io/tags/](https://mlcommons-science.github.io/tags/)  and [https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1\#heading=h.1c3fuqvm4ia2](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1#heading=h.1c3fuqvm4ia2)   
+* **AI Readiness of MLCommons Science**  (Continued)  [NOT STUDIED https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* **Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency**  (Continued)  [NOT STUDIED https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* Discussion of new Benchmarks (Continued) focussed on [230322 mlcommons science.pdf](https://drive.google.com/file/d/17bKzHeH0Jx21L7dXFzUfSw4EolAHv--D/view?usp=sharing)presentation by Christian Herwig   
+* AOB
+
+### **Positioning of Science Benchmarks** {#positioning-of-science-benchmarks}
+
+* After minor changes (from Arjun) the positioning statement [https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1\#heading=h.1c3fuqvm4ia2](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1#heading=h.1c3fuqvm4ia2) was agreed   
+* with general consensus on a blog-like user interface illustrated at https://mlcommons-science.github.io/tags/ .   
+* The adjective open in open division is rather ambiguous – it refers to “open for change” not “open-source” as latter is assumed.   
+* It was noted that we would need a separate leaderboard for each benchmark as the success measure is not universally time as in main MLPerf but rather varies over the benchmarks.   
+* Accuracy is acceptable as a secondary metric.  
+* [Gregg Barrett](mailto:gregg.barrett@cirrusai.net)agreed with Arjun \- clarity on what constitutes an "improvement" would helpful.  
+* In a later meeting with David Kanter from MLCommons and Ritika Borkar from NVIDIA, our proposal was accepted and we agreed to go through our policy and web material making it consistent.
+
+### **FastML Presentation** {#fastml-presentation}
+
+* A fascinating presentation[230322 mlcommons science.pdf](https://drive.google.com/file/d/17bKzHeH0Jx21L7dXFzUfSw4EolAHv--D/view?usp=sharing) was given by Christian Herwig on the FastML benchmarks described at [https://arxiv.org/abs/2207.07958](https://arxiv.org/abs/2207.07958)   
+* These are inference tasks typical of those needed at accelerators (LHC) to select data (trigger) of interest that will be preserved for later study  
+* Benchmarks chosen to cover different interesting regions in latency-datarate space found at [https://github.com/fastmachinelearning/fastml-science](https://github.com/fastmachinelearning/fastml-science)   
+* Physics experiments probe different latency and data-rate regime from current MLCommons benchmarks  
+  * Supervised classification of particle jets that could signal interesting heavy particle production  
+  * Sensor data compression  
+  * Beam control by Reinforcement learning  
+* Industry dominated by smartphone so lower performance characteristics than physics experiments although these use industry networking etc and so have constraints related to industry.  
+  * High radiation environment and performance/watt important in LHC experiments  
+* Interesting “Nutrition Facts” labelling to highlight key features of each benchmark  
+* 3 current benchmarks but expanding to eight summarized on last slide for characteristics: Data representation, ML type,, Latency Throughput, Target platform  
+* Another benchmark is for surrogates for detector simulators which need to be reconfigurable as detectectors change with time  
+* Eager to scale this effort to incorporate new scientific domains and new kinds of technical challenges.  
+* The FPGA vs ASIC comparison is interesting in itself
+

@@ -1,0 +1,17 @@
+---
+title: "September 9, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **September 9, 2025 (9.05 pm. ET for Asia-USA)** {#september-9,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-13}
+
+Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Piotr Luszczek, Satoshi Iwata, Shirley Moore, Tues Day
+
+### **Google Meet Notes** {#google-meet-notes-10}
+
+* [MLC Science WG \- 2025/09/10 01:57 BST \- Notes by Gemini](https://docs.google.com/document/d/1wCmefYs0SvxIK4kssgApkSrrF1FUdCsD1SN-a5uAkRw/edit?tab=t.o5b56ofmbzq)   
+  * Gregor von Laszewski, Geoffrey Fox, Benjamin, Matt Sinclair, Marco, Piotr Luszczek, Shirley Moore, and TUES DAY discussed several ongoing projects. Key topics included the closure of the Nvidia ticket, challenges in building agentic AI, progress on benchmark papers and the website, and the display of time series data. Discussions also covered the expansion of HPC and AI benchmark carpentry, the need for tools to measure AI algorithm performance, and the importance of defining AI measurement and multimodal models.  
+* Gregor von Laszewski noted [GitHub \- google/adk-python: An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.](https://github.com/google/adk-python)  and [Vertex AI Platform | Google Cloud](https://cloud.google.com/vertex-ai)   
+* TUES DAY noted [Introducing Docent | Transluce AI](https://transluce.org/introducing-docent)  
+

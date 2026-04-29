@@ -1,0 +1,106 @@
+---
+title: "March 10, 2021"
+---
+
+## **March 10, 2021** {#march-10,-2021}
+
+### **Present:** {#present:-2}
+
+Geoffrey Fox,  Aristeidis Tsaris, Christine Kirkpatrick,Gregg Barrett, Amit Ruhela, Junqi Yin, Arjun Shankar, Venkat Vishwanath,  Tony Hey, Vibhatha Abeyakoon, Bala Desinghu, Gregor von Laszewski
+
+Apologies: Murali Emani, Jeyan Thiyagalingam
+
+### **Agenda** {#agenda-2}
+
+* Any new member introductions  
+* Benchmark Updates  
+* Chair election  
+* Discussion of MLCube   
+* Possible action items on FAIR metadata  
+* Any other business
+
+### **Discussion** {#discussion-30}
+
+**Updates**  
+Indiana University, Oak Ridge and Argonne presented updates. Indiana has made progress with time series prediction using open USGS data. Junqi from ORNL presented running STEM DL on SUMMIT and ANL’s Theta machines. Also he has worked with Murali on UNO, first with TF1, now with Tensorflow v2. Venkat from ANL covered the same ground from the Argonne point of view – UNO 2.x code and STEM DL working.
+
+As well as benchmarks, non trivial progress has been made in running benchmarks on multiple hosts. Both Argonne (ThetaGPU) and the Rutherford Lab (PEARL) offered to make their facilities available to run external benchmarks. It was suggested that XSEDE resources could be used
+
+**Chair Election**  
+We described the upcoming chair election with Fox stepping down but running for re-election. There seems a possible problem that several active people in this group are not yet members. This has been reported to MLCommons.
+
+**MLCube**
+
+* Technical Specification [https://drive.google.com/drive/folders/17OlmFvP\_uYaY9jL2uvFcI1VoQZ0KcBhD](https://drive.google.com/drive/folders/17OlmFvP_uYaY9jL2uvFcI1VoQZ0KcBhD) open to MLCommons members and summarized in three pictures here. An open link is [https://mlcommons.github.io/mlcube/](https://mlcommons.github.io/mlcube/)   
+* Vibhatha Abeykoon, Indiana University looking at MLCube for EM-Noise benchmark. Contrast Docker and Singularity [https://docs.google.com/presentation/d/19XAtMRPXXZG6DCzSjVzlJMqkkCGXbhTPGWOXTvsQ\_Rg/edit?usp=sharing](https://docs.google.com/presentation/d/19XAtMRPXXZG6DCzSjVzlJMqkkCGXbhTPGWOXTvsQ_Rg/edit?usp=sharing) 
+
+## **![][image3]**
+
+## 
+
+## 
+
+## 
+
+**FAIR metadata**  
+Fox noted that the Benchmark/Infrastructure working group is interested in a presentation in this \-- probably April 6 at 1.30pm Eastern. [Christine Kirkpatrick](mailto:christine@sdsc.edu)agreed to work with Fox on this.
+
+## **Feb 24th, 2021** {#feb-24th,-2021}
+
+### **Present** {#present-125}
+
+Jeyan Thiyagalingam, Geoffrey Fox, Juri Papay,  Aristeidis Tsaris, Gregg Barrett, Amit Ruhela, Bala Desinghu, Junqi Yin, Venkat Vishwanath,  Tony Hey, Nikola Nikolov, Vibhatha Abeyakoon, Murali Emani,  Feiyi Wang 
+
+Apologies: Christine (UCSD)
+
+### **Agenda** {#agenda-3}
+
+1. Any new member introductions  
+2. Benchmark Updates  
+3. MLCommons: prevent early unofficial result publication Discussion  
+4. Possible action items on FAIR metadata  
+5. Should we do anything at SC21?  
+6. Access to PEARL  
+7. Any other business
+
+### **Discussion Points** {#discussion-points-1}
+
+1. WG welcomed Juri Papay,  Nikola Nikolov, Feiyi Wang to the group. Juri is joining us from STFC,  Nikola from Supermicro Ltd and Feiyi  Wang from ORNL/ OLCF.   
+     
+2. Geoffrey on TevolOP: Geoffrey Fox provided the updates on the TeVolOp benchmarks, which relies on a  number of time series (Covid-19, Hydrology and Seismology), Please see the slides [here](https://docs.google.com/presentation/d/1soghzH6-VMk_hacSvHonA3LQZvdM_MImTVzws8pw5Yw/edit?usp=sharing).  The detailed description of the benchmarks will be recorded in the main benchmarking document, with relevant metrics.   
+     
+3. ANL on UNO: Murali, Venkat and Vibhatha provided an update on the Candle UNO Benchmark \- progressing but waiting for SciML Suite. Vibhatha has evaluated the benchmark and has a positive experience on the benchmark.   
+     
+4. ORNL on SEMDL: Junqi provided an update on this.  Murali from ANL has tried it. They are looking into the preprocessing and issues around PyTorch. Feiyi mentioned that he had an issue with PyTorch when testing against the ThetaGPU   
+5. STFC on Cloud: Reasonable progress has been made and some initial results are there, but the scalability is an issue.   
+     
+6. The WG agreed that a reasonable progress has been made across all benchmarks. But a detailed presentation may be needed in future meetings.   
+     
+7. Other issues:   
+* Gregg is keen to collaborate on benchmarks   
+* Amit can provide resources (something for Juri to consider)  
+* Benchmarks are using mixed versions of TF, PyTorch,   
+* Junqi is also trying to run UNO using the new TF2.   
+* It was suggested that Plan B Benchmarks to be tested / evaluated with low priority. 
+
+8. ML Commons status cannot be discussed during the review period. We meant to set up a review process between us.   
+     
+9. FAIR aspects of the benchmarks \- may be difficult to enforce it at the MLCOmmons level. Nevertheless we should try. All metadata to be presented from our benchmark point of view. We need some activity around this aspect to progress. Science benchmarks should cover the FAIR aspect. Tony suggested Gregg and Christine on ensuring that our benchmarks are FAIR compliance.   
+     
+10. Something at SC21? MLComons HPC group is doing something. BoF is planned. HPC group is planning a tutorial and hands-on sessions. Deadline is by the end of April. Two groups submitting competing proposals may not be a good idea. The idea is to hold a joint-BoF (more room for discussion etc) with the HPC group. The WG can provide sufficient materials. And securing BoF is much easier than Tutorials.   
+      
+11. Access to systems:   
+* PEARL is now possible. Users can apply for an account, please approach the WG chairs for more information.   
+* Equally access to ANL systems (thetaGPU) is also being explored.   
+* Access to ORNL's Summit is also possible. Again, approach the WG chairs for information.   
+12. AOB: None
+
+### **Action Points** {#action-points}
+
+1. Review committee for science benchmarks must be established.    
+2. Presentations  from partners are needed in the following weeks.   
+3. Tony to talk to Christine and Gregg  
+4. Update from each of the major sites on benchmarks  
+5. Geoffrey will update on the restrictions around  MLCommons Early Publication   
+6. Geoffrey will liaise with Murali on SC’21 Joint BoF.
+

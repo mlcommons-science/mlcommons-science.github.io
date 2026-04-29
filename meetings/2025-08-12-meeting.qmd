@@ -1,0 +1,24 @@
+---
+title: "August 12, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **August 12, 2025 (9.05 pm. ET for Asia-USA)** {#august-12,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-17}
+
+Geoffrey Fox, Gregor von Laszewski, K M Tawsik Jawad, Khojasteh Mirza, Luke Profio, Victor Lu
+
+### **Google Meet Notes** {#google-meet-notes-13}
+
+* [MLC Science WG \- 2025/08/13 01:38 BST \- Notes by Gemini](https://docs.google.com/document/d/12ipfFxENoeYaeS4nA9-ek6S8u5byHH4GHoADolW8Dqo/edit?usp=sharing)   
+* This document contains the meeting notes from the MLC Science WG meeting on August 13, 2025\. Key discussions included Gregor von Laszewski's demonstration of an updated benchmark website with search functionality and classification of benchmarks and datasets. Geoffrey Fox suggested integrating Google Gemini for automated data collection and rating generation. Tasks were outlined for Khojasteh Mirza, including reviewing "towards a specific AI benchmarks" and contributing to the ML Commons benchmarks graph. Victor Lu discussed condensing paper sections, and Gregor von Laszewski confirmed an email would be sent regarding the certification of a new machine's working status.  
+* Other items included:  
+* Geoffrey Fox's request for Gregor von Laszewski to summarize two papers and provide an overview of FermiLab's activities for a talk to DOE.  
+* Discussion on the current manual rating system and how Gemini might be used to generate ratings.  
+* Khojasteh Mirza's introduction and expertise in computational neuroscience.  
+* Discussion on time series data and identifying suitable neuroscience data sets.  
+* Goals for condensing paper sections and refining terminology, aiming to finish a short paper within a month.  
+* The need for certification that a new DGX workstation machine is working and the old one is no longer needed.  
+* Next steps include Gregor von Laszewski sending summaries, Khojasteh Mirza reviewing a document and completing the ML Commons benchmarks graph, and Victor Lu working with Geoffrey Fox on the database benchmark section of the paper.  
+* Geoffrey notes see links at start of [Time Series Models Summary Table](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?tab=t.0) 
+

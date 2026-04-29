@@ -1,0 +1,66 @@
+---
+title: "July 23, 2025"
+---
+
+## **July 23, 2025**  {#july-23,-2025}
+
+### **Present** {#present-20}
+
+Armstrong Foundjem,  Ben Hawks, Geoffrey Fox, Gregg Barrett, Howard Pritchard, Jeyan Thiyagalingam, Jong Choi, Juri Papay, Kirsten Morehouse, Marco Colombo, Matt Sinclair, Murali Emani, Nhan Tran, Philip Haris, Piotr Luszczek, Satoshi Iwata, Shirley Moore, Victor Lu
+
+### **Apologies** {#apologies}
+
+Gregor von Laszewski (information below added prior to meeting)
+
+### **Presentation** {#presentation}
+
+* Benjamin Hawks presented a wonderful talk  in two parts on Fermilab and Gregor’s work  
+* Recording [MLC Science WG - 2025/07/23 07:59 PDT - Recording](https://drive.google.com/file/d/1rSYhEbNYdQkRUhgcqqP4UJS45gsvVPsh/view)  
+* Presentation Overview/Updates: [Benchmarking Project Updates](https://docs.google.com/presentation/d/10bjyT8fVj6nGDjdUb2ovj2Susw46nQRyNV0bInqQvVA/edit?usp=sharing)  
+* Presentation Benchmark Platform Discussion: [Scientific Benchmark Hosting Platform Evaluation](https://docs.google.com/presentation/d/1t8h6cPsLgh77RAMJf3ZraX8q1JMMWhI9jGZx3dR9990/edit?usp=sharing)
+
+### **Google Meet Notes** {#google-meet-notes-16}
+
+* [MLC Science WG \- 2025/07/23 07:59 PDT \- Notes by Gemini](https://docs.google.com/document/d/1z2Ad05mk_2EMQEysVCOQOow5Izmyr-0ACW4d-DD27mA/edit?usp=sharing)   
+* Ben Hawks provided updates on the benchmarking collection project with Nhan Tran, detailing the V0.1 benchmark definition and a proposed rating system for benchmarks. Victor Lu, Jeyan Thiyagalingam, Philip Harris, and Matt Sinclair discussed generalizing scientific tasks and different approaches to benchmark definitions. Ben Hawks demonstrated a prototype website for the benchmark catalog and evaluated backend platforms, concluding that Hugging Face, possibly combined with other platforms, seems to be a good starting point.
+
+### **Update on Paper Benchmark Carpentry (Gregor)** {#update-on-paper-benchmark-carpentry-(gregor)}
+
+* Definition of benchmark in paper  
+* New Abstract included  
+* HPC section assigned to Piotr
+
+### **Update on benchmark collection (Gregor)** {#update-on-benchmark-collection-(gregor)}
+
+RESULT:
+
+* “make” now creates the PDF and md and puts it in a public accessible dir on github  
+* Results are shown at   
+  * [https://mlcommons-science.github.io/benchmark/](https://mlcommons-science.github.io/benchmark/)  
+* Modifications to yaml files can be done at   
+  * [https://github.com/mlcommons-science/benchmark/tree/main/source](https://github.com/mlcommons-science/benchmark/tree/main/source) 
+
+COMMENT: Due to the state of program Gregor was forced to halt writing the paper and rewrite the program. See: [https://github.com/mlcommons-science/benchmark/graphs/contributors](https://github.com/mlcommons-science/benchmark/graphs/contributors) 
+
+* It is *unclear why the functioning code broke* that Gregor delivered 2 weeks ago and was modified by others. Maybe it was based on wrong ChatGPT search results and improvements. This is the second time this happened. So Gregor asked others to stop improving the code. The previous code required complete rewrite as bugs were too complex and numerous.  
+  * Gregor rewrote program entirely (lots of effort)  
+    * md generator improvements assigned after rewriting to students.  
+      * Gregor added radar charts  
+* YAML files  
+  * Gregor removed many temporary yaml files as it was unclear which were valid or not. Now had as originally agreed upon:  
+    * benchmarks.yaml  
+    * benchmarks-addon.yaml  
+  * Gregor improved many yaml entries  
+  * Students got assigned to improve the yaml entries (in progress)  
+    * such as integration and checkin urls (in progress)  
+    * add ratings (in progress)  
+    * apply a syntax checker based on Gregor's definition (in progress)  
+* As yaml files still contained many errors, Gregor wrote checkers to yaml file as issues not detected by students  
+  * unicode detection  
+  * valid url detector  
+  * several other checks   
+* Gregor wrote bibtex fetcher based on urls that allows to easily integrate the result into the yaml file
+
+
+  
+

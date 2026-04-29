@@ -1,0 +1,139 @@
+---
+title: "July 13, 2022"
+---
+
+## **July 13, 2022** {#july-13,-2022}
+
+### **Present** {#present-99}
+
+Jeyan Thiyagalingam, Juri Papay, Piotr Luszczek, Gregor von Laszewski, Murali Emani, Junqi Yin,, Tom Gibbs, Aristeidis Tsaris, Christine Kirkpatrick
+
+### **Apologies** {#apologies-40}
+
+Geoffrey Fox, Tony Hey, Gregg Barrett, Mallikarjun Shankar 
+
+### **Tentative Agenda** {#tentative-agenda-77}
+
+* Benchmark Licences  
+* Benchmark Submissions  
+* Status updates  
+* AOB
+
+### **Benchmark Licences** {#benchmark-licences}
+
+* License of the current release complies with the Apache 2.0 requirement.  
+* However, if the code is already released somewhere else under different license, it is worth checking. 
+
+### **Benchmark Submissions** {#benchmark-submissions}
+
+* Submission date is set to 30th September, 202
+
+### **Status Updates** {#status-updates}
+
+*  Policies needs to be updated with benchmark names  
+* ·References implementations needs to be chosen, where more than one baselines are there.  
+* Credits on all benchmarks \- whether in the code or separate file. Jeyan prefers on CREDITS file.  
+* Cloud Masking throwing some benchmark-specific messages \- this has to be standardised across benchmarks  
+* Anyone wants modify their benchmark code \- please approach Gregor.  
+* We will create benchmark vs architecture table  
+* We will also create a list of models for each and every benchmark  
+* Jeyan insisted on the location of the data (or relevant scripts) \- DataGateway in STFC can accommodate this.
+
+### **Exchange of Ideas** {#exchange-of-ideas}
+
+**Jeyan** – briefed us about the meeting with David Kanter. Discussed the matter of licences, MLCommons requires they Apache 2.0 for all benchmarks. The SciML-bench uses MIT. We need to talk to the licencing team at STFC if we can publish CloudMask under Apache 2.0. The suggested submission deadline for Science benchmarks is September 30th. All benchmarks have been uploaded to MLCommons GitHub.
+
+**Gregor** – fixed an error in Earthquake code. We need to update the policy document, put in the config file the contact person, email and unify logging across all benchmarks. Remove the columns from logging messages, this can cause problems with Python dictionary syntax.
+
+**Jeyan** – add credits to benchmarks maybe in the README file, don’t put in the code.
+
+**Jeyan** –the mean weakness of benchmarks is that we don’t evaluate many models, for example for CloudMask we use only a single model. Earthquake uses several models.
+
+**Tom** – works closely with the CANDLE teams, an idea would be to use graph model and compare it with CNN for example.
+
+**Jeyan –** we can use various metrics for benchmarks, for example for denoising it is signal to noise ratio
+
+**Jeyan** – we have experience with using AutoML which finds the best batch-size and other parameters. Under open class we can change anything we want, in the closed case the hyper-parameters are all fixed.
+
+**Gregor** – the open case can be a vector field of hyper-parameters, the algorithm can also change drastically.
+
+**Junqi** – not much update about STEMDL, working with Gregor on unified logging. Defined a metric for evaluating the performance of the model, which takes into account the model architecture.
+
+**Junqi** – ran CloudMask on Summit
+
+**Gregor** – started to put together a directory on how to run benchmarks on different architectures. Suggested to make a template which can be modified according to the target architecture.
+
+**Murali** – asked if he can modify the code. Gregor suggested to change the code in his github.
+
+**Jeyan** – suggested to make a summary table for architectures, benchmarks, models
+
+**Junqi** – the STEMDL application currently supports three architectures
+
+**Murali** – the metric reflects how the model processes training samples, they measure threshold, loss and throughput.
+
+**Task for Juri** – start working on a summary table for all benchmarks.
+
+**Jeyan** – the datasets are all over at various locations, we need to unify them. STFC and SDC agreed to mirror the datasets. There is a separate project at STFC Data Gateway. Had a meeting with the team, there is an agreement that we can host the MLCommons datasets at STFC.
+
+**Gregor** – managed to compress the dataset by a factor of 100, they can store the dataset on github.
+
+**Jeyan** – in some cases we have got scripts which generate the data, these scripts are also considered as data
+
+**Christine** – suggested to make it a simple process with a minimum number of steps
+
+**Juri** – help Gregor with uploading files to object storage
+
+**Tom** – on the website there is no indication that there will be multiple models, the website talks just about a reference implementation
+
+### **Summary** {#summary}
+
+* Licenses are as needed Apache 2.0  
+* Submissions for 30th – is underway.  
+* We need to make sure we run each benchmark on different platforms  
+* We also need to ensure that we can get more than one model for each benchmark – so we can complete the argument.  
+* The location of the datasets needs to be cleaned up and should be made clear where they can be obtained.
+
+### **July 14 Community Meeting** {#july-14-community-meeting}
+
+Geoffrey attended meeting in person and presented [Science WG at MLCommons Community Meeting July 14 2022](https://docs.google.com/presentation/d/1YQzhu5VAENewdGMF9ZUkkY2fmd4O2GAIa5-MyIEeqpc/edit?usp=sharing) as part of complete slide deck [2022.07.14 MLCommons Community Meeting](https://docs.google.com/presentation/d/1rRj0-U1W4tX2RrWp6iZwP8-qiE2kFHALZToEtbb5gRA/edit?usp=sharing) 
+
+## **June 29,2022** {#june-29,2022}
+
+### **Present** {#present-100}
+
+Gregor von Laszewski, Juri Papay, Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Piotr Luszczek, Geoffrey Fox, Arjun Shankar, Murali Emani, Jeyan Thiyagalingam, Tom Gibbs
+
+### **Regrets** {#regrets-1}
+
+Tony Hey, Gregg Barrett, Christine Kirkpatrick
+
+### **Tentative Agenda** {#tentative-agenda-78}
+
+* H3 presentation at ISC  
+* H3 paper [H3\_paper\_1173.pdf](https://drive.google.com/file/d/1xg8pXRjCM9WW4hA3gaAvy8Ntw3CJidNw/view?usp=sharing)   
+* ML Perf BoF at ISC  
+* MLCommons and Science WG Rules   
+* Furthering our benchmarks  and evaluations if time  
+* AOB
+
+### **ISC Conference** {#isc-conference}
+
+* Due to travel issues, Piotr gave our presentation [ISC 22 MLPerf BoF.pptx](https://docs.google.com/presentation/d/1EQP8FsMJMNA-r7KQC3uHYXDHaFOL414R/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true) (covering all parts of MLCommons) at ISC BOF June 1,2022. The slides were clear and audience engaged. Discussion was broadly on MLCommons: how will they catchup on new models. Intel asked about running benchmarks on simulators. There were 50-100 attendees.  
+* This was followed by Jeyan’s talk [H3\_Talk\_ISC\_2022.pdf](https://drive.google.com/file/d/1qMDNokh_k7DAe5lNgIMxoJ1sTtf5sJ90/view?usp=sharing) at [H3 workshop](http://www.icl.utk.edu/~luszczek/conf/2022/h3/) June 2, 2022\. This was a 40 minutes with lots of questions on metrics, architectures, consideration of benchmark as a competition. 5 speakers with 25-30 people onsite; the final talk was on power use.
+
+### **Preparing for MLCommons Release** {#preparing-for-mlcommons-release}
+
+* All benchmarks have been loaded into MLCommons GitHub [https://github.com/mlcommons/science](https://github.com/mlcommons/science) but the description .md files need upgrading for each benchmark  
+  * We agreed to do this and we need to ask MLCommons to add access to GitHub and staging  web site [https://stagingscience--mlcommons.netlify.app/en/groups/research-science/](https://stagingscience--mlcommons.netlify.app/en/groups/research-science/) to a few people.  
+  * Responsible people Murali UNO; Juri Cloud stemdl; Gregor earthquake  
+  * Timescale: finish in 2 weeks for next meeting  
+* RAL Oak Ridge, Virginia will run all benchmarks  
+  * Oak Ridge runs UNO	  
+* RAL mentioned running benchmarks on the Cerebras CX1; it seems very fast  
+* NVIDIA (Tom Gibbs) will vet the process  
+* 2 weeks test ok and mlcommons  
+* Need to test that MLCommons test program runs  
+* Need to evaluate rules about data management time as in HPC rules for our rules  
+* Are acknowledgements correct?  
+* Note earthquake and UNO are **not** set up for parallel training; the others are
+

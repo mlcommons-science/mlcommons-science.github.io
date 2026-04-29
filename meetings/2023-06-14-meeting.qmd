@@ -1,0 +1,65 @@
+---
+title: "June 14, 2023"
+---
+
+## **June 14, 2023** {#june-14,-2023}
+
+### **Present** {#present-79}
+
+Gregg Barrett, Geoffrey Fox, Juri Papay, Wesley Brewer, Gregor von Laszewski, Piotr Luszczek, Aristeidis Tsaris, Tom Gibbs,  Mallikarjun Shankar, Murali Emani, 
+
+### **Apologies** {#apologies-24}
+
+Christine Kirkpatrick, 
+
+### **Tentative Agenda** {#tentative-agenda-58}
+
+* Any new members  
+* Any updates on Mailing Lists for the announcement of benchmarks  
+* Status of new Benchmarks   
+* **Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency** (Continued) [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* **Benchmark Carpentry** [benchmark-carpentry](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)   
+* **AI Readiness of MLCommons Science** (Continued) [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Patterns, Foundation Models, and Benchmarks  [AI4ScienceFoundationPatternsBenchmarksv2.pdf](https://drive.google.com/file/d/1ZAIeWX0zOociMuAv5c58c9QbCjBHZFT8/view?usp=sharing)    
+* AOB
+
+### **General Discussion** {#general-discussion-4}
+
+* We noted some login difficulties that some participants have to be admitted by hand; Shankar sent round a solution  
+* Juri has sent out announcements of our MLCommons benchmark release  
+* The RAL SciML group (represented by Juri) has a new release [https://github.com/stfc-sciml/sciml-bench/tree/master/sciml\_bench/benchmarks/science/hydronet](https://github.com/stfc-sciml/sciml-bench/tree/master/sciml_bench/benchmarks/science/hydronet)   
+* Juri described a graph application Hydronet from Pacific NW DOE Laboratory. It scales to 18 GPUs and could be considered for MLCommons.  There were some issues in running on older GPUs such as those on Summit. Juri ran on Graphcore  
+* It is 30 degrees Centigrade in London so laptop has coped by retreating to 0.4 Ghz clock cycle.  
+* It was noted by Virginia that we know of improvements in both the Earthquake and Cloudmask benchmarks; the latter is in collaboration with NYU
+
+### **AI Benchmarks and the March of Time** {#ai-benchmarks-and-the-march-of-time}
+
+* Progress is rapid in AI; the transformer paper was 2017 and now we have advanced to ChatGPT  
+* Tom Gibbs noted that benchmarking as in MLPerf has not kept up with this rapid change  
+  * Looking at AI running at NERSC, it is different from MLPerf  
+  * Note simulations and their benchmarks have not changed  
+* Tom noted that H100 was optimized for Transformer neural nets but is that the future?  
+  * See discussion below – maybe not  
+* Stability of benchmark conflicts with being up to date  
+* Wes Brewer contributed a recent paper on temporal forecasting. [PU0174\_VFS\_VCGI\_Paper\_A.pdf](https://drive.google.com/file/d/1RVHFNzdFNy1NSVdOHRWsf9w4StEqzlmp/view?usp=sharing)   
+  * They compare temporal convolutional neural networks, LSTMs, and transformers for solving the problem of predicting stress fatigue loads on rotorcraft aerodynamics. The conclusion was that while the transformer did produce some very good predictions, the LSTM performed broadly better over all the unseen test cases.   
+* Geoffrey noted that for Earthquake benchmark, the transformer and LSTMare similar  
+* Wes Brewer gave a summaryof the MLSys keynote talk by Sasha Rush [DoWeNeedAttention.pdf](https://drive.google.com/file/d/19B0IY-894uB4lpB_zrwfjMI7O9dsonXt/view?usp=sharing)   
+  * Do we need attention? By Sasha Rush – in this talk Rush argues that because transformer-based LLMs are limited by context length and computationally expensive (training speed is quadratic in length and attention requires full lookback for inference), there has been quite a bit of effort since last year in looking into attention alternatives, causing an RNN revival, specifically in the form of Linear RNNs (uses linear activation functions). The challenge with Linear RNNs is that they don’t learn as well as attention-based models. The main benefits of linear RNNs are that they are more computationally efficient especially for long token lengths. Slides are available here: [do-we-need-attention/DoWeNeedAttention.pdf at main](https://github.com/srush/do-we-need-attention/blob/main/DoWeNeedAttention.pdf)   
+  * Slides 16-17 in the link above lists references of many of the papers that have been published since last year of researchers investigating alternatives to transformers for LLM.   
+* Tom Gibbs noted that NVIDIA wants “average” science interest over next 5 years so as to design most useful systems  
+* We returned to the last meeting discussion of Foundation models and patterns  
+* We need to understand what patterns must be supported  
+* For example does Fusion work of Bill Tang have same pattern as Earthquakes  
+* Map scientific problems to needed patterns of Scientific Discovery  
+* Patterns could guide NVIDIA
+
+### **Future of Science Working Group** {#future-of-science-working-group}
+
+* Above discussion relates to “ I think this relates back to also trying to get funding from the NSF for a systematic and sustainable effort.”  
+* FastML could be useful  
+* Study of workloads could be useful  
+* Is it true that “Nobody cares about our work”  
+* Shankar: we are doing science not HPC  
+* Handicapped by a lack of a thriving ecosystem of scientists that we can tap into
+

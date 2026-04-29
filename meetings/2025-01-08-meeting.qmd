@@ -1,0 +1,41 @@
+---
+title: "January 8, 2025"
+---
+
+## **January 8, 2025** {#january-8,-2025}
+
+### **Present** {#present-40}
+
+Geoffrey Fox, Andy Cheng, Armstrong Foundjem, Azza Ahmad, Briana Cervantes, Claus Weiland, Elie Alhajjar, Gregg Barrett, Juri Papay, Hussain Ather,  Jeyan Thiyagalingam, Karen Bennet, Malek Ben Salem, Marco Colombo, Marisa Ahmad, Nhan Tran, Philip Harris, Piotr Luszczek, Riccardo Balin, Shirley Moore, Steven Farrell, Victor Lu, Vijay Janapa Reddi, Wes Brewer
+
+### **Apologies** {#apologies-5}
+
+Gregor von Laszewski
+
+### **Tentative Agenda** {#tentative-agenda-22}
+
+* Any New Members Introduction  
+* Setting Agenda for 2025  
+* White Papers  
+  *  Benchmark Carpentry [benchmark-carpentry](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5) [https://www.overleaf.com/project/67585323797c7e764c254a84](https://www.overleaf.com/project/67585323797c7e764c254a84)    
+  * MLCommons Science FAIR Concept Paper (AI Readiness) [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
+* Any Other Business
+
+### **New Members** {#new-members-17}
+
+* **Malek Ben Salem** [Malek Ben Salem, PhD \- Accenture | LinkedIn](https://www.linkedin.com/in/malek-ben-salem/) [Malek Ben Salem \- IPWatchdog.com | Patents & Intellectual Property Law](https://ipwatchdog.com/people/malek-ben-salem/) At Accenture, steering the helm of emerging technology, her focus lies on guiding C-suite clients through the complexities of adopting AI/ML, quantum and other emerging technologies securely. Her recent tenure has seen the birth of generative AI capabilities and the nurturing of global partnerships to train robust LLMs and AI agents. This role capitalizes on her expertise in AI/ML and her credentials in cybersecurity and technology architecture.  
+  * The blend of her roles, as the Technology Research Director and now as the Managing Director, reflects a career dedicated to pioneering trustworthy AI. Through leadership and innovation, she delivered tools that fortify ML models against privacy threats and crafted quantum security solutions. Her path is one of creating responsible, impactful AI and security technologies that resonate across industries and borders.  
+* **Syed Hussain Ather** [Syed Hussain Ather \- MLCommons | LinkedIn](https://www.linkedin.com/in/syed-hussain-ather-049919137/) AI Engineer \- Research Scientist working across neuroscience, medical physics, educational technology, mixed reality, and other areas.   
+  * [Heuristic](http://hussainather.com)     [https://twitch.tv/hussainather](https://twitch.tv/hussainather)   
+  * Syed was a Physics undergraduate with Fox’s colleague Adam Szczepaniak, at Indiana University.  
+* **Marco Colombo** information was unfortunately not recorded
+
+### **Discussion** {#discussion-15}
+
+* Juri Papay gave a Presentation [mlCommons\_08012025.pptx](https://docs.google.com/presentation/d/1jUkkS8J01ZiZwcnPVhx74rb6VH90A3-l/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true) comparing performance of NVIDIA A100 and H100 with the AMD MI200 and MI300.  
+  * Victor Lu noted [PCIe bandwidth is asymmetrical between Host to Device and Device to Host \- GPU \- Hardware \- NVIDIA Developer Forums](https://forums.developer.nvidia.com/t/pcie-bandwidth-is-asymmetrical-between-host-to-device-and-device-to-host/318613) in response to Juri’s slide 5 on asymmetric bandwidth host to device being much larger than device to host   
+* Philip Harris [https://www.nsfhdr.org/mlchallenge](https://www.nsfhdr.org/mlchallenge) described his anomaly detection benchmark challenge organized by the NSF HDR (Harnessing the Data Revolution)  
+* Vijay Janapa Reddi described the NSF POSE project led by Harvard and also involving the University of Tennessee and Virginia University  
+  * Need to make a plan with goals and milestones over next two weeks  
+* Follow up meeting with Matt Sinclair, Christine, Gregor, Geoffrey. Matt has work on reproducibility that can be added to paper. This is the definition of reproducibility Christine uses \- in short, an independent person on a different system getting a result that leads to the same conclusion. With ML, you will get different numbers as  it were, but that can still represent reproducibility.  [https://ojs.aaai.org/index.php/AAAI/article/view/11503](https://ojs.aaai.org/index.php/AAAI/article/view/11503)    see esp. fig 1\.
+

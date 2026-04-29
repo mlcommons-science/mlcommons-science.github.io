@@ -1,0 +1,50 @@
+---
+title: "June 25, 2025"
+---
+
+## **June 25, 2025** {#june-25,-2025}
+
+### **Present** {#present-24}
+
+Amin Maleki, Armstrong Foundjem,  Gary Mazzaferro, Geoffrey Fox,Gregg Barrett,  Gregor von Laszewski, Javier Toledo, Jeyan Thiyagalingam, Juri Papay, Kirsten Morehouse, Khojasteh Mirza, Marco Colombo, Philip Haris, Piotr Luszczek, Satoshi Iwata, Victor Lu, Wenhui Zhang
+
+### **Tentative Agenda** {#tentative-agenda-10}
+
+* Any New Members Introduction  
+* Presentation by Kirsten Morehouse, Harvard  
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks based on [https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)    
+* White Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)   
+  * New white paper on Science Benchmarks  
+* Any Other Business
+
+### **Google Meet Notes** {#google-meet-notes-20}
+
+* [MLC Science WG \- 2025/06/25 07:59 PDT \- Notes by Gemini](https://docs.google.com/document/d/1JVZSI6oJc2aSOXHojlTJqUb1DB7-xVHgR2Vzxm7NB30/edit?usp=sharing)   
+* **Summary:** Geoffrey Fox welcomed new member Khojasteh Mirza. Kirsten Morehouse presented their work on bias probing in LLMs, introducing the Eco Levels framework and discussing lessons from social sciences, leading to a discussion with gyuri papay and Jeyan T (Jeyan) about collaboration with LLM developers and bias measurement. Gregor von Laszewski presented progress on the benchmark repository development using YAML files and discussed benchmark specification and data sets, prompting a discussion with Geoffrey Fox and Victor Lu about reconciling benchmark lists, database AI benchmarks, and the Julia community's benchmarking approach.
+
+### **New Members** {#new-members-6}
+
+* **Khojasteh Mirza** [https://www.linkedin.com/in/khojasteh-mirza/](https://www.linkedin.com/in/khojasteh-mirza/) is a Data Scientist building biologically inspired artificial neural networks. Currently, he is working as an Associate Researcher in the rapidly evolving field of Machine Learning and Computational Neuroscience at Mount Sinai in NYC. He is passionate about applying AI and data science to solve real-world problems, especially in the healthcare domain. He has a Master's degree in Electrical and Computer Engineering from Cornell University.
+
+### **Presentation by Kirsten Morehouse** {#presentation-by-kirsten-morehouse}
+
+* Kirsten’s excellent presentation [Morehouse\_MLCommons\_062425.pptx](https://docs.google.com/presentation/d/1gKZ3WEYNy9Xz-3POrSFjukvsL1QyMJ9C/edit?usp=drive_link&ouid=114300777188823967496&rtpof=true&sd=true) was followed by questions from Juri and Jeyan. See Gemini notes [MLC Science WG \- 2025/06/25 07:59 PDT \- Notes by Gemini](https://docs.google.com/document/d/1JVZSI6oJc2aSOXHojlTJqUb1DB7-xVHgR2Vzxm7NB30/edit?usp=sharing) for more details.  
+  * Her paper is [Position: Rethinking LLM Bias Probing Using Lessons from the Social Sciences](https://openreview.net/pdf?id=tctWi7I5wd)   
+* Gregg noted that he found that the issue is often a disagreement on the definition of bias.
+
+### **Benchmark Collections** {#benchmark-collections}
+
+* Gregor summarized results of his work with Fermilab interns working with Nhan Tran  
+  * [https://github.com/mlcommons-science/benchmark/tree/main](https://github.com/mlcommons-science/benchmark/tree/main)   
+  * [https://github.com/mlcommons-science/benchmark/blob/main/content/tex/benchmarks.pdf](https://github.com/mlcommons-science/benchmark/blob/main/content/tex/benchmarks.pdf)   
+  * [https://github.com/mlcommons-science/benchmark/blob/main/content/md/index.md](https://github.com/mlcommons-science/benchmark/blob/main/content/md/index.md)   
+* Gregg Barrett noted that Gregor had done a nice job on the GitHub.  
+* Gregor noted that some improvements can be done, but in principal we now have framework to additional benchmarks and additional features. Note that the program is flexible to rename, add or delete things. Further, it also includes bibtex refs which is important for inclusion in the papers we write. This PDF is a template for using a quite sophisticated latex table while going beyond what we typically use, e.g. long table and landscape mode switch when rendering the PDF.  
+* The Benchmark Carpentry paper is [https://www.overleaf.com/project/67585323797c7e764c254a84](https://www.overleaf.com/project/67585323797c7e764c254a84) or [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84) but not updated this week  
+  * Kirsten Morehous and Khojasteh Mirza joined team  
+* Gary noted standard  data sets allow comparison of benchmarks, i.e. benchmark the benchmarks  
+* Benchmarks are [https://docs.google.com/spreadsheets/d/1Haagoyc1cqmPca96fR9dHSsDsuO0j6bOCgXSVfTr0IM/edit?gid=0\&authuser=2\#gid=0](https://docs.google.com/spreadsheets/d/1Haagoyc1cqmPca96fR9dHSsDsuO0j6bOCgXSVfTr0IM/edit?gid=0&authuser=2#gid=0) or a different version [https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)   
+  * Gregor will reconcile these versions  
+* Victor suggested asking for a presentation on Julia benchmarks; Geoffrey will ask Alan Edelman.
+

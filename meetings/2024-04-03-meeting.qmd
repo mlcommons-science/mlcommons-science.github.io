@@ -1,0 +1,47 @@
+---
+title: "April 3, 2024"
+---
+
+## **April 3, 2024** {#april-3,-2024}
+
+### **Present** {#present-60}
+
+Geoffrey Fox, Gregor von Laszewski, Gregg Barrett,  Piotr Luszczek, Victor Lu,  Elie Alhajjar, Tom Gibbs, Aristeidis Tsaris, Christine Kirkpatrick, Jeffrey Ma, Andre Bertolace
+
+### **Apologies**  {#apologies-11}
+
+Juri Papay, Vijay Janapa Reddi
+
+### **Tentative Agenda** {#tentative-agenda-40}
+
+* Any New Members Introduction  
+* AI Alliance Meeting April 2 2024  
+* Michigan Science Foundation Model Meeting?  
+* Science Foundation Models  
+* Updates on Papers and Projects  
+* Any Other Business
+
+### **New Members** {#new-members-27}
+
+* Jeffrey Ma is a Ph.D. students in AI under Vijay Janapa Reddi at Harvard [https://18jeffreyma.github.io/](https://18jeffreyma.github.io/)   
+* Andre Bertolace [andre.bertolace@eng.ox.ac.uk](mailto:andre.bertolace@eng.ox.ac.uk)       [https://www.linkedin.com/in/andre-bertolace-87983426/](https://www.linkedin.com/in/andre-bertolace-87983426/)  is a DPhil candidate in the intersection of AI/ML, convex optimization, adversarial learning and secure collaborative computation. He has an LLM startup (see LinkedIn for details)
+
+### **AI Alliance Meeting April 2 2024** {#ai-alliance-meeting-april-2-2024}
+
+* Geoffrey went to Foundation Group breakout at AI Alliance meeting with mainly Industry presentations, especially IBM and ServiceNow with a strong interest in time Series and benchmarks. Material science also discussed  
+* The group recommended aligning MLCommons and AI Alliance in benchmarking ; perhaps by reaching out to IBM.
+
+### **Foundation Models** {#foundation-models-1}
+
+* Tom Gibbs noted the latest Nvidia products stress low precision; as small as 1.57 bits with inference as a key goal  
+* Designed for LLM, one needs to test on regression with Generative AI and also look at Training process  
+* Geoffrey suggested the Calorimeter simulation which started as a Kaggle challenge but is still very active. He will prepare a memo on this. His current notes are at [Calorimeter](https://docs.google.com/document/d/19g0Avj9SYbVH7qSxoVUnnFKeGMuBdD9JCHVmBQB466M/edit?usp=sharing)   
+* Fermilab pushing inference  as a service  
+* Graph neural net eused in particle physics [https://exatrkx.github.io/](https://exatrkx.github.io/)  
+* Christine noted that Yuhan (Douglas) Rao was working on a Nasa foundation model that we should investigate
+
+### **Updates on Papers** {#updates-on-papers}
+
+* Christine suggesting splitting our (rejected) paper into two but Gregg and Gregor preferred submitting a version of current full paper to a different venue  
+* Christine away for next 2 meetings
+

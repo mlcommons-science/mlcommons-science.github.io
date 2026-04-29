@@ -1,0 +1,35 @@
+---
+title: "November 12, 2025"
+---
+
+## **November 12, 2025** {#november-12,-2025}
+
+### **Present** {#present-4}
+
+* Abdulkareem Alsudais, Armstrong Foundjem,  Ben Hawks, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Juri Papay, Marco Colombo, Murali Emani, Piotr Luszczek
+
+### **Tentative Agenda** {#tentative-agenda-2}
+
+* Any New Members Introduction  
+* White Papers and Published Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/project/68f8f5b979760743fe572121](https://www.overleaf.com/project/68f8f5b979760743fe572121)   
+  * Paper on Science Benchmarks and Ontologies [http://arxiv.org/abs/2511.05614](http://arxiv.org/abs/2511.05614)   
+  * New white papers  
+* Any Other Business
+
+### **Google Meet Notes** {#google-meet-notes-4}
+
+* [MLC Science WG \- 2025/11/12 07:57 PST \- Notes by Gemini](https://docs.google.com/document/d/1dtVXx68nPvAkM2KbCPWIlUX8jL-KJd6sMu8hUzpuVrM/edit?tab=t.qvu4nsf9ogua)  
+* Ben Hawks announced the official posting of the benchmark ontology paper on arXiv, including the operational accompanying website, which Geoffrey Fox confirmed aligns with the goal of supporting science through benchmark documentation and classification. Gyuri papay called the paper a "road map" but discussed hardware suitability, noting that machine learning tasks achieve significantly lower performance than distributed Linpack, prompting a discussion with Geoffrey Fox about integrating AI trustworthiness and addressing inherent errors in scientific data. Gregor von Laszewski updated the group on the stalled "carpentry paper," requesting help with open sections and reviewing the ML Commons hardware column, which Armstrong Foundjem and Gyuri papay volunteered to assist with, while Piotr Luszczek shared that the Top 500 status is ready and discussed the performance drop in FP64 due to the industry shift toward low-precision AI computing.
+
+The meeting included updates and discussions on several key topics:
+
+* **Benchmark Ontology Paper** Ben Hawks announced the official posting of the benchmark ontology paper on arXiv and the accompanying operational website. Geoffrey Fox confirmed that this aligns with the goal of supporting science through benchmark documentation and classification, contrasting with benchmarks focused on computer procurement. Gyuri papay called the paper a "road map".  
+* **Trustworthiness and Scientific** AI Gyuri papay and Geoffrey Fox discussed the importance of integrating AI trustworthiness into scientific simulations, and Geoffrey Fox raised the issue of inherent errors in scientific data, questioning the suitability of using mean square error as a loss function.  
+* **Hardware and Performance** Gyuri papay discussed hardware suitability, noting that machine learning tasks achieve significantly lower performance (30% to 50%) than distributed Linpack, which was used to reach the exaflop mark on Frontier. Piotr Luszczek shared that the Top 500 status is ready and discussed the significant performance drop in 64-bit floating point (FP64) on new hardware, as the industry is shifting toward faster, low-precision (16-bit, 8-bit) AI computing. Gyuri papay suggested the need for a generic AI benchmark similar to Linpack for system ranking.  
+* **Carpentry Paper** Gregor von Laszewski updated the group on the stalled "carpentry paper," requesting help with open sections and reviewing the ML Commons hardware column. Armstrong Foundjem and Gyuri papay volunteered to assist.
+
+**Suggested Next Steps**
+
+* The group will look through the ML Commons benchmark reports and check the hardware column for the carpentry paper table.
+

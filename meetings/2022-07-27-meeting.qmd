@@ -1,0 +1,45 @@
+---
+title: "July 27, 2022"
+---
+
+## **July 27, 2022** {#july-27,-2022}
+
+### **Present** {#present-98}
+
+Piotr Luszczek, Gregor von Laszewski, Murali Emani, Junqi Yin, Aristeidis Tsaris, Christine Kirkpatrick, Geoffrey Fox, Gregg Barrett, Dingwen Tao, Farzana Yasmin Ahmad,
+
+### **Apologies** {#apologies-39}
+
+Jeyan Thiyagalingam, Juri Papay, Tony Hey, Mallikarjun Shankar 
+
+### **New member introductions** {#new-member-introductions-1}
+
+Dingwen Tao introduced himself and his [https://www.dingwentao.com/](https://www.dingwentao.com/) on compression, storage, and high performance computing. He is currently at Washington State University but will move to Indiana University Bloomington this fall. 
+
+### **Tentative Agenda** {#tentative-agenda-76}
+
+* New member Introduction  
+* Finalize 4 benchmarks  
+* MLCommons and Science WG Rules. Draft is  [https://github.com/laszewsk/mlcommons/blob/main/www/content/en/docs/policy.adoc](https://github.com/laszewsk/mlcommons/blob/main/www/content/en/docs/policy.adoc)   
+* AOB
+
+### **MLCommons and Science WG Rules** {#mlcommons-and-science-wg-rules}
+
+* After Tao introduction, the meeting was devoted to discussing the policy document describing our benchmarks. This centered on questions from Mattson given below  
+  * Clarify inference vs. training separation in draft  
+  * Fixed dataset?  
+  * Fixed target accuracy?  
+  * Hyperparameter scaling?  
+  * Why performance at all? (Consider fixed time, variable accuracy)  
+  * Relation to HPC working group  
+  * Submission log format  
+  * Submission review process  
+  * Submission schedule  
+* The resultant draft Response to Peter Mattson’s comments [https://docs.google.com/document/d/1uD4TjEja74G7CTqDgSiDUF7chteqecBkyBBjcJLmXPM/edit?usp=sharing](https://docs.google.com/document/d/1uD4TjEja74G7CTqDgSiDUF7chteqecBkyBBjcJLmXPM/edit?usp=sharing)   
+* This was discussed with Peter later in the day resulting in a revised set of responses [https://docs.google.com/document/d/1ioE8bs\_oQ5yJj1ydgEUsQqIrvwJQt1J0Zic6pgBsoFA/edit?usp=sharing](https://docs.google.com/document/d/1ioE8bs_oQ5yJj1ydgEUsQqIrvwJQt1J0Zic6pgBsoFA/edit?usp=sharing)   
+* Useful links coming up in the discussion are given below.  
+  * Draft Science working group policy [https://github.com/laszewsk/mlcommons/blob/main/www/content/en/docs/policy.adoc](https://github.com/laszewsk/mlcommons/blob/main/www/content/en/docs/policy.adoc)   
+  * Training Schedule for HPC working group [https://docs.google.com/spreadsheets/d/1szBWL108tL6cr--6fYOjKDnEO600PtMa161V1m0e-4Y/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1szBWL108tL6cr--6fYOjKDnEO600PtMa161V1m0e-4Y/edit?usp=sharing)   
+  * MLCommons Issues [support@mlcommons.org](mailto:support@mlcommons.org) [systems@mlcommons.org](mailto:systems@mlcommons.org) and of course email to Peter Mattson and David Kanter  
+  * Logging for HPC is [https://github.com/mlcommons/logging/tree/hpc-1.0-branch](https://github.com/mlcommons/logging/tree/hpc-1.0-branch) 
+

@@ -1,0 +1,32 @@
+---
+title: "November 4, 2024 HPC Working Group Meeting"
+---
+
+## **November 4, 2024 HPC Working Group Meeting** {#november-4,-2024-hpc-working-group-meeting}
+
+### **Present** {#present-44}
+
+Andreas Prodromou (chair HPC), Murali Emani (co-chair HPC), Thorsten Kurth, Marisa Ahmad, Amit  Ruhela, Geoffrey Fox
+
+### **Discussion of Current Next Steps** {#discussion-of-current-next-steps}
+
+Expanding on last meeting of HPC working group
+
+* David and Marisa indicated merger plan will almost certainly be approved  
+* HPC Meetings:  
+  * Reschedule (according to Science WG)  
+  * Unclear if keep every 2 weeks or go to once a week  
+* Transfer mailing list ownership  
+  * Geoffrey should be able to email HPC WG list  
+* Discord:   
+  * Add channel owners from Science WG  
+* Website:  
+  * Update links to mailing list to point to Science WG  
+* SC Birds of a Feather Update:  
+  * Mention the plans in update  
+  * Check with presenters  
+  * David Kanter expects to be present  
+* Proposal:  
+  * Socialize it at SC  
+  * Present a plan and a starting date
+

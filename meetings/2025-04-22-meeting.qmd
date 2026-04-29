@@ -1,0 +1,19 @@
+---
+title: "April 22, 2025 (9 pm. ET for Asia-USA)"
+---
+
+## **April 22, 2025 (9 pm. ET for Asia-USA)** {#april-22,-2025-(9-pm.-et-for-asia-usa)}
+
+### **Present** {#present-32}
+
+Brandon  Whitehead, Geoffrey Fox, Javier Toledo, Satoshi Iwata, Victor Lu, 
+
+### **New Member** {#new-member-5}
+
+* **Brandon  Whitehead** is from New Zealand in environmental data science
+
+### **Google Meet (Gemini) Notes** {#google-meet-(gemini)-notes}
+
+* [https://docs.google.com/document/d/198fTzbaQZBw5551L6di34AvOfp6So0z-FveqwWMT-aI/edit?usp=sharing](https://docs.google.com/document/d/198fTzbaQZBw5551L6di34AvOfp6So0z-FveqwWMT-aI/edit?usp=sharing)   
+* **Summary:** The meeting, attended by a small group including Geoffrey Fox and a new member, Brandon Whitehead, focused on automating benchmark management using AI and LLMs like Gemini and DeepSearch.  While these tools proved effective for simpler benchmarks, challenges arose with complex datasets, necessitating the development of specialized AI agents and refinements to the LLM approach.  Future plans involve continuing bi-weekly meetings with broader promotion to increase attendance, and Geoffrey Fox will continue developing the LLM-based benchmark categorization system for improved accessibility and updatability.
+

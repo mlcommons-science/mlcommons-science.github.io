@@ -1,0 +1,48 @@
+---
+title: "March 8, 2023"
+---
+
+## **March 8, 2023** {#march-8,-2023}
+
+### **Present** {#present-85}
+
+Gregg Barrett, Geoffrey Fox, Juri Papay, Christian Herwig, Piotr Luszczek, Mallikarjun Shankar, Wesley Brewer, Aristeidis Tsaris, Tom Gibbs, Gregor von Laszewski
+
+### **Apologies** {#apologies-26}
+
+Jeyan Thiyagalingam, 
+
+### **Tentative Agenda** {#new-members-37}
+
+* Any new members  
+* Positioning of Science Benchmarks in MLCommons  
+* AI Readiness of MLCommons Science  (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency  (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* Discussion of new Benchmarks (Continued)  
+* AOB
+
+### **New Members** {#new-members-37}
+
+* Christian Herwig introduced himself. He is a postdoc at Fermilab and works on the FastML science inference benchmark suite. Various meetings including Vijay Janapa Reddi (Harvard, MLCommons), Phillip Harris (MIT, NSF HDR), Nhan V Tran (Fermilab), and the MLCommons HPC working group, suggested coming to the Science working group. Christian will give us a talk at a later meeting.
+
+### **Positioning of Science Benchmarks in MLCommons** {#positioning-of-science-benchmarks-in-mlcommons-1}
+
+* This occupied most of the discussion  
+* [Geoffrey Fox](mailto:gcfexchange@gmail.com) described conversations with MLCommons leadership that would make the goals of the Science WG clearer. He suggested changing the current structure with a primary open division focused on scientific discovery and a secondary closed division focused on classic computer performance. Rather he suggested just having an open research and education division that could cover all aspects of benchmarks with science discovery highlighted. This, in particular, could cover nicely the educational uses of our benchmarks, which we have found important.  
+* Later discussion concerned the nature of result presentation – a Blog, wiki-like interface could be possible.  
+* What are our key fixed components: input dataset and scientific discovery metrics come to mind. Encouraging Innovation is a key goal. Time to solution is just one possible measure which, in some cases, is key to the scientific value (see FastML or OSMI, where science results depend on fast inference)  
+  * Parallelism, algorithm and computer choice are all important as is designing Foundation models and models that cross fields.  
+* Gregg suggested "ML SOTA for Science"  
+* Tom Gibbs talked about “Linpack Fatigue” and that one benchmark did not fit everything. MLPerf has many, but they are already a bit outdated. He will talk to Jack Wells at NVIDIA, whose DOE heritage will give good background.  
+* The churn in algorithms highlights the need for exploration rather than just fixed benchmarks.  
+* Constraints to address include power and memory use.
+
+### **Draft Positioning Statement (edited in later meetings)** {#draft-positioning-statement-(edited-in-later-meetings)}
+
+The goal of the MLCommons Research Science working group is to produce artifacts that help advance science. These artifacts are structured as benchmarks with datasets, reference model(s), and goals that cover Science, Research, and Education. The primary goal is that our benchmarks inspire research that achieves better scientific discovery through our benchmarks. raining students by using our artifacts in classes is also important. In this case, you can submit either a report on the class or a class notes that use our artifacts to train the new scientists who will advance discovery. Unlike other MLCommons groups, we do not have a closed division but just the Research and Education *open* (i.e., open to change) division that can accept multiple types of submissions. We will index all submissions and group them together into types of submissions. We maintain a leaderboard for our submissions. Note in some inference examples, system performance needs to be improved to advance science directly. Examples here include deep learning models for microstructure in fluid calculations that must be invoked at every grid point. Another example is online data analysis to select interesting events in real time. Our GitHub is used to submit artifacts for each submission, as in MLPerf training and inference. But we also offer a blog-like interface for you to describe your submissions. Sometimes you may only need the latter if, for example, you are describing a class use of our benchmark artifacts without modification. The working group insists that all submissions are properly described with metadata so we can help advance this accessibility agenda.
+
+### **AOB** {#aob}
+
+* Juri Papay discussed recent observations [gpu\_utilisationPapayMarch7-2023.pptx](https://docs.google.com/presentation/d/1aYUvRtxLCAhzTmxLw-_0e7tstTHTt5ir/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true) following the above discussion of churn in AI algorithms implying larger and larger jobs. Juri discussed GPU and memory size and bandwidth challenges.  
+* Piotr noted [https://bitbucket.org/mgates3/plots/raw/cdc37925f629092386e6df3cb3682506c2e88f91/machine-balance/machine-balance.pdf](https://bitbucket.org/mgates3/plots/raw/cdc37925f629092386e6df3cb3682506c2e88f91/machine-balance/machine-balance.pdf) 
+

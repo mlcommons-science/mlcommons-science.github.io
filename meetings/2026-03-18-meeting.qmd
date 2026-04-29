@@ -1,0 +1,53 @@
+---
+title: "Meeting Notes - March 18, 2026"
+---
+
+## **March 18, 2026**
+
+### **Present**
+
+- Armstrong Foundjem, Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Juri Papay, Lisa Yang, Marco Colombo, Piotr Luszczek, Satoshi Iwata, Shirley Moore, TUES DAY,  Victor Lu
+
+### **Apologies**
+
+- Gregg Barrett, Matt Sinclair
+
+### **Tentative Agenda**
+
+- Any New Members Introduction
+
+- DOE Genesis RFA 
+
+  - [DE-FOA-0003612.pdf](https://drive.google.com/file/d/1SxqbarY_BogYvRpYzH-6sZtT-4LdNAG0/view?usp=sharing) 
+
+  - [genesis-mission-science-and-technology-challenges.pdf](https://drive.google.com/file/d/1r6pO0clrjJ3TwJ4K0Q44znwJlV4hNPrb/view?usp=sharing)
+
+  - Unofficial summary of topics  [DOE AI-Driven Science and Technology Initiatives.pdf](https://drive.google.com/file/d/1iYXvKnB-do9jhA-fcbqba6O2iSZIhBBz/view?usp=sharing)
+
+- Future Projects
+
+- Any Other Business
+
+### **Meeting Notes**
+
+- **Gemini Notes** [MLC Science WG - 2026/03/18 08:00 PDT - Notes by Gemini](https://docs.google.com/document/d/1Urmfr5kZqq4vivoO3t3TtcRb5rO_t7epn0zZVYv9vg4/edit?usp=sharing) Summary
+
+- **UN AI forum** participation and energy benchmark proposal were discussed, with a significant focus on aligning with the DOE AI and HPC solicitation, including the potential involvement of Greenbox Labs and D-Wave.
+
+- **Energy Benchmark Proposal Shared: A proposal for the energy benchmark focusing on AI and HPC workload was prepared and will be distributed via email. Armstrong Foundjem was unable to present due to attending and speaking at the UN AI forum on global policy.**
+
+- **DOE AI HPC Solicitation: The Department of Energy solicitation for AI and HPC workload was discussed, noting its heavy orientation towards applied applications and the need for strong integration with DOE labs. Geoffrey Fox concluded that Area 18, covering performance prediction, was the most relevant match for ML Commons benchmark work.**
+
+- **Greenbox Labs Collaboration and Grants: Greenbox Labs (Lisa Yang) introduced their work on hardware-enabled software for plant science research using MLR format, expressing interest in collaboration with ML Commons data groups. Greenbox Labs plans to apply for the DOE grant under the lab automation section (Topic 11) with university partners.**
+
+- Gregg Barrett (in attendance apology) said he hoped to collaborate in DOE call
+
+- **Things to do:**
+
+  - Geoffrey Fox will drop an email to Oakridge and FermiLab DOE laboratories to ask what opportunities they saw in the DOE solicitation.
+
+  - J. Toledo will look into the DOE solicitation in more detail and share it with D-Wave, suggesting they look at the solicitation and contact them.
+
+  - Armstrong Foundjem will send the proposal for the energy benchmark with AI and HPC workload to Geoffrey Fox through email.
+
+  - Lisa Yang will give a presentation on their work sometime and email Geoffrey Fox to set it up.

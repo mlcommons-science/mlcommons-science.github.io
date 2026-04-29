@@ -1,0 +1,38 @@
+---
+title: "July 9, 2025"
+---
+
+## **July 9, 2025**  {#july-9,-2025}
+
+### **Present** {#present-22}
+
+Armstrong Foundjem,  David Kanter, Geoffrey Fox, Gregor von Laszewski, Howard Pritchard, Javier Toledo, Juri Papay, Marco Colombo, Matt Selensky, Matt Sinclair, Olivia Hull, Philip Haris, Piotr Luszczek, Satoshi Iwata, Shirley Moore, Tom Gibbs, Victor Lu
+
+### **Google Meet Notes** {#google-meet-notes-18}
+
+* [MLC Science WG \- 2025/07/09 07:56 PDT \- Notes by Gemini](https://docs.google.com/document/d/1mfQ2N82JnAYILgAv_GSO90vyjIW4R9olnwLkFJtPFTo/edit?usp=sharing)
+
+### **Presentation on “Using MLPerf for Procurement at NREL”** {#presentation-on-“using-mlperf-for-procurement-at-nrel”}
+
+* By Matt Selensky and Olivia Hull  
+* [MLC Science WG \- 2025/07/09 07:56 PDT \- Recording](https://drive.google.com/file/d/1eeU8c-UJAHtjr_IKPupXAY2drL5OMJu6/view?usp=sharing)   
+* Presentation [mlperf\_scienceWG\_9Jul25.pptx](https://docs.google.com/presentation/d/1Is-6glkMD1Q23knx3WhA842B-Xu4rAo_/edit?usp=sharing&ouid=114300777188823967496&rtpof=true&sd=true)    
+* Matt Sinclair had questions for the NREL folks:  
+  * How do/does your benchmark process compare to NERSC-10 (LLNL Benchmark) and OLCF-6 (ORNL Benchmark)?  
+  * How do ML+HPC/ML+Science workloads factor into the benchmark suites you are developing?  
+  * Do you all have needs for benchmarking on potential future systems before they exist?  How do you "prototype" optimizations for these future systems?  
+* Gregor von Laszewski asked Matt Sinclair: can you write paragraph NERSC-10 and OLCF-6 and send to me  
+* The NREL MLPerf benchmark is called the ESIF-HPC-4 benchmark [https://github.com/NREL/ESIFHPC4/tree/main](https://github.com/NREL/ESIFHPC4/tree/main)   
+* Gregor asked “did you have a modification or add on to ESIF-HPC-4 between the call and the interaction with vendors due to rapid evolving hardware”  
+* Matt Sinclair noted to Tom Gibbs that “I thought you were going to say AI/ML has changed at least 3 times during Matt's talk”  
+* David Kanter commented on term “Supersonic arrow”: As a former archer, that’s quite intriguing  
+* Victor Lu noted [Benchmarking & profiling · CUDA.jl](https://cuda.juliagpu.org/stable/development/profiling/)   \- Julia seems to be able genericize benchmarks by focusing on scientific and GPU "kernel" level benchmarks.  
+* Tom Gibbs noted that: Perhaps a good check is that MLPERF stresses system features common to AI/ML that are different from ModSim (Modeling and Simulation)
+
+### **Discussion of White Papers** {#discussion-of-white-papers}
+
+* Gregor noted that heI would like that people go through  
+  * [https://github.com/mlcommons-science/benchmark/blob/main/source/benchmark-entry-comment-gregor.yaml](https://github.com/mlcommons-science/benchmark/blob/main/source/benchmark-entry-comment-gregor.yaml) and complete the descriptions. Some of which have been gathered from various people, but the descriptions may not be complete or accurate yet.  
+  * This includes some from Nahn and Geoffrey. Maybe we should have another meeting with the two of them or just do this offline?  
+  * Matt Sinclair replied that “@Gregor: it doesn't look like that list is something that needs my direct feedback, but let me know if I'm missing something”
+

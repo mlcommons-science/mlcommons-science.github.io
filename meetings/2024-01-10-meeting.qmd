@@ -1,0 +1,39 @@
+---
+title: "January 10, 2024"
+---
+
+## **January 10, 2024** {#january-10,-2024}
+
+### **Present** {#present-65}
+
+Geoffrey Fox, Wes Brewer (connection issues), Gregor von Laszewski, Murali Emani,Tom Gibbs, Armstrong Foundjem, Ying-Jung Chen (via Otter AI), Ganesh Sharma Tyagali (via Notetaker), Victor Lu, Elie Alhajjar, Sutanay Choudhury
+
+### **Apologies**  {#apologies-15}
+
+Gregg Barrett, Mallikarjun Shankar
+
+### **Tentative Agenda** {#tentative-agenda-45}
+
+* Any new members  
+* White Papers  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing) Submitted (Christine Kirkpatrick)  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Progress with OSMI Benchmark (Wes, Gregor)  
+* Agenda for the year  
+* AOB
+
+### **New Members** {#new-members-31}
+
+* Elie Alhajjar [https://sites.google.com/site/eliealhajjar/home](https://sites.google.com/site/eliealhajjar/home) is Senior Scientist, Engineering and Applied Sciences, RAND Corporation, Arlington, VA  
+* Victor Lu [https://www.linkedin.com/in/luvictor](https://www.linkedin.com/in/luvictor) worked at Fermilab and is now an independent consultant  
+* Sutanay Choudhury [https://www.linkedin.com/in/sutanay](https://www.linkedin.com/in/sutanay) Chief Scientist Data Sciences @ PNNL | Generative AI, Precision Medicine, Computational Chemistry, Knowledge Graphs | Co-Director CTCI (Computational and Theoretical Chemistry Institute). Works on AI Chemistry with molecular graph networks and use of GPUs for graphs.. Different scope from Open catalyst. Will extend PyTorch Geometric. Graphs for chemistry are 10^6 to 10^8 of small graphs and not one giant graph as in Social Networks. Sutanay can talk about work with UK (Juri) on power and Scaling from August 2022\. Looking at Graphcore [https://www.graphcore.ai/posts/graphcore-presenting-fp8-research-at-neurips-2023](https://www.graphcore.ai/posts/graphcore-presenting-fp8-research-at-neurips-2023) 
+
+### **General Discussion** {#general-discussion-3}
+
+* Yuhan Douglas Rao noted AstroCLIP [https://arxiv.org/abs/2310.03024](https://arxiv.org/abs/2310.03024) and Harmonized Landsat and Sentinel-2 (HLS) data \- [https://www.earthdata.nasa.gov/esds/harmonized-landsat-sentinel-2](https://www.earthdata.nasa.gov/esds/harmonized-landsat-sentinel-2)  
+* We discussed reconciling images of different resolution for Fioundation pretraining  
+* Yuhan gave Geoffrey a student contact for HLS Crop Classification.  
+* Gregor noted that we werei still working on system issues for Osmi  
+* Murali noted upcoming TPC meetings in Sydney and then Barcelona
+

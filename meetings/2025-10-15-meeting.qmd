@@ -1,0 +1,51 @@
+---
+title: "October 15, 2025"
+---
+
+## **October 15, 2025** {#october-15,-2025}
+
+### **Present** {#present-8}
+
+* Abdulkareem Alsudais, Armstrong Foundjem,  Ben Hawks, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Howard Pritchard, Juri Papay, Marco Colombo, Nhan Tran, Piotr Luszczek, Satoshi Iwata, Victor  Lu, Xiaoqin Huang
+
+### **Tentative Agenda** {#tentative-agenda-4}
+
+* Any New Members Introduction  
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks  
+  * Summary [Fox\_Benchmarking for HPC AI in a rapidly changing world Aug 26, 2025](https://docs.google.com/presentation/d/1aCGjbAmdHG6zw5yFrUmEhqu8gYQcqbDQVsNrkRdCzHM/edit?usp=sharing)   
+  * All AI for Science [https://mlcommons-science.github.io/benchmark/](https://mlcommons-science.github.io/benchmark/)  
+    [https://github.com/mlcommons-science/benchmark](https://github.com/mlcommons-science/benchmark)  
+  * AI Benchmark Assistant  [Sept30Version9-21-22-23-24DeepCollector](https://colab.research.google.com/drive/1Cm9KpEmVnahgLOjvmJvWivbe0hzTH9p6?usp=drive_link)  
+  * Time Series   
+    [Time Series  Resources Summary Table](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?usp=sharing)   
+    [COMBINED2](https://docs.google.com/spreadsheets/d/1bHHzTXbY7eDNagDmM4LnzHj47bXWjQDPWjYGdH0GSmk/edit?gid=45362948#gid=45362948)   
+* White Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)  
+  * New white paper on Science Benchmarks  
+* Any Other Business
+
+### **Google meeting notes**  {#google-meeting-notes}
+
+* [MLC Science WG \- 2025/10/15 07:59 PDT \- Notes by Gemini](https://docs.google.com/document/d/1Xr6MANg5zcsDQ3mKcRQrPUbLxmOnq6a1BJE4cUVpQk4/edit?usp=sharing)  
+* **Abstract**  
+* Abdulkareem Alsudais was introduced as a new member, and Geoffrey Fox encouraged him to share their LinkedIn and Google Scholar references. Ben Hawks provided updates on the benchmark collection paper, noting its readiness for ArXiv publication and a terminology change to "benchmark ontology" or "benchmark collection," along with the need for acknowledgements. Gregor von Laszewski requested the carpentry paper be cited and the website updated with the new terminology.  
+  * Marco Colombo demonstrated the updated website, featuring a new table view, detailed benchmark information, and a "cards view" with enhanced graphics. Gregor von Laszewski suggested re-enabling full-width table view, adding the radar chart and citation column to exports, and ensuring content consistency with Ben Hawks. Nhan Tran pointed out domain and data linkage issues between the website and paper, requesting direct dataset and code links on benchmark cards, and suggested an interactive heat map.  
+  * Geoffrey Fox suggested adding a comment about recognizing non-formal benchmarks and asked Nhan Tran to add instructions on contributing new benchmarks via YAML files and pull requests, which Marco Colombo and Nhan Tran supported. Gregor von Laszewski presented updates on the AI benchmarks carpentry paper, renaming it to "AI benchmarks carpentry and democratization," and requested contributors review the introduction, definitions, and ensure "carpentry and democratization" are addressed throughout. Armstrong Foundjem suggested an "implications" section for the paper, which Gregor von Laszewski agreed to add as a conclusion.  
+* **Suggested Next Steps**  
+  * Ben Hawks will add a section to the paper's summary and cite the carpentry paper.  
+  * Marco Colombo will ensure that the CSV and JSON export includes a common column for citation.  
+  * Marco Colombo will rename the 'view local' function to 'make surf' and separate the publishing step from the make step.  
+  * Marco Colombo will add a link to the dataset and code for each card in the cards view.  
+  * Marco Colombo will implement a feature that displays all ratings in a 90-degree form when a button is clicked.  
+  * Marco Colombo will add the heat diagram to a future version of the website as an interactive feature.  
+  * The group will add a section to the website's main page explaining how to contribute a new benchmark via pull request.  
+  * Gregor von Laszewski will resolve the duplication created between the definition and carpentry sections in the paper and ensure the GPU benchmarking section is not overwhelming other sections.  
+  * Marco Colombo and Ben Hawks will check whether Ben's content changes are reflected in the current website version.  
+  * Marco Colombo and Ben Hawks will implement a visual tag for benchmarks with an average rating of 4.5 or higher.
+
+### **New Members** {#new-members-2}
+
+* Abdulkareem Alsudais, AI REsearcher and  Associate Professor, PSAU Prince Sattam bin Abdulaziz University in Al-Kharj, Saudi Arabia. He obtained his PhD in Claremont Graduate University  
+  * [https://scholar.google.com/citations?hl=en\&user=x6eWXXoAAAAJ\&view\_op=list\_works\&sortby=pubdate](https://scholar.google.com/citations?hl=en&user=x6eWXXoAAAAJ&view_op=list_works&sortby=pubdate)   
+  * [https://www.linkedin.com/in/abdulkareem-alsudais-b089a99a/](https://www.linkedin.com/in/abdulkareem-alsudais-b089a99a/) 
+

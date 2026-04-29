@@ -1,0 +1,809 @@
+---
+title: "December 1, 2021"
+---
+
+## **December 1, 2021** {#december-1,-2021}
+
+### **Present** {#present-112}
+
+Tony Hey, Geoffrey Fox, Gregor von Laszewski, Bala Desinghu,, Juri Papay, Junqi Yin, Aristeidis Tsaris, Gregg Barrett, Hai Ah Nam, Christine Kirkpatrick, Murali Emani,  
+**Apologies:** Mallikarjun Shankar, Jeyan Thiyagalingam
+
+### **Tentative Agenda** {#tentative-agenda-90}
+
+* Any new member introductions (None)  
+* Debriefing on SC21 BOF [https://docs.google.com/presentation/d/1zn2EdBpXc6oNnyS-Ljy-BddRs3osjEkUGrFa98hb1pk/edit?usp=sharing](https://docs.google.com/presentation/d/1zn2EdBpXc6oNnyS-Ljy-BddRs3osjEkUGrFa98hb1pk/edit?usp=sharing)   
+* Making Benchmark release more solid [https://drive.google.com/file/d/1BeefJTj4ZZL4Wa5c3zNz1l5nzQN-ktGR/view?usp=sharing](https://drive.google.com/file/d/1BeefJTj4ZZL4Wa5c3zNz1l5nzQN-ktGR/view?usp=sharing)   
+* Discussion of our paper [https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing](https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing)  
+* Any other business
+
+### **SC21 BOF** {#sc21-bof}
+
+We noted somewhat disappointing attendance but this partly reflected the way the virtual event was organized. Bala couldn’t join BOF and Gregor noted lack of as much advertising as in previous years.
+
+### **WebSite** {#website}
+
+Aristeidis Tsaris noted  
+[https://stagingscience--mlcommons.netlify.app/en/groups/research-science](https://stagingscience--mlcommons.netlify.app/en/groups/research-science) /  
+this is the link Vs the main site which is: [Science Working Group](https://mlcommons.org/en/groups/research-science/)   
+Geoffrey asked Peter what to do for small changes but no simple immediate solution was available
+
+### **MLCommons Requirements/Processes** {#mlcommons-requirements/processes}
+
+Gregg summarized discussion as:
+
+* Confirm completion of CLA  
+* We have the science target metrics confirmed for each benchmark?  
+* We need to confirm the needed logging for each benchmark. We don’t think MLCommons RCP mechanism is needed
+
+  Emani writes:
+
+1. Update reference implementations to include mlperf-logging library calls. [https://github.com/mlcommons/logging](https://github.com/mlcommons/logging)  
+   1. An example from HPC benchmark suite is at [https://github.com/mlcommons/hpc/blob/main/open\_catalyst/ocpmodels/trainers/mlperf\_forces\_trainer.py](https://github.com/mlcommons/hpc/blob/main/open_catalyst/ocpmodels/trainers/mlperf_forces_trainer.py)  
+   2. Having a mlperf logging skeleton in place would be a good first step, we can decide on what metrics to capture in our group meetings.   
+2. Once the reference implementations of the benchmarks are ready, we need to move them to the official mlcommons github repo. David Kanter or Peter Mattson can help create a branch for us.  
+3. There are existing scripts for package-checker and compliance checker etc, in the logging repo ([https://github.com/mlcommons/logging](https://github.com/mlcommons/logging)). We may need to tweak those in a separate branch for the science benchmarks. We did had a separate branch for the HPC v1.0 benchmarks.  
+4. Also, getting the CLA form signed by benchmark contributors (owners) initially and later submitters is important. One CLA form is enough per participating organization. You can get more details on this by emailing support@mlcommons.org and copying David Kanter. As far as I am aware of, ANL, ORNL, LBNL have already signed these.
+
+We agreed to see what we can do in next 2 weeks (i.e. By December 15\) and complete by the  New Year
+
+### **Laboratory MLCommons Membership** {#laboratory-mlcommons-membership}
+
+This is for US and UK laboratories. The fee voting status needs to clarified and Tony later asked David/Peter
+
+The Association (MLCommons) is organized and shall be operated as a non-stock membership operating not for profit under the General Corporation Law of the State of Delaware.
+
+### **Paper** {#paper}
+
+[https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing](https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing).with comments in November 3 meeting
+
+Tony suggested submitting to benchcouncil journal. This idea seemed to be received positively
+
+## **November 3 2021** {#november-3-2021}
+
+### **Present** {#present-113}
+
+Geoffrey Fox, Murali Emani, Juri Papay, Junqi Yin, Aristeidis Tsaris, Gregg Barrett, Hai Ah Nam, Mallikarjun Shankar, Feiyi Wang, Christine Kirkpatrick  
+**Apologies:** Tony Hey, Jeyan Thiyagalingam
+
+### **Tentative Agenda** {#tentative-agenda-91}
+
+* Any new member introductions (None)  
+* Updates on initial benchmarks; status of documentation  
+* Discussion of the SC21 submission process and timescale  
+* website  
+* Any other business
+
+### **Presentation on HPC FAIR Project** {#presentation-on-hpc-fair-project}
+
+* Murali opened the meeting with a presentation on the HPC FAIR project from Stony Brook, Argonne, LLNL, and NCSU. This can be found at [the HPCFAIR](https://drive.google.com/drive/folders/1JvizEVd0WRgNxvCdOmvRYvrXeHgLCX9X) directory or at MLCommons [HPCFAIR paper](https://drive.google.com/drive/folders/1JvizEVd0WRgNxvCdOmvRYvrXeHgLCX9X) or [HPCFAIR presentation](https://drive.google.com/drive/folders/1JvizEVd0WRgNxvCdOmvRYvrXeHgLCX9X).  It will be presented at the SC21 workshop [Machine Learning in HPC Environments \- Program](https://ornl.github.io/MLHPC/program.html)   
+* Slides 5 and 6 review other approaches  
+* Slide 7 states the research challenges  
+* Slide 9 gives the system architecture  
+  * HPC ontology  
+  * Caching models  
+  * Workflow synthesizer  
+  * Metadata Info  
+  * Front end  
+  * Back end store  
+* Uses json-ld format, MLCube, and Containers used.  
+* Slide 12 gives an MNIST example  
+* Slide 13  describes available API’s  
+* Slide 14 reviews the capabilities of the system  
+* The Candle benchmark UNO and workflow used  
+*   
+* Juri will evaluate using it at RAL  
+* Arjun wondered if the system was restricted to AI applications. Could it be used for simulations?  
+* Christine noted the possible relevance of [FAIR Digital Objects Forum](https://fairdo.org/) with work on adding metadata without changing dataset files. It will be presented at an RDA FAIURF Birds of a Feather  
+* Feiyi asked about the infrastructure assumptions
+
+### **Last Steps on Benchmark Release** {#last-steps-on-benchmark-release}
+
+* Juri noted that the Cloudmask benchmark was complete and he was looking at running Oak Ridge’s STEMDL.  
+* Our benchmark approach is that only data and target metrics are "fixed". In MLCommons closed division even hyperparameter optimization is strongly constrained. Last time we suggested both open/closed division for science benchmarks but open division is more important than closed compared to other MLCommons benchmarks.  
+* There are MLCommons processes that we do not have time to fully address before SC21. For example, if you want to contribute code, you or your org must sign the CLA. Contact support@mlcommons.org for more information. Wikthin DOE this took up to 2 months to get signature.  
+* From [https://mlcommons.org/en/get-involved/](https://mlcommons.org/en/get-involved/)  
+* We agreed to go ahead with SC21 announcements with appropriate caveats. **Geoffrey will hopefully check with Peter and David**
+
+### **SC21 Activities and Priorities** {#sc21-activities-and-priorities}
+
+* Geoffrey will make a presentation at the SC BoF session: Wednesday, 17 November 2021 5:15 pm \- 6:45 pm CST [https://sc21.supercomputing.org/presentation/?id=bof118\&sess=sess365](https://sc21.supercomputing.org/presentation/?id=bof118&sess=sess365)  
+* **He will make a draft over the weekend and ask for improvements**  
+* Due to SC21, the November 17 working group meeting is canceled
+
+### **Any Other Business** {#any-other-business-17}
+
+* Geoffrey noted that LLNL was working on 2 more benchmarks. Gregg noted OECD workshop on AI and the productivity of science” AT [https://www.oecd.org/sti/inno/ai-productivity-of-science.htm](https://www.oecd.org/sti/inno/ai-productivity-of-science.htm) 
+
+## **October 20 2021** {#october-20-2021}
+
+### **Present** {#present-114}
+
+Geoffrey Fox, Juri Papay, Junqi Yin, Aristeidis Tsaris, Gregg Barrett, Hai Ah Nam, Mallikarjun Shankar, Feiyi Wang, Christine Kirkpatrick  
+**Apologies:** Tony Hey, Jeyan Thiyagalingam
+
+### **Tentative Agenda** {#tentative-agenda-92}
+
+* Any new member introductions (None)  
+* Updates on initial benchmarks; status of documentation  
+* Discussion of the SC21 submission process and timescale  
+* website  
+* Any other business
+
+### **Updates on initial benchmarks** {#updates-on-initial-benchmarks}
+
+* We collected the current descriptions of the 4 benchmarks into a single document [MLCommonsScienceBenchmarks](https://docs.google.com/document/d/1Aw3cYBEEf34A7A_UbDAOVVSjF28oM4C4o5RGfGRjDXI/edit?usp=sharing). This can serve as the basis of a paper to be generated to support the SC21 announcements.   
+* The paper starting point is at [Paper on MLCommonsScienceBenchmarks](https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing). Mallikarjun Shankar and Geoffrey Fox will coordinate  
+  * Christine will look up material
+
+### **Benchmark Release at SC21** {#benchmark-release-at-sc21}
+
+* We suggested changing the term “reference implementation” to example or exemplar.  
+* The “examples” should satisfy our submission requirements. These include  
+  * Open-source Code  
+  * Algorithm description  
+  * Scientific objective  
+  * Optional field for FAIRness  
+  * They should record hardware used and running logs  
+* We need to build on MLCommons policies [mlcommons/policies: General policies for MLPerf™ including submission rules, coding standards, etc.](https://github.com/mlcommons/policies) . We need to fork their GitHub and Aris will look into this.  
+* Web page should explain everything well  
+* Explain difference between Science and HPC working groups  
+* We discussed the difference between improving capability in scientific discovery benchmarks which are similar to current MLCommons open division and traditional hardware performance benchmarks which are like the closed division.  
+  * We agreed to call for both and as an example agreed that running example implementations on a nifty new machine like Cerebras was in scope.  
+  * Current MLCommons logging checker won’t work in our open division.
+
+### **Website update**  {#website-update}
+
+* We agreed that current “staging” website was in good shape and we asked MLCommons to put on production site; Peter Mattson has agreed and this in process
+
+### **Any Other Business** {#any-other-business-18}
+
+*  Christine noted that there will be no virtual booth at SC21 for SDSC
+
+## **October 6 2021** {#october-6-2021}
+
+### **Present** {#present-115}
+
+Geoffrey Fox, Juri Papay, Murali Emani, Tony Hey, Junqi Yin, Aristeidis Tsaris, Gregg Barrett, Gregor von Laszewski Hai Ah Nam, Grigori Fursin, Mallikarjun Shankar, Bala Desinghu, Feiyi Wang, Amit  Ruhela
+
+**Apologies:** Jeyan Thiyagalingam (new baby girl today\!)
+
+### **Tentative Agenda** {#tentative-agenda-93}
+
+* Any new member introductions  
+* Updates on initial benchmarks; status of documentation  
+* Discussion of the submission process and timescale  
+* website  
+* Any other business
+
+### **Welcome to new members**  {#welcome-to-new-members}
+
+Hai Ah Nam from NERSC introduced herself. With nuclear physics background, she had experience at several DOE laboratories. Currently, she was helping NERSC add ML to its program. Feiyi Wang reintroduced himself and leads the ORNL activities in our area.
+
+### **Updates on initial benchmarks** {#updates-on-initial-benchmarks-1}
+
+* Juri Papay reviewed his collection of benchmark details using STEMDL as an example. This has two separate tasks \- Classification and Reconstruction. One should specify a minimal scientific performance (as seen in a reference implementation)  and describe science accuracy goals. The raw system performance \-- a classic MLPerf measurement \-- can also be reported.  
+* We discussed defining dependencies such as versions of PyTorch or Tensorflow  
+* This is linked to the ease of running reference implementations on other machines.  
+* We need to get our logging in agreement with MLCommons and put our benchmarks in their GitHub. Murali will help here
+
+### **Website update**  {#website-update-1}
+
+Juri will coordinate with Aris to update our website which is still in the MLCommons staging area.
+
+### **Any Other Business** {#any-other-business-19}
+
+* It was suggested that we investigate/reconcile the different software approaches in SciML-Bench [https://github.com/stfc-sciml/sciml-bench](https://github.com/stfc-sciml/sciml-bench) versus MLCommons  
+* We should also delineate better the relationship between Science and HPC working groups. Perhaps we could hold a common meeting after SC21 or New Year.  
+* Distinguish in SC21 BOF
+
+
+### **Action Items** {#action-items}
+
+* Murali summarized these as  
+* Create a MLCommons github repository to add our benchmark reference implementations. These can be added via submodules feature in Git, though, it may be good to create another branch in the original repository to isolate the MLCommons-specific versions.   
+  * An example from the HPC group: [https://github.com/mlcommons/hpc/](https://github.com/mlcommons/hpc/blob/main/open_catalyst/ocpmodels/trainers/mlperf_forces_trainer.py)  
+* Update reference implementations to include mlperf-logging library calls. [mlcommons/logging: MLPerf™ logging library](https://github.com/mlcommons/logging)  
+  * An example from HPC benchmark suite is at [https://github.com/mlcommons/hpc/blob/main/open\_catalyst/ocpmodels/trainers/mlperf\_forces\_trainer.py](https://github.com/mlcommons/hpc/blob/main/open_catalyst/ocpmodels/trainers/mlperf_forces_trainer.py)  
+* Move the current website with the benchmark suite details to MLCommons domain.  
+*  A roadmap on the submission and review process with associated timelines.
+
+## **September 22 2021** {#september-22-2021}
+
+### **Present** {#present-116}
+
+Geoffrey Fox, Jeyan Thiyagalingam, Christine Kirkpatrick, David Kanter, Juri Papay, Murali Emani, Tony Hey, Junqi Yin, Aristeidis Tsaris, Wahid Bhimji, Gregg Barrett, Gregor von Laszewski
+
+### **Tentative Agenda** {#tentative-agenda-94}
+
+* Any new member introductions  
+* Updates on initial benchmarks  
+* Quantification of the submission process and timescale  
+* website  
+* Note on possible LLNL benchmarks  
+* SC21 MLCommons BOF  
+* September 30 Community meeting [https://docs.google.com/spreadsheets/d/1nZI063pDZupkPznCn-UaoY92C\_hJTpxVFlm6VjIdpv8/edit\#gid=533252977](https://docs.google.com/spreadsheets/d/1nZI063pDZupkPznCn-UaoY92C_hJTpxVFlm6VjIdpv8/edit#gid=533252977)   
+* Any other business
+
+### **Welcome to new members**  {#welcome-to-new-members-1}
+
+Wahid Bhimji from NERSC who leads the data analytics group at NERSC (Steve Farrell from MLCommons HPC group is part of this unit)
+
+### **Update on Benchmark Status**  {#update-on-benchmark-status}
+
+*    Juri Papay has collected nearly all the information around benchmarks. (description, data pointers) but some details are still to be completed. He will share the document with Geoffrey soon after final information is in.  
+*    David Kanter suggested that Juri Papay join other groups in MLCommons and share common practices.  
+*    Murali (UNO) and Junqi (STEMDL) have provided most relevant descriptions to Juri and will furnish remaining info soon.   
+*    CloudMask benchmark has been integrated into the SciML-Bench suite. STEMDL can also be run and will be integrated into the SciML-Bench soon.  
+* Aris shared summary [https://tsaris.github.io/Science-Benchmarks-Working-Group/\#cloudmask-specific-benchmark-targets](https://tsaris.github.io/Science-Benchmarks-Working-Group/#cloudmask-specific-benchmark-targets)   
+*  Murali asked about acknowledgments and Tony suggested that we check with the labs to see their take.
+
+### **Quantification of the submission process and timescale** {#quantification-of-the-submission-process-and-timescale}
+
+* Geoffrey asked about running our own benchmarks on different machines as this was an early goal without as much progress as hoped.  
+* Jeyan and Juri mentioned their plans on running these on RAL systems. Christine mentioned that computer cycles at SDSC are available for these purposes.  
+* A common format to report results was discussed, but as of now, there is no such common format.  
+* It was also highlighted that there is a need for instructions on running these benchmarks and all benchmark owners are required to provide a clear set of instructions around this.
+
+### **Website** {#website-1}
+
+ We discussed the website including the status of the staging site [https://stagingscience--mlcommons.netlify.app/en/groups/research-science/](https://stagingscience--mlcommons.netlify.app/en/groups/research-science/)  with respect to the real site [https://mlcommons.org/en/groups/research-science/](https://mlcommons.org/en/groups/research-science/) .   
+
+### **Note on possible LLNL benchmarks** {#note-on-possible-llnl-benchmarks}
+
+ LLNL talked to Geoffrey and will hopefully share additional benchmarks selected from their [Open Data Initiative | Data Science Institute](https://data-science.llnl.gov/open-data-initiative) and talk [Creating Open Data sets and Benchmarks](https://docs.google.com/presentation/d/1Lsy7hk0nLAQEt76oadrA8c8BVdoHqxk0/edit?usp=sharing). We discussed choosing benchmarks that illustrated new areas and new methods and having clear science goals.  
+ 
+
+### **SC21 MLCommons BOF** {#sc21-mlcommons-bof}
+
+* Most of the MLCommons activities at SC21 will be virtual.  
+* Geoffrey asked Murali about the BOF: The current BOF with HPC Benchmarks is scheduled for November 17th (but may happen anytime between 16-18th). A longer session (75 minutes) has been requested. A purely virtual version has been requested.  
+*  The overall plan of the BOF is to have a set of talks from HPC, Science and Training, with approximately 15 minutes each, and a common discussion at the end.  
+* Geoffrey mentioned that it is an opportunity for gathering more members and more benchmarks.  
+* David Kanter mentioned that a joint press release on Science and HPC Benchmarks going forward can be made. The credits to SDSC and STFC  ECHO are to be included in the acknowledgment and announcement. WG will work on a draft for this press release. David’s BOF Press Release will have the HPC results as well as our announcement of the availability of our Science benchmarks. We need to prepare material to support this.  
+* Official announcements about benchmarks can be made in SC, and we can announce the intentions in the community meeting.  
+* Christine has reached out to Geoffrey and Tony for a lightning talk at the SDSC SC21 virtual exhibit.
+
+### **MLCommons Community Meeting** {#mlcommons-community-meeting}
+
+* There is a September 30 Community meeting. This time, there will be a guest speaker from IBM Ruchi Puri on AI for writing code with signups hav[e been circulated by email. https://docs.google.com/s52977](https://docs.google.com/spreadsheets/d/1nZI063pDZupkPznCn-UaoY92C_hJTpxVFlm6VjIdpv8/edit#gid=533252977).   
+* However since the last meeting, there are not many changes to the contents of the slides. David Kanter mentioned that similar presentations can be expected and there is nothing wrong in reusing them as this provides an opportunity for additional exposure. WG chairs will have access to the slides  
+* Gregg noted MLCommons Discord server [https://discord.gg/Vwx7tSCu](https://discord.gg/Vwx7tSCu)   
+* The July 15 presentation copied and renamed for September 30 can be found at [Science part of MLCommons Community Meeting September 30 2021](https://docs.google.com/presentation/d/1RzMHAifnI4hnJNsZB0ajvR7EL81yoFT7pqTSQ6J_buo/edit?usp=sharing)   
+* The updated slides are incorporated into the full community deck [2021.09.30 MLCommons Community Meeting](https://docs.google.com/presentation/d/1PrWVcs4KVXe51Y0b5sg3SffiyVuyLF-USrA3RvKz2do/edit#slide=id.gb18cda5a45_0_119) 
+
+### **Datasets and Storage** {#datasets-and-storage}
+
+* Jeyan will be sharing a write-up of our plans for datasets with the WG for further comments, and the overall plan can be shared in the community meeting. The write-up will cover the overall mirroring aspects, storage notions, downloading mechanisms, and other relevant details.  
+* Christine presented example documentation of how to use a dataset on the OSN.  See page 2 which has command-line instructions.  It's a PDF because we gave it out at our AGU booth.  [https://www.openstoragenetwork.org/wp-content/uploads/2021/05/NCSA\_Terra\_OSN\_flyer.pdf](https://www.openstoragenetwork.org/wp-content/uploads/2021/05/NCSA_Terra_OSN_flyer.pdf)  
+* The licensing model for the datasets was discussed and David Kanter suggested CC BY (than CC0). This will match other datasets in MLCommons and will simplify a number of things. Christine has also suggested the same CC BY model.
+
+## **September 8 2021** {#september-8-2021}
+
+### **Present** {#present-117}
+
+Geoffrey Fox, Christine Kirkpatrick, Juri Papay, Aristeidis Tsaris, Gregg Barrett, Gregor von Laszewski, Junqi Yin, Murali Emani, Tony Hey,  Arjun Shankar
+
+**Apologies** Jeyan Thiyagalingam, 
+
+### **Tentative Agenda** {#tentative-agenda-95}
+
+* Any new member introductions  
+* Updates on initial benchmarks  
+* Quantification of the submission process and timescale  
+* MLCommons 2022 Calendar (not discussed)  
+* website  
+* Any other business
+
+### **Welcome to new members**  {#welcome-to-new-members-2}
+
+None
+
+### **Quantification of the submission process and timescale: Data storage** {#quantification-of-the-submission-process-and-timescale:-data-storage}
+
+* We agreed that all data should be stored in at least and possibly more locations with well defined access defined by an example; Globus is a possible access method  
+* Sites are RAL, SDSC, Oak Ridge  
+* RAL benchmarks are available at RAL and SDSC  
+* Christine gave an example command line to a bucket on the SDSC OSN pod: aws s3 ls s3://TFusion/ \--endpoint-url [https://ncsa.osn.xsede.org/](https://ncsa.osn.xsede.org/)    
+* Here's an example of a dataset page we could add: [https://www.openstoragenetwork.org/global-scale-remote-sensing/](https://www.openstoragenetwork.org/global-scale-remote-sensing/) 
+
+### **Quantification of the submission process and timescale: Benchmarks** {#quantification-of-the-submission-process-and-timescale:-benchmarks}
+
+* We agreed that benchmarks should have  
+  * Scientific Objective or measure of success that one is challenged to improve on  
+  * Datasets and how to get from sites such as RAL, SDSC, Oak Ridge  
+  * Reference implementation(s)  
+  * Hardware systems explored so far with performance achieved  
+* **Action Item:** Complete above for current benchmarks
+
+### **Website** {#website-2}
+
+* We have progress\!  
+* Aris's draft site: [https://tsaris.github.io/Science-Benchmarks-Working-Group/](https://tsaris.github.io/Science-Benchmarks-Working-Group/)  
+* Current official site [https://mlcommons.org/en/groups/research-science/](https://mlcommons.org/en/groups/research-science/)  
+* Staging site to public MLCommons site above  
+* [https://stagingscience--mlcommons.netlify.app/en/groups/research-science/](https://stagingscience--mlcommons.netlify.app/en/groups/research-science/)  
+* This is in a Github branch of the mlcommons/website repo here:  
+* [https://github.com/mlcommons/website/tree/stagingscience/](https://github.com/mlcommons/website/tree/stagingscience/)  
+* **Action Item:** Update discussion on website, of benchmarks as discussed above. Include a summary table
+
+### **Any Other Business** {#any-other-business-20}
+
+None
+
+## **AUGUST 25 2021** {#august-25-2021}
+
+### **Present** {#present-118}
+
+Jeyan Thiyagalingam, Geoffrey Fox, Christine Kirkpatrick, Brian Spears (LLNL), Brian Van Essen (LLNL), Juri Papay, Aristeidis Tsaris, Gregg Barrett, Gregor von Laszewski, James Warren, Junqi Yin, Michael Golomon (LLNL), Rushi Anirudh (LLNL), Murali Emani, Bala Designghu,
+
+**Apologies** Tony Hey,  Arjun Shankar
+
+### **Tentative Agenda** {#tentative-agenda-96}
+
+* Any new member introductions  
+* Presentation from Lawrence Livermore National Laboratory by Brian Spears  
+* Updates on initial benchmarks  
+* Continued discussion of the submission process   
+* website  
+* Any other business
+
+### **Welcome to new members**  {#welcome-to-new-members-3}
+
+* Brian Spears, Rishi Anirudh, Michael Golomon, Brian Van Essen
+
+### **Presentation from LLNL Lawrence Livermore Laboratory** {#presentation-from-llnl-lawrence-livermore-laboratory}
+
+Brian Spears led this with contributions from other LLNL members. The important talk can be found at [Creating Open Data sets and Benchmarks](https://docs.google.com/presentation/d/1Lsy7hk0nLAQEt76oadrA8c8BVdoHqxk0/edit?usp=sharing). It describes the AI for Science activities at LLNL and their open data initiative in collaboration with SDSC. They have 10 existing benchmarks and several others in the pipeline. Discussions highlighted large dataset issue discussed in the previous meeting (July 28). We should bring up with MLCommons \- perhaps the research working group.
+
+* Geoffrey noticed the overlaps of SciML and LLNL and stated that contribution from LLNL towards MLCommons will be great.  
+* Brian Van Essen raised a point about the expectations around benchmarks and datasets. Geoffrey responded with the science discovery aspects of our benchmark goals  
+* Jeyan raised a point about the license model of the benchmarks from Brian (it is MIT/BSD). There is an export release issue \- but mostly creative commons or open license used.  
+* Brian mentioned that he is keen to jointly  explore distributing large datasets.  
+* Jeyan mentioned that there are lots of overlaps between what LLNL and the UK SciML are trying to do, and stated that it will be collaborate.  
+* Google Colab benchmark versions were discussed
+
+### **Updates on initial benchmarks**  {#updates-on-initial-benchmarks-2}
+
+* University of Virginia: (Geoffrey) Time series/ earthquake: good progress in adding Google TFT temporal fusion transformer  
+* STFC: (Jeyan & Juri) datasets and the code is already open  
+* ANL:  (Murali) Candle \- all in place  
+* ORNL: Junqi \- No further update in terms of release
+
+###  **Website** {#website-3}
+
+* Aris is continuing to engage with David and Peter on this issue. Geoffrey will try to accelerate progress.
+
+### **Any Other Business** {#any-other-business-21}
+
+None
+
+## **JULY 28 2021** {#july-28-2021}
+
+### **Present** {#present-119}
+
+Geoffrey Fox, Jeyan Thiyagalingam, Aristeidis Tsaris, Arjun Shankar, Gregg Barrett, Junqi Yin, Feiyi Wang, Tony Hey, Christine Kirkpatrick
+
+**Apologies** Juri Papay,
+
+### **Tentative Agenda** {#tentative-agenda-97}
+
+* Any new member introductions  
+* Updates on initial benchmarks  
+* Continued discussion of the submission process  
+* Repositories; large datasets  
+* Website  
+* Any other business
+
+### **Welcome to new members**  {#welcome-to-new-members-4}
+
+* No new members
+
+### **Updates on initial benchmarks** {#updates-on-initial-benchmarks-3}
+
+* STFC: JT mentioned that they have refactored Cloud benchmark from the SciML-Bench suite, and now available as a separate repository.  There are questions around licensing and contributing.  
+* ORNL: Metrics for benchmarks are being considered and working on those aspects (including inference aspects) and parameter search.These are on the web pages already  
+* GF: The time series benchmark will be ready for the release by SC'21.  
+* ANL: No one present from ANL.
+
+### **Submission Process** {#submission-process}
+
+* GF insisted that benchmarks addressing science discovery metrics can be considered under an open division.  
+* Discussions around announcing the competition in SC'21 (BOF \- see below) outlining the science challenges for each benchmark (with time to solution as one metric).  
+* Arjun proposed a fact-sheet based competition process (where a fact sheet includes the rules of engagement, metrics, expected outcomes, specimen results, and the scope of the  competition.   
+* Arjun will provide a sample fact sheet.  
+* The idea is to have target an exercise run by mid October 2021 to prepare for a dry run at the SC21  
+* The overall objective is to increase the  algorithmic (model) tweaking for improved science outcomes
+
+### **Repositories; large datasets** {#repositories;-large-datasets}
+
+* There was a lot of discussion around distributing large datasets  
+* JT, TH along with Christine proposed to adopt the current bucket-based distribution mechanism used by the SciML-Bench.  
+* Christine agreed to support / provide any mirroring support towards this.  
+* JT write up a short proposal around this to be discussed within the WG and to be presented at the BoF.  
+* DOI-based mechanism was proposed by Arjun. In theory, locations can be replicated and changed, but some clarification around this is needed.
+
+###  **Website** {#website-4}
+
+* Aris is continuing to engage with David and Peter on this space and this will be resolved fairly soon.  
+* In the interim, we will use the internal page [github.io](http://github.io/) designed by Aris.
+
+### **Any Other Business** {#any-other-business-22}
+
+* Arjun mentioned that Murali and Steve are pushing the BOF efforts at SC (where MLCommons Science will be a part of it). Arjun mentioned that they are focusing on the separation between HPC and Science at the BOF, and comments may be needed around it.  
+* Christine is trying to put together an experiment (take the system information from GitHub repositories and do feature selection to make data more FAIR). These are mostly at the theoretical level, but will investigate this further. She is looking at several machine learning schema; one that came out of W3C [ML Schema Core Specification](https://ml-schema.github.io/documentation/ML%20Schema.html), Agile Knowledge Engineering and Semantic Web AKSW([MEX](https://aksw.org/Projects/MEX.html)), and data mining [OntoDM](http://www.ontodm.com/doku.php) ontology  
+* Gregg is engaging with the National Institute of Physics to involve them with the WG.  
+* GF spoke to Livermore Labs and they have some data science projects \- and they are interested in getting involved.
+
+## **JULY 14 2021** {#july-14-2021}
+
+### **Present** {#present-120}
+
+Geoffrey Fox, Jeyan Thiyagalingam, Aristeidis Tsaris, Arjun Shankar, Gregg Barrett, Junqi Yin, Feiyi Wang, Tony Hey, Bala Desinghu,
+
+**Apologies** Juri Papay,
+
+### **Tentative Agenda** {#tentative-agenda-98}
+
+* Any new member introductions  
+* Updates on initial benchmarks  
+* Firm up Community Presentation Thursday (see above)  
+* Continue Web Site and Metrics discussions  
+* Any other business
+
+### **Welcome to new members**  {#welcome-to-new-members-5}
+
+* No new members
+
+### **Updates on initial benchmarks and labs** {#updates-on-initial-benchmarks-and-labs}
+
+* **STFC/RAL:** Jeyan provided an update around next release of the SciMLBench suite, new benchmarks, and issues around distributed learning, particularly around Horovod. Junqi offered to help Jeyan. STFC will package the CloudMask code separately.  
+* **ORNL:** Working with Juri on STEMDL benchmark.  
+* **ANL:** no updates  
+* **Indiana:** Geoffrey mentioned that their benchmark is containerized. TEvolOp uses either an LSTM model or a modification of the original Transformer model. He prefers the latest temporal fusion Transformer model from Google. There is a potential for scalability, particularly with transformer models where the memory requirements can be quite demanding. It can meet the deadline of being ready to release at SC21.
+
+### **Community Meeting** {#community-meeting}
+
+**There is an MLCommons Community meeting Thursday,** July 15 \-- **please update** the science WG  presentation [https://docs.google.com/presentation/d/1IgRZeY-Re9cXD6LauVHvlzmkYa9HFV3F7V1pOXpA5RA/edit?usp=sharing](https://docs.google.com/presentation/d/1IgRZeY-Re9cXD6LauVHvlzmkYa9HFV3F7V1pOXpA5RA/edit?usp=sharing) where I added placeholders for Web Site and Science metrics to our April 22 presentation
+
+For background note that the full April 22 community meeting presentation is [2021.04.22 MLCommons Community Meeting](https://docs.google.com/presentation/d/1w0BfO-S7sEA3kTmxUPaJvpHjHQgP10zf2FcRyR2Vmmc/edit?usp=sharing) and the Science part is [Science part of MLCommons Community Meeting April 22 2021](https://docs.google.com/presentation/d/1C7oEyTAvxge7E_p38LsHSBmB4FVSuzOrvertZLTfuvg/edit?usp=sharing)
+
+* Geoffrey has agreed to present at the community meeting.  
+* STFC has few updates to make, but Jeyan has added some changes,  
+* Arjun agreed to update things around STEMDL benchmarks  
+* Tony raised an issue about metadata and ontology of the WG. Geoffrey mentioned that the benchmark results need to have ontologies.
+
+### **Continuation of Website Discussion from June 30 meeting** {#continuation-of-website-discussion-from-june-30-meeting}
+
+Arjun discussed their discussions with David Kanter on how Science WG is different to HPC. David Kanter promised to come back to us about an official website where we can host this. For now, we will use the current [github.io](http://github.io/) page. Arjun encouraged all to contribute to this.  Potentially this can also be at the MLCommons Website. Gregg suggested that we keep this at MLCommons. Aris will send an email to David Kanter about this.
+
+### **Metrics and Benchmarks** {#metrics-and-benchmarks}
+
+This topic is added to tomorrow’s presentation and discussed below
+
+### **Any Other Business** {#any-other-business-23}
+
+* Tony raised an issue about when the benchmarks will be ready for competition.  
+* Geoffrey mentioned that we need to draw up a plan to make submissions ready with steps we need to take  
+* We can potentially announce the competition at SC'21 and Tony agreed that this is the sensible way forward.  
+* Arjun suggested having a BOF at SC'21 for the Science WG to announce the benchmarks.  Geoffrey suggested being in touch with Murali to get this arranged.  Aris will act on this.  
+* Arjun stressed that science targets to be defined asap for each benchmark (such as minimum target accuracy, time to solution, etc).  
+* Arjun suggested that we bring this up in the next meeting to discuss this more solidly.  
+* Arjun: We also need to make sure that there are Github pages to all benchmarks and each group to try each other's benchmarks.  
+* Arjun: Re-emphasized the potential significance of TEvolOp being mapped to the transformer model.
+
+### **Action Items** {#action-items-1}
+
+* All: Get updates on the community meeting presentation  
+* Geoffrey will update the website [https://tsaris.github.io/Science-Benchmarks-Working-Group/](https://tsaris.github.io/Science-Benchmarks-Working-Group/) with Earthquake benchmark  
+* Geoffrey: Send info on SC21 BOF  
+* Jeyan: Will contact Junqi about Horovod  
+* Jeyan: Will set up a separate repo for Cloud with instructions for running.  
+* Aris will contact Kanter about the website.
+
+## **JUNE 30 2021** {#june-30-2021}
+
+### **Present** {#present-121}
+
+Aristeidis Tsaris, Geoffrey Fox, Juri Papay, Gregg Barrett, Murali Emani, Gregor von Laszewski, Arjun Shankar, David Kanter,  Junqi Yin, Amit Ruhela,
+
+**Apologies** Christine Kirkpatrick, Tony Hey,  Jeyan Thiyagalingam,
+
+### **Tentative Agenda** {#tentative-agenda-99}
+
+* Any new member introductions  
+* Updates on initial benchmarks  
+* General discussion of  submission process including (NOT directly DISCUSSED)  
+  * Summary/Scope of every benchmark  
+  * The main [github.io](http://github.io/) page  
+  * Github link for each and every benchmark  
+  * A clear description of how to run the benchmark with MLCube  
+  * A clear description of how to run the benchmark with SciML-Bench  
+  * We also need to collect all datasets in one place. We can mirror this in UCSD   
+* Discussion of metrics specific to science discovery  
+* Any other business
+
+### **Welcome to new members**  {#welcome-to-new-members-6}
+
+* No new members
+
+### **Updates** {#updates}
+
+* Juri Papay presented an update on the RAL work including steps needed for IBM hardware like Summit. [MLCommons\_30\_06\_2021.pptx](https://drive.google.com/file/d/1SicPW3k7usoG977yGqZbpk9zWCvxm2cd/view?usp=sharing) with a module whereas containers are used elsewhere  
+  * Using ThetaGPU at Argonne will be added  
+* He noted that Tony Hey had just presented at ISC 2nd International Workshop on Machine Learning Hardware  on RAL benchmarking [ML Benchmarks for Scientific Applications](https://mlhardware.github.io/2021/tony-hey.pdf)   
+* Gregor von Laszewski (IU) stressed the many different containers needed across different hardware and applications  
+* Murali is looking at SciML and has an allocation on ThetaGPU that we can use  
+  * The IU thesis following discusses data engineering for UNO \-- Vibhatha Lakmal Abeykoon, "[TOWARDS DATA ANALYTICS-AWARE HIGH PERFORMANCE DATA ENGINEERING AND BENCHMARKING](http://dsc.soic.indiana.edu/publications/vibhatha_thesis_revised.pdf)", Indiana University Ph.D. Thesis Dissertation Defense, June 2, 2021  \-- UNO could be a useful “end-to-end” benchmark  
+* Oak Ridge (Arjun, Aris) discussed their work on an initial landing page [https://tsaris.github.io/Science-Benchmarks-Working-Group/](https://tsaris.github.io/Science-Benchmarks-Working-Group/) which was followed by a lively discussion.  
+  * We need to add materials on all benchmarks including that on science outcomes  
+  * We proposed a three-level Hierarchy: Google Drive (internal working documents) \-- The new website (for the general user but not stable and official for MLCommona) \- MLCommons website  
+  * What metadata should we record?  
+  * Please review the diagram below from Oak Ridge
+
+![][image2]
+
+### **Science and Machine Performance Benchmarks** {#science-and-machine-performance-benchmarks}
+
+* We continued discussion of Science benchmarks stressing a science benchmark (as well as or replacing) a performance benchmark.  
+  * Compare use in procurement or science discovery  
+  * David Kanter noted similar points in the medical working group where a given model can perform differently in different population demographics.  
+  * Our approach with important datasets is synergistic with MLCommons stress on datasets  
+  * For science metrics such as accuracy, the reference model is a baseline to be beaten.  
+  * We would allow data augmentation to get better science
+
+### **Any Other Business** {#any-other-business-24}
+
+* MLCommons (HPC working group) is preparing an SC21 Birds of a Feather. Murali and Geoffrey are involved and it should discuss the Science working group  
+* We discussed work needed on MLCube and Metadata  
+* Geoffrey gave an ISC talk where René Jäkel from Dresden TU described their data-intensive HPC center. Could be a good contact for the HPC group; we could usefully add more from Europe.
+
+### **Action Items** {#action-items-2}
+
+* Geoffrey/Gregg: Arrange for Juri presentation at Best practices WG on Friday, July 2 as Juri cannot present on planned July 9\.  
+* Check website strategy with Peter and David  
+* Gregor communicates MLCommons website issues to David  
+* Circulate Science metrics idea to other chairs to get feedback \-- perhaps based on ImageNet competitions. Geoffrey brought this up in July 1 benchmark chairs meeting without strong comment.  
+* Everybody review web page and diagram
+
+## **JUNE 16 2021** {#june-16-2021}
+
+### **Present** {#present-122}
+
+Tony Hey, Aristeidis Tsaris, Geoffrey Fox, Jeyan Thiyagalingam, Juri Papay, Christine Kirkpatrick, Gregg Barrett, Arjun Shankar, Feiyi Wang
+
+### **Tentative Agenda** {#tentative-agenda-100}
+
+* Any new member introductions  
+* Updates on initial benchmarks  
+* Comments on Time Scale for HPC  [https://docs.google.com/presentation/d/1h9lc31fhIN3mM20WNRlo\_yxwWFiqn75iUbm1Z33jYTg/edit\#slide=id.gdfefe66d88\_0\_90](https://docs.google.com/presentation/d/1h9lc31fhIN3mM20WNRlo_yxwWFiqn75iUbm1Z33jYTg/edit#slide=id.gdfefe66d88_0_90)   
+* General discussion of  submission process  
+* Any other business
+
+### **Welcome to new members**  {#welcome-to-new-members-7}
+
+* No new members
+
+### **Updates** {#updates-1}
+
+* **STFC Update:** Juri is working Cloud benchmark will be tried on ORNL,  
+  * Juri presented some sample results on Cloud benchmarking with 2.4TB on PEARL.  
+  * Juri is experiencing some difficulties around building the containers for Summit.  
+  * Jeyan is working on SciML framework update. New upcoming features are:  
+    *  Support for containers,  
+    * Single configuration file,  
+    * Inference/training workload,  
+    * Additional benchmarks and  
+* **ORNL Update**: Aries is trying STEMDL on SciMLBench (Jeyan updated them to wait for the new API)  
+* **Indiana Update**: Geoffrey Fox is packaging into a container in to a four-node DGX A100 workstation  
+*  **ANL Update:** None
+
+### **Comments on Time Scale for HPC**  {#comments-on-time-scale-for-hpc}
+
+* Link is [here](https://docs.google.com/presentation/d/1h9lc31fhIN3mM20WNRlo_yxwWFiqn75iUbm1Z33jYTg/edit#slide=id.gdfefe66d88_0_90)   
+* Geoffrey Fox covered about the time-scale, and practices from the HPC WG, covering  details before issuing a benchmark  
+* Benchmarks need to be frozen for four months before submission.  
+* We may not need an advisory board  
+* RCPs or Reference Convergence Points (for instance epochs should not change with HW).  
+* Tony asked which ones to submit? and associated time-scales,  
+* Jeyan asked about RCPs \- and Aries mentioned that it is only for HPC. Arjun stressed that our objective is to foster scientific advancements in ML, and as such, the actual evaluation scope is different. The guideline should say that: "given a dataset and a problem the scope or RCP is actually inviting the community to make the scientific results better using whatever the technique possible"  
+* Gregg and Geoffrey mentioned that MLCommons's focus is on datasets covering, data engineering, cleaning, pre-processing etc. As such, this is a good avenue for us to explore.  
+* Christine raised a view on the validity of comparisons.  
+* Potential metric could be around \[Accuracy or Domain-Specific Measure\] against Time for a given dataset.
+
+### **General discussion of  submission process** {#general-discussion-of-submission-process}
+
+* Jeyan mentioned whether it is essential to bring all code to a common place (GitHub). Arjun suggested they put up a page around github.io and link all codes. ORNL will act on this.  
+* Christine brought up a point on the datasets \- mainly license. Ideally the relevant datasets can live in the main page.   
+* All will contribute towards writing up the scope/rationale around the benchmarking exercise (within next two weeks \- i.e. before the end of June 2021).   
+* Standard reference in terms of submission process is to be explored.    
+* An example GitHub is at [http://github.com/mlcommons/hpc](http://github.com/mlcommons/hpc) 
+
+### **Any Other Business** {#any-other-business-25}
+
+* Christine  will get back to the WG about potential schemas we can use for our submission.
+
+### **Action Items** {#action-items-3}
+
+* Geoffrey/Gregg: Arrange for Juri presentation at Best practices WG on some Friday at noon  
+* ORNL: Create a github.io page for holding the links for the benchmarks of the WG.  
+* Benchmark contributors (STFC, ANL, and ORNL): Write the scope/challenge of their benchmarks.  
+* Christine: To report back to the WG on the potential schema we can use for the data/metadata.
+
+##  **MAY 19 2021** {#may-19-2021}
+
+### **Present** {#present-123}
+
+             Tony Hey, Aristeidis Tsaris, Grigori Fursin, Geoffrey Fox, Jeyan Thiyagalingam, Juri Papay, Christine Kirkpatrick, Junqi Yin, Gregg Barrett, Murali Emani, Bala Desinghu, Gregor von Laszewski, Feiyi Wang, Amit Ruhela,
+
+### **Tentative Agenda** {#tentative-agenda-101}
+
+* Any new members  
+* Updates on initial benchmarks  
+* Presentation: "All about SciML Bench" by Jeyan Thiyagalingam [SciMLBench\_MLCommons\_Science.pdf](https://drive.google.com/file/d/1oO96Elwwkn9bpxUDwkogtZ19xvZYFcNE/view?usp=sharing)   
+* Presentation: "Overview of MLCube for Science WG" – Juri Papay [MLCube\_Initial\_Experience\_MLCommon\_Science.pdf](https://drive.google.com/file/d/1KMbJ2aVPQrMqP_9fSJWVX-tIzeAtRmfP/view?usp=sharing)   
+* Response to NSF Dataset RFI [https://docs.google.com/document/d/1SkcsfmSslpe-auRhtliFw-d9wbTW03smyzU324SmrsA/edit?usp=sharing](https://docs.google.com/document/d/1SkcsfmSslpe-auRhtliFw-d9wbTW03smyzU324SmrsA/edit?usp=sharing) \-- Geoffrey Fox, Christine Kirkpatrick  
+* Any other business
+
+### **Welcome to new members**  {#welcome-to-new-members-8}
+
+* No new members
+
+### **Updates** {#updates-2}
+
+* No updates from Jeyan (STFC), Junqi (ORNL), Murali (ANL) or Geoffrey (Indiana)
+
+### **All about SciMLBench** [SciMLBench\_MLCommons\_Science.pdf](https://drive.google.com/file/d/1oO96Elwwkn9bpxUDwkogtZ19xvZYFcNE/view?usp=sharing)  {#all-about-scimlbench-scimlbench_mlcommons_science.pdf}
+
+* Jeyan presented SciMLBench and there were a lot of questions around / clarifications.  
+* Encouragement for benchmarks from Light Sources (such as Diamond), Astronomy, and Particle Physics  
+* Grigori mentioned about the Collective Knowledge from  
+* Bala clarified average dataset sizes for Cryo Benchmarks (\~10-20TB)  
+* A suggestion was made by Gregg to make tutorials (which can drive adoption)  
+* The relation to Collective Knowledge [https://github.com/ctuning/ck](https://github.com/ctuning/ck) was discussed  
+* Murali suggested having separate containers for each benchmark.
+
+### **Overview of MLCube for Science WG** [MLCube\_Initial\_Experience\_MLCommon\_Science.pdf](https://drive.google.com/file/d/1KMbJ2aVPQrMqP_9fSJWVX-tIzeAtRmfP/view?usp=sharing)  {#overview-of-mlcube-for-science-wg-mlcube_initial_experience_mlcommon_science.pdf}
+
+* Juri presented MLCube  
+* Questions \- Comparison \[better organisation of configurations can be done\]  
+* Gregor can contribute around MLCube  
+* Grigori mentioned that the MLCube is not updated because they are collecting feedback   
+*  and Juri will provide the comments / suggestions (Geofffrey will send an introduction email to Best Practices WG)
+
+### **Response to NSF Dataset RFI** {#response-to-nsf-dataset-rfi}
+
+* Christine and Geoffrey prepared a response ([https://ggle.io/435R](https://ggle.io/435R))  
+* Geoffrey suggested all to take part \- and deadline this Friday the 21st May, 2021
+
+### **Any Other Business** {#any-other-business-26}
+
+*  Juri got access to Summit now  
+* SciML Bench Datasets are now mirrored in OSN  
+* Christine Kirkpatrick was instrumental in securing the OSN mirror. She is happy to help this to be mirrored at other locations  
+* Murali submitted a request on system use
+
+## **MAY 5 2021** {#may-5-2021}
+
+### **Present** {#present-124}
+
+Geoffrey Fox, Jeyan Thiyagalingam, Tony Hey, Grigory Fursin, David Kanter (DK), Arjun Shankar, Junqi Yin, Bala Desinghu, Aristeidis Tsaris, Steven Farrel, Murali Emani, Juri Papay, Feiyi Wang, Gregg Barrett, Christine Kirkpatrick,
+
+### **Tentative Agenda** {#tentative-agenda-102}
+
+* Any new member  
+*  introductions  
+* Updates on initial benchmarks  
+* Report from Community Meeting  
+* Steps for Submitters  
+* Status of Initiatives FAIR and Benchmarking Software  
+* Any other business
+
+### **Welcome to new members** {#welcome-to-new-members-9}
+
+* Grigori Fursin, VP of MLOps at OctoML.ai introduced himself, noting his work on FAIR data.  
+* Feiyi Wang reintroduced himself with his Oak Ridge group.
+
+### **Updates** {#updates-3}
+
+* Juri \- up to 100 GPUs with larger 2.5 TB dataset (Feiyi asked for resource requirements).  
+* Junqi \- no further updates  
+* Murali submitted a resource allocation for benchmarking on ThetaGPU \- will become available.  
+* Geoffrey \- no further updates  
+* Bala.Desinghu presented his potential benchmarking project on CryoEM with a [presentation](https://drive.google.com/file/d/1cTzfuxRM5iAJiQUCCDbkrq-JXLWRK_s-/view?usp=sharing).
+
+### **Discussion \- Community Meeting** {#discussion---community-meeting}
+
+David Kanter provided some updates on community meeting focussing on three things: Datasets, Best Practices and Benchmarks
+
+* Large datasets (FAIR, they are thinking of a new image (non-science), high-res dataset as well as a speech dataset with 86000 hours of labelled data)  
+* Best Practices (FAIR  and most importantly reproducibility)  
+* Benchmarks (best highlights are power measurements, controls)  
+* They are bringing Training reference models into MLCube
+
+On the science side \- is different to other WGs (unique characteristics such as multi-channel datasets). David Kanter is keen to see that the WG is well supported.  And keen to support us on the benchmark submissions. Exploration around hyperparameters areto be expected.
+
+The full community meeting presentation is [2021.04.22 MLCommons Community Meeting](https://docs.google.com/presentation/d/1w0BfO-S7sEA3kTmxUPaJvpHjHQgP10zf2FcRyR2Vmmc/edit?usp=sharing) and the Science part is [Science part of MLCommons Community Meeting April 22 2021](https://docs.google.com/presentation/d/1C7oEyTAvxge7E_p38LsHSBmB4FVSuzOrvertZLTfuvg/edit?usp=sharing) 
+
+### **Discussion \- Submission Issues** {#discussion---submission-issues}
+
+* Stick to the schedule of benchmarks (and complete): Fewer complete methods are preferred over more half-finished methods  
+* We should coordinate with HPC working group  
+* We should clearly talk about deadlines and freezing benchmarks etc. on a time-scale that might allow us to report some results at SC21. Note that David said that ‘you will NOT be able to keep to your initial schedule – but we can certainly set what we think is a realistic schedule and try\!   
+  * Geoffrey thought his time series benchmark may not make the cut on readiness  
+* Peer-review window (submission window is wide enough for all accommodating changes). Usually, 5 weeks is enough.   
+* Hear from the training WG about their experience. David gave us introduction to [Victor Bittorf](mailto:bitfort@gmail.com) chair of Training WG and MLCube lead.
+
+### **Discussion \- FAIR data and Benchmark Software** {#discussion---fair-data-and-benchmark-software}
+
+How do we position our work on FAIR and best practices.  
+ 
+
+* Best practices around training  
+* MLCube is recommended for packaging mechanism   
+* Related initiatives from Grigori, who volunteered to discuss in later meeting:  
+  * Workflows Community Summit: [https://workflowsri.org/summits/community](https://workflowsri.org/summits/community/)   
+  * Workflows Community Summit: Bringing the Scientific Workflows Community Together: [https://arxiv.org/abs/2103.09181](https://arxiv.org/abs/2103.09181)  
+  * Collective Knowledge: organizing research projects as a database of reusable components and portable workflows with common APIs: [https://arxiv.org/abs/2011.01149](https://arxiv.org/abs/2011.01149)  
+* Systems Logs and other outputs provided as part of the benchmark is being looked at by Christine (from FAIR point of view)  
+* RDA had a session on ML \+ FAIR (OpenML) – and there are lessons to be learnt  (University of Illinois, Chicago and Argonne)  
+* Best practice around storing datasets (storing them data repositories as opposed to GitHub, which is problematic) – though no MLCommon datasets are stored in GitHub  
+* Geoffrey Fox suggested designing a prototype around benchmarks with FAIR principles being respected. With this example, we should take it to rest of MLCommons  
+* Jeyan will present at the next meeting  about SciMLBench and MLCube.
+
+### **Any Other Business** {#any-other-business-27}
+
+* Grigori: Shared few links  
+  * Related workflows community summit (FAIR discussions): [https://workflowsri.org/summits/community](https://workflowsri.org/summits/community)  
+  * Report from this summit: [https://arxiv.org/pdf/2103.09181.pdf](https://arxiv.org/pdf/2103.09181.pdf)  
+* Tony suggested Bala and STFC to work together in curating a benchmark around CryoEM  
+* Christine: Took part in a “Making the Leap to Large” meeting ( where there were some interest on scientific datasets) . She is keen for some content  
+  * [https://eventsvirtually.org/making-the-leap-to-large](https://eventsvirtually.org/making-the-leap-to-large)  
+* OSN and ECHO  
+  * Jeyan and Juri to speak to Christine about using OSN for distributing SciML datasets
+
+## **APRIL 7, 2021** {#april-7,-2021}
+
+### **Present:** {#present:}
+
+Geoffrey Fox, Jeyan Thiyagalingam, Christine Kirkpatrick, Bala Desinghu, Gregg Barrett, Gregor von Laszweski, Junqi Yin , Juri Papay, Murali Emani, Venkat Viswanath, Vibhatha Abeyakoon  
+Regrets: Mallikarjun (Arjun) Shankar, 
+
+### **Agenda** {#agenda}
+
+* Any new member introductions  
+* Benchmark and multi-host execution Updates  
+* Discussion of next steps in FAIR.   
+  * See Christine's [talk](https://drive.google.com/file/d/1VECDSbrh8N6mvn7g4bsBkSGesiOyAtAW/view?usp=sharing%20) to Benchmark-Infra WG yesterday  
+* Any other business
+
+### **Welcome to new members** {#welcome-to-new-members-10}
+
+No new members
+
+### **Updates** {#updates-4}
+
+* Juri (RAL): Presented the status of the SciML Benchmarks including the results. His talk is [uploaded](https://drive.google.com/file/d/1yaWeb8ubnV0uqWuOxta2AAJY7h6-xCoi/view?usp=sharing)  
+* Junqi(ORNL): presented an update on the STEMDL/EDiff  
+* Murali(ANL) presented  
+* Gregor IU) had no updates but will need some help from SciML accessing RAL computers  
+* Bala Desinghu(Rutgers) on cryo-em datasets and a possibility of having a benchmark around them. This seemed promising and Bala will work with RAL on exploring this  
+* We need to define scope of work between benchmark itself, documentation, runs on systems, metadata etc.   
+
+**Discussion**               
+
+* Christine discussed next steps on FAIR (as she presented to benchmark infra WG).  
+* Discussions around ontology with Schema.org, and notion of metadata  
+* MLPerf has interesting logging standards but some fields are not easily machine readable as they contain multiple types of information “joined as English”  
+* We should adopt the FAIR principles in the areas of  logging, systems and around datasets.  
+* It is unclear how these are captured across different benchmarks in its current form in our working group.  
+* Murali noted practice of HPC working group whose benchmarks capture system metadata with mlperf-logging library. Important links are  
+* The system meta data in each submission (per application) are available at [https://github.com/mlcommons/hpc\_results\_v0.7](https://github.com/mlcommons/hpc_results_v0.7)  
+* For example, the system metadata for Cori (NERSC) is available [https://github.com/mlcommons/hpc\_results\_v0.7/tree/main/LBNL/systems](https://github.com/mlcommons/hpc_results_v0.7/tree/main/LBNL/systems)  
+* GF suggested that this FAIR/metadata work is important but should be viewed as distinct from the main benchmarking activity with distinct time scales.
+
+### **Any Other Business** {#any-other-business-28}
+
+* Access to systems: Juri will work with Gregg and others to get the PEARL system used for benchmarking  
+* STFC / RAL will also seek some help from Murali and Venkat for access to ANL systems.
+

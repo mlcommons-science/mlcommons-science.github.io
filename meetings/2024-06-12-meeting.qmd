@@ -1,0 +1,48 @@
+---
+title: "June 12, 2024"
+---
+
+## **June 12, 2024** {#june-12,-2024}
+
+### **Present** {#present-55}
+
+Geoffrey Fox, Juri Papay, Gregor von Laszewski, Gregg Barrett,  Christine Kirkpatrick, Wes Brewer, Piotr Luszczek, Sujata Goswami, Victor Lu, Steve Farrell, Hector Hernandez Corzo, Javier Toledo, Sharma Lee, Shreeya Singh Dhakal
+
+### **Apologies** {#apologies-9}
+
+Tom Gibbs, Jeyan Thiyagalingam
+
+### **Tentative Agenda** {#tentative-agenda-35}
+
+* Any New Members Introduction  
+* Status of Papers  
+* Status of Benchmarks  
+* Science Foundation Models  
+* Any Other Business
+
+### **New Members** {#new-members-26}
+
+* **Sujata Goswami** is at Oak Ridge National Laboratory [https://www.ornl.gov/staff-profile/sujata-goswami](https://www.ornl.gov/staff-profile/sujata-goswami) [https://www.linkedin.com/in/sujata-goswami/](https://www.linkedin.com/in/sujata-goswami/)  See May 15 Introduction. Works on datasets, automatic provenance, and metadata anomalies.  
+* **Javier Quetzalcoatl Toledo-Marin**, Quantum Machine Learning Research Associate at TRIUMF (Canada's Particle Accelerator Centre), will consult on AI/ML development. He has experience in developing AI/ML surrogates for diffusion equations in multicellular models. He is currently developing a generative AI variational auto-encoder using quantum computer acceleration for the Kaggle calorimeter challenge. 
+
+* **Sharma Lee** is at Naval Research Lab, Laboratory for Computational Physics & Fluid Dynamics with benchmarking, HPC systems and computational fluid dynamics expertise.  
+* **Shreeya Singh Dhakal** is an Applied Scientist at DocuSign in Seattle and founder of Nepali Women in Computing. Degree from North Carolina State University. [https://www.linkedin.com/in/shreeyya/](https://www.linkedin.com/in/shreeyya/) 
+
+### **Benchmarks** {#benchmarks-3}
+
+* Geoffrey gave an update on Earthquake benchmark [Time Series\_for\_Earthquake\_Nowcasting.pdf](https://drive.google.com/file/d/1ZwWT0uLjsVg76921TN-DwOEjNMsLoCn3/view?usp=sharing) where many (17) different time series models are compared for a variant of the MLCommons Science benchmark. We will try to add RWKV-TS discussed in the talk at last meeting by Hernandez.  
+* Wes noted [A 4D Hybrid Algorithm to Scale Parallel Training to Thousands of GPUs](https://arxiv.org/pdf/2305.13525) on large scale training  
+* The best way to operate large scale facilities is covered by [EE HPC WG: ODA Team](https://sites.google.com/lbl.gov/oda-team/home); Gregg noted their operational data analytics team.
+
+### **Any Other Business** {#any-other-business-6}
+
+* Christine will look at paper in Overleaf and add paper  
+  * We discussed including results from Digital twin for the Frontier replacement ExaDigiT at Oakridge, which has access to telemetry and an AR interface.  
+  * There is an SC24 paper with AR interface and a study of energ  
+* Juri and Geoffrey talked to David Kanter the following day Jun 13, 2024\. We described the value of the working group and asked about interactions with the AI Alliance  
+* Gregor and Wes discussed OSMI CFD benchmark and the tools needed to run this benchmark  
+  * [https://www.linkedin.com/posts/arjunsuresh\_github-mlcommonsck-mlcommons-cm-is-a-activity-6996949976035516416-rDdX/](https://www.linkedin.com/posts/arjunsuresh_github-mlcommonsck-mlcommons-cm-is-a-activity-6996949976035516416-rDdX/) describes CM framework with of its architects Arjun Suresh. Grigori Fursin has worked a lot on this and Inference tasks.  
+  * HPE’s Smartsim discussed; HPE software released with better nvidia drivers  
+  * Gregor’s Cloudmesh system  
+  * Need to loop over values of hyperparameters and configurations
+

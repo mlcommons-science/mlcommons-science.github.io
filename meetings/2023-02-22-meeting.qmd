@@ -1,0 +1,54 @@
+---
+title: "February 22, 2023"
+---
+
+## **February 22, 2023** {#february-22,-2023}
+
+### **Present** {#present-86}
+
+Gregg Barrett, Geoffrey Fox, Juri Papay, Christine Kirkpatrick, Wesley Brewer, 
+
+### **Apologies** {#apologies-27}
+
+Jeyan Thiyagalingam, Tony Hey, Gregor von Laszewski  
+Nhan V Tran, Benjamin Hawks, Christian Herwig, Piotr Luszczek, Mallikarjun Shankar, (This was a mistake of Geoffrey who logged in with the wrong email so he did not get messages that people were in waiting room)
+
+### **Tentative Agenda** {#tentative-agenda-64}
+
+* Any new members  
+* AI Readiness of MLCommons Science  (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency  (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* Discussion of new Benchmarks (Continued)  
+* AOB
+
+### **General** {#general}
+
+* Most of the meeting was devoted to further interactive discussion of the papers  
+* We suggested sending both papers to HPC working group for comments and/or collaboration
+
+### **Discussion of “AI Readiness of MLCommons Science”** {#discussion-of-“ai-readiness-of-mlcommons-science”}
+
+* In the first paper, Christine asked for comments on table 1  
+* We asked for volunteers to complete sections identified as gaps  
+  * Use email; Gregg and JUri indicated willingness to volunteer  
+* We discussed ontologies for computer systems  
+  * Geoffrey noted MLIR (Multi-level Intermediate Representation aimed at software)  
+  * And NML aimed at computer networking  
+  * We noted Cerebras with a mesh connection  
+* Wes mentioned regarding this paper that he had performed some energy benchmarks of inference in our "Inference Benchmarking on HPC Systems" paper and sent the link in the chat ([https://ieeexplore.ieee.org/abstract/document/9286138](https://ieeexplore.ieee.org/abstract/document/9286138)).  
+* Also, he mentioned if it would be of interest to have some power utilization metrics from Frontier, he may be able to get some of those numbers \-- actually he is in the process of getting some of that data, but he is not sure how soon he could have the numbers.
+
+### **Discussion of “Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency”** {#discussion-of-“using-benchmarking-data-to-inform-decisions-related-to-machine-learning-resource-efficiency”}
+
+* This paper is further along  
+* Gregg has a long comment on abstract  
+* Geoffrey needs to add comments on efficiency from MLCommons data  
+* Juri will add section on power use per chip and role of software and power usage.  
+* Should Commercial clouds be discussed  
+* Need to add OpenFold in HPC benchmarks  
+* Need to discuss Dataperf MLCommons working group
+
+### **Discussion with David Kanter** {#discussion-with-david-kanter}
+
+The MLCommons board still find our use of Science Discovery and Performance metrics confusing. Geoffrey discussed this with David Kanter on March 3, 2023\. One idea that emerged was to only have an open division in Science which clearly differentiates us from mainstream benchmarks which mainly have a closed division. I stressed that a significant role of science benchmarks was in education, where often students find it interesting just to measure performance., I think David will arrange a further meeting.
+

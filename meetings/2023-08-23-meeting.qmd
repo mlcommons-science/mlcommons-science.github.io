@@ -1,0 +1,37 @@
+---
+title: "August 23, 2023"
+---
+
+## **August 23, 2023** {#august-23,-2023}
+
+### **Present** {#present-74}
+
+Geoffrey Fox, Piotr Luszczek, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Xiaoxuan Yang
+
+### **Apologies**  {#apologies-21}
+
+Mallikarjun Shankar, Juri Papay,
+
+### **Tentative Agenda** {#tentative-agenda-53}
+
+* Any new members  
+* Foundation Models  
+  * Initial Activities  
+  * Collaborations  
+* AOB
+
+### **New Members** {#new-members-35}
+
+* [Xiaoxuan Yang](https://xiaoxuan-yang.github.io/) introduced hereself, She is an incoming assistant Professor in the University of Virginia ECE department. Her interests include memory systems and deep learning accelerators. She learnt about our work at the MLCommons Rising Star meeting [Machine Learning and Systems Rising Stars | MLCommons](https://mlcommons.org/en/rising-stars-2023/)  where Geoffrey gave a talk [AI for Science Rising Stars August 17 ](https://docs.google.com/presentation/d/1RXyPSKXXV488X9pfcPr5_L1pRMT5gd2Xk9mi-SI0VFY/edit?usp=sharing) 
+
+### **Discussion** {#discussion-24}
+
+* We discussed turbulence models  
+* Wes Brewer reminded us of [PU0174\_VFS\_VCGI\_Paper\_A.pdf](https://drive.google.com/file/d/1RVHFNzdFNy1NSVdOHRWsf9w4StEqzlmp/view?usp=sharing) which uses the Mixture of Experts approach  
+* We discussed Christine’s SC23 BOF “Machine Learning from the Data’s Perspective: Data-centric AI, AI readiness and AI Reproducibility” which was approved  
+* We discussed proposition that this WG have a focus on Foundation models and this was approved by those present  
+* It would involve models, datasets, standards (for common API’s), and benchmarks  
+* Gregg noted a paper on  foundation models and chemistry, recently published in Science, to be of interest: [\[2304.03272\] Towards self-driving laboratories: The central role of density functional theory in the AI age](https://arxiv.org/abs/2304.03272)   
+* We discussed NASA IBM Geospatial/Remote Sensing Foundation Model  [IBM open sources the largest NASA AI model on Hugging Face | IBM Research Blog](https://research.ibm.com/blog/nasa-hugging-face-ibm)   
+* Geoffrey brought this idea up in HPC working group meeting on the following Monday. They were very interested in collaborating on this.
+

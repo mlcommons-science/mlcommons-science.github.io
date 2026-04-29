@@ -1,0 +1,51 @@
+---
+title: "August 24, 2022"
+---
+
+## **August 24, 2022** {#august-24,-2022}
+
+### **Present** {#present-96}
+
+Juri Papay, Gregor von Laszewski, Gregg Barrett, Dingwen Tao, Farzana Yasmin Ahmad, Geoffrey Fox,  Junqi Yin,  Piotr Luszczek,  Steve Farrell, Murali Emani, Aristeidis Tsaris, Tom Gibbs 
+
+### **Apologies** {#apologies-37}
+
+Jeyan Thiyagalingam, Tony Hey, Christine Kirkpatrick, Shantenu Jha
+
+### **Tentative Agenda** {#tentative-agenda-74}
+
+* Any new members (none)  
+* Status of 4 Benchmarks: Rules Schedules  
+  * **ACTION ITEM** We agreed that we should add suggestions and comments to benchmarks to identify promising approaches to improving science; where did we try and fail? What did we not look at but think was interesting?    
+  *  The working group GitHub is located at [https://github.com/mlcommons/science](https://github.com/mlcommons/science)  
+  * Our Policy document is located at  [https://github.com/mlcommons/science/policy.adoc](https://github.com/mlcommons/science/policy.adoc)  
+  * Draft call for response:   
+  * [https://github.com/mlcommons/science/blob/main/CALL\_FOR\_SCIENCE\_BENCHMARK.md](https://github.com/mlcommons/science/blob/main/CALL_FOR_SCIENCE_BENCHMARK.md)   
+  * Draft New website [https://github.com/laszewsk/mlcommons/blob/2.0/webpage/frontpage-v2.md](https://github.com/laszewsk/mlcommons/blob/2.0/webpage/frontpage-v2.md) to be moved to [https://stagingscience--mlcommons.netlify.app/en/groups/research-science/](https://stagingscience--mlcommons.netlify.app/en/groups/research-science/)  
+* Futures \-- new benchmarks  **ACTION ITEM** We agreed to draft a call for new benchmarks  
+* AOB (none)
+
+### **Submission Discussion** {#submission-discussion}
+
+* Geoffrey talked to David Kanter and Geoffrey exchanged emails with Bruno Ferreira systems@mlcommons.org – MLCommons website guru.  
+* David discussed blog posts and news items. We should prepare draft for latter. **ACTION ITEM.** We discussed a deadline of around March 31, 2023 for discussion of results at ISC. Initial submissions could be mentioned at SC22. We discussed using a neutral management process to avoid conflicts of interest in reviewing submissions and if the submission repository would be publicly viewable.  
+* Gregor and Juri discussed submission issues with Kungtao, Pablo and HPC and Inference working groups. [mlcommons tasks for integration](https://docs.google.com/document/d/1JZ0qgugxJMV7SHRX-iuRC7WReONlSndnzHBhOjSvi30/edit?usp=sharing)   
+  * Need verification checker  
+  * Define directory structure for submissions  
+  * Ensure results reproducible  
+  * Science needs its own submission structure; Earthquake reference code create structure  
+  * Log files is only evidence that “rules obeyed”  
+  * Steve Farrell noted that reference models should produce valid log files  
+  * We discussed the many ontologies that are implied by logging structure  
+  * We can distinguish explicit attributes required from the implementation of their specification.  
+  * Need tests for open (Geoffrey) and closed (Juri) submissions testing scripts  
+* Geoffrey noted that most working groups have modest web sites with most of the “action” on the GitHub and mailing lists. We might want to follow this approach with process for changing GitHub simpler than that for website.  
+* Geoffrey noted  recent  earthquake science improvements which are an example of what we hope to get from call for better science discovery accuracy.  
+* Need to stress on website (initialling on staging site) that open division is our focus
+
+### **New Benchmark Discussion** {#new-benchmark-discussion}
+
+* Gregg suggested one: RadImageNet [GitHub \- BMEII-AI/RadImageNet: RadImageNet, a pre-trained convolutional neural networks trained solely from medical imaging to be used as the basis of transfer learning for medical imaging applications.](https://github.com/BMEII-AI/RadImageNet)   
+* Juri noted that RAL will have 3 new possibilities by the end of November in [GitHub \- stfc-sciml/sciml-bench: SciML Benchmarking Suite for AI for Science](https://github.com/stfc-sciml/sciml-bench) with one inference and one Xray image material science  
+* Murali discussed issues defining strategy for new benchmarks including timing and the cost of maintenance by WG and by MLCommons
+

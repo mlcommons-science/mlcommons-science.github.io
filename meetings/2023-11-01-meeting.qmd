@@ -1,0 +1,82 @@
+---
+title: "November 1, 2023"
+---
+
+## **November 1, 2023** {#november-1,-2023}
+
+### **Present** {#present-68}
+
+Geoffrey Fox, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Ying-Jung Chen, Yuhan (Douglas) Rao,  Piotr Luszczek, Mallikarjun Shankar, 
+
+### **Tentative Agenda** {#tentative-agenda-48}
+
+* Any new members  
+* Foundation Models, including the special talk last week  [Foundation Models for Weather Climate Valentine Anantharaj.mp4](https://drive.google.com/file/d/1P6eJDbzVxknKiDhCKqaMIbEa9deOxtW1/view?usp=sharing)   
+* White Papers  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)   
+  * Benchmark Carpentry [benchmark-carpentry](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)   
+  * AI Readiness of MLCommons Science [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
+* Other Benchmarks  
+* AOB
+
+### **Discussion** {#discussion-21}
+
+* Arjun noted that Hugging Face tracked power  
+* Yuhan Douglas Rao noted announcement from Met Office yesterday \- [AI to take weather forecasting by storm \- Met Office](https://www.metoffice.gov.uk/about-us/press-office/news/corporate/2023/ai-to-take-weather-forecasting-by-storm)   
+  * Collaborating with Turing Institute [The Alan Turing Institute](https://www.turing.ac.uk/)  with headquarters at the British Library London  
+* and  that the CodeCarbon project is an interesting project on tracking the carbon emission of computing \- [CodeCarbon](https://codecarbon.io/)   
+* Ne said there were 2 groups in NC State  
+* TPC is Trillion Parameter Consortium: [TPC-Hack-Start.pptx](https://docs.google.com/presentation/d/1Ca3GWPXuyH7mMT7EGZghTfZzl3h12KO1/edit#slide=id.p1)  not to be confused with [Trillion Pixel Challenge](https://geoai.ornl.gov/trillion-pixel/) from ORNL   
+* Could use Oak Ridge FORGE as basis of a benchmark; an open science LLM  
+* Recently there is an Ocean LLM  [OceanGPT: A Large Language Model for Ocean Science Tasks | Papers With Code](https://paperswithcode.com/paper/oceangpt-a-large-language-model-for-ocean) based on Llama-2 finetuned with 68K ocean papers  
+* Geoscience LLM [\[2306.05064\] K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization](https://arxiv.org/abs/2306.05064) one million papers fine tuned on LLaMA-7B   
+* [HPC-GPT: Integrating Large Language Model for High-Performance Computing](https://dl.acm.org/doi/abs/10.1145/3624062.3624172)   
+* BioBERT was original paper of this type [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](http://dx.doi.org/10.1093/bioinformatics/btz682) and Med-PALM [\[2212.13138\] Large Language Models Encode Clinical Knowledge](https://arxiv.org/abs/2212.13138) just used a large LLM on medicine   
+* Discussion of value of MoE Mixture of Experts  
+* Gregor noted [Table 1: Foundation Model Summary](https://docs.google.com/document/d/1sRcBrvzRuVsNRLKG1tFE8iGLLLvtlLObUm309o-vsKE/edit)   
+* Gregg Barrett and Arjun agreed that Science working group needed a differentiator for our activities and need to understand our challenges.  
+* We need to align with NAIRR [National AI Research Resource Task Force | NSF](https://www.nsf.gov/cise/national-ai.jsp)   
+* We discussed meeting at SC23 but only did this informally  
+* Christine mentioned publication identified for Power paper.
+
+## **October  24, 2023 11am – 12pm (EDT)** {#october-24,-2023-11am-–-12pm-(edt)}
+
+Teams [Link](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGJiNzMzYzgtMTVmZi00OTFjLTkwZDktODViZGJiYTAwYmEx%40thread.v2/0?context=%7b%22Tid%22%3a%22db3dbd43-4c4b-4544-9f8a-0553f9f5f25e%22%2c%22Oid%22%3a%22668f29ed-626a-4a2d-8b32-0bb454604d2a%22%7d)
+
+### **Toward an open science foundation model for weather and climate** {#toward-an-open-science-foundation-model-for-weather-and-climate}
+
+*Valentine "Val" Anantharaj.Oak Ridge National Laboratory*  
+Reliable forecasting of weather and assessment of risks at any location or region of the world requires the coordinated monitoring of weather and acquisition of data. A variety of data are routinely collected from diverse observing systems, including ground-based instruments and satellite platforms. The data are then integrated via numerical weather prediction systems using sophisticated data assimilation techniques on supercomputers to produce timely predictions and associated uncertainties that are used to make routine probabilistic forecasts and issue any associated warnings.   
+   
+Recently, data-driven machine learning (ML) models have demonstrated their potential to augment the deterministic forecasts of NWP systems. A few of these ML models can also be broadly characterized as “foundation models” that have been developed based on AI Vision Transformer (ViT) architecture. The foundation models also offer capabilities to integrate heterogeneous data by fine-tuning a pre-trained model. This approach is very promising for weather and climate research and applications. Data from multiple modalities and resolutions can be employed for a range of new capabilities.   
+   
+The speaker will also provide an overview of a recent collaborative initiative, led by NASA, IBM and ORNL, to develop an open science foundation model for weather and climate. The presentation will also outline and discuss the emerging opportunities for using foundation models leveraging the value chain of climate data from simulations and observations of the earth system while leveraging DOE exascale systems such as Frontier, and the Advanced Computing Environment (ACE) Testbed at the OLCF.
+
+### **Recording of talk**  {#recording-of-talk}
+
+[https://drive.google.com/file/d/1P6eJDbzVxknKiDhCKqaMIbEa9deOxtW1/view?usp=sharing](https://drive.google.com/file/d/1P6eJDbzVxknKiDhCKqaMIbEa9deOxtW1/view?usp=sharing) on MLCommons or at Oak Ridge [https://drive.google.com/file/d/1Fhx6tNxzSjPJDDJGaFf57qIKR5kxAafh/view?usp=sharing](https://drive.google.com/file/d/1Fhx6tNxzSjPJDDJGaFf57qIKR5kxAafh/view?usp=sharing) 
+
+### **Present** {#present-69}
+
+Geoffrey Fox, Wes Brewer,Valentine Anantharaj, Tony Hey, Gregor von Laszewski,  Piotr Luszczek, Aristeidis Tsaris, Murali Emani, Shantenu Jha, Dingwen Tao,  Yuhan Rao, Amit  Ruhela, Przemyslaw Porebski, and others for a total of 25\.
+
+### **Talk Highlights** {#talk-highlights}
+
+* Val described work with Oak Ridge, IBM, NASA, University of Alabama Huntsville, Chicago, Stanford, Colorado State, Its foundation model uses thes the IBM-NASA HLS (Harmonized Landsat Sentinel) Foundation model discussed earlier in our sessions [NASA and IBM Openly Release Geospatial AI Foundation Model for NASA Earth Observation Data | Earthdata](https://www.earthdata.nasa.gov/news/impact-ibm-hls-foundation-model)   
+* Weather and Climate forecasting has quietly but dramatically improved over the last few decades  
+* Now the Southern and Northern hemisphere predictions have similar accuracy and one sees the temperature inversion between low and high level atmospheres characteristic of climate change (now low levels are warmer, previously the opposite was true)  
+* AI methods have come from NVIDIA (FourCastNet [https://github.com/NVlabs/FourCastNet](https://github.com/NVlabs/FourCastNet)) Huawei (Pangu [https://www.huawei.com/en/news/2023/8/pangu-weather-forcast](https://www.huawei.com/en/news/2023/8/pangu-weather-forcast)) Google/Deep Mind ([https://indico.dkrz.de/event/45/contributions/203/attachments/59/120/ESiWACE2%20talk\_Hoyer%20virtual%20workshop%20on%20weather%20\_%20climate%20modeling%20-%207%20October%202022.pdf](https://indico.dkrz.de/event/45/contributions/203/attachments/59/120/ESiWACE2%20talk_Hoyer%20virtual%20workshop%20on%20weather%20_%20climate%20modeling%20-%207%20October%202022.pdf) and GraphCast [\[2212.12794\] GraphCast: Learning skillful medium-range global weather forecasting](https://arxiv.org/abs/2212.12794)), Micicrosoft (Climax,  [\[2301.10343\] ClimaX: A foundation model for weather and climate](https://arxiv.org/abs/2301.10343))  
+* The Climax model is based on a Foundation model (pretrained on climate simulations and not observed data) but is not as well tested from fine-tuned results  
+  * Pretraining can be considered as an approach to fine tuning  
+* GraphCast is particularly parameter efficient  
+* Swin and Vision transformers are used.  
+* FourCastNet was bad near poles but that has been improved  
+* ClimaX illustrates the important idea of training with homogenized coarse resolution and then fine-tuning at higher resolution. This idea of multiple sophisticated fine-tunings based on a homogenized Foundation model is important.	Fine-tuning can also introduce new variables  
+* Surrogated and Digital twins are also being investigated  
+* Nowcasting is predicting the next few hours.  
+* Large language Model LLM Foundation models can also be linked to image-based Foundation models in a fine-tuning  
+* Foundation models are an approach to Data Fusion and can have both simulations and observations as input  
+* In Val’s project, Chicago is fine-tuning to understand clouds, and Colorado State is studying how many satellites are needed.  
+  * Private Industry interested in these developments  
+  * Ensemble methods (50 distinct simulations in traditional weather forecasting) need to be integrated with this.
+

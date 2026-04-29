@@ -1,0 +1,45 @@
+---
+title: "October 7, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **October 7, 2025 (9.05 pm. ET for Asia-USA)** {#october-7,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-9}
+
+Abi Prasanth, Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski, Hussain Ather,  Piotr Luszczek, Satoshi Iwata, Shirley Moore, Victor Lu
+
+### **Google Meet Notes** {#google-meet-notes-8}
+
+* [MLC Science WG \- 2025/10/08 01:58 BST \- Notes by Gemini](https://docs.google.com/document/d/1HgxZernB-UrInKFxmHXoXSjMvXYsuio4f-SWnRH1mDc/edit?tab=t.8hm3ipn2vxfw)    
+* The meeting included introductions by Abi Prasanth and updates on carpentry papers by Gregor von Laszewski and website improvements by Marco, which Nhan positively commented on. Gary Mazzaferro requested Geoffrey Fox and Gregor von Laszewski to participate in a SNIA podcast on CDMI to discuss AI storage requirements and standards, highlighting challenges in data movement from PCI bus storage to GPUs and the need for unified data management. Geoffrey Fox will issue the meeting minutes, incorporating notes from Gemini and Hussein's notetaker.  
+* **Suggested next steps:**  
+* Shirley Moore will contribute before the next meeting.  
+* Gregor von Laszewski will integrate the energy section into the paper.  
+* Abi Prasanth will put his LinkedIn or any contact URL in the chat.  
+* Geoffrey Fox will put out the minutes of the meeting probably tomorrow.  
+* Geoffrey Fox will add any useful notes from Hussein's notetaker to the minutes.
+
+### **Discussion** {#discussion-5}
+
+* Gary Mazzaferro discussed introduction of the new CDMI version 3 from SNIA  [SNIA.org](https://www.snia.org/)  
+  * Version 2 CDMI [CDMI 2.0 \- Cloud Data Management Interface](https://www.snia.org/sites/default/files/technical-work/cdmi/release/CDMI-v2.0.0.pdf)   
+* Gregor von Laszewski commented on the constraints coming from effective transfer of data into the GPU noting  
+* NVIDIA Blackwell Ultra reaching up to 8 TB/s of memory bandwidth and the H200 providing 4.8 TB/s  
+* local storage : get data: is \[CDMI Object Store\] → (REST / HTTPS) to \[CDMI Client or Gateway\] → (Filesystem or GDS bridge) to \[GPUDirect Storage or NVMe Buffer\] → \[GPU VRAM / HBM via CUDA or cuFile\]  
+* He identified  
+  * A. Use GPUDirect Storage (GDS)  
+  * B. Use CDMI as a Control Plane, Not a Data Path  
+  * C. Cache Hot Data Near the GPU  
+  * D. Enable RDMA and Zero-Copy Transfers  
+* Gregor von Laszewski suggested verification of throughput using gdsio/gdsio tool from the GDS tools:  
+  * /usr/local/cuda/gds/tools/gdsio \-x 0 \-d 0 \-s 8G \-i 4M \-f /mnt/nvme/testfile  
+  * This checks GPU↔NVMe performance  
+* Gregor von Laszewski noted CDF is legacy and is likely obsolete  
+  * It is used in "SNIA  legacy ref application"  
+  * LLMs will help here to at least identify issues  
+* Geoffrey noted ADIOS
+
+### **New Members** {#new-members-3}
+
+* Abi Prasanth [https://www.linkedin.com/in/abi-prasanth-53818121b/](https://www.linkedin.com/in/abi-prasanth-53818121b/) works for ITOM Marketing and he developed a Machine Learning-algorithm, Geometric Mixture Classifier (GMC), a novel, interpretable model bridging the gap between linear and black-box classifiers. He works for Hindusthan College of Engineering and Technology in Chennai, Tamil Nadu, India 
+

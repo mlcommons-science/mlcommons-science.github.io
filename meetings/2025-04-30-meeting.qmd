@@ -1,0 +1,38 @@
+---
+title: "April 30, 2025"
+---
+
+## **April 30, 2025** {#april-30,-2025}
+
+### **Present** {#present-31}
+
+Aaron Goulden, Armstrong Foundjem, Azza Ahmad, Carl Ehrett, Christine Kirkpatrick, Geoffrey Fox, Gregor von Laszewski, Howard Pritchard,  Iulia Ibanescu, Javier Toledo, Matt Sinclair, Murali Emani, Nhan Tran, Philip Harris, Piotr Luszczek, Satoshi Iwata, Shirley Moore,  Victor Lu, Wenhui Zhang
+
+### **Tentative Agenda** {#tentative-agenda-14}
+
+* Any New Members Introduction  
+* Additional meeting times. April 22 9 pm April 23 11pm Eastern   
+* Next Steps in Science LLM Evaluation following TPBench   
+* White Papers   
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks based on [https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)  
+
+### **New Member** {#new-member-4}
+
+* Aaron Goulden is Founder and Technical Director at an AI startup, Delightful Data AI Inc, attended the University of Central Lancashire, is in Manchester Area, United Kingdom. See [https://www.linkedin.com/in/aarong11/](https://www.linkedin.com/in/aarong11/) 
+
+### **Google Meet Notes** {#google-meet-notes-26}
+
+* The Google notes are useless as the report says “A summary wasn't produced for this meeting because there wasn't enough conversation in a supported language.” A rather implausible excuse
+
+### **White Papers** {#white-papers}
+
+* Gregor arranged to meet Nhan, Armstrong, Victor  
+* Armstrong will present at our meeting two weeks from now May 14, 2025  
+* Matt noted that he can work with Nhan, on adding Gregor's suggestion to the MLCarpentry Overleaf \-- let me know if you need me
+
+### **Discussion of Nhan’s Benchmark Analysis** {#discussion-of-nhan’s-benchmark-analysis}
+
+* Nhan presented from [MLCommons Benchmarks \- Taxonomy \- 4/30/25](https://docs.google.com/presentation/d/1GvEyT2uQYQVW5QdneLKg42khR12v4pFV0GFtnjGeUkQ/edit?authuser=1#slide=id.g351baaa7a69_0_1)    
+* Victor noted “modern AI systems fail in four key areas: they lack awareness of the physical world, have limited memory and no continuous recall, are incapable of reasoning, and struggle with complex planning.” [Yann LeCun Calls LLMs 'Token Generators' While Llama Hits a Billion Downloads](https://aimresearch.co/market-industry/yann-lecun-calls-llms-token-generators-while-llama-hits-a-billion-downloads)   
+* Matt suggested that for systems researchers we should work on developing a scheme to take the 100s of ML+Science/Science workloads and characterize them (e.g., compute vs. memory intensity) such that systems researchers wanting to run MLCommons Science workloads can run this representative subset and have confidence their behavior is representative of the larger set of workloads.  This will make it more practical for users to pick up these workloads, since running 100s of them is likely not practical.
+

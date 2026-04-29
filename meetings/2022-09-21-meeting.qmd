@@ -1,0 +1,48 @@
+---
+title: "September 21, 2022"
+---
+
+## **September 21, 2022** {#september-21,-2022}
+
+### **Present** {#present-95}
+
+Juri Papay, Gregor von Laszewski, Gregg Barrett, Farzana Yasmin Ahmad, Geoffrey Fox,  Junqi Yin,  Piotr Luszczek, David Kanter, Aristeidis Tsaris, Shantenu Jha
+
+### **Apologies** {#apologies-36}
+
+Jeyan Thiyagalingam, Tony Hey, Mallikarjun Shankar,
+
+### **Tentative Agenda** {#tentative-agenda-73}
+
+* Any new members  
+* Status of 4 Benchmarks: Rules Schedules  
+  * **ACTION ITEM** We agreed that we should add suggestions and comments to benchmarks to identify promising approaches to improving science; where did we try and fail? What did we not look at but think was interesting?    
+* Futures \-- new benchmarks    
+  * **ACTION ITEM** We agreed to draft a call for new benchmarks  
+* Tomorrow \- MLCommons COMMUNITY MEETING Our Talk 2.20 pm US Eastern  
+* Future \-- NSF Reviews suggest we identify focus; should we?  
+* AOB
+
+### **New member introductions** {#new-member-introductions}
+
+Shantenu Jha was new and already known to most present. He noted his Brookhaven, Rutgers affiliation and interest in Surrogates.
+
+### **Benchmark Status** {#benchmark-status}
+
+The entire meeting was devoted to benchmark status. We discussed the relation between MLCommons Science and MLCommons GitHub Science web pages and understood that active material like benchmark details should be in latter not former. The nature of chair bios in MLCommons Science page was discussed. Mostly we discussed the submissions process and realized it should be separate from the  main policy document.. We will put it at [General MLPerf Submission Rules](https://github.com/mlcommons/policies/blob/master/submission_rules.adoc) and the main policy document is [https://github.com/mlcommons/science/blob/main/policy.adoc](https://github.com/mlcommons/science/blob/main/policy.adoc). We agreed on a rolling submission policy was described below. David Kanter gave us much good advice.
+
+* Submissions can be made to the MLCommons Science GitHub at any time for any benchmark that has been released.  
+* Submissions will be automatically checked and then reviewed by the working group which has a review committee for each benchmark.  
+* Depending on the number of scientific innovations in the submission, the review time will vary.  
+* The submitters will get an automatic acknowledgment on submission and a customized response from the committee within a week of the submittal date.  
+* This second response will indicate the estimated time for a committee review to be completed.  
+* On completion of the committee review, all submissions that are considered in scope will be posted on the working group GitHub which includes a scientific discovery "leaderboard" for each benchmark.  
+  * Updates will be summarized quarterly  
+* The innovations will be described and can include aspects other than final accuracy  
+  * e.g. the submission might need a smaller dataset to achieve an interesting accuracy. It is expected that benchmarks will be posted for at least a year so as to gather a rich set of input.  
+* Everything in place for release at SC22, Dallas November 16
+
+### **Community Meeting September 22, 2022** {#community-meeting-september-22,-2022}
+
+This was not discussed in the meeting but today’s submission discussion was reflected in our presentation [Science WG at MLCommons Community Meeting  September 22, 2022](https://docs.google.com/presentation/d/1GZoSM_IdpLVQ4WPKlqWrwkJcPhpaedUbQqLPRyqZfc4/edit?usp=sharing) given by Geoffrey
+

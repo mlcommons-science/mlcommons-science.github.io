@@ -1,0 +1,62 @@
+---
+title: "February 23, 2022"
+---
+
+## **February 23, 2022** {#february-23,-2022}
+
+### **Present** {#present-107}
+
+Tony Hey, Geoffrey Fox,   Gregor von Laszewski,  Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,  Arjun Shankar,  Aristeidis Tsaris,  Junqi Yin, Murali Emani, Cade Brown, Piotr Luszczek  
+**Apologies:** Jeyan Thiyagalingam,  Christine Kirkpatrick
+
+### **Tentative Agenda** {#tentative-agenda-85}
+
+* New member introductions  
+* Special Presentation "FAIR Metadata and Launching Platform for Surrogates" by University of Tennessee, Cade Brown and  Piotr Luszczek  "  
+* Continuation of discussion of portability of benchmarks. How much effort is involved in deploying a benchmark?  
+* Clarification on what each benchmark is going to measure.(NOT DONE)  
+* AOB
+
+### **New Member Introductions** {#new-member-introductions-4}
+
+Cade Brown and Piotr Luszczek from the University of Tennessee introduced themselves. They work in the [Innovative Computing Laboratory](https://www.icl.utk.edu/) led by Jack Dongarra at the University of Tennessee. Cade Brownis a Junior at UTK. 
+
+### **Presentation on FAIR Metadata and Launching Platform for Surrogates** {#presentation-on-fair-metadata-and-launching-platform-for-surrogates}
+
+* This work is part of the SBI Surrogate Benchmark Initiative [SBI-FAIR  February 14 2022 Meeting](https://docs.google.com/document/d/15zad_ql6VBV5Q70WNYtGiXf0OStKKpgm3sxonfsS0Wo/edit?usp=sharing)  involving UTK, Argonne National Laboratory, Rutgers, Indiana University, and the University of Virginia.  
+* Cade Brown gave a wonderful presentation [CadeBrown-FAIR-Platform-Surrogates](https://docs.google.com/presentation/d/1sl5MAYodvQyfw46rYG0PHNL5nsf5NQYgrvGlF1Z_kHo/edit?usp=sharing) with goals:  
+  * Public website for browsing ML models, datasets, and performance runs  
+  * Quick and easy installation instructions for models:  
+    * Search website for the model, based on keywords, authors, etc  
+    * Click the “install” button, which downloads the .sh or .py file  
+    * Run MODEL.py setup/run/bench  
+  * Ideally, should work everywhere (HPC/supercomputer, desktop, laptop, CUDA/HIP/...), but some models may be framework-specific  
+* Cade noted related links  
+  *  [https://neptune.ai/](https://neptune.ai/) \- paid service with similar goals  
+  * [https://modelzoo.co/](https://modelzoo.co/) \- aggregator of ML models, good to datamine  
+  * [https://pypi.org/project/python-firebase/](https://pypi.org/project/python-firebase/)  
+  * [https://firebase.google.com/docs/ml/manage-hosted-models](https://firebase.google.com/docs/ml/manage-hosted-models)  
+  * [https://docs.google.com/document/d/1Aw3cYBEEf34A7A\_UbDAOVVSjF28oM4C4o5RGfGRjDXI](https://docs.google.com/document/d/1Aw3cYBEEf34A7A_UbDAOVVSjF28oM4C4o5RGfGRjDXI)  
+* Cade noted they looked at CloudMask and STEMDL in our benchmarks  
+* Cade described the choice of JSON with perhaps HDF5 used for large datasets for efficiency.  
+* Cade discussed tradeoffs in the use of Firebase – discussion prompted by earlier SBI project meeting.  
+* Cade noted the use of Tensorboard to visualize weight and loss as part of reporting capabilities  
+* Cade asked for user input so they can adapt  
+* Gregg gave a link to Christine’s presentation [https://docs.google.com/presentation/d/1iYOLIYBOBF0HraZaWfIyZbePuoQs8lAQ\_6-uVwRZZKw/edit\#slide=id.g10c9d08e4bc\_1\_138](https://docs.google.com/presentation/d/1iYOLIYBOBF0HraZaWfIyZbePuoQs8lAQ_6-uVwRZZKw/edit#slide=id.g10c9d08e4bc_1_138)   
+* Murali: This is really interesting work. We have an ongoing project with a focus of HPC ML performance datasets and models. [https://hpc-fair.github.io/](https://hpc-fair.github.io/)    
+* Gregor noted his work on subtle issues like clock speed changes and overclocking distorting performance. He has useful tools  
+* Cade and Piotr noted the use of hardware performance counters to specify base system performance  
+* Arjun and Gregg congratulated the first users of our benchmarks. Arjun liked separate models and datasets and recommended URL’s as universal names.  
+* Gregor noted work of fast.ai  
+* SciMLBench [SciMLBench\_MLCommons\_Science.pdf](https://drive.google.com/file/d/1oO96Elwwkn9bpxUDwkogtZ19xvZYFcNE/view?usp=sharing) and DLHub were suggested as related work
+
+### **Discussion of portability of benchmarks** {#discussion-of-portability-of-benchmarks}
+
+* This continued the theme of the previous topic and we agreed that we must specify two separate artifacts  
+* FAIR metadata links to performance results, data, and reference models  
+* A set of containers supporting execution. These containers will have the same or similar specification files but different instances on each hardware due to version inconsistencies and rules that systems to container supported and systems installed. These containers will support PyTorch, Tensorflow, Horovod, etc.  
+* Note Horovod tends to have the best performance due to its choice of MPIAllReduce  
+  * Gregor noted for example that compiled Python 10% faster than standard at the University of Virginia  
+* Porting between containers can be performed on a machine that supports multiple versions (Docker, Singularity, Shifter)  
+* Target hardware could be ThetaGPU (Argonne), Summit(ORNL), Pearl (RAL) AWS (supports Kubernetes), TACC/SDSC, NERSC
+

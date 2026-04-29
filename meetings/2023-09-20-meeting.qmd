@@ -1,0 +1,50 @@
+---
+title: "September 20, 2023"
+---
+
+## **September 20, 2023** {#september-20,-2023}
+
+### **Present** {#present-72}
+
+Geoffrey Fox, Piotr Luszczek, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Ying-Jung Chen
+
+### **Apologies**  {#apologies-19}
+
+Mallikarjun Shankar
+
+### **Tentative Agenda** {#tentative-agenda-51}
+
+* Any new members  
+* Foundation Models  
+  * How do we get started \-- IBM-NASA Model  
+* White Papers  
+* Other Benchmarks  
+* AOB  
+  * Second Order Methods?
+
+### **Discussion of Foundation Models** {#discussion-of-foundation-models}
+
+* We agreed to contact Foundation Model projects and discussion form of interactionb. This includes  
+  * Microsoft DeepSpeed from new announcement [Announcing the DeepSpeed4Science Initiative: Enabling large-scale scientific discovery through sophisticated AI system technologies \- Microsoft Research](https://www.microsoft.com/en-us/research/blog/announcing-the-deepspeed4science-initiative-enabling-large-scale-scientific-discovery-through-sophisticated-ai-system-technologies/)   
+  * IBM-NASA either Manil Maskey or Yuhan Rao who joined earlier calls  
+  * TPC. Perhaps Murali can suggest best method  
+* Wes noted on foundation models for climate, here is an interesting paper: [\[2301.10343\] ClimaX: A foundation model for weather and climate](https://arxiv.org/abs/2301.10343)  
+* He arranged a talk next time on a Climate Foundation model from Valentine (Val) Anantharaj, Ph.D. \<vga@ornl.gov\> | GVoice: \+1 646.504.7223 [Valentine ANANTHARAJ | Computational Climate Scientist | PhD | Oak Ridge National Laboratory, TN | ORNL](https://www.researchgate.net/profile/Valentine_Anantharaj) National Center for Computational Sciences / Oak Ridge National Laboratory  
+* Wes also discussed Foundation model for Turbulence (see last meeting) built to insert into OpenFoam  
+  * Geoffrey noted work of Stephan Hoyer at Google [https://research.google/people/StephanHoyer/](https://research.google/people/StephanHoyer/) where they build a model in Julia/Python that can be trained using JAX to differentiate code [Stephan Hoyer (Google): Deep learning and differentiable simulations](https://www.youtube.com/watch?v=EOxKcq9w8FU)  [Deep learning & differentiable simulations](https://indico.dkrz.de/event/45/contributions/203/attachments/59/120/ESiWACE2%20talk_Hoyer%20virtual%20workshop%20on%20weather%20_%20climate%20modeling%20-%207%20October%202022.pdf)   
+*  Piotr noted  
+  * [\[2306.00258\] Towards Foundation Models for Scientific Machine Learning: Characterizing Scaling and Transfer Behavior](https://arxiv.org/abs/2306.00258)  
+  *  [\[2108.07258\] On the Opportunities and Risks of Foundation Models](https://arxiv.org/abs/2108.07258) 
+
+### **White Papers** {#white-papers-8}
+
+* Christine led discussion of [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?pli=1) which is near completion  
+* We identified sections that Gregor and Geoffrey needed to work on. Geoffrey will update the efficiency analysis.  
+* Maybe we will submit it to Frontiers in HPC and switch to Overleaf
+
+### **Second Order Methods** {#second-order-methods}
+
+* Geoffrery noted that MLCommons does not directly benchmark second order methods although there are many papers saying better performance can sometimes be obtained from them  
+* One needs to submit to Open Division  
+* There was quite a bit of interest although this does not clearly belong in Science WG
+

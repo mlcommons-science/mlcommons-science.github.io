@@ -1,0 +1,37 @@
+---
+title: "March 23, 2022"
+---
+
+## **March 23, 2022** {#march-23,-2022}
+
+### **Present** {#present-105}
+
+Arjun Shankar, Gregor von Laszewski, Geoffrey Fox, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Murali Emani, Piotr Luszczek, Cade Brown  
+**Apologies:** Christine Kirkpatrick, Tony Hey, Jeyan Thiyagalingam
+
+### **Tentative Agenda** {#tentative-agenda-83}
+
+* New member introductions  
+* Gregor von Laszewski, Juri Papay; MLCommons Requirements Analysis [MLCommons - Requirements](https://docs.google.com/presentation/d/1agKr5j7zja47T6OSevlpWQjkYIZIE5qFuOcHPsat1XY/edit?usp=sharing)   
+* Status of Benchmarks.given ISC May 22 deadline  
+* AOB
+
+### **MLCommons Requirements Analysis** {#mlcommons-requirements-analysis}
+
+Gregor presented [MLCommons - Requirements](https://docs.google.com/presentation/d/1agKr5j7zja47T6OSevlpWQjkYIZIE5qFuOcHPsat1XY/edit?usp=sharing) a thorough analysis of the issues that needed to be addressed for a useful benchmark that is  compliant with MLCommons requirements. This was based on experience with work on preparing current benchmarking. Topics discussed included
+
+* Containers are helpful: Docker and Singularity – easy to go between them  
+* Described Stopwatch tool  
+* Separate parameters in a configuration file that is YAML or JSON. Don’t put parameters to be varied in the program e.g. Jupyter notebook  
+* Suggested to add a readme describing the meaning of parameters  
+* Described a Sbatch extension  
+* Organization of code including challenges of combining Github and Jupyter notebook  
+* Described what to measure including Temperature energy, Memory use on GPU and CPU  
+* Went through Mlcommons BERT example for hyperparameters  
+* Gregor will work with ontologies/metadata technology of the Tennessee group (Cade, Piotr)  
+* Discussion of MLcommons logging
+
+### **Status of Benchmarks.given ISC May 22 deadline** {#status-of-benchmarks.given-isc-may-22-deadline}
+
+Gregor and Juri have all 4 codes in hand and are working on them for May 22 ISC deadline
+

@@ -1,0 +1,102 @@
+---
+title: "June 28, 2023"
+---
+
+## **June 28, 2023** {#june-28,-2023}
+
+### **Present** {#present-78}
+
+Geoffrey Fox, Gregg Barrett, Juri Papay, Wesley Brewer, Gregor von Laszewski, Piotr Luszczek, Tom Gibbs,  Mallikarjun Shankar, Murali Emani, Jeyan Thiyagalingam, Shantenu Sharma, Sankranti Joshi
+
+### **Apologies** {#apologies-23}
+
+Christine Kirkpatrick, 
+
+### **Tentative Agenda** {#tentative-agenda-57}
+
+* Any new members  
+* New Benchmarks and Implications of rapid algorithm change (continued from last meeting)   
+* **Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency** (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* **Benchmark Carpentry** [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)   
+* **AI Readiness of MLCommons Science** (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* AOB
+
+### **New Members** {#new-members-36}
+
+**Shantenu Sharma** [Shantanu Sharma](https://www.shantanusharma.com/) is a  computer scientist and financial services professional by training with Ph.D. from UNC Chapel Hill.  
+**Sankranti Joshi:** I am Sunny and I gonna be starting a PhD in Computer Vision focused on Environment/Remote Sensing focussing on Bayesian Meta Learning. I currently work as an AI/ML RDP Engineer at GSK. In the past I have worked in NLP Research, and as an ML engineer with time series models. 
+
+### **Implications of Rapid Algorithm Change** {#implications-of-rapid-algorithm-change}
+
+* Note Juri and Jeyan need to be explicitly given permission to enter  
+* Juri asked Geoffrey if he wanted to go ahead with benchmarking book  
+* See our benchmarks announced  through Christine Kirkpatrick [https://us9.campaign-archive.com/?u=f8dc2fe8d87111ab0e1040731\&id=2610d42728](https://us9.campaign-archive.com/?u=f8dc2fe8d87111ab0e1040731&id=2610d42728)   
+* We returned to patterns where Wes Brewer noted that in parallel computing the 7 dwarfs are patterns [The Landscape of Parallel Computing Research: A View from Berkeley](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-183.pdf)  
+* UNet is often a goodchoice (pattern)   
+* We discussed the Time Series pattern  
+  * Wes Brewer noted: This is a good survey paper regarding time-series forecasting: [Time-series forecasting with deep learning: a survey | Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2020.0209)   
+  * Shantanu Sharma: [\[2304.02948\] FengWu: Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead](https://arxiv.org/abs/2304.02948)   
+  * Shantanu also noted that financial services offer similar challenges.  
+* Engineering algorithms is hard even when basic ideas simple  
+* Tom Gibbs has a nice NVIDIA talk on weather comparing multiple models and multiple dattasets where spatial resolution and forecast time are key quality measures.  
+  * [ANL\_E-2\_Apr23 (002).pdf](https://drive.google.com/file/d/19NIug36j_IHWFVXbe-VW9-YKRvUO-MhP/view?usp=sharing) is the deck where I pulled Slide 33 to illustrate the pace of algorithmic innovation. I added a comment to the slide to include the latest climate model from China which uses a cross modal transformer.  
+  * [FengWu Model from China.pdf](https://drive.google.com/file/d/15hHoCabfEbX5-JnTDCACkr6qUpCLVLFW/view?usp=sharing)  is original paper as well. The conclusion illustrates the power savings for the AI model relative to the conventional approach, where they provide the analysis below  
+  * *Inference Cost: We evaluate the inference speed of FengWu on an NVIDIA Tesla-A100 GPU, which indicates that FengWu costs less than 30 seconds to generate all forecasts in the following 10 days with a six-hour interval. With a peak power consumption of 0.4KW for an A100 (Choquette et al., 2021), a 10-day inference by FengWu consumes roughly 12kJ energy, while the consumption of a single member of the IFS model is estimated to be about 26.6MJ 2, approximately 2000 times higher than FengWu.*  
+* Fusion has similar characteristics  
+* Is Mixture of Experts as in GPT4 a Pattern?  
+  * Tom Gibbs noted that Climate is already a mixture with “modal mixing”  
+* Shantanu noted [Machine Learning Datasets | Papers With Code](https://paperswithcode.com/datasets) as a possible source of data  
+  * We noted that SDSC and RAL hosted our data which for students is hard to access and store on limited academic disk systems  
+* In discussing how people can respond to our challenge, Arjun thought that the Earthquake example was the least specialized  
+* We need to establish events anf payoff from developing new models  
+* Onramping overhead is quite high and one needs both AI and Application expertise to contribute to our benchmarks.  
+  * But students can improve current codes  
+* Perhaps have a “Pattern Challenge”   
+* Arjun noted [GitHub \- rasbt/deeplearning-models: A collection of various deep learning architectures, models, and tips](https://github.com/rasbt/deeplearning-models)   
+* There seem to several places where we can expand portfolio such as the RAL examples like Hydronet discussed last time
+
+### **Our Plan** {#our-plan}
+
+* Juri had a 1:1 meeting with David Kanter on June 30 and David asked the Working Group to come up with some plan or directions on what the WG intends to do.  See the links below.  
+  * Can we please address these topics at the next telco.  
+  * [MLCommons Working Group (WG) OKRs](https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1)   
+  * [MLCommons Roadmaps](https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit#gid=0)   
+* Geoffrey said: I think recent meetings have been devoted to defining future but we are not finished  
+* Juri: You are absolutely right,  I did mention to David that on the last 2-3 sessions were tried to define the directions. We just need to fill in some short text in the columns, because we are the only WG which has not provided any work plan yet.
+
+### **Financial Services** {#financial-services}
+
+* Shantanu notes  
+* These are the datasets I would suggest which might be relevant for financial services:  
+* Wharton's WRDS has a great repository of tick datasets, including the NYSE TAQ.  
+  * wrds-www.wharton.upenn.edu/pages/about/data-vendors/  
+  * vimeo.com/whartonwrds  
+* Other datasets would include Quandl, Data.gov etc (linked below).  
+  * Quandl: This website provides a wide variety of financial datasets, including stock prices, interest rates, and economic indicators.  
+    [Brands of the World](https://www.brandsoftheworld.com/logo/quandl)  
+  * Data.gov: This website is a repository of government data from the United States. It includes a variety of financial datasets, such as data on the stock market, housing prices, and government spending.  
+    [Blogs iadb. \- Inter-American Development Bank](https://blogs.iadb.org/conocimiento-abierto/en/lessons-learned-first-five-years-data-gov/)  
+  * World Bank Open Data: This website provides open data from the World Bank. It includes a variety of financial datasets, such as data on poverty, inequality, and economic growth.  
+    [CEO Water Mandate](https://ceowatermandate.org/resources/world-bank-open-data-2018/)  
+  * Google Trends: This website allows you to track search trends over time. This can be useful for identifying financial topics that are trending, which could be a good indicator of future market movements.  
+    [Insight Platforms](https://www.insightplatforms.com/platforms/google-trends/)  
+  * Kaggle: This website is a community for data scientists and machine learning engineers. It hosts a variety of financial datasets, as well as competitions and tutorials on how to use them.  
+    [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kaggle_logo.png)  
+* These are just a few of the many repositories of financial services datasets available online. When choosing a repository, it is important to consider the specific datasets you are interested in, as well as the quality and reliability of the data.
+
+Here are some additional repositories that you may find helpful:
+
+* CEIC Data: This website provides a wide variety of economic and financial data from around the world.  
+  [CEIC Data](https://info.ceicdata.com/en-products-global-database-ad)  
+* Thomson Reuters Datastream: This website provides a variety of financial data, including stock prices, economic indicators, and news feeds.  
+  [Library Research Plus](https://blog.research-plus.library.manchester.ac.uk/tag/thomson-reuters/)  
+* Bloomberg Terminal: This is a powerful financial data terminal that provides access to a wide variety of financial data, including real-time stock prices, news feeds, and research reports.  
+  [LibGuides at Carnegie Mellon University](https://guides.library.cmu.edu/c.php?g=215424&p=4902633)  
+* FactSet: This website provides a variety of financial data, including stock prices, economic indicators, and research reports.  
+  [www.factset.com](https://www.factset.com/)  
+* Refinitiv Eikon: This website provides a variety of financial data, including stock prices, economic indicators, and news feeds.  
+  [Refinitiv](https://www.refinitiv.com/en/products/eikon-trading-software)  
+* There are other groups like the AI4Finance Foundation, however I am not sure about their affiliation, so need more analysis.  
+* On model front, Hugging Face has some pertinent models referenced here: [https://huggingface.co/datasets?other=finance\&sort=downloads](https://huggingface.co/datasets?other=finance&sort=downloads)  but none seem to be of the scale of BLOOM.  
+* It would be great if data cloud providers like Google Cloud, Microsoft Azure, Amazon Web Services could help provide an Anthos-like cross-cloud interface for MLCommons projects, enabling more accessible science in the US.
+

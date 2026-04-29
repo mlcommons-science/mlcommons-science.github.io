@@ -1,0 +1,65 @@
+---
+title: "June 26, 2024"
+---
+
+## **June 26, 2024** {#june-26,-2024}
+
+### **Present** {#present-54}
+
+Geoffrey Fox, Juri Papay, Gregor von Laszewski, Gregg Barrett, , Wes Brewer, Victor Lu, Hector Hernandez Corzo, Javier Toledo, Armstrong Foundjem, Tom Gibbs, Ali Hashmi
+
+### **Apologies** {#apologies-8}
+
+Christine Kirkpatrick
+
+### **Tentative Agenda** {#tentative-agenda-34}
+
+* Any New Members Introduction  
+* Preparing for Community Meeting June 27, 2024\. See [https://docs.google.com/presentation/d/1mmtVqYEpzVwsC1GjKXEGJckBnFPax-H2inD4tRMkS\_w/edit?usp=sharing](https://docs.google.com/presentation/d/1mmtVqYEpzVwsC1GjKXEGJckBnFPax-H2inD4tRMkS_w/edit?usp=sharing) and full set [https://docs.google.com/presentation/d/107NxlXHMH2NKi7akmfLO9n6fG-wknhNKW2N9EPdtR3k/edit?usp=sharing](https://docs.google.com/presentation/d/107NxlXHMH2NKi7akmfLO9n6fG-wknhNKW2N9EPdtR3k/edit?usp=sharing)   
+* Status of Papers  
+* Status of Benchmarks  
+* Science Foundation Models  
+* Any Other Business
+
+### **New Member** {#new-member-7}
+
+* Ali Hashmi [https://www.linkedin.com/in/ali-hashmi/](https://www.linkedin.com/in/ali-hashmi/) Senior Programmer/Healthcare Data Scientist at IBM Consulting \- US Federal
+
+### **Status of Benchmarks** {#status-of-benchmarks}
+
+* We started discussing OSMIBench  where our work is led by Wes and gregor. There are deployment choices between SmartSim (See December 13, 2023 minutes and [https://github.com/CrayLabs/SmartSim](https://github.com/CrayLabs/SmartSim)), SimAI-Bench from Argonne (presented at PASC [PASC24\_presentation.pdf](https://drive.google.com/file/d/1MxZDsC5-X3o1enI7Qc6Xi-dx7yNpsHz0/view?usp=sharing)) and Cloudmesh Experiment Executor (from Gregor)  
+  * Difficulties with Tensorflow Serving  
+  * Deployed with Docker or Singularity  
+  * Hope to complete before the next meeting  
+  * Wes suggested bringing up Frontier deployment difficulties at the Users meeting e.g. that each user must install PyTorch  
+* Wes noted [AI-coupled HPC Workflow Applications, Middleware and Performance](https://arxiv.org/pdf/2406.14315) paper with Shantenu Jha. He gave a related presentation June 27\. [OSMI-Bench Brewer.pdf](https://drive.google.com/file/d/1Y4M4gbortn7d59K45q9k7XeM-bA-sHcC/view?usp=sharing)   
+* Gregor Wes and Juri discussed how best to package benchmarks  
+  * Each application needs own directory/environment  
+  * Customize environment for each benchmark  
+  * HPE software is customized to their machine  
+  * Difficult to avoid software version clashes. The DGX A100 workstation used by Javier is easier as more dedicated  
+  * Systems cant install across heterogeneous targets needing different drivers  
+  * NVIDIA can help here  
+* Juri OLMO on Frontier  
+* Vision transformer for weather  
+* Juri is running OLMO language model on Frontier  
+  * And a Vision transformer for weather
+
+### **Any Other Business** {#any-other-business-5}
+
+* Geoffrey noted that his group was looking at Hernandez’s system RWKV-TS for Hydrology time-series  
+* Javier wanted to know where MLCommons benchmarks were documented  
+  * [https://mlcommons.org/working-groups/research/science/](https://mlcommons.org/working-groups/research/science/)  
+  * [https://github.com/mlcommons/science](https://github.com/mlcommons/science)  
+  * [https://github.com/laszewsk/mlcommons](https://github.com/laszewsk/mlcommons)  
+* We asked about H100 access; Tom Gibbs suggested TACC might be best  
+  * Maybe NVIDIA Launchpad possible  
+* Juri gave a short presentation on flop counts for applications [new\_benchmarks\_counting\_flops.pptx](https://docs.google.com/presentation/d/1W6EvpNsoVaop40HpCH_x0Du0a7wAq4Pl/edit?usp=drive_link&ouid=100475830980223085873&rtpof=true&sd=true)  
+  * The A100 performs very well  
+  * He asked how NVIDIA got their Flop numbers; Tom Gibbs thought they were optimistic “never to exceed” numbers   
+  * Compared AMD MI250 with A100 but there was some difficulties unless one uses all GPU’s on the node  
+  * He was having problems using NVIDIA Grace-Hopper machines  
+* Wes noted INDUS [Birgit Pfitzmann](https://www.catalyzex.com/author/Birgit%20Pfitzmann) and [\[2405.10725\] INDUS: Effective and Efficient Language Models for Scientific Applications](https://arxiv.org/abs/2405.10725) from mainly NASA and IBM with a scientific LLM and benchmarks  
+  * "We also created three new scientific benchmark datasets namely, CLIMATE-CHANGE NER (entity-recognition), NASA-QA (extractive QA) and NASA-IR (IR) to accelerate research in these multi-disciplinary fields."  
+  * NASA are operationalizing INDUS LLM across their Science Mission Directorate
+

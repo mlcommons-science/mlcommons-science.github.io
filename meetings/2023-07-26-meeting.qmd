@@ -1,0 +1,31 @@
+---
+title: "July 26, 2023"
+---
+
+## **July 26, 2023** {#july-26,-2023}
+
+### **Present** {#present-76}
+
+Geoffrey Fox, Piotr Luszczek, Murali Emani, Gregor von Laszewski,  
+
+### **Apologies** {#apologies-22}
+
+Christine Kirkpatrick, Mallikarjun Shankar, 
+
+### **Tentative Agenda** {#tentative-agenda-55}
+
+* Any new members  
+* Official Plans  [https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1](https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1)  [https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit\#gid=0](https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit#gid=0)   
+* Future Directions: More on Foundation/Generative Models  
+* Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)   
+* Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)   
+* AI Readiness of MLCommons Science (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
+* AOB
+
+### **Meeting** {#meeting}
+
+* Given low (due to holidays and illness) attendence, we had a short meeting  
+* The activities of the Trillion Parameter Consortium could be relevant to our activities. This will meet before our next meeting and we can evaluate  
+* The other discussions concerned work on UNO, OSMIBench and SABATH at Virginia and UTK.  
+* Yuhan Rao notes the IBM and NASA collaboration on a geospatial foundation model was recently released on HuggingFace. See their news release [https://research.ibm.com/blog/nasa-hugging-face-ibm](https://research.ibm.com/blog/nasa-hugging-face-ibm)
+

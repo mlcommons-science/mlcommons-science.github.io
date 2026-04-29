@@ -1,0 +1,53 @@
+---
+title: "January 26, 2022"
+---
+
+## **January 26, 2022** {#january-26,-2022}
+
+### **Present** {#present-109}
+
+Tony Hey, Geoffrey Fox,  Jeyan Thiyagalingam,  Christine Kirkpatrick,  Gregor von Laszewski,  Hai ah Nam,  Juri Papay,  Arjun Shankar,  Aristeidis Tsaris,  Gregg Barrett,  Farzana Yasmin Ahmad,  Junqi Yin,  Bala Desinghu
+
+### **Tentative Agenda** {#tentative-agenda-87}
+
+* New member introductions  
+* Talk from Christine Kirkpatrick on analysis of MLCommons benchmarks and RDA FAIR meeting [MLCommons Data Assessment](https://docs.google.com/presentation/d/1iYOLIYBOBF0HraZaWfIyZbePuoQs8lAQ_6-uVwRZZKw/edit?usp=sharing)  
+* Compliance of MLPerf Science benchmark suite \-- Juri Papay  [Reference\_Implementations\_v1.pptx](https://docs.google.com/presentation/d/1bn0LUi6td__0r4MBugJb1oByyxKze9Ke/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true)  
+* Science WG Rules [https://github.com/laszewsk/mlcommons/blob/main/science\_training\_policy.adoc](https://github.com/laszewsk/mlcommons/blob/main/science_training_policy.adoc) \-- Gregor von Laszewski  
+* Updates \-- All  
+* AOB
+
+### **New member introductions** {#new-member-introductions-5}
+
+* none
+
+### **Christine  Kirkpatrick Talk** {#christine-kirkpatrick-talk}
+
+* Christine Kirkpatrick  gave an excellent presentation [MLCommons Data Assessment](https://docs.google.com/presentation/d/1iYOLIYBOBF0HraZaWfIyZbePuoQs8lAQ_6-uVwRZZKw/edit?usp=sharing)with three main topics  
+  1. Data analysis of MLCommons benchmarks  
+     * The data analysis of MLCommons shows numerous inconsistencies, especially in system definition files. Some of the details were entered by hand and there are also missing data. Christine made several suggestions on how to improve data quality (see presentation slides). She discussed use of containers. The WG suggested communicating the findings to MLCommons.  
+  2. Power consumption of computers  
+     * The slides about power consumption highlighted the importance of measuring energy usage not only FLOP rate and storage requirements.   
+     * Oakridge has a paper in SC21 to address power issues (Arjun reported)  
+     * Power-related dissection of OLCF's Summit: [https://dl.acm.org/doi/abs/10.1145/3458817.3476188](https://dl.acm.org/doi/abs/10.1145/3458817.3476188)   
+     * MLTiny group has power consumption in its benchmark (Juri reported)  
+     * MLC Power WG and EE HPC WG are engaging with one another on the new Power efforts (Gregg Barrett)  
+  3. The talk ended with a  report on the formation of RDA Interest Group: FAIR for Machine Learning FAIR4MLwhich is an initiative aiming to bring together the FAIR and ML communities and is based on two BOF’s at plenary meetings where co-chairs are being sought [FAIR4ML-RDA-IG-Charter](https://docs.google.com/document/d/1VWyEB74mw3-0y43SMUaURHxSYuyZ4Qmwnjt6B0uduy0/edit?usp=sharing) 
+
+### **Adhering to ML Common Rules – Progress** {#adhering-to-ml-common-rules-–-progress}
+
+* Juri presented the findings [Reference\_Implementations\_v1.pptx](https://docs.google.com/presentation/d/1bn0LUi6td__0r4MBugJb1oByyxKze9Ke/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true)  in respect to MLCommons compliance of Science WG benchmarks.  
+* In the discussion after the presentations, we agreed to use Gregor’s GitHub for pulling together all information required for making the Science WG benchmarks MLCommons compliant and agreed on the action plan. The data will be hosted at STFC and San Diego.  
+* Gregor and Juri had an earlier meeting resulting in confirmation that we can take a similar approach to the HPC WG policies. The draft was posted (see [https://github.com/laszewsk/mlcommons/blob/main/science\_training\_policy.adoc](https://github.com/laszewsk/mlcommons/blob/main/science_training_policy.adoc))  
+* Action needed: Application owners need to identify parameters for the benchmark and place them in the table. The best is to use an ASCII document  as that is the format of other MLcommons documents  
+* Aris reminded us of science working group web site [Science Working Group | MLCommons](https://mlcommons.org/en/groups/research-science/) with staging web site [https://stagingscience--mlcommons.netlify.app/en/groups/research-science/](https://stagingscience--mlcommons.netlify.app/en/groups/research-science/)   
+* And GitHub update mechanism [https://github.com/mlcommons/training\_policies/pull/478](https://github.com/mlcommons/training_policies/pull/478)   
+* **Action needed:** there may be some applications that do not need parallel computing? this may require verbiage to for example relax the requirement to have parallel file systems.   
+* **Action needed:** revisit the google docs document with the applications and get simple changes integrated while keeping the more complex ones open but start resolving those
+
+### **Any Other Business** {#any-other-business-15}
+
+*  It appears that Science WG need some agreement with Commons to support the easier page updates  
+* Status of [MLCommons Science Benchmarks](https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit#heading=h.e4gvie7isvpc) This is indirectly relevant for the policy document   
+* Details about earthquake benchmark can be found at [https://arxiv.org/pdf/2201.01869.pdf](https://arxiv.org/pdf/2201.01869.pdf) and  [https://www.youtube.com/playlist?list=PLy0VLh\_GFyz9lz4ZOQIrDACQsuELQ0QnI](https://www.youtube.com/playlist?list=PLy0VLh_GFyz9lz4ZOQIrDACQsuELQ0QnI) and [MLCommons and Time Series/Earthquake Jan 2022](https://docs.google.com/presentation/d/1UiMVV4mMzIXIzBJ2WqFrWnqVI6NaI0jevb7BKulun2c/edit?usp=sharing) 
+

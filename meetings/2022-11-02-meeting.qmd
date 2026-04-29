@@ -1,0 +1,43 @@
+---
+title: "November 2, 2022"
+---
+
+## **November 2, 2022** {#november-2,-2022}
+
+### **Present** {#present-92}
+
+Wesley Brewer, Gregor von Laszewski, Gregg Barrett, Geoffrey Fox,  Junqi Yin,  Piotr Luszczek, Mallikarjun Shankar, Dingwen Tao, 
+
+### **Apologies** {#apologies-33}
+
+Jeyan Thiyagalingam, Tony Hey, Juri Papay, Christine Kirkpatrick 
+
+### **Tentative Agenda** {#tentative-agenda-70}
+
+* Any new members \- None  
+* Preparing for SC22 Birds of a Feather  
+* Futures \-- new benchmarks    
+  * ACTION ITEM We agreed to draft a call for new benchmarks  
+  * ACTION ITEM: Send any suggestions  (either text or places to send it) so we can draft an announcement combining the current 4 benchmarks and call for new benchmarks  
+* AOB \- None
+
+### **Preparing for SC22 Birds of a Feather** {#preparing-for-sc22-birds-of-a-feather}
+
+* We have completed documents and are testing that those other than originators, can successfully run benchmarks.  
+  * This is done for Cloudmask and Earthquake  
+  * Held up by UVA system problems  
+  * Also UK datastore offline. Need to use redundant SDSC storage  
+* We suggested putting the H3 paper on arxiv; [Piotr Luszczek](mailto:luszczek@icl.utk.edu) had previously told us how to do it compatibly with Springer LNCS conference publication  
+* Note No meeting November 16 as it coincides with SC22 BOF  
+* Geoffrey will draft call for new benchmarks and description of current ones
+
+### **Futures \-- new benchmarks**  {#futures----new-benchmarks}
+
+* We scheduled 4 10 minute talks for November 30 on New benchmarks  
+  * Wesley Brewer: based on SC22 talk by Mathew Boyer on Inference Benchmark  
+  * Piotr: Performance using Gaussian Processes and not Deep Learning  
+  * Gregg Barrett  
+  * Geoffrey on Diffusion model CompuCell3D surrogate  
+  * Could be others e.g. from RAL, Shantenu Jha and Vijay Janapa Reddi  
+* There was some discussion on funding with surprise at difficulties. Gregg thought we could get international funding
+

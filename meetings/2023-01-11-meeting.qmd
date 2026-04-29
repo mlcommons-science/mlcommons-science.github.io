@@ -1,0 +1,55 @@
+---
+title: "January 11, 2023"
+---
+
+## **January 11, 2023** {#january-11,-2023}
+
+### **Present** {#present-89}
+
+Wesley Brewer,  Gregor von Laszewski, Gregg Barrett, Geoffrey Fox, Juri Papay, Murali Emani, Farzana Yasmin Ahmad, Piotr Luszczek, 
+
+### **Apologies** {#apologies-30}
+
+Mallikarjun Shankar, Jeyan Thiyagalingam, Tony Hey
+
+### **Tentative Agenda** {#tentative-agenda-67}
+
+* Any new members  
+* Increasing academic involvement in MLCommons   
+* FAIR metadata not discussed – just mentioned as a possible activity  
+* Where do we store data including space for new benchmarks being evaluated \- not discussed except Jeyan noted: STFC’s S3 compliant buckets is an answer – as we are aiming to release some tools for end users (such as download scripts etc )  
+* Discussion of new Benchmarks  
+* AOB
+
+### **Increasing Academic involvement in MLCommons**  {#increasing-academic-involvement-in-mlcommons}
+
+* We discussed actions that could help NSF Funding  
+* We discussed involving AI institutes
+
+### **Discussion of new Benchmarks OSMI-Bench- Wes Brewer** {#discussion-of-new-benchmarks-osmi-bench--wes-brewer}
+
+The start comes from email from Wes Brewer:  
+I've made some progress on the Army Helicopter benchmark I described in   
+[MLCommons-Brewer-12-03-22.pdf](https://drive.google.com/file/d/1Fj8w_On7xGcPOVEKFy1AkiCNfWttBhtq/view?usp=sharing). I've released at [https://code.ornl.gov/whb/osmi-bench](https://code.ornl.gov/whb/osmi-bench) a stripped-down version called OSMI-Bench, which stands for Open Surrogate Model Inference Benchmark to distinguish it from the full version that the DoD has, but essentially it will do much of what is in the SC21/MLHPC pape [https://ieeexplore.ieee.org/abstract/document/9652868](https://ieeexplore.ieee.org/abstract/document/9652868) r. This one just supports deploying TensorFlow models using TensorFlow Serving, and doesn't include any of the C++ or Fortran API code, but Python only. In practice the surrogate is called by each simulation grid point at each time and so inference speed is important. This integration into the CFD code (OpenFoam based) is not released and would involve multiple servers. On Summit with 6 GPUs per node, one uses 6 instances of TensorFlow server per node. One uses batch sizes like 250K with a goal of a billion inferences per second. One needs a transport protocol where HTTP and GRPC are used. HTTP doesn’t work on Infiniband. For helicopter problem, the inference time was 13% optimized down to 1% of computation. Other use cases have more overhead from Inference
+
+Also, these were all setup to run on Summit, so I may need to make some modifications to make it more general for other platforms. I have a section in env.sh where the benchmark can be configured to run on other systems. Please let me know if you have any questions about it. Note one needs to install TensorFlow Serving into Singularity using Pip or Conda. Note that the NVIDIA Trident inference server does not run on Power9 chips (Summit). A REDISAI [https://redis.com/modules/redis-ai/](https://redis.com/modules/redis-ai/) server version was developed by HPE. Note HPE Cray developed SMART [Using Machine Learning at scale in numerical simulations with SmartSim: An application to ocean climate modeling \- ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1877750322001065) 
+
+Recently I was able to get the three reference neural network architectures from my colleague Daniel Martinez and integrated them into OSMI-Bench.   
+**LSTM** approximately 2 million parameters  
+**CNN** 20 million  
+**Temporal Convolutional Network** 200 million parameters
+
+These are trained on synthetic data. Any model can actually be used with the benchmark, but at least we have some documented results using these three models in our MLHPC'21 paper. The small model architecture is identical to the paper, but the medium and large models are slightly different in the number of total trainable parameters. So the small model could be used to reproduce results from the paper. From now, it should be ready for external evaluation, and I will be glad to answer any questions or issues that come up with it. As I mentioned above, it was designed and tested on Summit, so to get it working on another HPC, may be a little work which I can provide some help.
+
+### **Discussion of new Benchmarks \- Juri Papay** {#discussion-of-new-benchmarks---juri-papay}
+
+* Juri discussed 4 new benchmarks plus initial results of using the Cerebras AI machine [JuriPapaymlCommons\_11\_01\_2023\_v1.pptx](https://docs.google.com/presentation/d/1y8dCUMOJMC7SY-RSoR5okTei_fOdYRMU/edit?usp=sharing&ouid=114300777188823967496&rtpof=true&sd=true)   
+* These are Inelastic Neutron Scattering (STFC), FLImP (STFC) for microscope, Search for exoplanets (UCL), and Hydronet (Pacific Northwest Lab) predicting potential of a small cluster of water molecules.  
+* He also discussed using STEMDL at RAL,
+
+### **Any Other Business** {#any-other-business-12}
+
+* Our ISC H3 workshop paper is published [https://link.springer.com/chapter/10.1007/978-3-031-23220-6\_4](https://link.springer.com/chapter/10.1007/978-3-031-23220-6_4)   
+* Gregor talked to Sam Jackson of RAL on the Cloudmask benchmark  
+* Gregor noted that Summit klimits job times to 2 hours but allows upto 64 GPUs; the Earthquake code takes 8-12 hours sequentially
+

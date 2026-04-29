@@ -1,0 +1,38 @@
+---
+title: "February 8, 2023"
+---
+
+## **February 8, 2023** {#february-8,-2023}
+
+### **Present** {#present-87}
+
+Gregor von Laszewski, Gregg Barrett, Geoffrey Fox, Juri Papay, Christine Kirkpatrick, 
+
+### **Apologies** {#apologies-28}
+
+Wesley Brewer, Jeyan Thiyagalingam, Tony Hey
+
+### **Tentative Agenda** {#tentative-agenda-65}
+
+* Any new members  
+* FAIR metadata (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
+* Discussion of new Benchmarks (Continued)  
+* AOB
+
+### **Discussion of Papers** {#discussion-of-papers}
+
+* We interactively discussed the FAIR metadata for MLCommons Science paper [MLCommons Science FAIR Concept Paper](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit)  
+* We discussed goals of paper which included telling MLCommons what we were doing; becoming huggingface for Science; getting funding; making AI for Science more systematic. The industry links in MLCommons are important to Science  
+* After discussing AI to improve AI as in running a data center, we introduced a new paper drafted by Christine after meeting [mlcommons\_data\_energy\_usage\_paper](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing__;!!Mih3wA!Hmg__n1jtPcOpSf1EGcCRsgKF91R8mWf4nKP8zEw6OvTCxR_YsjZQ4RNYUr0N7iDNvVOsA1EBA45ZQ$)     
+* Additional citations on Energy issues from Gregor  
+  * [Safety-first AI for autonomous data centre cooling and industrial control](https://www.deepmind.com/blog/safety-first-ai-for-autonomous-data-centre-cooling-and-industrial-control)   
+  * [Towards Energy Aware Scheduling for Precedence Constrained Parallel Tasks in a Cluster with DVFS](https://archive-infomall.org/grids.ucs.indiana.edu/ptliupages/publications/vonLaszewski-10-ccgrid.pdf)   
+  * [Power-Aware Scheduling of Virtual Machines in DVFS-enabled Clusters](https://www.researchgate.net/profile/Gregor-Von-Laszewski/publication/224605054_Power-aware_scheduling_of_virtual_machines_in_DVFS-enabled_clusters/links/0046351ba080617ca9000000/Power-aware-scheduling-of-virtual-machines-in-DVFS-enabled-clusters.pdf)   
+  * [Efficient Resource Management for Cloud Computing Environments](https://archive-infomall.org/grids.ucs.indiana.edu/ptliupages/publications/10-ajy-igcc.pdf)   
+  * [Towards Energy Aware Scheduling for Precedence Constrained Parallel Tasks in a Cluster with DVFS | IEEE Conference Publication](https://ieeexplore.ieee.org/document/5493462) 
+
+### **Any Other Business** {#any-other-business-11}
+
+* We discussed difficulties in using MLCommons benchmarks stressing importance of documentation  
+* Funding for operation too little
+

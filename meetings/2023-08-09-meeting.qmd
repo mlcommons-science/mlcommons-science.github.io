@@ -1,0 +1,41 @@
+---
+title: "August 9, 2023"
+---
+
+## **August 9, 2023** {#august-9,-2023}
+
+### **Present** {#present-75}
+
+Geoffrey Fox, Piotr Luszczek, Juri Papay, Feiyi Wang, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Mallikarjun Shankar, Gregg Barrett, Yuhan Rao
+
+### **Tentative Agenda** {#tentative-agenda-54}
+
+* Any new members  
+* Foundation Models  
+  * Trillion Parameter Consortium with Rick Stevens's Introduction  at  [https://docs.google.com/presentation/d/1Ca3GWPXuyH7mMT7EGZghTfZzl3h12KO1/edit?usp=drive\_link\&ouid=105600120876664593806\&rtpof=true\&sd=true](https://docs.google.com/presentation/d/1Ca3GWPXuyH7mMT7EGZghTfZzl3h12KO1/edit?usp=drive_link&ouid=105600120876664593806&rtpof=true&sd=true) and   
+  * [https://northwestern.zoom.us/rec/play/zJaoTsbYfw4h81n47fwoewp1N\_RXZ7urHApjC\_HBsA1nGOhAZLVr6fDdMza3LpfzI3m1MiVVzZAsw\_W7.7K7HfHGUMtdoqoAO?canPlayFromShare=true\&from=share\_recording\_detail\&startTime=1690985138000](https://northwestern.zoom.us/rec/play/zJaoTsbYfw4h81n47fwoewp1N_RXZ7urHApjC_HBsA1nGOhAZLVr6fDdMza3LpfzI3m1MiVVzZAsw_W7.7K7HfHGUMtdoqoAO?canPlayFromShare=true&from=share_recording_detail&startTime=1690985138000)   
+  * Features of a Science Foundation Model [https://docs.google.com/document/d/1O5JZNoX3dyjJ-XGdfOzocsNm2M2QAH8E\_bCKz8UAdOk/edit?usp=sharing](https://docs.google.com/document/d/1O5JZNoX3dyjJ-XGdfOzocsNm2M2QAH8E_bCKz8UAdOk/edit?usp=sharing)  
+  * NASA IBM Geospatial/Remote Sensing Foundation Model  [https://research.ibm.com/blog/nasa-hugging-face-ibm](https://research.ibm.com/blog/nasa-hugging-face-ibm)   
+* Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+* Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+* AI Readiness of MLCommons Science (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)
+
+### **Foundation Models** {#foundation-models-4}
+
+* The meeting largely discussed this topic   
+* Geoffrey Fox updated his previous presentation with information from the TPC Meeting August 2-3 at Argonne [https://docs.google.com/presentation/d/1WdWaFyZ6JplDvXeV7aXIirUmUEZ4BPWR3\_YTDfn9acg/edit?usp=sharing](https://docs.google.com/presentation/d/1WdWaFyZ6JplDvXeV7aXIirUmUEZ4BPWR3_YTDfn9acg/edit?usp=sharing)   
+* Feiyi Wang noted that Oak Ridge had trained a Science LLM on 200 million science papers.  
+  * This used Frontier while Argonne will use Polaris followed by Aurora  
+  * Yuhan Rao asked if they had looked at Semantic Scholars? They have the corpus of published literatures on AWS S3. \- [https://www.semanticscholar.org/](https://www.semanticscholar.org/)  
+  * Oak Ridge is a partner in TPC  
+* We discussed the need for descriptors of datasets to inform foundation model pipeline  
+* Yuhan (Douglas) Rao noted the relevance of Open Data Cube [https://www.opendatacube.org/](https://www.opendatacube.org/) as a scientific data API  
+* We noted that Foundation models allowed a new perspective on Long Tail versus Big Science. The Foundation model would be resource where long tail data could be accumulated with great value.  
+* We discussed a mixture of experts as in LLM ans as needed for different modalities of Science data  
+* Geoffrey had talked to Murali Emani at Argonne TPC meeting and Murali thought that the HPC group would be interested in TPC/Foundation models.
+
+### **Other Items** {#other-items}
+
+* Gregor noted that the Cyprus paper had been accepted and wondered if one of UK team wanted to present. [https://sites.google.com/vols.utk.edu/rewords23/home](https://sites.google.com/vols.utk.edu/rewords23/home), [https://www.escience-conference.org/2023/](https://www.escience-conference.org/2023/), [https://github.com/cyberaide/paper-cloudmesh-cc-ieee-5-pages/blob/main/vonLaszewski-cloudmesh-cc.pdf](https://github.com/cyberaide/paper-cloudmesh-cc-ieee-5-pages/blob/main/vonLaszewski-cloudmesh-cc.pdf)   
+* We discussed accounts on Summit which will be retired at the end of the calendar year. Feiyi asked us to make clear our requests for Summit use should be sent to him.
+

@@ -1,0 +1,29 @@
+---
+title: "July 15, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **July 15, 2025 (9.05 pm. ET for Asia-USA)** {#july-15,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-21}
+
+Geoffrey Fox, Gary Mazzaferro, Gregor von Laszewski, Satoshi Iwata, Victor Lu
+
+### **Google Meet Notes** {#google-meet-notes-17}
+
+* [**MLC Science WG \- 2025/07/16 01:55 BST \- Notes by Gemini**](https://docs.google.com/document/d/19ReJwz2m_Xycrl_vIOo3Fpfph8LxslepUeuPZQuNh8c/edit?usp=sharing)   
+* **Summary:** Gregor von Laszewski reported significant delays in the FermiLab Lab's benchmark paper due to students struggling with programming dictionaries (Python dict command) and LLM usage. Geoffrey Fox presented findings on reproducibility issues in time series projects, where reported values for the same models vary across papers. Gary Mazzaferro and Geoffrey Fox discussed the need for standardization in hardware and reporting to ensure true comparisons, while Victor Lu differentiated large lab benchmarking from application-specific needs, and Gregor von Laszewski emphasized core programming concepts over specific language implementations.  
+* **FermiLab Lab Project:** Gregor von Laszewski reported significant delays in the benchmark paper due to students struggling with programming dictionaries and effectively using LLMs like ChatGPT.  
+* **Benchmark Paper Progress:** The benchmark paper is behind schedule due to programming bugs and data structure issues. It aims to integrate program output and include an evaluation of benchmarks with arbitrary ratings.  
+* **Carpentry Paper Simplification:** Gregor von Laszewski proposed simplifying the carpentry paper to 5-10 pages, focusing on benchmark carpentry education, and moving other aspects to an appendix to make progress.  
+* **LLM Usage and Limitations:** Gregor von Laszewski and Gary Mazzaferro discussed challenges students face with LLMs, including incorrect answers from LLMs trained on incorrect solutions, LLMs changing software architectures, lack of token count transparency (unless using API versions), and the cost implications of API usage.  
+* **Time Series Benchmarking Challenges:** Geoffrey Fox presented findings from 197 time series projects, highlighting reproducibility issues where reported values for the same models on identical datasets vary significantly across papers.  
+  * Time Series work is a compilation of Time Series Data and models [Time Series Models Summary Table](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?usp=sharing) and  
+  * A talk about it [Community Best Practices for Time Series AI Alliance July 10 25](https://docs.google.com/presentation/d/1cuSwku4jISWGvALzUhHWFaSEzmphv7pT9hanfnrivQA/edit?usp=sharing)   
+* **Reproducibility Issues and Standardization:** Gary Mazzaferro and Geoffrey Fox emphasized the need for standardization in hardware, reporting, and software availability to ensure true comparisons and prevent wasted work due to non-reproducible results.  
+* **Large Lab Benchmarking vs. Application-Specific Benchmarking:** Victor Lu noted that large labs like Berkeley and Oak Ridge do well with comprehensive workflow and microbenchmarks to justify hardware purchases. Gregor von Laszewski differentiated this from the application group's need for AI algorithms for specific applications and future-generation benchmarks.  
+* **Programming Language and Benchmarking Concepts:** Victor Lu suggested that the Julia community's approach to GPU programming offers advantages for scientists. Gregor von Laszewski asserted that the choice of language is secondary to understanding core programming concepts and workflow in benchmarks, advocating for the carpentry paper to focus on these fundamental ideas.  
+* **Benchmark Categorization and Precision:** Gary Mazzaferro stressed the importance of precise categorization of benchmarks (functional, performance, energy, or product acceptance criteria) to avoid confusion and ensure clarity.  
+* **Next Steps:**  
+  *  Gregor von Laszewski will think about the workflow and programmability aspects of benchmarks and modify the theoretical concept in the paper.  
+  * Gregor von Laszewski will write up the status of the two papers and Geoffrey Fox will put it in the minutes
+

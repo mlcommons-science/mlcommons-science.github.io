@@ -1,0 +1,37 @@
+---
+title: "September 4, 2024"
+---
+
+## **September 4, 2024** {#september-4,-2024}
+
+### **Present** {#present-49}
+
+Juri Papay, Geoffrey Fox, Tues Day, Armstrong Foundjem, Gregg Barrett,  Gregor von Laszewski, Victor Lu, Marisa Ahmad,  Jineta Banerjee
+
+### **Tentative Agenda** {#tentative-agenda-29}
+
+* Any New Members Introduction  
+* White Papers  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing) Submitted (Christine Kirkpatrick)  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* Status of Benchmarks (OSMIBench, MOM6, Kaggle Calorimeter)  
+* Science Foundation Models  
+* Any Other Business
+
+### **Discussion** {#discussion-17}
+
+* Geoffrey Fox, Jeyan Thiyagalingam, Piotr Luszczek and Tony Hey were at CCDSC meeting in Lyons France [Workshop on Clusters, Clouds, and Data for Scientific Computing - 2024](https://docs.google.com/document/d/1hoRHRWUq9WRV9HxyqqSwf0a4-o_Jqg9LStc15kxz2NY/edit)  
+* Their talks are     
+  * Tony Hey [**Feynman and Computation: From Los Alamos to Quantum Computers**](https://www.dropbox.com/s/1b7wr3eq9z9sarl/talk-hay.pptx?dl=0)   
+  * Geoffrey Fox [**AI for Science Foundation Models and Patterns**](https://www.dropbox.com/scl/fi/ds5s63zmtrb3vsrsfl2sr/talk-gfox.pdf?rlkey=ylwkcmsb1o3m5kgve9l47brm1&dl=0)  
+  * Piotr Luszczek [**Postmodern HPC: Scientific Library Patterns at the Dawn of Exascale**](https://www.dropbox.com/scl/fi/tx46jvzkzfu6qssf4jej5/talk49-luszczek.pdf?rlkey=ynv8t5x6e3804wzyt4b12xm81&dl=0)  
+  * Jeyan Thiyagalingam [**Mathematical Perspectives on AI and AI for Science**](https://www.dropbox.com/scl/fi/zf06xjaewejz8dgnt5zeg/talk25-Jeyan.pdf?rlkey=92oo9x19lihg9i0dyl1f167vm&dl=0)  
+* Due to timing overlap with CCDSC talks, Juri led this meeting although Geoffrey was in attendance muted for the first 30 minutes.  
+* Marisa reported no change in the relation between HPC and Science working groups  
+* Gregor reported on  the status of OSMI/MOM6 and Calorimeter benchmarks  
+* Juri presented an [excel spreadsheet](https://docs.google.com/spreadsheets/d/1UF0yzha0iywHdqzQCmQSghBrvJwuYei6/edit?usp=drive_link&ouid=100475830980223085873&rtpof=true&sd=true) for the characterisation of ML applications which he uses for a quick "back of the envelope" calculations. There are numerous assumptions in the spreadsheet that need to be validated. In particular the HPC Bernchmark DeepCAM was analysed with picture below. The purpose of this spreadsheet is to provide a framework for reasoning about the runtime and bottlenecks in the application, and also to perform various what if studies.  
+* Followup conversations between Gregor and Juri discussed details of OSMI in the spirit of this spreadsheet
+
+![][image1]
+

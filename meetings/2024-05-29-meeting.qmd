@@ -1,0 +1,69 @@
+---
+title: "May 29, 2024"
+---
+
+## **May 29, 2024** {#may-29,-2024}
+
+### **Present** {#present-56}
+
+Geoffrey Fox, Juri Papay, Gregor von Laszewski, Gregg Barrett,  Christine Kirkpatrick, Wes Brewer, Hector Hernandez Corzo, Sujata Goswami, Armstrong Foundjem,  Piotr Luszczek, Jeyan Thiyagalingam, Yuhan Rao, Victor Lu, Farzana Yasmin Ahmad, M B, A. Hashmi (last two new members but no time for their introduction)
+
+### **Tentative Agenda** {#tentative-agenda-36}
+
+* Hector Hernandez Corzo Special seminar  
+* Any New Members Introduction (no time for other sections than special seminar)  
+* Status of Papers  
+* Status of Benchmarks  
+* Science Foundation Models  
+* Any Other Business
+
+### **Special Seminar: Wednesday, May 29, 11.05 pm Eastern**  {#special-seminar:-wednesday,-may-29,-11.05-pm-eastern}
+
+* **Speaker:** Hector Hernandez Corzo, Oak Ridge DOE Laboratory  
+* **Title:**  Is attention all that we need?  
+* **Abstract**: In this short presentation, I will start with an overview of the Transformer architecture, highlighting its key features and how it differs from its predecessors, the Recurrent Neural Networks (RNNs). We will explore the practicalities and applications of Transformer models, examining both their advantages and disadvantages. A key part of our discussion will critically assess the validity of the statement that "Attention is all we need." Furthermore, I will introduce an innovative attention-less RNN architecture and share insights from the models I have developed using this attention-less architecture, proposing it as a formidable alternative to Transformers. This session aims to provide a comparative analysis of these architectures, enabling the audience to critically evaluate the role and necessity of attention mechanisms in the evolution of modern AI technologies.  
+* **Recorded Presentation** (Starts at slide 6\) [VisibleScience Working Group (2024-05-29 08\_12 GMT-7).mp4](https://drive.google.com/file/d/1ERg8uJfso77K_fPia2SGjp8WUkYjPLvx/view?usp=drive_link)   
+* **Presentation Slides** [HHC-May29.pdf](https://drive.google.com/file/d/1OhKJj7IFDozhFuZLAA6Bp3aKOIHvgQ_q/view?usp=drive_link)   
+* RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks by Haowen Hou , F. Richard Yu [\[2401.09093\] RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks](https://arxiv.org/abs/2401.09093) [2401.09093v1.pdf](https://drive.google.com/file/d/10atjvRzzTMAtiU9BJisAKzAv16aLoWy5/view?usp=drive_link)    
+* Dialect prejudice predicts AI decisions about people’s character, employability, and criminality, Valentin Hofmann, Pratyusha Ria Kalluri, Dan Jurafsky, Sharese King [\[2403.00742\] Dialect prejudice predicts AI decisions about people's character, employability, and criminality](https://arxiv.org/abs/2403.00742) [2403.00742v1.pdf](https://drive.google.com/file/d/127rMT095rfhQkAyH0fF_C9XhQYqTu47Z/view?usp=drive_link)   
+* Large language models propagate race-based medicine, Jesutofunmi A. Omiye, Jenna C. Lester, Simon Spichak, Veronica Rotemberg & Roxana Daneshjou [Large language models propagate race-based medicine](https://www.nature.com/articles/s41746-023-00939-z) [s41746-023-00939-z.pdf](https://drive.google.com/file/d/1uvqsaMo9Lp27AdNfd0ER4NJ05E8j13pW/view?usp=drive_link)    
+* Dolma: An Open Corpus of Three Trillion Tokens for Language Model Pretraining Research, Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur, Ben Bogin, Khyathi Chandu, Jennifer Dumas, Yanai Elazar, Valentin Hofmann, Ananya Harsh Jha, Sachin Kumar, Li Lucy, Xinxi Lyu, Nathan Lambert, Ian Magnusson, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik, Crystal Nam, Matthew E. Peters, Abhilasha Ravichander, Kyle Richardson, Zejiang Shen, Emma Strubell, Nishant Subramani, Oyvind Tafjord, Pete Walsh, Luke Zettlemoyer, Noah A. Smith, Hannaneh Hajishirzi, Iz Beltagy, Dirk Groeneveld, Jesse Dodge, Kyle Lo, [\[2402.00159\] Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://arxiv.org/abs/2402.00159) [2402.00159v1.pdf](https://drive.google.com/file/d/1PrNoUA4-uswjd4yolwFDMbxh1gMQ4uya/view?usp=drive_link)   
+* An Attention Free Transformer, Shuangfei Zhai, Walter Talbott, Nitish Srivastava, Chen Huang, Hanlin Goh, Ruixiang Zhang, Josh Susskind, [\[2105.14103\] An Attention Free Transformer](https://arxiv.org/abs/2105.14103)   
+* Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model, Alexandra Sasha Luccioni, Sylvain Viguier, Anne-Laure Ligozat [Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model](https://www.jmlr.org/papers/v24/23-0069.html)   
+* Patterns and networks of language control in bilingual language production. Qiming Yuan, Junjie Wu, Man Zhang, Zhaoqi Zhang, Mo Chen, Guosheng Ding, Chunming Lu & Taomei Guo [Patterns and networks of language control in bilingual language production | Brain Structure and Function](https://link.springer.com/article/10.1007/s00429-021-02218-7)   
+* Bilingualism and domain-general cognitive functions from a neural perspective: A systematic review, Lily Tao, Gongting Wang, Miaomiao Zhu, Qing Cai [Bilingualism and domain-general cognitive functions from a neural perspective: A systematic review \- ScienceDirect](https://www.sciencedirect.com/science/article/pii/S014976342100083X)   
+* Consequences of multilingualism for neural architecture, Sayuri Hayakawa & Viorica Marian [Consequences of multilingualism for neural architecture | Behavioral and Brain Functions | Full Text](https://link.springer.com/article/10.1186/s12993-019-0157-z)   
+* Abnormal wiring of the connectome in adults with high-functioning autism spectrum disorder, Ulrika Roine, Timo Roine, Juha Salmi, Taina Nieminen-von Wendt, Pekka Tani, Sami Leppämäki, Pertti Rintahaka, Karen Caeyenberghs, Alexander Leemans & Mikko Sams [Abnormal wiring of the connectome in adults with high-functioning autism spectrum disorder](https://link.springer.com/article/10.1186/s13229-015-0058-4#Sec1) 
+
+### **Comments on Seminar** {#comments-on-seminar}
+
+* Speaker is Hector H. Corzo from the National Center for Computational Sciences at Oak Ridge National Laboratory with an audience of 16\.  
+* Hector started by describing the historical background of Neural Networks for sequences with the work of M.I. Jordan and J. Elmer. Analogies to the Brain were stressed.  
+* Transition to transformers to avoid parallelization and memory issues in recurrent neural networks (RNN) culminating in OpenAI successes with GPT and ChatGPT. Began huge emphasis on LLMs by major players  
+* Clear explanation of how NNs weight sequences for time series and languages.  
+* Explain how distances between introduced in vector space  
+* Describes QKV (Query, Key, value) concept and multiple heads in transformers. Excellent parallelization  
+* Slide 23 compares RNN and Transformer weighting and then the structure of Transformer is described.  
+* However slide 32 starts a description of the new RWKV Recurrent Neural Network that is parallelizable. This is applied to Language models with Slide 41 comparing computation needed and memory use for Transformers and RWKV.  
+  * RWKV uses vectors rather than matrices  
+  * Slide 44 has architecture  
+* Slide 42 starts the discussion of RWKV energy needs which are lower than for traditional transformers  
+* Slide 45 starts discussion of the natural way RWKV can grow models and its relation to the concept of Neuroplasticity in the Brain  
+  * Blue Jay (3B) grows to Tlanuwa (7B) to Quetzal (9B)  
+  * This growth feature makes the model intrinsically scalable (Gregg comment)  
+* The importance of cleaning data is emphasized. Slide 48 and Dolma  
+* The support of multiple languages and the relation to Piaget’s analysis of how Children lawn is discussed in slides 49-53  
+* Slides 54-55 benchmark energy use and linguistic performance for Tlanuwa compared to other models like INCITE and Llama  
+  * The 9B model took 2000 node hours on Frontier  
+  * Currently just an initial model without fine-tuning  
+* Slide 56 returns to the RNN Trabsformer comparison  
+* In discussion noted that some tasks favor rmkv and some transformers  
+* There was a lengthy discussion recorded on the video above  
+* There is a paper cited above looking at RMKV for time series  
+* Hector recommended starting on broad capabilities and then narrow down rather than other way round  
+* Hector Juri and Jeyan will look at code which is open and include in their benchmarking studies  
+  * It is trained on Frontier (AMD) but runs faster on NVIDIA systems  
+  * Questions were asked on comparison with ORNL Forge project  
+* Hector is working with MLENERGY group at Michigan [ml.energy](https://ml.energy/)   
+* Hector is working with Linux Foundation on data cleaning; the recording has his discussion with Christine on this
+

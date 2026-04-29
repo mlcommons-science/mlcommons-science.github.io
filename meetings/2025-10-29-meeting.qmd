@@ -1,0 +1,47 @@
+---
+title: "October 29, 2025"
+---
+
+## **October 29, 2025** {#october-29,-2025}
+
+### **Present** {#present-6}
+
+* Abdulkareem Alsudais, Armstrong Foundjem,  Ben Hawks, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Howard Pritchard, Iris Johnson, Jeyan Thiyagalingam, Juri Papay, Marco Colombo, Matt Sinclair, Piotr Luszczek, Satoshi Iwata, Tom Gibbs, Victor  Lu, Wes Brewer, Xiaoqin Huang
+
+### **Tentative Agenda** {#tentative-agenda-3}
+
+* Any New Members Introduction  
+* White Papers and Published Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)  
+  * Paper on Science Benchmarks and Ontologies  
+  * New white papers  
+* Any Other Business
+
+### **Google Meet Notes** {#google-meet-notes-6}
+
+* [MLC Science WG \- 2025/10/29 07:45 PDT \- Notes by Gemini](https://docs.google.com/document/d/1FyjUFg2wetL1Ko5Pdh6bqDaleRawqZfq8K98kXppe_Q/edit?usp=sharing)  
+* In the MLC Science WG meeting on October 29, 2025, the team, including Gregor von Laszewski, Ben Hawks, Geoffrey, and Matt Sinclair, discussed consolidating benchmark tables and verifying ML Commons benchmarks. Key points included:  
+* **Meeting Leadership Transition:** Geoffrey Fox and Ben Hawks left early, with Gregor von Laszewski taking over.  
+* **Benchmark List Reconciliation:** Ben Hawks is to review and update the benchmark list, verifying names and marking true benchmarks.  
+* **Author Contributions and Paper Submission:** Authors need to consent to be listed and provide contribution statements for the paper, which is due for Archive X submission on Tuesday after VJ's review. Geoffrey Fox is also interested in a special issue in Frontiers for a shorter version of the paper.  
+* **Website and Paper Updates:** Marco updated the website, and Gregor von Laszewski requested an "export to LaTeX table" feature.  
+* **ML Commons Benchmarks and Data Consistency:** Challenges in integrating ML Commons benchmarks due to documentation inconsistencies were discussed, with Karim and Ben Hawks working on verification.  
+* **Table Consolidation and Contribution Needs:** Efforts are underway to consolidate existing tables, and community contributions are needed to complete various sections. Armstrong Foundjem will share a script to crawl ML Commons websites for benchmarks.  
+* **Paper Structure and Content Review:** Sections on logging, performance measurement, Tinhow Lee's limitations, and GPU benchmarking still need work, while the energy section is mostly complete.  
+* **Simulation Section and Future Discussions:** Matt Sinclair requested a separate discussion with Gregor von Laszewski regarding the simulation section's table vision.  
+* **New Attendee Introduction:** Iris Johnson, interested in benchmarking and science, was introduced.  
+* **Acknowledgement Section and Author List Management:** The acknowledgement section needs revision, and authors must explicitly confirm their consent and contributions to avoid removal due to past administrative errors.  
+* **Industry Relevance and Funding Discussions:** Discussion included industry use of the papers, challenges in securing research funding, and opportunities for establishing a presence in new projects like AMD's.  
+* **AI Benchmark Carpentry Paper Discussion:** Gary Mazzaferro emphasized the need for better budgeting for computational resources in AI/ML tasks, and will send a 50-page analysis of the AI benchmark carpentry paper.  
+* **Meeting Wrap-up and Next Steps:** The meeting closed with an emphasis on the ongoing work on benchmark tables and a call for help with adding missing benchmarks.  
+* **Suggested Next Steps include:** Armstrong Foundjem sharing benchmark information, Ben Hawks reviewing the benchmark list, Marco Colombo adding a LaTeX export feature, Ben Hawks sending Geoffrey Fox an Overleaf invite, Matt Sinclair revisiting the acknowledgement section, Gregor von Laszewski organizing funding discussions, Matt Sinclair and Gregor von Laszewski scheduling a meeting about the revised table, Gary Mazzaferro sending a paper analysis, and Piotr Luszczek reviewing the HPC section.
+
+### **New Members** {#new-members-1}
+
+* Iris Johnson is a Lecturer & Researcher, Consultant at NHL Stenden Education Administration Programs Leeuwarden, Friesland, The Netherlands. She learnt about MLCommons  at an ISO meeting. Her interests include standardisation, pattern discovery, data science, programming languages, complex systems, machine learning & AI [https://www.linkedin.com/in/irisyjohnson/](https://www.linkedin.com/in/irisyjohnson/) 
+
+### **Discussion** {#discussion-4}
+
+* Gregg noted that we need to use this work to motivate MLC with a standardised template for benchmark reporting \- for other working groups to use.  
+* Gregg thanked Gregor being first on this one. As Gregg recalls, Gregor came up with the Carpentry name \- taking over the paper that Christine, Gregg, and others had been working on.
+

@@ -1,0 +1,48 @@
+---
+title: "May 23, 2024"
+---
+
+## **May 23, 2024** {#may-23,-2024}
+
+### **Special Seminar: Thursday, May 23, 1.05 pm Eastern Special Time** {#special-seminar:-thursday,-may-23,-1.05-pm-eastern-special-time}
+
+* **Speaker:** Benjamin Nachman LBL DOE Laboratory  
+* **Title:** Generative AI for the Pursuit of Fundamental Interactions  
+* **Abstract:** Deep generative models are being developed, adapted, and deployed to a number of challenges in particle physics.  In this talk, I will survey some of these topics, including surrogate modeling for slow physics-based simulations, anomaly detection to search for new particles, and simulation-based inference.  
+* Presentation: [GenerativeAISpring2024.pdf](https://drive.google.com/file/d/1KHT7ak28KSnW-ZyLMP7BeCwrbKWWiQye/view?usp=sharing) (open)  
+* Recording of Session: [VisibleScience Working Group (2024-05-23 10\_03 GMT-7).mp4](https://drive.google.com/file/d/1Nw3Rw0fNTxHV0nDNI4Gs86sdVyLaUxzf/view?usp=drive_link)   (skip first 12 minutes 30 seconds) 
+
+### **Quoted Papers** {#quoted-papers}
+
+* **A Living Review of Machine Learning for Particle Physics:** [https://iml-wg.github.io/HEPML-LivingReview/](https://iml-wg.github.io/HEPML-LivingReview/)  
+* **Calorimeter Simulation** Accelerating Science with Generative Adversarial Networks: An Application to 3D Particle Showers in Multi-Layer Calorimeters [https://arxiv.org/abs/1705.02355](https://arxiv.org/abs/1705.02355)   
+* **Kaggle Fast Calorimeter Simulation Challenge 2022** [https://calochallenge.github.io/homepage/](https://calochallenge.github.io/homepage/)   
+* **CaloScore:** (Diffusion model for Calorimeter Simulation from Nachman) Comparison of Point Cloud and Image-based Models for Calorimeter Fast Simulation [https://arxiv.org/abs/2307.04780](https://arxiv.org/abs/2307.04780)  
+* **CaloScore v2:** Single-shot Calorimeter Shower Simulation with Diffusion Models [https://arxiv.org/abs/2308.03847](https://arxiv.org/abs/2308.03847)   
+* **Analyze LIGO Gravitational wave data:**Real-time gravitational-wave science with neural posterior estimation [https://arxiv.org/abs/2106.12594](https://arxiv.org/abs/2106.12594)   
+* **Hadronization** Towards a Deep Learning Model for Hadronization [https://arxiv.org/abs/2203.12660](https://arxiv.org/abs/2203.12660) [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.096020](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.096020)   
+* **Hadronization** Fitting a Deep Generative Hadronization Model [https://arxiv.org/abs/2305.17169](https://arxiv.org/abs/2305.17169)  
+* **Hadronization** Integrating Particle Flavor into Deep Learning Models for Hadronization  [https://arxiv.org/abs/2312.08453](https://arxiv.org/abs/2312.08453)  
+* **Deconvolution** compare NF and diffusion model Improving Generative Model-based Unfolding with Schrödinger Bridges  [https://arxiv.org/abs/2308.12351](https://arxiv.org/abs/2308.12351) [https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.076011](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.109.076011)   
+* **Deconvolution** The Landscape of Unfolding with Machine Learning [https://arxiv.org/abs/2404.18807](https://arxiv.org/abs/2404.18807)   
+* **Anomaly Detection** Classifying Anomalies THrough Outer Density Estimation (CATHODE)  [https://arxiv.org/abs/2109.00546](https://arxiv.org/abs/2109.00546)   
+* **Foundation Model** OmniLearn: A Method to Simultaneously Facilitate All Jet Physics Tasks [https://arxiv.org/abs/2404.16091](https://arxiv.org/abs/2404.16091) 
+
+### **Notes on Presentation** {#notes-on-presentation-1}
+
+* 21 people attended this excellent talk  
+* The presentation started by describing fundamental physics and some places where generative AI is used  
+* Initially Caloscore and the Kaggle challenge were described  
+  * The ata sparse and so use point clouds  
+* The Benjamin described a bolder goal to describe the full process of simulation, hadronization and reconstruction. Here one has a point cloud in both input and output  
+  * Best to map quarks and gluons to observed particles as hadronization uncertain.  
+  * FHadronization and off line problems speed is not important whereas critical for CaloScore type problem.  
+* This leads to Unfolding with Schrödinger Bridge and other methods. Both GANs and diffusion models are used. Normalizing Flows similar  
+* Described a NIPS Data challenge for anomaly detection. FAIR Universe HiggsML Challenge  
+* Slide 19 show how this can lead to improved identification of new signals which are reliable when classical methods would give a lower significance than the chassical “five sigma” usually looked for [Why do physicists mention “five sigma” in their results? | CERN](https://home.cern/resources/faqs/five-sigma#:~:text=Five%20sigma%20is%20generally%20the,our%20current%20understanding%20of%20nature).   
+* Slide 20 describes possible use of Differentiable simulations in hadronization problem.  
+* Benjamin described recent Foundation model work  
+* Gans are hardest to train but flexible so use in hadronization; also GANs faster than diffusion models  
+* Normalizing Flows give you density whereas diffusion model gives score only  
+* Tom Gibbs noted the related NVIDIA GTC presentation [GTC\_2024\_HEP](https://docs.google.com/presentation/d/1uMffqka_qkzQ3wK3I255vgo5fhA4MgOfwvhKBhe27yg/edit?pli=1#slide=id.g2c1e35c7f64_0_0) by Vinicius M. Mikuni, also from LBL. 
+

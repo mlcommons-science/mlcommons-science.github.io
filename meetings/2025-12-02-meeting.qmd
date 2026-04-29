@@ -1,0 +1,49 @@
+---
+title: "December 2, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **December 2, 2025 (9.05 pm. ET for Asia-USA)** {#december-2,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-2}
+
+* Dora Cheng,  Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski, Hao Lu, Michael A., Piotr Luszczek, Satoshi Iwata, Victor Lu
+
+### **Google Meet Notes** {#google-meet-notes-2}
+
+* Note this used “make notes longer” option  
+* [MLC Science WG - 2025/12/03 01:59 GMT - Notes by Gemini](https://docs.google.com/document/d/1xLI1aQcNFixkzY3z75SvdZVW1-yAUBxRe5In0yFe8xY/edit?tab=t.kcdial82phti#heading=h.tz207apf78eb)  
+* The meeting covered several key topics:
+
+
+**Benchmark Paper Update**
+
+* The primary benchmark paper is "in principle finished" and has been refined using feedback from a Claude-generated report.  
+* It is currently awaiting formal approval from Fermilab, which is required before publication on arXiv to ensure compliance with export control rules.  
+* Gary Mazzaferro and new member Hao Lu offered to conduct a final review of the manuscript, with Gary aiming to complete his review by Monday.  
+* The paper establishes a formal definition (a superset) for benchmarking that captures complex mixed AI and High-Performance Computing (HPC) tasks.  
+* The group agreed that the current paper is the final version and any further work will be a follow-up paper, such as one focusing on database aspects led by Victor.  
+  **Time Series and LLMs Discussion**  
+* The discussion centered on time series systems like Salesforce's **Merlion** (which includes models like Morai and ETS Former), **TimeGPT** (LLM-based, part of the Neural Forecast portal), and Amazon's **Kronos** (LLM architecture trained on numerical data).  
+* Geoffrey Fox and Gregor von Laszewski agreed that LLMs generally do not predict time series well because they learn language structure rather than time structure.  
+* Gary Mazzaferro is looking at time series neural networks for a **cholera prediction application** for South Saharan Africa, noting the complexity of combining time series with geospatial factors like waterway flows, animal migration, and weather conditions.  
+  **New Members and Introductions**  
+* Geoffrey Fox welcomed three new members: **Hao Lu** from Salesforce (Responsible AI team), **Dora Cheng** from Super Micro, and **Michael** from the state government of New York.  
+  **SNIA Podcast and Hardware Issues**  
+* Gary Mazzaferro is seeking a second panel guest for a **SNIA web podcast** on **data management for HPC and AI applications**.  
+* Geoffrey Fox offered to forward the contact information of his "best student" who is working on data movement for LLMs in both training and inference.  
+* Gary Mazzaferro highlighted a current industry issue: low GPU memory utilization (around 60%) in current hardware architectures and the need to motivate the PCI SIGs to add cache coherency signals to the PCI bus to address this.  
+  **Other Benchmarking Efforts**  
+* Gregor von Laszewski reported on a practical performance benchmark on **YOLO/DarkNet** with a Florida group, using the group's carpentry paper to formalize the benchmark and creating an MLPerf-compatible logging infrastructure. He plans to present on this work in the second week of January.  
+* The next MLC Science WG meeting is scheduled for next Wednesday at 11:05 Eastern.
+
+### **New Members** {#new-members}
+
+* Hao Lu [https://www.linkedin.com/in/lu-h/](https://www.linkedin.com/in/lu-h/) works in Responsible AI at Salesforce in Bellevue, Washington,  He is a Machine Learning Engineer developing models for automated content moderation of millions of TikTok videos uploade daily.  
+* Dora Cheng [https://www.linkedin.com/in/dora-cheng-2675a3174/](https://www.linkedin.com/in/dora-cheng-2675a3174/)  works for Supermicro in New Taipei City, Taiwan  
+* Michael A. [https://www.linkedin.com/in/dsbrain/](https://www.linkedin.com/in/dsbrain/) graduated from University of Virginia Data Science program and now works with the State government of New York
+
+### **Discussion** {#discussion-2}
+
+* The Carpentry paper [https://www.overleaf.com/read/xrysvzdnyjgt\#a2ff11](https://www.overleaf.com/read/xrysvzdnyjgt#a2ff11)   
+* The Time Series Summary [Time Series  Resources Summary Table](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?usp=sharing&authuser=1) 
+

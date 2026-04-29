@@ -1,0 +1,48 @@
+---
+title: "March 6, 2024"
+---
+
+## **March 6, 2024** {#march-6,-2024}
+
+### **Present** {#present-62}
+
+Geoffrey Fox, Juri(Gyuri) Papay, Feiyi Wang, Elie Alhajjar, Gregor von Laszewski, Gregg Barrett, Murali Emani
+
+### **Apologies**  {#apologies-13}
+
+Xavier Coubez, Christine Kirkpatrick, Vijay Janapa Reddi, Tom Gibbs, Rajat Shinde
+
+### **Tentative Agenda** {#tentative-agenda-42}
+
+* Any New Members Introduction  
+* AI Alliance; the implications  
+* Science Foundation Models  
+* Updates on Papers and Projects  
+* Any Other Business
+
+### **AI Alliance** {#ai-alliance}
+
+* Geoffrey described interactions with the AI Alliance [https://thealliance.ai/](https://thealliance.ai/) which has a Foundation model working group. It is not clear if this will focus on LLMs or also include science data  
+* The Alliance is led by IBM and Meta and has many industry, academic and government members. Google, Amazon, Microsoft, NVIDIA and OpenAI are noticeably absent. MLCommons is a member  
+* There was an All Hands meeting Tuesday March 5 of the whole Alliance. There were no surprises and comments were pretty general. Geoffrey will keep in touch and monitor developments
+
+### **Science Foundation Models** {#science-foundation-models}
+
+* Juri described the porting of [OLMo \- Open Language Model by AI2](https://allenai.org/olmo) from Allen AI, and Feiyi was interested in its performance.  
+* Murali reported that Llama was running well on [Polaris | Argonne Leadership Computing Facility](https://www.alcf.anl.gov/polaris),  which uses A100 from NVIDIA, compared to Intel GPUs on Aurora using the Intel OneAPI framework.  
+* Feiyi reported on [FORGE: Pre-Training Open Foundation Models for Science | Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis](https://dl.acm.org/doi/10.1145/3581784.3613215) model looked at on Frontier in  [\[2312.12705\] Optimizing Distributed Training on Frontier for Large Language Models](https://arxiv.org/abs/2312.12705). The last paper is improved in a paper accepted to ISC.  
+* They note that performance was good, up to 3000 GPUs where it stalls. Problems occur on models that are \> 100Billion in size  
+*  Murali discussed [\[2402.15627\] MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://arxiv.org/abs/2402.15627) from ByteDance  
+* Argonne and Oak Ridge are using Megatron from Microsoft Deepspeed for pretraining [GitHub \- microsoft/Megatron-DeepSpeed: Ongoing research training transformer language models at scale, including: BERT & GPT-2](https://github.com/microsoft/Megatron-DeepSpeed)  
+* The science training does not support chatting as in GPT as this needs specialized fine-tuning.  
+* Argonne AuroraGPT is believed to be training on science literature and data like gene sequences and climate, which are combined to increase accuracy  
+* Feiyi suggested that Oak Ridge could give a talk after papers had been prepared and submitted to SC.  
+* There was a discussion on Summit and [Crusher – Oak Ridge Leadership Computing Facility](https://www.olcf.ornl.gov/tag/crusher/), which is a “small” Frontier. The software is more mature on Summit in Juri’s experience.
+
+### **HPC Working Group** {#hpc-working-group}
+
+* There have been changes in the MLCommons working group described by Murali  
+* They are definitely switching to a rolling submission with a leaderboard  
+* They might merge with the MLCommons Training benchmarks
+
+

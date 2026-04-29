@@ -1,0 +1,38 @@
+---
+title: "September 3, 2025"
+---
+
+## **September 3, 2025** {#september-3,-2025}
+
+### **Present** {#present-14}
+
+* Armstrong Foundjem,  Ben Hawks, Christine Kirkpatrick, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Howard Pritchard, Marco Colombo, Matt Sinclair, Piotr Luszczek, Satoshi Iwata, Victor Lu
+
+### **Tentative Agenda** {#tentative-agenda-7}
+
+* Any New Members Introduction  
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks  
+  * Summary [https://docs.google.com/presentation/d/1aCGjbAmdHG6zw5yFrUmEhqu8gYQcqbDQVsNrkRdCzHM/edit?usp=sharing](https://docs.google.com/presentation/d/1aCGjbAmdHG6zw5yFrUmEhqu8gYQcqbDQVsNrkRdCzHM/edit?usp=sharing)   
+  * All AI for Science [https://mlcommons-science.github.io/benchmark/](https://mlcommons-science.github.io/benchmark/)  
+    [https://github.com/mlcommons-science/benchmark](https://github.com/mlcommons-science/benchmark)  
+  * Time Series   
+    [https://docs.google.com/document/d/1jNViEKDX\_c3Em3MuqLNfdfuqI1\_5h97sWuXRZCQ8uT4/edit?usp=sharing](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?usp=sharing)   
+    [https://docs.google.com/spreadsheets/d/1bHHzTXbY7eDNagDmM4LnzHj47bXWjQDPWjYGdH0GSmk/edit?gid=45362948\#gid=45362948](https://docs.google.com/spreadsheets/d/1bHHzTXbY7eDNagDmM4LnzHj47bXWjQDPWjYGdH0GSmk/edit?gid=45362948#gid=45362948)   
+* White Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)  
+  * New white paper on Science Benchmarks  
+* Any Other Business
+
+### **Google meeting notes** {#google-meeting-notes-3}
+
+* [MLC Science WG \- 2025/09/03 07:55 PDT \- Notes by Gemini](https://docs.google.com/document/d/134cnH-4VAGD88UjdBOQJdzpd9aeWay7hbUpksBKmvMk/edit?usp=sharing)   
+* Ben Hawks provided updates on the benchmark cataloging project, highlighting the significant progress made on the website by Marco Colombo and Gregor von Laszewski, which now features a filterable, searchable, and sortable index of benchmarks and has been Dockerized for easier contributions. Gregor von Laszewski emphasized the importance of the report format and proposed replicating the LaTeX table format onto the website for improved readability and sorting, while also discussing plans for fixing table issues and enhancing column interactivity. Matt Sinclair inquired about the benchmark rating system, and Ben Hawks explained that it is a foundational, first iteration developed by students, while Gregor von Laszewski suggested simplifying it to a three-point system and questioned the weighting of points. Ben Hawks and Matt Sinclair discussed merging their independently developed sections of the paper, with Ben Hawks requesting feedback on the accuracy of the benchmark table and the categorization of motifs, particularly regarding LLM-generated summaries that require human verification. Christine Kirkpatrick suggested incorporating features to make benchmarks more machine actionable, such as using persistent identifiers, to which Gregor von Laszewski responded that semi-unique IDs are already generated in YAML format and that adding new arbitrary fields is straightforward. Armstrong Foundjem sought clarification on the paper's scope, and Matt Sinclair and Ben Hawks confirmed it is a separate, shorter paper targeting a September 15th release on arXiv to leverage recent funding calls. Geoffrey Fox presented their work on time series, noting the absence of established benchmarks and their focus on cataloging data sets, identifying around 80 sources, half of which are foundation models, and using an LLM to extract 731 individual data sets. Geoffrey Fox also highlighted challenges in interpreting time series results due to inconsistent data sets and models, observing significant discrepancies between reported and re-evaluated model performance, while Gary Mazzaferro expressed interest in Hugging Face's data portfolio, and Gregor von Laszewski noted that Hugging Face has arXiv metadata that could augment dataset information.
+
+### **Discussion** {#discussion-9}
+
+* Gregg Barrett and Christine Kirkpatrick liked work reported by Gregor  
+* Ben Hawks discussed benchmark carpentry paper [https://www.overleaf.com/read/hrxztkhjwgmw\#8ff968](https://www.overleaf.com/read/hrxztkhjwgmw#8ff968)   
+* Matt Sinclair sinclair@cs.wisc.edu and Armstrong Foundjem [foundjem@ieee.org](mailto:foundjem@ieee.org) wanted to be added to the discussion  
+* Gary Mazzaferro noted Benchmark rating systems are likely (usually) use case specific based on KPIs.  
+* Gregor will add difference between collections and datasets to carpentry paper
+

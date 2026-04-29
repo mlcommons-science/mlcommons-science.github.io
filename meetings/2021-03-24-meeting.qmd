@@ -1,0 +1,48 @@
+---
+title: "March 24, 2021"
+---
+
+## **March 24, 2021** {#march-24,-2021}
+
+### **Present:** {#present:-1}
+
+Geoffrey Fox,  Aristeidis Tsaris, Christine Kirkpatrick, Gregg Barrett, Amit Ruhela, Junqi Yin, Arjun Shankar, Venkat Vishwanath,Tony Hey, Vibhatha Abeyakoon, Bala Desinghu, Gregor von Laszewski, Murali Emani, Jeyan Thiyagalingam, Poonan Yadav, Mohammad Lataifeh,  Juri Papay,  David Kanter,
+
+### **Agenda** {#agenda-1}
+
+1. Any new member introductions  
+2. Benchmark and multi-host execution Updates  
+3. Presentation "How UK Exascale community sees benchmarking” by  Jeyan Thiyagalingam, [Exascale\_Benchmarking\_UK.pptx](https://drive.google.com/file/d/11eH6FGMEHBUmsaqwtSkXS77qp3cgR6pr/view?usp=sharing)    
+4. Any other business
+
+### **Welcome to new members** {#welcome-to-new-members-11}
+
+* Poonam Yadav from the CS Department, University of York, UK, joined the group for the first time.  
+* Mohammad Lataifeh from the CS Department of the University of Sharjah also joined the group meeting today but initially had some sound technical problems. This was later fixed and he reported in at the end of the meeting.   
+* Juri Papay from the RAL SciML group introduced himself and had now access to the benchmarks and the RAL PEARL DGX-2 systems. He expected to report on significant progress at the next meeting.
+
+### **Updates** {#updates-5}
+
+* Junqi (ORNL) and Murali (ANL) [MLPerf-Science-CANDLE.pdf](https://drive.google.com/file/d/1fK1viBMxZG5MgG_ucaNmREhat40R0YrP/view?usp=sharing) gave updates of their work with the EMDIFF/STEM DL and UNO (TF2 version) benchmarks.  
+* Both benchmarks had now been run on the ThetaGPU system at ANL with 24 NVIDIA DGX A100 nodes as well as on the Theta KNL machine and SUMMIT at ORNL.  
+* They displayed some results but more work is needed from the group about how and what results should be presented.  
+* Jeyan (RAL) reported on the SciML Cloud benchmark. The SciML framework had been significantly updated and this had delayed the planned formal release of the SciML Benchmark suite – which includes the Cloud benchmark. He and Juri would give a full report at the next meeting.  
+* Geoffrey Fox reported on progress with the Indiana Earthquake time series benchmark. He and Gregor were now in a position to run the benchmark on the RAL DGX2 system.
+
+### **Discussion** {#discussion-29}
+
+* Venkat (ANL) made the suggestion that the benchmark owners should summarize what outputs each benchmark produced and classify these in terms of system performance and science. The goal of this group is to produce more than just raw performance numbers but produce useful results for scientist users.  
+* David Kanter, the Executive Director of MLCommons, had now joined the meeting and said a few words. He had seen our first meeting with just Geoffrey, Jeyan and Tony and he was pleased to see that progress was being made. Tony summarized where we were with our 4 initial benchmarks and said that we were following the example of the HPC WG. The plan was to have a session at SC21 on the results of the Science WG benchmarks. He promised that the group would follow MLCommons procedures before publication of any results\!
+
+### **Presentation from Jeyan on UK EXCALIBUR EXASCALE initiative** {#presentation-from-jeyan-on-uk-excalibur-exascale-initiative}
+
+Slides available [Exascale\_Benchmarking\_UK.pptx](https://drive.google.com/file/d/11eH6FGMEHBUmsaqwtSkXS77qp3cgR6pr/view?usp=sharing) This fascinating talk led to a discussion of available hardware platforms including Argonne’s rich collection [ALCF AI-Testbed](https://ai.alcf.anl.gov/) and a Graphcore at RAL 
+
+### **Any Other Business** {#any-other-business-29}
+
+Bala Desinghu discussed the use of MLCube on XSEDE systems.
+
+### **Action Items** {#action-items-4}
+
+ANL, ORNL, RAL, Indiana: Benchmark holders prepare a written summary of their benchmark and of the expected outputs from both a science (such as Validation Loss with UNO) and technical (such as throughput versus batchsize) point of view. There is a shared Google doc to share this information [Benchmark Outputs](https://docs.google.com/document/d/11VUQ0AdAHJmnD4OKxK0aZ2kvndwkGcb3W9tFmtLXvTE/edit?usp=sharing) 
+

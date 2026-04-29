@@ -1,0 +1,31 @@
+---
+title: "July 1, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **July 1, 2025 (9.05 pm. ET for Asia-USA)** {#july-1,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-23}
+
+Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Nhan Tran, Satoshi Iwata, Victor Lu
+
+### **Google Meet Notes** {#google-meet-notes-19}
+
+* [MLC Science WG \- 2025/07/02 01:59 BST \- Notes by Gemini](https://docs.google.com/document/d/1TEDTZPVnXvvLKFr5xbppHql0xEbNr4q38M8iyAr2ghA/edit?usp=sharing)  
+* Summary: This document contains notes from the MLC Science WG meeting on July 1, 2025\. Key topics discussed include:  
+*   \* \*\*Time Series Models and Data Sets:\*\* Geoffrey Fox discussed progress in collecting and organizing time series models (categorized by architecture like LLMs, CNNs, MLPs, transformers) and associated data sets. He noted the use of AI agents for data extraction and cleaning.  
+*   \* \*\*Benchmark Definition and Reproducibility:\*\* Nhan Tran presented a five-element definition of a benchmark, emphasizing problem specification, constraints, data sets, performance metrics, and a reproducible protocol. There was extensive discussion on the challenges of reproducibility in scientific benchmarking, particularly due to inconsistencies in published results and varied computing environments.  
+*   \* \*\*YAML File Implementation and Scoring System:\*\* Gregor von Laszewski described the use of YAML files for organizing benchmark entries. Nhan Tran proposed a scoring system for evaluating and certifying benchmarks based on the five-element definition.  
+*   \* \*\*Student Progress and Challenges:\*\* Gregor von Laszewski provided updates on student work, including challenges with computer setup and the need for students to develop problem-solving skills for verifying data.  
+*   \* \*\*Live Data and LLM Benchmarking:\*\* The concept of "live data" in LLM benchmarking, where models continuously improve with data updates, was discussed as a special case for benchmark definitions.  
+*   \* \*\*Scientific Rigor in Computer Science Papers:\*\* Discussions touched upon the lack of reproducibility and inconsistent methodologies in some computer science papers, particularly in time series analysis.
+
+### **Discussion points** {#discussion-points}
+
+* Gregor  
+  * Benchmark collection, [https://github.com/mlcommons-science/benchmark](https://github.com/mlcommons-science/benchmark)  
+  * Fermi students \- progress  
+  * Schedule meeting with Geoffrey for time series discussion  
+* Victor Lu gave List of well known database bencharmks [Database Benchmarks](https://docs.google.com/spreadsheets/d/1y48e2J2Yp-vf1saXGSr8trsVEKmqfy6s2htQs3AZ-vo/edit?gid=0#gid=0)   
+  * And asked how to determine if the data follows "FAIR" principle  
+  * Julia promotes a top to bottom stack approach
+

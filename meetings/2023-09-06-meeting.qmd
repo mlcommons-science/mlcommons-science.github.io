@@ -1,0 +1,54 @@
+---
+title: "September 6, 2023"
+---
+
+## **September 6, 2023** {#september-6,-2023}
+
+### **Present** {#present-73}
+
+Geoffrey Fox, Piotr Luszczek, Juri Papay, Wes Brewer, Gregor von Laszewski,  Christine Kirkpatrick, Gregg Barrett, Tom Gibbs, Xiaoxuan Yang, Ying-Jung Chen,  Manil Maskey
+
+### **Apologies**  {#apologies-20}
+
+Mallikarjun Shankar
+
+### **Tentative Agenda** {#tentative-agenda-52}
+
+* Any new members  
+* Foundation Models  
+  * What are the initial Activities  
+* White Papers  
+* Other Benchmarks  
+* AOB
+
+### **New Members** {#new-members-34}
+
+* Manil Maskey [https://www.linkedin.com/in/manilmaskey/](https://www.linkedin.com/in/manilmaskey/)  is a Senior Research Scientist in NASA HQ Science Mission Directorate and is AI Lead and Project Manager. He is located at NASA’s Marshall Space Flight Center in Alabama. He is a colleague of Yuhan (Douglas) Rao, who joined earlier this summer. He has a Ph.D. from the University of Alabama in Huntsville.  
+* Ying-Jung Chen [https://www.linkedin.com/in/yj-elizabeth-chen/](https://www.linkedin.com/in/yj-elizabeth-chen/)   is an Applied Scientist / Machine Learning Engineer at Descartes Labs [https://descarteslabs.com/](https://descarteslabs.com/) focussing on geospatial intelligence. She obtained a Ph.D. from UC Santa Barbara in 2018
+
+### **Foundation Models** {#foundation-models-3}
+
+* Geoffrey updated his presentation on Foundation models [AI4Science Foundation Models Overview August 20 2023](https://docs.google.com/presentation/d/1EgmTX9g_xTvo1s-mwPb2SouoTMP_Ttgp28mFEikzAt8/edit?usp=sharing) slides 20-27, including a new MLCommons slide from Piotr and Vijay Janapa Reddi.  
+  * He emphasized “way stations” if full-blown Foundation models are not possible initially.  
+  * He noted Foundation models are new infrastructure components for all organizations, including Science Research groups and communities.  
+* It was agreed that ScienceGPT isn't ChatGPT  
+* There was concern that we would be unfocused. Tom Gibbs noted that one needs to define classes of problems to limit the objective, determine what data would be needed, and whether a foundational model is needed  
+* Gregg noted that in Africa, we are trying to build a foundation model to determine which are the priority drugs to manufacture for Africa. An effective model requires a huge amount of diverse data inputs. It's a priority in Washington, but aggregating the data and then having a model to provide a output that will shape policy for drug manufacturing is proving to be challenging.  
+  * and [Consensus](https://consensus.app/)   
+* Manil noted the IBM-NASA Foundation model [NASA and IBM Openly Release Geospatial AI Foundation Model for NASA Earth Observation Data | Earthdata](https://www.earthdata.nasa.gov/news/impact-ibm-hls-foundation-model)   
+  * They Are Building On Top Of This And Adding New Data Such As SAR Data  
+* Gregor noted [BLOOM](https://huggingface.co/docs/transformers/model_doc/bloom) from Huggingface   
+* Arjun (in absentia) At OLCF, we are currently building/scaling up LLMs oriented at science downstream tasks: scientific questions in the context of scientific publications and abstract texts.  
+  * Extending the notion to broader categories of data will be key and also perhaps identifying canonical “modes of scientific discovery”. I’ve added a bullet to t[Features of a Science Foundation Model](https://docs.google.com/document/d/1O5JZNoX3dyjJ-XGdfOzocsNm2M2QAH8E_bCKz8UAdOk/edit?usp=sharing): List and map to “discovery” modes in science.  
+* Wes Brewer discussed Foundation models of turbulence  
+  * One more paper [POF23\_055129\_1\_5.0146456.pdf](https://drive.google.com/file/d/1MMqc4KE_GpkDpsdYNSRPl2u3bTGeBQ0R/view?usp=sharing) that I mentioned on the topic of developing foundation models for turbulence. We are working towards developing a generalized wall-bounded turbulence model by training on various geometric configurations \-- see Table I. Here, we are training on nine different DNS and LES simulations with different periodic hill geometries and conditions.   
+  * [PU0174\_VFS\_VCGI\_Paper\_A.pdf](https://drive.google.com/file/d/1RVHFNzdFNy1NSVdOHRWsf9w4StEqzlmp/view?usp=sharing) Figure 4 illustrates the mixture of experts method to address heterogeneity which is a general feature of Foundation models
+
+### **Papers** {#papers}
+
+* Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency (Continued) [https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej\_UrNH-FVXbZFxGI/edit?usp=sharing](https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing)  
+  * Christine made progress at Dagstuhl and it is nearest to be finished. She is adding an analysis of recent MLPerf Power information.  
+* AI Readiness of MLCommons Science (Continued) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)Dagstyhl work  
+  * This needs adding ChatGPT and importance pf metadata for Foundatopmn models.  
+  * Also needs example Jupyter notebooks
+

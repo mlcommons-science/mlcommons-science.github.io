@@ -1,0 +1,60 @@
+---
+title: "October 16, 2024"
+---
+
+## **October 16, 2024** {#october-16,-2024}
+
+### **Present** {#present-47}
+
+Geoffrey Fox (co-chair Science),Vijay Janapa Reddi (MLCommons Board member and lead MLCommons Research), Gary Mazzaferro,  Andreas Prodromou (chair HPC), Murali Emani (co-chair HPC), Steve Farrell (was chair HPC), Juri Papay (co-chair Science), Jeyan Thiyagalingam (co-chair Science), Marisa Ahmad (MLCommons), Armstrong Foundjem, Piotr Luszczek, Gregg Barrett, Christine Kirkpatrick,  Gregor von Laszewski, Riccardo Balin, Victor Lu, Sujata Goswami, Sharma Lee, 
+
+### **Tentative Agenda** {#tentative-agenda-27}
+
+* **Any New Members Introduction**  
+* **Discussion of the relation between HPC and Science working groups**  
+* **White Papers**  
+  * Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency (Being Updated)  
+  * Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5)  
+  * AI Readiness of MLCommons Science [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)  
+* **Status of Benchmarks**  
+* **Any Other Business**
+
+### **New Members** {#new-members-22}
+
+* **Gary Mazzaferro**, Phone: 303-257-4100 Partner Colton Alexander LLC, 1413 Avenue Ponce de Leon, Suite 401, PMB 1605, San Juan, Puerto Rico 00907-4023 USA, [www.coltonalexander.com](http://www.coltonalexander.com)   
+* **Vijay Janapa Reddi** [https://vijay.faculty.bio/](https://vijay.faculty.bio/) [Vijay Janapa Reddi \- Harvard University | LinkedIn](https://www.linkedin.com/in/vijay-janapa-reddi-63a6a173/) Vice President Board Member and lead of MLCommons Research. See him at [Leadership | MLCommons](https://mlcommons.org/about-us/leadership/) 
+
+### **Discussion of the Relationship between Science and HPC Groups** {#discussion-of-the-relationship-between-science-and-hpc-groups}
+
+* There was an active discussion of this and all agreed with the premise that HPC working group artifacts should be preserved and Science was a natural home for all parts of HPC (as all their benchmarks are Science) but clearly other groups could want particular benchmarks  
+* Andreas noted that they had tried to make submission easier but could not generate interest.  
+* Geoffrey noted Science had a broader focus with Science and computer performance plus the experience that MLCommons benchmarks had educational value.  
+* Juri noted that there were some difficulties in interpreting HPC results but that HPC benchmarks were valuable.  
+* Jeyan noted that ColabFold was more popular than OpenFold in some circles.  
+* **n**  
+  * M. Mirdita, K. Schütze, Y. Moriwaki, L. Heo, S. Ovchinnikov, and M. Steinegger, “ColabFold: making protein folding accessible to all,” Nat. Methods, vol. 19, no. 6, pp. 679–682, Jun. 2022 \[Online\]. Available: https://www.nature.com/articles/s41592-022-01488-1  
+  * Compare with G. Ahdritz, N. Bouatta, C. Floristean, S. Kadyan, Q. Xia, W. Gerecke, T. J. O’Donnell, D. Berenberg, I. Fisk, N. Zanichelli, B. Zhang, A. Nowaczynski, B. Wang, M. M. Stepniewska-Dziubinska, S. Zhang, et al., “OpenFold: Retraining AlphaFold2 yields new insights into its learning mechanisms and capacity for generalization,” Nature Methods, pp. 1–11, May 2024 \[Online\]. Available: https://scholar.google.com/citations?view\_op=view\_citation\&hl=en\&citation\_for\_view=0bd5fscAAAAJ:FiDNX6EVdGUC  
+* Christine noted that Automobile working group had their own benchmarks   
+* Gary noted that he talked to NOAA Climate and Weather group and they were unaware of MLCommons  
+* Gary noted analogies with NIST Cloud standards and $30Billion government cloud business  
+* Geoffrey noted that AI Alliance were adding time series and Gary noted that he thought these were important. Geoffrey noted MLCommons closed their Time Series group but it did produce a conference workshop paper  
+  * Huang, Xinyuan, Geoffrey C. Fox, Sergey Serebryakov, Ankur Mohan, Pawel Morkisz, and Debojyoti Dutta. "Benchmarking deep learning for time series: Challenges and directions." In 2019 IEEE International Conference on Big Data (Big Data), pp. 5679-5682. IEEE, 2019\.  
+* There is no edict that MLCommons benchmarks will be used by DOE or NSF  
+  * So return on Investment of HPC benchmarks unclear  
+* Andreas and Geoffrey noted that benchmarks get out of date quickly and that is a central problem.  
+* Murali noted: My 2 cents, it is worthwhile to move the existing HPC benchmarks to the science suite as they are highly valuable, and then focus on how to replace these with state-of-art models/applications. Christine and Andreas agreed  
+* Jeyan left early but supported Science working group taking care of HPC artifacts 
+
+### **White Papers** {#white-papers-6}
+
+* Armstrong Foundjem wished to contribute as a co-author of the first paper  
+* Victor Lu commented on  software hardware codesign,the energy used in networking devices, GPUs and finally the implications of renewable energy   
+  * Gregor noted can't access network energy use but can access gpu use  
+* Christine Kirkpatrick noted that she will be traveling during our next meeting, but will keep up with the notes.  
+* Energy is still a critical issue in data centers  
+* Oak Ridge built this nice digital twin for their next supercomputer that should allow better energy understanding  
+  * J. Athavale, C. Bash, W. Brewer, M. Maiterth, D. Milojicic, H. Petty, and S. Sarkar, “Digital Twins for Data Centers,” Computer (Long Beach Calif.), vol. 57, no. 10, pp. 151–158, Oct. 2024 \[Online\]. Available: https://ieeexplore.ieee.org/abstract/document/10687340/  
+  * W. Brewer, M. Maiterth, V. Kumar, R. Wojda, S. Bouknight, J. Hines, W. Shin, S. Greenwood, D. Grant, W. Williams, and F. Wang, “A digital twin framework for liquid-cooled supercomputers as demonstrated at exascale,” arXiv \[cs.DC\], 07-Oct-2024 \[Online\]. Available: http://arxiv.org/abs/2410.05133  
+  * J. Holmen, M. N. Newaz, S. Yoginath, M. Maiterth, A. Shehata, N. Hagerty, and Brewer, “Towards the Development of an Exascale Network Digital Twin,” 2024 \[Online\]. Available: [https://www.osti.gov/servlets/purl/2376329](https://www.osti.gov/servlets/purl/2376329)  
+* Christine is working on an update of first paper and it is removed from active list
+

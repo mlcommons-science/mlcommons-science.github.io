@@ -1,0 +1,51 @@
+---
+title: "November 26, 2025"
+---
+
+## **November 26, 2025** {#november-26,-2025}
+
+### **Present** {#present-3}
+
+* Abdulkareem Alsudais, Armstrong Foundjem,  Ben Hawks, Christine Kirkpatrick, Gary Mazzaferro, Geoffrey Fox, Gregg Barrett, Gregor von Laszewski, Juri Papay, Marco Colombo, Piotr Luszczek, Sebastian Lobentanzer
+
+### **Tentative Agenda** {#tentative-agenda-1}
+
+* Any New Members Introduction  
+* White Papers and Published Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/project/68f8f5b979760743fe572121](https://www.overleaf.com/project/68f8f5b979760743fe572121)   
+  * Paper on Science Benchmarks and Ontologies [http://arxiv.org/abs/2511.05614](http://arxiv.org/abs/2511.05614)   
+  * New white papers  
+* Any Other Business
+
+### **New Member** {#new-member}
+
+* Sebastian Lobentanzer [https://www.linkedin.com/in/slobentanzer/](https://www.linkedin.com/in/slobentanzer/) is Head of Computational Biology at the German Center for Diabetes Research (Deutsches Zentrum für Diabetesforschung, DZD)
+
+### **Google Meet Notes** {#google-meet-notes-3}
+
+* [MLC Science WG \- 2025/11/26 07:59 PST \- Notes by Gemini](https://docs.google.com/document/d/16RczQwGKC_cfUrJM32TGSAfAfwQ0uqaHEr6c9LG39mI/edit?usp=sharing)   
+* The MLC Science WG meeting on November 26, 2025, covered the following key points:  
+* New Member: Sebastian Lobentanzer from Helmholz was introduced, expressing interest in automating the scientific process with agentic systems and contributing to carpentries.  
+* Carpentry Paper Status: The paper is frozen and awaiting Fermilab's approval. Gary Mazzaferro requested to be acknowledged instead of listed as an author due to a conflict of interest, which was accepted. The paper has been proofread, with a caution against using external AI tools for review.  
+* Next Steps for the Paper: Discussions centered on conference submission, with Perk (Minneapolis in July) suggested as a suitable venue.  
+* Future Work: The group emphasized developing tutorials or curriculum, possibly in the style of Software Carpentry, to disseminate the paper's findings.  
+* Broadening Scope: Gary Mazzaferro proposed a broader framework for assessing AI data center projects, including economic performance, feasibility, and integrating concerns from various stakeholders across the life cycle, which the group found ambitious but timely.  
+* Energy Benchmarking: The importance of energy usage and cost in benchmarking was highlighted, with a suggestion for a separate technical paper on this topic, led by Armstrong Foundjem, who needs to first review the existing "ML Perf Power" paper.  
+* Action Items: Include sharing the conference link for a workshop in Korea, proofreading the paper by gyuri papay, contacting Fermilab about the approval process, and you sending an email to Sebastian Lobentanzer about giving a talk
+
+### **Discussion** {#discussion-3}
+
+* Gregg Barrett asked Sebastian: I would be interested in the pipeline / toolsets you are using Sebastian. Drop me a note. [gregg.barrett@cirrusai.net](mailto:gregg.barrett@cirrusai.net)  
+  * Geoffrey: Sebastian. Could you give a presentation on your use of agentic AI  
+* Gregg Barrett noted for Carpentry paper  
+  * I have been through it twice Juri. Made some minor edits. It should be near completion. There might be more opportunity to check links and references  
+  * gyuri papay; Thank you Gregg.  
+* Gregg Barrett with Christine’s thumbs up: I was thinking Carpentry "tools" for benchmarking.  
+* Christine Kirkpatrick suggested PEARC for Carpentry paper [https://pearc.acm.org/pearc26/important-dates/](https://pearc.acm.org/pearc26/important-dates/)  
+  * Gregg Barrett agreed PEARC would be a good suggestion.  
+* Christine noted PEARC workshop:   
+* Duration: Full day (6 hours including, 2 brief breaks, approximately 15 minutes each) or half-day (3 hours including 1 approximately 15-minute break).  
+* Christine Kirkpatrick There is a datacenter benchmark mentioned here and in their other paper [MLCommons Power Working Group Presents MLPerf Power benchmark at IEEE HPCA Symposium](https://mlcommons.org/2025/03/ml-commons-power-hpca/)   
+* [\[2410.12032\] MLPerf Power: Benchmarking the Energy Efficiency of Machine Learning Systems from Microwatts to Megawatts for Sustainable AI](https://arxiv.org/abs/2410.12032)   
+* [Benchmark MLPerf Storage | MLCommons V1.1 Results](https://mlcommons.org/benchmarks/storage/)  
+

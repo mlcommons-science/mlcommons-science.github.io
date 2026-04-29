@@ -1,0 +1,39 @@
+---
+title: "September 17, 2025"
+---
+
+## **September 17, 2025** {#september-17,-2025}
+
+### **Present** {#present-12}
+
+* Anna Jacobi, Armstrong Foundjem,  Geoffrey Fox, Gregg Barrett, Gregor von Laszewski,  Julia Ibanescu, Javier Toledo, Matt Sinclair, Philip Harris, Piotr Luszczek, Satoshi Iwata, Tues Day, Victor Lu
+
+### **Tentative Agenda** {#tentative-agenda-6}
+
+* Any New Members Introduction  
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks  
+  * Summary [https://docs.google.com/presentation/d/1aCGjbAmdHG6zw5yFrUmEhqu8gYQcqbDQVsNrkRdCzHM/edit?usp=sharing](https://docs.google.com/presentation/d/1aCGjbAmdHG6zw5yFrUmEhqu8gYQcqbDQVsNrkRdCzHM/edit?usp=sharing)   
+  * All AI for Science [https://mlcommons-science.github.io/benchmark/](https://mlcommons-science.github.io/benchmark/)  
+    [https://github.com/mlcommons-science/benchmark](https://github.com/mlcommons-science/benchmark)  
+  * Time Series   
+    [https://docs.google.com/document/d/1jNViEKDX\_c3Em3MuqLNfdfuqI1\_5h97sWuXRZCQ8uT4/edit?usp=sharing](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?usp=sharing)   
+    [https://docs.google.com/spreadsheets/d/1bHHzTXbY7eDNagDmM4LnzHj47bXWjQDPWjYGdH0GSmk/edit?gid=45362948\#gid=45362948](https://docs.google.com/spreadsheets/d/1bHHzTXbY7eDNagDmM4LnzHj47bXWjQDPWjYGdH0GSmk/edit?gid=45362948#gid=45362948)   
+* White Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)  
+  * New white paper on Science Benchmarks  
+* Any Other Business
+
+### **New Members** {#new-members-4}
+
+* Anna Jacobi [Anna Jacobi \- Gathid | Gathered Identities | LinkedIn](https://www.linkedin.com/in/ajacobi/) from Gathid | Gathered Identities [Gathid | Gathered Identities | LinkedIn](https://www.linkedin.com/company/gathid/).  Her Current focus areas are federated agent architectures, goal auctions, and sustainable data trust frameworks—linking her systems background with emerging models for traceable, decentralized intelligence. 
+
+### **Google meeting notes** {#google-meeting-notes-2}
+
+* [MLC Science WG \- 2025/09/17 07:55 PDT \- Notes by Gemini](https://docs.google.com/document/d/1kYSf6CDtC4Zzn5aZLW0PwQI5u6PwDVgzYUPsdgL-f9M/edit?usp=sharing)  
+* Anna GA Corp was introduced as a new member with extensive experience in data center AI and sustainability. Gregor von Laszewski provided updates on paper statuses, with contributions confirmed from Armstrong Foundjem and Geoffrey Fox volunteering for the ML comments benchmarks section. The meeting concluded with discussions about publication venues, a new paper on AI for science evaluation, and an upcoming machine learning challenge from Philip Harris.
+
+### **Discussion** {#discussion-8}
+
+* Gregg Barrett noted TimesFM [a decoder-only foundation model for time-series](https://arxiv.org/pdf/2310.10688) updated at [GitHub \- google-research/timesfm: TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.](https://github.com/google-research/timesfm)   
+* Philip Harris noted the next round of the NSF HDR ML Challenge will be released very soon and Gregg suggested that we can use it for the MLC benchmark
+

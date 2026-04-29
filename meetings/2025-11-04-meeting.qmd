@@ -1,0 +1,23 @@
+---
+title: "November 4, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **November 4, 2025 (9.05 pm. ET for Asia-USA)** {#november-4,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-5}
+
+Gary Mazzaferro, Geoffrey Fox, Piotr Luszczek , Satoshi Iwata, Shirley Moore
+
+### **Google Meet Notes** {#google-meet-notes-5}
+
+* [MLC Science WG - 2025/11/05 01:53 GMT - Notes by Gemini](https://docs.google.com/document/d/1nuG9xB6OjXEBY-5Ix3ET7SGN9i3dOHGWUBZdHRBgDAs/edit?usp=sharing)  
+* Key discussion points include:  
+* White Paper Status and Next Steps: Shirley Moore and Geoffrey Fox discussed the need to finalize the existing white papers, with Moore to follow up with Gregor and CC Fox to expedite the process.  
+* Benchmark Collection and Student Work: Fox suggested collecting more benchmarks using LLMs, while Moore mentioned her undergraduate and senior students are characterizing scientific ML codes (including a physics-informed neural network and a neural operator from PNNL) for performance data on GPUs. It was agreed that these students should present their work soon, before their graduation this semester.  
+* White Paper Refinements and Extended Scope: Gary Mazzaferro presented a preliminary analysis proposing to transform the current white paper into a comprehensive benchmarking ecosystem. This would involve developing a more detailed taxonomy/ontology, refining stakeholder definitions across the system lifecycle (from data center inception to end-of-life), and potentially leading to three or four new papers focusing on these areas and metrics.  
+* Benchmarking Challenges: Mazzaferro highlighted the value of the white paper's extensible framework for better resource and cost estimation, noting current estimation errors of 50-60% with new GPU architectures, compared to the desired \+/- 10% from conventional technology. He stressed the need for application-based benchmarks for multi-tenant LLM systems and for benchmarks covering the training and ETL (Extract, Transform, Load) phases, not just inference.  
+* Working Group Focus and LLM Investment: Fox expressed concern about the working group focusing on core LLM areas heavily funded by industry and DOE. Satoshi Iwata noted Fujitsu's focus on LLMs for scientific applications. Fox questioned if DOE's AI supercomputers are optimized for science simulations. Mazzaferro countered that re-architecting scientific applications to fit LLM-tuned infrastructure is a necessary research area that the working group should pursue since industry is unlikely to.  
+* Suggested next steps:  
+* Shirley Moore will remind Gregor about the white papers and CC Geoffrey Fox.  
+* Shirley Moore will check student availability for presenting their work characterizing scientific ML codes and inform Geoffrey Fox.
+

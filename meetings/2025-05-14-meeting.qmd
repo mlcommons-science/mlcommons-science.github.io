@@ -1,0 +1,27 @@
+---
+title: "May 14, 2025"
+---
+
+## **May 14, 2025** {#may-14,-2025}
+
+### **Present** {#present-29}
+
+ Armstrong Foundjem, Azza Ahmad, Christine Kirkpatrick, Datta Nimmaturi, Gary Mazzaferro, Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Juri Papay, Marco Colombo, Murali Emani, Nhan Tran, Piotr Luszczek, Satoshi Iwata, Shirley Moore,  Victor Lu, Wes Brewer, Wenhui Zhang
+
+### **Regrets** {#regrets}
+
+Matt Sinclair, Tom Gibbs
+
+### **Tentative Agenda** {#tentative-agenda-13}
+
+* Any New Members Introduction  
+* Continuing discussion of New Benchmarks and the catalog of Science benchmarks based on [MLCommons Science/HPC Benchmarks Overview](https://docs.google.com/spreadsheets/d/1Ysk32dqkgdGfDW0rFaCpc8o1Cp6uhtJqbDFAIlhfb9o/edit?usp=sharing)    
+* White Papers  
+  * The Benchmark carpentry white paper [https://www.overleaf.com/9828764221czxzxxcxmcrr\#1f1c84](https://www.overleaf.com/9828764221czxzxxcxmcrr#1f1c84)   
+* Any Other Business
+
+### **Google Meet Notes** {#google-meet-notes-25}
+
+[MLC Science WG \- 2025/05/14 07:43 PDT \- Notes by Gemini](https://docs.google.com/document/d/1coKN-oyvuBbWabcsL8ODkMJspWm5gw03bjrSNRH_ZlE/edit?usp=sharing)   
+**Summary:** The meeting, initiated by Juri, addressed the status of papers and benchmarking efforts, including a paper led by Christina Kirkpatrick undergoing revisions and the development of a carpentry paper focusing on AI benchmarks. Gregor von Laszewski outlined the carpentry paper's structure and the need for contributions on AI benchmarks, energy-efficient metrics (building on Armstrong Foundjem's work), and the application of FAIR principles to benchmarking, with Christine Kirkpatrick offering to contribute to the latter. Participants discussed task assignments and collaboration, with Juri offering to contribute a section on their benchmarking work and Victor Lu expressing interest in collaborating on defining benchmarks and related resources.
+

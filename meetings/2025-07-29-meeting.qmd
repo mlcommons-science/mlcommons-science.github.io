@@ -1,0 +1,26 @@
+---
+title: "July 29, 2025 (9.05 pm. ET for Asia-USA)"
+---
+
+## **July 29, 2025 (9.05 pm. ET for Asia-USA)** {#july-29,-2025-(9.05-pm.-et-for-asia-usa)}
+
+### **Present** {#present-19}
+
+Aravind Kaparthi, Geoffrey Fox, Gary Mazzaferro, Gregor von Laszewski, Luke Profio, Satoshi Iwata, Victor Lu
+
+### **New Members** {#new-members-5}
+
+* **Aravind Kaparthi** [https://www.linkedin.com/in/aravind-kaparthi-pmp%C2%AE-csm%C2%AE-sasm%C2%AE-57482514/](https://www.linkedin.com/in/aravind-kaparthi-pmp%C2%AE-csm%C2%AE-sasm%C2%AE-57482514/)  Program Director at Infinite Computer Solutions Inc  
+* **Luke Profio** [https://www.linkedin.com/in/profio/](https://www.linkedin.com/in/profio/) at the University of Texas Austin. Customer-oriented technology professional with 10 years’ experience building and scaling innovative solutions at the intersection of computational neuroscience, biomedical informatics and AI/ML architecture.
+
+### **Google Meet Notes** {#google-meet-notes-15}
+
+* [MLC Science WG \- 2025/07/30 01:56 BST \- Notes by Gemini](https://docs.google.com/document/d/1zm7IDxzqR5-kmkj_9OQXa6zVz9uzZy_fkDm8OVjyBv0/edit?usp=sharing)  
+* Aravind Kaparthi and Luke Profio were introduced as new members, sharing their backgrounds and interests in AI/ML technologies. Gregor von Laszewski updated the group on the benchmark catalog and report, detailing the validation of YAML file entries and the generation of a 167-page draft report. Geoffrey Fox and Gregor von Laszewski discussed automating benchmark evaluation using AI tools, while also addressing challenges in full automation and the need for explicit evaluation criteria, which Gary Mazzaferro emphasized.  
+* Gregor’s links  
+  * [https://github.com/mlcommons-science/benchmark](https://github.com/mlcommons-science/benchmark)    
+  * [https://mlcommons-science.github.io/bench](https://mlcommons-science.github.io/bench)   
+* Geoffrey’s Links  
+  * [Time Series Models Summary Table](https://docs.google.com/document/d/1jNViEKDX_c3Em3MuqLNfdfuqI1_5h97sWuXRZCQ8uT4/edit?tab=t.0)   
+  * Dataset summary [COMBINED](https://docs.google.com/spreadsheets/d/1um4SfSTUa6Zb82tGUM5zR53iBeBvW7o71yQb5J5rG_Y/edit?gid=1968195997#gid=1968195997)  and talk [Community Best Practices for Time Series AI Alliance July 10 24](https://docs.google.com/presentation/d/1cuSwku4jISWGvALzUhHWFaSEzmphv7pT9hanfnrivQA/edit?usp=sharing) 
+

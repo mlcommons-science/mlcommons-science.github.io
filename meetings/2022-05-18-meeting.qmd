@@ -1,0 +1,53 @@
+---
+title: "May 18, 2022"
+---
+
+## **May 18, 2022** {#may-18,-2022}
+
+### **Present** {#present-101}
+
+Junqi Yin, Gregor von Laszewski, Juri Papay,   Gregg Barrett,  Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Piotr Luszczek, Cade Brown, Geoffrey Fox, Tony Hey, Arjun Shankar,  Bala Desinghu, Rushil Anirudh, Hyojin Kim
+
+### **Tentative Agenda** {#tentative-agenda-79}
+
+* New member introductions   
+* Livermore Presentation on Fusion and Computed Tomography Benchmarks  
+* Draft Submission Rules for Science WG benchmarks  [https://github.com/laszewsk/mlcommons](https://github.com/laszewsk/mlcommons)    
+* Status of Paper given ISC May 22 deadline  [https://www.overleaf.com/project/626029f73ac2a85e05672eb0](https://www.overleaf.com/project/626029f73ac2a85e05672eb0)   
+* [H3\_paper\_1173.pdf](https://drive.google.com/file/d/1xg8pXRjCM9WW4hA3gaAvy8Ntw3CJidNw/view?usp=sharing)   
+* AOB
+
+### **New member introductions**  {#new-member-introductions-2}
+
+* We were joined by two Lawrence Livermore researchers Rushil Anirudh and Hyojin Kim who each described an open Lawrence Livermore benchmark dataset and given in next item.
+
+### **Livermore Presentations** {#livermore-presentations}
+
+* Rushil Anirudh described a Fusion benchmark [LLNL\_ICF\_Readme.pdf](https://drive.google.com/file/d/1LlnT3TuN6FSOJF9clQHUOV-6zp4P3ZS7/view?usp=sharing). There are 10000 points in the open dataset but internally there are 100 million such data points.   
+  * This surrogate benchmark predicts images from input plasma parameters but most interesting is the inverse problem (images predict plasma condition)  
+  * One problem is creating synthetic data and measure diversity  
+  * One question is what is the best metric  
+  * One use is design optimization  
+  * Here the issue is not scaling but rather problem complexity  
+* Hyojin Kim described a computed tomography material science benchmark [LLNL\_D4DCT\_MLCommons\_Updated.docx](https://docs.google.com/document/d/1g5vDZ_egyxzdzYWaKEAhRQoZVUGUddtv/edit?usp=sharing&ouid=100475830980223085873&rtpof=true&sd=true).   
+  * The tomography data needs to be analyzed to reconstruct the deformed image  
+  * One dataset is 80x80x80 3D images with 10 frames (time instances) each. One has the Xray measurement plus the ground truth deformed images. One needs to improve the reconstruction.  
+  * A further dataset is 256x256x256 with 60 frames each.  
+  * Peak signal-to-noise ratio (PSNR) measures quality of reconstruction  
+  * The large images stress memory on GPUs and as well as improving PSNR one needs to scale solution to run on multiple GPUs.  
+* Tom Gibbs NVIDIA later made interesting comments that extend this area
+
+### **Our Paper and Policy Documents** {#our-paper-and-policy-documents}
+
+* Arjun made an interesting point for image based benchmarks. Here the deep learning technology like RESNET are well established and a key step is to feed in domain knowledge (physics informed networks).  
+* Juri and Gregor described the paper and policy document. Both are essentially finished   
+* Current work in both documents is in section that gives details of the 4 benchmarks.  
+* The benchmarks are currently in [https://github.com/laszewsk/mlcommons](https://github.com/laszewsk/mlcommons)  but need to be moved into the MLCommons GitHub  
+* We need to give tgo Peter Mattson and David Kanter to review our work  
+* We discussed publication options; one is an ISC workshop [http://www.icl.utk.edu/\~luszczek/conf/2022/h3/](http://www.icl.utk.edu/~luszczek/conf/2022/h3/) . Luszczek and Hey will investigate
+
+### **Any Other Business** {#any-other-business-14}
+
+* Recording of Panel Discussion at AI Summit April 26 2022 [panel\_\_the\_convergence\_of\_ai\_&\_hpc\_and\_benchmarking\_ml\_system\_performance\_for\_science (720p).mp4](https://drive.google.com/file/d/16-NxULkk1glDtf9MaZnwG7SwBbXO6Mr6/view?usp=sharing)   
+* Our next meeting willbe June 15 (later cancelled) as there is the ISC BOF on June 1
+

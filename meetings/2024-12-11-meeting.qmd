@@ -1,0 +1,79 @@
+---
+title: "December 11, 2024"
+---
+
+## **December 11, 2024** {#december-11,-2024}
+
+### **Present** {#present-41}
+
+Geoffrey Fox, Gregor von Laszewski, Juri Papay, Wes Brewer, Armstrong Foundjem, Piotr Luszczek, Victor Lu,  Shirley Moore, Azza Ahmad, Gavin Mitchell Farrell, Marisa Ahmad, Riccardo Balin, Vijay Janapa Reddi, Gregg Barrett, Karen Bennet, Preetham Reddy, Steven Farrell
+
+### **Tentative Agenda** {#tentative-agenda-23}
+
+* Any New Members Introduction  
+* Cataloging Existing Science Benchmarks  
+* White Papers  
+  *  Benchmark Carpentry [https://docs.google.com/document/d/15YIlAWOBA2\_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit\#heading=h.fa0u4qc1plw5](https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5) [https://www.overleaf.com/project/67585323797c7e764c254a84](https://www.overleaf.com/project/67585323797c7e764c254a84)    
+  * MLCommons Science FAIR Concept Paper (AI Readiness) [https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing](https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing)   
+* Choosing Up-to-date Benchmarks (not discussed directly)
+
+### **New Members** {#new-members-18}
+
+* **Karen Bennet** [https://www.linkedin.com/in/bennetkl/](https://www.linkedin.com/in/bennetkl/) is a dynamic experienced senior leader who is leading Enterprises to deploy secure, scalable, transparent, distributed software using next generation technologies (cloud, advance data analytics, Cyber Security, Blockchain, AI and Machine Learning.) She, also, provides training and mentoring on navigating the hype of technology and Women in Technology. She is involved in IEEE, ISO and Linux Foundation ML/ AI working groups. 
+
+### **Benchmark Carpentry**  {#benchmark-carpentry}
+
+* Gregor described move of Google docs to Overleaf [https://www.overleaf.com/project/67585323797c7e764c254a84](https://www.overleaf.com/project/67585323797c7e764c254a84) for Benchmark Carpentry paper. This is describing the basics of benchmarking and also making MLCommons benchmarks accessible to a broad range of users. This aligns with the Science working group’s observation as to the educational value of (MLCommons) benchmarks.  
+* Gregor is working on two figures.  
+* In particular some difficulties in navigating MLCommons web site were described but several people did not experience difficulties. Also it was not easy to find co-ordinated information about all benchmarks and all papers on these benchmarks. Marisa and JUri will look into this  
+* Marisa will also see if they can address a common list of benchmarks and we discussed what information is needed for each benchmark  
+* Gregor mentioned a Journal special issue or summarizing benchmarks in a few pages on the MLCommons website  
+* Gregor wanted a single resource/link for MLCommons benchmark citations  
+* See the **Victor Lu’s Comments** subsection below for further remarks  
+* Victor and Gregor discussed python and storage problems  
+  * Gregor noted that standalone machines like his PC and myDGX A100 workstation outperform HPC clustersdue to a better storage coupling.  
+* Vijay asked about the goal of the carpentry paper, to which Gregor noted it described the best way to make benchmarks  
+  * Gregor noted that students found it hard to run some benchmarks and paper is also trying to address this  
+  * In this regard, paper was renamed from benchmark carpentry to Democratizing MLCommons Benchmarks (so all can run)  
+* This implies the pedagogical interest on smaller machines and not so much the high end super big machines although these are essential in MLCommons as its such machines that are using all the worlds electricity and delivering our Foundation models  
+  * In refining this point, Juri reminded us of the difficulties with using PyTorch on Frontier  
+  * Gregor noted Shirley’s reproducibility comment that we cant reproduce MLCommons results as machine shared so we find lower performance than in MLCommons benchmark tables  
+* Shirley noted the value of single GPU versions to study performance issues without having to run the whole giant job. Jurui agreed
+
+### **Cataloging Existing Science Benchmarks** {#cataloging-existing-science-benchmarks}
+
+* Geoffrey noted many sources already available for Science benchmarks  
+  * MLCommons Science Working Group  
+  * MLCommons HPC Working Group  
+  * FastML Inference benchmarks for HEP covering different interesting regions in latency-datarate space  [230322 mlcommons science.pdf](https://drive.google.com/file/d/17bKzHeH0Jx21L7dXFzUfSw4EolAHv--D/view?usp=sharing) t [https://arxiv.org/abs/2207.07958](https://arxiv.org/abs/2207.07958) [https://github.com/fastmachinelearning/fastml-science](https://github.com/fastmachinelearning/fastml-science)   
+  * NSF HDR ML Challenge [https://www.nsfhdr.org/mlchallenge](https://www.nsfhdr.org/mlchallenge)   
+  * FAIR SBI Initiative including some of CaloChallenge packaged for easy use  
+  * CaloChallenge 2022: A Community Challenge for Fast Calorimeter Simulation [http://arxiv.org/abs/2410.21611](http://arxiv.org/abs/2410.21611) [https://arxiv.org/abs/2406.12898](https://arxiv.org/abs/2406.12898)   
+  * Google WeatherBench2 [https://sites.research.google/weatherbench/](https://sites.research.google/weatherbench/) [https://arxiv.org/abs/2308.15560](https://arxiv.org/abs/2308.15560)   
+  * SciML-Bench from RAL, UK [https://github.com/stfc-sciml/sciml-bench](https://github.com/stfc-sciml/sciml-bench)   
+  * There are also Big Data benchmarks such as BigDataBench [https://www.benchcouncil.org/BigDataBench/](https://www.benchcouncil.org/BigDataBench/)   
+* The Science working group will not follow up this further
+
+### **Any Other Business** {#any-other-business-2}
+
+* Geoffrey apologized for starting the meeting 15 minutes late. A few members gave up waiting. I am very sorry  
+* It was noted that David Kanter was very busy and did not often come to our meetings. However we had seen very good support from his representative Marisa.  
+* It was noted that HPC working group status was still on hold Lessons from SC24 Meeting (not discussed directly)  
+* Vijay suggested a separate paper on the “Big Picture for MLCommons”  
+  * Need to give a larger scope for scientific benchmarks  
+  * Generate a TPC Trillion Parameter Consortium checklist for global project  
+  * Juri agreed
+
+### **Victor Lu’s Comments** {#victor-lu’s-comments}
+
+1.) **Bill of Material (BOM)** :  I believe BOM could  be used in the context of reproducible science.  
+Referring to my AIBOM for reproducible science proposal:  [https://docs.google.com/document/d/1HdS\_GxQvPA7y1ilspGmex-HN\_cnjriR1nrpr\_fnYzXY/edit?tab=t.0](https://docs.google.com/document/d/1HdS_GxQvPA7y1ilspGmex-HN_cnjriR1nrpr_fnYzXY/edit?tab=t.0)
+
+I believe that most reproducible science projects store ontology data about research projects in graph databases. It is essential to establish a streamlined process to align the information captured in graph databases with metadata co-located with software/code, AI models, datasets, and related assets. A Bill of Materials (BOM) could serve as an ideal mechanism to facilitate this alignment, providing a robust solution for reproducible science projects.
+
+The System Package Data Exchange (SPDX®) specification defines an open standard for communicating bill of materials (BOM) information for different topic areas.  
+Here is SPDX RDF ontology expressed in RDF/OWL/SHACL format and is published in online at SPDX 3.0.1 Model  
+[https://spdx.github.io/spdx-spec/v3.0.1/annexes/rdf-model/](https://spdx.github.io/spdx-spec/v3.0.1/annexes/rdf-model/)
+
+2.) **Benchmark Carpentry paper.**  I believe understanding the "internals" of how hardware and software function in relation to scalability/response time bottlenecks may be crucial before designing benchmarks to measure related metrics effectively. For instance, regardless of how much CPU, GPU, HSM... memory can be available to a PyTorch-based AI workload, Python-specific limitations may still need to be addressed to achieve further performance improvements. Another example involves trade-offs in storage performance, where it is well-known that better performance can often be "achieved" by compromising on memory consistency and data integrity.
+
