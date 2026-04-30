@@ -6,9 +6,15 @@ Welcome to the meeting notes repository. Use the navigation menu or the list bel
 
 ## Meetings
 
+Science Working Group Minutes [Science Minutes](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1#) 2026 onwards
+
+MInutes before 2026 [MLCommons Science Minutespre2026](https://docs.google.com/document/d/1z6i7VYWyLXalA6wK__H28nU9mum6qAc90isTHcr2QFw/edit?usp=sharing) – What you see in this list.
+
+### Latest
+
 ### 2026
 
-- **[2026 Summary](meetings/2026-summary.md)**
+- [**2026 Summary**](meetings/2026-summary.md)
 - [2026-04-07](meetings/2026-04-07-meeting.md)
 - [2026-04-01](meetings/2026-04-01-meeting.md)
 - [2026-03-24](meetings/2026-03-24-meeting.md)
@@ -19,7 +25,7 @@ Welcome to the meeting notes repository. Use the navigation menu or the list bel
 
 ### 2025
 
-- **[2025 Summary](meetings/2025-summary.md)**
+- [**2025 Summary**](meetings/2025-summary.md)
 - [2025-12-16](meetings/2025-12-16-meeting.md)
 - [2025-12-10](meetings/2025-12-10-meeting.md)
 - [2025-12-02](meetings/2025-12-02-meeting.md)
@@ -64,7 +70,7 @@ Welcome to the meeting notes repository. Use the navigation menu or the list bel
 
 ### 2024
 
-- **[2024 Summary](meetings/2024-summary.md)**
+- [**2024 Summary**](meetings/2024-summary.md)
 - [2024-12-11](meetings/2024-12-11-meeting.md)
 - [2024-11-27](meetings/2024-11-27-meeting.md)
 - [2024-11-13](meetings/2024-11-13-meeting.md)
@@ -94,7 +100,7 @@ Welcome to the meeting notes repository. Use the navigation menu or the list bel
 
 ### 2023
 
-- **[2023 Summary](meetings/2023-summary.md)**
+- [**2023 Summary**](meetings/2023-summary.md)
 - [2023-12-13](meetings/2023-12-13-meeting.md)
 - [2023-11-29](meetings/2023-11-29-meeting.md)
 - [2023-11-01](meetings/2023-11-01-meeting.md)
@@ -121,7 +127,7 @@ Welcome to the meeting notes repository. Use the navigation menu or the list bel
 
 ### 2022
 
-- **[2022 Summary](meetings/2022-summary.md)**
+- [**2022 Summary**](meetings/2022-summary.md)
 - [2022-12-28](meetings/2022-12-28-meeting.md)
 - [2022-12-14](meetings/2022-12-14-meeting.md)
 - [2022-11-30](meetings/2022-11-30-meeting.md)
@@ -147,7 +153,7 @@ Welcome to the meeting notes repository. Use the navigation menu or the list bel
 
 ### 2021
 
-- **[2021 Summary](meetings/2021-summary.md)**
+- [**2021 Summary**](meetings/2021-summary.md)
 - [2021-12-15](meetings/2021-12-15-meeting.md)
 - [2021-12-01](meetings/2021-12-01-meeting.md)
 - [2021-03-24](meetings/2021-03-24-meeting.md)
