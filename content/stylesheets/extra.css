@@ -210,8 +210,8 @@ html, :root {
 .mlcommons-footer {
   background-color: #000000 !important;
   color: #ffffff !important;
-  padding: 4rem 0 2rem 0 !important;
-  margin-top: 4rem !important;
+  padding: 2rem 0 1rem 0 !important;
+  margin-top: 2rem !important;
   font-size: 0.7rem !important;
   width: 100% !important;
 }
@@ -225,8 +225,8 @@ html, :root {
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 3rem;
-  margin-bottom: 3rem;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
   text-align: left;
 }
 
@@ -277,7 +277,7 @@ html, :root {
 
 .footer-bottom {
   border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
-  padding-top: 2rem !important;
+  padding-top: 1rem !important;
   text-align: center !important;
   color: rgba(255, 255, 255, 0.5) !important;
   font-size: 0.65rem !important;
