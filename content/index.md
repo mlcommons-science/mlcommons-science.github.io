@@ -4,6 +4,7 @@ title: Home
 
 <div class="hero-section">
 
+
 <h1 style="margin-top: 0;">MLCommons® Science</h1>
 <h3 style="font-weight: normal;">Advancing the Frontier of Scientific Machine Learning</h3>
 
@@ -18,9 +19,8 @@ Welcome to the MLCommons® Science working group. We are dedicated to the develo
 
 </div>
 
-<div class="section section-white">
 
-<h2 style="margin-top: 0;">Our Mission</h2>
+## Our Mission
 
 The MLCommons® Science working group aims to bridge the gap between machine learning research and scientific application. By establishing rigorous, reproducible benchmarks, we enable the community to:
 
@@ -28,16 +28,7 @@ The MLCommons® Science working group aims to bridge the gap between machine lea
 *   **Accelerate Discovery**: Provide the tools necessary to move from theoretical models to real-world scientific breakthroughs.
 *   **Foster Collaboration**: Bring together experts from academia, industry, and government to solve the most challenging problems in science.
 
-</div>
 
-<div class="section section-gray">
+## Latest Updates
 
-<h2 style="margin-top: 0;">Latest Updates</h2>
-
-Below are the most recent developments and research updates from our working group.
-
-*(Latest posts will be listed here)*
-
-For a complete history of our updates, please visit the [Blog Archive](blog.md).
-
-</div>
+For a complete history of our updates, please visit the [Meeting Notes](meetings.md).
