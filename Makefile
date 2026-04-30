@@ -1,14 +1,15 @@
 .PHONY: all view clean publish
 
 all:
-	quarto render
+	mkdocs build
 
 view:
-	quarto preview
+	@echo "Starting live-reload server at http://127.0.0.1:8000"
+	open http://127.0.0.1:8000 & mkdocs serve
 
 clean:
-	rm -rf _site
-	rm -rf .quarto
+	rm -rf site
+	rm -rf mkdocs_src/__pycache__
 
 publish:
-	quarto publish gh-pages
+	mkdocs gh-deploy-with-permalink

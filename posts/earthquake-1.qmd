@@ -3,6 +3,7 @@ title: "Improving the Earthquake Nowcasting Code"
 description: "Improving the Earthquake Nowcasting Code"
 date: "2023-03-16"
 author: "G. C. Fox"
+image: ../images/image1.png
 categories:
   - earthquake
   - science

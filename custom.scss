@@ -42,7 +42,7 @@ body {
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: 2rem;
+  margin-left: 10vw !important; /* Align with the 10% left margin of the main content */
   letter-spacing: -0.02em;
 }
 
@@ -53,6 +53,14 @@ body {
 .navbar-nav {
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Ensure the search icon/right-side elements also respect the 10% right margin */
+.navbar .container, .navbar-container {
+  max-width: 80vw !important;
+  margin: 0 auto !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 .navbar-nav .nav-link {
@@ -100,12 +108,56 @@ h3 {
   font-size: 1.5rem;
 }
 
-/* Layout Containers */
-.container, .quarto-container, .page-columns {
-  width: 80% !important;
-  max-width: 100% !important;
-  margin: 0 auto !important;
-  padding: 0 2rem;
+/* --- ABSOLUTE ZERO LAYOUT RESET --- */
+/* 1. Global Reset: Strip ALL max-widths from EVERY element on the page */
+*, *:before, *:after {
+  box-sizing: border-box !important;
+  max-width: none !important; 
+}
+
+/* 2. Page Foundation */
+html, body {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin: 0 !important;
+  /* Use padding on body to create the 10% gutters. This is more stable than margins on children */
+  padding-left: 10vw !important;
+  padding-right: 10vw !important;
+  overflow-x: hidden !important;
+}
+
+/* 3. The 10% | 80% | 10% Master Rule */
+/* Content now just fills the available space between the body's 10vw paddings */
+main, 
+.main-content, 
+.container, 
+.quarto-container, 
+.page-columns, 
+#quarto-content,
+.content,
+.page-bottom {
+  width: 80vw !important;
+  max-width: 80vw !important;
+  min-width: 80vw !important;
+  margin: 0 !important; /* Remove margins as body padding handles the 10% */
+  padding: 0 !important;
+  position: relative !important;
+  left: 0 !important;
+}
+
+/* 4. Force all children to fill the 80vw container */
+main *, .quarto-container *, .main-content * {
+  width: 100% !important;
+}
+
+/* 5. Sidebar - Locked to the right 10% zone */
+.quarto-sidebar, .sidebar {
+  position: fixed !important;
+  right: 2vw !important; 
+  top: 120px !important;
+  width: 200px !important;
+  z-index: 1000 !important;
+  margin: 0 !important;
 }
 
 
@@ -130,6 +182,8 @@ h3 {
   text-align: center;
   border-radius: 0 0 5rem 5rem;
   margin-bottom: 0;
+  width: 100% !important;
+  max-width: none !important;
 }
 
 .hero-section h1 {
@@ -143,7 +197,7 @@ h3 {
   font-size: 1.4rem;
   font-weight: 300;
   opacity: 0.9;
-  max-width: 900px;
+  max-width: none !important;
   margin: 0 auto 2.5rem auto;
   line-height: 1.5;
 }
