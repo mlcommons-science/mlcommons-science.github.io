@@ -1,0 +1,158 @@
+---
+title: "MLCommons Science Group Meeting Notes"
+---
+
+Welcome to the meeting notes repository. Use the navigation menu or the list below to browse through the meeting records.
+
+## Meetings
+
+### 2026
+
+- **[2026 Summary](meetings/2026-summary.md)**
+- [2026-04-07](meetings/2026-04-07-meeting.md)
+- [2026-04-01](meetings/2026-04-01-meeting.md)
+- [2026-03-24](meetings/2026-03-24-meeting.md)
+- [2026-03-18](meetings/2026-03-18-meeting.md)
+- [2026-03-10](meetings/2026-03-10-meeting.md)
+- [2026-03-04](meetings/2026-03-04-meeting.md)
+- [2026-02-24](meetings/2026-02-24-meeting.md)
+
+### 2025
+
+- **[2025 Summary](meetings/2025-summary.md)**
+- [2025-12-16](meetings/2025-12-16-meeting.md)
+- [2025-12-10](meetings/2025-12-10-meeting.md)
+- [2025-12-02](meetings/2025-12-02-meeting.md)
+- [2025-11-26](meetings/2025-11-26-meeting.md)
+- [2025-11-12](meetings/2025-11-12-meeting.md)
+- [2025-11-04](meetings/2025-11-04-meeting.md)
+- [2025-10-29](meetings/2025-10-29-meeting.md)
+- [2025-10-21](meetings/2025-10-21-meeting.md)
+- [2025-10-15](meetings/2025-10-15-meeting.md)
+- [2025-10-07](meetings/2025-10-07-meeting.md)
+- [2025-10-01](meetings/2025-10-01-meeting.md)
+- [2025-09-23](meetings/2025-09-23-meeting.md)
+- [2025-09-17](meetings/2025-09-17-meeting.md)
+- [2025-09-09](meetings/2025-09-09-meeting.md)
+- [2025-09-03](meetings/2025-09-03-meeting.md)
+- [2025-08-26](meetings/2025-08-26-meeting.md)
+- [2025-08-20](meetings/2025-08-20-meeting.md)
+- [2025-08-12](meetings/2025-08-12-meeting.md)
+- [2025-08-06](meetings/2025-08-06-meeting.md)
+- [2025-07-29](meetings/2025-07-29-meeting.md)
+- [2025-07-23](meetings/2025-07-23-meeting.md)
+- [2025-07-15](meetings/2025-07-15-meeting.md)
+- [2025-07-09](meetings/2025-07-09-meeting.md)
+- [2025-07-01](meetings/2025-07-01-meeting.md)
+- [2025-06-25](meetings/2025-06-25-meeting.md)
+- [2025-06-11](meetings/2025-06-11-meeting.md)
+- [2025-06-03](meetings/2025-06-03-meeting.md)
+- [2025-05-28](meetings/2025-05-28-meeting.md)
+- [2025-05-20](meetings/2025-05-20-meeting.md)
+- [2025-05-14](meetings/2025-05-14-meeting.md)
+- [2025-05-06](meetings/2025-05-06-meeting.md)
+- [2025-04-30](meetings/2025-04-30-meeting.md)
+- [2025-04-22](meetings/2025-04-22-meeting.md)
+- [2025-04-16](meetings/2025-04-16-meeting.md)
+- [2025-04-02](meetings/2025-04-02-meeting.md)
+- [2025-03-19](meetings/2025-03-19-meeting.md)
+- [2025-03-05](meetings/2025-03-05-meeting.md)
+- [2025-02-19](meetings/2025-02-19-meeting.md)
+- [2025-02-05](meetings/2025-02-05-meeting.md)
+- [2025-01-22](meetings/2025-01-22-meeting.md)
+- [2025-01-08](meetings/2025-01-08-meeting.md)
+
+### 2024
+
+- **[2024 Summary](meetings/2024-summary.md)**
+- [2024-12-11](meetings/2024-12-11-meeting.md)
+- [2024-11-27](meetings/2024-11-27-meeting.md)
+- [2024-11-13](meetings/2024-11-13-meeting.md)
+- [2024-11-04](meetings/2024-11-04-meeting.md)
+- [2024-10-30](meetings/2024-10-30-meeting.md)
+- [2024-10-21](meetings/2024-10-21-meeting.md)
+- [2024-10-16](meetings/2024-10-16-meeting.md)
+- [2024-09-18](meetings/2024-09-18-meeting.md)
+- [2024-09-04](meetings/2024-09-04-meeting.md)
+- [2024-08-21](meetings/2024-08-21-meeting.md)
+- [2024-08-07](meetings/2024-08-07-meeting.md)
+- [2024-07-24](meetings/2024-07-24-meeting.md)
+- [2024-07-10](meetings/2024-07-10-meeting.md)
+- [2024-06-26](meetings/2024-06-26-meeting.md)
+- [2024-06-12](meetings/2024-06-12-meeting.md)
+- [2024-05-29](meetings/2024-05-29-meeting.md)
+- [2024-05-23](meetings/2024-05-23-meeting.md)
+- [2024-05-15](meetings/2024-05-15-meeting.md)
+- [2024-05-01](meetings/2024-05-01-meeting.md)
+- [2024-04-17](meetings/2024-04-17-meeting.md)
+- [2024-04-03](meetings/2024-04-03-meeting.md)
+- [2024-03-20](meetings/2024-03-20-meeting.md)
+- [2024-03-06](meetings/2024-03-06-meeting.md)
+- [2024-02-21](meetings/2024-02-21-meeting.md)
+- [2024-01-24](meetings/2024-01-24-meeting.md)
+- [2024-01-10](meetings/2024-01-10-meeting.md)
+
+### 2023
+
+- **[2023 Summary](meetings/2023-summary.md)**
+- [2023-12-13](meetings/2023-12-13-meeting.md)
+- [2023-11-29](meetings/2023-11-29-meeting.md)
+- [2023-11-01](meetings/2023-11-01-meeting.md)
+- [2023-10-18](meetings/2023-10-18-meeting.md)
+- [2023-10-04](meetings/2023-10-04-meeting.md)
+- [2023-09-20](meetings/2023-09-20-meeting.md)
+- [2023-09-06](meetings/2023-09-06-meeting.md)
+- [2023-08-23](meetings/2023-08-23-meeting.md)
+- [2023-08-09](meetings/2023-08-09-meeting.md)
+- [2023-07-26](meetings/2023-07-26-meeting.md)
+- [2023-07-12](meetings/2023-07-12-meeting.md)
+- [2023-06-28](meetings/2023-06-28-meeting.md)
+- [2023-06-14](meetings/2023-06-14-meeting.md)
+- [2023-05-31](meetings/2023-05-31-meeting.md)
+- [2023-05-17](meetings/2023-05-17-meeting.md)
+- [2023-05-03](meetings/2023-05-03-meeting.md)
+- [2023-04-05](meetings/2023-04-05-meeting.md)
+- [2023-03-22](meetings/2023-03-22-meeting.md)
+- [2023-03-08](meetings/2023-03-08-meeting.md)
+- [2023-02-22](meetings/2023-02-22-meeting.md)
+- [2023-02-08](meetings/2023-02-08-meeting.md)
+- [2023-01-25](meetings/2023-01-25-meeting.md)
+- [2023-01-11](meetings/2023-01-11-meeting.md)
+
+### 2022
+
+- **[2022 Summary](meetings/2022-summary.md)**
+- [2022-12-28](meetings/2022-12-28-meeting.md)
+- [2022-12-14](meetings/2022-12-14-meeting.md)
+- [2022-11-30](meetings/2022-11-30-meeting.md)
+- [2022-11-16](meetings/2022-11-16-meeting.md)
+- [2022-11-02](meetings/2022-11-02-meeting.md)
+- [2022-10-19](meetings/2022-10-19-meeting.md)
+- [2022-10-05](meetings/2022-10-05-meeting.md)
+- [2022-09-21](meetings/2022-09-21-meeting.md)
+- [2022-08-24](meetings/2022-08-24-meeting.md)
+- [2022-08-10](meetings/2022-08-10-meeting.md)
+- [2022-07-27](meetings/2022-07-27-meeting.md)
+- [2022-07-13](meetings/2022-07-13-meeting.md)
+- [2022-05-18](meetings/2022-05-18-meeting.md)
+- [2022-05-04](meetings/2022-05-04-meeting.md)
+- [2022-04-20](meetings/2022-04-20-meeting.md)
+- [2022-04-06](meetings/2022-04-06-meeting.md)
+- [2022-03-23](meetings/2022-03-23-meeting.md)
+- [2022-03-09](meetings/2022-03-09-meeting.md)
+- [2022-02-23](meetings/2022-02-23-meeting.md)
+- [2022-02-09](meetings/2022-02-09-meeting.md)
+- [2022-01-26](meetings/2022-01-26-meeting.md)
+- [2022-01-12](meetings/2022-01-12-meeting.md)
+
+### 2021
+
+- **[2021 Summary](meetings/2021-summary.md)**
+- [2021-12-15](meetings/2021-12-15-meeting.md)
+- [2021-12-01](meetings/2021-12-01-meeting.md)
+- [2021-03-24](meetings/2021-03-24-meeting.md)
+- [2021-03-10](meetings/2021-03-10-meeting.md)
+- [2021-02-10](meetings/2021-02-10-meeting.md)
+- [2021-01-27](meetings/2021-01-27-meeting.md)
+- [2021-01-13](meetings/2021-01-13-meeting.md)
+- [2021-00-10](meetings/2021-00-10-meeting.md)

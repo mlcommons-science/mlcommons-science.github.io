@@ -1,0 +1,25 @@
+site_name: MLCommons Science
+site_url: https://mlcommons-science.github.io
+docs_dir: mkdocs_src
+
+theme:
+  name: material
+  custom_dir: mkdocs_src/overrides
+  logo: https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg
+  palette:
+    primary: custom
+    accent: custom
+  font:
+    text: Inter
+  features:
+    - navigation.sections
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog: blog.md
+  - Meetings: meetings.md
