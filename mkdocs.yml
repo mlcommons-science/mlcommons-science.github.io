@@ -15,6 +15,14 @@ theme:
     - navigation.sections
     - content.code.copy
 
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
 extra_css:
   - stylesheets/extra.css
 
