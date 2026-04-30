@@ -2,113 +2,120 @@
 
 A list of participants who have contributed to the MLCommons Science working group meetings.
 
-- Abeyakoon, Vibhatha
-- Agrawal, Adarsh
-- Ahmad, Azza
-- Ahmad, Farzana Yasmin
-- Ahmad, Marisa
-- Alhajjar, Elie
-- Alsudais, Abdulkareem
-- Anantharaj, Valentine
-- Bertolace, Andre
-- Bennet, Karen
-- Bennion, Jonathan
-- Bhimji, Wahid
-- Brown, Cade
-- Brown, Scott
-- Brewer, Wesley (Wes)
-- Cervantes, Briana
-- Chan, Sarah
-- Cheng, Andy
-- Choudhury, Sutanay
-- Choi, Jong Youl
-- Colombo, Marco
-- Coronica, Piero
-- Coubez, Xavier
-- DeBomis, David
-- Desinghu, Bala
-- Dutta, Senjuti
-- Ehrett, Carl
-- Emani, Murali
-- Farrell, Gavin Mitchell
-- Farrell, Steven (Steve)
-- Fils, Douglas
-- Fox, Geoffrey
-- Foundjem, Armstrong
-- Fricklas, Kenneth
-- Fursin, Grigori (Grigory)
-- Gopal, Krishna
-- Goulden, Aaron
-- Goswami, Sujata [LinkedIn](https://www.linkedin.com/in/sujata-goswami/)
-- Gupta, Pranav
-- Harris, Philip
-- Hashmi, Ali
-- Hawks, Ben
-- Hey, Tony
-- Hernandez Corzo, Hector
-- Herwig, Christian
-- Ibanescu, Iulia
-- Indra Priyadarsini
-- Iwata, Satoshi
-- Jha, Shantenu
-- Jawad, K M Tawsik
-- Janapa Reddi, Vijay
-- Joshi, Sankranti
-- Kabir, Rashadul
-- Kanter, David
-- Kaparthi, Aravind
-- Kirkpatrick, Christine
-- Kondratenko, Cyril
-- Kondratyev, Dmitry
-- Luszczek, Piotr
-- Liu, Frank
-- Liu, Mia
-- Lobentanzer, Sebastian [LinkedIn](https://www.linkedin.com/in/slobentanzer/)
-- Lu, Victor
-- Ma, Jeffrey
-- Maleki, Amin
-- Maskey, Manil
-- Mazzaferro, Gary
-- Mekala, Vamshi
-- Mirza, Khojasteh [LinkedIn](https://www.linkedin.com/in/khojasteh-mirza/)
-- Moore, Shirley
-- Moos, Lauren
-- Morehouse, Kirsten
-- Nachman, Benjamin
-- Naylor, Andrew
-- Ndiaye, Aïmérou
-- Nimmaturi, Datta
-- Nisbet, Noah
-- Ngadiuba, Jennifer
-- Papay, Juri (Gyuri)
-- Penmetsa, Nabita
-- Peters, Craig
-- Porebski, Przemyslaw
-- Pritchard, Howard [LinkedIn](https://www.linkedin.com/in/howard-pritchard-80b7623/)
-- Profio, Luke
-- Rao, Yuhan (Douglas)
-- Rasel, Annajiat Alim
-- Reddi, Preetham
-- Ruhela, Amit
-- Sarwar, Nobin
-- Samsonau, Sergey
-- Shao, Andrew
-- Shinde, Rajat
-- Shi, Jihao
-- Shankar, Arjun
-- Shankar, Mallikarjun
-- Sharma, Shantenu
-- Sharma, Lee
-- Singh, Vaibhavi [LinkedIn](https://www.linkedin.com/in/contactvaibhavi/)
-- Tao, Dingwen
-- Thiyagalingam, Jeyan
-- Toledo, Javier
-- Tsaris, Aristeidis
-- Tues Day
-- von Laszewski, Gregor
-- Weiland, Claus
-- Wang, Feiyi
-- Warren, James
-- Zhang, Wenhui
-- Zhang, Jie
-- Yin, Junqi
+- **Abeyakoon, Vibhatha**
+- **Agrawal, Adarsh**: Stony Brook University CS Masters, interested in LLM.
+- **Ahmad, Azza**
+- **Ahmad, Farzana Yasmin**
+- **Ahmad, Marisa**: MLCommons link.
+- **Alhajjar, Elie**: Senior Scientist, Engineering and Applied Sciences, RAND Corporation, Arlington, VA.
+- **Alsudais, Abdulkareem**
+- **Anantharaj, Valentine**
+- **Ather, Syed Hussain**: AI Engineer - Research Scientist working across neuroscience, medical physics, educational technology, mixed reality, and other areas.
+- **Ben Salem, Malek**: Managing Director at Accenture, focuses on guiding C-suite clients through adopting AI/ML, quantum and other emerging technologies securely.
+- **Bennet, Karen**: senior leader leading Enterprises to deploy secure, scalable, transparent, distributed software using next generation technologies.
+- **Bennion, Jonathan**
+- **Bhimji, Wahid**
+- **Brown, Cade**
+- **Brown, Scott**: counts fish at NOAA.
+- **Brewer, Wesley (Wes)**
+- **Cervantes, Briana**
+- **Chan, Sarah**: PhD in Molecular Biology and 12 years global business development experience in taking early stage life science technologies to market.
+- **Cheng, Andy**
+- **Choudhury, Sutanay**: Chief Scientist Data Sciences @ PNNL | Generative AI, Precision Medicine, Computational Chemistry, Knowledge Graphs | Co-Director CTCI.
+- **Choi, Jong Youl**: HPC Data Research Scientist at Oak Ridge National Laboratory, worked on ORBIT Foundation model.
+- **Colombo, Marco**
+- **Coronica, Piero**
+- **Coubez, Xavier**: spanned particle physics and computer science (deep learning).
+- **DeBomis, David**: works on performance at Los Alamos National Laboratory.
+- **Desinghu, Bala**
+- **Dutta, Senjuti**: studies HCI and Machine Learning at University of Tennessee, Knoxville.
+- **Ehrett, Carl**: Director of Applied Machine Learning in Research Computing & Data at Clemson University.
+- **Emani, Murali**
+- **Farrell, Gavin Mitchell**
+- **Farrell, Steven (Steve)**
+- **Fils, Douglas**: from SDSC, works in Christine Kirkpatrick’s group.
+- **Fox, Geoffrey**
+- **Foundjem, Armstrong**
+- **Fricklas, Kenneth**: works in AI and Safety with a consortium of 32 Cleantech organizations, mainly laboratories.
+- **Fursin, Grigori (Grigory)**
+- **Gopal, Krishna**
+- **Goulden, Aaron**
+- **Goswami, Sujata**: at Oak Ridge National Laboratory. Works on datasets, automatic provenance, and metadata anomalies.
+- **Gupta, Pranav**: PhD data scientist passionate about cutting edge tech, e.g., LLMs and quantum computing.
+- **Harris, Philip**
+- **Hashmi, Ali**: Senior Programmer/Healthcare Data Scientist at IBM Consulting - US Federal.
+- **Hawks, Ben**
+- **Hey, Tony**
+- **Hernandez Corzo, Hector**
+- **Herwig, Christian**: postdoc at Fermilab and works on the FastML science inference benchmark suite.
+- **Ibanescu, Iulia**: Senior HPC Engineer at Boston Limited, background in high-performance computing and atmospheric science.
+- **Indra Priyadarsini**: Research Scientist at IBM Research - Tokyo. Works on AI for material science.
+- **Ishii, Dave**: Fintech and AI entrepreneur, Founder & CEO of Kiara Inc.
+- **Iwata, Satoshi**: researcher at Fujitsu.
+- **Jha, Shantenu**
+- **Jawad, K M Tawsik**
+- **Janapa Reddi, Vijay**
+- **Jain, Rutwik**: Ph.D. student at the University of Wisconsin, Madison. Research focuses on GPU variability in large-scale, accelerator rich systems.
+- **Joshi, Sankranti**: PhD in Computer Vision focused on Environment/Remote Sensing focussing on Bayesian Meta Learning. AI/ML RDP Engineer at GSK.
+- **Kabir, Rashadul**: PhD candidate at Colorado State University, working on workload scheduling on exascale data centers.
+- **Kanter, David**
+- **Kaparthi, Aravind**
+- **Kirkpatrick, Christine**
+- **Kondratenko, Cyril**: from Nebius, focuses on training and search for better software engineering agents.
+- **Kondratyev, Dmitry**: Research Software Engineer with Ph.D. in experimental high energy physics, experience at CERN (CMS) and Fermilab.
+- **Luszczek, Piotr**
+- **Liu, Frank**
+- **Liu, Mia**: assistant professor in particle physics at Purdue.
+- **Lobentanzer, Sebastian**
+- **Lu, Victor**: worked at Fermilab and is now an independent consultant.
+- **Ma, Jeffrey**: Ph.D. student in AI under Vijay Janapa Reddi at Harvard.
+- **Maleki, Amin**
+- **Maskey, Manil**: Senior Research Scientist in NASA HQ Science Mission Directorate and is AI Lead and Project Manager.
+- **Mazzaferro, Gary**
+- **Mekala, Vamshi**
+- **Mirza, Khojasteh**
+- **Moore, Shirley**
+- **Moos, Lauren**
+- **Morehouse, Kirsten**
+- **Nachman, Benjamin**
+- **Naylor, Andrew**: NERSC NESAP postdoctoral fellow specializing in integrating AI into scientific workflows for HPC.
+- **Ndiaye, Aïmérou**: AI Engineer @ BAAMTU TECHNOLOGIES in Multilingual NLP & Speech Research.
+- **Nimmaturi, Datta**: AI/ML Engineer at Nutanix, currently research engineering LLMs.
+- **Nisbet, Noah**
+- **Ngadiuba, Jennifer**: Wilson Fellow at Fermilab, focuses on Edge AI for real-time systems in HEP.
+- **Papay, Juri (Gyuri)**
+- **Penmetsa, Nabita**: Assistant professor in Department of Operations and Information Systems at the University of Utah. Research focuses on pricing of software services and multi-sided platforms.
+- **Peters, Craig**: product manager at GitHub. Interested in contributing to reproducible science and works on an open specification for reproducible environments called Dev Containers.
+- **Porebski, Przemyslaw**
+- **Pritchard, Howard**
+- **Profio, Luke**
+- **Rao, Yuhan (Douglas)**
+- **Rasel, Annajiat Alim**
+- **Reddi, Preetham**
+- **Ruhela, Amit**
+- **Sarwar, Nobin**
+- **Samsonau, Sergey**
+- **Shao, Andrew**: Senior HPC&AI Research Scientist at HPE.
+- **Shinde, Rajat**
+- **Shi, Jihao**
+- **Shankar, Arjun**
+- **Shankar, Mallikarjun**
+- **Sharma, Lee**: at Naval Research Lab, Laboratory for Computational Physics & Fluid Dynamics with benchmarking, HPC systems and computational fluid dynamics expertise.
+- **Sharma, Shantenu**: computer scientist and financial services professional by training with Ph.D. from UNC Chapel Hill.
+- **Singh, Vaibhavi**
+- **Tao, Dingwen**
+- **Thiyagalingam, Jeyan**
+- **Toledo, Javier**: Quantum Machine Learning Research Associate at TRIUMF (Canada's Particle Accelerator Centre). Experience in developing AI/ML surrogates for diffusion equations in multicellular models.
+- **Tosh, Deepak**: Associate Professor at the University of Texas El Paso (UTEP), specializes in system cyber security and applying AI to solve cyber security problems in operational technology and critical infrastructure.
+- **Tsaris, Aristeidis**
+- **Tues Day**: independent researcher in AI/ML, pianist, and audio engineer. Pursuing professional certification in Cloud Architecture engineering.
+- **Tui, Nazmun Nahar**: PhD student at UTEP, presented work on "Scaling transformer training: an empirical study of GPU communication overhead optimization."
+- **von Laszewski, Gregor**
+- **Weiland, Claus**
+- **Wang, Feiyi**
+- **Warren, James**
+- **Yang, Lisa**: Founder & CEO of GREENBOX Labs, building the execution layer for reproducible biology.
+- **Yang, Xiaoxuan**: assistant Professor in the University of Virginia ECE department. Interests include memory systems and deep learning accelerators.
+- **Yin, Junqi**
+- **Zhang, Wenhui**
+- **Zhang, Jie**

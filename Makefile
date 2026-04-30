@@ -5,7 +5,10 @@ all:
 
 view:
 	@echo "Starting live-reload server at http://127.0.0.1:8000"
-	open http://127.0.0.1:8000 & mkdocs serve
+
+	mkdocs serve --clean --watch-theme --open  -w content
+	#open http://127.0.0.1:8000
+	#mkdocs serve --watch-theme --open -c -w content
 
 clean:
 	rm -rf site

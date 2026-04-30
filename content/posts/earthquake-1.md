@@ -52,8 +52,8 @@ getting slightly better.
 
 The time-dependent four-year predictions for the last fit is
 
-![Image1](/images/image1.png)
+![Image1](../images/image1.png)
 
 While the original code gives
 
-![Image2](/images/image2.png)
+![Image2](../images/image2.png)
