@@ -97,7 +97,7 @@ html, :root {
   padding: 0 !important;
   margin: 0 !important;
   display: flex !important;
-  gap: 2rem !important;
+  gap: 1rem !important;
 }
 
 .header-center-nav ul li a {
