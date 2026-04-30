@@ -31,3 +31,7 @@ nav:
   - About: about.md
   - Blog: blog.md
   - Meetings: meetings.md
+  - Presentations: presentations/index.md
+  - Papers: papers/index.md
+  - Others: others/index.md
+  - People: people/index.md

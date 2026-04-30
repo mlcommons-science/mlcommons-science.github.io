@@ -1,0 +1,30 @@
+# Presentations
+
+This page contains a collection of presentations and slide decks shared during MLCommons Science Working Group meetings.
+
+## Recent Presentations
+- [Building a Dynamic Catalog/Review illustrated with Time Series Aug 5 2025](https://docs.google.com/presentation/d/1BsaTTSVgmuG9szcth4S6oUT483IMQX5JV28GMf-jvLk/edit?usp=sharing)
+- [MLCommons (Geoffrey Fox)](https://docs.google.com/presentation/d/1mZqJ84aMAyPEvxnESSPKfrabP9YzpVQHd5brOCT5wiU/edit)
+- [How UK Exascale community sees benchmarking (Jeyan Thiyagalingam)](https://drive.google.com/file/d/11eH6FGMEHBUmsaqwtSkXS77qp3cgR6pr/view?usp=sharing)
+- [Generative AI Spring 2024](https://drive.google.com/file/d/1KHT7ak28KSnW-ZyLMP7BeCwrbKWWiQye/view?usp=sharing)
+- [GTC 2024 HEP (Vinicius M. Mikuni)](https://docs.google.com/presentation/d/1uMffqka_qkzQ3wK3I255vgo5fhA4MgOfwvhKBhe27yg/edit?pli=1#slide=id.g2c1e35c7f64_0_0)
+- [Science at MLPerf BOF (Tom St. John)](https://docs.google.com/presentation/d/14QLvV10-fHnzvqgRe0alJHMGBLMinHxpXwRn12wA20c/edit?usp=sharing)
+- [Science at Data-centric AI BOF (Christine Kirkpatrick)](https://docs.google.com/presentation/d/1UArUapwgZWLzzuxnYk7llWd-QLrax_86GaQetkxQr5s/edit?usp=sharing)
+- [Science Foundation models and Data at SC23 BOF](https://docs.google.com/presentation/d/1UArUapwgZWLzzuxnYk7llWd-QLrax_86GaQetkxQr5s/edit?usp=drive_link)
+- [Science WG at SC23 BOF](https://docs.google.com/presentation/d/14QLvV10-fHnzvqgRe0alJHMGBLMinHxpXwRn12wA20c/edit?usp=drive_link)
+- [TPC-Hack-Start](https://docs.google.com/presentation/d/1Ca3GWPXuyH7mMT7EGZghTfZzl3h12KO1/edit#slide=id.p1)
+- [FAIR principles (Christine Kirkpatrick)](https://drive.google.com/file/d/15iQTE99xAUIPNe9bIY_l8Xsv2TVLyqoR/view?usp=sharing)
+- [AI for Science - The Fourth Paradigm (Tony Hey)](https://drive.google.com/file/d/1aJ4sYVqK0Pk0dcZOK6Yez4J43E1QhtIS/view?usp=sharing)
+- [Juri Papay - Compliance of Science WG benchmarks](https://docs.google.com/presentation/d/1bn0LUi6td__0r4MBugJb1oByyxKze9Ke/edit?usp=sharing)
+- [MLCommons and Time Series/Earthquake Jan 2022](https://docs.google.com/presentation/d/1UiMVV4mMzIXIzBJ2WqFrWnqVI6NaI0jevb7BKulun2c/edit?usp=sharing)
+- [AI4Science Foundation Models Overview (Geoffrey Fox)](https://docs.google.com/presentation/d/1EgmTX9g_xTvo1s-mwPb2SouoTMP_Ttgp28mFEikzAt8/edit?usp=sharing)
+- [TPC Meeting August 2-3 at Argonne](https://docs.google.com/presentation/d/1WdWaFyZ6JplDvXeV7aXIirUmUEZ4BPWR3_YTDfn9acg/edit?usp=sharing)
+- [Community Meeting June 27, 2024](https://docs.google.com/presentation/d/107NxlXHMH2NKi7akmfLO9n6fG-wknhNKW2N9EPdtR3k/edit?usp=sharing)
+- [OSMI-Bench Brewer](https://drive.google.com/file/d/1Y4M4gbortn7d59K45q9k7XeM-bA-sHcC/view?usp=sharing)
+- [Flop counts for applications (Juri Papay)](https://docs.google.com/presentation/d/1W6EvpNsoVaop40HpCH_x0Du0a7wAq4Pl/edit?usp=drive_link)
+- [AI for Science Rising Stars August 17](https://docs.google.com/presentation/d/1RXyPSKXXV488X9pfcPr5_L1pRMT5gd2Xk9mi-SI0VFY/edit?usp=sharing)
+- [Kirsten Morehouse - Bias Research](https://docs.google.com/presentation/d/1gKZ3WEYNy9Xz-3POrSFjukvsL1QyMJ9C/edit?usp=drive_link)
+- [Science WG of MLCommons March 9 2022](https://docs.google.com/presentation/d/1k9NmajLqB2X_fCwEAbDpoWhmRdZR-bFStS6_0n2slR4/edit?usp=sharing)
+- [MLCommons Science - follow up discussion (Nhan Tran)](https://docs.google.com/presentation/d/1n_M4jAKNGkoOcktW9wqnuAEZbzcRhm8OUN7aArdKT2k/edit)
+- [WG updates Q12025 MLCommons Community Meeting](https://docs.google.com/presentation/d/1uESSZA3NqiTF58pwfzgxPw196UcC2ln_grUAcTGl1UU/edit)
+- [Scaling Stormer Training (Nazmun Nahar Tui)](https://docs.google.com/presentation/d/1JcEDMQfOk5HE0HbLBOZY2HuXb1x0jAeB/edit?usp=sharing)

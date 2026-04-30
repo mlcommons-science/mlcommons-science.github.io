@@ -1,0 +1,114 @@
+# People
+
+A list of participants who have contributed to the MLCommons Science working group meetings.
+
+- Abeyakoon, Vibhatha
+- Agrawal, Adarsh
+- Ahmad, Azza
+- Ahmad, Farzana Yasmin
+- Ahmad, Marisa
+- Alhajjar, Elie
+- Alsudais, Abdulkareem
+- Anantharaj, Valentine
+- Bertolace, Andre
+- Bennet, Karen
+- Bennion, Jonathan
+- Bhimji, Wahid
+- Brown, Cade
+- Brown, Scott
+- Brewer, Wesley (Wes)
+- Cervantes, Briana
+- Chan, Sarah
+- Cheng, Andy
+- Choudhury, Sutanay
+- Choi, Jong Youl
+- Colombo, Marco
+- Coronica, Piero
+- Coubez, Xavier
+- DeBomis, David
+- Desinghu, Bala
+- Dutta, Senjuti
+- Ehrett, Carl
+- Emani, Murali
+- Farrell, Gavin Mitchell
+- Farrell, Steven (Steve)
+- Fils, Douglas
+- Fox, Geoffrey
+- Foundjem, Armstrong
+- Fricklas, Kenneth
+- Fursin, Grigori (Grigory)
+- Gopal, Krishna
+- Goulden, Aaron
+- Goswami, Sujata [LinkedIn](https://www.linkedin.com/in/sujata-goswami/)
+- Gupta, Pranav
+- Harris, Philip
+- Hashmi, Ali
+- Hawks, Ben
+- Hey, Tony
+- Hernandez Corzo, Hector
+- Herwig, Christian
+- Ibanescu, Iulia
+- Indra Priyadarsini
+- Iwata, Satoshi
+- Jha, Shantenu
+- Jawad, K M Tawsik
+- Janapa Reddi, Vijay
+- Joshi, Sankranti
+- Kabir, Rashadul
+- Kanter, David
+- Kaparthi, Aravind
+- Kirkpatrick, Christine
+- Kondratenko, Cyril
+- Kondratyev, Dmitry
+- Luszczek, Piotr
+- Liu, Frank
+- Liu, Mia
+- Lobentanzer, Sebastian [LinkedIn](https://www.linkedin.com/in/slobentanzer/)
+- Lu, Victor
+- Ma, Jeffrey
+- Maleki, Amin
+- Maskey, Manil
+- Mazzaferro, Gary
+- Mekala, Vamshi
+- Mirza, Khojasteh [LinkedIn](https://www.linkedin.com/in/khojasteh-mirza/)
+- Moore, Shirley
+- Moos, Lauren
+- Morehouse, Kirsten
+- Nachman, Benjamin
+- Naylor, Andrew
+- Ndiaye, Aïmérou
+- Nimmaturi, Datta
+- Nisbet, Noah
+- Ngadiuba, Jennifer
+- Papay, Juri (Gyuri)
+- Penmetsa, Nabita
+- Peters, Craig
+- Porebski, Przemyslaw
+- Pritchard, Howard [LinkedIn](https://www.linkedin.com/in/howard-pritchard-80b7623/)
+- Profio, Luke
+- Rao, Yuhan (Douglas)
+- Rasel, Annajiat Alim
+- Reddi, Preetham
+- Ruhela, Amit
+- Sarwar, Nobin
+- Samsonau, Sergey
+- Shao, Andrew
+- Shinde, Rajat
+- Shi, Jihao
+- Shankar, Arjun
+- Shankar, Mallikarjun
+- Sharma, Shantenu
+- Sharma, Lee
+- Singh, Vaibhavi [LinkedIn](https://www.linkedin.com/in/contactvaibhavi/)
+- Tao, Dingwen
+- Thiyagalingam, Jeyan
+- Toledo, Javier
+- Tsaris, Aristeidis
+- Tues Day
+- von Laszewski, Gregor
+- Weiland, Claus
+- Wang, Feiyi
+- Warren, James
+- Zhang, Wenhui
+- Zhang, Jie
+- Yin, Junqi
