@@ -1,0 +1,824 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mlcommons-science.github.io/meetings/2021-03-10-meeting/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>March 10, 2021 - MLCommons Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#march-10-2021" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="MLCommons Science" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link ">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link ">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link ">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link ">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link ">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link ">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link ">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link ">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MLCommons Science" class="md-nav__button md-logo" aria-label="MLCommons Science" data-md-component="logo">
+      
+  <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="logo">
+
+    </a>
+    MLCommons Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Others
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#march-10-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        March 10, 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="March 10, 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#discussion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Discussion
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#image3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ![][image3]
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feb-24th-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feb 24th, 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Feb 24th, 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agenda_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#discussion-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Discussion Points
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action Points
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>March 10, 2021</h1>
+
+<h2 id="march-10-2021">March 10, 2021</h2>
+<h3 id="present">Present:</h3>
+<p>Geoffrey Fox,  Aristeidis Tsaris, Christine Kirkpatrick,Gregg Barrett, Amit Ruhela, Junqi Yin, Arjun Shankar, Venkat Vishwanath,  Tony Hey, Vibhatha Abeyakoon, Bala Desinghu, Gregor von Laszewski</p>
+<p>Apologies: Murali Emani, Jeyan Thiyagalingam</p>
+<h3 id="agenda">Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Benchmark Updates  </li>
+<li>Chair election  </li>
+<li>Discussion of MLCube   </li>
+<li>Possible action items on FAIR metadata  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="discussion">Discussion</h3>
+<p><strong>Updates</strong><br />
+Indiana University, Oak Ridge and Argonne presented updates. Indiana has made progress with time series prediction using open USGS data. Junqi from ORNL presented running STEM DL on SUMMIT and ANL’s Theta machines. Also he has worked with Murali on UNO, first with TF1, now with Tensorflow v2. Venkat from ANL covered the same ground from the Argonne point of view – UNO 2.x code and STEM DL working.</p>
+<p>As well as benchmarks, non trivial progress has been made in running benchmarks on multiple hosts. Both Argonne (ThetaGPU) and the Rutherford Lab (PEARL) offered to make their facilities available to run external benchmarks. It was suggested that XSEDE resources could be used</p>
+<p><strong>Chair Election</strong><br />
+We described the upcoming chair election with Fox stepping down but running for re-election. There seems a possible problem that several active people in this group are not yet members. This has been reported to MLCommons.</p>
+<p><strong>MLCube</strong></p>
+<ul>
+<li>Technical Specification <a href="https://drive.google.com/drive/folders/17OlmFvP_uYaY9jL2uvFcI1VoQZ0KcBhD">https://drive.google.com/drive/folders/17OlmFvP_uYaY9jL2uvFcI1VoQZ0KcBhD</a> open to MLCommons members and summarized in three pictures here. An open link is <a href="https://mlcommons.github.io/mlcube/">https://mlcommons.github.io/mlcube/</a>   </li>
+<li>Vibhatha Abeykoon, Indiana University looking at MLCube for EM-Noise benchmark. Contrast Docker and Singularity <a href="https://docs.google.com/presentation/d/19XAtMRPXXZG6DCzSjVzlJMqkkCGXbhTPGWOXTvsQ_Rg/edit?usp=sharing">https://docs.google.com/presentation/d/19XAtMRPXXZG6DCzSjVzlJMqkkCGXbhTPGWOXTvsQ_Rg/edit?usp=sharing</a> </li>
+</ul>
+<h2 id="image3">![][image3]</h2>
+<h2 id="_1"></h2>
+<h2 id="_2"></h2>
+<h2 id="_3"></h2>
+<p><strong>FAIR metadata</strong><br />
+Fox noted that the Benchmark/Infrastructure working group is interested in a presentation in this -- probably April 6 at 1.30pm Eastern. <a href="mailto:christine@sdsc.edu">Christine Kirkpatrick</a>agreed to work with Fox on this.</p>
+<h2 id="feb-24th-2021">Feb 24th, 2021</h2>
+<h3 id="present_1">Present</h3>
+<p>Jeyan Thiyagalingam, Geoffrey Fox, Juri Papay,  Aristeidis Tsaris, Gregg Barrett, Amit Ruhela, Bala Desinghu, Junqi Yin, Venkat Vishwanath,  Tony Hey, Nikola Nikolov, Vibhatha Abeyakoon, Murali Emani,  Feiyi Wang </p>
+<p>Apologies: Christine (UCSD)</p>
+<h3 id="agenda_1">Agenda</h3>
+<ol>
+<li>Any new member introductions  </li>
+<li>Benchmark Updates  </li>
+<li>MLCommons: prevent early unofficial result publication Discussion  </li>
+<li>Possible action items on FAIR metadata  </li>
+<li>Should we do anything at SC21?  </li>
+<li>Access to PEARL  </li>
+<li>Any other business</li>
+</ol>
+<h3 id="discussion-points">Discussion Points</h3>
+<ol>
+<li>
+<p>WG welcomed Juri Papay,  Nikola Nikolov, Feiyi Wang to the group. Juri is joining us from STFC,  Nikola from Supermicro Ltd and Feiyi  Wang from ORNL/ OLCF.   </p>
+</li>
+<li>
+<p>Geoffrey on TevolOP: Geoffrey Fox provided the updates on the TeVolOp benchmarks, which relies on a  number of time series (Covid-19, Hydrology and Seismology), Please see the slides <a href="https://docs.google.com/presentation/d/1soghzH6-VMk_hacSvHonA3LQZvdM_MImTVzws8pw5Yw/edit?usp=sharing">here</a>.  The detailed description of the benchmarks will be recorded in the main benchmarking document, with relevant metrics.   </p>
+</li>
+<li>
+<p>ANL on UNO: Murali, Venkat and Vibhatha provided an update on the Candle UNO Benchmark - progressing but waiting for SciML Suite. Vibhatha has evaluated the benchmark and has a positive experience on the benchmark.   </p>
+</li>
+<li>
+<p>ORNL on SEMDL: Junqi provided an update on this.  Murali from ANL has tried it. They are looking into the preprocessing and issues around PyTorch. Feiyi mentioned that he had an issue with PyTorch when testing against the ThetaGPU   </p>
+</li>
+<li>
+<p>STFC on Cloud: Reasonable progress has been made and some initial results are there, but the scalability is an issue.   </p>
+</li>
+<li>
+<p>The WG agreed that a reasonable progress has been made across all benchmarks. But a detailed presentation may be needed in future meetings.   </p>
+</li>
+<li>
+<p>Other issues:   </p>
+</li>
+<li>Gregg is keen to collaborate on benchmarks   </li>
+<li>Amit can provide resources (something for Juri to consider)  </li>
+<li>Benchmarks are using mixed versions of TF, PyTorch,   </li>
+<li>Junqi is also trying to run UNO using the new TF2.   </li>
+<li>
+<p>It was suggested that Plan B Benchmarks to be tested / evaluated with low priority. </p>
+</li>
+<li>
+<p>ML Commons status cannot be discussed during the review period. We meant to set up a review process between us.   </p>
+</li>
+<li>
+<p>FAIR aspects of the benchmarks - may be difficult to enforce it at the MLCOmmons level. Nevertheless we should try. All metadata to be presented from our benchmark point of view. We need some activity around this aspect to progress. Science benchmarks should cover the FAIR aspect. Tony suggested Gregg and Christine on ensuring that our benchmarks are FAIR compliance.   </p>
+</li>
+<li>
+<p>Something at SC21? MLComons HPC group is doing something. BoF is planned. HPC group is planning a tutorial and hands-on sessions. Deadline is by the end of April. Two groups submitting competing proposals may not be a good idea. The idea is to hold a joint-BoF (more room for discussion etc) with the HPC group. The WG can provide sufficient materials. And securing BoF is much easier than Tutorials.   </p>
+</li>
+<li>
+<p>Access to systems:   </p>
+</li>
+<li>PEARL is now possible. Users can apply for an account, please approach the WG chairs for more information.   </li>
+<li>Equally access to ANL systems (thetaGPU) is also being explored.   </li>
+<li>Access to ORNL's Summit is also possible. Again, approach the WG chairs for information.   </li>
+<li>AOB: None</li>
+</ol>
+<h3 id="action-points">Action Points</h3>
+<ol>
+<li>Review committee for science benchmarks must be established.    </li>
+<li>Presentations  from partners are needed in the following weeks.   </li>
+<li>Tony to talk to Christine and Gregg  </li>
+<li>Update from each of the major sites on benchmarks  </li>
+<li>Geoffrey will update on the restrictions around  MLCommons Early Publication   </li>
+<li>Geoffrey will liaise with Murali on SC’21 Joint BoF.</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="mlcommons-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>MLCommons® Science</h4>
+        <p>Advancing the frontier of scientific machine learning through standardized benchmarks and collaborative research.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contributing">Contributor Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mlcommons.org" target="_blank">MLCommons Home</a></li>
+          <li><a href="https://github.com/mlcommons/science" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://github.com/mlcommons-science" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://mlcommons.org/working-groups/research/science/" target="_blank">Official WG Page</a></li>
+        </ul>
+      </div>
+       <div class="footer-column">
+         <h4>Connect</h4>
+         <div class="footer-socials">
+           <a href="https://github.com/mlcommons/science" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+           <a href="https://github.com/mlcommons-science" target="_blank" title="GitHub Organization"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MLCommons®. All rights reserved. <a href="https://mlcommons.org/legal/" target="_blank">Legal</a> | <a href="https://mlcommons.org/privacy/" target="_blank">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

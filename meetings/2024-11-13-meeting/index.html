@@ -1,0 +1,748 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mlcommons-science.github.io/meetings/2024-11-13-meeting/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>November 13, 2024 - MLCommons Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#november-13-2024" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="MLCommons Science" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link ">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link ">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link ">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link ">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link ">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link ">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link ">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link ">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MLCommons Science" class="md-nav__button md-logo" aria-label="MLCommons Science" data-md-component="logo">
+      
+  <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="logo">
+
+    </a>
+    MLCommons Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Others
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#november-13-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        November 13, 2024
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="November 13, 2024">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-members" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#white-papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        White Papers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-discussion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other Discussion
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comments-from-gary-mazzaferro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comments from Gary Mazzaferro
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comments-from-shirley-moore" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comments from Shirley Moore
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>November 13, 2024</h1>
+
+<h2 id="november-13-2024">November 13, 2024</h2>
+<h3 id="present">Present</h3>
+<p>Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Marisa Ahmad, Armstrong Foundjem, Piotr Luszczek, Victor Lu,  Andy Cheng, Shirley Moore, Claus Weiland, Gregg Barrett, Satoshi Iwata, Piero Coronica, Azza Ahmad, Steve Farrell, Murali Emani, Sharma Lee, Christine Kirkpatrick, Gavin Mitchell Farrell</p>
+<h3 id="tentative-agenda">Tentative Agenda</h3>
+<ul>
+<li>Any New Members Introduction  </li>
+<li>Implications of the merger of HPC and Science working groups  </li>
+<li>Meeting cadence weekly?  </li>
+<li>Plan going forward  </li>
+<li>Choosing Up-to-date Benchmarks  </li>
+<li>White Papers  </li>
+<li>Possibly Energy Paper  </li>
+<li>Benchmark Carpentry <a href="https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5">https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5</a>   </li>
+<li>AI Readiness of MLCommons Science <a href="https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing">https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing</a>   </li>
+<li>·  Any Other Business</li>
+</ul>
+<h3 id="new-members">New Members</h3>
+<ul>
+<li>Azza Ahmed, is a Senior HPC Engineer at TU Delft, the Netherlands. She supports computer science departments (INSY and ST) in carrying their computations in our HPC clusters (DAIC <a href="https://daic.tudelft.nl/">https://daic.tudelft.nl/</a> and DelftBlue <a href="https://www.tudelft.nl/en/dhpc/system">https://www.tudelft.nl/en/dhpc/system</a>), and she is involved in the needs mapping/planning for research/education infrastructure at the university  </li>
+<li><strong>Satoshi Iwata</strong> is with Fujitsi in Japan and an HPC working group veteran. <a href="https://www.linkedin.com/in/satoshi-iwata-ba412791/">https://www.linkedin.com/in/satoshi-iwata-ba412791/</a>   </li>
+<li><strong>Piero Coronica</strong> <a href="https://www.mpcdf.mpg.de/person/112609">https://www.mpcdf.mpg.de/person/112609</a> is with the Max Planck Computing and Data Facility <a href="https://www.mpcdf.mpg.de/">https://www.mpcdf.mpg.de/</a> (MPCDF, formerly known as RZG), which is a cross-institutional competence centre of the Max Planck Society to support computational and data sciences, in Garching, Germany near to Munich. The new supercomputer Viper of the Max Planck Society is now open for early user operation. This is the first phase of the deployment consisting of 768 CPU-processor nodes (based on 4th Gen AMD EPYC “Genoa” CPUs) and a IBM SpectrumScale storage solution, delivered by Eviden/Atos. In the course of 2024, a second phase with ca. 340 GPU nodes comprising 680 AMD Instinct MI300A APUs will be deployed.  </li>
+<li><a href="https://www.math.unipd.it/en/department/people/gavin_michael.farrell/">Gavin Michael Farrell :: Dipartimento di Matematica “Tullio Levi-Civita”</a> is a  Ph.D. student at Padua University. He has a bioinformatics background with the ELIXIR EU project <a href="https://www.linkedin.com/in/gavin-farrell97/?originalSubdomain=uk">https://www.linkedin.com/in/gavin-farrell97/?originalSubdomain=uk</a>. His Ph.D. is in biocomputing group.</li>
+</ul>
+<h3 id="white-papers">White Papers</h3>
+<ul>
+<li>Christine will get out the white paper on energy which has been restored to roughly original form and sent to Gregor  </li>
+<li>We will spend time, up to 20 minutes, on AI Readiness paper at next meeting which is the day before Thanksgiving  </li>
+<li>Christine noted relevance of open models and data in AI readiness  </li>
+<li>We will also spend time, up to 20 minutes, on benchmark Carpentry paper at next meeting  </li>
+<li>Shirley Moore will add material on benchmark tools  </li>
+<li>Add a survey of benchmark projects  </li>
+<li>Authors should add their names and material</li>
+</ul>
+<h3 id="other-discussion">Other Discussion</h3>
+<ul>
+<li>The plan for this meeting was changed at last moment as the plan to merge science and HPC working groups was postponed for consideration of other futures for HPC group. The preparation for the meeting was not properly done and Geoffrey apologized for this.  </li>
+<li>Juri noted that Summit is closing very soon  </li>
+<li>Armstrong can get access to UVA computers if necessary  </li>
+<li>Marisa noted the MLCommons SC Happy hour at Time: 7-9pm, (following the SC ‘24 MLPerf BoF Session from 5:15 to 6:45 pm) and  Location: Atlantucky 170 Northside Dr SW Suite 96, Atlanta, GA 30313 | map  </li>
+<li>Google just ordered 7 small nuclear reactors but 5-10 years to come online (Christine)  </li>
+<li>Waste “only” has a 300 year half life as low density  </li>
+<li>Christine noted that some software particularly power intense and one needs to raise understanding</li>
+</ul>
+<h3 id="benchmarks">Benchmarks</h3>
+<ul>
+<li>Geoffrey noted goal of identifying uptodate benchmarks in areas like weather with many recent deep learning innovations. Gary noted NOAA’s initiative <a href="https://sab.noaa.gov/wp-content/uploads/4.0-DL4NWP_NOAAResponse_Nov2024.pdf">https://sab.noaa.gov/wp-content/uploads/4.0-DL4NWP_NOAAResponse_Nov2024.pdf</a>  here and Shirley’s comments are spelled separately later.  </li>
+<li>Gavin noted his experience with bioinformatics benchmarks  </li>
+<li>The activity in Materials Science Foundation models was noted  </li>
+<li>DOE and AI Alliance active  </li>
+<li>Improve benchmarks so easier to analyze with complete ontologies and no free text  </li>
+<li>Energy analysis should be part of benchmarks  </li>
+<li>Gregor and WEs noted Mom6 benchmark delayed by HPE but should complete soon</li>
+</ul>
+<h3 id="comments-from-gary-mazzaferro">Comments from Gary Mazzaferro</h3>
+<ul>
+<li>DevOPs DMTF RedFish data center specification  </li>
+<li>CXL Infiniband controller  </li>
+<li><a href="https://en.wikipedia.org/wiki/Comparison_of_open-source_configuration_management_software">https://en.wikipedia.org/wiki/Comparison_of_open-source_configuration_management_software</a>   </li>
+<li><a href="https://en.wikipedia.org/wiki/Redfish_(specification)">https://en.wikipedia.org/wiki/Redfish_(specification)</a>   </li>
+<li><a href="https://redfish.dmtf.org/">https://redfish.dmtf.org/</a>   </li>
+<li><a href="https://computeexpresslink.org/cxl-specification/">https://computeexpresslink.org/cxl-specification/</a>  </li>
+<li>And LangGraph: <a href="https://www.langchain.com/langgraph">https://www.langchain.com/langgraph</a>  </li>
+<li>CXL is supported by RedFish</li>
+</ul>
+<h3 id="comments-from-shirley-moore">Comments from Shirley Moore</h3>
+<ul>
+<li>Here are links to the weather forecasting benchmarks and survey article on GNNs for the heterogeneous catalysis problem that I mentioned during the November 13 meeting.  </li>
+<li>Deep Learning Weather Prediction benchmark: <a href="https://github.com/amazon-science/dlwp-benchmark/?tab=readme-ov-file">https://github.com/amazon-science/dlwp-benchmark/?tab=readme-ov-file</a>   </li>
+<li>NVIDIA Modulus (not a benchmark suite but includes example codes for weather forecasting and other areas such as CFD, healthcare, molecular dynamics, and additive manufacturing ):  </li>
+<li><a href="https://developer.nvidia.com/modulus">https://developer.nvidia.com/modulus</a>   </li>
+<li><a href="https://github.com/nvidia/modulus">https://github.com/nvidia/modulus</a>   </li>
+<li><a href="https://docs.nvidia.com/deeplearning/modulus/modulus-core/api/modulus.models.html#model-zoo">https://docs.nvidia.com/deeplearning/modulus/modulus-core/api/modulus.models.html#model-zoo</a>   </li>
+<li>Review article on GNNs for computational heterogeneous catalysis: <a href="https://pubs.aip.org/aip/jcp/article/161/17/171001/3318459/Application-of-graph-neural-network-in">https://pubs.aip.org/aip/jcp/article/161/17/171001/3318459/Application-of-graph-neural-network-in</a> </li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="mlcommons-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>MLCommons® Science</h4>
+        <p>Advancing the frontier of scientific machine learning through standardized benchmarks and collaborative research.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contributing">Contributor Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mlcommons.org" target="_blank">MLCommons Home</a></li>
+          <li><a href="https://github.com/mlcommons/science" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://github.com/mlcommons-science" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://mlcommons.org/working-groups/research/science/" target="_blank">Official WG Page</a></li>
+        </ul>
+      </div>
+       <div class="footer-column">
+         <h4>Connect</h4>
+         <div class="footer-socials">
+           <a href="https://github.com/mlcommons/science" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+           <a href="https://github.com/mlcommons-science" target="_blank" title="GitHub Organization"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MLCommons®. All rights reserved. <a href="https://mlcommons.org/legal/" target="_blank">Legal</a> | <a href="https://mlcommons.org/privacy/" target="_blank">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

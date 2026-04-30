@@ -1,0 +1,692 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mlcommons-science.github.io/meetings/2024-05-29-meeting/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>May 29, 2024 - MLCommons Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#may-29-2024" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="MLCommons Science" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link ">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link ">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link ">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link ">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link ">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link ">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link ">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link ">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MLCommons Science" class="md-nav__button md-logo" aria-label="MLCommons Science" data-md-component="logo">
+      
+  <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="logo">
+
+    </a>
+    MLCommons Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Others
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#may-29-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        May 29, 2024
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="May 29, 2024">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#special-seminar-wednesday-may-29-1105-pm-eastern" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Special Seminar: Wednesday, May 29, 11.05 pm Eastern
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comments-on-seminar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comments on Seminar
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>May 29, 2024</h1>
+
+<h2 id="may-29-2024">May 29, 2024</h2>
+<h3 id="present">Present</h3>
+<p>Geoffrey Fox, Juri Papay, Gregor von Laszewski, Gregg Barrett,  Christine Kirkpatrick, Wes Brewer, Hector Hernandez Corzo, Sujata Goswami, Armstrong Foundjem,  Piotr Luszczek, Jeyan Thiyagalingam, Yuhan Rao, Victor Lu, Farzana Yasmin Ahmad, M B, A. Hashmi (last two new members but no time for their introduction)</p>
+<h3 id="tentative-agenda">Tentative Agenda</h3>
+<ul>
+<li>Hector Hernandez Corzo Special seminar  </li>
+<li>Any New Members Introduction (no time for other sections than special seminar)  </li>
+<li>Status of Papers  </li>
+<li>Status of Benchmarks  </li>
+<li>Science Foundation Models  </li>
+<li>Any Other Business</li>
+</ul>
+<h3 id="special-seminar-wednesday-may-29-1105-pm-eastern">Special Seminar: Wednesday, May 29, 11.05 pm Eastern</h3>
+<ul>
+<li><strong>Speaker:</strong> Hector Hernandez Corzo, Oak Ridge DOE Laboratory  </li>
+<li><strong>Title:</strong>  Is attention all that we need?  </li>
+<li><strong>Abstract</strong>: In this short presentation, I will start with an overview of the Transformer architecture, highlighting its key features and how it differs from its predecessors, the Recurrent Neural Networks (RNNs). We will explore the practicalities and applications of Transformer models, examining both their advantages and disadvantages. A key part of our discussion will critically assess the validity of the statement that "Attention is all we need." Furthermore, I will introduce an innovative attention-less RNN architecture and share insights from the models I have developed using this attention-less architecture, proposing it as a formidable alternative to Transformers. This session aims to provide a comparative analysis of these architectures, enabling the audience to critically evaluate the role and necessity of attention mechanisms in the evolution of modern AI technologies.  </li>
+<li><strong>Recorded Presentation</strong> (Starts at slide 6) <a href="https://drive.google.com/file/d/1ERg8uJfso77K_fPia2SGjp8WUkYjPLvx/view?usp=drive_link">VisibleScience Working Group (2024-05-29 08_12 GMT-7).mp4</a>   </li>
+<li><strong>Presentation Slides</strong> <a href="https://drive.google.com/file/d/1OhKJj7IFDozhFuZLAA6Bp3aKOIHvgQ_q/view?usp=drive_link">HHC-May29.pdf</a>   </li>
+<li>RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks by Haowen Hou , F. Richard Yu <a href="https://arxiv.org/abs/2401.09093">[2401.09093] RWKV-TS: Beyond Traditional Recurrent Neural Network for Time Series Tasks</a> <a href="https://drive.google.com/file/d/10atjvRzzTMAtiU9BJisAKzAv16aLoWy5/view?usp=drive_link">2401.09093v1.pdf</a>    </li>
+<li>Dialect prejudice predicts AI decisions about people’s character, employability, and criminality, Valentin Hofmann, Pratyusha Ria Kalluri, Dan Jurafsky, Sharese King <a href="https://arxiv.org/abs/2403.00742">[2403.00742] Dialect prejudice predicts AI decisions about people's character, employability, and criminality</a> <a href="https://drive.google.com/file/d/127rMT095rfhQkAyH0fF_C9XhQYqTu47Z/view?usp=drive_link">2403.00742v1.pdf</a>   </li>
+<li>Large language models propagate race-based medicine, Jesutofunmi A. Omiye, Jenna C. Lester, Simon Spichak, Veronica Rotemberg &amp; Roxana Daneshjou <a href="https://www.nature.com/articles/s41746-023-00939-z">Large language models propagate race-based medicine</a> <a href="https://drive.google.com/file/d/1uvqsaMo9Lp27AdNfd0ER4NJ05E8j13pW/view?usp=drive_link">s41746-023-00939-z.pdf</a>    </li>
+<li>Dolma: An Open Corpus of Three Trillion Tokens for Language Model Pretraining Research, Luca Soldaini, Rodney Kinney, Akshita Bhagia, Dustin Schwenk, David Atkinson, Russell Authur, Ben Bogin, Khyathi Chandu, Jennifer Dumas, Yanai Elazar, Valentin Hofmann, Ananya Harsh Jha, Sachin Kumar, Li Lucy, Xinxi Lyu, Nathan Lambert, Ian Magnusson, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik, Crystal Nam, Matthew E. Peters, Abhilasha Ravichander, Kyle Richardson, Zejiang Shen, Emma Strubell, Nishant Subramani, Oyvind Tafjord, Pete Walsh, Luke Zettlemoyer, Noah A. Smith, Hannaneh Hajishirzi, Iz Beltagy, Dirk Groeneveld, Jesse Dodge, Kyle Lo, <a href="https://arxiv.org/abs/2402.00159">[2402.00159] Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research</a> <a href="https://drive.google.com/file/d/1PrNoUA4-uswjd4yolwFDMbxh1gMQ4uya/view?usp=drive_link">2402.00159v1.pdf</a>   </li>
+<li>An Attention Free Transformer, Shuangfei Zhai, Walter Talbott, Nitish Srivastava, Chen Huang, Hanlin Goh, Ruixiang Zhang, Josh Susskind, <a href="https://arxiv.org/abs/2105.14103">[2105.14103] An Attention Free Transformer</a>   </li>
+<li>Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model, Alexandra Sasha Luccioni, Sylvain Viguier, Anne-Laure Ligozat <a href="https://www.jmlr.org/papers/v24/23-0069.html">Estimating the Carbon Footprint of BLOOM, a 176B Parameter Language Model</a>   </li>
+<li>Patterns and networks of language control in bilingual language production. Qiming Yuan, Junjie Wu, Man Zhang, Zhaoqi Zhang, Mo Chen, Guosheng Ding, Chunming Lu &amp; Taomei Guo <a href="https://link.springer.com/article/10.1007/s00429-021-02218-7">Patterns and networks of language control in bilingual language production | Brain Structure and Function</a>   </li>
+<li>Bilingualism and domain-general cognitive functions from a neural perspective: A systematic review, Lily Tao, Gongting Wang, Miaomiao Zhu, Qing Cai <a href="https://www.sciencedirect.com/science/article/pii/S014976342100083X">Bilingualism and domain-general cognitive functions from a neural perspective: A systematic review - ScienceDirect</a>   </li>
+<li>Consequences of multilingualism for neural architecture, Sayuri Hayakawa &amp; Viorica Marian <a href="https://link.springer.com/article/10.1186/s12993-019-0157-z">Consequences of multilingualism for neural architecture | Behavioral and Brain Functions | Full Text</a>   </li>
+<li>Abnormal wiring of the connectome in adults with high-functioning autism spectrum disorder, Ulrika Roine, Timo Roine, Juha Salmi, Taina Nieminen-von Wendt, Pekka Tani, Sami Leppämäki, Pertti Rintahaka, Karen Caeyenberghs, Alexander Leemans &amp; Mikko Sams <a href="https://link.springer.com/article/10.1186/s13229-015-0058-4#Sec1">Abnormal wiring of the connectome in adults with high-functioning autism spectrum disorder</a> </li>
+</ul>
+<h3 id="comments-on-seminar">Comments on Seminar</h3>
+<ul>
+<li>Speaker is Hector H. Corzo from the National Center for Computational Sciences at Oak Ridge National Laboratory with an audience of 16.  </li>
+<li>Hector started by describing the historical background of Neural Networks for sequences with the work of M.I. Jordan and J. Elmer. Analogies to the Brain were stressed.  </li>
+<li>Transition to transformers to avoid parallelization and memory issues in recurrent neural networks (RNN) culminating in OpenAI successes with GPT and ChatGPT. Began huge emphasis on LLMs by major players  </li>
+<li>Clear explanation of how NNs weight sequences for time series and languages.  </li>
+<li>Explain how distances between introduced in vector space  </li>
+<li>Describes QKV (Query, Key, value) concept and multiple heads in transformers. Excellent parallelization  </li>
+<li>Slide 23 compares RNN and Transformer weighting and then the structure of Transformer is described.  </li>
+<li>However slide 32 starts a description of the new RWKV Recurrent Neural Network that is parallelizable. This is applied to Language models with Slide 41 comparing computation needed and memory use for Transformers and RWKV.  </li>
+<li>RWKV uses vectors rather than matrices  </li>
+<li>Slide 44 has architecture  </li>
+<li>Slide 42 starts the discussion of RWKV energy needs which are lower than for traditional transformers  </li>
+<li>Slide 45 starts discussion of the natural way RWKV can grow models and its relation to the concept of Neuroplasticity in the Brain  </li>
+<li>Blue Jay (3B) grows to Tlanuwa (7B) to Quetzal (9B)  </li>
+<li>This growth feature makes the model intrinsically scalable (Gregg comment)  </li>
+<li>The importance of cleaning data is emphasized. Slide 48 and Dolma  </li>
+<li>The support of multiple languages and the relation to Piaget’s analysis of how Children lawn is discussed in slides 49-53  </li>
+<li>Slides 54-55 benchmark energy use and linguistic performance for Tlanuwa compared to other models like INCITE and Llama  </li>
+<li>The 9B model took 2000 node hours on Frontier  </li>
+<li>Currently just an initial model without fine-tuning  </li>
+<li>Slide 56 returns to the RNN Trabsformer comparison  </li>
+<li>In discussion noted that some tasks favor rmkv and some transformers  </li>
+<li>There was a lengthy discussion recorded on the video above  </li>
+<li>There is a paper cited above looking at RMKV for time series  </li>
+<li>Hector recommended starting on broad capabilities and then narrow down rather than other way round  </li>
+<li>Hector Juri and Jeyan will look at code which is open and include in their benchmarking studies  </li>
+<li>It is trained on Frontier (AMD) but runs faster on NVIDIA systems  </li>
+<li>Questions were asked on comparison with ORNL Forge project  </li>
+<li>Hector is working with MLENERGY group at Michigan <a href="https://ml.energy/">ml.energy</a>   </li>
+<li>Hector is working with Linux Foundation on data cleaning; the recording has his discussion with Christine on this</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="mlcommons-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>MLCommons® Science</h4>
+        <p>Advancing the frontier of scientific machine learning through standardized benchmarks and collaborative research.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contributing">Contributor Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mlcommons.org" target="_blank">MLCommons Home</a></li>
+          <li><a href="https://github.com/mlcommons/science" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://github.com/mlcommons-science" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://mlcommons.org/working-groups/research/science/" target="_blank">Official WG Page</a></li>
+        </ul>
+      </div>
+       <div class="footer-column">
+         <h4>Connect</h4>
+         <div class="footer-socials">
+           <a href="https://github.com/mlcommons/science" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+           <a href="https://github.com/mlcommons-science" target="_blank" title="GitHub Organization"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MLCommons®. All rights reserved. <a href="https://mlcommons.org/legal/" target="_blank">Legal</a> | <a href="https://mlcommons.org/privacy/" target="_blank">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

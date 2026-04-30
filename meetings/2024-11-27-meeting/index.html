@@ -1,0 +1,805 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mlcommons-science.github.io/meetings/2024-11-27-meeting/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>November 27, 2024 - MLCommons Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#november-27-2024" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="MLCommons Science" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link ">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link ">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link ">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link ">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link ">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link ">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link ">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link ">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MLCommons Science" class="md-nav__button md-logo" aria-label="MLCommons Science" data-md-component="logo">
+      
+  <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="logo">
+
+    </a>
+    MLCommons Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Others
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#november-27-2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        November 27, 2024
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="November 27, 2024">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-members" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mlcommons-science-fair-concept-paper-ai-readiness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MLCommons Science FAIR Concept Paper (AI Readiness)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ai-readiness-paper-new-outline-from-christine-kirkpatrick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AI Readiness Paper: New Outline from Christine Kirkpatrick
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-carpentry-paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmark Carpentry Paper
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#victor-lus-reproducibility-comments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Victor Lu’s Reproducibility Comments
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>November 27, 2024</h1>
+
+<h2 id="november-27-2024">November 27, 2024</h2>
+<h3 id="present">Present</h3>
+<p>Geoffrey Fox, Gregor von Laszewski, Juri Papay, Gary Mazzaferro, Wes Brewer, Armstrong Foundjem, Piotr Luszczek, Victor Lu,  Shirley Moore, Claus Weiland, Azza Ahmad, Murali Emani, Christine Kirkpatrick, Gavin Mitchell Farrell, Howard Pritchard, Noah Nisbet,  Indra Priyadarsini</p>
+<h3 id="tentative-agenda">Tentative Agenda</h3>
+<ul>
+<li>Any New Members Introduction  </li>
+<li>Lessons from SC24 Meeting (not discussed directly)  </li>
+<li>White Papers  </li>
+<li>Benchmark Carpentry <a href="https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5">https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5</a> <a href="https://www.overleaf.com/project/67585323797c7e764c254a84">https://www.overleaf.com/project/67585323797c7e764c254a84</a>   </li>
+<li>MLCommons Science FAIR Concept Paper (AI Readiness) <a href="https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing">https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing</a>   </li>
+<li>Choosing Up-to-date Benchmarks (not discussed directly)  </li>
+<li>Any Other Business</li>
+</ul>
+<h3 id="new-members">New Members</h3>
+<ul>
+<li><strong>Howard Pritchard</strong> <a href="https://www.linkedin.com/in/howard-pritchard-80b7623/">https://www.linkedin.com/in/howard-pritchard-80b7623/</a> started in SGI and Cray and is currently at Los Alamos since 2014.  </li>
+<li><strong>Indra Priyadarsini:</strong> <a href="https://www.linkedin.com/in/indra-ipd/?originalSubdomain=jp">https://www.linkedin.com/in/indra-ipd/?originalSubdomain=jp</a> re-introduced herself as a Research Scientist at IBM Research - Tokyo. Works on AI for material science and is active in the AI Alliance</li>
+</ul>
+<h3 id="any-other-business">Any Other Business</h3>
+<ul>
+<li>Juri and Wes discussed the use of PyTorch on Frontier where the is no standard PyTorch module available.  </li>
+<li>Wes noted the SC24 paper on MCBound used to characterize performance on the Fugaku supercomputer.  </li>
+<li><a href="https://sc24.conference-program.com/presentation/?id=pap563&amp;sess=sess379">https://sc24.conference-program.com/presentation/?id=pap563\&amp;sess=sess379</a>   </li>
+<li><a href="https://www.cs.unibo.it/~babaoglu/papers/pdf/SC24__MCBound_Framework.pdf">https://www.cs.unibo.it/\~babaoglu/papers/pdf/SC24__MCBound_Framework.pdf</a> </li>
+</ul>
+<h3 id="mlcommons-science-fair-concept-paper-ai-readiness">MLCommons Science FAIR Concept Paper (AI Readiness)</h3>
+<ul>
+<li>Christine Kirkpatrick noted her NSF RCN <a href="https://www.farr-rcn.org/">https://www.farr-rcn.org/</a>    </li>
+<li>Christine noted that the original paper had comments from Tom Gibbs  </li>
+<li>There was a discussion of the quality and use of MLPerf HPC and Training benchmarks  </li>
+<li>Christine noted that attendee at SC24MLPerf BOF expressed regrets on the removal of Resnet from MLPerf  </li>
+<li>Resnet is a good benchmark to study as lots of results recorded for it  </li>
+<li>Shirley noted that the results not reproducible and she got results that were a factor of 2 slower than listed values for DeepCam  </li>
+<li>Juri said this was typical and will share his measurements  </li>
+<li>Christine said Juri wanted results to be reproducible at the 10% level  </li>
+<li>Gregor noted his PC was twice as fast as server A100  </li>
+<li>Performance depends on use of Exclusive mode (or not) is not part of the metadata for MLCommons  </li>
+<li>Performance depends on Queuing policy, which changes  </li>
+<li>Staging data costs are uncertain and one needs to set up data properly before running benchmark  </li>
+<li>Gregor noted that UVA charges for storage and the GPUs are typically set up to run well from shared storage  </li>
+<li>Geoffrey/Gregor’s DGX machine at UVA is 4x faster than most at UVA due to custom data set up  </li>
+<li>We discussed the use of ML to improve ML  </li>
+<li>Juri noted that RAL tried to collect log files and use to optimize but this project didn’t complete as one couldn’t get log files  </li>
+<li>Christine noted that there were too many free text fields in MLPerf Logs.  </li>
+<li>Gregor noted Sabath from UTK Piotr <a href="https://sbi-fair.github.io/docs/software/sabath/">https://sbi-fair.github.io/docs/software/sabath/</a> enhanced a little at UVA.  </li>
+<li>Extend MLPerf metadata model as done in Sabath  </li>
+<li>Juri wants to characterize benchmark so one can reason about it  </li>
+<li>Victor brought up the general issue of reproducibility which is discussed later as a separate topic  </li>
+<li>Christine noted AI reproducibility at NeurIPS and AAAI  </li>
+<li>She will reframe paper based on these discussions with her new outline given below</li>
+</ul>
+<h3 id="ai-readiness-paper-new-outline-from-christine-kirkpatrick">AI Readiness Paper: New Outline from Christine Kirkpatrick</h3>
+<ol>
+<li>Introduction  </li>
+<li>Motivation  <ol>
+<li>Reproducibility of benchmark results - benchmarks aren’t capturing the relevant metadata needed   </li>
+<li>The current state of practice is that it is very difficult to reproduce benchmarks and the numbers can’t be trusted.  </li>
+<li>Desire to use ML to improve ML, difficult to operationalize without good data (logs)  </li>
+</ol>
+</li>
+<li>Background  </li>
+<li>MLCommons Science WG &amp; HPC  </li>
+<li>AI reproducibility  <ol>
+<li>what definition we’re working with, goal  </li>
+<li>Current practices/guidance for documenting  </li>
+</ol>
+</li>
+<li>Limitations of benchmarks &amp; related system understanding  </li>
+<li>Missing competencies of today’s computational and data scientists to understand performance impacts of running benchmarks (ex: where /tmp is)  </li>
+<li>No discussion of exclusive mode or other issues that greatly impact performance.  </li>
+<li>Changes that would improve MLCommons benchmark analysis / FAIRifying MLCommons benchmarks  </li>
+<li>In-depth analysis of Deepcam Benchmark  </li>
+<li>Metadata model for benchmark logs (aspirational goal)  </li>
+<li>Future Work   </li>
+<li>Conclusion</li>
+</ol>
+<h3 id="benchmark-carpentry-paper">Benchmark Carpentry Paper</h3>
+<ul>
+<li>Gary noted that Application benchmarks consist of five (5) critical elements:  </li>
+<li>algorithm performance  </li>
+<li>infrastructure performance  </li>
+<li>workflow (training/production)  </li>
+<li>infrastructure configuration  </li>
+<li>data size and composition  </li>
+<li>Gregor noted that we should refer to FAIR material in Carpentry  </li>
+<li>Currently 2 pages   </li>
+<li>Goal is to Democratizing ML through benchmarks  </li>
+<li>Mlperf target is on those who run systems  </li>
+<li>Users arent familiar with benchmarking  </li>
+<li>Geoffrey suggested developing taxonomies of application requirements in various categories such as  </li>
+<li>MNIST “Hello World”  </li>
+<li>LLM  </li>
+<li>Time series  </li>
+<li>Image-based Science applications  </li>
+<li>Graph-based as in molecules and social networks  </li>
+<li>We discussed that Github repositories suffer from incomplete metadata   </li>
+<li>Maybe science applications are more diverse than commercial and so need more benchmarks   </li>
+<li>Christine had a table of benchmarks in original version of papers. She will find  </li>
+<li>Gary M noted that size of datasets can be important due to hardware infrastructure and backend setup  </li>
+<li>e.g. single gpu very different to multiple gpu.</li>
+</ul>
+<h3 id="victor-lus-reproducibility-comments">Victor Lu’s Reproducibility Comments</h3>
+<ul>
+<li>
+<p>My comment about topic that Christine brought up: "What data practices do you wish the ML/HPC/CS world would adopt?"1.) to establish a "data practice," it is essential to capture metadata that describes the AI-driven scientific research process. AIBOM (AI bill of material) is one type of metadata document. I created following document as part of the CISA AIBOM tiger team effort to capture AIBOM properly for research reproducibility. <a href="https://docs.google.com/document/d/1HdS_GxQvPA7y1ilspGmex-HN_cnjriR1nrpr_fnYzXY/edit?tab=t.0">https://docs.google.com/document/d/1HdS_GxQvPA7y1ilspGmex-HN_cnjriR1nrpr_fnYzXY/edit?tab=t.0</a> </p>
+</li>
+<li>
+<p>More: If you look at my document, the main reference website is: <a href="http://www.practicereproducibleresearch.org/">http://www.practicereproducibleresearch.org/</a>    </p>
+</li>
+<li>
+<p>I believe there are some interesting points made by this research website.</p>
+</li>
+<li>
+<p>Goal/scope: Clarify the goals and scope of the MLCommons Science Working Group - why do we work on the AI Readiness white paper and the Benchmark Carpentry white paper. Can we achieve the following goals?  </p>
+</li>
+<li><a href="http://www.practicereproducibleresearch.org/core-chapters/5-lessons.html">http://www.practicereproducibleresearch.org/core-chapters/5-lessons.html</a>   </li>
+<li>Computational reproducibility and transparency, which emphasizes code documentation.  </li>
+<li>Scientific reproducibility and transparency, which emphasizes documentation of scientific decisions and accessibility of data.  </li>
+<li>Computational correctness and evidence, which emphasizes automated testing and validation  </li>
+<li>Statistical reproducibility, which emphasizes transparency of data analysis the logical path to scientific conclusions.  </li>
+<li>Gregor noted that he would add “Numerical reproducability vs computational reproducability” and that sensitivity of AI to precision byte size was important  </li>
+<li>Wes noted an interesting reference on numerical reproducibility: <a href="https://arxiv.org/pdf/2408.05148">https://arxiv.org/pdf/2408.05148</a>   </li>
+<li>Template: While it may fall outside the scope of MLCommons, defining a "Basic Reproducible Workflow Template" could significantly enhance reproducibility and transparency. The current template on the referred website is outdated and needs revision, highlighting the importance of establishing guiding "principles" rather than focusing solely on technical specifics. This approach ensures the template remains relevant despite technological advancements. <a href="http://www.practicereproducibleresearch.org/core-chapters/3-basic.html">http://www.practicereproducibleresearch.org/core-chapters/3-basic.html</a>      </li>
+<li>Next Step: To drive fundamental change in how science is conducted, including benchmarking practices, it is essential to establish the right incentives—both financial and cultural.  <a href="http://www.practicereproducibleresearch.org/core-chapters/6-future.html">http://www.practicereproducibleresearch.org/core-chapters/6-future.html</a>     </li>
+<li>
+<p>"our view is that some of the most compelling opportunities are in how incentives - and the practice of science more generally - can be changed by groups such as funding agencies, journal editors and libraries."</p>
+</li>
+<li>
+<p>Finally, "AI readiness" is a broad term that can vary significantly depending on the context. In industries where profit often takes precedence, its meaning may differ from that within the scientific community, where the focus is more on long-term benefits for humanity. This, in turn, will change the scope of our work in this science group.</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="mlcommons-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>MLCommons® Science</h4>
+        <p>Advancing the frontier of scientific machine learning through standardized benchmarks and collaborative research.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contributing">Contributor Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mlcommons.org" target="_blank">MLCommons Home</a></li>
+          <li><a href="https://github.com/mlcommons/science" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://github.com/mlcommons-science" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://mlcommons.org/working-groups/research/science/" target="_blank">Official WG Page</a></li>
+        </ul>
+      </div>
+       <div class="footer-column">
+         <h4>Connect</h4>
+         <div class="footer-socials">
+           <a href="https://github.com/mlcommons/science" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+           <a href="https://github.com/mlcommons-science" target="_blank" title="GitHub Organization"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MLCommons®. All rights reserved. <a href="https://mlcommons.org/legal/" target="_blank">Legal</a> | <a href="https://mlcommons.org/privacy/" target="_blank">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

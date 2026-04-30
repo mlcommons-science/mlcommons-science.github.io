@@ -1,0 +1,857 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mlcommons-science.github.io/meetings/2022-07-13-meeting/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>July 13, 2022 - MLCommons Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#july-13-2022" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="MLCommons Science" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link ">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link ">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link ">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link ">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link ">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link ">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link ">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link ">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MLCommons Science" class="md-nav__button md-logo" aria-label="MLCommons Science" data-md-component="logo">
+      
+  <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="logo">
+
+    </a>
+    MLCommons Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Others
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#july-13-2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        July 13, 2022
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="July 13, 2022">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apologies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-licences" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmark Licences
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-submissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmark Submissions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Status Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exchange-of-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exchange of Ideas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#july-14-community-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        July 14 Community Meeting
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#june-292022" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        June 29,2022
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="June 29,2022">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regrets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Regrets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#isc-conference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ISC Conference
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preparing-for-mlcommons-release" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preparing for MLCommons Release
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>July 13, 2022</h1>
+
+<h2 id="july-13-2022">July 13, 2022</h2>
+<h3 id="present">Present</h3>
+<p>Jeyan Thiyagalingam, Juri Papay, Piotr Luszczek, Gregor von Laszewski, Murali Emani, Junqi Yin,, Tom Gibbs, Aristeidis Tsaris, Christine Kirkpatrick</p>
+<h3 id="apologies">Apologies</h3>
+<p>Geoffrey Fox, Tony Hey, Gregg Barrett, Mallikarjun Shankar </p>
+<h3 id="tentative-agenda">Tentative Agenda</h3>
+<ul>
+<li>Benchmark Licences  </li>
+<li>Benchmark Submissions  </li>
+<li>Status updates  </li>
+<li>AOB</li>
+</ul>
+<h3 id="benchmark-licences">Benchmark Licences</h3>
+<ul>
+<li>License of the current release complies with the Apache 2.0 requirement.  </li>
+<li>However, if the code is already released somewhere else under different license, it is worth checking. </li>
+</ul>
+<h3 id="benchmark-submissions">Benchmark Submissions</h3>
+<ul>
+<li>Submission date is set to 30th September, 202</li>
+</ul>
+<h3 id="status-updates">Status Updates</h3>
+<ul>
+<li>Policies needs to be updated with benchmark names  </li>
+<li>·References implementations needs to be chosen, where more than one baselines are there.  </li>
+<li>Credits on all benchmarks - whether in the code or separate file. Jeyan prefers on CREDITS file.  </li>
+<li>Cloud Masking throwing some benchmark-specific messages - this has to be standardised across benchmarks  </li>
+<li>Anyone wants modify their benchmark code - please approach Gregor.  </li>
+<li>We will create benchmark vs architecture table  </li>
+<li>We will also create a list of models for each and every benchmark  </li>
+<li>Jeyan insisted on the location of the data (or relevant scripts) - DataGateway in STFC can accommodate this.</li>
+</ul>
+<h3 id="exchange-of-ideas">Exchange of Ideas</h3>
+<p><strong>Jeyan</strong> – briefed us about the meeting with David Kanter. Discussed the matter of licences, MLCommons requires they Apache 2.0 for all benchmarks. The SciML-bench uses MIT. We need to talk to the licencing team at STFC if we can publish CloudMask under Apache 2.0. The suggested submission deadline for Science benchmarks is September 30th. All benchmarks have been uploaded to MLCommons GitHub.</p>
+<p><strong>Gregor</strong> – fixed an error in Earthquake code. We need to update the policy document, put in the config file the contact person, email and unify logging across all benchmarks. Remove the columns from logging messages, this can cause problems with Python dictionary syntax.</p>
+<p><strong>Jeyan</strong> – add credits to benchmarks maybe in the README file, don’t put in the code.</p>
+<p><strong>Jeyan</strong> –the mean weakness of benchmarks is that we don’t evaluate many models, for example for CloudMask we use only a single model. Earthquake uses several models.</p>
+<p><strong>Tom</strong> – works closely with the CANDLE teams, an idea would be to use graph model and compare it with CNN for example.</p>
+<p><strong>Jeyan –</strong> we can use various metrics for benchmarks, for example for denoising it is signal to noise ratio</p>
+<p><strong>Jeyan</strong> – we have experience with using AutoML which finds the best batch-size and other parameters. Under open class we can change anything we want, in the closed case the hyper-parameters are all fixed.</p>
+<p><strong>Gregor</strong> – the open case can be a vector field of hyper-parameters, the algorithm can also change drastically.</p>
+<p><strong>Junqi</strong> – not much update about STEMDL, working with Gregor on unified logging. Defined a metric for evaluating the performance of the model, which takes into account the model architecture.</p>
+<p><strong>Junqi</strong> – ran CloudMask on Summit</p>
+<p><strong>Gregor</strong> – started to put together a directory on how to run benchmarks on different architectures. Suggested to make a template which can be modified according to the target architecture.</p>
+<p><strong>Murali</strong> – asked if he can modify the code. Gregor suggested to change the code in his github.</p>
+<p><strong>Jeyan</strong> – suggested to make a summary table for architectures, benchmarks, models</p>
+<p><strong>Junqi</strong> – the STEMDL application currently supports three architectures</p>
+<p><strong>Murali</strong> – the metric reflects how the model processes training samples, they measure threshold, loss and throughput.</p>
+<p><strong>Task for Juri</strong> – start working on a summary table for all benchmarks.</p>
+<p><strong>Jeyan</strong> – the datasets are all over at various locations, we need to unify them. STFC and SDC agreed to mirror the datasets. There is a separate project at STFC Data Gateway. Had a meeting with the team, there is an agreement that we can host the MLCommons datasets at STFC.</p>
+<p><strong>Gregor</strong> – managed to compress the dataset by a factor of 100, they can store the dataset on github.</p>
+<p><strong>Jeyan</strong> – in some cases we have got scripts which generate the data, these scripts are also considered as data</p>
+<p><strong>Christine</strong> – suggested to make it a simple process with a minimum number of steps</p>
+<p><strong>Juri</strong> – help Gregor with uploading files to object storage</p>
+<p><strong>Tom</strong> – on the website there is no indication that there will be multiple models, the website talks just about a reference implementation</p>
+<h3 id="summary">Summary</h3>
+<ul>
+<li>Licenses are as needed Apache 2.0  </li>
+<li>Submissions for 30th – is underway.  </li>
+<li>We need to make sure we run each benchmark on different platforms  </li>
+<li>We also need to ensure that we can get more than one model for each benchmark – so we can complete the argument.  </li>
+<li>The location of the datasets needs to be cleaned up and should be made clear where they can be obtained.</li>
+</ul>
+<h3 id="july-14-community-meeting">July 14 Community Meeting</h3>
+<p>Geoffrey attended meeting in person and presented <a href="https://docs.google.com/presentation/d/1YQzhu5VAENewdGMF9ZUkkY2fmd4O2GAIa5-MyIEeqpc/edit?usp=sharing">Science WG at MLCommons Community Meeting July 14 2022</a> as part of complete slide deck <a href="https://docs.google.com/presentation/d/1rRj0-U1W4tX2RrWp6iZwP8-qiE2kFHALZToEtbb5gRA/edit?usp=sharing">2022.07.14 MLCommons Community Meeting</a> </p>
+<h2 id="june-292022">June 29,2022</h2>
+<h3 id="present_1">Present</h3>
+<p>Gregor von Laszewski, Juri Papay, Farzana Yasmin Ahmad,   Aristeidis Tsaris,  Piotr Luszczek, Geoffrey Fox, Arjun Shankar, Murali Emani, Jeyan Thiyagalingam, Tom Gibbs</p>
+<h3 id="regrets">Regrets</h3>
+<p>Tony Hey, Gregg Barrett, Christine Kirkpatrick</p>
+<h3 id="tentative-agenda_1">Tentative Agenda</h3>
+<ul>
+<li>H3 presentation at ISC  </li>
+<li>H3 paper <a href="https://drive.google.com/file/d/1xg8pXRjCM9WW4hA3gaAvy8Ntw3CJidNw/view?usp=sharing">H3_paper_1173.pdf</a>   </li>
+<li>ML Perf BoF at ISC  </li>
+<li>MLCommons and Science WG Rules   </li>
+<li>Furthering our benchmarks  and evaluations if time  </li>
+<li>AOB</li>
+</ul>
+<h3 id="isc-conference">ISC Conference</h3>
+<ul>
+<li>Due to travel issues, Piotr gave our presentation <a href="https://docs.google.com/presentation/d/1EQP8FsMJMNA-r7KQC3uHYXDHaFOL414R/edit?usp=sharing&amp;ouid=100475830980223085873&amp;rtpof=true&amp;sd=true">ISC 22 MLPerf BoF.pptx</a> (covering all parts of MLCommons) at ISC BOF June 1,2022. The slides were clear and audience engaged. Discussion was broadly on MLCommons: how will they catchup on new models. Intel asked about running benchmarks on simulators. There were 50-100 attendees.  </li>
+<li>This was followed by Jeyan’s talk <a href="https://drive.google.com/file/d/1qMDNokh_k7DAe5lNgIMxoJ1sTtf5sJ90/view?usp=sharing">H3_Talk_ISC_2022.pdf</a> at <a href="http://www.icl.utk.edu/~luszczek/conf/2022/h3/">H3 workshop</a> June 2, 2022. This was a 40 minutes with lots of questions on metrics, architectures, consideration of benchmark as a competition. 5 speakers with 25-30 people onsite; the final talk was on power use.</li>
+</ul>
+<h3 id="preparing-for-mlcommons-release">Preparing for MLCommons Release</h3>
+<ul>
+<li>All benchmarks have been loaded into MLCommons GitHub <a href="https://github.com/mlcommons/science">https://github.com/mlcommons/science</a> but the description .md files need upgrading for each benchmark  </li>
+<li>We agreed to do this and we need to ask MLCommons to add access to GitHub and staging  web site <a href="https://stagingscience--mlcommons.netlify.app/en/groups/research-science/">https://stagingscience--mlcommons.netlify.app/en/groups/research-science/</a> to a few people.  </li>
+<li>Responsible people Murali UNO; Juri Cloud stemdl; Gregor earthquake  </li>
+<li>Timescale: finish in 2 weeks for next meeting  </li>
+<li>RAL Oak Ridge, Virginia will run all benchmarks  </li>
+<li>Oak Ridge runs UNO    </li>
+<li>RAL mentioned running benchmarks on the Cerebras CX1; it seems very fast  </li>
+<li>NVIDIA (Tom Gibbs) will vet the process  </li>
+<li>2 weeks test ok and mlcommons  </li>
+<li>Need to test that MLCommons test program runs  </li>
+<li>Need to evaluate rules about data management time as in HPC rules for our rules  </li>
+<li>Are acknowledgements correct?  </li>
+<li>Note earthquake and UNO are <strong>not</strong> set up for parallel training; the others are</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="mlcommons-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>MLCommons® Science</h4>
+        <p>Advancing the frontier of scientific machine learning through standardized benchmarks and collaborative research.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contributing">Contributor Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mlcommons.org" target="_blank">MLCommons Home</a></li>
+          <li><a href="https://github.com/mlcommons/science" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://github.com/mlcommons-science" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://mlcommons.org/working-groups/research/science/" target="_blank">Official WG Page</a></li>
+        </ul>
+      </div>
+       <div class="footer-column">
+         <h4>Connect</h4>
+         <div class="footer-socials">
+           <a href="https://github.com/mlcommons/science" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+           <a href="https://github.com/mlcommons-science" target="_blank" title="GitHub Organization"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MLCommons®. All rights reserved. <a href="https://mlcommons.org/legal/" target="_blank">Legal</a> | <a href="https://mlcommons.org/privacy/" target="_blank">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

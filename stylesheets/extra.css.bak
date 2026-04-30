@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --md-primary-fg-color: #003366;
+  --md-primary-color: #003366;
+  --md-accent-fg-color: #a2d149;
+  --md-accent-color: #a2d149;
+}
+
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* --- THE 10% | 80% | 10% LAYOUT --- */
+
+html, :root {
+  --md-content-width: 80vw !important;
+}
+
+/* 1. Main Content: Strictly 80% width, centered with 10% margins */
+/* We target every possible wrapper to ensure the 80vw is maintained */
+.md-main__inner, 
+.md-content, 
+.md-content__inner, 
+.md-grid, 
+.md-grid__inner {
+  width: 80vw !important;
+  max-width: 80vw !important;
+  min-width: 80vw !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  position: relative !important;
+  display: block !important;
+}
+
+/* 2. Force the main wrapper to be full width and completely kill the theme's grid/flex layout */
+.md-main {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  min-width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  overflow-x: hidden !important;
+}
+
+/* Nuclear option: Remove all max-width constraints from any element that might be capping the content */
+.md-main, 
+.md-main__inner, 
+.md-content, 
+.md-content__inner, 
+.md-grid, 
+.md-grid__inner,
+[class*="md-content"],
+[class*="md-main"] {
+  max-width: none !important;
+}
+
+/* 3. Header/Footer: Strictly 100% width */
+.md-header {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #eaeaea !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+}
+
+.md-header__inner {
+  width: 80vw !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  background-color: transparent !important;
+}
+
+/* Header Sections */
+.header-left, .header-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  justify-content: flex-end;
+}
+
+/* Centered Navigation */
+.header-center-nav {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.header-center-nav ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  gap: 2rem !important;
+}
+
+.header-center-nav ul li a {
+  color: #333333 !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  font-family: 'Inter', sans-serif !important;
+  transition: all 0.2s ease !important;
+  font-size: 0.7rem !important;
+  letter-spacing: -0.01em !important;
+}
+
+.header-center-nav ul li a:hover {
+  color: #003366 !important;
+  opacity: 0.8 !important;
+}
+
+.header-center-nav ul li a.md-nav__link--active {
+  color: #003366 !important;
+  font-weight: 700 !important;
+  position: relative !important;
+}
+
+/* Logo and Title Styling */
+.md-header__logo-link {
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+}
+
+.md-header__logo {
+  max-height: 40px !important;
+  width: auto !important;
+}
+
+.mlcommons-site-title {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.2rem !important;
+  color: #003366 !important;
+  margin-left: 0.8rem !important;
+}
+
+/* 4. Sidebars: Positioned within the right 10% margin */
+.md-sidebar {
+  z-index: 100 !important;
+}
+
+/* Move the navigation sidebar to the right 10% zone */
+.md-nav {
+  position: fixed !important;
+  right: 2vw !important;
+  left: auto !important;
+  width: 250px !important;
+  border-left: 1px solid var(--md-colors-primary-color);
+  background-color: var(--md-colors-bg-color) !important;
+  height: 100vh !important;
+  top: 0 !important;
+  padding-top: 60px !important;
+}
+
+/* Position the TOC to the left of the nav, but still within the right 10% zone if possible, 
+   or just stack them. To keep it simple and avoid overlap with content, 
+   we'll place it slightly to the left of the nav. */
+.md-toc {
+  position: fixed !important;
+  right: 280px !important; 
+  top: 100px !important;
+  width: 200px !important;
+  z-index: 99 !important;
+}
+
+/* --- BRANDING & STYLING --- */
+
+/* Hero Section Style (for use in markdown) */
+.hero-section {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 0 0 3rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.hero-section h1 {
+  color: white !important;
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+}
+
+.btn-primary {
+  background-color: #C1E1C1 !important;
+  color: #212529 !important;
+  border-radius: 50px !important;
+  padding: 0.4rem 2rem !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  transition: all 0.3s ease !important;
+  margin: 0.5rem !important;
+}
+
+.btn-primary:hover {
+  background-color: #B2D6B2 !important;
+  transform: translateY(-2px);
+}
+
+/* --- MLCOMMONS CUSTOM FOOTER STYLING --- */
+
+.mlcommons-footer {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  padding: 2rem 0 1rem 0 !important;
+  margin-top: 2rem !important;
+  font-size: 0.7rem !important;
+  width: 100% !important;
+}
+
+.footer-container {
+  width: 80vw !important;
+  max-width: 1800px !important;
+  margin: 0 auto !important;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.footer-column h4 {
+  color: #ffffff !important;
+  font-size: 1.1rem !important;
+  margin-bottom: 1.5rem !important;
+  font-weight: 700 !important;
+  border-bottom: none !important;
+}
+
+.footer-column p {
+  color: rgba(255, 255, 255, 0.7) !important;
+  line-height: 1.6 !important;
+}
+
+.footer-column ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.75rem !important;
+}
+
+.footer-column ul li a {
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease !important;
+}
+
+.footer-column ul li a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+.footer-socials a {
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  transition: color 0.2s ease !important;
+}
+
+.footer-socials a:hover {
+  color: #ffffff !important;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding-top: 1rem !important;
+  text-align: center !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 0.65rem !important;
+}
+
+.footer-bottom a {
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-decoration: none !important;
+  margin: 0 0.5rem !important;
+}
+
+.footer-bottom a:hover {
+  color: #ffffff !important;
+}

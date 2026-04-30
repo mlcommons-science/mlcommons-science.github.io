@@ -1,0 +1,754 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mlcommons-science.github.io/meetings/2023-06-28-meeting/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>June 28, 2023 - MLCommons Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#june-28-2023" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="MLCommons Science" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link ">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link ">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link ">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link ">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link ">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link ">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link ">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link ">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MLCommons Science" class="md-nav__button md-logo" aria-label="MLCommons Science" data-md-component="logo">
+      
+  <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="logo">
+
+    </a>
+    MLCommons Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Others
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#june-28-2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        June 28, 2023
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="June 28, 2023">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apologies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-members" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implications-of-rapid-algorithm-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implications of Rapid Algorithm Change
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#our-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Our Plan
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Financial Services
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>June 28, 2023</h1>
+
+<h2 id="june-28-2023">June 28, 2023</h2>
+<h3 id="present">Present</h3>
+<p>Geoffrey Fox, Gregg Barrett, Juri Papay, Wesley Brewer, Gregor von Laszewski, Piotr Luszczek, Tom Gibbs,  Mallikarjun Shankar, Murali Emani, Jeyan Thiyagalingam, Shantenu Sharma, Sankranti Joshi</p>
+<h3 id="apologies">Apologies</h3>
+<p>Christine Kirkpatrick, </p>
+<h3 id="tentative-agenda">Tentative Agenda</h3>
+<ul>
+<li>Any new members  </li>
+<li>New Benchmarks and Implications of rapid algorithm change (continued from last meeting)   </li>
+<li><strong>Using Benchmarking Data to Inform Decisions Related to Machine Learning Resource Efficiency</strong> (Continued) <a href="https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing">https://docs.google.com/document/d/1gOKA8BnlJnsTAELWFSmL7Fl7kJej_UrNH-FVXbZFxGI/edit?usp=sharing</a>  </li>
+<li><strong>Benchmark Carpentry</strong> <a href="https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5">https://docs.google.com/document/d/15YIlAWOBA2_xjXkTnAZmaw003Jh4eqURVZYQHhdGYdQ/edit#heading=h.fa0u4qc1plw5</a>   </li>
+<li><strong>AI Readiness of MLCommons Science</strong> (Continued) <a href="https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing">https://docs.google.com/document/d/1NbL-VdkrY9jzPxveOys2RCK8TdEJ7O5wgnxjAgzK-rE/edit?usp=sharing</a>  </li>
+<li>AOB</li>
+</ul>
+<h3 id="new-members">New Members</h3>
+<p><strong>Shantenu Sharma</strong> <a href="https://www.shantanusharma.com/">Shantanu Sharma</a> is a  computer scientist and financial services professional by training with Ph.D. from UNC Chapel Hill.<br />
+<strong>Sankranti Joshi:</strong> I am Sunny and I gonna be starting a PhD in Computer Vision focused on Environment/Remote Sensing focussing on Bayesian Meta Learning. I currently work as an AI/ML RDP Engineer at GSK. In the past I have worked in NLP Research, and as an ML engineer with time series models. </p>
+<h3 id="implications-of-rapid-algorithm-change">Implications of Rapid Algorithm Change</h3>
+<ul>
+<li>Note Juri and Jeyan need to be explicitly given permission to enter  </li>
+<li>Juri asked Geoffrey if he wanted to go ahead with benchmarking book  </li>
+<li>See our benchmarks announced  through Christine Kirkpatrick <a href="https://us9.campaign-archive.com/?u=f8dc2fe8d87111ab0e1040731&amp;id=2610d42728">https://us9.campaign-archive.com/?u=f8dc2fe8d87111ab0e1040731\&amp;id=2610d42728</a>   </li>
+<li>We returned to patterns where Wes Brewer noted that in parallel computing the 7 dwarfs are patterns <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-183.pdf">The Landscape of Parallel Computing Research: A View from Berkeley</a>  </li>
+<li>UNet is often a goodchoice (pattern)   </li>
+<li>We discussed the Time Series pattern  </li>
+<li>Wes Brewer noted: This is a good survey paper regarding time-series forecasting: <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsta.2020.0209">Time-series forecasting with deep learning: a survey | Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</a>   </li>
+<li>Shantanu Sharma: <a href="https://arxiv.org/abs/2304.02948">[2304.02948] FengWu: Pushing the Skillful Global Medium-range Weather Forecast beyond 10 Days Lead</a>   </li>
+<li>Shantanu also noted that financial services offer similar challenges.  </li>
+<li>Engineering algorithms is hard even when basic ideas simple  </li>
+<li>Tom Gibbs has a nice NVIDIA talk on weather comparing multiple models and multiple dattasets where spatial resolution and forecast time are key quality measures.  </li>
+<li><a href="https://drive.google.com/file/d/19NIug36j_IHWFVXbe-VW9-YKRvUO-MhP/view?usp=sharing">ANL_E-2_Apr23 (002).pdf</a> is the deck where I pulled Slide 33 to illustrate the pace of algorithmic innovation. I added a comment to the slide to include the latest climate model from China which uses a cross modal transformer.  </li>
+<li><a href="https://drive.google.com/file/d/15hHoCabfEbX5-JnTDCACkr6qUpCLVLFW/view?usp=sharing">FengWu Model from China.pdf</a>  is original paper as well. The conclusion illustrates the power savings for the AI model relative to the conventional approach, where they provide the analysis below  </li>
+<li><em>Inference Cost: We evaluate the inference speed of FengWu on an NVIDIA Tesla-A100 GPU, which indicates that FengWu costs less than 30 seconds to generate all forecasts in the following 10 days with a six-hour interval. With a peak power consumption of 0.4KW for an A100 (Choquette et al., 2021), a 10-day inference by FengWu consumes roughly 12kJ energy, while the consumption of a single member of the IFS model is estimated to be about 26.6MJ 2, approximately 2000 times higher than FengWu.</em>  </li>
+<li>Fusion has similar characteristics  </li>
+<li>Is Mixture of Experts as in GPT4 a Pattern?  </li>
+<li>Tom Gibbs noted that Climate is already a mixture with “modal mixing”  </li>
+<li>Shantanu noted <a href="https://paperswithcode.com/datasets">Machine Learning Datasets | Papers With Code</a> as a possible source of data  </li>
+<li>We noted that SDSC and RAL hosted our data which for students is hard to access and store on limited academic disk systems  </li>
+<li>In discussing how people can respond to our challenge, Arjun thought that the Earthquake example was the least specialized  </li>
+<li>We need to establish events anf payoff from developing new models  </li>
+<li>Onramping overhead is quite high and one needs both AI and Application expertise to contribute to our benchmarks.  </li>
+<li>But students can improve current codes  </li>
+<li>Perhaps have a “Pattern Challenge”   </li>
+<li>Arjun noted <a href="https://github.com/rasbt/deeplearning-models">GitHub - rasbt/deeplearning-models: A collection of various deep learning architectures, models, and tips</a>   </li>
+<li>There seem to several places where we can expand portfolio such as the RAL examples like Hydronet discussed last time</li>
+</ul>
+<h3 id="our-plan">Our Plan</h3>
+<ul>
+<li>Juri had a 1:1 meeting with David Kanter on June 30 and David asked the Working Group to come up with some plan or directions on what the WG intends to do.  See the links below.  </li>
+<li>Can we please address these topics at the next telco.  </li>
+<li><a href="https://docs.google.com/document/d/1joVz0uPeGNu9CqnZo9JmkAw8nGU8wCfhZC6UjOTDxSc/edit?pli=1">MLCommons Working Group (WG) OKRs</a>   </li>
+<li><a href="https://docs.google.com/spreadsheets/d/1VvFx1WcxkrJNbuwbrP3lEmh-Q9LbFjlRo8zpOBsLVxw/edit#gid=0">MLCommons Roadmaps</a>   </li>
+<li>Geoffrey said: I think recent meetings have been devoted to defining future but we are not finished  </li>
+<li>Juri: You are absolutely right,  I did mention to David that on the last 2-3 sessions were tried to define the directions. We just need to fill in some short text in the columns, because we are the only WG which has not provided any work plan yet.</li>
+</ul>
+<h3 id="financial-services">Financial Services</h3>
+<ul>
+<li>Shantanu notes  </li>
+<li>These are the datasets I would suggest which might be relevant for financial services:  </li>
+<li>Wharton's WRDS has a great repository of tick datasets, including the NYSE TAQ.  </li>
+<li>wrds-www.wharton.upenn.edu/pages/about/data-vendors/  </li>
+<li>vimeo.com/whartonwrds  </li>
+<li>Other datasets would include Quandl, Data.gov etc (linked below).  </li>
+<li>Quandl: This website provides a wide variety of financial datasets, including stock prices, interest rates, and economic indicators.<br />
+<a href="https://www.brandsoftheworld.com/logo/quandl">Brands of the World</a>  </li>
+<li>Data.gov: This website is a repository of government data from the United States. It includes a variety of financial datasets, such as data on the stock market, housing prices, and government spending.<br />
+<a href="https://blogs.iadb.org/conocimiento-abierto/en/lessons-learned-first-five-years-data-gov/">Blogs iadb. - Inter-American Development Bank</a>  </li>
+<li>World Bank Open Data: This website provides open data from the World Bank. It includes a variety of financial datasets, such as data on poverty, inequality, and economic growth.<br />
+<a href="https://ceowatermandate.org/resources/world-bank-open-data-2018/">CEO Water Mandate</a>  </li>
+<li>Google Trends: This website allows you to track search trends over time. This can be useful for identifying financial topics that are trending, which could be a good indicator of future market movements.<br />
+<a href="https://www.insightplatforms.com/platforms/google-trends/">Insight Platforms</a>  </li>
+<li>Kaggle: This website is a community for data scientists and machine learning engineers. It hosts a variety of financial datasets, as well as competitions and tutorials on how to use them.<br />
+<a href="https://commons.wikimedia.org/wiki/File:Kaggle_logo.png">Wikimedia Commons</a>  </li>
+<li>These are just a few of the many repositories of financial services datasets available online. When choosing a repository, it is important to consider the specific datasets you are interested in, as well as the quality and reliability of the data.</li>
+</ul>
+<p>Here are some additional repositories that you may find helpful:</p>
+<ul>
+<li>CEIC Data: This website provides a wide variety of economic and financial data from around the world.<br />
+<a href="https://info.ceicdata.com/en-products-global-database-ad">CEIC Data</a>  </li>
+<li>Thomson Reuters Datastream: This website provides a variety of financial data, including stock prices, economic indicators, and news feeds.<br />
+<a href="https://blog.research-plus.library.manchester.ac.uk/tag/thomson-reuters/">Library Research Plus</a>  </li>
+<li>Bloomberg Terminal: This is a powerful financial data terminal that provides access to a wide variety of financial data, including real-time stock prices, news feeds, and research reports.<br />
+<a href="https://guides.library.cmu.edu/c.php?g=215424&amp;p=4902633">LibGuides at Carnegie Mellon University</a>  </li>
+<li>FactSet: This website provides a variety of financial data, including stock prices, economic indicators, and research reports.<br />
+<a href="https://www.factset.com/">www.factset.com</a>  </li>
+<li>Refinitiv Eikon: This website provides a variety of financial data, including stock prices, economic indicators, and news feeds.<br />
+<a href="https://www.refinitiv.com/en/products/eikon-trading-software">Refinitiv</a>  </li>
+<li>There are other groups like the AI4Finance Foundation, however I am not sure about their affiliation, so need more analysis.  </li>
+<li>On model front, Hugging Face has some pertinent models referenced here: <a href="https://huggingface.co/datasets?other=finance&amp;sort=downloads">https://huggingface.co/datasets?other=finance\&amp;sort=downloads</a>  but none seem to be of the scale of BLOOM.  </li>
+<li>It would be great if data cloud providers like Google Cloud, Microsoft Azure, Amazon Web Services could help provide an Anthos-like cross-cloud interface for MLCommons projects, enabling more accessible science in the US.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="mlcommons-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>MLCommons® Science</h4>
+        <p>Advancing the frontier of scientific machine learning through standardized benchmarks and collaborative research.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contributing">Contributor Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mlcommons.org" target="_blank">MLCommons Home</a></li>
+          <li><a href="https://github.com/mlcommons/science" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://github.com/mlcommons-science" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://mlcommons.org/working-groups/research/science/" target="_blank">Official WG Page</a></li>
+        </ul>
+      </div>
+       <div class="footer-column">
+         <h4>Connect</h4>
+         <div class="footer-socials">
+           <a href="https://github.com/mlcommons/science" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+           <a href="https://github.com/mlcommons-science" target="_blank" title="GitHub Organization"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MLCommons®. All rights reserved. <a href="https://mlcommons.org/legal/" target="_blank">Legal</a> | <a href="https://mlcommons.org/privacy/" target="_blank">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

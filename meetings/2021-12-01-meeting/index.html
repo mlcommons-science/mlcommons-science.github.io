@@ -1,0 +1,2655 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mlcommons-science.github.io/meetings/2021-12-01-meeting/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>December 1, 2021 - MLCommons Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#december-1-2021" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="MLCommons Science" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link ">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link ">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link ">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link ">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link ">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link ">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link ">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link ">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MLCommons Science" class="md-nav__button md-logo" aria-label="MLCommons Science" data-md-component="logo">
+      
+  <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="logo">
+
+    </a>
+    MLCommons Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Others
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#december-1-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        December 1, 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="December 1, 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sc21-bof" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SC21 BOF
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WebSite
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mlcommons-requirementsprocesses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MLCommons Requirements/Processes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#laboratory-mlcommons-membership" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Laboratory MLCommons Membership
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paper
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#november-3-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        November 3 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="November 3 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentation-on-hpc-fair-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Presentation on HPC FAIR Project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#last-steps-on-benchmark-release" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Last Steps on Benchmark Release
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sc21-activities-and-priorities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SC21 Activities and Priorities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-20-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        October 20 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="October 20 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates-on-initial-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates on initial benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-release-at-sc21" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmark Release at SC21
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Website update
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#october-6-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        October 6 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="October 6 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates-on-initial-benchmarks_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates on initial benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website-update_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Website update
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#september-22-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        September 22 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="September 22 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-on-benchmark-status" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Update on Benchmark Status
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantification-of-the-submission-process-and-timescale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantification of the submission process and timescale
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Website
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#note-on-possible-llnl-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Note on possible LLNL benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sc21-mlcommons-bof" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SC21 MLCommons BOF
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mlcommons-community-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MLCommons Community Meeting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datasets-and-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Datasets and Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#september-8-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        September 8 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="September 8 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantification-of-the-submission-process-and-timescale-data-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantification of the submission process and timescale: Data storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quantification-of-the-submission-process-and-timescale-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quantification of the submission process and timescale: Benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Website
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#august-25-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AUGUST 25 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AUGUST 25 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentation-from-llnl-lawrence-livermore-laboratory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Presentation from LLNL Lawrence Livermore Laboratory
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates-on-initial-benchmarks_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates on initial benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Website
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#july-28-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JULY 28 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="JULY 28 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates-on-initial-benchmarks_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates on initial benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#submission-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Submission Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#repositories-large-datasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repositories; large datasets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#website_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Website
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#july-14-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JULY 14 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="JULY 14 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates-on-initial-benchmarks-and-labs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates on initial benchmarks and labs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community Meeting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuation-of-website-discussion-from-june-30-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Continuation of Website Discussion from June 30 meeting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metrics-and-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metrics and Benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-items_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#june-30-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JUNE 30 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="JUNE 30 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#science-and-machine-performance-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Science and Machine Performance Benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-items_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#june-16-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JUNE 16 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="JUNE 16 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comments-on-time-scale-for-hpc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comments on Time Scale for HPC
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-discussion-of-submission-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General discussion of submission process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#action-items_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Action Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-19-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MAY 19 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MAY 19 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#all-about-scimlbench-scimlbench_mlcommons_sciencepdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All about SciMLBench SciMLBench_MLCommons_Science.pdf
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overview-of-mlcube-for-science-wg-mlcube_initial_experience_mlcommon_sciencepdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview of MLCube for Science WG MLCube_Initial_Experience_MLCommon_Science.pdf
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-to-nsf-dataset-rfi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Response to NSF Dataset RFI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#may-5-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MAY 5 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MAY 5 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#discussion-community-meeting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Discussion - Community Meeting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#discussion-submission-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Discussion - Submission Issues
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#discussion-fair-data-and-benchmark-software" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Discussion - FAIR data and Benchmark Software
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#april-7-2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        APRIL 7, 2021
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="APRIL 7, 2021">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present_13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#welcome-to-new-members_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Welcome to new members
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#updates_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#any-other-business_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Any Other Business
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>December 1, 2021</h1>
+
+<h2 id="december-1-2021">December 1, 2021</h2>
+<h3 id="present">Present</h3>
+<p>Tony Hey, Geoffrey Fox, Gregor von Laszewski, Bala Desinghu,, Juri Papay, Junqi Yin, Aristeidis Tsaris, Gregg Barrett, Hai Ah Nam, Christine Kirkpatrick, Murali Emani,<br />
+<strong>Apologies:</strong> Mallikarjun Shankar, Jeyan Thiyagalingam</p>
+<h3 id="tentative-agenda">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions (None)  </li>
+<li>Debriefing on SC21 BOF <a href="https://docs.google.com/presentation/d/1zn2EdBpXc6oNnyS-Ljy-BddRs3osjEkUGrFa98hb1pk/edit?usp=sharing">https://docs.google.com/presentation/d/1zn2EdBpXc6oNnyS-Ljy-BddRs3osjEkUGrFa98hb1pk/edit?usp=sharing</a>   </li>
+<li>Making Benchmark release more solid <a href="https://drive.google.com/file/d/1BeefJTj4ZZL4Wa5c3zNz1l5nzQN-ktGR/view?usp=sharing">https://drive.google.com/file/d/1BeefJTj4ZZL4Wa5c3zNz1l5nzQN-ktGR/view?usp=sharing</a>   </li>
+<li>Discussion of our paper <a href="https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing">https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing</a>  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="sc21-bof">SC21 BOF</h3>
+<p>We noted somewhat disappointing attendance but this partly reflected the way the virtual event was organized. Bala couldn’t join BOF and Gregor noted lack of as much advertising as in previous years.</p>
+<h3 id="website">WebSite</h3>
+<p>Aristeidis Tsaris noted<br />
+<a href="https://stagingscience--mlcommons.netlify.app/en/groups/research-science">https://stagingscience--mlcommons.netlify.app/en/groups/research-science</a> /<br />
+this is the link Vs the main site which is: <a href="https://mlcommons.org/en/groups/research-science/">Science Working Group</a> <br />
+Geoffrey asked Peter what to do for small changes but no simple immediate solution was available</p>
+<h3 id="mlcommons-requirementsprocesses">MLCommons Requirements/Processes</h3>
+<p>Gregg summarized discussion as:</p>
+<ul>
+<li>Confirm completion of CLA  </li>
+<li>We have the science target metrics confirmed for each benchmark?  </li>
+<li>We need to confirm the needed logging for each benchmark. We don’t think MLCommons RCP mechanism is needed</li>
+</ul>
+<p>Emani writes:</p>
+<ol>
+<li>Update reference implementations to include mlperf-logging library calls. <a href="https://github.com/mlcommons/logging">https://github.com/mlcommons/logging</a>  </li>
+<li>An example from HPC benchmark suite is at <a href="https://github.com/mlcommons/hpc/blob/main/open_catalyst/ocpmodels/trainers/mlperf_forces_trainer.py">https://github.com/mlcommons/hpc/blob/main/open_catalyst/ocpmodels/trainers/mlperf_forces_trainer.py</a>  </li>
+<li>Having a mlperf logging skeleton in place would be a good first step, we can decide on what metrics to capture in our group meetings.   </li>
+<li>Once the reference implementations of the benchmarks are ready, we need to move them to the official mlcommons github repo. David Kanter or Peter Mattson can help create a branch for us.  </li>
+<li>There are existing scripts for package-checker and compliance checker etc, in the logging repo (<a href="https://github.com/mlcommons/logging">https://github.com/mlcommons/logging</a>). We may need to tweak those in a separate branch for the science benchmarks. We did had a separate branch for the HPC v1.0 benchmarks.  </li>
+<li>Also, getting the CLA form signed by benchmark contributors (owners) initially and later submitters is important. One CLA form is enough per participating organization. You can get more details on this by emailing support@mlcommons.org and copying David Kanter. As far as I am aware of, ANL, ORNL, LBNL have already signed these.</li>
+</ol>
+<p>We agreed to see what we can do in next 2 weeks (i.e. By December 15) and complete by the  New Year</p>
+<h3 id="laboratory-mlcommons-membership">Laboratory MLCommons Membership</h3>
+<p>This is for US and UK laboratories. The fee voting status needs to clarified and Tony later asked David/Peter</p>
+<p>The Association (MLCommons) is organized and shall be operated as a non-stock membership operating not for profit under the General Corporation Law of the State of Delaware.</p>
+<h3 id="paper">Paper</h3>
+<p><a href="https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing">https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing</a>.with comments in November 3 meeting</p>
+<p>Tony suggested submitting to benchcouncil journal. This idea seemed to be received positively</p>
+<h2 id="november-3-2021">November 3 2021</h2>
+<h3 id="present_1">Present</h3>
+<p>Geoffrey Fox, Murali Emani, Juri Papay, Junqi Yin, Aristeidis Tsaris, Gregg Barrett, Hai Ah Nam, Mallikarjun Shankar, Feiyi Wang, Christine Kirkpatrick<br />
+<strong>Apologies:</strong> Tony Hey, Jeyan Thiyagalingam</p>
+<h3 id="tentative-agenda_1">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions (None)  </li>
+<li>Updates on initial benchmarks; status of documentation  </li>
+<li>Discussion of the SC21 submission process and timescale  </li>
+<li>website  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="presentation-on-hpc-fair-project">Presentation on HPC FAIR Project</h3>
+<ul>
+<li>Murali opened the meeting with a presentation on the HPC FAIR project from Stony Brook, Argonne, LLNL, and NCSU. This can be found at <a href="https://drive.google.com/drive/folders/1JvizEVd0WRgNxvCdOmvRYvrXeHgLCX9X">the HPCFAIR</a> directory or at MLCommons <a href="https://drive.google.com/drive/folders/1JvizEVd0WRgNxvCdOmvRYvrXeHgLCX9X">HPCFAIR paper</a> or <a href="https://drive.google.com/drive/folders/1JvizEVd0WRgNxvCdOmvRYvrXeHgLCX9X">HPCFAIR presentation</a>.  It will be presented at the SC21 workshop <a href="https://ornl.github.io/MLHPC/program.html">Machine Learning in HPC Environments - Program</a>   </li>
+<li>Slides 5 and 6 review other approaches  </li>
+<li>Slide 7 states the research challenges  </li>
+<li>Slide 9 gives the system architecture  </li>
+<li>HPC ontology  </li>
+<li>Caching models  </li>
+<li>Workflow synthesizer  </li>
+<li>Metadata Info  </li>
+<li>Front end  </li>
+<li>Back end store  </li>
+<li>Uses json-ld format, MLCube, and Containers used.  </li>
+<li>Slide 12 gives an MNIST example  </li>
+<li>Slide 13  describes available API’s  </li>
+<li>Slide 14 reviews the capabilities of the system  </li>
+<li>The Candle benchmark UNO and workflow used  </li>
+<li></li>
+<li>Juri will evaluate using it at RAL  </li>
+<li>Arjun wondered if the system was restricted to AI applications. Could it be used for simulations?  </li>
+<li>Christine noted the possible relevance of <a href="https://fairdo.org/">FAIR Digital Objects Forum</a> with work on adding metadata without changing dataset files. It will be presented at an RDA FAIURF Birds of a Feather  </li>
+<li>Feiyi asked about the infrastructure assumptions</li>
+</ul>
+<h3 id="last-steps-on-benchmark-release">Last Steps on Benchmark Release</h3>
+<ul>
+<li>Juri noted that the Cloudmask benchmark was complete and he was looking at running Oak Ridge’s STEMDL.  </li>
+<li>Our benchmark approach is that only data and target metrics are "fixed". In MLCommons closed division even hyperparameter optimization is strongly constrained. Last time we suggested both open/closed division for science benchmarks but open division is more important than closed compared to other MLCommons benchmarks.  </li>
+<li>There are MLCommons processes that we do not have time to fully address before SC21. For example, if you want to contribute code, you or your org must sign the CLA. Contact support@mlcommons.org for more information. Wikthin DOE this took up to 2 months to get signature.  </li>
+<li>From <a href="https://mlcommons.org/en/get-involved/">https://mlcommons.org/en/get-involved/</a>  </li>
+<li>We agreed to go ahead with SC21 announcements with appropriate caveats. <strong>Geoffrey will hopefully check with Peter and David</strong></li>
+</ul>
+<h3 id="sc21-activities-and-priorities">SC21 Activities and Priorities</h3>
+<ul>
+<li>Geoffrey will make a presentation at the SC BoF session: Wednesday, 17 November 2021 5:15 pm - 6:45 pm CST <a href="https://sc21.supercomputing.org/presentation/?id=bof118&amp;sess=sess365">https://sc21.supercomputing.org/presentation/?id=bof118\&amp;sess=sess365</a>  </li>
+<li><strong>He will make a draft over the weekend and ask for improvements</strong>  </li>
+<li>Due to SC21, the November 17 working group meeting is canceled</li>
+</ul>
+<h3 id="any-other-business">Any Other Business</h3>
+<ul>
+<li>Geoffrey noted that LLNL was working on 2 more benchmarks. Gregg noted OECD workshop on AI and the productivity of science” AT <a href="https://www.oecd.org/sti/inno/ai-productivity-of-science.htm">https://www.oecd.org/sti/inno/ai-productivity-of-science.htm</a> </li>
+</ul>
+<h2 id="october-20-2021">October 20 2021</h2>
+<h3 id="present_2">Present</h3>
+<p>Geoffrey Fox, Juri Papay, Junqi Yin, Aristeidis Tsaris, Gregg Barrett, Hai Ah Nam, Mallikarjun Shankar, Feiyi Wang, Christine Kirkpatrick<br />
+<strong>Apologies:</strong> Tony Hey, Jeyan Thiyagalingam</p>
+<h3 id="tentative-agenda_2">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions (None)  </li>
+<li>Updates on initial benchmarks; status of documentation  </li>
+<li>Discussion of the SC21 submission process and timescale  </li>
+<li>website  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="updates-on-initial-benchmarks">Updates on initial benchmarks</h3>
+<ul>
+<li>We collected the current descriptions of the 4 benchmarks into a single document <a href="https://docs.google.com/document/d/1Aw3cYBEEf34A7A_UbDAOVVSjF28oM4C4o5RGfGRjDXI/edit?usp=sharing">MLCommonsScienceBenchmarks</a>. This can serve as the basis of a paper to be generated to support the SC21 announcements.   </li>
+<li>The paper starting point is at <a href="https://docs.google.com/document/d/1WwcS0gjVoz5Bf0G05xKIgoh2WEBxmNQM8VmkHNP67ag/edit?usp=sharing">Paper on MLCommonsScienceBenchmarks</a>. Mallikarjun Shankar and Geoffrey Fox will coordinate  </li>
+<li>Christine will look up material</li>
+</ul>
+<h3 id="benchmark-release-at-sc21">Benchmark Release at SC21</h3>
+<ul>
+<li>We suggested changing the term “reference implementation” to example or exemplar.  </li>
+<li>The “examples” should satisfy our submission requirements. These include  </li>
+<li>Open-source Code  </li>
+<li>Algorithm description  </li>
+<li>Scientific objective  </li>
+<li>Optional field for FAIRness  </li>
+<li>They should record hardware used and running logs  </li>
+<li>We need to build on MLCommons policies <a href="https://github.com/mlcommons/policies">mlcommons/policies: General policies for MLPerf™ including submission rules, coding standards, etc.</a> . We need to fork their GitHub and Aris will look into this.  </li>
+<li>Web page should explain everything well  </li>
+<li>Explain difference between Science and HPC working groups  </li>
+<li>We discussed the difference between improving capability in scientific discovery benchmarks which are similar to current MLCommons open division and traditional hardware performance benchmarks which are like the closed division.  </li>
+<li>We agreed to call for both and as an example agreed that running example implementations on a nifty new machine like Cerebras was in scope.  </li>
+<li>Current MLCommons logging checker won’t work in our open division.</li>
+</ul>
+<h3 id="website-update">Website update</h3>
+<ul>
+<li>We agreed that current “staging” website was in good shape and we asked MLCommons to put on production site; Peter Mattson has agreed and this in process</li>
+</ul>
+<h3 id="any-other-business_1">Any Other Business</h3>
+<ul>
+<li>Christine noted that there will be no virtual booth at SC21 for SDSC</li>
+</ul>
+<h2 id="october-6-2021">October 6 2021</h2>
+<h3 id="present_3">Present</h3>
+<p>Geoffrey Fox, Juri Papay, Murali Emani, Tony Hey, Junqi Yin, Aristeidis Tsaris, Gregg Barrett, Gregor von Laszewski Hai Ah Nam, Grigori Fursin, Mallikarjun Shankar, Bala Desinghu, Feiyi Wang, Amit  Ruhela</p>
+<p><strong>Apologies:</strong> Jeyan Thiyagalingam (new baby girl today!)</p>
+<h3 id="tentative-agenda_3">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Updates on initial benchmarks; status of documentation  </li>
+<li>Discussion of the submission process and timescale  </li>
+<li>website  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members">Welcome to new members</h3>
+<p>Hai Ah Nam from NERSC introduced herself. With nuclear physics background, she had experience at several DOE laboratories. Currently, she was helping NERSC add ML to its program. Feiyi Wang reintroduced himself and leads the ORNL activities in our area.</p>
+<h3 id="updates-on-initial-benchmarks_1">Updates on initial benchmarks</h3>
+<ul>
+<li>Juri Papay reviewed his collection of benchmark details using STEMDL as an example. This has two separate tasks - Classification and Reconstruction. One should specify a minimal scientific performance (as seen in a reference implementation)  and describe science accuracy goals. The raw system performance -- a classic MLPerf measurement -- can also be reported.  </li>
+<li>We discussed defining dependencies such as versions of PyTorch or Tensorflow  </li>
+<li>This is linked to the ease of running reference implementations on other machines.  </li>
+<li>We need to get our logging in agreement with MLCommons and put our benchmarks in their GitHub. Murali will help here</li>
+</ul>
+<h3 id="website-update_1">Website update</h3>
+<p>Juri will coordinate with Aris to update our website which is still in the MLCommons staging area.</p>
+<h3 id="any-other-business_2">Any Other Business</h3>
+<ul>
+<li>It was suggested that we investigate/reconcile the different software approaches in SciML-Bench <a href="https://github.com/stfc-sciml/sciml-bench">https://github.com/stfc-sciml/sciml-bench</a> versus MLCommons  </li>
+<li>We should also delineate better the relationship between Science and HPC working groups. Perhaps we could hold a common meeting after SC21 or New Year.  </li>
+<li>Distinguish in SC21 BOF</li>
+</ul>
+<h3 id="action-items">Action Items</h3>
+<ul>
+<li>Murali summarized these as  </li>
+<li>Create a MLCommons github repository to add our benchmark reference implementations. These can be added via submodules feature in Git, though, it may be good to create another branch in the original repository to isolate the MLCommons-specific versions.   </li>
+<li>An example from the HPC group: <a href="https://github.com/mlcommons/hpc/blob/main/open_catalyst/ocpmodels/trainers/mlperf_forces_trainer.py">https://github.com/mlcommons/hpc/</a>  </li>
+<li>Update reference implementations to include mlperf-logging library calls. <a href="https://github.com/mlcommons/logging">mlcommons/logging: MLPerf™ logging library</a>  </li>
+<li>An example from HPC benchmark suite is at <a href="https://github.com/mlcommons/hpc/blob/main/open_catalyst/ocpmodels/trainers/mlperf_forces_trainer.py">https://github.com/mlcommons/hpc/blob/main/open_catalyst/ocpmodels/trainers/mlperf_forces_trainer.py</a>  </li>
+<li>Move the current website with the benchmark suite details to MLCommons domain.  </li>
+<li>A roadmap on the submission and review process with associated timelines.</li>
+</ul>
+<h2 id="september-22-2021">September 22 2021</h2>
+<h3 id="present_4">Present</h3>
+<p>Geoffrey Fox, Jeyan Thiyagalingam, Christine Kirkpatrick, David Kanter, Juri Papay, Murali Emani, Tony Hey, Junqi Yin, Aristeidis Tsaris, Wahid Bhimji, Gregg Barrett, Gregor von Laszewski</p>
+<h3 id="tentative-agenda_4">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Updates on initial benchmarks  </li>
+<li>Quantification of the submission process and timescale  </li>
+<li>website  </li>
+<li>Note on possible LLNL benchmarks  </li>
+<li>SC21 MLCommons BOF  </li>
+<li>September 30 Community meeting <a href="https://docs.google.com/spreadsheets/d/1nZI063pDZupkPznCn-UaoY92C_hJTpxVFlm6VjIdpv8/edit#gid=533252977">https://docs.google.com/spreadsheets/d/1nZI063pDZupkPznCn-UaoY92C_hJTpxVFlm6VjIdpv8/edit#gid=533252977</a>   </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_1">Welcome to new members</h3>
+<p>Wahid Bhimji from NERSC who leads the data analytics group at NERSC (Steve Farrell from MLCommons HPC group is part of this unit)</p>
+<h3 id="update-on-benchmark-status">Update on Benchmark Status</h3>
+<ul>
+<li>Juri Papay has collected nearly all the information around benchmarks. (description, data pointers) but some details are still to be completed. He will share the document with Geoffrey soon after final information is in.  </li>
+<li>David Kanter suggested that Juri Papay join other groups in MLCommons and share common practices.  </li>
+<li>Murali (UNO) and Junqi (STEMDL) have provided most relevant descriptions to Juri and will furnish remaining info soon.   </li>
+<li>CloudMask benchmark has been integrated into the SciML-Bench suite. STEMDL can also be run and will be integrated into the SciML-Bench soon.  </li>
+<li>Aris shared summary <a href="https://tsaris.github.io/Science-Benchmarks-Working-Group/#cloudmask-specific-benchmark-targets">https://tsaris.github.io/Science-Benchmarks-Working-Group/#cloudmask-specific-benchmark-targets</a>   </li>
+<li>Murali asked about acknowledgments and Tony suggested that we check with the labs to see their take.</li>
+</ul>
+<h3 id="quantification-of-the-submission-process-and-timescale">Quantification of the submission process and timescale</h3>
+<ul>
+<li>Geoffrey asked about running our own benchmarks on different machines as this was an early goal without as much progress as hoped.  </li>
+<li>Jeyan and Juri mentioned their plans on running these on RAL systems. Christine mentioned that computer cycles at SDSC are available for these purposes.  </li>
+<li>A common format to report results was discussed, but as of now, there is no such common format.  </li>
+<li>It was also highlighted that there is a need for instructions on running these benchmarks and all benchmark owners are required to provide a clear set of instructions around this.</li>
+</ul>
+<h3 id="website_1">Website</h3>
+<p>We discussed the website including the status of the staging site <a href="https://stagingscience--mlcommons.netlify.app/en/groups/research-science/">https://stagingscience--mlcommons.netlify.app/en/groups/research-science/</a>  with respect to the real site <a href="https://mlcommons.org/en/groups/research-science/">https://mlcommons.org/en/groups/research-science/</a> .   </p>
+<h3 id="note-on-possible-llnl-benchmarks">Note on possible LLNL benchmarks</h3>
+<p>LLNL talked to Geoffrey and will hopefully share additional benchmarks selected from their <a href="https://data-science.llnl.gov/open-data-initiative">Open Data Initiative | Data Science Institute</a> and talk <a href="https://docs.google.com/presentation/d/1Lsy7hk0nLAQEt76oadrA8c8BVdoHqxk0/edit?usp=sharing">Creating Open Data sets and Benchmarks</a>. We discussed choosing benchmarks that illustrated new areas and new methods and having clear science goals.  </p>
+<h3 id="sc21-mlcommons-bof">SC21 MLCommons BOF</h3>
+<ul>
+<li>Most of the MLCommons activities at SC21 will be virtual.  </li>
+<li>Geoffrey asked Murali about the BOF: The current BOF with HPC Benchmarks is scheduled for November 17th (but may happen anytime between 16-18th). A longer session (75 minutes) has been requested. A purely virtual version has been requested.  </li>
+<li>The overall plan of the BOF is to have a set of talks from HPC, Science and Training, with approximately 15 minutes each, and a common discussion at the end.  </li>
+<li>Geoffrey mentioned that it is an opportunity for gathering more members and more benchmarks.  </li>
+<li>David Kanter mentioned that a joint press release on Science and HPC Benchmarks going forward can be made. The credits to SDSC and STFC  ECHO are to be included in the acknowledgment and announcement. WG will work on a draft for this press release. David’s BOF Press Release will have the HPC results as well as our announcement of the availability of our Science benchmarks. We need to prepare material to support this.  </li>
+<li>Official announcements about benchmarks can be made in SC, and we can announce the intentions in the community meeting.  </li>
+<li>Christine has reached out to Geoffrey and Tony for a lightning talk at the SDSC SC21 virtual exhibit.</li>
+</ul>
+<h3 id="mlcommons-community-meeting">MLCommons Community Meeting</h3>
+<ul>
+<li>There is a September 30 Community meeting. This time, there will be a guest speaker from IBM Ruchi Puri on AI for writing code with signups hav<a href="https://docs.google.com/spreadsheets/d/1nZI063pDZupkPznCn-UaoY92C_hJTpxVFlm6VjIdpv8/edit#gid=533252977">e been circulated by email. https://docs.google.com/s52977</a>.   </li>
+<li>However since the last meeting, there are not many changes to the contents of the slides. David Kanter mentioned that similar presentations can be expected and there is nothing wrong in reusing them as this provides an opportunity for additional exposure. WG chairs will have access to the slides  </li>
+<li>Gregg noted MLCommons Discord server <a href="https://discord.gg/Vwx7tSCu">https://discord.gg/Vwx7tSCu</a>   </li>
+<li>The July 15 presentation copied and renamed for September 30 can be found at <a href="https://docs.google.com/presentation/d/1RzMHAifnI4hnJNsZB0ajvR7EL81yoFT7pqTSQ6J_buo/edit?usp=sharing">Science part of MLCommons Community Meeting September 30 2021</a>   </li>
+<li>The updated slides are incorporated into the full community deck <a href="https://docs.google.com/presentation/d/1PrWVcs4KVXe51Y0b5sg3SffiyVuyLF-USrA3RvKz2do/edit#slide=id.gb18cda5a45_0_119">2021.09.30 MLCommons Community Meeting</a> </li>
+</ul>
+<h3 id="datasets-and-storage">Datasets and Storage</h3>
+<ul>
+<li>Jeyan will be sharing a write-up of our plans for datasets with the WG for further comments, and the overall plan can be shared in the community meeting. The write-up will cover the overall mirroring aspects, storage notions, downloading mechanisms, and other relevant details.  </li>
+<li>Christine presented example documentation of how to use a dataset on the OSN.  See page 2 which has command-line instructions.  It's a PDF because we gave it out at our AGU booth.  <a href="https://www.openstoragenetwork.org/wp-content/uploads/2021/05/NCSA_Terra_OSN_flyer.pdf">https://www.openstoragenetwork.org/wp-content/uploads/2021/05/NCSA_Terra_OSN_flyer.pdf</a>  </li>
+<li>The licensing model for the datasets was discussed and David Kanter suggested CC BY (than CC0). This will match other datasets in MLCommons and will simplify a number of things. Christine has also suggested the same CC BY model.</li>
+</ul>
+<h2 id="september-8-2021">September 8 2021</h2>
+<h3 id="present_5">Present</h3>
+<p>Geoffrey Fox, Christine Kirkpatrick, Juri Papay, Aristeidis Tsaris, Gregg Barrett, Gregor von Laszewski, Junqi Yin, Murali Emani, Tony Hey,  Arjun Shankar</p>
+<p><strong>Apologies</strong> Jeyan Thiyagalingam, </p>
+<h3 id="tentative-agenda_5">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Updates on initial benchmarks  </li>
+<li>Quantification of the submission process and timescale  </li>
+<li>MLCommons 2022 Calendar (not discussed)  </li>
+<li>website  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_2">Welcome to new members</h3>
+<p>None</p>
+<h3 id="quantification-of-the-submission-process-and-timescale-data-storage">Quantification of the submission process and timescale: Data storage</h3>
+<ul>
+<li>We agreed that all data should be stored in at least and possibly more locations with well defined access defined by an example; Globus is a possible access method  </li>
+<li>Sites are RAL, SDSC, Oak Ridge  </li>
+<li>RAL benchmarks are available at RAL and SDSC  </li>
+<li>Christine gave an example command line to a bucket on the SDSC OSN pod: aws s3 ls s3://TFusion/ --endpoint-url <a href="https://ncsa.osn.xsede.org/">https://ncsa.osn.xsede.org/</a>    </li>
+<li>Here's an example of a dataset page we could add: <a href="https://www.openstoragenetwork.org/global-scale-remote-sensing/">https://www.openstoragenetwork.org/global-scale-remote-sensing/</a> </li>
+</ul>
+<h3 id="quantification-of-the-submission-process-and-timescale-benchmarks">Quantification of the submission process and timescale: Benchmarks</h3>
+<ul>
+<li>We agreed that benchmarks should have  </li>
+<li>Scientific Objective or measure of success that one is challenged to improve on  </li>
+<li>Datasets and how to get from sites such as RAL, SDSC, Oak Ridge  </li>
+<li>Reference implementation(s)  </li>
+<li>Hardware systems explored so far with performance achieved  </li>
+<li><strong>Action Item:</strong> Complete above for current benchmarks</li>
+</ul>
+<h3 id="website_2">Website</h3>
+<ul>
+<li>We have progress!  </li>
+<li>Aris's draft site: <a href="https://tsaris.github.io/Science-Benchmarks-Working-Group/">https://tsaris.github.io/Science-Benchmarks-Working-Group/</a>  </li>
+<li>Current official site <a href="https://mlcommons.org/en/groups/research-science/">https://mlcommons.org/en/groups/research-science/</a>  </li>
+<li>Staging site to public MLCommons site above  </li>
+<li><a href="https://stagingscience--mlcommons.netlify.app/en/groups/research-science/">https://stagingscience--mlcommons.netlify.app/en/groups/research-science/</a>  </li>
+<li>This is in a Github branch of the mlcommons/website repo here:  </li>
+<li><a href="https://github.com/mlcommons/website/tree/stagingscience/">https://github.com/mlcommons/website/tree/stagingscience/</a>  </li>
+<li><strong>Action Item:</strong> Update discussion on website, of benchmarks as discussed above. Include a summary table</li>
+</ul>
+<h3 id="any-other-business_3">Any Other Business</h3>
+<p>None</p>
+<h2 id="august-25-2021">AUGUST 25 2021</h2>
+<h3 id="present_6">Present</h3>
+<p>Jeyan Thiyagalingam, Geoffrey Fox, Christine Kirkpatrick, Brian Spears (LLNL), Brian Van Essen (LLNL), Juri Papay, Aristeidis Tsaris, Gregg Barrett, Gregor von Laszewski, James Warren, Junqi Yin, Michael Golomon (LLNL), Rushi Anirudh (LLNL), Murali Emani, Bala Designghu,</p>
+<p><strong>Apologies</strong> Tony Hey,  Arjun Shankar</p>
+<h3 id="tentative-agenda_6">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Presentation from Lawrence Livermore National Laboratory by Brian Spears  </li>
+<li>Updates on initial benchmarks  </li>
+<li>Continued discussion of the submission process   </li>
+<li>website  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_3">Welcome to new members</h3>
+<ul>
+<li>Brian Spears, Rishi Anirudh, Michael Golomon, Brian Van Essen</li>
+</ul>
+<h3 id="presentation-from-llnl-lawrence-livermore-laboratory">Presentation from LLNL Lawrence Livermore Laboratory</h3>
+<p>Brian Spears led this with contributions from other LLNL members. The important talk can be found at <a href="https://docs.google.com/presentation/d/1Lsy7hk0nLAQEt76oadrA8c8BVdoHqxk0/edit?usp=sharing">Creating Open Data sets and Benchmarks</a>. It describes the AI for Science activities at LLNL and their open data initiative in collaboration with SDSC. They have 10 existing benchmarks and several others in the pipeline. Discussions highlighted large dataset issue discussed in the previous meeting (July 28). We should bring up with MLCommons - perhaps the research working group.</p>
+<ul>
+<li>Geoffrey noticed the overlaps of SciML and LLNL and stated that contribution from LLNL towards MLCommons will be great.  </li>
+<li>Brian Van Essen raised a point about the expectations around benchmarks and datasets. Geoffrey responded with the science discovery aspects of our benchmark goals  </li>
+<li>Jeyan raised a point about the license model of the benchmarks from Brian (it is MIT/BSD). There is an export release issue - but mostly creative commons or open license used.  </li>
+<li>Brian mentioned that he is keen to jointly  explore distributing large datasets.  </li>
+<li>Jeyan mentioned that there are lots of overlaps between what LLNL and the UK SciML are trying to do, and stated that it will be collaborate.  </li>
+<li>Google Colab benchmark versions were discussed</li>
+</ul>
+<h3 id="updates-on-initial-benchmarks_2">Updates on initial benchmarks</h3>
+<ul>
+<li>University of Virginia: (Geoffrey) Time series/ earthquake: good progress in adding Google TFT temporal fusion transformer  </li>
+<li>STFC: (Jeyan &amp; Juri) datasets and the code is already open  </li>
+<li>ANL:  (Murali) Candle - all in place  </li>
+<li>ORNL: Junqi - No further update in terms of release</li>
+</ul>
+<h3 id="website_3"><strong>Website</strong></h3>
+<ul>
+<li>Aris is continuing to engage with David and Peter on this issue. Geoffrey will try to accelerate progress.</li>
+</ul>
+<h3 id="any-other-business_4">Any Other Business</h3>
+<p>None</p>
+<h2 id="july-28-2021">JULY 28 2021</h2>
+<h3 id="present_7">Present</h3>
+<p>Geoffrey Fox, Jeyan Thiyagalingam, Aristeidis Tsaris, Arjun Shankar, Gregg Barrett, Junqi Yin, Feiyi Wang, Tony Hey, Christine Kirkpatrick</p>
+<p><strong>Apologies</strong> Juri Papay,</p>
+<h3 id="tentative-agenda_7">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Updates on initial benchmarks  </li>
+<li>Continued discussion of the submission process  </li>
+<li>Repositories; large datasets  </li>
+<li>Website  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_4">Welcome to new members</h3>
+<ul>
+<li>No new members</li>
+</ul>
+<h3 id="updates-on-initial-benchmarks_3">Updates on initial benchmarks</h3>
+<ul>
+<li>STFC: JT mentioned that they have refactored Cloud benchmark from the SciML-Bench suite, and now available as a separate repository.  There are questions around licensing and contributing.  </li>
+<li>ORNL: Metrics for benchmarks are being considered and working on those aspects (including inference aspects) and parameter search.These are on the web pages already  </li>
+<li>GF: The time series benchmark will be ready for the release by SC'21.  </li>
+<li>ANL: No one present from ANL.</li>
+</ul>
+<h3 id="submission-process">Submission Process</h3>
+<ul>
+<li>GF insisted that benchmarks addressing science discovery metrics can be considered under an open division.  </li>
+<li>Discussions around announcing the competition in SC'21 (BOF - see below) outlining the science challenges for each benchmark (with time to solution as one metric).  </li>
+<li>Arjun proposed a fact-sheet based competition process (where a fact sheet includes the rules of engagement, metrics, expected outcomes, specimen results, and the scope of the  competition.   </li>
+<li>Arjun will provide a sample fact sheet.  </li>
+<li>The idea is to have target an exercise run by mid October 2021 to prepare for a dry run at the SC21  </li>
+<li>The overall objective is to increase the  algorithmic (model) tweaking for improved science outcomes</li>
+</ul>
+<h3 id="repositories-large-datasets">Repositories; large datasets</h3>
+<ul>
+<li>There was a lot of discussion around distributing large datasets  </li>
+<li>JT, TH along with Christine proposed to adopt the current bucket-based distribution mechanism used by the SciML-Bench.  </li>
+<li>Christine agreed to support / provide any mirroring support towards this.  </li>
+<li>JT write up a short proposal around this to be discussed within the WG and to be presented at the BoF.  </li>
+<li>DOI-based mechanism was proposed by Arjun. In theory, locations can be replicated and changed, but some clarification around this is needed.</li>
+</ul>
+<h3 id="website_4"><strong>Website</strong></h3>
+<ul>
+<li>Aris is continuing to engage with David and Peter on this space and this will be resolved fairly soon.  </li>
+<li>In the interim, we will use the internal page <a href="http://github.io/">github.io</a> designed by Aris.</li>
+</ul>
+<h3 id="any-other-business_5">Any Other Business</h3>
+<ul>
+<li>Arjun mentioned that Murali and Steve are pushing the BOF efforts at SC (where MLCommons Science will be a part of it). Arjun mentioned that they are focusing on the separation between HPC and Science at the BOF, and comments may be needed around it.  </li>
+<li>Christine is trying to put together an experiment (take the system information from GitHub repositories and do feature selection to make data more FAIR). These are mostly at the theoretical level, but will investigate this further. She is looking at several machine learning schema; one that came out of W3C <a href="https://ml-schema.github.io/documentation/ML%20Schema.html">ML Schema Core Specification</a>, Agile Knowledge Engineering and Semantic Web AKSW(<a href="https://aksw.org/Projects/MEX.html">MEX</a>), and data mining <a href="http://www.ontodm.com/doku.php">OntoDM</a> ontology  </li>
+<li>Gregg is engaging with the National Institute of Physics to involve them with the WG.  </li>
+<li>GF spoke to Livermore Labs and they have some data science projects - and they are interested in getting involved.</li>
+</ul>
+<h2 id="july-14-2021">JULY 14 2021</h2>
+<h3 id="present_8">Present</h3>
+<p>Geoffrey Fox, Jeyan Thiyagalingam, Aristeidis Tsaris, Arjun Shankar, Gregg Barrett, Junqi Yin, Feiyi Wang, Tony Hey, Bala Desinghu,</p>
+<p><strong>Apologies</strong> Juri Papay,</p>
+<h3 id="tentative-agenda_8">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Updates on initial benchmarks  </li>
+<li>Firm up Community Presentation Thursday (see above)  </li>
+<li>Continue Web Site and Metrics discussions  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_5">Welcome to new members</h3>
+<ul>
+<li>No new members</li>
+</ul>
+<h3 id="updates-on-initial-benchmarks-and-labs">Updates on initial benchmarks and labs</h3>
+<ul>
+<li><strong>STFC/RAL:</strong> Jeyan provided an update around next release of the SciMLBench suite, new benchmarks, and issues around distributed learning, particularly around Horovod. Junqi offered to help Jeyan. STFC will package the CloudMask code separately.  </li>
+<li><strong>ORNL:</strong> Working with Juri on STEMDL benchmark.  </li>
+<li><strong>ANL:</strong> no updates  </li>
+<li><strong>Indiana:</strong> Geoffrey mentioned that their benchmark is containerized. TEvolOp uses either an LSTM model or a modification of the original Transformer model. He prefers the latest temporal fusion Transformer model from Google. There is a potential for scalability, particularly with transformer models where the memory requirements can be quite demanding. It can meet the deadline of being ready to release at SC21.</li>
+</ul>
+<h3 id="community-meeting">Community Meeting</h3>
+<p><strong>There is an MLCommons Community meeting Thursday,</strong> July 15 -- <strong>please update</strong> the science WG  presentation <a href="https://docs.google.com/presentation/d/1IgRZeY-Re9cXD6LauVHvlzmkYa9HFV3F7V1pOXpA5RA/edit?usp=sharing">https://docs.google.com/presentation/d/1IgRZeY-Re9cXD6LauVHvlzmkYa9HFV3F7V1pOXpA5RA/edit?usp=sharing</a> where I added placeholders for Web Site and Science metrics to our April 22 presentation</p>
+<p>For background note that the full April 22 community meeting presentation is <a href="https://docs.google.com/presentation/d/1w0BfO-S7sEA3kTmxUPaJvpHjHQgP10zf2FcRyR2Vmmc/edit?usp=sharing">2021.04.22 MLCommons Community Meeting</a> and the Science part is <a href="https://docs.google.com/presentation/d/1C7oEyTAvxge7E_p38LsHSBmB4FVSuzOrvertZLTfuvg/edit?usp=sharing">Science part of MLCommons Community Meeting April 22 2021</a></p>
+<ul>
+<li>Geoffrey has agreed to present at the community meeting.  </li>
+<li>STFC has few updates to make, but Jeyan has added some changes,  </li>
+<li>Arjun agreed to update things around STEMDL benchmarks  </li>
+<li>Tony raised an issue about metadata and ontology of the WG. Geoffrey mentioned that the benchmark results need to have ontologies.</li>
+</ul>
+<h3 id="continuation-of-website-discussion-from-june-30-meeting">Continuation of Website Discussion from June 30 meeting</h3>
+<p>Arjun discussed their discussions with David Kanter on how Science WG is different to HPC. David Kanter promised to come back to us about an official website where we can host this. For now, we will use the current <a href="http://github.io/">github.io</a> page. Arjun encouraged all to contribute to this.  Potentially this can also be at the MLCommons Website. Gregg suggested that we keep this at MLCommons. Aris will send an email to David Kanter about this.</p>
+<h3 id="metrics-and-benchmarks">Metrics and Benchmarks</h3>
+<p>This topic is added to tomorrow’s presentation and discussed below</p>
+<h3 id="any-other-business_6">Any Other Business</h3>
+<ul>
+<li>Tony raised an issue about when the benchmarks will be ready for competition.  </li>
+<li>Geoffrey mentioned that we need to draw up a plan to make submissions ready with steps we need to take  </li>
+<li>We can potentially announce the competition at SC'21 and Tony agreed that this is the sensible way forward.  </li>
+<li>Arjun suggested having a BOF at SC'21 for the Science WG to announce the benchmarks.  Geoffrey suggested being in touch with Murali to get this arranged.  Aris will act on this.  </li>
+<li>Arjun stressed that science targets to be defined asap for each benchmark (such as minimum target accuracy, time to solution, etc).  </li>
+<li>Arjun suggested that we bring this up in the next meeting to discuss this more solidly.  </li>
+<li>Arjun: We also need to make sure that there are Github pages to all benchmarks and each group to try each other's benchmarks.  </li>
+<li>Arjun: Re-emphasized the potential significance of TEvolOp being mapped to the transformer model.</li>
+</ul>
+<h3 id="action-items_1">Action Items</h3>
+<ul>
+<li>All: Get updates on the community meeting presentation  </li>
+<li>Geoffrey will update the website <a href="https://tsaris.github.io/Science-Benchmarks-Working-Group/">https://tsaris.github.io/Science-Benchmarks-Working-Group/</a> with Earthquake benchmark  </li>
+<li>Geoffrey: Send info on SC21 BOF  </li>
+<li>Jeyan: Will contact Junqi about Horovod  </li>
+<li>Jeyan: Will set up a separate repo for Cloud with instructions for running.  </li>
+<li>Aris will contact Kanter about the website.</li>
+</ul>
+<h2 id="june-30-2021">JUNE 30 2021</h2>
+<h3 id="present_9">Present</h3>
+<p>Aristeidis Tsaris, Geoffrey Fox, Juri Papay, Gregg Barrett, Murali Emani, Gregor von Laszewski, Arjun Shankar, David Kanter,  Junqi Yin, Amit Ruhela,</p>
+<p><strong>Apologies</strong> Christine Kirkpatrick, Tony Hey,  Jeyan Thiyagalingam,</p>
+<h3 id="tentative-agenda_9">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Updates on initial benchmarks  </li>
+<li>General discussion of  submission process including (NOT directly DISCUSSED)  </li>
+<li>Summary/Scope of every benchmark  </li>
+<li>The main <a href="http://github.io/">github.io</a> page  </li>
+<li>Github link for each and every benchmark  </li>
+<li>A clear description of how to run the benchmark with MLCube  </li>
+<li>A clear description of how to run the benchmark with SciML-Bench  </li>
+<li>We also need to collect all datasets in one place. We can mirror this in UCSD   </li>
+<li>Discussion of metrics specific to science discovery  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_6">Welcome to new members</h3>
+<ul>
+<li>No new members</li>
+</ul>
+<h3 id="updates">Updates</h3>
+<ul>
+<li>Juri Papay presented an update on the RAL work including steps needed for IBM hardware like Summit. <a href="https://drive.google.com/file/d/1SicPW3k7usoG977yGqZbpk9zWCvxm2cd/view?usp=sharing">MLCommons_30_06_2021.pptx</a> with a module whereas containers are used elsewhere  </li>
+<li>Using ThetaGPU at Argonne will be added  </li>
+<li>He noted that Tony Hey had just presented at ISC 2nd International Workshop on Machine Learning Hardware  on RAL benchmarking <a href="https://mlhardware.github.io/2021/tony-hey.pdf">ML Benchmarks for Scientific Applications</a>   </li>
+<li>Gregor von Laszewski (IU) stressed the many different containers needed across different hardware and applications  </li>
+<li>Murali is looking at SciML and has an allocation on ThetaGPU that we can use  </li>
+<li>The IU thesis following discusses data engineering for UNO -- Vibhatha Lakmal Abeykoon, "<a href="http://dsc.soic.indiana.edu/publications/vibhatha_thesis_revised.pdf">TOWARDS DATA ANALYTICS-AWARE HIGH PERFORMANCE DATA ENGINEERING AND BENCHMARKING</a>", Indiana University Ph.D. Thesis Dissertation Defense, June 2, 2021  -- UNO could be a useful “end-to-end” benchmark  </li>
+<li>Oak Ridge (Arjun, Aris) discussed their work on an initial landing page <a href="https://tsaris.github.io/Science-Benchmarks-Working-Group/">https://tsaris.github.io/Science-Benchmarks-Working-Group/</a> which was followed by a lively discussion.  </li>
+<li>We need to add materials on all benchmarks including that on science outcomes  </li>
+<li>We proposed a three-level Hierarchy: Google Drive (internal working documents) -- The new website (for the general user but not stable and official for MLCommona) - MLCommons website  </li>
+<li>What metadata should we record?  </li>
+<li>Please review the diagram below from Oak Ridge</li>
+</ul>
+<p>![][image2]</p>
+<h3 id="science-and-machine-performance-benchmarks">Science and Machine Performance Benchmarks</h3>
+<ul>
+<li>We continued discussion of Science benchmarks stressing a science benchmark (as well as or replacing) a performance benchmark.  </li>
+<li>Compare use in procurement or science discovery  </li>
+<li>David Kanter noted similar points in the medical working group where a given model can perform differently in different population demographics.  </li>
+<li>Our approach with important datasets is synergistic with MLCommons stress on datasets  </li>
+<li>For science metrics such as accuracy, the reference model is a baseline to be beaten.  </li>
+<li>We would allow data augmentation to get better science</li>
+</ul>
+<h3 id="any-other-business_7">Any Other Business</h3>
+<ul>
+<li>MLCommons (HPC working group) is preparing an SC21 Birds of a Feather. Murali and Geoffrey are involved and it should discuss the Science working group  </li>
+<li>We discussed work needed on MLCube and Metadata  </li>
+<li>Geoffrey gave an ISC talk where René Jäkel from Dresden TU described their data-intensive HPC center. Could be a good contact for the HPC group; we could usefully add more from Europe.</li>
+</ul>
+<h3 id="action-items_2">Action Items</h3>
+<ul>
+<li>Geoffrey/Gregg: Arrange for Juri presentation at Best practices WG on Friday, July 2 as Juri cannot present on planned July 9.  </li>
+<li>Check website strategy with Peter and David  </li>
+<li>Gregor communicates MLCommons website issues to David  </li>
+<li>Circulate Science metrics idea to other chairs to get feedback -- perhaps based on ImageNet competitions. Geoffrey brought this up in July 1 benchmark chairs meeting without strong comment.  </li>
+<li>Everybody review web page and diagram</li>
+</ul>
+<h2 id="june-16-2021">JUNE 16 2021</h2>
+<h3 id="present_10">Present</h3>
+<p>Tony Hey, Aristeidis Tsaris, Geoffrey Fox, Jeyan Thiyagalingam, Juri Papay, Christine Kirkpatrick, Gregg Barrett, Arjun Shankar, Feiyi Wang</p>
+<h3 id="tentative-agenda_10">Tentative Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Updates on initial benchmarks  </li>
+<li>Comments on Time Scale for HPC  <a href="https://docs.google.com/presentation/d/1h9lc31fhIN3mM20WNRlo_yxwWFiqn75iUbm1Z33jYTg/edit#slide=id.gdfefe66d88_0_90">https://docs.google.com/presentation/d/1h9lc31fhIN3mM20WNRlo_yxwWFiqn75iUbm1Z33jYTg/edit#slide=id.gdfefe66d88_0_90</a>   </li>
+<li>General discussion of  submission process  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_7">Welcome to new members</h3>
+<ul>
+<li>No new members</li>
+</ul>
+<h3 id="updates_1">Updates</h3>
+<ul>
+<li><strong>STFC Update:</strong> Juri is working Cloud benchmark will be tried on ORNL,  </li>
+<li>Juri presented some sample results on Cloud benchmarking with 2.4TB on PEARL.  </li>
+<li>Juri is experiencing some difficulties around building the containers for Summit.  </li>
+<li>Jeyan is working on SciML framework update. New upcoming features are:  <ul>
+<li>Support for containers,  </li>
+<li>Single configuration file,  </li>
+<li>Inference/training workload,  </li>
+<li>Additional benchmarks and  </li>
+</ul>
+</li>
+<li><strong>ORNL Update</strong>: Aries is trying STEMDL on SciMLBench (Jeyan updated them to wait for the new API)  </li>
+<li><strong>Indiana Update</strong>: Geoffrey Fox is packaging into a container in to a four-node DGX A100 workstation  </li>
+<li><strong>ANL Update:</strong> None</li>
+</ul>
+<h3 id="comments-on-time-scale-for-hpc">Comments on Time Scale for HPC</h3>
+<ul>
+<li>Link is <a href="https://docs.google.com/presentation/d/1h9lc31fhIN3mM20WNRlo_yxwWFiqn75iUbm1Z33jYTg/edit#slide=id.gdfefe66d88_0_90">here</a>   </li>
+<li>Geoffrey Fox covered about the time-scale, and practices from the HPC WG, covering  details before issuing a benchmark  </li>
+<li>Benchmarks need to be frozen for four months before submission.  </li>
+<li>We may not need an advisory board  </li>
+<li>RCPs or Reference Convergence Points (for instance epochs should not change with HW).  </li>
+<li>Tony asked which ones to submit? and associated time-scales,  </li>
+<li>Jeyan asked about RCPs - and Aries mentioned that it is only for HPC. Arjun stressed that our objective is to foster scientific advancements in ML, and as such, the actual evaluation scope is different. The guideline should say that: "given a dataset and a problem the scope or RCP is actually inviting the community to make the scientific results better using whatever the technique possible"  </li>
+<li>Gregg and Geoffrey mentioned that MLCommons's focus is on datasets covering, data engineering, cleaning, pre-processing etc. As such, this is a good avenue for us to explore.  </li>
+<li>Christine raised a view on the validity of comparisons.  </li>
+<li>Potential metric could be around [Accuracy or Domain-Specific Measure] against Time for a given dataset.</li>
+</ul>
+<h3 id="general-discussion-of-submission-process">General discussion of  submission process</h3>
+<ul>
+<li>Jeyan mentioned whether it is essential to bring all code to a common place (GitHub). Arjun suggested they put up a page around github.io and link all codes. ORNL will act on this.  </li>
+<li>Christine brought up a point on the datasets - mainly license. Ideally the relevant datasets can live in the main page.   </li>
+<li>All will contribute towards writing up the scope/rationale around the benchmarking exercise (within next two weeks - i.e. before the end of June 2021).   </li>
+<li>Standard reference in terms of submission process is to be explored.    </li>
+<li>An example GitHub is at <a href="http://github.com/mlcommons/hpc">http://github.com/mlcommons/hpc</a> </li>
+</ul>
+<h3 id="any-other-business_8">Any Other Business</h3>
+<ul>
+<li>Christine  will get back to the WG about potential schemas we can use for our submission.</li>
+</ul>
+<h3 id="action-items_3">Action Items</h3>
+<ul>
+<li>Geoffrey/Gregg: Arrange for Juri presentation at Best practices WG on some Friday at noon  </li>
+<li>ORNL: Create a github.io page for holding the links for the benchmarks of the WG.  </li>
+<li>Benchmark contributors (STFC, ANL, and ORNL): Write the scope/challenge of their benchmarks.  </li>
+<li>Christine: To report back to the WG on the potential schema we can use for the data/metadata.</li>
+</ul>
+<h2 id="may-19-2021"><strong>MAY 19 2021</strong></h2>
+<h3 id="present_11">Present</h3>
+<pre><code>         Tony Hey, Aristeidis Tsaris, Grigori Fursin, Geoffrey Fox, Jeyan Thiyagalingam, Juri Papay, Christine Kirkpatrick, Junqi Yin, Gregg Barrett, Murali Emani, Bala Desinghu, Gregor von Laszewski, Feiyi Wang, Amit Ruhela,
+</code></pre>
+<h3 id="tentative-agenda_11">Tentative Agenda</h3>
+<ul>
+<li>Any new members  </li>
+<li>Updates on initial benchmarks  </li>
+<li>Presentation: "All about SciML Bench" by Jeyan Thiyagalingam <a href="https://drive.google.com/file/d/1oO96Elwwkn9bpxUDwkogtZ19xvZYFcNE/view?usp=sharing">SciMLBench_MLCommons_Science.pdf</a>   </li>
+<li>Presentation: "Overview of MLCube for Science WG" – Juri Papay <a href="https://drive.google.com/file/d/1KMbJ2aVPQrMqP_9fSJWVX-tIzeAtRmfP/view?usp=sharing">MLCube_Initial_Experience_MLCommon_Science.pdf</a>   </li>
+<li>Response to NSF Dataset RFI <a href="https://docs.google.com/document/d/1SkcsfmSslpe-auRhtliFw-d9wbTW03smyzU324SmrsA/edit?usp=sharing">https://docs.google.com/document/d/1SkcsfmSslpe-auRhtliFw-d9wbTW03smyzU324SmrsA/edit?usp=sharing</a> -- Geoffrey Fox, Christine Kirkpatrick  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_8">Welcome to new members</h3>
+<ul>
+<li>No new members</li>
+</ul>
+<h3 id="updates_2">Updates</h3>
+<ul>
+<li>No updates from Jeyan (STFC), Junqi (ORNL), Murali (ANL) or Geoffrey (Indiana)</li>
+</ul>
+<h3 id="all-about-scimlbench-scimlbench_mlcommons_sciencepdf">All about SciMLBench <a href="https://drive.google.com/file/d/1oO96Elwwkn9bpxUDwkogtZ19xvZYFcNE/view?usp=sharing">SciMLBench_MLCommons_Science.pdf</a></h3>
+<ul>
+<li>Jeyan presented SciMLBench and there were a lot of questions around / clarifications.  </li>
+<li>Encouragement for benchmarks from Light Sources (such as Diamond), Astronomy, and Particle Physics  </li>
+<li>Grigori mentioned about the Collective Knowledge from  </li>
+<li>Bala clarified average dataset sizes for Cryo Benchmarks (\~10-20TB)  </li>
+<li>A suggestion was made by Gregg to make tutorials (which can drive adoption)  </li>
+<li>The relation to Collective Knowledge <a href="https://github.com/ctuning/ck">https://github.com/ctuning/ck</a> was discussed  </li>
+<li>Murali suggested having separate containers for each benchmark.</li>
+</ul>
+<h3 id="overview-of-mlcube-for-science-wg-mlcube_initial_experience_mlcommon_sciencepdf">Overview of MLCube for Science WG <a href="https://drive.google.com/file/d/1KMbJ2aVPQrMqP_9fSJWVX-tIzeAtRmfP/view?usp=sharing">MLCube_Initial_Experience_MLCommon_Science.pdf</a></h3>
+<ul>
+<li>Juri presented MLCube  </li>
+<li>Questions - Comparison [better organisation of configurations can be done]  </li>
+<li>Gregor can contribute around MLCube  </li>
+<li>Grigori mentioned that the MLCube is not updated because they are collecting feedback   </li>
+<li>and Juri will provide the comments / suggestions (Geofffrey will send an introduction email to Best Practices WG)</li>
+</ul>
+<h3 id="response-to-nsf-dataset-rfi">Response to NSF Dataset RFI</h3>
+<ul>
+<li>Christine and Geoffrey prepared a response (<a href="https://ggle.io/435R">https://ggle.io/435R</a>)  </li>
+<li>Geoffrey suggested all to take part - and deadline this Friday the 21st May, 2021</li>
+</ul>
+<h3 id="any-other-business_9">Any Other Business</h3>
+<ul>
+<li>Juri got access to Summit now  </li>
+<li>SciML Bench Datasets are now mirrored in OSN  </li>
+<li>Christine Kirkpatrick was instrumental in securing the OSN mirror. She is happy to help this to be mirrored at other locations  </li>
+<li>Murali submitted a request on system use</li>
+</ul>
+<h2 id="may-5-2021">MAY 5 2021</h2>
+<h3 id="present_12">Present</h3>
+<p>Geoffrey Fox, Jeyan Thiyagalingam, Tony Hey, Grigory Fursin, David Kanter (DK), Arjun Shankar, Junqi Yin, Bala Desinghu, Aristeidis Tsaris, Steven Farrel, Murali Emani, Juri Papay, Feiyi Wang, Gregg Barrett, Christine Kirkpatrick,</p>
+<h3 id="tentative-agenda_12">Tentative Agenda</h3>
+<ul>
+<li>Any new member  </li>
+<li>introductions  </li>
+<li>Updates on initial benchmarks  </li>
+<li>Report from Community Meeting  </li>
+<li>Steps for Submitters  </li>
+<li>Status of Initiatives FAIR and Benchmarking Software  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_9">Welcome to new members</h3>
+<ul>
+<li>Grigori Fursin, VP of MLOps at OctoML.ai introduced himself, noting his work on FAIR data.  </li>
+<li>Feiyi Wang reintroduced himself with his Oak Ridge group.</li>
+</ul>
+<h3 id="updates_3">Updates</h3>
+<ul>
+<li>Juri - up to 100 GPUs with larger 2.5 TB dataset (Feiyi asked for resource requirements).  </li>
+<li>Junqi - no further updates  </li>
+<li>Murali submitted a resource allocation for benchmarking on ThetaGPU - will become available.  </li>
+<li>Geoffrey - no further updates  </li>
+<li>Bala.Desinghu presented his potential benchmarking project on CryoEM with a <a href="https://drive.google.com/file/d/1cTzfuxRM5iAJiQUCCDbkrq-JXLWRK_s-/view?usp=sharing">presentation</a>.</li>
+</ul>
+<h3 id="discussion-community-meeting">Discussion - Community Meeting</h3>
+<p>David Kanter provided some updates on community meeting focussing on three things: Datasets, Best Practices and Benchmarks</p>
+<ul>
+<li>Large datasets (FAIR, they are thinking of a new image (non-science), high-res dataset as well as a speech dataset with 86000 hours of labelled data)  </li>
+<li>Best Practices (FAIR  and most importantly reproducibility)  </li>
+<li>Benchmarks (best highlights are power measurements, controls)  </li>
+<li>They are bringing Training reference models into MLCube</li>
+</ul>
+<p>On the science side - is different to other WGs (unique characteristics such as multi-channel datasets). David Kanter is keen to see that the WG is well supported.  And keen to support us on the benchmark submissions. Exploration around hyperparameters areto be expected.</p>
+<p>The full community meeting presentation is <a href="https://docs.google.com/presentation/d/1w0BfO-S7sEA3kTmxUPaJvpHjHQgP10zf2FcRyR2Vmmc/edit?usp=sharing">2021.04.22 MLCommons Community Meeting</a> and the Science part is <a href="https://docs.google.com/presentation/d/1C7oEyTAvxge7E_p38LsHSBmB4FVSuzOrvertZLTfuvg/edit?usp=sharing">Science part of MLCommons Community Meeting April 22 2021</a> </p>
+<h3 id="discussion-submission-issues">Discussion - Submission Issues</h3>
+<ul>
+<li>Stick to the schedule of benchmarks (and complete): Fewer complete methods are preferred over more half-finished methods  </li>
+<li>We should coordinate with HPC working group  </li>
+<li>We should clearly talk about deadlines and freezing benchmarks etc. on a time-scale that might allow us to report some results at SC21. Note that David said that ‘you will NOT be able to keep to your initial schedule – but we can certainly set what we think is a realistic schedule and try!   </li>
+<li>Geoffrey thought his time series benchmark may not make the cut on readiness  </li>
+<li>Peer-review window (submission window is wide enough for all accommodating changes). Usually, 5 weeks is enough.   </li>
+<li>Hear from the training WG about their experience. David gave us introduction to <a href="mailto:bitfort@gmail.com">Victor Bittorf</a> chair of Training WG and MLCube lead.</li>
+</ul>
+<h3 id="discussion-fair-data-and-benchmark-software">Discussion - FAIR data and Benchmark Software</h3>
+<p>How do we position our work on FAIR and best practices.  </p>
+<ul>
+<li>Best practices around training  </li>
+<li>MLCube is recommended for packaging mechanism   </li>
+<li>Related initiatives from Grigori, who volunteered to discuss in later meeting:  </li>
+<li>Workflows Community Summit: <a href="https://workflowsri.org/summits/community/">https://workflowsri.org/summits/community</a>   </li>
+<li>Workflows Community Summit: Bringing the Scientific Workflows Community Together: <a href="https://arxiv.org/abs/2103.09181">https://arxiv.org/abs/2103.09181</a>  </li>
+<li>Collective Knowledge: organizing research projects as a database of reusable components and portable workflows with common APIs: <a href="https://arxiv.org/abs/2011.01149">https://arxiv.org/abs/2011.01149</a>  </li>
+<li>Systems Logs and other outputs provided as part of the benchmark is being looked at by Christine (from FAIR point of view)  </li>
+<li>RDA had a session on ML + FAIR (OpenML) – and there are lessons to be learnt  (University of Illinois, Chicago and Argonne)  </li>
+<li>Best practice around storing datasets (storing them data repositories as opposed to GitHub, which is problematic) – though no MLCommon datasets are stored in GitHub  </li>
+<li>Geoffrey Fox suggested designing a prototype around benchmarks with FAIR principles being respected. With this example, we should take it to rest of MLCommons  </li>
+<li>Jeyan will present at the next meeting  about SciMLBench and MLCube.</li>
+</ul>
+<h3 id="any-other-business_10">Any Other Business</h3>
+<ul>
+<li>Grigori: Shared few links  </li>
+<li>Related workflows community summit (FAIR discussions): <a href="https://workflowsri.org/summits/community">https://workflowsri.org/summits/community</a>  </li>
+<li>Report from this summit: <a href="https://arxiv.org/pdf/2103.09181.pdf">https://arxiv.org/pdf/2103.09181.pdf</a>  </li>
+<li>Tony suggested Bala and STFC to work together in curating a benchmark around CryoEM  </li>
+<li>Christine: Took part in a “Making the Leap to Large” meeting ( where there were some interest on scientific datasets) . She is keen for some content  </li>
+<li><a href="https://eventsvirtually.org/making-the-leap-to-large">https://eventsvirtually.org/making-the-leap-to-large</a>  </li>
+<li>OSN and ECHO  </li>
+<li>Jeyan and Juri to speak to Christine about using OSN for distributing SciML datasets</li>
+</ul>
+<h2 id="april-7-2021">APRIL 7, 2021</h2>
+<h3 id="present_13">Present:</h3>
+<p>Geoffrey Fox, Jeyan Thiyagalingam, Christine Kirkpatrick, Bala Desinghu, Gregg Barrett, Gregor von Laszweski, Junqi Yin , Juri Papay, Murali Emani, Venkat Viswanath, Vibhatha Abeyakoon<br />
+Regrets: Mallikarjun (Arjun) Shankar, </p>
+<h3 id="agenda">Agenda</h3>
+<ul>
+<li>Any new member introductions  </li>
+<li>Benchmark and multi-host execution Updates  </li>
+<li>Discussion of next steps in FAIR.   </li>
+<li>See Christine's <a href="https://drive.google.com/file/d/1VECDSbrh8N6mvn7g4bsBkSGesiOyAtAW/view?usp=sharing%20">talk</a> to Benchmark-Infra WG yesterday  </li>
+<li>Any other business</li>
+</ul>
+<h3 id="welcome-to-new-members_10">Welcome to new members</h3>
+<p>No new members</p>
+<h3 id="updates_4">Updates</h3>
+<ul>
+<li>Juri (RAL): Presented the status of the SciML Benchmarks including the results. His talk is <a href="https://drive.google.com/file/d/1yaWeb8ubnV0uqWuOxta2AAJY7h6-xCoi/view?usp=sharing">uploaded</a>  </li>
+<li>Junqi(ORNL): presented an update on the STEMDL/EDiff  </li>
+<li>Murali(ANL) presented  </li>
+<li>Gregor IU) had no updates but will need some help from SciML accessing RAL computers  </li>
+<li>Bala Desinghu(Rutgers) on cryo-em datasets and a possibility of having a benchmark around them. This seemed promising and Bala will work with RAL on exploring this  </li>
+<li>We need to define scope of work between benchmark itself, documentation, runs on systems, metadata etc.   </li>
+</ul>
+<p><strong>Discussion</strong>               </p>
+<ul>
+<li>Christine discussed next steps on FAIR (as she presented to benchmark infra WG).  </li>
+<li>Discussions around ontology with Schema.org, and notion of metadata  </li>
+<li>MLPerf has interesting logging standards but some fields are not easily machine readable as they contain multiple types of information “joined as English”  </li>
+<li>We should adopt the FAIR principles in the areas of  logging, systems and around datasets.  </li>
+<li>It is unclear how these are captured across different benchmarks in its current form in our working group.  </li>
+<li>Murali noted practice of HPC working group whose benchmarks capture system metadata with mlperf-logging library. Important links are  </li>
+<li>The system meta data in each submission (per application) are available at <a href="https://github.com/mlcommons/hpc_results_v0.7">https://github.com/mlcommons/hpc_results_v0.7</a>  </li>
+<li>For example, the system metadata for Cori (NERSC) is available <a href="https://github.com/mlcommons/hpc_results_v0.7/tree/main/LBNL/systems">https://github.com/mlcommons/hpc_results_v0.7/tree/main/LBNL/systems</a>  </li>
+<li>GF suggested that this FAIR/metadata work is important but should be viewed as distinct from the main benchmarking activity with distinct time scales.</li>
+</ul>
+<h3 id="any-other-business_11">Any Other Business</h3>
+<ul>
+<li>Access to systems: Juri will work with Gregg and others to get the PEARL system used for benchmarking  </li>
+<li>STFC / RAL will also seek some help from Murali and Venkat for access to ANL systems.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="mlcommons-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>MLCommons® Science</h4>
+        <p>Advancing the frontier of scientific machine learning through standardized benchmarks and collaborative research.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contributing">Contributor Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mlcommons.org" target="_blank">MLCommons Home</a></li>
+          <li><a href="https://github.com/mlcommons/science" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://github.com/mlcommons-science" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://mlcommons.org/working-groups/research/science/" target="_blank">Official WG Page</a></li>
+        </ul>
+      </div>
+       <div class="footer-column">
+         <h4>Connect</h4>
+         <div class="footer-socials">
+           <a href="https://github.com/mlcommons/science" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+           <a href="https://github.com/mlcommons-science" target="_blank" title="GitHub Organization"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MLCommons®. All rights reserved. <a href="https://mlcommons.org/legal/" target="_blank">Legal</a> | <a href="https://mlcommons.org/privacy/" target="_blank">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

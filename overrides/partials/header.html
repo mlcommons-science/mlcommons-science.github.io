@@ -1,0 +1,53 @@
+<header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="{{ config.theme.logo }}" alt="{{ config.site_name }}" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link {% if page.url == '/' %}md-nav__link--active{% endif %}">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link {% if page.url == 'about/' %}md-nav__link--active{% endif %}">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link {% if page.url == 'blog/' %}md-nav__link--active{% endif %}">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link {% if page.url == 'meetings/' %}md-nav__link--active{% endif %}">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link {% if page.url == 'presentations/' %}md-nav__link--active{% endif %}">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link {% if page.url == 'papers/' %}md-nav__link--active{% endif %}">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link {% if page.url == 'others/' %}md-nav__link--active{% endif %}">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link {% if page.url == 'people/' %}md-nav__link--active{% endif %}">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        {% include "partials/search.html" %}
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>

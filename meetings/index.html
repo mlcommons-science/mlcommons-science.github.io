@@ -1,0 +1,910 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mlcommons-science.github.io/meetings/">
+      
+      
+        <link rel="prev" href="../blog/">
+      
+      
+        <link rel="next" href="../presentations/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>MLCommons Science Group Meeting Notes - MLCommons Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2026" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="MLCommons Science" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link ">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link ">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link ">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link md-nav__link--active">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link ">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link ">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link ">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link ">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MLCommons Science" class="md-nav__button md-logo" aria-label="MLCommons Science" data-md-component="logo">
+      
+  <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="logo">
+
+    </a>
+    MLCommons Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2024
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2023
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2022
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2021
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Others
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2024
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2023" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2023
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2022" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2022
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2021" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2021
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Meetings</h1>
+
+<p>Welcome to the meeting notes repository. Use the navigation menu or the list below to browse through the meeting records.</p>
+<ul>
+<li>
+<p>Science Working Group Minutes <a href="https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1#">Science Minutes</a> 2026 onwards</p>
+</li>
+<li>
+<p>Minutes before 2026 <a href="https://docs.google.com/document/d/1z6i7VYWyLXalA6wK__H28nU9mum6qAc90isTHcr2QFw/edit?usp=sharing">MLCommons Science Minutespre2026</a> – What you see in this list.</p>
+</li>
+</ul>
+<p>The summaries are automatically generated.</p>
+<h3 id="2026">2026</h3>
+<ul>
+<li>not all meetings are include here yet. See the document at <a href="https://docs.google.com/document/d/1z6i7VYWyLXalA6wK__H28nU9mum6qAc90isTHcr2QFw/edit?usp=sharing">MLCommons Science Minutespre2026</a> </li>
+<li><a href="2026-summary/"><strong>2026 Summary</strong></a></li>
+<li><a href="2026-04-07-meeting/">2026-04-07</a></li>
+<li><a href="2026-04-01-meeting/">2026-04-01</a></li>
+<li><a href="2026-03-24-meeting/">2026-03-24</a></li>
+<li><a href="2026-03-18-meeting/">2026-03-18</a></li>
+<li><a href="2026-03-10-meeting/">2026-03-10</a></li>
+<li><a href="2026-03-04-meeting/">2026-03-04</a></li>
+<li><a href="2026-02-24-meeting/">2026-02-24</a></li>
+</ul>
+<h3 id="2025">2025</h3>
+<ul>
+<li><a href="2025-summary/"><strong>2025 Summary</strong></a></li>
+<li><a href="2025-12-16-meeting/">2025-12-16</a></li>
+<li><a href="2025-12-10-meeting/">2025-12-10</a></li>
+<li><a href="2025-12-02-meeting/">2025-12-02</a></li>
+<li><a href="2025-11-26-meeting/">2025-11-26</a></li>
+<li><a href="2025-11-12-meeting/">2025-11-12</a></li>
+<li><a href="2025-11-04-meeting/">2025-11-04</a></li>
+<li><a href="2025-10-29-meeting/">2025-10-29</a></li>
+<li><a href="2025-10-21-meeting/">2025-10-21</a></li>
+<li><a href="2025-10-15-meeting/">2025-10-15</a></li>
+<li><a href="2025-10-07-meeting/">2025-10-07</a></li>
+<li><a href="2025-10-01-meeting/">2025-10-01</a></li>
+<li><a href="2025-09-23-meeting/">2025-09-23</a></li>
+<li><a href="2025-09-17-meeting/">2025-09-17</a></li>
+<li><a href="2025-09-09-meeting/">2025-09-09</a></li>
+<li><a href="2025-09-03-meeting/">2025-09-03</a></li>
+<li><a href="2025-08-26-meeting/">2025-08-26</a></li>
+<li><a href="2025-08-20-meeting/">2025-08-20</a></li>
+<li><a href="2025-08-12-meeting/">2025-08-12</a></li>
+<li><a href="2025-08-06-meeting/">2025-08-06</a></li>
+<li><a href="2025-07-29-meeting/">2025-07-29</a></li>
+<li><a href="2025-07-23-meeting/">2025-07-23</a></li>
+<li><a href="2025-07-15-meeting/">2025-07-15</a></li>
+<li><a href="2025-07-09-meeting/">2025-07-09</a></li>
+<li><a href="2025-07-01-meeting/">2025-07-01</a></li>
+<li><a href="2025-06-25-meeting/">2025-06-25</a></li>
+<li><a href="2025-06-11-meeting/">2025-06-11</a></li>
+<li><a href="2025-06-03-meeting/">2025-06-03</a></li>
+<li><a href="2025-05-28-meeting/">2025-05-28</a></li>
+<li><a href="2025-05-20-meeting/">2025-05-20</a></li>
+<li><a href="2025-05-14-meeting/">2025-05-14</a></li>
+<li><a href="2025-05-06-meeting/">2025-05-06</a></li>
+<li><a href="2025-04-30-meeting/">2025-04-30</a></li>
+<li><a href="2025-04-22-meeting/">2025-04-22</a></li>
+<li><a href="2025-04-16-meeting/">2025-04-16</a></li>
+<li><a href="2025-04-02-meeting/">2025-04-02</a></li>
+<li><a href="2025-03-19-meeting/">2025-03-19</a></li>
+<li><a href="2025-03-05-meeting/">2025-03-05</a></li>
+<li><a href="2025-02-19-meeting/">2025-02-19</a></li>
+<li><a href="2025-02-05-meeting/">2025-02-05</a></li>
+<li><a href="2025-01-22-meeting/">2025-01-22</a></li>
+<li><a href="2025-01-08-meeting/">2025-01-08</a></li>
+</ul>
+<h3 id="2024">2024</h3>
+<ul>
+<li><a href="2024-summary/"><strong>2024 Summary</strong></a></li>
+<li><a href="2024-12-11-meeting/">2024-12-11</a></li>
+<li><a href="2024-11-27-meeting/">2024-11-27</a></li>
+<li><a href="2024-11-13-meeting/">2024-11-13</a></li>
+<li><a href="2024-11-04-meeting/">2024-11-04</a></li>
+<li><a href="2024-10-30-meeting/">2024-10-30</a></li>
+<li><a href="2024-10-21-meeting/">2024-10-21</a></li>
+<li><a href="2024-10-16-meeting/">2024-10-16</a></li>
+<li><a href="2024-09-18-meeting/">2024-09-18</a></li>
+<li><a href="2024-09-04-meeting/">2024-09-04</a></li>
+<li><a href="2024-08-21-meeting/">2024-08-21</a></li>
+<li><a href="2024-08-07-meeting/">2024-08-07</a></li>
+<li><a href="2024-07-24-meeting/">2024-07-24</a></li>
+<li><a href="2024-07-10-meeting/">2024-07-10</a></li>
+<li><a href="2024-06-26-meeting/">2024-06-26</a></li>
+<li><a href="2024-06-12-meeting/">2024-06-12</a></li>
+<li><a href="2024-05-29-meeting/">2024-05-29</a></li>
+<li><a href="2024-05-23-meeting/">2024-05-23</a></li>
+<li><a href="2024-05-15-meeting/">2024-05-15</a></li>
+<li><a href="2024-05-01-meeting/">2024-05-01</a></li>
+<li><a href="2024-04-17-meeting/">2024-04-17</a></li>
+<li><a href="2024-04-03-meeting/">2024-04-03</a></li>
+<li><a href="2024-03-20-meeting/">2024-03-20</a></li>
+<li><a href="2024-03-06-meeting/">2024-03-06</a></li>
+<li><a href="2024-02-21-meeting/">2024-02-21</a></li>
+<li><a href="2024-01-24-meeting/">2024-01-24</a></li>
+<li><a href="2024-01-10-meeting/">2024-01-10</a></li>
+</ul>
+<h3 id="2023">2023</h3>
+<ul>
+<li><a href="2023-summary/"><strong>2023 Summary</strong></a></li>
+<li><a href="2023-12-13-meeting/">2023-12-13</a></li>
+<li><a href="2023-11-29-meeting/">2023-11-29</a></li>
+<li><a href="2023-11-01-meeting/">2023-11-01</a></li>
+<li><a href="2023-10-18-meeting/">2023-10-18</a></li>
+<li><a href="2023-10-04-meeting/">2023-10-04</a></li>
+<li><a href="2023-09-20-meeting/">2023-09-20</a></li>
+<li><a href="2023-09-06-meeting/">2023-09-06</a></li>
+<li><a href="2023-08-23-meeting/">2023-08-23</a></li>
+<li><a href="2023-08-09-meeting/">2023-08-09</a></li>
+<li><a href="2023-07-26-meeting/">2023-07-26</a></li>
+<li><a href="2023-07-12-meeting/">2023-07-12</a></li>
+<li><a href="2023-06-28-meeting/">2023-06-28</a></li>
+<li><a href="2023-06-14-meeting/">2023-06-14</a></li>
+<li><a href="2023-05-31-meeting/">2023-05-31</a></li>
+<li><a href="2023-05-17-meeting/">2023-05-17</a></li>
+<li><a href="2023-05-03-meeting/">2023-05-03</a></li>
+<li><a href="2023-04-05-meeting/">2023-04-05</a></li>
+<li><a href="2023-03-22-meeting/">2023-03-22</a></li>
+<li><a href="2023-03-08-meeting/">2023-03-08</a></li>
+<li><a href="2023-02-22-meeting/">2023-02-22</a></li>
+<li><a href="2023-02-08-meeting/">2023-02-08</a></li>
+<li><a href="2023-01-25-meeting/">2023-01-25</a></li>
+<li><a href="2023-01-11-meeting/">2023-01-11</a></li>
+</ul>
+<h3 id="2022">2022</h3>
+<ul>
+<li><a href="2022-summary/"><strong>2022 Summary</strong></a></li>
+<li><a href="2022-12-28-meeting/">2022-12-28</a></li>
+<li><a href="2022-12-14-meeting/">2022-12-14</a></li>
+<li><a href="2022-11-30-meeting/">2022-11-30</a></li>
+<li><a href="2022-11-16-meeting/">2022-11-16</a></li>
+<li><a href="2022-11-02-meeting/">2022-11-02</a></li>
+<li><a href="2022-10-19-meeting/">2022-10-19</a></li>
+<li><a href="2022-10-05-meeting/">2022-10-05</a></li>
+<li><a href="2022-09-21-meeting/">2022-09-21</a></li>
+<li><a href="2022-08-24-meeting/">2022-08-24</a></li>
+<li><a href="2022-08-10-meeting/">2022-08-10</a></li>
+<li><a href="2022-07-27-meeting/">2022-07-27</a></li>
+<li><a href="2022-07-13-meeting/">2022-07-13</a></li>
+<li><a href="2022-05-18-meeting/">2022-05-18</a></li>
+<li><a href="2022-05-04-meeting/">2022-05-04</a></li>
+<li><a href="2022-04-20-meeting/">2022-04-20</a></li>
+<li><a href="2022-04-06-meeting/">2022-04-06</a></li>
+<li><a href="2022-03-23-meeting/">2022-03-23</a></li>
+<li><a href="2022-03-09-meeting/">2022-03-09</a></li>
+<li><a href="2022-02-23-meeting/">2022-02-23</a></li>
+<li><a href="2022-02-09-meeting/">2022-02-09</a></li>
+<li><a href="2022-01-26-meeting/">2022-01-26</a></li>
+<li><a href="2022-01-12-meeting/">2022-01-12</a></li>
+</ul>
+<h3 id="2021">2021</h3>
+<ul>
+<li><a href="2021-summary/"><strong>2021 Summary</strong></a></li>
+<li><a href="2021-12-15-meeting/">2021-12-15</a></li>
+<li><a href="2021-12-01-meeting/">2021-12-01</a></li>
+<li><a href="2021-03-24-meeting/">2021-03-24</a></li>
+<li><a href="2021-03-10-meeting/">2021-03-10</a></li>
+<li><a href="2021-02-10-meeting/">2021-02-10</a></li>
+<li><a href="2021-01-27-meeting/">2021-01-27</a></li>
+<li><a href="2021-01-13-meeting/">2021-01-13</a></li>
+<li><a href="2021-00-10-meeting/">2021-00-10</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="mlcommons-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>MLCommons® Science</h4>
+        <p>Advancing the frontier of scientific machine learning through standardized benchmarks and collaborative research.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contributing">Contributor Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mlcommons.org" target="_blank">MLCommons Home</a></li>
+          <li><a href="https://github.com/mlcommons/science" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://github.com/mlcommons-science" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://mlcommons.org/working-groups/research/science/" target="_blank">Official WG Page</a></li>
+        </ul>
+      </div>
+       <div class="footer-column">
+         <h4>Connect</h4>
+         <div class="footer-socials">
+           <a href="https://github.com/mlcommons/science" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+           <a href="https://github.com/mlcommons-science" target="_blank" title="GitHub Organization"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MLCommons®. All rights reserved. <a href="https://mlcommons.org/legal/" target="_blank">Legal</a> | <a href="https://mlcommons.org/privacy/" target="_blank">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

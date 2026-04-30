@@ -1,0 +1,952 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mlcommons-science.github.io/meetings/2026-03-04-meeting/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Meeting Notes - March 4, 2026 - MLCommons Science</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#march-4-2026" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <header class="md-header">
+  <div class="md-header__inner">
+    <!-- Left: Logo and Title -->
+    <div class="header-left">
+      <a href="https://mlcommons.org" class="md-header__logo-link">
+        <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="MLCommons Science" class="md-header__logo">
+      </a>
+      <a href="https://mlcommons.org/working-groups/research/science/" class="mlcommons-site-title-link">
+        <span class="mlcommons-site-title">Science</span>
+      </a>
+    </div>
+
+    <!-- Center: Navigation -->
+    <nav class="header-center-nav">
+      <ul class="md-nav__list">
+        <li class="md-nav__item">
+          <a href="/" class="md-nav__link ">Home</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/about" class="md-nav__link ">About</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/blog" class="md-nav__link ">Blog</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/meetings" class="md-nav__link ">Meetings</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/presentations" class="md-nav__link ">Presentations</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/papers" class="md-nav__link ">Papers</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/others" class="md-nav__link ">Other</a>
+        </li>
+        <li class="md-nav__item">
+          <a href="/people" class="md-nav__link ">People</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Right: Search and Menu -->
+    <div class="header-right">
+      <div class="md-header__search">
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      <button class="md-header__menu-toggle">
+        <span class="md-header__menu-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MLCommons Science" class="md-nav__button md-logo" aria-label="MLCommons Science" data-md-component="logo">
+      
+  <img src="https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg" alt="logo">
+
+    </a>
+    MLCommons Science
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meetings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../presentations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Presentations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../others/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Others
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#march-4-2026" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        March 4, 2026
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="March 4, 2026">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#present" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Present
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tentative-agenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tentative Agenda
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-members-introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        New Members Introduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-meet-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Meet Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentation-1-scaling-transformer-training-in-stormer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Presentation 1: Scaling Transformer Training in Stormer:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentation-2-generative-ai-for-protein-engineering-and-design-resource-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Presentation 2: Generative AI for Protein Engineering and Design (Resource Usage)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frontiers-journal-special-edition-proposal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontiers Journal Special Edition Proposal
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Meeting Notes - March 4, 2026</h1>
+
+<h2 id="march-4-2026">March 4, 2026</h2>
+<h3 id="present">Present</h3>
+<ul>
+<li>Amitash Nanda, Anna Su, Armstrong Foundjem,Deepak Tosh, Geoffrey Fox, Gregor von Laszewski, Javier Toledo, Juri Papay, Lisa Yang, Matt Sinclair, Nazmun Nahar Tui, Nobin Sarwar, Piotr Luszczek, Shirley Moore, Stefano Patalano,  Victor Lu</li>
+</ul>
+<h3 id="tentative-agenda">Tentative Agenda</h3>
+<ul>
+<li>
+<p>Any New Members Introduction</p>
+</li>
+<li>
+<p>Presentation by Nazmun Nahar Tui "Stormer Transformer Model" from UTEP. A Ph.D. Student advised by Deepak Tosh and introduced by Shirley Moore</p>
+</li>
+<li>
+<p>Presentation by Anna Su (Yale) and Amitash Nanda (UCSD) on "Biology Benchmarks"</p>
+</li>
+<li>
+<p>Any Other Business</p>
+</li>
+</ul>
+<h3 id="new-members-introduction">New Members Introduction</h3>
+<ul>
+<li>
+<p><strong>Deepak Tosh</strong>, <a href="https://www.linkedin.com/in/deepak-tosh-1033a33/">https://www.linkedin.com/in/deepak-tosh-1033a33/</a> an Associate Professor at the University of Texas El Paso (UTEP), specializes in system cyber security and applying AI to solve cyber security problems in operational technology and critical infrastructure</p>
+</li>
+<li>
+<p>A student, <strong>Nazmun Nahar Tui</strong>, <a href="https://www.linkedin.com/in/nahartui/">https://www.linkedin.com/in/nahartui/</a> will be presenting a topic they are exploring under Deepak Tosh’s supervision</p>
+</li>
+<li>
+<p><strong>Lisa Yang</strong> <a href="https://www.linkedin.com/in/greenboxlabs/">https://www.linkedin.com/in/greenboxlabs/</a> is the Founder &amp; CEO of GREENBOX Labs, building the execution layer for reproducible biology. After a decade scaling compliance-driven hardware–software systems in big tech, I returned to controlled-environment science to solve a core problem: experiments are controlled, but not governed. GREENBOX builds modular, programmable environmental emulators that enforce experimental protocols at runtime and generate cryptographically hashed, execution-verified data.</p>
+</li>
+<li>
+<p>Geoffrey Fox suggested Lisa Yang give a talk.</p>
+</li>
+</ul>
+<h3 id="google-meet-notes">Google Meet Notes</h3>
+<ul>
+<li>
+<p><a href="https://docs.google.com/document/d/1H_2CYXntlNEPLy22hKfjRfAuu7_qZ10T56tRfzwQW-g/edit?usp=sharing">MLC Science WG - 2026/03/04 07:58 PST - Notes by Gemini</a></p>
+</li>
+<li>
+<p><strong>Summary:</strong> Deepak Tosh introduced himself, and the meeting agenda was confirmed by Geoffrey Fox before Nazmun Nahar Tui presented her work on "Scaling transformer training: an empirical study of GPU communication overhead optimization" for the Stormer weather forecasting model, revealing that Stormer training does not scale well as it becomes communication-dominated, with Gradient Accumulation being the most effective optimization technique to address this bottleneck. Amitesh Nanda and Anna Su discussed generative AI for protein engineering and design, detailing the diverse data formats used across the design pipeline and highlighting the challenge of low CPU and GPU utilization caused by the iterative, sequential feedback loop between models, which Matt Sinclair and Juri Papay recognized as a common problem in hybrid science-plus-ML workloads. Lisa Yang also introduced herself as a new member from the biology field, and Gregor von Laszewski proposed a special journal edition on earth science and AI impact and benchmarking. </p>
+</li>
+<li>
+<p><strong>Meeting Agenda and Talk Order:</strong> Geoffrey Fox confirmed the schedule: the UTEP talk first, followed by talks from Yale and San Diego.</p>
+</li>
+</ul>
+<h3 id="presentation-1-scaling-transformer-training-in-stormer">Presentation 1: Scaling Transformer Training in Stormer:</h3>
+<ul>
+<li>
+<p><a href="https://docs.google.com/presentation/d/1JcEDMQfOk5HE0HbLBOZY2HuXb1x0jAeB/edit?usp=sharing&amp;ouid=100475830980223085873&amp;rtpof=true&amp;sd=true">Scaling Stormer Training_ An Empirical Study of GPU Communication Overhead Optimization.pptx</a> </p>
+</li>
+<li>
+<p>Nazmun Nahar Tui, a PhD student at UTEP, presented work on "Scaling transformer training: an empirical study of GPU communication overhead optimization."</p>
+</li>
+<li>
+<p>Matt Sinclair requested the presenter minimize the video panel obstructing the slides.</p>
+</li>
+<li>
+<p><strong>Stormer Model Overview and Features</strong> Stormer is a medium-range weather forecasting model using a vision transformer backbone with weather-specific embedding to capture physical relationships between atmospheric variables (e.g., wind, pressure).</p>
+</li>
+<li>
+<p>It uses a randomized iterative dynamic forecasting method, predicting changes over multiple time intervals (6-hour, 12-hour, 24-hour).</p>
+</li>
+<li>
+<p>It employs multi-step fine-tuning and a special pressure-weighted loss function that prioritizes variables near the surface.</p>
+</li>
+<li>
+<p><strong>Stormer Training Phases and Inference Strategies:</strong> Training is divided into three phases, progressively increasing the number of consecutive predictions (rollout step method) to build stability for long forecasts.</p>
+</li>
+<li>
+<p>Inference uses two strategies:</p>
+</li>
+<li>
+<p><strong>Homogeneous:</strong> Predicting the future using the same time intervals (e.g., four 6-hour steps for a 24-hour prediction).</p>
+</li>
+<li>
+<p><strong>"Best $m$ in $n$":</strong> Trying $n$ interval combinations, picking the $m$ best ones, and averaging the results for the final forecast.</p>
+</li>
+<li>
+<p><strong>Replication vs. Actual Stormer Differences:</strong></p>
+</li>
+<li>
+<p><strong>Image Resolution:</strong> Replication used 240x120; actual Stormer used 128x256.</p>
+</li>
+<li>
+<p><strong>Data Split:</strong> Replication used half the data (2000-2018); actual Stormer used 1979-2018.</p>
+</li>
+<li>
+<p><strong>Patch Size:</strong> Replication used 8; actual Stormer used 2 (larger size was necessary to avoid Out-of-Memory errors).</p>
+</li>
+<li>
+<p><strong>Training GPUs:</strong> Replication used 64 A100 GPUs; actual Stormer used 128 A100 GPUs.</p>
+</li>
+<li>
+<p><strong>Experimental Software:</strong> Setup included PyTorch 2.9.0, CUDA 12.8, nickel 2.27.5, and Distributed Data Parallel (DDP) on the NERSC Perlmutter supercomputer.</p>
+</li>
+<li>
+<p><strong>Stormer Scaling Behavior Analysis</strong></p>
+</li>
+<li>
+<p>The study showed that with one node (four GPUs), training was computationally dominated (nickel all-reduce took 11% of GPU time).</p>
+</li>
+<li>
+<p>As the number of nodes increased, the training shifted to being communication dominated, consuming almost 87% of GPU time at 16 nodes (64 GPUs), indicating poor scaling.</p>
+</li>
+<li>
+<p>The communication dominance was due to increased average CUDA stream synchronization time.</p>
+</li>
+<li>
+<p><strong>Optimization Knobs Explored:</strong></p>
+</li>
+<li>
+<p><strong>Mixed Precision (BF16):</strong> Marginally reduced communication time from 77.8% to 77%.</p>
+</li>
+<li>
+<p><strong>Gradient Bucket Size:</strong> Increasing from 25 MB to 50 MB (and 100 MB) had a slight impact, reducing communication time to around 75.5-75.6%.</p>
+</li>
+<li>
+<p><strong>Gradient Accumulation:</strong> Increasing the factor significantly reduced communication time from 86% (factor of 1) to 28.7% (factor of 16).</p>
+</li>
+<li>
+<p><strong>Conclusion on Knobs:</strong> Gradient accumulation was the most crucial factor in reducing communication overhead.</p>
+</li>
+</ul>
+<p><strong>Discussion on Compute vs. Communication Bottleneck</strong></p>
+<ul>
+<li>
+<p>Matt Sinclair suggested the communication dominance might be due to insufficient compute to hide the communication overhead.</p>
+</li>
+<li>
+<p>Nazmun Nahar Tui's optimized configuration (64 GPUs, 18 hours training) compared to the actual Stormer (128 A100 GPUs, 24 hours) suggested that redundant communication was wasting GPU time.</p>
+</li>
+<li>
+<p>Matt Sinclair offered to follow up offline with Nazmun Nahar Tui, Shirley Moore, and Deepak Tosh on related investigations.</p>
+</li>
+<li>
+<p>Shirley Moore confirmed the study was performing weak scaling (increasing problem size with the number of GPUs).</p>
+</li>
+</ul>
+<p><strong>Accuracy Comparison and Gradient Accumulation Impact</strong></p>
+<ul>
+<li>
+<p>Accuracy was measured using Root Mean Square Error (RMSE) and Anomaly Correlation Comparison (ACC).</p>
+</li>
+<li>
+<p>The accuracy difference between the baseline and actual Stormer was small but was caused by the gradient accumulation factor of 16, which slightly hurt accuracy (consistently observed for the T850 variable in the ACC analysis).</p>
+</li>
+<li>
+<p><strong>Future Work:</strong></p>
+</li>
+<li>
+<p>Formulate a theoretical communication model for large-scale transformers.</p>
+</li>
+<li>
+<p>Develop an estimation method for GPU memory requirements.</p>
+</li>
+<li>
+<p>Conduct the same study using pipeline parallelism.</p>
+</li>
+</ul>
+<p><strong>Questions on Data Parallelism and Energy Consumption</strong></p>
+<ul>
+<li>
+<p>Juri Papay suggested the communication overhead might be due to data parallelism and that model or pipeline parallelism could improve performance, given the model's 350 million parameters and huge communication load.</p>
+</li>
+<li>
+<p>Matt Sinclair and Juri Papay suggested the communication bottleneck leads to significant GPU idle time and potentially high energy consumption.</p>
+</li>
+<li>
+<p>Nazmun Nahar Tui had not yet focused on power consumption but planned to. Matt Sinclair offered to help with measurement scripts.</p>
+</li>
+<li>
+<p>Juri Papay noted that network communication is thousands of times more expensive than floating-point operations.</p>
+</li>
+</ul>
+<p><strong>Discussion on Variable Embedding in Stormer</strong></p>
+<ul>
+<li>
+<p>Victor Lu asked about the memory and communication implications of embedding individual variables.</p>
+</li>
+<li>
+<p>Nazmun Nahar Tui explained that Stormer embeds each atmospheric variable separately to model the physical relationships, unlike typical vision transformers with three color channels.</p>
+</li>
+<li>
+<p>Geoffrey Fox noted that models using direct numerical values generally outperform those using embeddings in time series.</p>
+</li>
+</ul>
+<h3 id="presentation-2-generative-ai-for-protein-engineering-and-design-resource-usage">Presentation 2: Generative AI for Protein Engineering and Design (Resource Usage)</h3>
+<ul>
+<li>
+<p><a href="https://docs.google.com/presentation/d/1GCnf7a5VWJv-uQUaY8okQKbAOQvsJnTz/edit?usp=sharing&amp;ouid=100475830980223085873&amp;rtpof=true&amp;sd=true">MLCommons_Science.pptx</a> </p>
+</li>
+<li>
+<p>Anna Su presented on resource usage constraints in protein design, which involves a sequential feedback loop between a generative AI model (API call) and a property prediction model (GPU-run).</p>
+</li>
+<li>
+<p><strong>Data Formats in Protein Design:</strong></p>
+</li>
+<li>
+<p><strong>Target Definition:</strong> FastA, PDB/MMCIF, CSV, JSON, YAML.</p>
+</li>
+<li>
+<p><strong>Sequence Sourcing and Curation:</strong> FastA, CSV/TSV, UniProt/GenBank flat files.</p>
+</li>
+<li>
+<p><strong>Evolutionary Context:</strong> A3M, Stockholm (STO), CSV.</p>
+</li>
+<li>
+<p><strong>Structure Predictions:</strong> PDB, MMCIF, JSON/YAML, Pickle/NPR.</p>
+</li>
+<li>
+<p><strong>Property Predictions:</strong> JSON/YAML, CSV/TSV, PDB/MMCIF.</p>
+</li>
+<li>
+<p><strong>Design Generation Loop:</strong> FastA, JSON/YAML, PDB/MMCIF.</p>
+</li>
+</ul>
+<p><strong>Identifying Resource Utilization Gaps</strong></p>
+<ul>
+<li>Significant gaps in CPU and GPU utilization were observed due to the iterative feedback loop, a phenomenon Anna Su suggested is common in sequential hybrid science-plus-ML workloads.</li>
+</ul>
+<p><strong>Discussion on Hybrid Workload Bottlenecks</strong></p>
+<ul>
+<li>
+<p>Matt Sinclair confirmed this is a common challenge in hybrid science-plus-ML workloads and offered to share resources on groups investigating the problem.</p>
+</li>
+<li>
+<p>Victor Lu described this as a "wait interface issue" in the database world, where the bottleneck is not CPU or memory, and noted that current AI hardware/frameworks lack methods to quantify waiting time.</p>
+</li>
+</ul>
+<p><strong>Root Causes of GPU Idle Time</strong></p>
+<ul>
+<li>Anna Su referenced a Microsoft research paper concluding that low utilization is a software orchestration issue, with 46% of issues from data operations (e.g., GPU starvation) and 45% from model configuration (e.g., small batch sizes).</li>
+</ul>
+<p><strong>Optimization Attempts and Future Needs</strong></p>
+<ul>
+<li>
+<p>GPU parallelization and parallel API calls significantly reduced decoding step time.</p>
+</li>
+<li>
+<p>Anna Su asked for a more robust architecture or approach to automate these optimizations, as scientists spend significant time manually optimizing.</p>
+</li>
+</ul>
+<p><strong>Discussion on Utilization Limits and Data Format Complexity</strong></p>
+<ul>
+<li>
+<p>Juri Papay advised against excessive worry about utilization, as it can be limited by the nature of the problem (e.g., low arithmetic intensity in LLM inference).</p>
+</li>
+<li>
+<p>Amitesh Nanda explained the vast number of data formats are necessary due to the diverse tasks in protein design (sequence, structure, property prediction) and the specific needs of different generative AI models.</p>
+</li>
+</ul>
+<p><strong>Database Format Collaboration</strong></p>
+<ul>
+<li>
+<p>Victor Lu shared a resource for comparing scientific domain database formats and encouraged contributions.</p>
+</li>
+<li>
+<p>Victor Lu confirmed Amitesh Nanda's research area falls under bioinformatics (transcriptomics, proteomics, genomics) and Anna Su's is structural biology/protein design.</p>
+</li>
+<li>
+<p>Victor Lu expressed interest in the data formats used in Nazmun Nahar Tui's domain (geostorm/earth science).</p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/Oracle-Wait-Interface-Performance-Diagnostics/dp/007222729X">Oracle Wait Interface: A Practical Guide to Performance Diagnostics &amp; Tuning (Osborne ORACLE Press Series)</a> </p>
+</li>
+<li>
+<p><a href="https://docs.google.com/spreadsheets/d/1bst1987Vhmzd7UQqDVHZRsPnCg1oMvVE0elEWnJ2Ylw/edit?gid=0#gid=0">Data aspect of Scientific AI Benchmarks</a> </p>
+</li>
+</ul>
+<p><strong>Comparison of Data Patterns and IO Performance across Scientific Domains</strong></p>
+<ul>
+<li>
+<p>Victor Lu emphasized the importance of comparing data patterns and Input/Output (IO) performance across scientific domains to uncover new phenomena and asked researchers to elaborate on their format choices and results.</p>
+</li>
+<li>
+<p>Amitash Nanda offered to add information regarding their transcriptomics research.</p>
+</li>
+</ul>
+<h3 id="frontiers-journal-special-edition-proposal">Frontiers Journal Special Edition Proposal</h3>
+<ul>
+<li>
+<p>Gregor von Laszewski proposed organizing a special journal edition for Frontiers on "earth science and AI impact and benchmarking" and requested interested group members to email them.</p>
+</li>
+<li>
+<p>Gregor von Laszewski will follow up with people interested in participating in a special journal edition on earth science and AI impact and benchmarking by email.</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="mlcommons-footer">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h4>MLCommons® Science</h4>
+        <p>Advancing the frontier of scientific machine learning through standardized benchmarks and collaborative research.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contributing">Contributor Documentation</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://mlcommons.org" target="_blank">MLCommons Home</a></li>
+          <li><a href="https://github.com/mlcommons/science" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://github.com/mlcommons-science" target="_blank">GitHub Organization</a></li>
+          <li><a href="https://mlcommons.org/working-groups/research/science/" target="_blank">Official WG Page</a></li>
+        </ul>
+      </div>
+       <div class="footer-column">
+         <h4>Connect</h4>
+         <div class="footer-socials">
+           <a href="https://github.com/mlcommons/science" target="_blank" title="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+           <a href="https://github.com/mlcommons-science" target="_blank" title="GitHub Organization"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.linkedin.com/company/mlcommons/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://twitter.com/mlcommons" target="_blank" title="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+         </div>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 MLCommons®. All rights reserved. <a href="https://mlcommons.org/legal/" target="_blank">Legal</a> | <a href="https://mlcommons.org/privacy/" target="_blank">Privacy</a></p>
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
