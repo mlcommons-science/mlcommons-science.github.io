@@ -1,10 +1,10 @@
 site_name: MLCommons Science
 site_url: https://mlcommons-science.github.io
-docs_dir: mkdocs_src
+docs_dir: content
 
 theme:
   name: material
-  custom_dir: mkdocs_src/overrides
+  custom_dir: content/overrides
   logo: https://mlcommons.org/wp-content/themes/mlcommons/build/img/ML-Commons-Logo.svg
   palette:
     primary: custom

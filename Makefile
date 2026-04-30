@@ -9,7 +9,7 @@ view:
 
 clean:
 	rm -rf site
-	rm -rf mkdocs_src/__pycache__
+	rm -rf content/__pycache__
 
 publish:
 	mkdocs gh-deploy-with-permalink
