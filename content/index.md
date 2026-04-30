@@ -13,7 +13,7 @@ Welcome to the MLCommons® Science working group. We are dedicated to the develo
 
 <a href="https://mlcommons.org/working-groups/research/science/" class="btn-primary">Go to the Official Web Page</a>
 
-<a href="about.md" class="btn-primary">Explore Our Work</a>
+<a href="about/" class="btn-primary">Explore Our Work</a>
 
 </div>
 
