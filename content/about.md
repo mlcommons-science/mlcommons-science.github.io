@@ -2,38 +2,40 @@
 title: About
 ---
 
-# MLCommons® Science
+# About MLCommons® Science
 
-The main working group Web page is at: 
+The **MLCommons Science Working Group** is dedicated to advancing the frontier of scientific machine learning. Our primary goal is to establish standardized benchmarks that enable the community to evaluate, compare, and improve AI models applied to complex scientific problems.
 
-* <https://mlcommons.org/en/groups/research-science/>
+By creating a transparent and reproducible framework for benchmarking, we aim to accelerate scientific discovery and ensure that AI tools are developed with the rigor required for scientific research.
 
-Call for benchmarks is located at: 
+## Official Resources
 
-* <https://github.com/mlcommons/science/blob/main/CALL_FOR_SCIENCE_BENCHMARK.md>
+Stay connected with our official governance and guidelines:
 
-The working group github is located at 
+*   **Official Working Group Page**: [mlcommons.org/en/groups/research-science/](https://mlcommons.org/en/groups/research-science/)
+*   **Science Policy Document**: [View the official policy on GitHub](https://github.com/mlcommons/science/blob/main/policy.adoc)
+*   **Call for Benchmarks**: [Learn how to submit a new scientific benchmark](https://github.com/mlcommons/science/blob/main/CALL_FOR_SCIENCE_BENCHMARK.md)
 
-* <https://github.com/mlcommons/science>
+## Benchmark Catalog & Tools
 
-The Policy document is located at 
+We provide centralized resources to help researchers discover and utilize scientific benchmarks:
 
-* <https://github.com/mlcommons/science/blob/main/policy.adoc>
+*   **Benchmark Catalog**: A filterable and searchable index of scientific benchmarks. [Explore the Catalog](https://mlcommons-science.github.io/benchmark/)
+*   **SABATH**: The Scientific AI Benchmark and Tool Hub for accessing shared benchmarking tools. [Visit SABATH on GitHub](https://github.com/icl-utk-edu/sabath)
 
-The following descriptions and code to scientific benchmarks are avialable at:
+## Current Benchmarks
 
-* [Cloudmask](https://github.com/mlcommons/science/blob/main/benchmarks/cloudmask/README.md)
-* [Earthquake](https://github.com/mlcommons/science/blob/main/benchmarks/earthquake/README.md)
-* [Stemdl](https://github.com/mlcommons/science/tree/main/benchmarks/stemdl)
-* [Uno](https://github.com/mlcommons/science/tree/main/benchmarks/uno)
+The following benchmarks are currently available, including descriptions and source code:
 
-The tags for the news are at
+*   **Cloudmask**: [View on GitHub](https://github.com/mlcommons/science/blob/main/benchmarks/cloudmask/README.md)
+*   **Earthquake**: [View on GitHub](https://github.com/mlcommons/science/blob/main/benchmarks/earthquake/README.md)
+*   **Stemdl**: [View on GitHub](https://github.com/mlcommons/science/tree/main/benchmarks/stemdl)
+*   **Uno**: [View on GitHub](https://github.com/mlcommons/science/tree/main/benchmarks/uno)
 
-* <https://mlcommons-science.github.io/tags/>
+## Community & Contribution
 
-## Development versions 
+We welcome contributions from the global scientific and AI communities.
 
-Development versions of the codes prior to upload to the mlcommons directory are available as follows:
-
-* [Science Policy Document](https://github.com/laszewsk/mlcommons/blob/main/www/content/en/docs/policy.adoc)
-* [Benchmarks](https://github.com/laszewsk/mlcommons/tree/main/benchmarks)
+*   **GitHub Repository**: [mlcommons/science](https://github.com/mlcommons/science)
+*   **Contributor Guidelines**: See our [Contributing Page](/contributing) to learn how to get involved.
+*   **News & Tags**: Explore our [tags page](https://mlcommons-science.github.io/tags/) for categorized updates.

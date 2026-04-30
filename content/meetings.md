@@ -4,16 +4,15 @@ title: "MLCommons Science Group Meeting Notes"
 
 Welcome to the meeting notes repository. Use the navigation menu or the list below to browse through the meeting records.
 
-## Meetings
+* Science Working Group Minutes [Science Minutes](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1#) 2026 onwards
 
-Science Working Group Minutes [Science Minutes](https://docs.google.com/document/d/167m7FK6-Ud4M5gXta5cIc1hKqaRHkk2B1GyKasdeQLc/edit?pli=1#) 2026 onwards
+* Minutes before 2026 [MLCommons Science Minutespre2026](https://docs.google.com/document/d/1z6i7VYWyLXalA6wK__H28nU9mum6qAc90isTHcr2QFw/edit?usp=sharing) – What you see in this list.
 
-MInutes before 2026 [MLCommons Science Minutespre2026](https://docs.google.com/document/d/1z6i7VYWyLXalA6wK__H28nU9mum6qAc90isTHcr2QFw/edit?usp=sharing) – What you see in this list.
-
-### Latest
+The summaries are automatically generated.
 
 ### 2026
 
+- not all meetings are include here yet. See the document at [MLCommons Science Minutespre2026](https://docs.google.com/document/d/1z6i7VYWyLXalA6wK__H28nU9mum6qAc90isTHcr2QFw/edit?usp=sharing) 
 - [**2026 Summary**](meetings/2026-summary.md)
 - [2026-04-07](meetings/2026-04-07-meeting.md)
 - [2026-04-01](meetings/2026-04-01-meeting.md)
