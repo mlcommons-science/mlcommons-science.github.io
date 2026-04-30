@@ -146,29 +146,28 @@ html, :root {
   z-index: 100 !important;
 }
 
-/* Hide the navigation sidebar completely */
+/* Move the navigation sidebar to the right 10% zone */
 .md-nav {
-  display: none !important;
-}
-
-/* Force the TOC container to be visible */
-.md-sidebar--secondary {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-}
-
-/* Position the TOC in the right zone where the nav used to be */
-.md-toc {
-  display: block !important;
   position: fixed !important;
-  right: 2vw !important; 
-  top: 80px !important;
+  right: 2vw !important;
+  left: auto !important;
   width: 250px !important;
-  z-index: 9999 !important;
-  background-color: var(--md-colors-bg-color, #ffffff) !important;
-  border-left: 2px solid var(--md-colors-primary-color, #003366) !important;
-  padding: 20px 0 !important;
+  border-left: 1px solid var(--md-colors-primary-color);
+  background-color: var(--md-colors-bg-color) !important;
+  height: 100vh !important;
+  top: 0 !important;
+  padding-top: 60px !important;
+}
+
+/* Position the TOC to the left of the nav, but still within the right 10% zone if possible, 
+   or just stack them. To keep it simple and avoid overlap with content, 
+   we'll place it slightly to the left of the nav. */
+.md-toc {
+  position: fixed !important;
+  right: 280px !important; 
+  top: 100px !important;
+  width: 200px !important;
+  z-index: 99 !important;
 }
 
 /* --- BRANDING & STYLING --- */
